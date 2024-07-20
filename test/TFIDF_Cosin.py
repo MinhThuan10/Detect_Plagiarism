@@ -2,7 +2,7 @@ import spacy
 from sklearn.feature_extraction.text import TfidfVectorizer
 from elasticsearch import Elasticsearch
 from sklearn.metrics.pairwise import cosine_similarity
-
+import json
 
 # Load Vietnamese spaCy model
 nlp = spacy.blank("vi")
@@ -60,26 +60,29 @@ for sentence in sentences:
     # Tạo danh sách các field_value từ Elasticsearch
     sentence_results = []  # Mảng lưu trữ kết quả từng câu
     for token in tokens:
-        sentence_contents = [] 
         res = es.search(index="plagiarism", body={"query": {"match": {"sentence": token}}})
         for hit in res['hits']['hits']:
-            field_value_page = hit['_source']['page_number']
-            field_value_index = hit['_source']['sentence_index']
-            field_value_sentence = hit['_source']['sentence']
+            log_entry = hit['_source']['log_entry']
+            log_entry = log_entry.replace("=>", ":").replace("BSON::ObjectId(", "").replace(")", "").replace("'", '"')
+            # Phân tích chuỗi JSON
+            data = json.loads(log_entry)
+            # Truy cập các giá trị
+            sentence = data.get("sentence")
+            sentence_index = data.get("sentence_index")
+            page_number = data.get("page_number")
+            embedding = data.get("Embedding")
             result_info = {
                 'token': token,
-                'page_number': field_value_page,
-                'sentence_index': field_value_index,
-                'sentence_content': field_value_sentence
+                'page_number': page_number,
+                'sentence_index': sentence_index,
+                'sentence_content': sentence,
+                'embedding': embedding
             }
-            sentence_results.append(result_info)
-            sentence_contents.append(field_value_sentence)
-
-    all_sentence_contents.append(sentence_contents)
-    
-    
+            sentence_results.append(result_info)  
     # Lưu kết quả từng câu vào mảng chung
     search_results.append(sentence_results)
+
+
 # Tính toán TF-IDF cho từng câu file txt
 vectorizer = TfidfVectorizer()
 tfidf_matrix = vectorizer.fit_transform(processed_sentences)
@@ -92,14 +95,20 @@ with open(sentence_file, 'w', encoding='utf-8') as file:
 # Ghi kết quả vào file
 with open(output_file, 'w', encoding='utf-8') as file:
     for idx, results in enumerate(search_results):
+        sentence_contents = [] 
         file.write(f"Câu {idx + 1}:\n")
         for result in results:
             token = result['token']
             page_number = result['page_number']
             sentence_index = result['sentence_index']
             sentence_content = result['sentence_content']
-            file.write(f"Token: {token}, Elasticsearch result: Trang: {page_number}; Số câu: {sentence_index}; Nội dung: {sentence_content}\n")
+            embedding = result['embedding']
+            file.write(f"Token: {token}, Elasticsearch result: Trang: {page_number}; Số câu: {sentence_index}; Nội dung: {sentence_content}\n Embedding: {embedding}")
+            sentence_contents.append(sentence_content)
         file.write("\n")
+        all_sentence_contents.append(sentence_contents)
+
+
 
 
 for i, sentence in enumerate(sentences):

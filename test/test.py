@@ -2,11 +2,12 @@ import spacy
 from sklearn.feature_extraction.text import TfidfVectorizer
 from elasticsearch import Elasticsearch
 from sklearn.metrics.pairwise import cosine_similarity
-
+import json
 
 # Load Vietnamese spaCy model
 nlp = spacy.blank("vi")
 es = Elasticsearch("http://localhost:9200")
+import numpy as np
 
 def calculate_similarity(query_features, reference_features):
     print("Query features shape:", query_features.shape)
@@ -49,7 +50,7 @@ sentences = text.split('\n')
 processed_sentences = []
 all_tokens = []
 search_results = []  # Mảng lưu trữ kết quả từ Elasticsearch
-all_sentence_contents = [] 
+all_embeddings = [] 
 
 for sentence in sentences:
     # Xử lý từng câu và lấy danh sách tokens
@@ -62,60 +63,60 @@ for sentence in sentences:
     for token in tokens:
         res = es.search(index="plagiarism", body={"query": {"match": {"sentence": token}}})
         for hit in res['hits']['hits']:
-            field_value_page = hit['_source']['page_number']
-            field_value_index = hit['_source']['sentence_index']
-            field_value_sentence = hit['_source']['sentence']
+            log_entry = hit['_source']['log_entry']
+            log_entry = log_entry.replace("=>", ":").replace("BSON::ObjectId(", "").replace(")", "").replace("'", '"')
+            # Phân tích chuỗi JSON
+            data = json.loads(log_entry)
+            # Truy cập các giá trị
+            sentence = data.get("sentence")
+            sentence_index = data.get("sentence_index")
+            page_number = data.get("page_number")
+            embedding = data.get("Embedding")
             result_info = {
                 'token': token,
-                'page_number': field_value_page,
-                'sentence_index': field_value_index,
-                'sentence_content': field_value_sentence
+                'page_number': page_number,
+                'sentence_index': sentence_index,
+                'sentence_content': sentence,
+                'embedding': embedding
             }
-            sentence_results.append(result_info)
-
-    
-    
+            sentence_results.append(result_info)  
     # Lưu kết quả từng câu vào mảng chung
     search_results.append(sentence_results)
-# Tính toán TF-IDF cho từng câu file txt
-vectorizer = TfidfVectorizer()
-tfidf_matrix = vectorizer.fit_transform(processed_sentences)
 
 # Ghi kết quả vào file
 with open(sentence_file, 'w', encoding='utf-8') as file:
     for idx, sentence in enumerate(processed_sentences):
-        file.write(f"Câu {idx + 1}: {sentence}\nToken: {all_tokens[idx]}\nTF-IDF:\n{tfidf_matrix[idx]}\n\n")
+        file.write(f"Câu {idx + 1}: {sentence}\nToken: {all_tokens[idx]}\n")
 
 # Ghi kết quả vào file
 with open(output_file, 'w', encoding='utf-8') as file:
     for idx, results in enumerate(search_results):
-        sentence_contents = [] 
+        embeddings = [] 
         file.write(f"Câu {idx + 1}:\n")
         for result in results:
             token = result['token']
             page_number = result['page_number']
             sentence_index = result['sentence_index']
             sentence_content = result['sentence_content']
-            file.write(f"Token: {token}, Elasticsearch result: Trang: {page_number}; Số câu: {sentence_index}; Nội dung: {sentence_content}\n")
-            sentence_contents.append(sentence_content)
+            embedding = result['embedding']
+            file.write(f"Token: {token}, Elasticsearch result: Trang: {page_number}; Số câu: {sentence_index}\n Nội dung: {sentence_content}\n Embedding: {embedding}\n")
+            embeddings.append(embedding)
         file.write("\n")
-        all_sentence_contents.append(sentence_contents)
+        all_embeddings.append(embeddings)
 
-
+from sentence_transformers import SentenceTransformer
+model = SentenceTransformer('dangvantuan/vietnamese-embedding')
+def embeddind_vietnamese(text):
+    embedding = model.encode(text)
+    return embedding
 
 
 for i, sentence in enumerate(sentences):
     preprocessed_query, _ = preprocess_text_vietnamese(sentence)
-    preprocessed_references = [preprocess_text_vietnamese(ref)[0] for ref in all_sentence_contents[i]]
-    
-    # Tính toán TF-IDF cho câu query và các câu tham chiếu
-    vectorizer = TfidfVectorizer()
-    features = vectorizer.fit_transform([preprocessed_query] + preprocessed_references)
-    features_query = features[0]
-    features_references = features[1:]
+    processed_sentence = embeddind_vietnamese(processed_sentence)
 
     # Tính độ tương đồng cosine
-    similarity_scores = calculate_similarity(features_query, features_references)
+    similarity_scores = calculate_similarity(processed_sentence, all_embeddings[i])
     print("Similarity scores:", similarity_scores)
 
     # Xác định nội dung có sao chép
@@ -124,7 +125,7 @@ for i, sentence in enumerate(sentences):
     for j, score in enumerate(similarity_scores[0]):
         if score >= 0.8:
             plagiarism_results.append({
-                'reference_text': all_sentence_contents[i][j],
+                'reference_text': search_results[i][j].get('sentence_content'),
                 'similarity_score': score
             })
 
