@@ -52,11 +52,10 @@ def combine_lines_and_split_sentences(extracted_text):
         # Thay thế '\n' theo điều kiện: Nếu có ký tự '\n' và sau đó là chữ thường tiếng Việt
         text = re.sub(rf'\n(?=[{vietnamese_lowercase}])', '', text)
         
-        # Thay thế '. ' bằng '\n'
-        text = re.sub(r'[^\w\s.,;?:]', '', text)
+        text = re.sub(r'[^\w\s.,;?:]', ' ', text)
         text = text.replace('. ', '.\n')
-        text = re.sub(r'\.{2,}', '', text)
-        text = re.sub(r'\ {2,}', '', text)
+        text = re.sub(r'\.{2,}', '.', text)
+        text = re.sub(r'\ {2,}', ' ', text)
         processed_text.append((text, page_num))
         
     

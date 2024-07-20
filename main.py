@@ -47,7 +47,7 @@ if __name__ == "__main__":
     file_path = './Data/SKL007296.pdf'
     processed_sentences = processing_data(file_path)
     # data = preprocess_sentences(processed_sentences)
-    save_to_mongodb(processed_sentences, 'plagiarism', 'data')
+    #save_to_mongodb(processed_sentences, 'plagiarism', 'data')
 
 
 
