@@ -60,7 +60,6 @@ for sentence in sentences:
     # Tạo danh sách các field_value từ Elasticsearch
     sentence_results = []  # Mảng lưu trữ kết quả từng câu
     for token in tokens:
-        sentence_contents = [] 
         res = es.search(index="plagiarism", body={"query": {"match": {"sentence": token}}})
         for hit in res['hits']['hits']:
             field_value_page = hit['_source']['page_number']
@@ -73,9 +72,7 @@ for sentence in sentences:
                 'sentence_content': field_value_sentence
             }
             sentence_results.append(result_info)
-            sentence_contents.append(field_value_sentence)
 
-    all_sentence_contents.append(sentence_contents)
     
     
     # Lưu kết quả từng câu vào mảng chung
@@ -92,6 +89,7 @@ with open(sentence_file, 'w', encoding='utf-8') as file:
 # Ghi kết quả vào file
 with open(output_file, 'w', encoding='utf-8') as file:
     for idx, results in enumerate(search_results):
+        sentence_contents = [] 
         file.write(f"Câu {idx + 1}:\n")
         for result in results:
             token = result['token']
@@ -99,30 +97,37 @@ with open(output_file, 'w', encoding='utf-8') as file:
             sentence_index = result['sentence_index']
             sentence_content = result['sentence_content']
             file.write(f"Token: {token}, Elasticsearch result: Trang: {page_number}; Số câu: {sentence_index}; Nội dung: {sentence_content}\n")
+            sentence_contents.append(sentence_content)
         file.write("\n")
+        all_sentence_contents.append(sentence_contents)
 
 
 
-for i, sentence in sentences:
+
+for i, sentence in enumerate(sentences):
     preprocessed_query, _ = preprocess_text_vietnamese(sentence)
-    preprocessed_references, _ = [preprocess_text_vietnamese(text) for text in all_sentence_contents[i]]
-    features_query, vectorizer = vectorizer.fit_transform([preprocessed_query] + preprocessed_references)
-    features_references = features_query[1:]
-    features_query = features_query[:1]
+    preprocessed_references = [preprocess_text_vietnamese(ref)[0] for ref in all_sentence_contents[i]]
+    
+    # Tính toán TF-IDF cho câu query và các câu tham chiếu
+    vectorizer = TfidfVectorizer()
+    features = vectorizer.fit_transform([preprocessed_query] + preprocessed_references)
+    features_query = features[0]
+    features_references = features[1:]
 
+    # Tính độ tương đồng cosine
     similarity_scores = calculate_similarity(features_query, features_references)
-    print("Query features shape:", features_query.shape)
-    print("Reference features shape:", features_references.shape)
     print("Similarity scores:", similarity_scores)
 
-    # Identify plagiarized content
+    # Xác định nội dung có sao chép
     plagiarism_results = []
-    for i, score in enumerate(similarity_scores[0]):
+
+    for j, score in enumerate(similarity_scores[0]):
         if score >= 0.8:
             plagiarism_results.append({
-                'reference_text': all_sentence_contents[i][i],
+                'reference_text': all_sentence_contents[i][j],
                 'similarity_score': score
             })
+
     if plagiarism_results:
         print("Plagiarized content detected:")
         for result in plagiarism_results:

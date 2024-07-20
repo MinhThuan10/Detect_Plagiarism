@@ -22,32 +22,25 @@ def processing_data(file_path):
 
     return processed_sentences
 
-# def preprocess_sentences(sentences_with_page):
-#     processed_sentences = []
-#     all_texts = []  # Danh sách văn bản đã xử lý
+def preprocess_sentences(sentences_with_page):
+    processed_sentences = []
 
-#     # Tiền xử lý từng câu và thu thập vào processed_sentences
-#     for sentence, page_num in sentences_with_page:
-#         processed_sentence = preprocess_text_vietnamese(sentence)
-#         processed_sentences.append((sentence, page_num))
-#         all_texts.append(processed_sentence)
-
-#     # Tính toán TF-IDF cho toàn bộ danh sách văn bản đã xử lý
-#     features = tfidf_features(all_texts)
-    
-#     # Thêm features vào từng câu trong processed_sentences
-#     for i, (sentence, page_num) in enumerate(sentences_with_page):
-#         processed_sentences[i] = (sentence, page_num, features[i])
-#     # Lưu nội dung vào file văn bản
-#     save_combined_text_with_page_to_file_TFIDF(processed_sentences, './output/processed_sentences2.txt')
-#     return processed_sentences
+    # Tiền xử lý từng câu và thu thập vào processed_sentences
+    for sentence, _ in sentences_with_page:
+        processed_sentence, _ = preprocess_text_vietnamese(sentence)
+        processed_sentence = embeddind_vietnamese(processed_sentence)
+        processed_sentences.append(processed_sentence)
+    # Thêm features vào từng câu trong processed_sentences
+    combined = [(page, original, processed) for (page, original), processed in zip(sentences_with_page, processed_sentences)]
+    save_combined_text_with_page_to_file_Embedding(combined, './output/embedding_sentences.txt')
+    return combined
 
 
 if __name__ == "__main__":
     file_path = './Data/SKL007296.pdf'
     processed_sentences = processing_data(file_path)
-    # data = preprocess_sentences(processed_sentences)
-    #save_to_mongodb(processed_sentences, 'plagiarism', 'data')
+    data = preprocess_sentences(processed_sentences)
+    save_to_mongodb(data, 'plagiarism', 'data')
 
 
 
