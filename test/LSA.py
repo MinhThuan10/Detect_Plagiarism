@@ -1,4 +1,5 @@
 from processing_input import *
+from sklearn.decomposition import TruncatedSVD
 
 sentences, search_results, all_sentence_contents, _ = search_elastic('./test/test.txt')
 
@@ -9,11 +10,16 @@ for i, sentence in enumerate(sentences):
     # Tính toán TF-IDF cho câu query và các câu tham chiếu
     vectorizer = TfidfVectorizer()
     features = vectorizer.fit_transform([preprocessed_query] + preprocessed_references)
-    features_query = features[0]
-    features_references = features[1:]
+    
+    # Áp dụng TruncatedSVD để thực hiện LSA
+    svd = TruncatedSVD(n_components=100)  # n_components là số lượng thành phần giữ lại sau SVD
+    features_lsa = svd.fit_transform(features)
+    
+    features_query_lsa = features_lsa[0].reshape(1, -1)
+    features_references_lsa = features_lsa[1:]
 
     # Tính độ tương đồng cosine
-    similarity_scores = calculate_similarity(features_query, features_references)
+    similarity_scores = calculate_similarity(features_query_lsa, features_references_lsa)
 
     # Xác định nội dung có sao chép
     plagiarism_results = []
@@ -29,10 +35,9 @@ for i, sentence in enumerate(sentences):
             }
 
     if best_result:
-        print(f"Câu {i+1}: Plagiarized content detected:")
+        print(f"Câu thứ {i + 1}: ****Plagiarized content detected:")
         print("Reference:", best_result['reference_text'])
         print(highest_score)
-
     else:
-        print(f"Câu {i+1}: No plagiarism detected.")
+        print(f"Câu thứ {i + 1}: ****No plagiarism detected.")
 
