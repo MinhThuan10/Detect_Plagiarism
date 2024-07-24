@@ -1,9 +1,9 @@
 from pymongo import MongoClient
 from scipy.sparse import csr_matrix
 def save_to_mongodb(processed_sentences, db_name, collection_name):
-    # client = MongoClient('localhost', 27017)  # Kết nối tới MongoDB, chỉnh sửa theo cấu hình của bạn
+    client = MongoClient('localhost', 27017)  # Kết nối tới MongoDB, chỉnh sửa theo cấu hình của bạn
     
-    client = MongoClient("mongodb+srv://phanminhthuan261023:HidP1WJSIuFojje7@minhthuan.vkhimqg.mongodb.net/?retryWrites=true&w=majority&appName=MinhThuan")
+    # client = MongoClient("mongodb+srv://phanminhthuan261023:HidP1WJSIuFojje7@minhthuan.vkhimqg.mongodb.net/?retryWrites=true&w=majority&appName=MinhThuan")
     db = client[db_name]
     collection = db[collection_name]
 

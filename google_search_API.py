@@ -7,7 +7,6 @@ from processing import *
 from difflib import SequenceMatcher
 import warnings
 from urllib3.exceptions import InsecureRequestWarning
-import certifi
 # Tắt cảnh báo InsecureRequestWarning
 warnings.simplefilter('ignore', InsecureRequestWarning)
 # Tải mô hình ngôn ngữ
