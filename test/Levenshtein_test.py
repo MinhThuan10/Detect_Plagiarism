@@ -20,7 +20,9 @@ for i, sentence in enumerate(sentences):
     
     # Tính tỷ lệ Levenshtein distance giữa câu query và các câu tham chiếu
     levenshtein_scores = [levenshtein_ratio_and_distance(preprocessed_query, ref) for ref in preprocessed_references]
-
+    # Tính ngưỡng động dựa trên chiều dài câu
+    query_length = len(preprocessed_query.split())
+    dynamic_threshold = calculate_dynamic_threshold(query_length)
     # Xác định nội dung có sao chép dựa trên tỷ lệ Levenshtein
     plagiarism_results = []
 
@@ -30,7 +32,7 @@ for i, sentence in enumerate(sentences):
     threshold = 0.2  # Thiết lập ngưỡng tỷ lệ Levenshtein distance (20%)
 
     for j, ratio in enumerate(levenshtein_scores):
-        if ratio <= threshold and ratio < lowest_ratio:
+        if ratio <= 1 - dynamic_threshold and ratio < lowest_ratio:
             lowest_ratio = ratio
             best_result_levenshtein = {
                 'reference_text': all_sentence_contents[i][j],

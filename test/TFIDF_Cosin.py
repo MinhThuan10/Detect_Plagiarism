@@ -1,4 +1,6 @@
 from processing_input import *
+import numpy as np
+
 
 sentences, search_results, all_sentence_contents, _ = search_elastic('./test/test.txt')
 
@@ -15,6 +17,10 @@ for i, sentence in enumerate(sentences):
     # Tính độ tương đồng cosine
     similarity_scores = calculate_similarity(features_query, features_references)
 
+    # Tính ngưỡng động dựa trên chiều dài câu
+    query_length = len(preprocessed_query.split())
+    dynamic_threshold = calculate_dynamic_threshold(query_length)
+    
     # Xác định nội dung có sao chép
     plagiarism_results = []
 
@@ -22,7 +28,7 @@ for i, sentence in enumerate(sentences):
     best_result = None
 
     for j, score in enumerate(similarity_scores[0]):
-        if score >= 0.8 and score > highest_score:
+        if score >= dynamic_threshold and score > highest_score:
             highest_score = score
             best_result = {
                 'reference_text': all_sentence_contents[i][j],
@@ -31,8 +37,7 @@ for i, sentence in enumerate(sentences):
     if best_result:
         print(f"Câu {i+1}: Plagiarized content detected:")
         print("Reference:", best_result['reference_text'])
-        print(highest_score)
+        print(f"Score: {highest_score:.2f}, Threshold: {dynamic_threshold:.2f}")
 
     else:
         print(f"Câu {i+1}: No plagiarism detected.")
-

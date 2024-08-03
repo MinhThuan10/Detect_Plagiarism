@@ -35,6 +35,21 @@ def preprocess_text_vietnamese(text):
 sentence_file = './test/test_sentence.txt'
 output_file = './test/search.txt'
 
+def calculate_dynamic_threshold(length, max_threshold=0.9, min_threshold=0.6):
+    """
+    Tính toán ngưỡng phát hiện đạo văn động dựa trên chiều dài câu.
+    """
+    # Xác định tỷ lệ thay đổi ngưỡng dựa trên chiều dài câu
+    if length < 5:
+        return max_threshold  # Đối với câu rất ngắn, sử dụng ngưỡng tối đa
+    elif length > 30:
+        return min_threshold  # Đối với câu dài, sử dụng ngưỡng tối thiểu
+    else:
+        # Tính toán ngưỡng cho chiều dài câu trong phạm vi từ 5 đến 30
+        scaling_factor = (max_threshold - min_threshold) / (30 - 5)
+        threshold = max_threshold - (length - 5) * scaling_factor
+        return threshold
+
 def search_elastic(file_path):
     with open(file_path, 'r', encoding='utf-8') as file:
         text = file.read()

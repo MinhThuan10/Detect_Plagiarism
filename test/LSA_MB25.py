@@ -34,7 +34,9 @@ for i, sentence in enumerate(sentences):
 
     # Tính độ tương đồng cosine
     similarity_scores = calculate_similarity(features_query_lsa, features_references_lsa)
-
+    # Tính ngưỡng động dựa trên chiều dài câu
+    query_length = len(preprocessed_query.split())
+    dynamic_threshold = calculate_dynamic_threshold(query_length)
     # Xác định nội dung có sao chép
     plagiarism_results = []
 
@@ -42,7 +44,7 @@ for i, sentence in enumerate(sentences):
     best_result = None
 
     for j, score in enumerate(similarity_scores[0]):
-        if score >= 0.8 and score > highest_score:
+        if score >= dynamic_threshold and score > highest_score:
             highest_score = score
             best_result = {
                 'reference_text': all_sentence_contents[i][j],

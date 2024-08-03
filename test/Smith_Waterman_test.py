@@ -35,14 +35,17 @@ for i, sentence in enumerate(sentences):
     for j, reference in enumerate(preprocessed_references):
         score = smith_waterman(preprocessed_query, reference)
         similarity = score_to_similarity(score, len(preprocessed_query), len(reference))
+        
         if similarity > highest_score:
             highest_score = similarity
             best_result = {
                 'reference_text': all_sentence_contents[i][j],
             }
-
+    # Tính ngưỡng động dựa trên chiều dài câu
+    query_length = len(preprocessed_query.split())
+    dynamic_threshold = calculate_dynamic_threshold(query_length)
     # Adjust threshold as needed (0.8 for cosine similarity)
-    if highest_score >= 0.8:
+    if highest_score >= dynamic_threshold:
         print(f"Câu {i+1}: Plagiarized content detected:")
         print("Reference:", best_result['reference_text'])
         print(f"Similarity Score: {highest_score:.2f}")

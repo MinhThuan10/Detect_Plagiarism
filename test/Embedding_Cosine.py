@@ -16,7 +16,9 @@ for i, sentence in enumerate(sentences):
     
     # Calculate cosine similarity
     similarity_scores = calculate_similarity(processed_sentence, reference_embeddings)
-    
+    # Tính ngưỡng động dựa trên chiều dài câu
+    query_length = len(preprocessed_query.split())
+    dynamic_threshold = calculate_dynamic_threshold(query_length)
     # Determine plagiarized content
     plagiarism_results = []
 
@@ -24,7 +26,7 @@ for i, sentence in enumerate(sentences):
     best_result = None
 
     for j, score in enumerate(similarity_scores[0]):
-        if score >= 0.8 and score > highest_score:
+        if score >= dynamic_threshold and score > highest_score:
             highest_score = score
             best_result = {
                 'reference_text': search_results[i][j].get('sentence_content'),
