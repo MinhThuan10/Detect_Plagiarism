@@ -1,5 +1,9 @@
 from processing_input import *
 import Levenshtein as lev
+import time
+
+# Start the timer
+start_time = time.time()
 
 # Hàm tính tỷ lệ Levenshtein distance
 def levenshtein_ratio_and_distance(s, t, ratio_calc=True):
@@ -14,6 +18,7 @@ def levenshtein_ratio_and_distance(s, t, ratio_calc=True):
 
 sentences, search_results, all_sentence_contents, _ = search_elastic('./test/test.txt')
 
+plagiarized_count = 0
 for i, sentence in enumerate(sentences):
     preprocessed_query, _ = preprocess_text_vietnamese(sentence)
     preprocessed_references = [preprocess_text_vietnamese(ref)[0] for ref in all_sentence_contents[i]]
@@ -29,8 +34,6 @@ for i, sentence in enumerate(sentences):
     lowest_ratio = 1.0  # Tỷ lệ càng thấp thì câu càng giống nhau
     best_result_levenshtein = None
 
-    threshold = 0.2  # Thiết lập ngưỡng tỷ lệ Levenshtein distance (20%)
-
     for j, ratio in enumerate(levenshtein_scores):
         if ratio <= 1 - dynamic_threshold and ratio < lowest_ratio:
             lowest_ratio = ratio
@@ -41,9 +44,19 @@ for i, sentence in enumerate(sentences):
 
     # In kết quả
     if best_result_levenshtein:
+        plagiarized_count += 1
         print(f"Câu {i+1}: Plagiarized content detected (Levenshtein Distance):")
         print("Reference:", best_result_levenshtein['reference_text'])
         print("Score:", best_result_levenshtein['score'])
 
     if not best_result_levenshtein:
         print(f"Câu {i+1}: No plagiarism detected.")
+
+
+# End the timer
+end_time = time.time()
+# Calculate the elapsed time
+elapsed_time = end_time - start_time
+print("Đánh giá độ hiệu quả của thuật toán khoảng cách Levenshtein")
+print(f"Thời gian thực hiện: {elapsed_time:.2f} giây")
+print(f"Số lượng câu phát hiện đạo văn: {plagiarized_count}")

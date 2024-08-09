@@ -1,7 +1,11 @@
 import numpy as np
 from Bio import pairwise2
 from processing_input import *
+import time
 
+
+# Start the timer
+start_time = time.time()
 def smith_waterman(seq1, seq2, match_score=2, mismatch_penalty=-1, gap_penalty=-1):
     m, n = len(seq1), len(seq2)
     dp = np.zeros((m+1, n+1), dtype=int)
@@ -18,7 +22,7 @@ def smith_waterman(seq1, seq2, match_score=2, mismatch_penalty=-1, gap_penalty=-
     return dp[m, n]
 
 sentences, search_results, all_sentence_contents, _ = search_elastic('./test/test.txt')
-
+plagiarized_count = 0
 # Define a function to convert Smith-Waterman score to similarity ratio
 def score_to_similarity(score, length1, length2):
     # Maximum possible score is length of the shorter sequence * match_score
@@ -46,8 +50,18 @@ for i, sentence in enumerate(sentences):
     dynamic_threshold = calculate_dynamic_threshold(query_length)
     # Adjust threshold as needed (0.8 for cosine similarity)
     if highest_score >= dynamic_threshold:
+        plagiarized_count += 1
         print(f"Câu {i+1}: Plagiarized content detected:")
         print("Reference:", best_result['reference_text'])
         print(f"Similarity Score: {highest_score:.2f}")
     else:
         print(f"Câu {i+1}: No plagiarism detected.")
+
+# End the timer
+end_time = time.time()
+
+# Calculate the elapsed time
+elapsed_time = end_time - start_time
+print("Đánh giá độ hiệu quả của thuật toán Smith-Waterman")
+print(f"Thời gian thực hiện: {elapsed_time:.2f} giây")
+print(f"Số lượng câu phát hiện đạo văn: {plagiarized_count}")

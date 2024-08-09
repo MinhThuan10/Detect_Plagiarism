@@ -35,18 +35,18 @@ def preprocess_text_vietnamese(text):
 sentence_file = './test/test_sentence.txt'
 output_file = './test/search.txt'
 
-def calculate_dynamic_threshold(length, max_threshold=0.9, min_threshold=0.6):
+def calculate_dynamic_threshold(length, max_threshold=0.85, min_threshold=0.65):
     """
     Tính toán ngưỡng phát hiện đạo văn động dựa trên chiều dài câu.
     """
     # Xác định tỷ lệ thay đổi ngưỡng dựa trên chiều dài câu
-    if length < 5:
+    if length < 15:
         return max_threshold  # Đối với câu rất ngắn, sử dụng ngưỡng tối đa
-    elif length > 30:
+    elif length > 45:
         return min_threshold  # Đối với câu dài, sử dụng ngưỡng tối thiểu
     else:
-        # Tính toán ngưỡng cho chiều dài câu trong phạm vi từ 5 đến 30
-        scaling_factor = (max_threshold - min_threshold) / (30 - 5)
+        # Tính toán ngưỡng cho chiều dài câu trong phạm vi từ 15 đến 45
+        scaling_factor = (max_threshold - min_threshold) / (45 - 15)
         threshold = max_threshold - (length - 5) * scaling_factor
         return threshold
 
@@ -71,7 +71,7 @@ def search_elastic(file_path):
         # Tạo danh sách các field_value từ Elasticsearch
         sentence_results = []  # Mảng lưu trữ kết quả từng câu
         for token in tokens:
-            res = es.search(index="plagiarism", body={"query": {"match": {"sentence": token}}})
+            res = es.search(index="plagiarism_embedding", body={"query": {"match": {"sentence": token}}})
             for hit in res['hits']['hits']:
                 log_entry = hit['_source']['log_entry']
                 log_entry = log_entry.replace("=>", ":").replace("BSON::ObjectId(", "").replace(")", "").replace("'", '"')

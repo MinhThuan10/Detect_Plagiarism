@@ -32,10 +32,11 @@ def preprocess_sentences(sentences_with_page):
     return combined
 
 if __name__ == "__main__":
-    file_path = './Data/SKL007296.pdf'
+    file_name = 'SKL007872'
+    file_path = './Data/SKL007872.pdf'
     processed_sentences = processing_data(file_path)
     data = preprocess_sentences(processed_sentences)
-    save_to_mongodb(data, 'plagiarism', 'data')
+    save_to_mongodb(data, file_name, 'plagiarism_embedding', 'data')
 
 
 
