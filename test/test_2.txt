@@ -1,5 +1,3 @@
-Qua thời gian học tập, rèn luyện và trải nghiệm, cùng với sự hướng dẫn và hỗ trợ tận tình từ các thầy cô và bạn bè, tôi đã trưởng thành rất nhiều.
-Trong môi trường hiện nay, các doanh nghiệp và tổ chức ngày càng chú trọng đến việc kiểm toán để đảm bảo tính minh bạch và trung thực của thông tin tài chính, điều này không chỉ giúp nâng cao uy tín mà còn tạo niềm tin cho các nhà đầu tư và đối tác.
-Trước tiên, tôi xin bày tỏ lòng biết ơn sâu sắc đến Ban Giám hiệu và các giảng viên của trường Đại học Sư phạm Kỹ thuật TP Hồ Chí Minh.
-Do hạn chế về kinh nghiệm và kiến thức, bài báo cáo này có thể còn nhiều thiếu sót, tôi rất mong nhận được sự góp ý của các thầy cô để hoàn thiện báo cáo này tốt hơn.
-Đặc biệt, tôi xin gửi lời cảm ơn chân thành đến giảng viên hướng dẫn, người đã dành thời gian chỉ dẫn, theo dõi và cung cấp những lời khuyên quý giá giúp tôi vượt qua các khó khăn trong quá trình nghiên cứu và hoàn thành đề tài.
+version https://git-lfs.github.com/spec/v1
+oid sha256:11e5b81f2c0bf4c31ebfd6de71d4796a51512c423800333f5ed58a76df5b62a8
+size 1074
