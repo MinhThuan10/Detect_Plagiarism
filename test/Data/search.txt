@@ -1,3 +1,116 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:0e67f32b17801313da83662f65e93adc54ca3ee19ff3f83f16ac7cd5e9fbd94f
-size 17526
+Token: hoàn thành, Elasticsearch result: File: SKL007871, Trang: 115; Số câu: 1274; Nội dung: Hoàn thành mô hình
+Token: hoàn thành, Elasticsearch result: File: SKL007871, Trang: 13; Số câu: 189; Nội dung: Hoàn thành mô hình
+Token: hoàn thành, Elasticsearch result: File: SKL007861, Trang: 3; Số câu: 38; Nội dung: Ngày hoàn thành khóa luận
+Token: hoàn thành, Elasticsearch result: File: SKL007862, Trang: 4; Số câu: 45; Nội dung: Ngày hoàn thành khóa luận
+Token: hoàn thành, Elasticsearch result: File: SKL007863, Trang: 4; Số câu: 46; Nội dung: Ngày hoàn thành khóa luận
+Token: hoàn thành, Elasticsearch result: File: SKL007870, Trang: 4; Số câu: 44; Nội dung: Ngày hoàn thành nhiệm vụ
+Token: hoàn thành, Elasticsearch result: File: SKL007871, Trang: 4; Số câu: 41; Nội dung: Ngày hoàn thành nhiệm vụ
+Token: hoàn thành, Elasticsearch result: File: SKL007296, Trang: 8; Số câu: 87; Nội dung: Giai đoạn hoàn thành kiểm toán
+Token: hoàn thành, Elasticsearch result: File: SKL007868, Trang: 10; Số câu: 81; Nội dung: XÁC NHẬN HOÀN THÀNH ĐỒ ÁN
+Token: hoàn thành, Elasticsearch result: File: SKL007868, Trang: 12; Số câu: 105; Nội dung: XÁC NHẬN HOÀN THÀNH ĐỒ ÁN
+Token: mạch, Elasticsearch result: File: SKL007872, Trang: 16; Số câu: 155; Nội dung: Mạch thực tế của mạch 300V
+Token: mạch, Elasticsearch result: File: SKL007872, Trang: 62; Số câu: 696; Nội dung: Mạch thực tế của mạch 300V
+Token: mạch, Elasticsearch result: File: SKL007871, Trang: 118; Số câu: 1302; Nội dung: Hở mạch trong mạch relay van điện
+Token: mạch, Elasticsearch result: File: SKL007871, Trang: 118; Số câu: 1306; Nội dung: Hở mạch trong mạch relay mô tơ bơm
+Token: mạch, Elasticsearch result: File: SKL007871, Trang: 118; Số câu: 1310; Nội dung: Hở mạch hay ngắn mạch bánh xe trước phải
+Token: mạch, Elasticsearch result: File: SKL007871, Trang: 119; Số câu: 1314; Nội dung: Hở mạch hay ngắn mạch bánh xe sau phải
+Token: mạch, Elasticsearch result: File: SKL007871, Trang: 119; Số câu: 1311; Nội dung: Hở mạch hay ngắn mạch bánh xe trước trái
+Token: mạch, Elasticsearch result: File: SKL007871, Trang: 119; Số câu: 1315; Nội dung: Hở mạch hay ngắn mạch bánh xe sau trái
+Token: mạch, Elasticsearch result: File: SKL007872, Trang: 57; Số câu: 635; Nội dung: 20 Mạch thực tế của mạch điện hạ áp 12V
+Token: mạch, Elasticsearch result: File: SKL007872, Trang: 16; Số câu: 152; Nội dung: 20 Mạch thực tế của mạch điện hạ áp 12V
+Token: hạ áp, Elasticsearch result: File: SKL007872, Trang: 12; Số câu: 89; Nội dung: Mạch điện hạ áp 12V
+Token: hạ áp, Elasticsearch result: File: SKL007872, Trang: 44; Số câu: 477; Nội dung: Mạch điện hạ áp 12V
+Token: hạ áp, Elasticsearch result: File: SKL007872, Trang: 68; Số câu: 738; Nội dung: 12 của mạch hạ áp 12V
+Token: hạ áp, Elasticsearch result: File: SKL007870, Trang: 88; Số câu: 852; Nội dung: Nguồn 5V được lấy ở mạch hạ áp nguồn 12V xuống 5V
+Token: hạ áp, Elasticsearch result: File: SKL007872, Trang: 23; Số câu: 237; Nội dung: Nguồn xung Buck là loại nguồn xung hạ áp với điện áp đầu ra nhỏ hơn điện áp đầu vào, thường được thiết kế với yêu cầu công suất thấp
+Token: hạ áp, Elasticsearch result: File: SKL007872, Trang: 69; Số câu: 758; Nội dung: Thiết kế, thực hiện được nguồn xung flyback hạ áp từ 220V AC với kết quả đầu ra là
+Token: hạ áp, Elasticsearch result: File: SKL007872, Trang: 60; Số câu: 664; Nội dung: Cỡ dây của cuộn thứ cấp cấp nguồn cho IC vẫn được giữ nguyên như mạch hạ áp là 0,4mm
+Token: hạ áp, Elasticsearch result: File: SKL007870, Trang: 74; Số câu: 741; Nội dung: Leveling Motor nân hạ đèn cos
+Token: chuẩn, Elasticsearch result: File: SKL007861, Trang: 11; Số câu: 143; Nội dung: Tiêu chuẩn Việt Nam
+Token: chuẩn, Elasticsearch result: File: SKL007866, Trang: 63; Số câu: 867; Nội dung: Chuẩn bị hồ sơ
+Token: chuẩn, Elasticsearch result: File: SKL007861, Trang: 40; Số câu: 558; Nội dung: Nguyên tắc chuẩn bị mẫu
+Token: chuẩn, Elasticsearch result: File: SKL007861, Trang: 61; Số câu: 899; Nội dung: PHIẾU CHUẨN BỊ THÍ NGHIỆM
+Token: chuẩn, Elasticsearch result: File: SKL007861, Trang: 61; Số câu: 896; Nội dung: Phiếu chuẩn bị thí nghiệm
+Token: chuẩn, Elasticsearch result: File: SKL007862, Trang: 84; Số câu: 1215; Nội dung: sai số chuẩn n 5 ;
+Token: chuẩn, Elasticsearch result: File: SKL007862, Trang: 25; Số câu: 198; Nội dung: Nhóm ăn khẩu phần chuẩn
+Token: chuẩn, Elasticsearch result: File: SKL007865, Trang: 49; Số câu: 609; Nội dung: 1 Lập đường chuẩn MB
+Token: chuẩn, Elasticsearch result: File: SKL007865, Trang: 10; Số câu: 153; Nội dung: 1 Lập đường chuẩn MB
+Token: chuẩn, Elasticsearch result: File: SKL007866, Trang: 29; Số câu: 351; Nội dung: theo chuẩn mực kế toán
+Token: nghiên cứu, Elasticsearch result: File: SKL007861, Trang: 46; Số câu: 624; Nội dung: Kết quả nghiên cứu này phù hợp với nghiên cứu của
+Token: nghiên cứu, Elasticsearch result: File: SKL007872, Trang: 19; Số câu: 187; Nội dung: Phương pháp nghiên cứu
+Token: nghiên cứu, Elasticsearch result: File: SKL007872, Trang: 19; Số câu: 183; Nội dung: Đối tượng nghiên cứu
+Token: nghiên cứu, Elasticsearch result: File: SKL007872, Trang: 19; Số câu: 185; Nội dung: Phạm vi nghiên cứu
+Token: nghiên cứu, Elasticsearch result: File: SKL007872, Trang: 11; Số câu: 74; Nội dung: Phương pháp nghiên cứu
+Token: nghiên cứu, Elasticsearch result: File: SKL007861, Trang: 14; Số câu: 189; Nội dung: Đối tượng nghiên cứu
+Token: nghiên cứu, Elasticsearch result: File: SKL007861, Trang: 32; Số câu: 430; Nội dung: Nội dung nghiên cứu
+Token: nghiên cứu, Elasticsearch result: File: SKL007861, Trang: 14; Số câu: 193; Nội dung: Nội dung nghiên cứu
+Token: nghiên cứu, Elasticsearch result: File: SKL007861, Trang: 14; Số câu: 191; Nội dung: Phạm vi nghiên cứu
+Token: nghiên cứu, Elasticsearch result: File: SKL007296, Trang: 7; Số câu: 61; Nội dung: Mục tiêu nghiên cứu
+Token: bắt đầu, Elasticsearch result: File: SKL007866, Trang: 84; Số câu: 1160; Nội dung: Bắt đầu từ ngày 01
+Token: bắt đầu, Elasticsearch result: File: SKL007868, Trang: 76; Số câu: 757; Nội dung: 5V đã bắt đầu nạp lại
+Token: bắt đầu, Elasticsearch result: File: SKL007871, Trang: 118; Số câu: 1294; Nội dung: ABS trên mô hình sẽ bắt đầu nháy
+Token: bắt đầu, Elasticsearch result: File: SKL007871, Trang: 134; Số câu: 1475; Nội dung: attachInterrupt SpeedM ; bắt đầu chương trình ngắt 1
+Token: bắt đầu, Elasticsearch result: File: SKL007868, Trang: 37; Số câu: 382; Nội dung: Điện áp ngược này bắt đầu tăng lên
+Token: bắt đầu, Elasticsearch result: File: SKL007871, Trang: 39; Số câu: 566; Nội dung: Tốc độ bắt đầu phanh V m s
+Token: bắt đầu, Elasticsearch result: File: SKL007869, Trang: 49; Số câu: 524; Nội dung: Điện a p ngược này bắt đầu tăng lên
+Token: bắt đầu, Elasticsearch result: File: SKL007871, Trang: 135; Số câu: 1486; Nội dung: void Demxung bắt đầu vòng lặp chương trình đếm xung encoder
+Token: bắt đầu, Elasticsearch result: File: SKL007871, Trang: 120; Số câu: 1334; Nội dung: Sau khi sửa chửa chúng ta sẽ bắt đầu xóa lỗi
+Token: bắt đầu, Elasticsearch result: File: SKL007862, Trang: 42; Số câu: 439; Nội dung: Qúa trình chuyển hóa của carbohydrate bắt đầu tại khoang miệng
+Token: tính toán, Elasticsearch result: File: SKL007872, Trang: 13; Số câu: 100; Nội dung: 1 Tính toán biến áp
+Token: tính toán, Elasticsearch result: File: SKL007872, Trang: 59; Số câu: 651; Nội dung: 1 Tính toán biến áp
+Token: tính toán, Elasticsearch result: File: SKL007864, Trang: 18; Số câu: 277; Nội dung: Eg tính toán trực tiếp
+Token: tính toán, Elasticsearch result: File: SKL007872, Trang: 12; Số câu: 84; Nội dung: Thiết kế và tính toán mạch
+Token: tính toán, Elasticsearch result: File: SKL007872, Trang: 40; Số câu: 444; Nội dung: Thiết kế và tính toán mạch
+Token: tính toán, Elasticsearch result: File: SKL007872, Trang: 4; Số câu: 42; Nội dung: Thuyết minh tính toán và thử nghiệm
+Token: tính toán, Elasticsearch result: File: SKL007872, Trang: 12; Số câu: 96; Nội dung: Tính toán thiết kế biến áp xung
+Token: tính toán, Elasticsearch result: File: SKL007872, Trang: 50; Số câu: 550; Nội dung: Tính toán thiết kế biến áp xung
+Token: tính toán, Elasticsearch result: File: SKL007868, Trang: 60; Số câu: 615; Nội dung: Tính toán trên khối siêu tụ BCAP3000
+Token: tính toán, Elasticsearch result: File: SKL007872, Trang: 12; Số câu: 81; Nội dung: TÍNH TOÁN, THIẾT KẾ, THỰC HIỆN HỆ THỐNG
+Token: cần thiết, Elasticsearch result: File: SKL007862, Trang: 91; Số câu: 1350; Nội dung: Các acid béo không thể tự vận chuyển đến các mô cần thiết mà nó cần phải qua trung gian triacylglycerol
+Token: cần thiết, Elasticsearch result: File: SKL007296, Trang: 34; Số câu: 621; Nội dung: Kiểm tra việc phân loại doanh thu và các thuyết minh cần thiết
+Token: cần thiết, Elasticsearch result: File: SKL007868, Trang: 69; Số câu: 702; Nội dung: Arduino Uno có thể thu xuất được các tín hiệu cần thiết và hiển thị lên LabView
+Token: cần thiết, Elasticsearch result: File: SKL007871, Trang: 25; Số câu: 381; Nội dung: Giữ cho ô tô máy kéo đứng yên khi cần thiết, trong thời gian không hạn chế
+Token: cần thiết, Elasticsearch result: File: SKL007866, Trang: 62; Số câu: 852; Nội dung: Lâ p các báo cáo cần thiết nộp giám đốc về các công nợ cần thu, báo cáo ohaan tích thời gian nợ theo thời gian định kỳ
+Token: cần thiết, Elasticsearch result: File: SKL007867, Trang: 87; Số câu: 1303; Nội dung: Việc điều chỉnh Bảng hệ thống tài khoản như trên là không cần thiết và không phù hợp
+Token: cần thiết, Elasticsearch result: File: SKL007871, Trang: 25; Số câu: 386; Nội dung: Điều khiển nhẹ nhàng thuận tiện, lực cần thiết tác dụng lên bàn đạp hay đòn điều khiển nhỏ
+Token: cần thiết, Elasticsearch result: File: SKL007869, Trang: 68; Số câu: 753; Nội dung: 2001, Quá trình khảo sát thời gian cần thiết để điện áp trên bộ thu hồi tăng từ 11,2V đến
+Token: cần thiết, Elasticsearch result: File: SKL007863, Trang: 36; Số câu: 255; Nội dung: Thịt quả có rất nhiều hạt nhỏ màu đen rất giàu axit béo cần thiết Ariffin và cộng sự, 2009
+Token: cần thiết, Elasticsearch result: File: SKL007871, Trang: 38; Số câu: 549; Nội dung: Vì vậy trang bị ABS trên xe sẽ vẫn rất cần thiết để đảm bảo hiệu quả phanh tốt nhất
+Token: thay đổi, Elasticsearch result: File: SKL007869, Trang: 90; Số câu: 941; Nội dung: Thay đổi năng lượng tích lũy trên tụ khi thay đổi điện dung tụ từ 0,22 μF 9
+Token: thay đổi, Elasticsearch result: File: SKL007872, Trang: 13; Số câu: 102; Nội dung: 3 Thay đổi các linh kiện khác
+Token: thay đổi, Elasticsearch result: File: SKL007872, Trang: 61; Số câu: 688; Nội dung: 3 Thay đổi các linh kiện khác
+Token: thay đổi, Elasticsearch result: File: SKL007864, Trang: 44; Số câu: 663; Nội dung: Er thay đổi theo nhiệt độ nung
+Token: thay đổi, Elasticsearch result: File: SKL007864, Trang: 11; Số câu: 157; Nội dung: 0,2Er thay đổi theo nhiệt độ nung
+Token: thay đổi, Elasticsearch result: File: SKL007296, Trang: 61; Số câu: 1118; Nội dung: Lý do thay đổi kiểm toán viên
+Token: thay đổi, Elasticsearch result: File: SKL007296, Trang: 45; Số câu: 825; Nội dung: Nhưng có nhiều thay đổi trong cơ cấu nhân sự như thay
+Token: thay đổi, Elasticsearch result: File: SKL007866, Trang: 67; Số câu: 937; Nội dung: Rủi ro về tỷ giá bị thay đổi
+Token: thay đổi, Elasticsearch result: File: SKL007866, Trang: 52; Số câu: 726; Nội dung: cần thay đổi ngay trong chính sách bán hàng
+Token: thay đổi, Elasticsearch result: File: SKL007872, Trang: 61; Số câu: 681; Nội dung: Vì mạch đầu ra thay đổi điện áp cao hơn nên phải thay đổi các giá trị trong mạch hồi tiếp ở hình 3
+Token: điện áp, Elasticsearch result: File: SKL007871, Trang: 93; Số câu: 1003; Nội dung: Điện áp hoạt động
+Token: điện áp, Elasticsearch result: File: SKL007871, Trang: 97; Số câu: 1095; Nội dung: Điện áp hoạt động
+Token: điện áp, Elasticsearch result: File: SKL007871, Trang: 100; Số câu: 1141; Nội dung: Điện áp làm việc
+Token: điện áp, Elasticsearch result: File: SKL007868, Trang: 76; Số câu: 751; Nội dung: Điện áp khối tụ
+Token: điện áp, Elasticsearch result: File: SKL007868, Trang: 52; Số câu: 528; Nội dung: Điện áp Dung lượng
+Token: điện áp, Elasticsearch result: File: SKL007868, Trang: 52; Số câu: 537; Nội dung: Điện áp Dung lượng
+Token: điện áp, Elasticsearch result: File: SKL007868, Trang: 52; Số câu: 532; Nội dung: Điện áp Dung lượng
+Token: điện áp, Elasticsearch result: File: SKL007868, Trang: 52; Số câu: 524; Nội dung: Điện áp Dung lượng
+Token: điện áp, Elasticsearch result: File: SKL007870, Trang: 104; Số câu: 1048; Nội dung: Điện áp hoạt động
+Token: điện áp, Elasticsearch result: File: SKL007870, Trang: 108; Số câu: 1074; Nội dung: Điện áp đầu vào
+Token: đầu ra, Elasticsearch result: File: SKL007872, Trang: 59; Số câu: 652; Nội dung: Công suất đầu ra
+Token: đầu ra, Elasticsearch result: File: SKL007867, Trang: 112; Số câu: 1428; Nội dung: Thuế GTGT đầu ra
+Token: đầu ra, Elasticsearch result: File: SKL007867, Trang: 113; Số câu: 1472; Nội dung: Thuế GTGT đầu ra
+Token: đầu ra, Elasticsearch result: File: SKL007867, Trang: 112; Số câu: 1443; Nội dung: Thuế GTGT đầu ra
+Token: đầu ra, Elasticsearch result: File: SKL007867, Trang: 113; Số câu: 1461; Nội dung: Thuế GTGT đầu ra
+Token: đầu ra, Elasticsearch result: File: SKL007870, Trang: 108; Số câu: 1079; Nội dung: điện áp đầu ra
+Token: đầu ra, Elasticsearch result: File: SKL007870, Trang: 108; Số câu: 1075; Nội dung: Điện áp đầu ra
+Token: đầu ra, Elasticsearch result: File: SKL007872, Trang: 50; Số câu: 553; Nội dung: Ta có công suất đầu ra
+Token: đầu ra, Elasticsearch result: File: SKL007870, Trang: 108; Số câu: 1077; Nội dung: Điều chỉnh điện áp đầu ra
+Token: đầu ra, Elasticsearch result: File: SKL007872, Trang: 16; Số câu: 139; Nội dung: 7 Đầu ra chân output lần đo 2
+Token: 300v, Elasticsearch result: File: SKL007872, Trang: 63; Số câu: 705; Nội dung: Vẫn không thể đạ được yêu cầu điện áp đầu ra 300V
+Token: 300v, Elasticsearch result: File: SKL007872, Trang: 61; Số câu: 682; Nội dung: 12 để đưa điện áp đúng với yêu cầu đầu ra là 300V
+Token: 300v, Elasticsearch result: File: SKL007872, Trang: 68; Số câu: 744; Nội dung: Trở lại với mạch đầu ra 300V, người nghiên cứu vẫn sử dụng diode zener 10V, nhưng vì đầu ra có điện áp cao là 300V nên điện áp giữa hai chân 1,2 của opto là VFM 300 10 290V 4V
+Token: 300v, Elasticsearch result: File: SKL007872, Trang: 19; Số câu: 179; Nội dung: Thiết kế được mạch sạc cho pin chuyển đổi từ điện 220V AC sang 300V DC với dòng điện 0
+Token: 300v, Elasticsearch result: File: SKL007872, Trang: 68; Số câu: 748; Nội dung: Vì vậy mạch vẫn chưa thể có đầu ra 300V và đủ điều kiện sạc cho pin của xe máy điện
+Token: 300v, Elasticsearch result: File: SKL007872, Trang: 63; Số câu: 701; Nội dung: Có thể do biến áp, tỷ lệ sống vòng dây NPS không đủ để đưa điện áp đầu ra vào khoảng 300V
+Token: 300v, Elasticsearch result: File: SKL007872, Trang: 21; Số câu: 216; Nội dung: Mạch chuyển đổi điện áp với đầu vào là điện xoay chiều 220V và đầu ra là 300V và dòng điện vào khoảng 0
+Token: 300v, Elasticsearch result: File: SKL007869, Trang: 51; Số câu: 548; Nội dung: 23 hoạt động dựa trên cơ chế biến đô i điện a p đầu vào khoảng 300V từ xung tự cảm của các cuộn dây

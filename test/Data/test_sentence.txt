@@ -1,3 +1,2 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:613ce16b1b5dad3f574a74648a86e456b844bf1ec4e2e15b5292e00a24377689
-size 317
+Câu: 23 hoạt động dựa trên cơ chế biến đô i điện a p đầu vào khoảng 300V từ xung tự cảm của các cuộn dây
+Token: ['hoàn thành', 'mạch', 'hạ áp', 'chuẩn', 'nghiên cứu', 'bắt đầu', 'tính toán', 'cần thiết', 'thay đổi', 'điện áp', 'đầu ra', '300v']
