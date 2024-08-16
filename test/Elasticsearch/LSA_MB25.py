@@ -1,8 +1,8 @@
 import sys
 import os
 # Thêm đường dẫn của thư mục cha vào sys.path
-sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
-from processing_input import *
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '../..')))
+from processing import *
 from rank_bm25 import BM25Okapi
 from sklearn.decomposition import TruncatedSVD
 import time

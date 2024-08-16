@@ -1,25 +1,12 @@
 import sys
 import os
 # Thêm đường dẫn của thư mục cha vào sys.path
-sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
-from processing_input import *
-from sentence_transformers import SentenceTransformer
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '../..')))
+from processing import *
 import numpy as np
 import time
-import torch
-
-
 # Start the timer
 start_time = time.time()
-# Determine device
-device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
-
-# Tải mô hình và chuyển sang GPU (nếu có)
-model = SentenceTransformer('dangvantuan/vietnamese-embedding', device = device)
-def embedding_vietnamese(text):
-    embedding = model.encode(text)
-    return embedding
-
 plagiarized_count = 0
 
 with open('./test/Data/test.txt', 'r', encoding='utf-8') as file:

@@ -4,20 +4,36 @@ import os
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '../..')))
 from processing import *
 import time
+from sentence_split import *
+from save_txt import *
 
 # Start the timer
 start_time = time.time()
 plagiarized_count = 0
+file_path = './Data/SKL007296.pdf'
 
-with open('./test/Data/test.txt', 'r', encoding='utf-8') as file:
-    text = file.read()
-    # Tách thành các câu và xử lý
-sentences = text.split('\n')
+def processing_data(file_path):
+    # Trích xuất nội dung văn bản từ file PDF với số trang
+    text_with_page = extract_pdf_text(file_path)
+    # Lưu nội dung vào file văn bản với số trang
+    save_text_with_page_to_file(text_with_page, './output/content.txt')
+    # Kết hợp các dòng và tách câu, lưu cả số trang cho mỗi câu
+    sentences_with_page = combine_lines_and_split_sentences(text_with_page)
+    # Lưu nội dung vào file văn bản với số dòng và số trang
+    save_combined_text_with_page_to_file(sentences_with_page, './output/sentence_split.txt')
+    # Loại bỏ các câu có ít hơn 1 từ
+    processed_sentences = remove_single_word_sentences(sentences_with_page)
+    # Lưu nội dung vào file văn bản
+    save_combined_text_with_page_to_file(processed_sentences, './output/processed_sentences.txt')
+    return processed_sentences
 
-for i, sentence in enumerate(sentences):
-    
+processed_sentences = processing_data(file_path)
+
+for i, (sentence, page_num) in enumerate(processed_sentences):
     preprocessed_query, all_sentences = search_sentence_elastic(sentence)
-
+    if preprocessed_query is None:
+        print(f"Câu {i + 1}: No results found for this sentence. Moving to the next one.")
+        continue
     preprocessed_references = [preprocess_text_vietnamese(ref)[0] for ref in all_sentences]
       
     all_sentences = [preprocessed_query] + preprocessed_references
@@ -28,8 +44,6 @@ for i, sentence in enumerate(sentences):
     # Tách embedding của câu truy vấn và các câu tham chiếu
     query_embedding = embeddings[0].reshape(1, -1)
     reference_embeddings = embeddings[1:]
-
-
 
     similarity_scores = calculate_similarity(query_embedding, reference_embeddings)
 

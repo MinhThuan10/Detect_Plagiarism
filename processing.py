@@ -14,13 +14,16 @@ import pandas as pd
 from io import StringIO
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.decomposition import TruncatedSVD
+import spacy
+from elasticsearch import Elasticsearch
+import json
+import torch
 
 # Load Vietnamese spaCy model
 nlp = spacy.blank("vi")
 nlp.add_pipe("sentencizer")
 # Tăng giới hạn max_length
 nlp.max_length = 2000000
-
 
 API_KEYS = [
     'AIzaSyAuWuy0Up52QUeKU-iYb7pNtZgu09rHk3g',
@@ -30,6 +33,7 @@ API_KEYS = [
     'AIzaSyAn3PKdLNNuy6dc2zUcPnRiXuiSYFmLrpg',
     'AIzaSyATVTCw6KpsRrTpot-B8M5ON0J06uULkD4'
 ]
+CX = 'f5a8b4e14ca474f61'
 
 # Khởi tạo API Key hiện tại
 current_api_key_index = 0
@@ -41,8 +45,6 @@ def get_next_api_key():
     global current_api_key_index
     current_api_key_index = (current_api_key_index + 1) % len(API_KEYS)
     return get_current_api_key()
-
-CX = 'f5a8b4e14ca474f61'
 
 def search_google(query):
     global current_api_key_index
@@ -61,7 +63,15 @@ def search_google(query):
             current_api_key_index = (current_api_key_index + 1) % len(API_KEYS)
             api_key = get_current_api_key()
 
-model = SentenceTransformer('dangvantuan/vietnamese-embedding')
+# Determine device
+device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
+
+# Tải mô hình và chuyển sang GPU (nếu có)
+model = SentenceTransformer('dangvantuan/vietnamese-embedding', device = device)
+
+def embedding_vietnamese(text):
+    embedding = model.encode(text)
+    return embedding
 
 def preprocess_text_vietnamese(text):
     # Process text with spaCy pipeline
@@ -72,9 +82,6 @@ def preprocess_text_vietnamese(text):
     processed_text = ' '.join(tokens)
     return processed_text, tokens
 
-def embedding_vietnamese(text):
-    embedding = model.encode(text)
-    return embedding
 def calculate_similarity(query_features, reference_features):
     if query_features.shape[1] != reference_features.shape[1]:
         reference_features = reference_features.T
@@ -84,6 +91,7 @@ def calculate_similarity(query_features, reference_features):
     
     similarity_scores = cosine_similarity(query_features, reference_features)
     return similarity_scores
+
 def split_sentences(text):
     combined_sentences = []
     vietnamese_lowercase = 'aáàảãạăắằẳẵặâấầẩẫậbcdđeéèẻẽẹêếềểễệfghiíìỉĩịjklmnoóòỏõọôốồổỗộơớờởỡợpqrstuúùủũụưứừửữựvxyýỳỷỹỵ'
@@ -141,7 +149,6 @@ def compare_with_content(sentence, combined_webpage_text):
     
     return max_similarity, best_match, max_similarity_idx
 
-
 def compare_sentences(sentence, all_snippets):
     # Tiền xử lý câu và các snippet
     preprocessed_query, _ = preprocess_text_vietnamese(sentence)
@@ -160,16 +167,6 @@ def compare_sentences(sentence, all_snippets):
     top_similarities = [(top_scores[i], top_indices[i]) for i in range(len(top_indices))]
     
     return top_similarities
-
-def calculate_dynamic_threshold(length, max_threshold=0.9, min_threshold=0.7):
-    if length < 15:
-        return max_threshold
-    elif length > 45:
-        return min_threshold
-    else:
-        scaling_factor = (max_threshold - min_threshold) / (45 - 15)
-        threshold = max_threshold - (length - 15) * scaling_factor
-        return threshold
 
 def extract_text_from_pdf(url, save_path):
     response = requests.get(url, verify=False)
@@ -237,3 +234,209 @@ def fetch_url(url):
     except (requests.exceptions.RequestException, TimeoutError) as e:
         print(f"Error accessing {url}: {e}")
         return ""
+
+
+# Load Vietnamese spaCy model
+nlp = spacy.blank("vi")
+es = Elasticsearch("http://localhost:9200")
+
+sentence_file = './test/Data/test_sentence.txt'
+output_file = './test/Data/search.txt'
+
+def search_sentence_elastic(sentence):
+    # Xử lý từng câu và lấy danh sách tokens
+    processed_sentence, tokens = preprocess_text_vietnamese(sentence)
+    print(f"Processed sentence: {sentence}")
+    print(f"Tokens: {tokens}")
+    # Tạo danh sách các field_value từ Elasticsearch
+    sentence_results = []  # Mảng lưu trữ kết quả từng câu
+    seen_ids = set()  # Tập lưu các mongo_id đã thấy
+
+    if not tokens:
+        # Nếu tokens rỗng, không thực hiện tìm kiếm và trả về kết quả rỗng
+        return None, []
+    # for token in tokens:    
+    #     res = es.search(index="plagiarism", body={
+    #         "query": {
+    #             "match": {"sentence": token}
+    #         },
+    #         "size": 10000
+    #     })
+        
+    #     for hit in res['hits']['hits']:
+    #         mongo_id = hit['_source']['mongo_id']
+            
+    #         # Nếu mongo_id chưa thấy, mới thêm vào kết quả
+    #         if mongo_id not in seen_ids:
+    #             seen_ids.add(mongo_id)
+    #             log_entry = hit['_source']['log_entry']
+    #             log_entry = log_entry.replace("=>", ":").replace("BSON::ObjectId(", "").replace(")", "").replace("'", '"')
+                
+    #             # Phân tích chuỗi JSON
+    #             data = json.loads(log_entry)
+                
+    #             # Truy cập các giá trị
+    #             sentence = data.get("sentence")
+    #             sentence_index = data.get("sentence_index")
+    #             page_number = data.get("page_number")
+    #             file_name = data.get("file_name")
+                
+    #             result_info = {
+    #                 'token': token,
+    #                 'page_number': page_number,
+    #                 'sentence_index': sentence_index,
+    #                 'sentence_content': sentence,
+    #                 'file_name': file_name,
+    #             }
+    #             sentence_results.append(result_info)
+
+
+    # # Ghi kết quả vào file
+    # with open(sentence_file, 'w', encoding='utf-8') as file:
+    #     file.write(f"Câu: {sentence}\nToken: {tokens}\n")
+
+    # # Ghi kết quả vào file
+    # with open(output_file, 'w', encoding='utf-8') as file:
+    #     sentence_contents = [] 
+    #     for result in sentence_results:
+    #         token = result['token']
+    #         page_number = result['page_number']
+    #         sentence_index = result['sentence_index']
+    #         sentence_content = result['sentence_content']
+    #         file_name = result['file_name']
+    #         file.write(f"Token: {token}, Elasticsearch result: File: {file_name}, Trang: {page_number}; Số câu: {sentence_index}; Nội dung: {sentence_content}\n")             
+    #         sentence_contents.append(sentence_content)
+  
+    res = es.search(index="plagiarism", body={
+        "query": {
+            "match": {"sentence": sentence}
+        },
+        "size": 10
+    })
+    
+    for hit in res['hits']['hits']:
+        mongo_id = hit['_source']['mongo_id']
+        
+        # Nếu mongo_id chưa thấy, mới thêm vào kết quả
+        if mongo_id not in seen_ids:
+            seen_ids.add(mongo_id)
+            log_entry = hit['_source']['log_entry']
+            log_entry = log_entry.replace("=>", ":").replace("BSON::ObjectId(", "").replace(")", "").replace("'", '"')
+            
+            # Phân tích chuỗi JSON
+            data = json.loads(log_entry)
+            
+            # Truy cập các giá trị
+            sentence = data.get("sentence")
+            sentence_index = data.get("sentence_index")
+            page_number = data.get("page_number")
+            file_name = data.get("file_name")
+            
+            result_info = {
+                'page_number': page_number,
+                'sentence_index': sentence_index,
+                'sentence_content': sentence,
+                'file_name': file_name,
+            }
+            sentence_results.append(result_info)
+
+    # Ghi kết quả vào file
+    with open(output_file, 'w', encoding='utf-8') as file:
+        sentence_contents = [] 
+        for result in sentence_results:
+            page_number = result['page_number']
+            sentence_index = result['sentence_index']
+            sentence_content = result['sentence_content']
+            file_name = result['file_name']
+            file.write(f"Sentence: {processed_sentence}, Elasticsearch result: File: {file_name}, Trang: {page_number}; Số câu: {sentence_index}; Nội dung: {sentence_content}\n")             
+            sentence_contents.append(sentence_content)
+    return processed_sentence, sentence_contents
+
+def search_sentence_elastic_embedding(sentence): 
+    # Xử lý từng câu và lấy danh sách tokens
+    processed_sentence, tokens = preprocess_text_vietnamese(sentence)
+    # Tạo danh sách các field_value từ Elasticsearch
+    sentence_results = []  # Mảng lưu trữ kết quả từng câu
+    # for token in tokens:
+    #     res = es.search(index="plagiarism_embedding", body={"query": {"match": {"sentence": token}}})
+    #     for hit in res['hits']['hits']:
+    #         log_entry = hit['_source']['log_entry']
+    #         log_entry = log_entry.replace("=>", ":").replace("BSON::ObjectId(", "").replace(")", "").replace("'", '"')
+    #         # Phân tích chuỗi JSON
+    #         data = json.loads(log_entry)
+    #         # Truy cập các giá trị
+    #         sentence = data.get("sentence")
+    #         sentence_index = data.get("sentence_index")
+    #         page_number = data.get("page_number")
+    #         embedding = data.get("Embedding")
+    #         result_info = {
+    #             'token': token,
+    #             'page_number': page_number,
+    #             'sentence_index': sentence_index,
+    #             'sentence_content': sentence,
+    #             'embedding': embedding
+    #         }
+    #         sentence_results.append(result_info)  
+    # # Ghi kết quả vào file
+    # with open(sentence_file, 'w', encoding='utf-8') as file:
+    #     file.write(f"Câu: {sentence}\nToken: {tokens}\n")
+
+    # # Ghi kết quả vào file
+    # with open(output_file, 'w', encoding='utf-8') as file:
+    #     embeddings = [] 
+    #     sentence_contents = [] 
+    #     for result in sentence_results:
+    #         token = result['token']
+    #         page_number = result['page_number']
+    #         sentence_index = result['sentence_index']
+    #         sentence_content = result['sentence_content']
+    #         embedding = result['embedding']
+    #         file.write(f"Token: {token}, Elasticsearch result: Trang: {page_number}; Số câu: {sentence_index}; Nội dung: {sentence_content}\n")
+    #         embeddings.append(embedding)              
+    #         sentence_contents.append(sentence_content)
+    #     file.write("\n")
+
+    res = es.search(index="plagiarism_embedding", body={"query": {"match": {"sentence": sentence}}})
+    for hit in res['hits']['hits']:
+        log_entry = hit['_source']['log_entry']
+        log_entry = log_entry.replace("=>", ":").replace("BSON::ObjectId(", "").replace(")", "").replace("'", '"')
+        # Phân tích chuỗi JSON
+        data = json.loads(log_entry)
+        # Truy cập các giá trị
+        sentence = data.get("sentence")
+        sentence_index = data.get("sentence_index")
+        page_number = data.get("page_number")
+        embedding = data.get("Embedding")
+        result_info = {
+            'page_number': page_number,
+            'sentence_index': sentence_index,
+            'sentence_content': sentence,
+            'embedding': embedding
+        }
+        sentence_results.append(result_info)  
+    # Ghi kết quả vào file
+    with open(output_file, 'w', encoding='utf-8') as file:
+        embeddings = [] 
+        sentence_contents = [] 
+        for result in sentence_results:
+            page_number = result['page_number']
+            sentence_index = result['sentence_index']
+            sentence_content = result['sentence_content']
+            embedding = result['embedding']
+            file.write(f"sentence: {sentence}, Elasticsearch result: Trang: {page_number}; Số câu: {sentence_index}; Nội dung: {sentence_content}\n")
+            embeddings.append(embedding)              
+            sentence_contents.append(sentence_content)
+        file.write("\n")
+
+    return processed_sentence, sentence_contents, embeddings
+
+
+def calculate_dynamic_threshold(length, max_threshold=0.9, min_threshold=0.7):
+    if length < 10:
+        return max_threshold
+    elif length > 40:
+        return min_threshold
+    else:
+        scaling_factor = (max_threshold - min_threshold) / (40 - 10)
+        threshold = max_threshold - (length - 10) * scaling_factor
+        return threshold
