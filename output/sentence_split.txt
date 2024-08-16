@@ -1,3 +1,1858 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:5fea336636d72db04f22a478f25fab55619d7d9ef2b17aa70b93ae3bfb354d72
-size 121520
+Trang 1, Câu 1: BỘ GIÁO DỤC VÀ ĐÀO TẠO
+Trang 1, Câu 2: TRƯỜNG ĐẠI HỌC SƯ PHẠM KỸ THUẬT
+Trang 1, Câu 3: THÀNH PHỐ HỒ CHÍ MINH
+Trang 1, Câu 4: GVHD
+Trang 1, Câu 5: SVTH
+Trang 1, Câu 6: Tp
+Trang 1, Câu 7: Hồ Chí Minh, tháng 08 năm 2020
+Trang 1, Câu 8: NGHIÊN CỨU, THIẾT KẾ HỆ THỐNG NẠP
+Trang 1, Câu 9: CHO BÌNH ĐIỆN TRÊN XE GẮN MÁY ĐIỆN
+Trang 1, Câu 10: TS
+Trang 1, Câu 11: LÊ THANH PHÚC
+Trang 1, Câu 12: NGUYỄN TIẾN DŨNG
+Trang 1, Câu 13: 16145349
+Trang 1, Câu 14: SKL007872
+Trang 1, Câu 15: ĐỒ ÁN TỐT NGHIỆP
+Trang 1, Câu 16: NGÀNH CNKT Ô TÔ
+Trang 2, Câu 17: i
+Trang 2, Câu 18: TRƯỜNG ĐẠI HỌC SƯ PHẠM KỸ THUÂ T TP
+Trang 2, Câu 19: HCM
+Trang 2, Câu 20: KHOA CƠ KHÍ ĐỘNG LỰC
+Trang 2, Câu 21: ĐỒ ÁN TỐT NGHIỆP
+Trang 2, Câu 22: Tp
+Trang 2, Câu 23: Hồ Chí Minh, tháng 8 năm 2020
+Trang 2, Câu 24: NGHIÊN CỨU, THIẾT KẾ HỆ THỐNG NẠP
+Trang 2, Câu 25: CHO BÌNH ĐIỆN TRÊN XE GẮN MÁY ĐIỆN
+Trang 2, Câu 26: TS
+Trang 2, Câu 27: LÊ THANH PHÚC
+Trang 2, Câu 28: SVTH
+Trang 2, Câu 29: NGUYỄN TIẾN DŨNG
+Trang 2, Câu 30: MSSV
+Trang 2, Câu 31: 16145349
+Trang 2, Câu 32: Nga nh
+Trang 2, Câu 33: CÔNG NGHỆ KỸ THUẬT Ô TÔ
+Trang 2, Câu 34: GVHD
+Trang 3, Câu 35: ii
+Trang 3, Câu 36: TRƯỜNG ĐẠI HỌC SƯ PHẠM KỸ THUÂ T TP
+Trang 3, Câu 37: HCM
+Trang 3, Câu 38: KHOA CƠ KHÍ ĐỘNG LỰC
+Trang 3, Câu 39: ĐỒ ÁN TỐT NGHIỆP
+Trang 3, Câu 40: Chuyên ngành
+Trang 3, Câu 41: Công nghệ Kỹ thuật ô tô
+Trang 3, Câu 42: NGHIÊN CỨU, THIẾT KẾ HỆ THỐNG NẠP
+Trang 3, Câu 43: CHO BÌNH ĐIỆN TRÊN XE GẮN MÁY ĐIỆN
+Trang 3, Câu 44: SVTH
+Trang 3, Câu 45: NGUYỄN TIẾN DŨNG
+Trang 3, Câu 46: MSSV
+Trang 3, Câu 47: 16145349
+Trang 3, Câu 48: Nga nh
+Trang 3, Câu 49: CÔNG NGHỆ KỸ THUẬT Ô TÔ
+Trang 3, Câu 50: GVHD
+Trang 3, Câu 51: TS
+Trang 3, Câu 52: LÊ THANH PHÚC
+Trang 3, Câu 53: Tp
+Trang 3, Câu 54: Hồ Chí Minh, tháng 8 năm 2020
+Trang 4, Câu 55: i
+Trang 4, Câu 56: TRƯỜNG ĐH SƯ PHẠM KỸ THUÂ T
+Trang 4, Câu 57: CỘNG HÒA XÃ HỘI CHỦ NGHĨAVIỆTNAM
+Trang 4, Câu 58: TP
+Trang 4, Câu 59: HỒ CHÍ MINH
+Trang 4, Câu 60: Độc Lập Tự Do Hạnh Phúc
+Trang 4, Câu 61: KHOA CƠ KHÍ ĐỘNG LỰC
+Trang 4, Câu 62: TP
+Trang 4, Câu 63: Hồ Chí Minh, ngày 19 tháng 02 năm
+Trang 4, Câu 64: 2020
+Trang 4, Câu 65: NHIỆM VỤ ĐỒ ÁN TỐT NGHIỆP
+Trang 4, Câu 66: Họ tên sinh viên
+Trang 4, Câu 67: 1
+Trang 4, Câu 68: Nguyễn Tiến Dũng
+Trang 4, Câu 69: MSSV
+Trang 4, Câu 70: 16145349
+Trang 4, Câu 71: E mail
+Trang 4, Câu 72: tiendung30102009 gmail
+Trang 4, Câu 73: com
+Trang 4, Câu 74: Điện thoại
+Trang 4, Câu 75: 0915888755
+Trang 4, Câu 76: 2
+Trang 4, Câu 77: Nguyễn Hữu Hiệu
+Trang 4, Câu 78: MSSV
+Trang 4, Câu 79: 16145386
+Trang 4, Câu 80: E mail
+Trang 4, Câu 81: 16145386 student
+Trang 4, Câu 82: hcmute
+Trang 4, Câu 83: edu
+Trang 4, Câu 84: vn Điện thoại
+Trang 4, Câu 85: 0382331746
+Trang 4, Câu 86: Ngành
+Trang 4, Câu 87: Công nghệ kỹ thuật ô tô
+Trang 4, Câu 88: Khóa
+Trang 4, Câu 89: K16
+Trang 4, Câu 90: Lớp
+Trang 4, Câu 91: 161452A
+Trang 4, Câu 92: 1
+Trang 4, Câu 93: Tên đề ta i
+Trang 4, Câu 94: Nghiên cứu thiết kế hệ thống nạp cho bình điện trên xe gắn máy điện
+Trang 4, Câu 95: 2
+Trang 4, Câu 96: Nhiệm vụ đề ta i
+Trang 4, Câu 97: Nghiên cứu về cơ sở lý thuyết hệ thống tích trữ năng lượng trên xe gắn máy điện
+Trang 4, Câu 98: Nghiên cứu thiết kế mạch điện tử
+Trang 4, Câu 99: Tìm hiểu về lập trình vi điều khiển Atmega 328p
+Trang 4, Câu 100: Thiết kế hệ thống nạp cho bộ tích trữ điện cho xe máy
+Trang 4, Câu 101: Thử nghiệm và đánh giá kết quả
+Trang 4, Câu 102: 3
+Trang 4, Câu 103: Sản phẩm của đề ta i
+Trang 4, Câu 104: Mạch điện tử điều khiển nạp
+Trang 4, Câu 105: Thuyết minh tính toán và thử nghiệm
+Trang 4, Câu 106: 4
+Trang 4, Câu 107: Nga y giao nhiệm vụ đề ta i
+Trang 4, Câu 108: 28 02 2020
+Trang 4, Câu 109: 5
+Trang 4, Câu 110: Nga y hoa n tha nh nhiệm vụ
+Trang 4, Câu 111: 22 07 2020
+Trang 4, Câu 112: TRƯỞNG BỘ MÔN
+Trang 4, Câu 113: CÁN BỘ HƯỚNG DẪN
+Trang 4, Câu 114: TS
+Trang 4, Câu 115: Lê Thanh Phúc
+Trang 5, Câu 116: ii
+Trang 6, Câu 117: iii
+Trang 7, Câu 118: iv
+Trang 8, Câu 119: v
+Trang 9, Câu 120: i
+Trang 9, Câu 121: LỜI CẢM ƠN
+Trang 9, Câu 122: Được sự phân công của thầy cô khoa Cơ khí Động lực, Trường Đại học Sư phạm Kĩ thuật
+Trang 9, Câu 123: Tp
+Trang 9, Câu 124: Hồ Chí Minh, sau hơn bốn tháng thực hiện đề tài người nghiên cứu đã cố gắng hoàn thành Đồ án tốt nghiệp Nghiên cứu, thiết kế hệ thống nạp cho bình điện trên xe gắn máy điện
+Trang 9, Câu 125: Tuy nhiên vì một số vướng mắc cũng như lý do chủ quan, người nghiên cứu đã không thể hoàn thành tốt mục tiêu đã đề ra của đề tài
+Trang 9, Câu 126: Người nghiên cứu xin chân thành cảm ơn tất cả các thầy cô đã truyền dạy kiến thức, kinh nghiệm, kỹ năng trong suốt 4 năm qua, nhờ vậy người nghiên cứu mới có thể vận dụng và thực hiện đồ án này
+Trang 9, Câu 127: Người nghiên cứu xin chân thành cảm ơn Thầy TS
+Trang 9, Câu 128: Lê Thanh Phúc và anh kỹ sư Đinh
+Trang 9, Câu 129: Cao Trí, những người đã hướng dẫn, theo sát cho người nghiên cứu trong suốt thời gian thực hiện đề tài, cũng như tạo điều kiện tốt nhất cho người nghiên cứu được nghiên cứu ở phòng lab với đầy đủ trang thiết bị
+Trang 9, Câu 130: Xin cảm ơn tất cả các bạn bè cũng đã góp phần không nhỏ hỗ trợ người nghiên cứu thực hiện đồ án này
+Trang 9, Câu 131: Tuy nhiên vì kiến thức chuyên môn còn hạn chế và bản thân còn thiếu nhiều kinh nghiệm thực tiễn nên nội dung của báo cáo không tránh khỏi những thiếu sót, người nghiên cứu rất mong nhận sự góp ý, chỉ bảo thêm của quý Thầy Cô
+Trang 9, Câu 132: Một lần nữa xin gửi lời cảm ơn đến Thầy Cô, bạn bè đã luôn bên cạnh, đồng hành cùng người nghiên cứu trong suốt quá trình thực hiện đề tài
+Trang 9, Câu 133: TP
+Trang 9, Câu 134: HCM, tháng 08 năm 2020
+Trang 10, Câu 135: ii
+Trang 10, Câu 136: TÓM TẮT
+Trang 10, Câu 137: Mạch sạc người nghiên cứu thiết kế cho xe máy điện đang nghiên cứu có nguồn ra là 300V và dòng điện tối đa khoảng 1A từ nguồn điện xoay chiều 220V
+Trang 10, Câu 138: Mạch được thiết kế dựa trên nguồn xung flyback
+Trang 10, Câu 139: Trong quá trình thực hiện người nghiên cứu đã tìm hiểu nguyên lý hoạt động của nguồn xung cũng như cách tính toán thiết kế, ngoài ra cũng cần phải tìm hiểu về UC3843 và hàm hồi tiếp cách ly thông qua TL431 và opto quang
+Trang 10, Câu 140: Sau khi tìm hiểu người nghiên cứu sẽ dựa vào một mạch chuẩn có sẵn, đó là mạch hạ áp với đầu ra 12V 4A của hãng Texas Instruments
+Trang 10, Câu 141: Quá trình thực hiện mạch này, người nghiên cứu phải thực hiện từng mạch nhỏ ví dụ như mạch tạo xung, mạch cấp nguồn cho UC3843, tiến hành đo kiểm xung PWM đầu ra đồng thời thử tác động thay đổi độ rộng xung và chu kỳ làm việc của UC3843 thông qua việc làm giả tín hiệu hồi tiếp nhờ các biến trở
+Trang 10, Câu 142: Sau khi hoàn thành xong các mạch nhỏ và hiểu rõ được đặc tính của UC3843 cũng như mạch hồi tiếp, người nghiên cứu tiến hành làm mạch điện lớn hạ áp 12V 4A
+Trang 10, Câu 143: Sau khi thực hiện được mạch hạ áp người nghiên cứu đã tính toán thiết kế lại một số bộ phận để mạch đưa ra được điện áp như mong muốn kết hợp cùng với phương pháp thực nghiệm, tiến hành khoanh vùng những yếu tố có thể là nguyên nhân, thử thay đổi các giá trị của linh kiện để quan sát sự tác động của nó lên điện áp đầu ra
+Trang 10, Câu 144: Tuy nhiên vì một số hạn chế về kiến thức, nên người nghiên cứu đã không thể hoàn thành mạch với đầu ra điện áp 300V đúng như dự kiến
+Trang 10, Câu 145: Mạch có đầu ra chỉ khoảng 100V không đáp ứng được nhu cầu sạc của pin
+Trang 10, Câu 146: , nguyên nhân có thể là do sai lệch của các giá trị trong hàm hồi tiếp khiến cho tín hiệu hồi tiếp bị sai
+Trang 10, Câu 147: Tuy nhiên vì thời gian có hạn nên nguồi nghiên cứu đã không kịp khắc phục được lỗi này
+Trang 11, Câu 148: iii
+Trang 11, Câu 149: MỤC LỤC
+Trang 11, Câu 150: LỜI CẢM ƠN
+Trang 11, Câu 151: i
+Trang 11, Câu 152: TÓM TẮT
+Trang 11, Câu 153: ii
+Trang 11, Câu 154: MỤC LỤC
+Trang 11, Câu 155: iii
+Trang 11, Câu 156: DANH MỤC CÁC TỪ VIẾT TẮT
+Trang 11, Câu 157: vi
+Trang 11, Câu 158: DANH MỤC CÁC HÌNH
+Trang 11, Câu 159: vii
+Trang 11, Câu 160: Chương 1 TỔNG QUAN
+Trang 11, Câu 161: 1
+Trang 11, Câu 162: 1
+Trang 11, Câu 163: 1
+Trang 11, Câu 164: Lý do chọn đề tài
+Trang 11, Câu 165: 1
+Trang 11, Câu 166: 1
+Trang 11, Câu 167: 2
+Trang 11, Câu 168: Mục tiêu và nhiệm vụ nghiên cứu
+Trang 11, Câu 169: 2
+Trang 11, Câu 170: 1
+Trang 11, Câu 171: 3
+Trang 11, Câu 172: Đối tượng phạm vi nghiên cứu
+Trang 11, Câu 173: 2
+Trang 11, Câu 174: 1
+Trang 11, Câu 175: 4
+Trang 11, Câu 176: Phương pháp nghiên cứu
+Trang 11, Câu 177: 2
+Trang 11, Câu 178: 1
+Trang 11, Câu 179: 5
+Trang 11, Câu 180: Một số đề tài nghiên cứu tương tự trong và ngoài nước
+Trang 11, Câu 181: 3
+Trang 11, Câu 182: 1
+Trang 11, Câu 183: 6
+Trang 11, Câu 184: Ý nghĩa khoa học và tính thực tiễn của đề tài
+Trang 11, Câu 185: 4
+Trang 11, Câu 186: 1
+Trang 11, Câu 187: 7
+Trang 11, Câu 188: Kết quả dự kiến đạt được
+Trang 11, Câu 189: 4
+Trang 11, Câu 190: Chương 2 CƠ SỞ LÝ THUYẾT
+Trang 11, Câu 191: 5
+Trang 11, Câu 192: 2
+Trang 11, Câu 193: 1
+Trang 11, Câu 194: Mạch chỉnh lưu
+Trang 11, Câu 195: 5
+Trang 11, Câu 196: 2
+Trang 11, Câu 197: 2 Nguồn xung
+Trang 11, Câu 198: 6
+Trang 11, Câu 199: 2
+Trang 11, Câu 200: 2
+Trang 11, Câu 201: 1
+Trang 11, Câu 202: Định nghĩa
+Trang 11, Câu 203: 6
+Trang 11, Câu 204: 2
+Trang 11, Câu 205: 2
+Trang 11, Câu 206: 2
+Trang 11, Câu 207: Phân loại
+Trang 11, Câu 208: 6
+Trang 11, Câu 209: 2
+Trang 11, Câu 210: 2
+Trang 11, Câu 211: 3
+Trang 11, Câu 212: Các yếu tố khác trong nguồn xung
+Trang 11, Câu 213: 10
+Trang 11, Câu 214: 2
+Trang 11, Câu 215: 3
+Trang 11, Câu 216: UC3843
+Trang 11, Câu 217: 12
+Trang 11, Câu 218: 2
+Trang 11, Câu 219: 4
+Trang 11, Câu 220: TL431
+Trang 11, Câu 221: 14
+Trang 11, Câu 222: 2
+Trang 11, Câu 223: 5
+Trang 11, Câu 224: MOSFET
+Trang 11, Câu 225: 15
+Trang 12, Câu 226: iv
+Trang 12, Câu 227: 2
+Trang 12, Câu 228: 6
+Trang 12, Câu 229: Photocoupler Opto quang
+Trang 12, Câu 230: 16
+Trang 12, Câu 231: 2
+Trang 12, Câu 232: 7
+Trang 12, Câu 233: Một số linh kiện khác cần dùng trong mạch
+Trang 12, Câu 234: 17
+Trang 12, Câu 235: 2
+Trang 12, Câu 236: 7
+Trang 12, Câu 237: 1
+Trang 12, Câu 238: Điện trở
+Trang 12, Câu 239: 17
+Trang 12, Câu 240: 2
+Trang 12, Câu 241: 7
+Trang 12, Câu 242: 2
+Trang 12, Câu 243: Tụ điện
+Trang 12, Câu 244: 18
+Trang 12, Câu 245: 2
+Trang 12, Câu 246: 7
+Trang 12, Câu 247: 3
+Trang 12, Câu 248: Transitor
+Trang 12, Câu 249: 19
+Trang 12, Câu 250: 2
+Trang 12, Câu 251: 7
+Trang 12, Câu 252: 4 Diode
+Trang 12, Câu 253: 20
+Trang 12, Câu 254: Chương 3
+Trang 12, Câu 255: TÍNH TOÁN, THIẾT KẾ, THỰC HIỆN HỆ THỐNG
+Trang 12, Câu 256: 22
+Trang 12, Câu 257: 3
+Trang 12, Câu 258: 1
+Trang 12, Câu 259: Sơ đồ hệ thống mạch sạc
+Trang 12, Câu 260: 22
+Trang 12, Câu 261: 3
+Trang 12, Câu 262: 2
+Trang 12, Câu 263: Thiết kế mạch chỉnh lưu
+Trang 12, Câu 264: 23
+Trang 12, Câu 265: 3
+Trang 12, Câu 266: 2
+Trang 12, Câu 267: 1
+Trang 12, Câu 268: Thiết kế và tính toán mạch
+Trang 12, Câu 269: 23
+Trang 12, Câu 270: 3
+Trang 12, Câu 271: 2
+Trang 12, Câu 272: 2
+Trang 12, Câu 273: Mạch thực tế và thử nghiệm
+Trang 12, Câu 274: 24
+Trang 12, Câu 275: 3
+Trang 12, Câu 276: 3
+Trang 12, Câu 277: Mạch thử nghiệm tạo xung cho UC3843
+Trang 12, Câu 278: 24
+Trang 12, Câu 279: 3
+Trang 12, Câu 280: 3
+Trang 12, Câu 281: 1 Thiết kế mạch
+Trang 12, Câu 282: 24
+Trang 12, Câu 283: 3
+Trang 12, Câu 284: 3
+Trang 12, Câu 285: 2
+Trang 12, Câu 286: Mạch thực tế và tiến hành thực nghiệm
+Trang 12, Câu 287: 25
+Trang 12, Câu 288: 3
+Trang 12, Câu 289: 4
+Trang 12, Câu 290: Mạch điện hạ áp 12V
+Trang 12, Câu 291: 27
+Trang 12, Câu 292: 3
+Trang 12, Câu 293: 4
+Trang 12, Câu 294: 1
+Trang 12, Câu 295: Mạch bảo vệ MOSFET Snubber
+Trang 12, Câu 296: 27
+Trang 12, Câu 297: 3
+Trang 12, Câu 298: 4
+Trang 12, Câu 299: 2
+Trang 12, Câu 300: Mạch cấp nguồn cho UC3843 và biến áp
+Trang 12, Câu 301: 28
+Trang 12, Câu 302: 3
+Trang 12, Câu 303: 4
+Trang 12, Câu 304: 3
+Trang 12, Câu 305: Mạch hồi tiếp dòng
+Trang 12, Câu 306: 29
+Trang 12, Câu 307: 3
+Trang 12, Câu 308: 4
+Trang 12, Câu 309: 4 Mạch hồi tiếp áp
+Trang 12, Câu 310: 30
+Trang 12, Câu 311: 3
+Trang 12, Câu 312: 4
+Trang 12, Câu 313: 5
+Trang 12, Câu 314: Mạch khởi động nhanh cho UC3843
+Trang 12, Câu 315: 31
+Trang 12, Câu 316: 3
+Trang 12, Câu 317: 4
+Trang 12, Câu 318: 6
+Trang 12, Câu 319: Lưa chọn chế độ làm việc cho mạch
+Trang 12, Câu 320: 32
+Trang 12, Câu 321: 3
+Trang 12, Câu 322: 4
+Trang 12, Câu 323: 7
+Trang 12, Câu 324: Tính toán thiết kế biến áp xung
+Trang 12, Câu 325: 33
+Trang 12, Câu 326: 3
+Trang 12, Câu 327: 4
+Trang 12, Câu 328: 8 Cách quấn biến áp xung
+Trang 12, Câu 329: 39
+Trang 12, Câu 330: 3
+Trang 12, Câu 331: 4
+Trang 12, Câu 332: 9 Tiến hành thi công mạch và thử nghiệm thực tế
+Trang 12, Câu 333: 40
+Trang 13, Câu 334: v
+Trang 13, Câu 335: 3
+Trang 13, Câu 336: 5
+Trang 13, Câu 337: Điều chỉnh thông số các linh kiện trong mạch 12V để thiết kế mạch sạc
+Trang 13, Câu 338: 41
+Trang 13, Câu 339: 3
+Trang 13, Câu 340: 5
+Trang 13, Câu 341: 1 Tính toán biến áp
+Trang 13, Câu 342: 42
+Trang 13, Câu 343: 3
+Trang 13, Câu 344: 5
+Trang 13, Câu 345: 2 Tính toán mạch hồi tiếp điện áp
+Trang 13, Câu 346: 44
+Trang 13, Câu 347: 3
+Trang 13, Câu 348: 5
+Trang 13, Câu 349: 3 Thay đổi các linh kiện khác
+Trang 13, Câu 350: 44
+Trang 13, Câu 351: 3
+Trang 13, Câu 352: 6
+Trang 13, Câu 353: Tiến hành thực nghiệm
+Trang 13, Câu 354: 45
+Trang 13, Câu 355: 3
+Trang 13, Câu 356: 6
+Trang 13, Câu 357: 1 Thử nghiệm lần 1
+Trang 13, Câu 358: 45
+Trang 13, Câu 359: 3
+Trang 13, Câu 360: 6
+Trang 13, Câu 361: 2 Thử nghiệm lần 2 với biến áp có NPS 0,25
+Trang 13, Câu 362: 46
+Trang 13, Câu 363: 3
+Trang 13, Câu 364: 6
+Trang 13, Câu 365: 3
+Trang 13, Câu 366: Thử nghiệm lần 3 với sự thay đổi gía trị RCS 3,3 Ω
+Trang 13, Câu 367: 48
+Trang 13, Câu 368: 3
+Trang 13, Câu 369: 6
+Trang 13, Câu 370: 4
+Trang 13, Câu 371: Thử nghiệm lần 4 với Ropto 25kΩ
+Trang 13, Câu 372: 49
+Trang 13, Câu 373: 3
+Trang 13, Câu 374: 7
+Trang 13, Câu 375: Tìm hiểu nguyên nhân của sự sai lệch điện áp đầu ra
+Trang 13, Câu 376: 51
+Trang 13, Câu 377: Chương 4 KẾT LUÂ N VÀ KIẾN NGHỊ
+Trang 13, Câu 378: 52
+Trang 13, Câu 379: 4
+Trang 13, Câu 380: 1 Kết luận
+Trang 13, Câu 381: 52
+Trang 13, Câu 382: 4
+Trang 13, Câu 383: 2 Kiến nghị
+Trang 13, Câu 384: 53
+Trang 13, Câu 385: TÀI LIỆU THAM KHẢO
+Trang 13, Câu 386: 54
+Trang 14, Câu 387: vi
+Trang 14, Câu 388: DANH MỤC CÁC TỪ VIẾT TẮT
+Trang 14, Câu 389: AC
+Trang 14, Câu 390: Alternating current
+Trang 14, Câu 391: DC
+Trang 14, Câu 392: Direct current
+Trang 14, Câu 393: IC
+Trang 14, Câu 394: Integrated circuit
+Trang 14, Câu 395: PF
+Trang 14, Câu 396: Power factor
+Trang 14, Câu 397: QR
+Trang 14, Câu 398: quasi resonant
+Trang 14, Câu 399: DCM
+Trang 14, Câu 400: Discontinuous conduction mode
+Trang 14, Câu 401: CCM
+Trang 14, Câu 402: Continuous conduction mode
+Trang 15, Câu 403: vii
+Trang 15, Câu 404: DANH MỤC CÁC HÌNH
+Trang 15, Câu 405: Hình 2
+Trang 15, Câu 406: 1 Mạch chỉnh lưu nửa sóng 3
+Trang 15, Câu 407: 5
+Trang 15, Câu 408: Hình 2
+Trang 15, Câu 409: 2 Mạch chỉnh lưu toàn sóng 3
+Trang 15, Câu 410: 5
+Trang 15, Câu 411: Hình 2
+Trang 15, Câu 412: 3
+Trang 15, Câu 413: Sơ đồ tổng thể của 1 nguồn xung 4
+Trang 15, Câu 414: 6
+Trang 15, Câu 415: Hình 2
+Trang 15, Câu 416: 4
+Trang 15, Câu 417: Mạch nguồn xung kiểu buck cơ bản 5
+Trang 15, Câu 418: 7
+Trang 15, Câu 419: Hình 2
+Trang 15, Câu 420: 5
+Trang 15, Câu 421: Mạch nguồn xung kiểu boost cơ bản 5
+Trang 15, Câu 422: 8
+Trang 15, Câu 423: Hình 2
+Trang 15, Câu 424: 6
+Trang 15, Câu 425: Mạch kiểu buck boost cơ bản 5
+Trang 15, Câu 426: 8
+Trang 15, Câu 427: Hình 2
+Trang 15, Câu 428: 7
+Trang 15, Câu 429: Sơ đồ mạch nguồn xung flyback cơ bản 6
+Trang 15, Câu 430: 9
+Trang 15, Câu 431: Hình 2
+Trang 15, Câu 432: 8
+Trang 15, Câu 433: Điện áp đầu ra cơ bản của nguồn xung 6
+Trang 15, Câu 434: 10
+Trang 15, Câu 435: Hình 2
+Trang 15, Câu 436: 9 Hình ảnh biến áp xung ở thực tế 10
+Trang 15, Câu 437: 11
+Trang 15, Câu 438: Hình 2
+Trang 15, Câu 439: 10
+Trang 15, Câu 440: Cách hoạt động của biến áp và mối quan hệ giữa các đại lượng 6
+Trang 15, Câu 441: 11
+Trang 15, Câu 442: Hình 2
+Trang 15, Câu 443: 11
+Trang 15, Câu 444: Cấu tạo bên trong của UC3843 7
+Trang 15, Câu 445: 13
+Trang 15, Câu 446: Hình 2
+Trang 15, Câu 447: 12
+Trang 15, Câu 448: Sơ đồ chân của UC3843 7
+Trang 15, Câu 449: 13
+Trang 15, Câu 450: Hình 2
+Trang 15, Câu 451: 13
+Trang 15, Câu 452: Cấu tạo TL431 và sơ đồ chân 8
+Trang 15, Câu 453: 15
+Trang 15, Câu 454: Hình 2
+Trang 15, Câu 455: 14
+Trang 15, Câu 456: MOSFET và kí hiệu 9
+Trang 15, Câu 457: 15
+Trang 15, Câu 458: Hình 2
+Trang 15, Câu 459: 15 Nguyên lí hoạt động của Opto quang 10
+Trang 15, Câu 460: 17
+Trang 15, Câu 461: Hình 2
+Trang 15, Câu 462: 16
+Trang 15, Câu 463: Kí hiệu của điện trở trong mạch điện 10
+Trang 15, Câu 464: 18
+Trang 15, Câu 465: Hình 2
+Trang 15, Câu 466: 17
+Trang 15, Câu 467: Kí hiệu tụ điện
+Trang 15, Câu 468: 10
+Trang 15, Câu 469: 19
+Trang 15, Câu 470: Hình 2
+Trang 15, Câu 471: 18
+Trang 15, Câu 472: Cấu tạo và phân loại transitor 10
+Trang 15, Câu 473: 19
+Trang 15, Câu 474: Hình 2
+Trang 15, Câu 475: 19
+Trang 15, Câu 476: Kí hiệu diode trong mạch điện 10
+Trang 15, Câu 477: 20
+Trang 15, Câu 478: Hình 3
+Trang 15, Câu 479: 1
+Trang 15, Câu 480: Sơ đồ khối của mạch
+Trang 15, Câu 481: 22
+Trang 15, Câu 482: Hình 3
+Trang 15, Câu 483: 2
+Trang 15, Câu 484: Sơ đồ mạch điện của hãng Texas Instruments
+Trang 15, Câu 485: 7
+Trang 15, Câu 486: 23
+Trang 15, Câu 487: Hình 3
+Trang 15, Câu 488: 2
+Trang 15, Câu 489: Sơ đồ của mạch chỉnh lưu
+Trang 15, Câu 490: 24
+Trang 16, Câu 491: viii
+Trang 16, Câu 492: Hình 3
+Trang 16, Câu 493: 3
+Trang 16, Câu 494: Hình ảnh mạch thực tế sau khi hoàn thành
+Trang 16, Câu 495: 24
+Trang 16, Câu 496: Hình 3
+Trang 16, Câu 497: 4 Mạch tạo thử nghiệm tạo xung của IC 7
+Trang 16, Câu 498: 25
+Trang 16, Câu 499: Hình 3
+Trang 16, Câu 500: 5 Mạch test thực tế
+Trang 16, Câu 501: 25
+Trang 16, Câu 502: Hình 3
+Trang 16, Câu 503: 6
+Trang 16, Câu 504: Đầu ra chân output của mạch lần đo 1
+Trang 16, Câu 505: 26
+Trang 16, Câu 506: Hình 3
+Trang 16, Câu 507: 7 Đầu ra chân output lần đo 2
+Trang 16, Câu 508: 26
+Trang 16, Câu 509: Hình 3
+Trang 16, Câu 510: 8 Điện áp ở cực Drain của MOSFET trong 1 chu kỳ làm việc
+Trang 16, Câu 511: 27
+Trang 16, Câu 512: Hình 3
+Trang 16, Câu 513: 9 Sơ đồ của mạch khử dòng rò
+Trang 16, Câu 514: 28
+Trang 16, Câu 515: Hình 3
+Trang 16, Câu 516: 10 Mạch cấp nguồn cho UC3843
+Trang 16, Câu 517: 28
+Trang 16, Câu 518: Hình 3
+Trang 16, Câu 519: 11 Mạch hồi tiếp dòng dành cho UC3843
+Trang 16, Câu 520: 29
+Trang 16, Câu 521: Hình 3
+Trang 16, Câu 522: 12
+Trang 16, Câu 523: Mạch hồi tiếp áp 7
+Trang 16, Câu 524: 30
+Trang 16, Câu 525: Hình 3
+Trang 16, Câu 526: 13 Mạch khởi động nhanh cho UC3843 7
+Trang 16, Câu 527: 32
+Trang 16, Câu 528: Hình 3
+Trang 16, Câu 529: 14 Cách dòng điện hoạt động ở trong mạch ở hai chế độ DCM và CCM 11
+Trang 16, Câu 530: 33
+Trang 16, Câu 531: Hình 3
+Trang 16, Câu 532: 15 Điện áp đặt lên MOSFET cũng như điện áp dội ngược về từ cuộn thứ cấp 11
+Trang 16, Câu 533: 34
+Trang 16, Câu 534: Hình 3
+Trang 16, Câu 535: 16 Các thông số kích thước của lõi ER42 10
+Trang 16, Câu 536: 36
+Trang 16, Câu 537: Hình 3
+Trang 16, Câu 538: 17
+Trang 16, Câu 539: Hình dáng lõi ferrite nhìn từ trên xuống 10
+Trang 16, Câu 540: 37
+Trang 16, Câu 541: Hình 3
+Trang 16, Câu 542: 18 Hình minh họa khe hở từ của biến áp 10
+Trang 16, Câu 543: 38
+Trang 16, Câu 544: Hình 3
+Trang 16, Câu 545: 19 Cách bố trí sắp xếp các cuộn dây biến áp của kiểu kẹp giữa 10
+Trang 16, Câu 546: 39
+Trang 16, Câu 547: Hình 3
+Trang 16, Câu 548: 20 Mạch thực tế của mạch điện hạ áp 12V
+Trang 16, Câu 549: 40
+Trang 16, Câu 550: Hình 3
+Trang 16, Câu 551: 21
+Trang 16, Câu 552: Thử nghiệm mạch khi chạy không tải
+Trang 16, Câu 553: 40
+Trang 16, Câu 554: Hình 3
+Trang 16, Câu 555: 22 Kết quả đo khi thử tải với bóng đèn halogen
+Trang 16, Câu 556: 41
+Trang 16, Câu 557: Hình 3
+Trang 16, Câu 558: 24
+Trang 16, Câu 559: Mạch thực tế của mạch 300V
+Trang 16, Câu 560: 45
+Trang 16, Câu 561: Hình 3
+Trang 16, Câu 562: 25
+Trang 16, Câu 563: Điện áp đầu ra của mạch khi thử nghiệm lần 1
+Trang 16, Câu 564: 45
+Trang 16, Câu 565: Hình 3
+Trang 16, Câu 566: 26
+Trang 16, Câu 567: Điện áp đầu ra của mạch ở lần đo thứ 2
+Trang 16, Câu 568: 46
+Trang 17, Câu 569: ix
+Trang 17, Câu 570: Hình 3
+Trang 17, Câu 571: 27
+Trang 17, Câu 572: Giá trị điện áp về chân ISENSE ở lần đo thử thứ 2
+Trang 17, Câu 573: 47
+Trang 17, Câu 574: Hình 3
+Trang 17, Câu 575: 28
+Trang 17, Câu 576: Giá trị điện áp vào chân ISENSE ở lần đo thứ 3 ứng với RCS 3,3Ω
+Trang 17, Câu 577: 48
+Trang 17, Câu 578: Hình 3
+Trang 17, Câu 579: 29
+Trang 17, Câu 580: Giá trị VOUT ở lần đo thứ 4 khi tăng Ropto
+Trang 17, Câu 581: 49
+Trang 17, Câu 582: Hình 3
+Trang 17, Câu 583: 30
+Trang 17, Câu 584: Giá trị điện áp ở chân VFB
+Trang 17, Câu 585: 50
+Trang 17, Câu 586: Hình 3
+Trang 17, Câu 587: 31
+Trang 17, Câu 588: Giá trị điện áp VR ở chân tham chiếu của TL431
+Trang 17, Câu 589: 50
+Trang 18, Câu 590: 1
+Trang 18, Câu 591: Chương 1
+Trang 18, Câu 592: TỔNG QUAN
+Trang 18, Câu 593: 1
+Trang 18, Câu 594: 1
+Trang 18, Câu 595: Lý do chọn đề tài
+Trang 18, Câu 596: Hầu hết các phương tiện giao thông hiện nay đang sử dụng động cơ đốt trong với nhiên liệu hóa thạch, các động cơ này có hiệu suất không cao và thải ra môi trường gần một phần ba lượng khí gây hiệu ứng nhà kính
+Trang 18, Câu 597: Kết quả nghiên cứu 6 tháng đầu năm 2017, khí thải của phương tiện giao thông tạo ra 55 khí NOx, 56 khí CO, 6 khí SO2
+Trang 18, Câu 598: Chính điều này đã tạo động lực cho các nghiên cứu xoay quanh việc phát triển các dòng xe sử dụng nguồn năng lượng mới sạch hơn và tiết kiệm hơn, trong đó xe điện EV Electric Vehicle là một bước tiến lớn khi giải quyết được vấn đề ô nhiễm môi trường và vấn đề nhiên liệu hóa thạch đang ngày một cạn dần
+Trang 18, Câu 599: Chính vì thế xe điện đang dần trở thành xu hướng của thế giới ngày nay và đang dần thay thế các xe chạy bằng nhiên liệu hóa thạch truyền thống
+Trang 18, Câu 600: Hàng loạt hãng lớn đang tích cực nghiên cứu và cho ra đời những chiếc xe điện ngày một tối ưu
+Trang 18, Câu 601: Để vận hành được chiếc xe điện thì hệ thống nạp năng lượng cho xe là rất quan trọng
+Trang 18, Câu 602: Mạch sạc sẽ là nguồn cung cấp điện vào pin để lưu trữ năng lượng điện mà nhờ đó xe mới có thể hoạt động được
+Trang 18, Câu 603: Mạch sạc phải đảm bảo được đầu ra điện áp ổn định cùng với đó là 1 dòng điện vừa phải không đổi để không gầy quá tải cho pin dẫn đến nổ
+Trang 18, Câu 604: Cụ thể hơn thì trong chiếc xe máy điện mà người nghiên cứu đang nghiên cứu sử dụng bộ pin lithium ion 60 cell điện áp khi đầy sẽ vào khoảng 240V
+Trang 18, Câu 605: Để sạc cho bộ pin này chúng ta cần phải có mạch chuyển đổi điện áp từ
+Trang 18, Câu 606: AC DC với đầu ra lớn hơn 240V ổn định và với dòng nhỏ vừa phải từ 0
+Trang 18, Câu 607: 5 1A
+Trang 18, Câu 608: Trên chiếc xe điện mà người nghiên cứu đang nghiên cứu hiện đang sử dụng mạch chỉnh lưu AC DC với đầu ra khoảng 300V sau đó mắc nối tiếp với điện trở và bóng đèn để giảm dòng xuống thích hợp để sạc cho bộ pin,cách xạc này khá dơn giản và bất tiện,cồng kềnh và trên thị trường hiện nay không có hãng xe nào sử dụng cách sạc như vậy
+Trang 18, Câu 609: Chính vì vậy người nghiên cứu đã quyết định chọn đề tài Nghiên cứu thiết kế mạch nạp cho bình điện trên xe gắn máy điện để tạo ra mạch sạc gọn hơn với đầu ra 300V và dòng điện khoảng 0
+Trang 18, Câu 610: 5 1A ổn định
+Trang 19, Câu 611: 2
+Trang 19, Câu 612: 1
+Trang 19, Câu 613: 2
+Trang 19, Câu 614: Mục tiêu và nhiệm vụ nghiên cứu
+Trang 19, Câu 615: Thiết kế được mạch sạc cho pin chuyển đổi từ điện 220V AC sang 300V DC với dòng điện 0
+Trang 19, Câu 616: 5 1A,công suất đầu ra vào khoảng từ 150 đến 300W
+Trang 19, Câu 617: Tiến hành thử nghiệm trên tải bóng đèn và sạc pin để xem độ ổn định cũng như hiệu suất của mạch
+Trang 19, Câu 618: 1
+Trang 19, Câu 619: 3
+Trang 19, Câu 620: Đối tượng phạm vi nghiên cứu
+Trang 19, Câu 621: Đối tượng nghiên cứu
+Trang 19, Câu 622: Nguồn xung flyback; IC điều xung UC3843; các linh kiện điện tử; phần mềm Proteus
+Trang 19, Câu 623: Phạm vi nghiên cứu
+Trang 19, Câu 624: Đề tải chỉ tập trung nghiên cứu về cấu tạo, nguyên lý hoạt động, các ứng dụng của các đối tượng trên trong việc thiết kế mạch chuyển đổi và sẽ không đi sâu vào các thuật toán hoặc các phần liên quan đến chuyên ngành điện điện tử
+Trang 19, Câu 625: 1
+Trang 19, Câu 626: 4
+Trang 19, Câu 627: Phương pháp nghiên cứu
+Trang 19, Câu 628: Tìm hiểu lý thuyết
+Trang 19, Câu 629: tìm hiểu các tài liệu lý thuyết trên mạng liên quán đến các bộ AC
+Trang 19, Câu 630: DC converter và nguồng xung flyback, UC3843, học hỏi kiến thức từ thầy,cô bạn bè và những người đi trước
+Trang 19, Câu 631: Thực hiện mạch điện chuẩn theo mẫu của hãng Texas Instruments với đầu ra 12V 4A, sau đó thay đổi linh kiện phù hợp để tạo ra mạch
+Trang 19, Câu 632: Phương pháp thực nghiệm
+Trang 19, Câu 633: tiến hành tính toán thiết kế, thực nghiệm, đo đạc so sánh kết quả và tìm phương án cải tiến đến khi nào đạt kết quả mong muốn
+Trang 19, Câu 634: Thực hiện mạch điện chuẩn theo mẫu của hãng Texas Instruments với đầu ra 12V 4A, sau đó thay đổi linh kiện phù hợp để tạo ra mạch với đầu ra 300V 1A
+Trang 20, Câu 635: 3
+Trang 20, Câu 636: 1
+Trang 20, Câu 637: 5
+Trang 20, Câu 638: Một số đề tài nghiên cứu tương tự trong va ngoa i nước
+Trang 20, Câu 639: Trong nước
+Trang 20, Câu 640: Đề tài Trịnh Trung Hiếu cùng với cộng sự Đoàn Anh Tuấn và Lê Thị Tịnh Minh có tên là Thiết kế bộ chuyển đổi DC DC mới cho hệ thống điện sử dụng năng lượng mặt trời
+Trang 20, Câu 641: 1 tập trung vào thiết kế một bộ chuyển đổi DC DC mới phù hợp với sự thay đổi công suất của nhà máy điện mặt trời
+Trang 20, Câu 642: Bộ chuyển đổi này được hình thành từ nhiều bộ chuyển đổi có công suất nhỏ, các bộ chuyển đổi DC DC công suất nhỏ này được nối theo một qui luật nhất định nhằm tạo ra một bộ chuyển đổi có công suất lớn
+Trang 20, Câu 643: Dựa vào việc cô lập một số bộ chuyển đổi DC DC công suất nhỏ kết hợp với điều khiển góc mở, điện áp định mức đầu vào và đầu ra của bộ chuyển đổi có thể đáp ứng cho dải điện áp rộng mong muốn
+Trang 20, Câu 644: Nghiên cứu này còn thực hiện lắp ráp một bộ chuyển đổi DC DC 200W thực tế để áp dụng vào tấm pin mặt trời
+Trang 20, Câu 645: PEPV 48 200 và đã kiểm tra đo đạc
+Trang 20, Câu 646: Kết quả cho thấy bộ chuyển đổi DC DC này hoạt động ổn định, hiệu suất được cải thiện và có thể áp dụng vào thực tế
+Trang 20, Câu 647: Ngoa i nước
+Trang 20, Câu 648: Đề tài nghiên cứu Single stage QR AC DC converter based on buck boost and flyback circuits 2 của nhóm tác giả Yijie Wang, Shu Zhang, Yueshi Guan, Xiaosheng Liu,
+Trang 20, Câu 649: Dianguo
+Trang 20, Câu 650: Trong nghiên cứu này mạch forestage buck boost circuit làm việc trên chế độ dẫn không liên tục DCM để đạt được công suất đầu vào PF cao, trong khi đó thì bộ backstage flyback converter, hoạt dộng ở chế độ QR sẽ đóng vai trò chuyển đổi năng lượng
+Trang 20, Câu 651: Chế độ QR đóng ngắt sẽ làm giảm hao tổn khi đóng ngắt nhờ vậy mà hiệu suất của bộ chuyển đổi đươc cải thiện
+Trang 20, Câu 652: Việc sử dụng single stage tology góp phần làm giảm chi phí và tăng được hiệu suất của hệ thống
+Trang 20, Câu 653: Hệ thống này dược nghiên cứu với công suất đầu ra 50W với PF tối đa 0
+Trang 20, Câu 654: 99 và hiệu suất đạt khoảng 90
+Trang 20, Câu 655: 91 trong điều kiện thử nghiệm bình thường
+Trang 21, Câu 656: 4
+Trang 21, Câu 657: 1
+Trang 21, Câu 658: 6
+Trang 21, Câu 659: Ý nghĩa khoa học và tính thực tiễn của đề tài
+Trang 21, Câu 660: Mạch sạc đóng vài trò vô cùng quan trọng trong chiếc xe điện
+Trang 21, Câu 661: Mạch sạc hiện tại đang được áp dụng trên dự án xe máy điện với bộ pin 60 cell 240V là mạch chỉnh lưu với điện áp đầu ra khoảng 300V nối tiếp với trở công suất để giảm dòng điện xuống mức dưới 1A để sạc
+Trang 21, Câu 662: Mạch này vô cùng bất tiện và không thể đưa vào thương mai được bởi tính ổn định không cao
+Trang 21, Câu 663: Việc nghiên cứu chế tạo thệ thống mạch sạc này không chỉ phục vụ cho quá trình học tập và nghiên cứu, giúp tạo ra một nguồn sạc ổn định và gọn nhẹ hơn, mà còn là một bước quan trọng trong việc hiện thực hóa chiếc xe điện đang nghiên cứu
+Trang 21, Câu 664: 1
+Trang 21, Câu 665: 7
+Trang 21, Câu 666: Kết quả dự kiến đạt được
+Trang 21, Câu 667: Mạch chuyển đổi điện áp với đầu vào là điện xoay chiều 220V và đầu ra là 300V và dòng điện vào khoảng 0
+Trang 21, Câu 668: 5 1A
+Trang 22, Câu 669: 5
+Trang 22, Câu 670: Chương 2
+Trang 22, Câu 671: CƠ SỞ LÝ THUYẾT
+Trang 22, Câu 672: 2
+Trang 22, Câu 673: 1
+Trang 22, Câu 674: Mạch chỉnh lưu
+Trang 22, Câu 675: Một mạch chỉnh lưu là một mạch điện bao gồm các linh kiện điện điện tử, dùng để biến đổi dòng điện xoay chiều thành dòng điện một chiều
+Trang 22, Câu 676: Mạch chỉnh lưu có thể được sử dụng trong các bộ nguồn cung cấp dòng điện một chiều, hoặc trong các mạch tách sóng tín hiệu vô tuyến điện trong các thiết bị vô tuyến
+Trang 22, Câu 677: Phần tử tích cực trong mạch chỉnh lưu có thể là các diode bán dẫn, các đèn chỉnh lưu thủy ngân hoặc các linh kiện khác
+Trang 22, Câu 678: Mạch chỉnh nửa sóng
+Trang 22, Câu 679: Một mạch chỉnh lưu nửa sóng chỉ một trong nửa chu kỳ dương hoặc âm có thể dễ dàng đi ngang qua diode, trong khi nửa kia sẽ bị khóa, tùy thuộc vào chiều lắp đặt của diode
+Trang 22, Câu 680: Vì chỉ có một nửa chu kỳ được chỉnh lưu, nên mạch chỉnh lưu nửa sóng có hiệu suất truyền công suất rất thấp
+Trang 22, Câu 681: Mạch chỉnh lưu nửa sóng có thể lắp bằng chỉ một diode bán dẫn trong các mạch nguồn một pha
+Trang 22, Câu 682: Hình 2
+Trang 22, Câu 683: 1 Mạch chỉnh lưu nửa sóng 3
+Trang 22, Câu 684: Mạch chỉnh lưu toa n sóng
+Trang 22, Câu 685: Mạch chỉnh lưu toàn sóng biến đổi cả hai thành phần cực tính của dạng sóng đầu vào thành một chiều
+Trang 22, Câu 686: Do đó nó có hiệu suất cao hơn
+Trang 22, Câu 687: Hình 2
+Trang 22, Câu 688: 2 Mạch chỉnh lưu toàn sóng 3
+Trang 23, Câu 689: 6
+Trang 23, Câu 690: Mạch chỉnh lưu toàn sóng biến đổi cả hai nửa chu kỳ thành một điện áp đầu ra có một chiều duy nhất
+Trang 23, Câu 691: Dương hoặc âm vì nó chuyển hướng đi của dòng điện của nửa chu kỳ âm hoặc dương của dạng sóng xoay chiều
+Trang 23, Câu 692: Nửa còn lại sẽ kết hợp với nửa kia thành một điện áp chỉnh lưu hoàn chỉnh
+Trang 23, Câu 693: 2
+Trang 23, Câu 694: 2 Nguồn xung
+Trang 23, Câu 695: 2
+Trang 23, Câu 696: 2
+Trang 23, Câu 697: 1
+Trang 23, Câu 698: Định nghĩa
+Trang 23, Câu 699: Nguồn xung Switching regulator là một loại nguồn hoạt động dựa trênphương thức chuyển mạch đóng ngắt bán dẫn semiconductor switching techniques thay vì tuyến tính như thông thường để cung cấp điện áp đầu ra như mong muốn
+Trang 23, Câu 700: Nguồn xung cơ bản thường có hai phần là bộ phận chuyển đổi năng lượng biến áp và mạch điều khiển để tạo xung điều khiển đóng ngắt dòng điện qua biến áp
+Trang 23, Câu 701: Hình 2
+Trang 23, Câu 702: 3
+Trang 23, Câu 703: Sơ đồ tổng thể của 1 nguồn xung 4
+Trang 23, Câu 704: 2
+Trang 23, Câu 705: 2
+Trang 23, Câu 706: 2
+Trang 23, Câu 707: Phân loại
+Trang 23, Câu 708: Nguồn xung bao gồm các loại như sau
+Trang 23, Câu 709: Nguồn xung buck
+Trang 23, Câu 710: Nguồn xung Buck là loại nguồn xung hạ áp với điện áp đầu ra nhỏ hơn điện áp đầu vào, thường được thiết kế với yêu cầu công suất thấp
+Trang 24, Câu 711: 7
+Trang 24, Câu 712: Hình 2
+Trang 24, Câu 713: 4
+Trang 24, Câu 714: Mạch nguồn xung kiểu buck cơ bản 5
+Trang 24, Câu 715: Mạch gồm có nguồn, công tắc bán dẫn thường là BJT hoặc MOSFET được điều khiển đóng mở với tần số cao TR1 bởi mạch điều khiển, kết hợp với diode D1, cuộn cảm L1, tụ lọc
+Trang 24, Câu 716: C1 để giúp cho mức điện áp đầu ra đạt được như mong muốn
+Trang 24, Câu 717: Mạch sẽ có 2 giai đoạn hoạt động là dựa vào công tắc TR1 ON hay OFF
+Trang 24, Câu 718: TR1 ON
+Trang 24, Câu 719: Khi đó diode D1 sẽ không cho dòng điện chạy qua, dòng điện sẽ đi qua cuộn cảm L1 đi qua tải đồng thời cũng nạp năng lượng về cho tụ C1, đồng thời cũng tạo ra một từ trường ở phía trong cuộn dây
+Trang 24, Câu 720: TR1 OFF
+Trang 24, Câu 721: Lúc này dòng điện từ nguồn đến bị ngắt đột ngột, lúc này trong cuộn dây có sự thay đổi từ thông 1 cách đột ngột từ đó sinh ra một dòng điện cảm ứng tiếp tục chạy qua tải và trở về cuộn dây thông qua diode
+Trang 24, Câu 722: Nguồn xung boost
+Trang 24, Câu 723: Đây là nguồn xung ngược với kiểu buck khi điện áp đầu ra sẽ cao hơn so với điện áp đầu vào
+Trang 24, Câu 724: Cấu tạo của nguồn xung này cũng gần giống với kiểu buck chỉ khác ở cách sắp xếp các linh kiện
+Trang 25, Câu 725: 8
+Trang 25, Câu 726: Hình 2
+Trang 25, Câu 727: 5
+Trang 25, Câu 728: Mạch nguồn xung kiểu boost cơ bản 5
+Trang 25, Câu 729: TR1 ON
+Trang 25, Câu 730: Dòng điện đi qua cuộn dây rồi về mass, vì vậy sẽ tạo ra hiện tượng ngắn mạch khiến dòng điện tăng lên và tích trữ trong cuộn dây, đồng thời lúc đó thụ C1 sẽ đóng vai trò là nguồn nuôi cho tải
+Trang 25, Câu 731: TR1 OFF
+Trang 25, Câu 732: Lúc này dòng điện từ nguồn cộng với dòng điện đã được tích trữ từ trong cuộn cảm từ trước sẽ được đi qua diode và đi đến tải, đồng thời sẽ nạp năng lượng cho tụ, chính vì vậy mà sẽ tăng được điện áp đầu ra
+Trang 25, Câu 733: Kiểu buck boost
+Trang 25, Câu 734: Mạch tạo điện áp trái dấu, với đầu vào DC âm hoặc dương điện áp đầu ra trái dấu với điện áp đầu vào và có trị tuyệt đối có thể lớn hơn hoặc nhỏ hơn điện áp đầu vào
+Trang 25, Câu 735: Hình 2
+Trang 25, Câu 736: 6
+Trang 25, Câu 737: Mạch kiểu buck boost cơ bản 5
+Trang 26, Câu 738: 9
+Trang 26, Câu 739: TR1 ON
+Trang 26, Câu 740: Điện áp vào Vin khiến dòng đi qua cuộn dây tăng lên
+Trang 26, Câu 741: Lúc này dòng cấp cho tải chỉ là dòng do tụ phóng ra
+Trang 26, Câu 742: TR1 OFF
+Trang 26, Câu 743: Điện áp vào Vin bị ngắt ra
+Trang 26, Câu 744: Dòng đi qua cuộn dây giảm dần khiến điện áp trên nó tăng lên
+Trang 26, Câu 745: Điện áp này nạp vào tụ đồng thời mở thông diode D1 dẫn dòng phóng ra từ cuộn dây cấp nguồn cho tải
+Trang 26, Câu 746: Nguồn xung flyback
+Trang 26, Câu 747: Đây là loại nguồn linh hoạt nhất trong các loại nguồn xung thông dụng, nó cho phép ta thiết kế một hoặc nhiều đầu ra ở các mức điện áp khác nhau kể cả đầu ra điện áp âm
+Trang 26, Câu 748: Mạch flyback được sử dụng nhiều trong hệ thống cung cấp năng lượng mặt trời, gió khi từ một đầu vào yêu cầu cho nhiều mức điện áp đầu ra theo yêu cầu hệ thống thường là 5V, 12V, 12V với hiệu suất cao
+Trang 26, Câu 749: Sơ đồ nguyên lý cơ bản của mạch nguồn flyback như sau
+Trang 26, Câu 750: Hình 2
+Trang 26, Câu 751: 7
+Trang 26, Câu 752: Sơ đồ mạch nguồn xung flyback cơ bản 6
+Trang 27, Câu 753: 10
+Trang 27, Câu 754: Đặc tính quan trọng nhất của mạch nguồn flyback là cực tính 2 cuộn sơ cấp và thứ cấp
+Trang 27, Câu 755: Nếu ta muốn tạo điện áp dương thì cực tính 2 cuộn dây phải ngược nhau như trên hình, ngược lại nếu muốn tạo điện áp âm thì cực tính 2 cuộn dây phải cùng chiều
+Trang 27, Câu 756: Nguyên tắc hoạt động như sau
+Trang 27, Câu 757: Khi công tắc đóng, dòng qua cuộn sơ cấp tăng lên
+Trang 27, Câu 758: Xét cuộn sơ cấp lúc này, điện thế ở đầu có dấu chấm nhỏ hơn so với đầu còn lại dẫn đến ở cuộn thứ cấp cũng có điều tương tự
+Trang 27, Câu 759: Điện thế ở đầu có dấu chấm của cuộn thứ cấp nhỏ hơn đầu kia của nó dẫn đến điện áp âm đặt lên diode theo chiều thuận, diode bị khóa
+Trang 27, Câu 760: Nguồn cấp cho tải lúc này chỉ là do tụ phóng ra
+Trang 27, Câu 761: Khi công tắc mở, dòng qua cuộn sơ cấp giảm
+Trang 27, Câu 762: Cuộn sơ cấp lúc này có điện thế ở đầu có dấu chấm lớn hơn so với đầu còn lại, dẫn đến cuộn thứ cấp cũng có điều tương tự
+Trang 27, Câu 763: Điện áp dương đặt lên diode theo chiều thuận
+Trang 27, Câu 764: Diode mở ra dẫn dòng từ cuộn thứ cấp nạp cho tụ đồng thời cấp cho tải
+Trang 27, Câu 765: 2
+Trang 27, Câu 766: 2
+Trang 27, Câu 767: 3
+Trang 27, Câu 768: Các yếu tố khác trong nguồn xung
+Trang 27, Câu 769: Xung PWM
+Trang 27, Câu 770: Tất cả các loại nguồn xung thông dụng đều có dạng điện áp đầu ra kiểu xung vuông với tần số xác định nào đó, gọi là Pulse Width Modulation PWM , dân ta hay gọi là băm xung
+Trang 27, Câu 771: Hình 2
+Trang 27, Câu 772: 8
+Trang 27, Câu 773: Điện áp đầu ra cơ bản của nguồn xung 6
+Trang 27, Câu 774: Điện áp ở dạng xung vuông với chu kỳ Tp, độ rộng Ton chính là thời gian xung ở điện áp đỉnh Vpk
+Trang 27, Câu 775: Xung vuông này sau khi cho qua mạch lọc LC sẽ bị san phẳng thành điện áp
+Trang 28, Câu 776: 11
+Trang 28, Câu 777: một chiều có giá trị Vout như hình vẽ
+Trang 28, Câu 778: Ta có thể điều chỉnh điện áp Vout theo ý mình bằng cách điều chỉnh độ rộng xung Ton, Ton càng lớn thì Vout càng lớn và ngược lại
+Trang 28, Câu 779: Đây chính là nguyên lý hoạt động chung của các loại nguồn xung
+Trang 28, Câu 780: Biến áp xung
+Trang 28, Câu 781: Biến áp xung là một linh kiện rất quan trọng trong mạch nguồn xung
+Trang 28, Câu 782: Về cấu tạo nó gồm các cuộn dây quấn xung quanh một cái lõi, lõi thường dùng trong biến áp xung là lõi ferrite để có thể chịu được điều kiện làm việc ở tần số cao
+Trang 28, Câu 783: Biến áp xung có ưu điểm lớn là gọn nhẹ cho nên nó được sử dụng rộng rãi trong các bộ nguồn của laptop, tivi, điện thoại,
+Trang 28, Câu 784: Hình 2
+Trang 28, Câu 785: 9 Hình ảnh biến áp xung ở thực tế 10
+Trang 28, Câu 786: Biến áp cấu tạo bởi hai hoặc nhiều cuộn dây có quan hệ từ tính với nhau
+Trang 28, Câu 787: Hoạt động của biến áp là biến điện áp xoay chiều đầu vào sơ cấp thành điện áp thứ cấp có giá trị to hơn hoặc nhỏ hơn tùy theo số vòng dây quấn
+Trang 28, Câu 788: Biến áp không tạo thêm năng lượng, cho nên năng lượng ở hai đầu sơ cấp, thứ cấp phải bằng nhau const
+Trang 28, Câu 789: Đó là lí do tại sao cuộn dây nhiều vòng quấn hơn có điện áp cao hơn nhưng dòng nhỏ hơn, trong khi cuộn dây ít vòng dây quấn hơn có điện áp nhỏ hơn nhưng dòng điện lớn hơn
+Trang 28, Câu 790: Hình 2
+Trang 28, Câu 791: 10
+Trang 28, Câu 792: Cách hoạt động của biến áp và mối quan hệ giữa các đại lượng 6
+Trang 29, Câu 793: 12
+Trang 29, Câu 794: Cuộn dây
+Trang 29, Câu 795: Điện áp trên cuộn dây và dòng điện đi qua nó liên hệ theo phương trình sau
+Trang 29, Câu 796: V L di dt
+Trang 29, Câu 797: 1
+Trang 29, Câu 798: Với L là độ tự cảm của cuộn dây còn di dt đặc trưng cho sự thay đổi của dòng điện thèo thời gian
+Trang 29, Câu 799: Từ phương trình trên ta rút ra được hai đặc tính quan trọng của cuộn dây
+Trang 29, Câu 800: Chỉ có điện áp rơi trên hai đầu cuộn dây khi dòng điện đi qua nó biến thiên
+Trang 29, Câu 801: Dòng đi qua cuộn dây không thể thay đổi đột ngột, bởi vì để làm được điều đó ta cần mức điện thế vô cùng lớn
+Trang 29, Câu 802: Dòng qua cuộn dây thay đổi càng mạnh thì điện áp rơi trên nó càng lớn
+Trang 29, Câu 803: 2
+Trang 29, Câu 804: 3
+Trang 29, Câu 805: UC3843
+Trang 29, Câu 806: Đây là một loại IC thuộc họ UCx84x dùng để điều xung, cung cấp các tính năng cần thiết dùng để ứng dụng trong mạch tạo xung của các mạch chuyển đổi DC DC với tần số cố định
+Trang 29, Câu 807: Bên trong IC được tích hợp mạch khóa sụt áp undervoltage lockout , mạch hạn dòng khởi động ở mức không quá 1mA cũng như một mạch khuếch đại lỗi để tham chiếu với điện áp đầu vào
+Trang 29, Câu 808: Ngoài ra IC vẫn bao gồm mạch điều chế độ rộng xung PWM , một mạch so sánh để điều khiển hạn dòng current limit control
+Trang 29, Câu 809: Đầu ra của IC là tín hiệu dạng xung thường dùng để kết hợp với MOSFET kênh N để điều khiển dòng điện đi qua biến áp xung
+Trang 30, Câu 810: 13
+Trang 30, Câu 811: Hình 2
+Trang 30, Câu 812: 11
+Trang 30, Câu 813: Cấu tạo bên trong của UC3843 7
+Trang 30, Câu 814: Hình 2
+Trang 30, Câu 815: 12
+Trang 30, Câu 816: Sơ đồ chân của UC3843 7
+Trang 30, Câu 817: COMP
+Trang 30, Câu 818: Là chân nhận hồi tiếp về để đưa vào bộ khuếch đại lỗi ở bên trong IC, người dùng có thể đưa chu kỳ hoạt động của IC duty cycle về 0 bằng cách nối chân này với
+Trang 30, Câu 819: GROUND
+Trang 30, Câu 820: VFB
+Trang 30, Câu 821: Cũng là chân hồi tiếp về bộ khuếch đại lỗi bên trong IC, dùng để kiểm soát điện áp đầu ra ở mức ổn định
+Trang 30, Câu 822: Điện áp về chân này sẽ được so sánh với điện áp chuẩn bên trong là
+Trang 30, Câu 823: 2
+Trang 30, Câu 824: 5V, nếu lớn hơn IC sẽ giảm độ rộng xung lại, nếu nhỏ hơn sẽ tăng độ rộng xung lên để đưa về mức điện áp mong muốn
+Trang 31, Câu 825: 14
+Trang 31, Câu 826: ISENSE
+Trang 31, Câu 827: Là chân cảm dòng, thường được gắn với điện trở cảm dòng để hồi tiếp tín hiệu dòng điện ở cuộn sơ cấp về cho IC, dùng để đảm bảo dòng điện ở mức mong muốn
+Trang 31, Câu 828: RT CT
+Trang 31, Câu 829: Là chân xác định tần số dao động của mạch fosc
+Trang 31, Câu 830: Tần số này được xác định bằng cách nối chân này ở giữa một điện trở RCT và tụ điện CCT
+Trang 31, Câu 831: Ở họ UCx84x có thể cho ra tần số tối đa khoảng 500kHz
+Trang 31, Câu 832: RCT được khuyến nghị vào khoảng 5kΩ 100kΩ trong khi
+Trang 31, Câu 833: CCT vào khoảng 1nF 100nF
+Trang 31, Câu 834: Giá trị fosc được xác định như sau
+Trang 31, Câu 835: f𝑜𝑠𝑐
+Trang 31, Câu 836: 1,72
+Trang 31, Câu 837: 𝑅𝑅𝑇
+Trang 31, Câu 838: 𝐶𝐶𝑇
+Trang 31, Câu 839: 2
+Trang 31, Câu 840: GROUND
+Trang 31, Câu 841: Là chân nối mass của IC
+Trang 31, Câu 842: OUTPUT
+Trang 31, Câu 843: Là chân đưa tín hiệu xung ra của IC để đóng ngắt công tắc bán dẫn như
+Trang 31, Câu 844: MOSFET với tần số fosc
+Trang 31, Câu 845: Suy ra tần số đóng ngắt của công tắc fsw fosc
+Trang 31, Câu 846: VCC
+Trang 31, Câu 847: Là chân cấp điện áp đầu vào để cho IC hoạt động, vì chỉ yêu cầu dòng điện nhỏ vào khoảng 0
+Trang 31, Câu 848: 5mA nên chân này thường được nối với 1 điện trở để hạn dòng
+Trang 31, Câu 849: Điện áp tối đa mà VCC chịu được là 32V
+Trang 31, Câu 850: Với UC3843 thì VON 8
+Trang 31, Câu 851: 4V và VOFF 7
+Trang 31, Câu 852: 6 V
+Trang 31, Câu 853: VREF
+Trang 31, Câu 854: Là 1 chân đóng vai trò cung cấp 1 điện áp chuẩn 5V của của IC với dòng điện tối đa vào khoảng 30mA
+Trang 31, Câu 855: 2
+Trang 31, Câu 856: 4
+Trang 31, Câu 857: TL431
+Trang 31, Câu 858: Tl431 là một IC điều chỉnh điện áp có tham chiếu
+Trang 31, Câu 859: Điện áp ngõ ra có thể được thiết lập giá trị bất kỳ nằm trong khoản từ Vref 2,5V đến 36V bằng 2 con điện trở nối ở mạch ngoài
+Trang 31, Câu 860: Dòng điện xuất hiện chạy từ chân K Cathode sang chân A Athode của linh kiện có phạm vi hoạt động từ 1mA đến 100mA và có trở kháng đầu ra là 0
+Trang 31, Câu 861: 2 Ω
+Trang 31, Câu 862: IC này có tác dụng thay thế cho diode Zener trong các ứng dụng điều chỉnh chính xác điện áp nguồn, nhất là nguồn xung
+Trang 31, Câu 863: áp dụng trong mạch flyback
+Trang 32, Câu 864: 15
+Trang 32, Câu 865: Hình 2
+Trang 32, Câu 866: 13
+Trang 32, Câu 867: Cấu tạo TL431 và sơ đồ chân 8
+Trang 32, Câu 868: Nguyên lý hoạt động
+Trang 32, Câu 869: khi điện áp đặt vào chân tham chiếu R là VREF lớn hơn khoảng
+Trang 32, Câu 870: 2,48VDC 2,57VDC tuỳ trường hợp thì đó TL431 sẽ mở dòng IKA đi qua
+Trang 32, Câu 871: TL431 sẽ không dẫn dòng IKA khi VREF 2
+Trang 32, Câu 872: 5
+Trang 32, Câu 873: 2
+Trang 32, Câu 874: 5
+Trang 32, Câu 875: MOSFET
+Trang 32, Câu 876: MOSFET, viết tắt của Metal Oxide Semiconductor Field Effect Transistor trong tiếng Anh, là Transistor hiệu ứng trường Metal Oxide Semiconductor Field Effect
+Trang 32, Câu 877: Transistor tức một Transistor đặc biệt có cấu tạo và hoạt động khác với Transistor thông thường
+Trang 32, Câu 878: MOSFET có nguyên tắc hoạt động dựa trên hiệu ứng từ trường để tạo ra dòng điện, là linh kiện có trở kháng đầu vào lớn thích hợp cho khuyếch đại các nguồn tín hiệu yếu
+Trang 32, Câu 879: MOSFET có khả năng đóng nhanh với dòng điện và điện áp khá lớn nên nó được sử dụng nhiều trong các bộ dao động tạo ra từ trường
+Trang 32, Câu 880: Vì do đóng cắt nhanh làm cho dòng điện biến thiên
+Trang 32, Câu 881: Nó thường thấy trong các bộ nguồn xung và cách mạch điều khiển điện áp cao
+Trang 32, Câu 882: Hình 2
+Trang 32, Câu 883: 14
+Trang 32, Câu 884: MOSFET và kí hiệu 9
+Trang 33, Câu 885: 16
+Trang 33, Câu 886: Cấu tạo MOSFET bao gồm
+Trang 33, Câu 887: G Gate
+Trang 33, Câu 888: cực cổng
+Trang 33, Câu 889: G là cực điều khiển được cách lý hoàn toàn với cấu trúc bán dẫn còn lại bởi lớp điện môi cực mỏng nhưng có độ cách điện cực lớn dioxit silic
+Trang 33, Câu 890: S Source
+Trang 33, Câu 891: cực nguồn
+Trang 33, Câu 892: D Drain
+Trang 33, Câu 893: cực máng đón các hạt mang điện
+Trang 33, Câu 894: MOSFET có điện trở giữa cực G với cực S và giữa cực G với cực D là vô cùng lớn, còn điện trở giữa cực D và cực S phụ thuộc vào điện áp chênh lệch giữa cực G và cực S UGS
+Trang 33, Câu 895: Khi điện áp UGS 0 thì điện trở RDS rất lớn, khi điện áp UGS 0 do hiệu ứng từ trường làm cho điện trở RDS giảm, điện áp UGS càng lớn thì điện trở RDS càng nhỏ
+Trang 33, Câu 896: Hiện nay các loại MOSFET thông dụng bao gồm hai loại
+Trang 33, Câu 897: N MOSFET
+Trang 33, Câu 898: chỉ hoạt động khi nguồn điện Gate là 0, các electron bên trong vẫn tiến hành hoạt động cho đến khi bị ảnh hưởng bởi nguồn điện đầu vào
+Trang 33, Câu 899: P MOSFET
+Trang 33, Câu 900: các electron sẽ bị cut off cho đến khi gia tăng nguồn điện thế vào ngõ
+Trang 33, Câu 901: Gate
+Trang 33, Câu 902: MOSFET hoạt động ở hai chế độ đóng và mở
+Trang 33, Câu 903: Do là một phần tử với các hạt mang điện cơ bản nên MOSFET có thể đóng cắt với tần số rất cao
+Trang 33, Câu 904: Nhưng mà để đảm bảo thời gian đóng cắt ngắn thì vấn đề điều khiển lại là vấn đề quan trọng
+Trang 33, Câu 905: Mạch điện tương đương của MOSFET
+Trang 33, Câu 906: Nhìn vào đó ta thấy cơ chế đóng cắt phụ thuộc vào các tụ điện ký sinh trên nó
+Trang 33, Câu 907: Đối với kênh P
+Trang 33, Câu 908: Điện áp điều khiển mở MOSFET là UGS 0
+Trang 33, Câu 909: Dòng điện sẽ đi từ S đến D
+Trang 33, Câu 910: Đối với kênh N
+Trang 33, Câu 911: Điện áp điều khiển mở MOSFET là UGS 0
+Trang 33, Câu 912: Điện áp điều khiển đóng là UDS
+Trang 33, Câu 913: 0
+Trang 33, Câu 914: Dòng điện sẽ đi từ D xuống S
+Trang 33, Câu 915: 2
+Trang 33, Câu 916: 6
+Trang 33, Câu 917: Photocoupler Opto quang
+Trang 33, Câu 918: Photocoupler hay phần tử cách ly quang opto isolator , hay optocoupler, là một phần tử bán dẫn thực hiện truyền tín hiệu giữa hai phần mạch bị cách ly với nhau về điện bằng cách sử dụng ánh sáng
+Trang 34, Câu 919: 17
+Trang 34, Câu 920: Nguyên lý hoạt động của photocoupler đơn giản
+Trang 34, Câu 921: Có thể lập bằng linh kiện rời gồm một diode phát quang LED hướng luồng sáng vào cửa sổ của một diode quang hoặc transistor cảm quang phototransistor , tất cả gói trong vỏ che kín ánh sáng
+Trang 34, Câu 922: Khi LED phát sáng với cường độ sáng nào đó, thì vùng base của transistor cảm quang tiếp nhận ánh sáng và giảm mức điện trở thuần tương đương của transistor, làm dòng qua transistor Ic tăng
+Trang 34, Câu 923: Khi đó sẽ có hai mức độ chính
+Trang 34, Câu 924: Nếu cường độ sáng đủ mạnh, thì transistor cảm quang đạt trạng thái bão hòa
+Trang 34, Câu 925: Photocoupler thực hiện truyền tín hiệu logic, và trong thực tế đây là ứng dụng chủ yếu của photocoupler
+Trang 34, Câu 926: Nếu cường độ sáng đủ yếu, transistor cảm quang không đạt trạng thái bão hòa
+Trang 34, Câu 927: Photocoupler thực hiện truyền tín hiệu analog
+Trang 34, Câu 928: Chế độ này có thể được sử dụng nhưng không nhiều, vì rằng đường đặc tính quan hệ vào ra có đoạn tuyến tính khá hẹp, không đảm bảo truyền trung thực tín hiệu
+Trang 34, Câu 929: Hình 2
+Trang 34, Câu 930: 15 Nguyên lí hoạt động của Opto quang 10
+Trang 34, Câu 931: Photocoupler được dùng trong các thiết bị số cần đến cách ly điện với nhau, nhằm tránh sốc điện hoặc gây nhiễu lẫn nhau
+Trang 34, Câu 932: Các thiết bị đo đạc thí nghiệm thường được thiết kế số hóa số liệu, và truyền số liệu sang máy tính nhúng thông qua photocoupler
+Trang 34, Câu 933: Khi đó các phần mạch được cung cấp nguồn từ các module nguồn khác nhau
+Trang 34, Câu 934: Photocoupler cũng được tích hợp lên các transistor, MOSFET, IGBT, TRIAC công suất lớn để đóng mở dòng điện
+Trang 34, Câu 935: Các linh kiện hợp thành này thường được gọi là rơ le bán dẫn
+Trang 34, Câu 936: 2
+Trang 34, Câu 937: 7
+Trang 34, Câu 938: Một số linh kiện khác cần dùng trong mạch
+Trang 34, Câu 939: 2
+Trang 34, Câu 940: 7
+Trang 34, Câu 941: 1
+Trang 34, Câu 942: Điện trở
+Trang 35, Câu 943: 18
+Trang 35, Câu 944: Điện trở Resistor là một linh kiện điện tử thụ động gồm hai tiếp điểm kết nối, thường được dùng để hạn chế cường độ dòng điện chảy trong mạch, điều chỉnh mức độ tín hiệu, dùng để chia điện áp, kích hoạt các linh kiện điện tử chủ động như transistor, tiếp điểm cuối trong đường truyền điện và có trong rất nhiều ứng dụng khác
+Trang 35, Câu 945: Điện trở công suất có thể tiêu tán một lượng lớn điện năng chuyển sang nhiệt năng có trong các bộ điều khiển động cơ, trong các hệ thống phân phối điện
+Trang 35, Câu 946: Các điện trở thường có trở kháng cố định, ít bị thay đổi bởi nhiệt độ và điện áp hoạt động
+Trang 35, Câu 947: Biến trở là loại điện trở có thể thay đổi được trở kháng như các núm vặn điều chỉnh âm lượng
+Trang 35, Câu 948: Các loại cảm biến có điện trở biến thiên như
+Trang 35, Câu 949: cảm biến nhiệt độ, ánh sáng, độ ẩm, lực tác động và các phản ứng hóa học
+Trang 35, Câu 950: Hình 2
+Trang 35, Câu 951: 16
+Trang 35, Câu 952: Kí hiệu của điện trở trong mạch điện 10
+Trang 35, Câu 953: 2
+Trang 35, Câu 954: 7
+Trang 35, Câu 955: 2
+Trang 35, Câu 956: Tụ điện
+Trang 35, Câu 957: Tụ điện là một thiết bị điện tử không thể thiếu trong các mạch lọc
+Trang 35, Câu 958: mạch dao dộng và các loại mạch truyền dẫn tín hiệu xoay chiều
+Trang 35, Câu 959: Tụ điện tên tiếng anh là Capacitor, là một loại linh kiện điện tử thụ động tạo bởi hai bề mặt dẫn điện được ngăn cách bởi điện môi
+Trang 35, Câu 960: Khi có chênh lệch điện thế tại hai bề mặt, tại các bề mặt sẽ xuất hiện điện tích cùng điện lượng nhưng trái dấu
+Trang 35, Câu 961: Về mặt lưu trữ năng lượng, tụ điện có phần giống với ắc qui
+Trang 35, Câu 962: Mặc dù cách hoạt động của chúng thì hoàn toàn khác nhau, nhưng chúng đều cùng lưu trữ năng lượng điện
+Trang 35, Câu 963: Nói cách khác tụ điện là một linh kiện điện tử thụ động rất phổ biến, được cấu tạo bới hai bản cực đặt song song, có tính chất cách điện 1 chiều nhưng cho dòng điện xoay chiều đi qua nhờ nguyên lý phóng nạp
+Trang 35, Câu 964: Những loại tụ điện phổ biến
+Trang 35, Câu 965: Tụ hóa
+Trang 35, Câu 966: là tụ có phân cực , và luôn có hình trụ
+Trang 35, Câu 967: Trên thân tụ được thể hiện giá trị điện dung từ 0,47 µF đến 4700 µF
+Trang 35, Câu 968: Tụ giấy, tụ mica và tụ gốm
+Trang 35, Câu 969: là tụ không phân cực và có hình dẹt, không phân biệt âm dương
+Trang 35, Câu 970: Có trị số được ký hiệu trên thân bằng ba số, điện dung của tụ thường khá nhỏ, chỉ khoảng 0,47 µF
+Trang 36, Câu 971: 19
+Trang 36, Câu 972: Tụ xoay
+Trang 36, Câu 973: là tụ có thể xoay để thay đổi giá trị điện dung, tụ này thường được lắp trong
+Trang 36, Câu 974: Radio để thay đổi tần số cộng hưởng khi ta dò đài
+Trang 36, Câu 975: Tụ Lithium ion
+Trang 36, Câu 976: có năng lượng cực cao dùng để tích điện 1 chiều
+Trang 36, Câu 977: Hình 2
+Trang 36, Câu 978: 17
+Trang 36, Câu 979: Kí hiệu tụ điện
+Trang 36, Câu 980: 10
+Trang 36, Câu 981: 2
+Trang 36, Câu 982: 7
+Trang 36, Câu 983: 3
+Trang 36, Câu 984: Transitor
+Trang 36, Câu 985: Transistor hay còn gọi là tranzito là một loại linh kiện bán dẫn chủ động
+Trang 36, Câu 986: Thường được sử dụng như một phần tử khuếch đại hay khóa điện tử
+Trang 36, Câu 987: Với khả năng đáp ứng nhanh, chính xác nên transistor được sử dụng nhiều trong ứng dụng tương tự và số như
+Trang 36, Câu 988: mạch khuếch đại, điều chỉnh điện áp, tạo dao động và điều khiển tín hiệu
+Trang 36, Câu 989: Hình 2
+Trang 36, Câu 990: 18
+Trang 36, Câu 991: Cấu tạo và phân loại transitor 10
+Trang 36, Câu 992: Về mặt cấu tạo, transistor được tạo thành từ hai lớp bán dẫn điện ghép lại với nhau
+Trang 36, Câu 993: Như hình trên chúng ta có thể thấy có hai loại bán dẫn điện là loại P dương và loại N âm
+Trang 36, Câu 994: Khi ghép một bán dẫn điện âm nằm giữa hai bán dẫn điện dương ta được Transistor loại PNP
+Trang 36, Câu 995: Còn khi ghép một bán dẫn điện dương nằm giữa hai bán dẫn điện âm ta được Transistor loại
+Trang 37, Câu 996: 20
+Trang 37, Câu 997: NPN
+Trang 37, Câu 998: Chính vì thế Transistor được chia ra làm hai loại là NPN và PNP
+Trang 37, Câu 999: Ba lớp bán dẫn được nối ra thành ba cực, lớp giữa gọi là cực gốc ký hiệu là B Base , lớp bán dẫn B rất mỏng và có nồng độ tạp chất thấp
+Trang 37, Câu 1000: separator
+Trang 37, Câu 1001: Hai lớp bán dẫn bên ngoài được nối ra thành cực phát
+Trang 37, Câu 1002: Emitter viết tắt là E, và cực thu Collector viết tắt là C, vùng bán dẫn E và C có cùng loại bán dẫn loại N hay P nhưng có kích thước và nồng độ tạp chất khác nhau nên không hoán vị cho nhau được
+Trang 37, Câu 1003: Transistor giống như 1 công tắc điện tử
+Trang 37, Câu 1004: Nó có thể bật hoặc tắt dòng điện, có thể xem nó như
+Trang 37, Câu 1005: 1 cái rơle nhưng không có bộ phận chuyển động
+Trang 37, Câu 1006: Transistor hoạt động nhờ vật liệu bán dẫn
+Trang 37, Câu 1007: Dòng điện chạy từ cực gốc đến cực phát sẽ cho phép một dòng điện khác đi từ cực thu đến cực phát
+Trang 37, Câu 1008: 2
+Trang 37, Câu 1009: 7
+Trang 37, Câu 1010: 4 Diode
+Trang 37, Câu 1011: Diode là một linh kiện điện tử bán dẫn được chế tạo bởi hợp chất giữa Silic, Photpho và Bori
+Trang 37, Câu 1012: Ba nguyên tố này được pha tạp với nhau tạo ra hai lớp bán dẫn loại P và loại N được tiếp xúc với nhau
+Trang 37, Câu 1013: Một cực của diode đấu với lớp P được gọi là Anode, cực còn lại đấu với lớp N được gọi là Cathode
+Trang 37, Câu 1014: Đặc tính cơ bản nhất của một diode đó là chỉ cho phép dòng điện đi từ A sang K
+Trang 37, Câu 1015: Có thể coi diode là một van điện một chiều, trong nhiều mạch điện chúng ta chỉ muốn dòng điện đi theo một chiều cố định thì cần dùng diode để làm nhiệm vụ này
+Trang 37, Câu 1016: Hình 2
+Trang 37, Câu 1017: 19
+Trang 37, Câu 1018: Kí hiệu diode trong mạch điện 10
+Trang 37, Câu 1019: Diode có nhiều loại và mỗi loại có công dụng và vai trò khác nhau
+Trang 38, Câu 1020: 21
+Trang 38, Câu 1021: Diode chỉnh lưu
+Trang 38, Câu 1022: Thường hoạt động ở dải tần thấp, chịu được dòng điện lớn và có áp ngược chịu đựng dưới 1000V
+Trang 38, Câu 1023: Những diode này chủ yếu để dùng chỉnh lưu dòng điện xoay chiều
+Trang 38, Câu 1024: Diode xung
+Trang 38, Câu 1025: Là những diode có tần số đáp ứng cao từ vài chục kilo Hecz đến cả Mega
+Trang 38, Câu 1026: Hezt
+Trang 38, Câu 1027: Những diode này thường được sử dụng nhiều trong các bo nguồn xung, các thiết bị điện tử cao tần
+Trang 38, Câu 1028: Diode phát quang
+Trang 38, Câu 1029: Là những đèn LED được sử dụng nhiều làm đèn chiếu sáng, đèn báo hiệu, đèn quảng cáo
+Trang 38, Câu 1030: Diode ổn áp zenner
+Trang 38, Câu 1031: Được sử dụng rất nhiều trong các mạch nguồn điện áp thấp bởi đặc tính ổn áp của nó
+Trang 38, Câu 1032: Đây là một diode có chức năng hoạt động rất đặc biệt vì có thể cho dòng điện chạy từ K sang A nếu như nguồn điện áp đủ lớn hơn điện áp ghim của nó
+Trang 38, Câu 1033: Khi có dòng điện ngược chạy qua thì nó ghim lại một điện áp ghim như thông số trên datasheet của nó
+Trang 39, Câu 1034: 22
+Trang 39, Câu 1035: Chương 3
+Trang 39, Câu 1036: TÍNH TOÁN, THIẾT KẾ, THỰC HIỆN HỆ THỐNG
+Trang 39, Câu 1037: 3
+Trang 39, Câu 1038: 1
+Trang 39, Câu 1039: Sơ đồ hệ thống mạch sạc
+Trang 39, Câu 1040: Mạch sạc sẽ dựa trên nguyên tắc hoạt động của nguồn xung flyback, có nghĩa là ta vẫn giữ nguyên điện áp không đổi nhưng sau khi qua nguồn xung flyback ta có thể tùy chỉnh dòng điện đầu ra nhờ vào kích thước của dây quấn biến áp
+Trang 39, Câu 1041: Mạch sạc bao gồm các phần chính sau
+Trang 39, Câu 1042: Hình 3
+Trang 39, Câu 1043: 1
+Trang 39, Câu 1044: Sơ đồ khối của mạch
+Trang 39, Câu 1045: Trong đồ án này người nghiên cứu sẽ nghiên cứu dựa trên mạch nguồn xung flyback của hãng Texas Instruments với đầu ra là 12V 4A
+Trang 39, Câu 1046: Vì vậy người nghiên cứu sẽ tính toán thiết kế mạch với đầu ra 12V 4A
+Trang 39, Câu 1047: sau khi mạch đã chạy đạt yêu cầu, người nghiên cứu sẽ tính toán điều chỉnh lại các thông số phù hợp cũng như thực nghiệm để mạch đạt được đầu ra như mong muốn là 300 và dòng tối đa là 1A
+Trang 39, Câu 1048: 300V DC 1A
+Trang 39, Câu 1049: Mạch chỉnh lưu
+Trang 39, Câu 1050: Biến áp xung
+Trang 39, Câu 1051: 220V AC
+Trang 39, Câu 1052: Bộ tạo xung
+Trang 39, Câu 1053: Mạch hồi tiếp
+Trang 40, Câu 1054: 23
+Trang 40, Câu 1055: Hình 3
+Trang 40, Câu 1056: 2
+Trang 40, Câu 1057: Sơ đồ mạch điện của hãng Texas Instruments
+Trang 40, Câu 1058: 7
+Trang 40, Câu 1059: 3
+Trang 40, Câu 1060: 2
+Trang 40, Câu 1061: Thiết kế mạch chỉnh lưu
+Trang 40, Câu 1062: 3
+Trang 40, Câu 1063: 2
+Trang 40, Câu 1064: 1
+Trang 40, Câu 1065: Thiết kế và tính toán mạch
+Trang 40, Câu 1066: Mạch có vai trò tạo ra dòng điện áp 1 chiều ổn định để cung cấp cho biến áp xung hoạt động
+Trang 40, Câu 1067: Lựa chọn linh kiện
+Trang 40, Câu 1068: KBL610
+Trang 40, Câu 1069: Là một loại cầu diode với khả năng cho ra dòng điện cao 6A và có thể chịu một điện áp ngược lên đầu các diode lên tới 1000V thường dùng để chỉnh lưu mạng điện 220
+Trang 40, Câu 1070: AC
+Trang 40, Câu 1071: Cuộn lọc
+Trang 40, Câu 1072: được đặt đầu vào của nguồn dùng để lọc nhiễu, ổn định dòng điện cho nguồn
+Trang 40, Câu 1073: Tụ lọc nguồn xoay chiều 0
+Trang 40, Câu 1074: 1uF 310V
+Trang 40, Câu 1075: Dùng để lọc nguồn xoay chiều
+Trang 40, Câu 1076: Cầu chì 1A
+Trang 40, Câu 1077: Dùng để bảo vệ các linh kiện điện tử trong mạch đề phòng các trường hợp ngắn mạch
+Trang 40, Câu 1078: Điện trở nhiệt NTC 5D 8
+Trang 40, Câu 1079: dùng để bảo vệ mạch quá nhiệt
+Trang 41, Câu 1080: 24
+Trang 41, Câu 1081: Tụ 100uF 450V
+Trang 41, Câu 1082: Dùng để lọc nguồn đầu ra của điện áp DC, làm phẳng điện áp
+Trang 41, Câu 1083: Hình 3
+Trang 41, Câu 1084: 2
+Trang 41, Câu 1085: Sơ đồ của mạch chỉnh lưu
+Trang 41, Câu 1086: 3
+Trang 41, Câu 1087: 2
+Trang 41, Câu 1088: 2
+Trang 41, Câu 1089: Mạch thực tế và thử nghiệm
+Trang 41, Câu 1090: Hình 3
+Trang 41, Câu 1091: 3
+Trang 41, Câu 1092: Hình ảnh mạch thực tế sau khi hoàn thành
+Trang 41, Câu 1093: Kết quả
+Trang 41, Câu 1094: Mạch chạy đưa ra điện áp khoảng 310V DC
+Trang 41, Câu 1095: 3
+Trang 41, Câu 1096: 3
+Trang 41, Câu 1097: Mạch thử nghiệm tạo xung cho UC3843
+Trang 41, Câu 1098: 3
+Trang 41, Câu 1099: 3
+Trang 41, Câu 1100: 1 Thiết kế mạch
+Trang 41, Câu 1101: Đây là mạch thử nghiệm đặc tính tạo xung cũng như giúp ta biết được các yếu tố liên quan đến việc điều khiển xung của UC3843
+Trang 41, Câu 1102: Ở mạch này IC sẽ được lắp với nguồn pin 16V, ngoài ra còn có hai biến trở để giả lập tín hiệu hồi tiếp về cho IC để quan sát được sự thay đổi trong đầu ra xung
+Trang 42, Câu 1103: 25
+Trang 42, Câu 1104: Hình 3
+Trang 42, Câu 1105: 4 Mạch tạo thử nghiệm tạo xung của IC 7
+Trang 42, Câu 1106: Ở mạch này IC sẽ được lắp với nguồn Vcc pin 16V, ngoài ra còn có hai biến trở 1K và
+Trang 42, Câu 1107: 5K để giả lập tín hiệu hồi tiếp về cho IC để quan sát được sự thay đổi trong đầu ra xung
+Trang 42, Câu 1108: Tần số xung sẽ được cố định bởi R1 và CRCT
+Trang 42, Câu 1109: Ở đây người nghiên cứu sẽ dùng R1 10K và CRCT
+Trang 42, Câu 1110: 1nF để cho ra tần số 172kHz
+Trang 42, Câu 1111: 3
+Trang 42, Câu 1112: 3
+Trang 42, Câu 1113: 2
+Trang 42, Câu 1114: Mạch thực tế và tiến hành thực nghiệm
+Trang 42, Câu 1115: Hình 3
+Trang 42, Câu 1116: 5 Mạch test thực tế
+Trang 43, Câu 1117: 26
+Trang 43, Câu 1118: Tiến hành thực nghiệm, người nghiên cứu cấp nguồn pin 16V vào cho mạch, sử dụng máy đo dao động ký để đo xung đầu ra ở chân OUTPUT
+Trang 43, Câu 1119: Tiến hành đo lần lượt hai lần để quan sát xung ra và sự thay đổi của xung ứng vỗi giá trị biến trở khác nhau
+Trang 43, Câu 1120: Lần một
+Trang 43, Câu 1121: RE A 0
+Trang 43, Câu 1122: 2kΩ, RISENSE 0
+Trang 43, Câu 1123: 5kΩ
+Trang 43, Câu 1124: Hình 3
+Trang 43, Câu 1125: 6
+Trang 43, Câu 1126: Đầu ra chân output của mạch lần đo 1
+Trang 43, Câu 1127: Lần hai
+Trang 43, Câu 1128: RE A 0
+Trang 43, Câu 1129: 2kΩ, RISENSE 2
+Trang 43, Câu 1130: 7kΩ
+Trang 43, Câu 1131: Hình 3
+Trang 43, Câu 1132: 7 Đầu ra chân output lần đo hai
+Trang 44, Câu 1133: 27
+Trang 44, Câu 1134: Kết luận
+Trang 44, Câu 1135: Qua hai lần đo ta thấy tần số đã được cố định ở mức 140kHz, sai lệch so với mong muốn ban đầu, có thể là do sai lệch trong giá trịđiện trở và tụ cũng như hiệu suất của mạch
+Trang 44, Câu 1136: Ứng với hai giá trị RISENSE khác nhau ta thấy độ rộng xung đầu ra khác nhau, từ đó suy ra IC điều chỉnh điện áp đầu ra dược như mong muốn nhờ vào khả năng thay đổi độ rộng xung của đầu ra thông qua giá trị điện áp hồi tiếp về cho IC
+Trang 44, Câu 1137: 3
+Trang 44, Câu 1138: 4
+Trang 44, Câu 1139: Mạch điện hạ áp 12V
+Trang 44, Câu 1140: 3
+Trang 44, Câu 1141: 4
+Trang 44, Câu 1142: 1
+Trang 44, Câu 1143: Mạch bảo vệ MOSFET Snubber
+Trang 44, Câu 1144: Trong biến áp xung ta có nhiều cuộn dây quấn với nhau, mỗi cuộn dây sẽ có một độ tự cảm khác nhau, chính điều này khiến sự kết hợp từ thông không được kết hợp hoàn toàn sẽ tạo ra điện cảm rò rỉ hay còn gọi là độ cảm rò của biến áp
+Trang 44, Câu 1145: Khi hoạt động trong mạch nguồn xung, MOSFET sẽ đóng ngắt với tần số cao, khiến cho hai đầu cuộn dây sơ cấp xuất hiện một điện áp ngược phụ thuộc vào độ cảm rò của biến áp , điện áp này sẽ tạo ra các xung gai khiến cho điện áp đặt lên cực Drain rất lớn có thể đánh thủng được MOSFET
+Trang 44, Câu 1146: Hình 3
+Trang 44, Câu 1147: 8 Điện áp ở cực Drain của MOSFET trong 1 chu kỳ làm việc
+Trang 44, Câu 1148: Chính vì vậy cần phải có một mạch làm tiêu hao đi năng lượng điện cảm này
+Trang 44, Câu 1149: Mạch gồm một điện trở và một tụ điện cao áp kết hợp với 1 diode có tác dụng triệt tiêu điện điện áp rò ở hai đầu cuộn dây sơ cấp
+Trang 45, Câu 1150: 28
+Trang 45, Câu 1151: Hình 3
+Trang 45, Câu 1152: 9 Sơ đồ của mạch khử dòng rò
+Trang 45, Câu 1153: 3
+Trang 45, Câu 1154: 4
+Trang 45, Câu 1155: 2
+Trang 45, Câu 1156: Mạch cấp nguồn cho UC3843 và biến áp
+Trang 45, Câu 1157: UC3843 chỉ hoạt động khi dược cấp điện áp vào chân VCC lớn hơn 8
+Trang 45, Câu 1158: 4V, tối đa là 32V và ngừng hoạt động khi điện áp nhỏ hơn 7
+Trang 45, Câu 1159: 6V, vì vậy cần phải thiết kế một nguồn điện ổn định cấp cho IC hoạt động từ điện áp đầu vào
+Trang 45, Câu 1160: Hình 3
+Trang 45, Câu 1161: 10 Mạch cấp nguồn cho UC3843
+Trang 46, Câu 1162: 29
+Trang 46, Câu 1163: Ở đây, biến áp được thiết kế có một cuộn dây để hạ áp, cấp điện về nuôi cho IC, tuy nhiên, nguồn này chỉ có điện khi IC đã bắt đầu tạo ra xung và biến áp bắt đầu làm việc
+Trang 46, Câu 1164: Vì thế, đầu tiên dòng điện 300V một chiều sẽ được đưa qua một điện trở công suất RSTART vào khoảng 100K, điện áp sẽ bị sụt xuống chỉ còn khoảng 10V đặt vào VCC sẽ khiến cho IC bắt đầu hoạt động
+Trang 46, Câu 1165: Khi IC đã hoạt động sẽ rất ngốn dòng, khiến cho dòng điện đi qua RSTART không đủ để nuôi cho IC
+Trang 46, Câu 1166: Nhưng lúc này biến áp đã hoạt động, vì vậy sẽ có dòng điện từ cuộn nuôi đưa về, được lọc thông qua diode xung và tụ, điện áp này đủ ổn định để giúp UC3843 hoạt động
+Trang 46, Câu 1167: Đầu ra output sẽ dạng xung PWM được đưa vào cực Gate của MOSFET để điều khiển đóng ngắt dòng điện qua cuộn dây sơ cấp
+Trang 46, Câu 1168: Rcs đóng vai trò là một cầu phân áp để cấp tín hiệu về dòng điện cho IC ở mạch hồi tiếp dòng
+Trang 46, Câu 1169: 3
+Trang 46, Câu 1170: 4
+Trang 46, Câu 1171: 3
+Trang 46, Câu 1172: Mạch hồi tiếp dòng
+Trang 46, Câu 1173: Đầu ra của mạch phải đáp ứng đủ điều kiện mong muốn về điện áp và dòng điện
+Trang 46, Câu 1174: Ngoài ra trong quá trình làm việc, dòng điện sinh ra từ độ cảm rò và các sự cố chập cháy ở tải sẽ khiến dòng điện tăng đột biến trên cuộn sơ cấp gây chập cháy các linh kiện hoặc khi có tải tiêu thụ điện quá nhiều sẽ khiến dòng điện bị sụt giảm ở đầu ra từ đó ảnh hưởng điến dòng điện ở cuộng sơ cấp
+Trang 46, Câu 1175: Chính vì vậy mạch hồi tiếp dòng được thêm vào để gửi các tín hiệu về dòng điện cũng như điều chỉnh độ rộng xung một cách thích hợp để điều chỉnh dòng điện về như mức mong muốn
+Trang 46, Câu 1176: Hình 3
+Trang 46, Câu 1177: 11 Mạch hồi tiếp dòng dành cho UC3843
+Trang 47, Câu 1178: 30
+Trang 47, Câu 1179: Như trong hình 3
+Trang 47, Câu 1180: 11, tín hiệu hồi tiếp về chân ISENSE của IC có dạng điện áp là biểu thị cho dòng điện ISENSE đi qua MOSFET, thông qua điện trở Rcs, do độ cảm rò trong máy biến áp kết hợp với điện áp dội ngược từ phía thứ cấp cho nên tín hiệu này có các xung gai
+Trang 47, Câu 1181: Do đó tín hiệu dòng điện bên sơ cấp sẽ đi qua một mạch lọc, mạch lọc này gồm một điện trở ký hiệu là RCSF và một tụ điện ký hiệu là CCSF, sau khi đi qua mạch lọc thì tín hiệu dòng điện sẽ chuẩn hơn như hình
+Trang 47, Câu 1182: Chân ISENSE của IC được quy định nếu điện áp đầu vào lớn hơn 1V thì IC sẽ giảm độ rộng xung, do đó dảm bảo dòng điện không vượt quá ngưỡng quy định
+Trang 47, Câu 1183: Để làm cho mạch hoạt động ổn định, tín hiệu nạp xả của tụ điện CCT có dạng sóng răng cưa sẽ được đưa vào chân ISENSE kết hợp với tín hiệu dòng điện bên cuộn sơ cấp
+Trang 47, Câu 1184: Tín hiệu có dạng sóng răng cưa này được đưa qua một transistor NPN mà cực Collector của nó được nối vào chân điện áp chuẩn VREF, sau đó nó sẽ đi qua tụ điện CRAMP và điện trở RRAMP rồi được đưa vào chân ISENSE
+Trang 47, Câu 1185: 3
+Trang 47, Câu 1186: 4
+Trang 47, Câu 1187: 4 Mạch hồi tiếp áp
+Trang 47, Câu 1188: Mạch hồi tiếp áp được tạo ra nhằm đáp ứng được đầu ra điện áp của mạch được như mong muấn và chạy ổn định
+Trang 47, Câu 1189: Điện áp này được điều khiển dựa vào việc thay đổi chu kì làm việc của MOSFET thông qua chân VFB của UC3843
+Trang 47, Câu 1190: Ở đây người nghiên cứu sẽ sử dụng dạng hồi tiếp qua TL431 có cách ly qua photo quang
+Trang 47, Câu 1191: Hình 3
+Trang 47, Câu 1192: 12
+Trang 47, Câu 1193: Mạch hồi tiếp áp 7
+Trang 47, Câu 1194: AVout
+Trang 47, Câu 1195: AVREF
+Trang 48, Câu 1196: 31
+Trang 48, Câu 1197: Hai điện trở RFBU và RFBB sẽ kết hợp với nhau tạo thànnh một cầu phân áp để đưa tín hiệu vào chân tham chiếu R của TL431, giá trị điện áp này là khoảng 2
+Trang 48, Câu 1198: 5V để kích hoạt cho
+Trang 48, Câu 1199: TL431 hoat động
+Trang 48, Câu 1200: Vì vậy để mong muốn điện áp ra khoảng 12 V, thì cặp điện trở cầu phân áp sẽ được chọn là RFBU 9
+Trang 48, Câu 1201: 53kΩ, RFBB 2
+Trang 48, Câu 1202: 49kΩ
+Trang 48, Câu 1203: Khi điện áp vào chân R nhỏ hơn 2
+Trang 48, Câu 1204: 5V,có nghĩa là Vout 12V lúc này TL431 chưa dẫn, vì vậy không có tín hiệu hồi tiếp về chân VFB
+Trang 48, Câu 1205: Lúc này IC sẽ tiếp tục băm xung để đưa mức điện áp đầu ra đạt dược 12V
+Trang 48, Câu 1206: Khi Vout 12V, VR 2
+Trang 48, Câu 1207: 5 V, lúc này TL431 xuất hiện dòng IKA, đồng nghĩa với việc có dòng qua opto quang làm led phát sáng, opto dẫn và có điện áp hồi tiếp về chân VFB
+Trang 48, Câu 1208: Lúc này IC sẽ điều chỉnh giảm chu kỳ làm việc lại, có thể về 0 để giảm Vout về gần với giá trị 12V
+Trang 48, Câu 1209: Ở đây có một dòng điện từ ngõ ra qua điện trở RTLbias qua diode zener 10V xuống mass
+Trang 48, Câu 1210: Mạch điện đó sẽ tạo ra một dòng điện 10 mA cấp cho cực Cathode của TL431, làm cho TL431 hoạt động với hiệu suất tối ưu
+Trang 48, Câu 1211: Ngoài ra trong mạch điện ổn áp còn có các linh kiện khác để làm cho mạch điện hoạt động ổn định
+Trang 48, Câu 1212: Đó là điện trở RCOMPZ mắc nối tiếp với tụ điện CCOMPZ, sau đó chúng được nối với cầu phân áp và cực Cathode của TL431
+Trang 48, Câu 1213: Điện trở RCOMPp mắc song song với tụ điện CCOMPp và chúng nối chân VFB với chân COMP của UC3843
+Trang 48, Câu 1214: Điện trở RFBG nối Opto với chân VFB của UC2843
+Trang 48, Câu 1215: Điện trở ROPTO nối Opto với mass
+Trang 48, Câu 1216: Những linh kiện đó sẽ tạo ra các hàm truyền, hàm hồi tiếp, điểm không, điểm cực được phân tích trong miền tần số để làm cho mạch điện hoạt động ổn định
+Trang 48, Câu 1217: Những lý thuyết phân tích trong miền tần số tương đối phức tạp và sẽ không được đề cập trong đồ án này
+Trang 48, Câu 1218: 3
+Trang 48, Câu 1219: 4
+Trang 48, Câu 1220: 5
+Trang 48, Câu 1221: Mạch khởi động nhanh cho UC3843
+Trang 48, Câu 1222: Khi khởi động, IC nên được điều khiển để mở rộng dần xung PWM từ chu kỳ hoạt động bằng 0
+Trang 48, Câu 1223: Vì họ UCx84x không được trang bị sẵn mạch điều khiển khởi động này, nên cần phải có mạch ở bên ngoài
+Trang 48, Câu 1224: Mạch gồm một cặp điện trở và tụ R C giữa hai chân VREF và
+Trang 48, Câu 1225: COMP dùng để cố định thời gian cho đầu ra của bộ khuếch đại lỗi nhờ vậy mà độ rộng xung sẽ khởi động một cách từ từ
+Trang 48, Câu 1226: Tuy nhiên, khi hoạt động mỗi chân còn có vai trò riêng nên cần phải có một transitor để cách ly giữa hai chân này
+Trang 48, Câu 1227: Đồng thời transitor này cũng góp phần
+Trang 49, Câu 1228: 32
+Trang 49, Câu 1229: giảm thiểu ảnh hưởng của tải lên bộ cố định tần số dao dộng RT CT
+Trang 49, Câu 1230: Ở đây người nghiên cứu chọn giá trị Rss 10kΩ, Css 10nF
+Trang 49, Câu 1231: Hình 3
+Trang 49, Câu 1232: 13 Mạch khởi động nhanh cho UC3843 7
+Trang 49, Câu 1233: 3
+Trang 49, Câu 1234: 4
+Trang 49, Câu 1235: 6
+Trang 49, Câu 1236: Lựa chọn chế độ làm việc cho mạch
+Trang 49, Câu 1237: Mạch nguồn xung flyback có hai chế độ hoạt động đó là chế độ dòng điện không liên tục discontinuous conduction mode DCM và chế độ dòng điện liên tục continuous conduction mode CCM
+Trang 49, Câu 1238: Mỗi chế độ đều có ưu và nhược điểm của nó
+Trang 49, Câu 1239: Chế độ DCM tạo ra sự chuyển mạch tốt hơn cho diode chỉnh lưu DOUT ở đầu ra bởi vì dòng điện đi qua diode Io sẽ về không trước khi nó bị phân cực ngược
+Trang 49, Câu 1240: Kích thước của máy biến áp sẽ nhỏ hơn bởi vì năng lượng tích trữ trong máy biến áp thấp hơn so với chế độ CCM
+Trang 49, Câu 1241: Tuy nhiên chế độ DCM có nhược điểm là tạo ra dòng điện đỉnh Ipk cao qua đó sẽ làm tăng sự thất thoát của dòng điện khi qua MOSFET và tụ điện COUT ở đầu ra phải chịu áp lực lớn hơn
+Trang 49, Câu 1242: Chế độ DCM thường được dùng trong các ứng dụng có đầu ra điện áp cao và dòng thấp
+Trang 49, Câu 1243: Còn chế độ CCM được dùng trong ứng dụng đầu ra điện áp thấp và dòng cao
+Trang 49, Câu 1244: Trong mạch điện hạ áp này ta mong muốn điện áp đầu ra là 12 V và dòng điện là 4 A nên ta sẽ chọn chế độ CCM cho mạch điện để tính toán thiết kế biến áp xung
+Trang 50, Câu 1245: 33
+Trang 50, Câu 1246: Hình 3
+Trang 50, Câu 1247: 14 Cách dòng điện hoạt động ở trong mạch ở hai chế độ DCM và CCM 11
+Trang 50, Câu 1248: 3
+Trang 50, Câu 1249: 4
+Trang 50, Câu 1250: 7
+Trang 50, Câu 1251: Tính toán thiết kế biến áp xung
+Trang 50, Câu 1252: Điện áp xoay chiều đầu vào đang sử dụng có điện áp Vline 220V, tuy nhiên đó chỉ là giá trị trung bình của nguồn, vì vậy ta cần chọn giá trị điện áp thấp nhất và điện áp cao nhất của nguồn
+Trang 50, Câu 1253: Ở đây người nghiên cứu chọn giá trị Vlinemin 85V, Vlinemax 265V, với tần số fline
+Trang 50, Câu 1254: 50Hz
+Trang 50, Câu 1255: Ta có công suất đầu ra
+Trang 50, Câu 1256: Pout 12 x 4 48W 3
+Trang 50, Câu 1257: Ở mạch này người nghiên cứu sẽ chọn hiệu suất của mạch là khoảng 0
+Trang 50, Câu 1258: 8, vậy công suất đầu vào sẽ là
+Trang 50, Câu 1259: Pin
+Trang 50, Câu 1260: 48
+Trang 50, Câu 1261: 0,8 60W 4
+Trang 50, Câu 1262: Điện áp một chiều đầu vào nhỏ nhất dược tính bới công thức
+Trang 50, Câu 1263: VDC
+Trang 50, Câu 1264: min 2
+Trang 50, Câu 1265: Vline
+Trang 50, Câu 1266: min 2
+Trang 50, Câu 1267: Pin
+Trang 50, Câu 1268: 1 Dch
+Trang 50, Câu 1269: CDC
+Trang 50, Câu 1270: fline 5 11
+Trang 50, Câu 1271: Trong đó
+Trang 50, Câu 1272: CDC là giá trị của tụ điện đầu vào Cin
+Trang 50, Câu 1273: Ở đây ta chọn CDC 100uF
+Trang 50, Câu 1274: Dch là tỉ số nạp điện của tụ điện đầu vào, thông thường sẽ là 0
+Trang 50, Câu 1275: 2
+Trang 50, Câu 1276: Thay các giá trị vào công thức 5 ta được
+Trang 50, Câu 1277: VDC
+Trang 50, Câu 1278: min 2
+Trang 50, Câu 1279: 85 2 60
+Trang 50, Câu 1280: 1 0,2
+Trang 50, Câu 1281: 100
+Trang 50, Câu 1282: 50
+Trang 50, Câu 1283: 120V
+Trang 51, Câu 1284: 34
+Trang 51, Câu 1285: Điện áp VDCmax được xác định như sau
+Trang 51, Câu 1286: VDC
+Trang 51, Câu 1287: max 2
+Trang 51, Câu 1288: Vline
+Trang 51, Câu 1289: max 2
+Trang 51, Câu 1290: 265 375V 6
+Trang 51, Câu 1291: Khi MOSFET ngắt, điện áp đầu ra sẽ tạo ra một điện áp dội ngược lại cuộn sơ cấp VRO
+Trang 51, Câu 1292: Reflected Output Voltage , điện áp này kết hợp với điện áp đầu vào tạo nên điện áp đặt vào cực Drain của MOSFET, điện áp này được minh họa như hình dưới đây
+Trang 51, Câu 1293: Hình 3
+Trang 51, Câu 1294: 15 Điện áp đặt lên MOSFET cũng như điện áp dội ngược về từ cuộn thứ cấp 11
+Trang 51, Câu 1295: VRO được tính theo công thức sau đây
+Trang 51, Câu 1296: VRO
+Trang 51, Câu 1297: Dmax
+Trang 51, Câu 1298: 1 Dmax
+Trang 51, Câu 1299: VDC
+Trang 51, Câu 1300: min 7 11
+Trang 51, Câu 1301: Trong đó Dmax chính là chu kỳ làm việc tối đa của mạch thông thường người ta chọn giá trị
+Trang 51, Câu 1302: Dmax từ 0
+Trang 51, Câu 1303: 4 đến 0
+Trang 51, Câu 1304: 5
+Trang 51, Câu 1305: Người nghiên cứu quyết địn chọn Dmax 0
+Trang 51, Câu 1306: 45
+Trang 51, Câu 1307: Thay các giá trị vào công thức 7 ta được
+Trang 51, Câu 1308: VRO
+Trang 51, Câu 1309: 0,45
+Trang 51, Câu 1310: 1 0,45
+Trang 51, Câu 1311: 120 98,2V
+Trang 52, Câu 1312: 35
+Trang 52, Câu 1313: Một thông số cũng rất quan trọng cần nhắc tới đó chính là độ tự cảm của cuộn sơ cấp
+Trang 52, Câu 1314: LP được xác định bằng cách sau đây
+Trang 52, Câu 1315: LP
+Trang 52, Câu 1316: VDC
+Trang 52, Câu 1317: min
+Trang 52, Câu 1318: Dmax 2
+Trang 52, Câu 1319: 2
+Trang 52, Câu 1320: Pin
+Trang 52, Câu 1321: fsw
+Trang 52, Câu 1322: KRF 8 11
+Trang 52, Câu 1323: Trong đó
+Trang 52, Câu 1324: fsw là tần số đóng ngắt của MOSFET tương đương với tần số xung PWM mà IC tạo ra, được xác định bởi công thức 2
+Trang 52, Câu 1325: fsw 110kHz
+Trang 52, Câu 1326: KRF
+Trang 52, Câu 1327: hệ số gợn sóng, được xác định dựa vào chế độn hoạt động cảu dòng điện mà ta đã chọn ở mục 3
+Trang 52, Câu 1328: 4
+Trang 52, Câu 1329: 7
+Trang 52, Câu 1330: Với chế độ CCM KRF ở trong khoảng 0,25 0,5 nên người nghiên cứu đã chọn
+Trang 52, Câu 1331: KRF 0,5
+Trang 52, Câu 1332: Từ đó ta suy ra được
+Trang 52, Câu 1333: LP
+Trang 52, Câu 1334: 120
+Trang 52, Câu 1335: 0,45 2
+Trang 52, Câu 1336: 2
+Trang 52, Câu 1337: 60
+Trang 52, Câu 1338: 110000
+Trang 52, Câu 1339: 0,5 4,42
+Trang 52, Câu 1340: 10 4 H 442uH
+Trang 52, Câu 1341: Tính toán các giá trị dòng điện đi qua cuộn sơ cấp và MOSFET
+Trang 52, Câu 1342: IDS
+Trang 52, Câu 1343: peak IEDC
+Trang 52, Câu 1344: I
+Trang 52, Câu 1345: 2 9 11
+Trang 52, Câu 1346: IDS
+Trang 52, Câu 1347: rms 3
+Trang 52, Câu 1348: IEDC 2
+Trang 52, Câu 1349: I
+Trang 52, Câu 1350: 2
+Trang 52, Câu 1351: 2
+Trang 52, Câu 1352: Dmax
+Trang 52, Câu 1353: 3 10 11
+Trang 52, Câu 1354: Trong đó
+Trang 52, Câu 1355: IDSpeak là dòng điện đỉnh đi qua MOSFET
+Trang 52, Câu 1356: IDSrms là dòng điện hiệu dụng đi qua MOSFET
+Trang 52, Câu 1357: IEDC và I là các giá trị được biểu thị ở hình 3
+Trang 52, Câu 1358: 14 với
+Trang 52, Câu 1359: IEDC
+Trang 52, Câu 1360: Pin
+Trang 52, Câu 1361: VDC
+Trang 52, Câu 1362: min
+Trang 52, Câu 1363: Dmax
+Trang 52, Câu 1364: 60
+Trang 52, Câu 1365: 120
+Trang 52, Câu 1366: 0,45 1,11A 11 11
+Trang 52, Câu 1367: I VDC
+Trang 52, Câu 1368: min
+Trang 52, Câu 1369: Dmax
+Trang 52, Câu 1370: LP
+Trang 52, Câu 1371: fSW
+Trang 52, Câu 1372: 120
+Trang 52, Câu 1373: 0,45
+Trang 52, Câu 1374: 4,42
+Trang 52, Câu 1375: 10 4
+Trang 52, Câu 1376: 110000 1,13A 12 11
+Trang 52, Câu 1377: Từ đó ta có kết quả
+Trang 52, Câu 1378: IDS
+Trang 52, Câu 1379: peak 1,11 1,13
+Trang 52, Câu 1380: 2
+Trang 52, Câu 1381: 1,675 A
+Trang 53, Câu 1382: 36
+Trang 53, Câu 1383: IDS
+Trang 53, Câu 1384: rms 3
+Trang 53, Câu 1385: 1,11 2 1,13
+Trang 53, Câu 1386: 2
+Trang 53, Câu 1387: 2
+Trang 53, Câu 1388: 0,45
+Trang 53, Câu 1389: 3
+Trang 53, Câu 1390: 0,776 A
+Trang 53, Câu 1391: Đường kính dây của các cuộn trong biến áp sẽ được xác định như sau
+Trang 53, Câu 1392: Đường kính dây cuộn sơ cấp mm
+Trang 53, Câu 1393: DP IDS
+Trang 53, Câu 1394: rms
+Trang 53, Câu 1395: 2
+Trang 53, Câu 1396: 0,776
+Trang 53, Câu 1397: 2
+Trang 53, Câu 1398: 0,44mm 13
+Trang 53, Câu 1399: Ta chọn DP 0,4 mm
+Trang 53, Câu 1400: Đường kính dây cuộn thứ cấp mm
+Trang 53, Câu 1401: DS IOUT
+Trang 53, Câu 1402: 2
+Trang 53, Câu 1403: 4
+Trang 53, Câu 1404: 2 1 mm 13
+Trang 53, Câu 1405: Vì dòng điện ta mong muốn đạt được là IOUT 4A
+Trang 53, Câu 1406: Cuộn thứ cấp NA cấp nguồn nuôi cho IC không cần dòng điện lớn
+Trang 53, Câu 1407: Ở đây người nghiên cứu sẽ chọn đường kính cho cuộn này bằng với cuộn sơ cấp là 0,4 mm
+Trang 53, Câu 1408: Chọn lõi ferrite cho biến áp
+Trang 53, Câu 1409: Người nghiên cứu sẽ chọn lõi sắt ferrite là ER42 với công suất hoạt động cực đại có thể đạt được lên tới 400W bởi vì biến áp này còn được áp dụng cho mạch với đầu ra công suất lên tới 300W
+Trang 53, Câu 1410: A mm
+Trang 53, Câu 1411: B mm
+Trang 53, Câu 1412: C mm
+Trang 53, Câu 1413: D mm
+Trang 53, Câu 1414: E mm
+Trang 53, Câu 1415: F mm
+Trang 53, Câu 1416: 42
+Trang 53, Câu 1417: 21
+Trang 53, Câu 1418: 15
+Trang 53, Câu 1419: 15
+Trang 53, Câu 1420: 30
+Trang 53, Câu 1421: 15
+Trang 53, Câu 1422: Hình 3
+Trang 53, Câu 1423: 16 Các thông số kích thước của lõi ER42 10
+Trang 54, Câu 1424: 37
+Trang 54, Câu 1425: Số vòng dây quấn nhỏ nhất của cuộn dây sơ cấp máy biến áp để ngăn sự bão hòa lõi được tính theo công thức
+Trang 54, Câu 1426: NP
+Trang 54, Câu 1427: min LP
+Trang 54, Câu 1428: Iover
+Trang 54, Câu 1429: Bsat
+Trang 54, Câu 1430: Ae vòng 14
+Trang 54, Câu 1431: Trong đó
+Trang 54, Câu 1432: Iover là dòng điện áp cao nhất, vào khoảng 70 80 IDSpeak
+Trang 54, Câu 1433: Ở đây người nghiên cứu chọn 70
+Trang 54, Câu 1434: Bsat là mật độ từ thông của lõi, đơn vị là tesla T , với lõi thông thường thì Bsat có giá trị từ 0,3
+Trang 54, Câu 1435: 0,35T
+Trang 54, Câu 1436: Ở đây người nghiên cứu chọn 0,3T
+Trang 54, Câu 1437: Ae
+Trang 54, Câu 1438: Là diện tích mặt cắt ngang của lõi ferrite m2 được thể hiện như hình
+Trang 54, Câu 1439: Hình 3
+Trang 54, Câu 1440: 17
+Trang 54, Câu 1441: Hình dáng lõi ferrite nhìn từ trên xuống 10
+Trang 54, Câu 1442: Từ đó suy ra Ae πD2 π
+Trang 54, Câu 1443: 0,0152 7,07
+Trang 54, Câu 1444: 10 4 m2 15
+Trang 54, Câu 1445: Từ 14 ta có
+Trang 54, Câu 1446: NPmin
+Trang 54, Câu 1447: 4,42
+Trang 54, Câu 1448: 10 4
+Trang 54, Câu 1449: 1,675
+Trang 54, Câu 1450: 0,7
+Trang 54, Câu 1451: 0,3
+Trang 54, Câu 1452: 7,07
+Trang 54, Câu 1453: 10 4 5 vòng
+Trang 54, Câu 1454: Như vậy để tránh hiện tượng bão hòa sớm của lõi ta cần phải quấn cuộn sơ cấp với số vòng dây tối thiểu là 5 vòng
+Trang 54, Câu 1455: Tính toán tỉ số vòng dây của cuộn thứ cấp và sơ cấp
+Trang 54, Câu 1456: NPS NP
+Trang 54, Câu 1457: NS
+Trang 54, Câu 1458: VRO
+Trang 54, Câu 1459: VOUT VF
+Trang 54, Câu 1460: 98,2
+Trang 54, Câu 1461: 12 0,85 7,64 16 11
+Trang 54, Câu 1462: Với
+Trang 54, Câu 1463: VF là độ sụt áp của diode đầu ra V
+Trang 54, Câu 1464: Ở đây người nghiên cứu chọn diode Schottky
+Trang 54, Câu 1465: SR5100 có độ sụt áp là 0,85V
+Trang 54, Câu 1466: Số vòng dây của cuộn cấp nguồn nuôi cho IC là NA NS, nên NPA 8, vì điện áp đầu ra ta cũng mong muốn là 12V bằng với VOUT
+Trang 55, Câu 1467: 38
+Trang 55, Câu 1468: Sau khi tính toán người nghiên cứu chọn số vòng dây của từng cuộn sẽ là
+Trang 55, Câu 1469: NP 80 vòng, NS NA 10 vòng
+Trang 55, Câu 1470: Biến áp cần phải có khe hở từ để góp phần tránh việc bão hòa sớm của lõi cũng như cải thiện hiệu suất của biến áp
+Trang 55, Câu 1471: Tính toán khe hở từ của biến áp
+Trang 55, Câu 1472: G 40
+Trang 55, Câu 1473: π
+Trang 55, Câu 1474: Ae
+Trang 55, Câu 1475: NP
+Trang 55, Câu 1476: 2
+Trang 55, Câu 1477: 1000
+Trang 55, Câu 1478: LP
+Trang 55, Câu 1479: 1
+Trang 55, Câu 1480: AL
+Trang 55, Câu 1481: 17 11
+Trang 55, Câu 1482: Trong đó
+Trang 55, Câu 1483: G là độ rộng của khe hở từ m
+Trang 55, Câu 1484: AL là hệ số điện cảm của lõi nH vòng2
+Trang 55, Câu 1485: Với biến áp ER42 thì hệ số này bằng 2800 nH vòng2
+Trang 55, Câu 1486: Khe hở từ
+Trang 55, Câu 1487: Hình 3
+Trang 55, Câu 1488: 18 Hình minh họa khe hở từ của biến áp 10
+Trang 55, Câu 1489: Thay thế các thông số vào 17 ta được
+Trang 55, Câu 1490: G 40
+Trang 55, Câu 1491: π
+Trang 55, Câu 1492: 7
+Trang 55, Câu 1493: 07
+Trang 55, Câu 1494: 10 4
+Trang 55, Câu 1495: 802
+Trang 55, Câu 1496: 442
+Trang 55, Câu 1497: 1000
+Trang 55, Câu 1498: 1
+Trang 55, Câu 1499: 2800 1,25
+Trang 55, Câu 1500: 10 3 m 1,25 mm
+Trang 56, Câu 1501: 39
+Trang 56, Câu 1502: 3
+Trang 56, Câu 1503: 4
+Trang 56, Câu 1504: 8 Cách quấn biến áp xung
+Trang 56, Câu 1505: Hiện nay có rất nhiều cách quấn biến áp xung, mỗi cách quấn đều có các ưu điểm khác nhau
+Trang 56, Câu 1506: Tuy nhiên để hạn chế tối đa độ cảm rò của biến áp, người nghiên cứu chọn cách quấn biến áp kiểu kẹp giữa
+Trang 56, Câu 1507: Hình 3
+Trang 56, Câu 1508: 19 Cách bố trí sắp xếp các cuộn dây biến áp của kiểu kẹp giữa 10
+Trang 56, Câu 1509: Với cách quấn này, các cuộn thứ cấp sẽ được kẹp giữa cuộn sơ cấp của biến áp, cuộn cấp nguồn nuôi cho mạch sẽ được đặt ngoài cùng
+Trang 56, Câu 1510: Giữa các cuộn dây sẽ được học lớp cách điện
+Trang 56, Câu 1511: Khi quấn biến áp phải cố gắng quấn chặt tay và đều các vòng trên lõi, không để hiện tượng các vòng chồng chéo lên nhau
+Trang 56, Câu 1512: Ngoài ra biến áp xung phải lưu ý quấn đúng điểm bắt đầu và kết thúc để đạt được công suất tốt nhất
+Trang 56, Câu 1513: Ở biến áp này người nghiên cứu chọn quấn theo chiều ngược kim đồng hồ ở tất cả các cuộn dây
+Trang 56, Câu 1514: Ngoài ra điểm bắt đầu quấn của cuộn dây cũng được xác định nhờ dấu chấm ở biến áp trên sơ đồ hình 2
+Trang 56, Câu 1515: 8
+Trang 57, Câu 1516: 40
+Trang 57, Câu 1517: 3
+Trang 57, Câu 1518: 4
+Trang 57, Câu 1519: 9 Tiến hành thi công mạch và thử nghiệm thực tế
+Trang 57, Câu 1520: Sau khi hoàn thành việc tính toán các thông số cần thiết cho mạch, người nghiên cứu tiến hành hàn mạch thực tế
+Trang 57, Câu 1521: Hình 3
+Trang 57, Câu 1522: 20 Mạch thực tế của mạch điện hạ áp 12V
+Trang 57, Câu 1523: Tiến hành nối mạch hạ áp với mạch chỉnh lưu đã làm trước đó, cho chạy thử, kết quả thu được như sau
+Trang 57, Câu 1524: Hình 3
+Trang 57, Câu 1525: 21
+Trang 57, Câu 1526: Thử nghiệm mạch khi chạy không tải
+Trang 58, Câu 1527: 41
+Trang 58, Câu 1528: Nhận xét
+Trang 58, Câu 1529: Ta thấy lúc này mạch đã cho ra một điện áp không đổi ở mức 12V, biến áp có kêu rè rẻ nhè nhẹ
+Trang 58, Câu 1530: Xung PWM đưa ra ở chế độ không tải có độ rộng khá nhỏ, bởi vì mạch điện không tải nên độ sụt áp lên tải rất ít nên IC chỉ cần đưa xung ra nhẹ để giữ điện áp ở mức
+Trang 58, Câu 1531: 12V
+Trang 58, Câu 1532: Tiến hành đưa mạch thử tải với bóng đèn halogen 12V 36W
+Trang 58, Câu 1533: Hình 3
+Trang 58, Câu 1534: 22 Kết quả đo khi thử tải với bóng đèn halogen
+Trang 58, Câu 1535: Nhận xét
+Trang 58, Câu 1536: Khi mới bât bóng đèn lên, điện áp đầu ra có sự sụt giảm đôi chút, tuy nhiên đã được đưa trở về mức 12V ban đầu một cách nhanh chóng, tuy nhiên dòng diện ra ở mức
+Trang 58, Câu 1537: 2
+Trang 58, Câu 1538: 51A không đạt so với yêu cầu
+Trang 58, Câu 1539: Biến áp xuất hiện tiếng kêu rè to hơn lúc chạy không tải
+Trang 58, Câu 1540: Nguyên nhân được xác định là do hai vấn đề sau
+Trang 58, Câu 1541: 1
+Trang 58, Câu 1542: Do quấn biến áp chưa chặt, khiến cho khi hoạt đông biến áp sẽ suất hiện tiếng kêu và làm giảm hiệu suất của biến áp
+Trang 58, Câu 1543: 2
+Trang 58, Câu 1544: Do sai số của các linh kiện trong mạch chũng như các dây hàn tay nên có thể xảy ra hiện tượng nhiễu tín hiệu feedback, dẫn tới sự sai lệch cảu dòng điện đầu ra
+Trang 58, Câu 1545: 3
+Trang 58, Câu 1546: 5
+Trang 58, Câu 1547: Điều chỉnh thông số các linh kiện trong mạch 12V để thiết kế mạch sạc
+Trang 58, Câu 1548: Sau khi đã hoàn thành được mạch hạ áp theo chuẩn, người nghiên cứu bắt đầu tính toán lại những phần cần thiết để thay đổi để đạt được mức điện áp đầu ra là 300V
+Trang 58, Câu 1549: Những phần cần thay đổi đó là biến áp và mạch hồi tiếp
+Trang 59, Câu 1550: 42
+Trang 59, Câu 1551: 3
+Trang 59, Câu 1552: 5
+Trang 59, Câu 1553: 1 Tính toán biến áp
+Trang 59, Câu 1554: Công suất đầu ra
+Trang 59, Câu 1555: Pout 300 x 1 300W
+Trang 59, Câu 1556: Công suất đầu vào
+Trang 59, Câu 1557: Pin
+Trang 59, Câu 1558: 300
+Trang 59, Câu 1559: 0,8 375W
+Trang 59, Câu 1560: Điện áp đầu vào một chiều nhỏ nhất
+Trang 59, Câu 1561: VDC
+Trang 59, Câu 1562: min 2
+Trang 59, Câu 1563: 85 2 375
+Trang 59, Câu 1564: 1 0,2
+Trang 59, Câu 1565: 100
+Trang 59, Câu 1566: 50
+Trang 59, Câu 1567: 120V
+Trang 59, Câu 1568: Điện áp một chiều cao nhất
+Trang 59, Câu 1569: VDC
+Trang 59, Câu 1570: max 2
+Trang 59, Câu 1571: Vline
+Trang 59, Câu 1572: max 2
+Trang 59, Câu 1573: 265 375V
+Trang 59, Câu 1574: Điện áp dội ngược về cuộn thứ cấp
+Trang 59, Câu 1575: VRO
+Trang 59, Câu 1576: 0,45
+Trang 59, Câu 1577: 1 0,45
+Trang 59, Câu 1578: 120 98,2V
+Trang 59, Câu 1579: Độ tự cảm của cuộn sơ cấp
+Trang 59, Câu 1580: LP
+Trang 59, Câu 1581: 120
+Trang 59, Câu 1582: 0,45 2
+Trang 59, Câu 1583: 2
+Trang 59, Câu 1584: 375
+Trang 59, Câu 1585: 110000
+Trang 59, Câu 1586: 1 35,3
+Trang 59, Câu 1587: 10 6 H 35,3uH
+Trang 59, Câu 1588: Với KRF 1 vì khi hoạt động với đầu ra điện áp cao và dòng thấp nên người nghiên cứu đã chọn chế độ hoạt động là DCM
+Trang 59, Câu 1589: Tính toán các giá trị cá dòng điện
+Trang 59, Câu 1590: IEDC
+Trang 59, Câu 1591: Pin
+Trang 59, Câu 1592: VDC
+Trang 59, Câu 1593: min
+Trang 59, Câu 1594: Dmax
+Trang 59, Câu 1595: 375
+Trang 59, Câu 1596: 120
+Trang 59, Câu 1597: 0,45 6,9A
+Trang 59, Câu 1598: I
+Trang 59, Câu 1599: VDC
+Trang 59, Câu 1600: min
+Trang 59, Câu 1601: Dmax
+Trang 59, Câu 1602: LP
+Trang 59, Câu 1603: fSW
+Trang 59, Câu 1604: 120
+Trang 59, Câu 1605: 0,45
+Trang 59, Câu 1606: 35,5
+Trang 59, Câu 1607: 10 6
+Trang 59, Câu 1608: 110000 13,8 A
+Trang 59, Câu 1609: IDS
+Trang 59, Câu 1610: peak 6,9 13,8
+Trang 59, Câu 1611: 2
+Trang 59, Câu 1612: 13,8 A
+Trang 59, Câu 1613: IDS
+Trang 59, Câu 1614: rms 3
+Trang 59, Câu 1615: 6,9 2 13,8
+Trang 59, Câu 1616: 2
+Trang 59, Câu 1617: 2
+Trang 59, Câu 1618: 0,45
+Trang 59, Câu 1619: 3
+Trang 59, Câu 1620: 5,345 A
+Trang 60, Câu 1621: 43
+Trang 60, Câu 1622: Đường kính dây của các cuộn trong biến áp
+Trang 60, Câu 1623: DP IDS
+Trang 60, Câu 1624: rms
+Trang 60, Câu 1625: 2
+Trang 60, Câu 1626: 5,345
+Trang 60, Câu 1627: 2
+Trang 60, Câu 1628: 1,15 mm
+Trang 60, Câu 1629: DS IOUT
+Trang 60, Câu 1630: 2
+Trang 60, Câu 1631: 1
+Trang 60, Câu 1632: 2 0,5 mm
+Trang 60, Câu 1633: Vì dòng điện đầu ra mong muốn là 1A
+Trang 60, Câu 1634: Cỡ dây của cuộn thứ cấp cấp nguồn cho IC vẫn được giữ nguyên như mạch hạ áp là 0,4mm
+Trang 60, Câu 1635: Lõi biến áp ta vẫn chọn sử dụng ER42
+Trang 60, Câu 1636: Số vòng dây tối thiể cuộn sơ cấp
+Trang 60, Câu 1637: NPmin
+Trang 60, Câu 1638: 35,3
+Trang 60, Câu 1639: 10 6
+Trang 60, Câu 1640: 13,8
+Trang 60, Câu 1641: 0,7
+Trang 60, Câu 1642: 0,3
+Trang 60, Câu 1643: 7,07
+Trang 60, Câu 1644: 10 4 3,28 vòng
+Trang 60, Câu 1645: Tỉ số vòng dây của cuộn thứ cấp và sơ cấp
+Trang 60, Câu 1646: NPS NP
+Trang 60, Câu 1647: NS
+Trang 60, Câu 1648: VRO
+Trang 60, Câu 1649: VOUT VF
+Trang 60, Câu 1650: 98,2
+Trang 60, Câu 1651: 300 0,5 0,32
+Trang 60, Câu 1652: Ở đây người nghiên cứu chọn diode Schottky cao áp DGP30 với điện áp rơi ở diode là 0,5V
+Trang 60, Câu 1653: Tỉ lệ số vòng dây của cuộn thứ cấp cấp nguồn nuôi với cuộn sơ cấp vẫn giữ nguyên là
+Trang 60, Câu 1654: NPA 8
+Trang 60, Câu 1655: Sau khi tính toán người nghiên cứu chọn số vòng dây các cuộn như sau
+Trang 60, Câu 1656: NP 50 vòng,
+Trang 60, Câu 1657: NS 150 vòng, NA 7 vòng
+Trang 60, Câu 1658: Vì đường kính dây cuộn thứ cấp khá lớn khoảng 1mm nên không thể quấn vừa cho biến áp
+Trang 60, Câu 1659: ER42 với số vòng 50 nên người nghiên cứu đã chọn lại đường kính dây DP 0,6 mm và DS
+Trang 60, Câu 1660: 0,2 mm, vì đường kính dây chỉ ảnh hưởng tới dòng diện mà không ảnh hưởng tới điện áp
+Trang 60, Câu 1661: Người nghiên cứu sẽ điều chỉnh lại cỡ dây nếu như giá trị dòng điện không như mong muốn
+Trang 60, Câu 1662: Tính toán khe hở từ của biến áp
+Trang 61, Câu 1663: 44
+Trang 61, Câu 1664: G 40
+Trang 61, Câu 1665: π
+Trang 61, Câu 1666: 7,07
+Trang 61, Câu 1667: 10 4
+Trang 61, Câu 1668: 502
+Trang 61, Câu 1669: 35,5
+Trang 61, Câu 1670: 1000
+Trang 61, Câu 1671: 1
+Trang 61, Câu 1672: 2800 6,22
+Trang 61, Câu 1673: 10 3 m 6,2 mm
+Trang 61, Câu 1674: Cách quấn biến áp xung vẫn áp dụng giống như quấn biến áp cho mạch điện 12V
+Trang 61, Câu 1675: 3
+Trang 61, Câu 1676: 5
+Trang 61, Câu 1677: 2 Tính toán mạch hồi tiếp điện áp
+Trang 61, Câu 1678: Vì mạch đầu ra thay đổi điện áp cao hơn nên phải thay đổi các giá trị trong mạch hồi tiếp ở hình 3
+Trang 61, Câu 1679: 12 để đưa điện áp đúng với yêu cầu đầu ra là 300V
+Trang 61, Câu 1680: Cặp giá trị điện trở của cầu phân áp được chọn là RFBU 297,5kΩ, RFBB 2
+Trang 61, Câu 1681: 49kΩ
+Trang 61, Câu 1682: để đáp ứng được công thức
+Trang 61, Câu 1683: VR
+Trang 61, Câu 1684: VOUT
+Trang 61, Câu 1685: 1 RFBU
+Trang 61, Câu 1686: RFBB
+Trang 61, Câu 1687: 300
+Trang 61, Câu 1688: 1 297,5
+Trang 61, Câu 1689: 2,5
+Trang 61, Câu 1690: 2,5 V
+Trang 61, Câu 1691: Giá trị RLED 32,5 kΩ để giảm dòng qua opto ở mức 10mA
+Trang 61, Câu 1692: Giá trị RTLbias 25kΩ để hạn dòng qua TL431
+Trang 61, Câu 1693: Các giá trị còn lại giữ nguyên, người nghiên cứu sẽ sử dụng phương pháp thực nghiệm thay đổi các giá trị điện trở và linh kiện của mạch hồi tiếp cho đến khi đạt được giá trị đầu ra mong muốn
+Trang 61, Câu 1694: 3
+Trang 61, Câu 1695: 5
+Trang 61, Câu 1696: 3 Thay đổi các linh kiện khác
+Trang 61, Câu 1697: Vì điện áp đầu ra lần này cảu mạch là 300V nên các linh kiện nối trực tiếp với đầu ra phải chịu được điện áp cao
+Trang 61, Câu 1698: COUT là 3 tụ 100uF 450V nối song song với nhau
+Trang 61, Câu 1699: Diode zener 10V là 1
+Trang 61, Câu 1700: 5KE10A
+Trang 61, Câu 1701: DOUT là diode Schottky cao áp DGP30
+Trang 61, Câu 1702: Các điện trở RLED, RTLbias, RFBB, RFBU đều được đổi qua điện trở công suất 3W
+Trang 62, Câu 1703: 45
+Trang 62, Câu 1704: 3
+Trang 62, Câu 1705: 6
+Trang 62, Câu 1706: Tiến hành thực nghiệm
+Trang 62, Câu 1707: Sau khi tính toán người nghiên cứu đã tiến hành hàn và cho ra mạch thực tế như hình
+Trang 62, Câu 1708: Hình 3
+Trang 62, Câu 1709: 24
+Trang 62, Câu 1710: Mạch thực tế của mạch 300V
+Trang 62, Câu 1711: 3
+Trang 62, Câu 1712: 6
+Trang 62, Câu 1713: 1 Thử nghiệm lần 1
+Trang 62, Câu 1714: Hình 3
+Trang 62, Câu 1715: 25
+Trang 62, Câu 1716: Điện áp đầu ra của mạch khi thử nghiệm lần 1
+Trang 63, Câu 1717: 46
+Trang 63, Câu 1718: Kết quả
+Trang 63, Câu 1719: Giá trị điện áp đầu ra thấp hơn so với mong muốn, chỉ khoảng 75V, không đạt yêu cầu
+Trang 63, Câu 1720: Điện áp không ổn định
+Trang 63, Câu 1721: Nghi vấn
+Trang 63, Câu 1722: Có thể do biến áp, tỷ lệ sống vòng dây NPS không đủ để đưa điện áp đầu ra vào khoảng 300V
+Trang 63, Câu 1723: Cách khắc phục
+Trang 63, Câu 1724: Thử thay đổi tăng số vòng dây của cuộn thứ cấp lên 200 vòng có nghĩa là tỉ lệ NPS 0,25 quả thử nghiệm lần 2 với biến áp có NPS 0,25
+Trang 63, Câu 1725: 3
+Trang 63, Câu 1726: 6
+Trang 63, Câu 1727: 2 Thử nghiệm lần hai với biến áp có NPS 0,25
+Trang 63, Câu 1728: Kết quả
+Trang 63, Câu 1729: Giá trị điện áp đầu ra vẫn không thay đổi nhiều gì so với lần đo thứ nhất, VOUT vào khoảng 78V
+Trang 63, Câu 1730: Vẫn không thể đạ được yêu cầu điện áp đầu ra 300V
+Trang 63, Câu 1731: Vì vậy nguyên nhân không phải do biến áp
+Trang 63, Câu 1732: Hình 3
+Trang 63, Câu 1733: 26
+Trang 63, Câu 1734: Điện áp đầu ra của mạch ở lần đo thứ hai
+Trang 63, Câu 1735: Nghi vấn
+Trang 63, Câu 1736: Có thể do mạch hồi tiếp bị sai
+Trang 63, Câu 1737: Tiến hành kiểm tra giá trị điện áp đầu vào của chân ISENSE của UC3843 ta được giá trị như sau
+Trang 64, Câu 1738: 47
+Trang 64, Câu 1739: Hình 3
+Trang 64, Câu 1740: 27
+Trang 64, Câu 1741: Giá trị điện áp về chân ISENSE ở lần đo thử thứ 2
+Trang 64, Câu 1742: Điện áp đưa vào chân ISENSE có những lúc vọt quá mức 1V quá nhiều,dòng đỉnh xung có lúc đạt giá trị khoảng 12V khi đó IC sẽ giảm độ rộng xung để giảm cường độ dòng điện xuống, điều này có thể là nguyên nhân khiến điện áp đầu ra không được như mong muốn
+Trang 64, Câu 1743: Cách khắc phục
+Trang 64, Câu 1744: Thử thay dổi giá trị điện trở RCS
+Trang 64, Câu 1745: Ở đây người nghiên cứu thay đổi điện trở RCS từ 0,75 Ω nâng lên thành 3,3Ω
+Trang 64, Câu 1746: Đồng thời quấn lại biến áp như cũ với tỉ lệ NPS
+Trang 64, Câu 1747: 0,3
+Trang 65, Câu 1748: 48
+Trang 65, Câu 1749: 3
+Trang 65, Câu 1750: 6
+Trang 65, Câu 1751: 3
+Trang 65, Câu 1752: Thử nghiệm lần ba với sự thay đổi gía trị RCS 3,3 Ω
+Trang 65, Câu 1753: Kết quả
+Trang 65, Câu 1754: Giá trị điện áp đầu ra vẫn không thay đổi nhiều, VOUT 75V
+Trang 65, Câu 1755: Trong khi đó điện áp chân ISENSE của IC đo được như hình
+Trang 65, Câu 1756: Hình 3
+Trang 65, Câu 1757: 28
+Trang 65, Câu 1758: Giá trị điện áp vào chân ISENSE ở lần đo thứ 3 ứng với RCS 3,3Ω
+Trang 65, Câu 1759: Ta thấy dòng đỉnh xung đã được giảm giá trị xuống chỉ còn khoảng 7 8V, thấp hơn so với lần đo thứ 2
+Trang 65, Câu 1760: Tuy nhiên sự thay đổi này cũng không ảnh hưởng quá nhiều tới giá trị điện áp đầu ra nên suy ra đây không phải là nguyên nhân
+Trang 65, Câu 1761: Nghi vấn
+Trang 65, Câu 1762: Thử thay đổi giá trị điện trở Ropto, vì điện trở này liên quan trực tiếp đến độ lợi của mạch hồi tiếp áp về cho UC3843
+Trang 65, Câu 1763: Ropto 1kΩ tăng lên 25kΩ
+Trang 66, Câu 1764: 49
+Trang 66, Câu 1765: 3
+Trang 66, Câu 1766: 6
+Trang 66, Câu 1767: 4
+Trang 66, Câu 1768: Thử nghiệm lần bốn với Ropto 25kΩ
+Trang 66, Câu 1769: Kết quả
+Trang 66, Câu 1770: Điện áp đầu ra đã được cái thiện lên khoảng 100V
+Trang 66, Câu 1771: Hình 3
+Trang 66, Câu 1772: 29
+Trang 66, Câu 1773: Giá trị VOUT ở lần đo thứ 4 khi tăng Ropto
+Trang 66, Câu 1774: Tuy nhiên khi tiếp tục tăng giá trị Ropto thì giá trị VOUT lại tiếp tục không thay đổi
+Trang 66, Câu 1775: Vì vậy đầu ra vẫn chỉ mới được cải thiện lên tới mức 100V và vẫn chưa đạt được so với yêu cầu
+Trang 66, Câu 1776: Tiến hành đo giá trị điện áp tại chân tham chiếu R của TL431, và chân VFB của UC3843 ta có kết quả sau
+Trang 67, Câu 1777: 50
+Trang 67, Câu 1778: Hình 3
+Trang 67, Câu 1779: 30
+Trang 67, Câu 1780: Giá trị điện áp ở chân VFB
+Trang 67, Câu 1781: Hình 3
+Trang 67, Câu 1782: 31
+Trang 67, Câu 1783: Giá trị điện áp VR ở chân tham chiếu của TL431
+Trang 67, Câu 1784: Ta thấy điện áp VR ở chân tham chiếu của TL431 rất thấp, ở đỉnh xung chỉ khoảng 1,5V
+Trang 67, Câu 1785: Điều này có nghãi là trong suốt quá trình hoạt động, TL431 vẫn chưa mở cổng dẫn dòng điện đi qua opto quang
+Trang 67, Câu 1786: Tuy nhiên ở tín hiệu hồi tiếp ở chân VFB vẫn có tín hiệu điện áp hồi về, đây chính là nguyên nhân gây nên điện áp đầu ra không được như mong muốn
+Trang 68, Câu 1787: 51
+Trang 68, Câu 1788: 3
+Trang 68, Câu 1789: 7
+Trang 68, Câu 1790: Tìm hiểu nguyên nhân của sự sai lệch điện áp đầu ra
+Trang 68, Câu 1791: Như đã nêu ở mục 3
+Trang 68, Câu 1792: 6
+Trang 68, Câu 1793: 4, vấn đề ta cần tìm hiểu là tại sao khi TL431 chưa dẫn nhưng vẫn xuất hiện tín hiệu điện áp hồi tiếp về chân VFB của UC3843
+Trang 68, Câu 1794: Để rõ hơn về điều này ta phân tích lại mạch hồi tiếp hình 3
+Trang 68, Câu 1795: 12 của mạch hạ áp 12V
+Trang 68, Câu 1796: Xét khi TL431 chưa dẫn, tức là VR 2,5V
+Trang 68, Câu 1797: Điện áp ở chân 1 của opto là 12V, điện áp ở chân 2 của opto được cố định ở mức 10V nhờ diode zener
+Trang 68, Câu 1798: Suy ra mức chênh lệc điện áp giữa hai chân 1 và 2 của opto là 2V
+Trang 68, Câu 1799: Trong datasheet của pc817 ta có điện áp tối đã giữa hai chân 1,2 của opto là VFM 4V
+Trang 68, Câu 1800: Nếu quá mức điện áp này, opto sẽ đi vào trạng thái hoạt động không ổn định unstable mode và sẽ không thể kiểm soát được
+Trang 68, Câu 1801: Trở lại với mạch đầu ra 300V, người nghiên cứu vẫn sử dụng diode zener 10V, nhưng vì đầu ra có điện áp cao là 300V nên điện áp giữa hai chân 1,2 của opto là VFM 300 10 290V 4V
+Trang 68, Câu 1802: Chính vì vậy đã khiến cho opto hoạt động không ổn định dẫn tới hồi tiếp sai
+Trang 68, Câu 1803: Việc tìm ra nguyên nhân này đã giúp người nghiên cứu có các ý tưởng về cách khắc phục
+Trang 68, Câu 1804: Tuy nhiên vì thời gian thực hiện đề tài có hạn nên người nghiên cứu đã không kịp khắc phục nguyên nhân này
+Trang 68, Câu 1805: Vì vậy mạch vẫn chưa thể có đầu ra 300V và đủ điều kiện sạc cho pin của xe máy điện
+Trang 69, Câu 1806: 52
+Trang 69, Câu 1807: Chương 4
+Trang 69, Câu 1808: KẾT LUẬN VÀ KIẾN NGHỊ
+Trang 69, Câu 1809: 4
+Trang 69, Câu 1810: 1 Kết luận
+Trang 69, Câu 1811: Các nội dung đã làm được
+Trang 69, Câu 1812: Nắm được việc hạn chế trong mạch sạc của dự án xe máy điện đang nghiên cứu
+Trang 69, Câu 1813: Từ đó xác định được mục tiêu và hướng đi cho đề tài
+Trang 69, Câu 1814: Nắm bắt được nguyên lý hoạt dộng cũng như cách thiết kế của một bồ nguồn xung flyback chuyển đổi điện áp, cũng như là nguyên lý giảm dòng điện thông qua phương pháp sử dụng biến áp
+Trang 69, Câu 1815: Nắm bắt được kiến thức cách sử dụng của các linh kiện như UC3843, TL431,
+Trang 69, Câu 1816: MOSFET, cách tính toán thiết kế, quấn biến áp xung
+Trang 69, Câu 1817: Học tập, rèn luyện được cách hàn mạch điên, thiết kế dây trên mạch điện để hạn chế các sự cố chạm chập hoặc nhiễu tín hiệu
+Trang 69, Câu 1818: Thiết kế, thực hiện được mạch chỉnh lưu chấp nguồn DC từ điện áp 220V AC
+Trang 69, Câu 1819: Thiết kế, thực hiện được nguồn xung flyback hạ áp từ 220V AC với kết quả đầu ra là
+Trang 69, Câu 1820: 12V và 2,5A
+Trang 69, Câu 1821: Rèn luyện được khả năng phân tích vấn một cách cụ thể, khoanh vùng lỗi sai thông qua lý thuyết cũng như thực nghiệm để tìm ra nguyên nhân gây hư hỏng
+Trang 69, Câu 1822: Các nội dung chưa đạt được
+Trang 69, Câu 1823: Biến áp khi hoạt động vẫn còn tiếng kêu rè rè, do kỹ năng quấn chưa hoàn thiện, quấn không chặt
+Trang 69, Câu 1824: Mạch sạc thiết kế vẫn chưa đáp ứng được các chỉ tiêu đề ra, VOUT chỉ đạt ở mức 100V, không đủ điều kiện để sạc cho xe máy điện
+Trang 69, Câu 1825: Chưa thiết kế được mạch in hoàn thiện cho mạch sạc
+Trang 70, Câu 1826: 53
+Trang 70, Câu 1827: 4
+Trang 70, Câu 1828: 2 Kiến nghị
+Trang 70, Câu 1829: Sử dụng cầu phân áp ở chân số 1 của opto PC817 để đưa mức điện áp chênh lệch giữa chân 1 và 2 của opto VFM 4V, ngoài ra phải đảm bảo được dòng điện qua opto khoảng 10mA
+Trang 70, Câu 1830: Như vậy opto sẽ hoạt động chính xác và nguồn sẽ đạt được điện áp đầu ra như mong muốn
+Trang 70, Câu 1831: Sử dụng vi điều khiển thay thế cho UC3843 ở vai trò điều khiển xung cho mạch, nhờ tính linh động nó
+Trang 70, Câu 1832: Cải thiện quấn biến áp xung, có thể sử dụng máy để đảm bảo biến áp được quấn chặt, đồng thời căn chỉnh khe hở từ một cách chính xác hơn
+Trang 71, Câu 1833: 54
+Trang 71, Câu 1834: TÀI LIỆU THAM KHẢO
+Trang 71, Câu 1835: 1 Tạp chí điện tử và khoa học công nghê đại học Đà Nẵng Vol 17, NO
+Trang 71, Câu 1836: 3, 2019
+Trang 71, Câu 1837: 2 Thư viện điện tử IEEE Xplore IET Power electronic volume 10
+Trang 71, Câu 1838: 3 Diode là gì, Tìm hiểu về chức năng của Diode , https
+Trang 71, Câu 1839: testostore
+Trang 71, Câu 1840: vn diot va mach chinh luu la gi nguyen tac cau tao
+Trang 71, Câu 1841: 4 Linear regulator and switching regulator , https
+Trang 71, Câu 1842: www
+Trang 71, Câu 1843: rohm
+Trang 71, Câu 1844: com electronics basics dc dc converters linear vs switching regulators
+Trang 71, Câu 1845: 5 Switch mode power supply , https
+Trang 71, Câu 1846: www
+Trang 71, Câu 1847: electronics tutorials
+Trang 71, Câu 1848: ws power switch mode power supply
+Trang 71, Câu 1849: html
+Trang 71, Câu 1850: 6 Các loại nguồn xung và nguyên lý hoạt động , https
+Trang 71, Câu 1851: machdienlythu
+Trang 71, Câu 1852: vn cac loai nguon xung thong dung va nguyen ly hoat dong
+Trang 71, Câu 1853: 7 UC2842 Datasheet, Texas Instrument
+Trang 71, Câu 1854: 8 TL431 Datasheet, Texas Instrument
+Trang 71, Câu 1855: 9 FQP20N60 FQPF20N60 Datasheet
+Trang 71, Câu 1856: 10 Google hình ảnh
+Trang 71, Câu 1857: 11 Design Guidelines for Off line Flyback Converters Using Fairchild Power Switch
+Trang 71, Câu 1858: FPS , On Semiconductor

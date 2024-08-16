@@ -1,3 +1,10 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:5c516190c4d30c55216723f4f2e796450a09450947173df6c143f0b71e34dba3
-size 1928
+Trong thời gian thực tập và hoàn thành chuyên đề: Em xin chân thành cảm ơn sự giúp đỡ nhiệt tình của ban giám đốc và các anh chị trong công ty đã giúp đỡ, cung cấp nhiều thông tin quý báu và tạo điều kiện cho em trong quá trình thực hiện chuyên đề này.
+Em cũng xin được gửi lời cảm ơn đặc biệt tới Thầy đã tận tình hướng dẫn, giúp đỡ chỉ bảo cho em nghiên cứu đề tài và hoàn thành chuyên đề này.
+Mặc dù bản thân đã rất cố gắng nhưng do thời gian, kiến thức và kinh nghiệm có hạn, và cũng là lần đầu tiên được tiếp xúc, làm việc thực tế tại công ty nên bài làm của em còn có nhiều thiếu sót trong việc trình bày, đánh giá và đề xuất ý kiến.
+Có thể thấy khái niệm học bị hiểu sai đã kéo theo khái niệm tự học bị hiểu sai luôn.
+Em rất mong nhận được sự thông cảm và đóng góp ý kiến của quý thầy cô và các bạn.
+Điện áp ở đầu có dấu chấm của cuộn sơ cấp cao hơn đầu còn lại, gây ra hiện tượng tương tự ở cuộn thứ cấp.
+Điện áp dương được đặt lên diode theo hướng thuận, mở ra cho dòng điện từ cuộn thứ cấp nạp vào tụ và cung cấp cho tải.
+Mọi loại nguồn xung thông thường đều có điện áp đầu ra ở dạng xung vuông với tần số nhất định, được gọi là điều chế độ rộng xung (PWM), thường được gọi là băm xung.
+Điện áp đầu ra cơ bản của nguồn xung là dạng xung vuông với chu kỳ Tp và độ rộng Ton là thời gian mà xung ở điện áp đỉnh Vpk.
+Sau khi qua mạch lọc LC, xung vuông này sẽ được san phẳng thành điện áp một chiều có giá trị Vout mong muốn.
