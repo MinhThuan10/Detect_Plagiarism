@@ -5,20 +5,17 @@ from concurrent.futures import ThreadPoolExecutor
 import os
 import io
 from bs4 import BeautifulSoup
-import re
 import requests
 from sklearn.metrics.pairwise import cosine_similarity
 from docx import Document
 from io import BytesIO
 import pandas as pd
 from io import StringIO
-from sklearn.feature_extraction.text import TfidfVectorizer
-from sklearn.decomposition import TruncatedSVD
 import spacy
 from elasticsearch import Elasticsearch
 import json
 import torch
-
+from sentence_split import *
 # Load Vietnamese spaCy model
 nlp = spacy.blank("vi")
 nlp.add_pipe("sentencizer")
@@ -73,6 +70,8 @@ def embedding_vietnamese(text):
     embedding = model.encode(text)
     return embedding
 
+
+
 def preprocess_text_vietnamese(text):
     # Process text with spaCy pipeline
     doc = nlp(text)
@@ -92,73 +91,40 @@ def calculate_similarity(query_features, reference_features):
     similarity_scores = cosine_similarity(query_features, reference_features)
     return similarity_scores
 
-def split_sentences(text):
-    combined_sentences = []
-    vietnamese_lowercase = 'aáàảãạăắằẳẵặâấầẩẫậbcdđeéèẻẽẹêếềểễệfghiíìỉĩịjklmnoóòỏõọôốồổỗộơớờởỡợpqrstuúùủũụưứừửữựvxyýỳỷỹỵ'
-    text = re.sub(rf'\n(?=[{vietnamese_lowercase}])', '', text)
-    text = re.sub(r'[^\w\s.,;?:]', ' ', text)
-    text = text.replace('. ', '.\n')
-    text = re.sub(r'\.{2,}', '.', text)
-    text = re.sub(r'\ {2,}', ' ', text)
-    
-    lines = text.split('\n')
-    for line in lines:
-        sentences = re.split(r'[.?!:]', line)
-        for sentence in sentences:
-            sentence = sentence.strip()
-            if sentence:
-                combined_sentences.append(sentence)
-
-    return combined_sentences
-
 def compare_with_content(sentence, combined_webpage_text):
     preprocessed_query, _ = preprocess_text_vietnamese(sentence)
     sentences_from_webpage = split_sentences(combined_webpage_text)
-    if not sentences_from_webpage:
-        return 0, ""
-    
-    preprocessed_references = [preprocess_text_vietnamese(ref)[0] for ref in sentences_from_webpage]
-    
-    if not preprocessed_references:
-        return 0, ""
-    
-    vectorizer = TfidfVectorizer()
-    features = vectorizer.fit_transform([preprocessed_query] + preprocessed_references)
-    
-    if features.shape[0] <= 1:
-        return 0, ""
-    
-    n_components = min(100, features.shape[1] - 1)
-    svd = TruncatedSVD(n_components=n_components)
-    features_lsa = svd.fit_transform(features)
-    
-    features_query_lsa = features_lsa[0].reshape(1, -1)
-    features_references_lsa = features_lsa[1:]
-    
-    if features_references_lsa.shape[0] == 0:
-        return 0, ""
-    
-    similarity_scores = calculate_similarity(features_query_lsa, features_references_lsa)
+    if sentences_from_webpage == []:
+        return 0, "", -1
+    sentences = remove_sentences(sentences_from_webpage)
+    if sentences == []:
+        return 0, "", -1
+    preprocessed_references = [preprocess_text_vietnamese(ref)[0] for ref in sentences]
+
+    all_sentences = [preprocessed_query] + preprocessed_references
+    print(len(all_sentences))
+    if len(all_sentences) == 1319:
+        print(combined_webpage_text)
+    embeddings = embedding_vietnamese(all_sentences) 
+    # Tính toán độ tương đồng cosine giữa câu và các snippet
+    similarity_scores = calculate_similarity(embeddings[0:1], embeddings[1:]) 
     
     if similarity_scores.shape[1] == 0:
         return 0, ""
     
     max_similarity_idx = similarity_scores.argmax()
     max_similarity = similarity_scores[0][max_similarity_idx]
-    best_match = sentences_from_webpage[max_similarity_idx]
-    
+    best_match = sentences[max_similarity_idx]
     return max_similarity, best_match, max_similarity_idx
 
 def compare_sentences(sentence, all_snippets):
     # Tiền xử lý câu và các snippet
     preprocessed_query, _ = preprocess_text_vietnamese(sentence)
     preprocessed_references = [preprocess_text_vietnamese(snippet)[0] for snippet in all_snippets]  
-    # Khởi tạo vectorizer TF-IDF
-    vectorizer = TfidfVectorizer()  
-    # Chuyển đổi câu và các snippet thành vector TF-IDF
-    tfidf_matrix = vectorizer.fit_transform([preprocessed_query] + preprocessed_references) 
+    all_sentences = [preprocessed_query] + preprocessed_references
+    embeddings = embedding_vietnamese(all_sentences) 
     # Tính toán độ tương đồng cosine giữa câu và các snippet
-    similarity_scores = cosine_similarity(tfidf_matrix[0:1], tfidf_matrix[1:]) 
+    similarity_scores = calculate_similarity(embeddings[0:1], embeddings[1:]) 
     # Sắp xếp điểm số tương đồng và chỉ số của các snippet
     sorted_indices = similarity_scores[0].argsort()[::-1]
     top_indices = sorted_indices[:3]
@@ -191,14 +157,19 @@ def extract_text_from_pdf(url, save_path):
     return pdf_text
 
 def extract_text_from_html(html):
-    soup = BeautifulSoup(html, 'lxml')
-    for script in soup(["script", "style"]):
-        script.extract()
-    text = soup.get_text()
-    lines = (line.strip() for line in text.splitlines())
-    chunks = (phrase.strip() for line in lines for phrase in line.split("  "))
-    text = '\n'.join(chunk for chunk in chunks if chunk)
-    return text
+    # Phân tích HTML với BeautifulSoup
+    # Sử dụng BeautifulSoup để phân tích cú pháp HTML
+    soup = BeautifulSoup(html, 'html.parser')
+    if soup.body:
+        # Lấy tất cả nội dung hiển thị trên trang web từ thẻ <body>
+        body_content = soup.body.get_text(separator='\n', strip=True)
+    elif soup.html:  # Nếu không có <body>, thử lấy nội dung từ thẻ <html>
+        body_content = soup.html.get_text(separator='\n', strip=True)
+    else:
+        # Nếu không có <body> hoặc <html>, trả về chuỗi rỗng hoặc thông báo lỗi
+        body_content = ""
+
+    return body_content
 
 def fetch_docx(url):
     response = requests.get(url)
@@ -246,67 +217,13 @@ output_file = './test/Data/search.txt'
 def search_sentence_elastic(sentence):
     # Xử lý từng câu và lấy danh sách tokens
     processed_sentence, tokens = preprocess_text_vietnamese(sentence)
-    print(f"Processed sentence: {sentence}")
+    print(f"Processed sentence: {processed_sentence}")
     print(f"Tokens: {tokens}")
     # Tạo danh sách các field_value từ Elasticsearch
     sentence_results = []  # Mảng lưu trữ kết quả từng câu
     seen_ids = set()  # Tập lưu các mongo_id đã thấy
-
     if not tokens:
-        # Nếu tokens rỗng, không thực hiện tìm kiếm và trả về kết quả rỗng
         return None, []
-    # for token in tokens:    
-    #     res = es.search(index="plagiarism", body={
-    #         "query": {
-    #             "match": {"sentence": token}
-    #         },
-    #         "size": 10000
-    #     })
-        
-    #     for hit in res['hits']['hits']:
-    #         mongo_id = hit['_source']['mongo_id']
-            
-    #         # Nếu mongo_id chưa thấy, mới thêm vào kết quả
-    #         if mongo_id not in seen_ids:
-    #             seen_ids.add(mongo_id)
-    #             log_entry = hit['_source']['log_entry']
-    #             log_entry = log_entry.replace("=>", ":").replace("BSON::ObjectId(", "").replace(")", "").replace("'", '"')
-                
-    #             # Phân tích chuỗi JSON
-    #             data = json.loads(log_entry)
-                
-    #             # Truy cập các giá trị
-    #             sentence = data.get("sentence")
-    #             sentence_index = data.get("sentence_index")
-    #             page_number = data.get("page_number")
-    #             file_name = data.get("file_name")
-                
-    #             result_info = {
-    #                 'token': token,
-    #                 'page_number': page_number,
-    #                 'sentence_index': sentence_index,
-    #                 'sentence_content': sentence,
-    #                 'file_name': file_name,
-    #             }
-    #             sentence_results.append(result_info)
-
-
-    # # Ghi kết quả vào file
-    # with open(sentence_file, 'w', encoding='utf-8') as file:
-    #     file.write(f"Câu: {sentence}\nToken: {tokens}\n")
-
-    # # Ghi kết quả vào file
-    # with open(output_file, 'w', encoding='utf-8') as file:
-    #     sentence_contents = [] 
-    #     for result in sentence_results:
-    #         token = result['token']
-    #         page_number = result['page_number']
-    #         sentence_index = result['sentence_index']
-    #         sentence_content = result['sentence_content']
-    #         file_name = result['file_name']
-    #         file.write(f"Token: {token}, Elasticsearch result: File: {file_name}, Trang: {page_number}; Số câu: {sentence_index}; Nội dung: {sentence_content}\n")             
-    #         sentence_contents.append(sentence_content)
-  
     res = es.search(index="plagiarism", body={
         "query": {
             "match": {"sentence": sentence}
@@ -353,50 +270,10 @@ def search_sentence_elastic(sentence):
     return processed_sentence, sentence_contents
 
 def search_sentence_elastic_embedding(sentence): 
-    # Xử lý từng câu và lấy danh sách tokens
-    processed_sentence, tokens = preprocess_text_vietnamese(sentence)
-    # Tạo danh sách các field_value từ Elasticsearch
+    processed_sentence, _ = preprocess_text_vietnamese(sentence)
     sentence_results = []  # Mảng lưu trữ kết quả từng câu
-    # for token in tokens:
-    #     res = es.search(index="plagiarism_embedding", body={"query": {"match": {"sentence": token}}})
-    #     for hit in res['hits']['hits']:
-    #         log_entry = hit['_source']['log_entry']
-    #         log_entry = log_entry.replace("=>", ":").replace("BSON::ObjectId(", "").replace(")", "").replace("'", '"')
-    #         # Phân tích chuỗi JSON
-    #         data = json.loads(log_entry)
-    #         # Truy cập các giá trị
-    #         sentence = data.get("sentence")
-    #         sentence_index = data.get("sentence_index")
-    #         page_number = data.get("page_number")
-    #         embedding = data.get("Embedding")
-    #         result_info = {
-    #             'token': token,
-    #             'page_number': page_number,
-    #             'sentence_index': sentence_index,
-    #             'sentence_content': sentence,
-    #             'embedding': embedding
-    #         }
-    #         sentence_results.append(result_info)  
-    # # Ghi kết quả vào file
-    # with open(sentence_file, 'w', encoding='utf-8') as file:
-    #     file.write(f"Câu: {sentence}\nToken: {tokens}\n")
 
-    # # Ghi kết quả vào file
-    # with open(output_file, 'w', encoding='utf-8') as file:
-    #     embeddings = [] 
-    #     sentence_contents = [] 
-    #     for result in sentence_results:
-    #         token = result['token']
-    #         page_number = result['page_number']
-    #         sentence_index = result['sentence_index']
-    #         sentence_content = result['sentence_content']
-    #         embedding = result['embedding']
-    #         file.write(f"Token: {token}, Elasticsearch result: Trang: {page_number}; Số câu: {sentence_index}; Nội dung: {sentence_content}\n")
-    #         embeddings.append(embedding)              
-    #         sentence_contents.append(sentence_content)
-    #     file.write("\n")
-
-    res = es.search(index="plagiarism_embedding", body={"query": {"match": {"sentence": sentence}}})
+    res = es.search(index="plagiarism_embedding", body={"query": {"match": {"sentence": processed_sentence}}})
     for hit in res['hits']['hits']:
         log_entry = hit['_source']['log_entry']
         log_entry = log_entry.replace("=>", ":").replace("BSON::ObjectId(", "").replace(")", "").replace("'", '"')

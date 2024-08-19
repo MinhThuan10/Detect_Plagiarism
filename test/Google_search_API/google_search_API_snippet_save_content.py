@@ -1,3 +1,8 @@
+import sys
+import os
+# Thêm đường dẫn của thư mục cha vào sys.path
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '../..')))
+
 from processing import *
 import warnings
 from urllib3.exceptions import InsecureRequestWarning
@@ -27,7 +32,7 @@ def search_text(text):
         best_match_title = None
         best_match_similarity = 0
         best_match_sentence = ""
-        for similarity, idx in top_similarities:
+        for _, idx in top_similarities:
             url = items[idx].get('link')
             title = items[idx].get('title')
             print(f"Checking URL: {url}")
@@ -38,9 +43,9 @@ def search_text(text):
                 content = fetch_url(url)
                 content_cache[url] = content
             if content:
-                similarity, match_sentence, _ = compare_with_content(sentence, content)        
-                if similarity > best_match_similarity:
-                    best_match_similarity = similarity
+                similarity_sentence, match_sentence, _ = compare_with_content(sentence, content)        
+                if similarity_sentence > best_match_similarity:
+                    best_match_similarity = similarity_sentence
                     best_match_url = url
                     best_match_title = title
                     best_match_sentence = match_sentence
@@ -57,7 +62,7 @@ def search_text(text):
                 print(f"Best match sentence: {best_match_sentence}")
                 plagiarized_count += 1
 
-with open('./test/test_2.txt', 'r', encoding='utf-8') as file:
+with open('./test/Data/test_2.txt', 'r', encoding='utf-8') as file:
     text = file.read()
 # Start the timer
 start_time = time.time()

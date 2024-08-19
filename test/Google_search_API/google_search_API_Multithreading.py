@@ -1,4 +1,8 @@
 import concurrent.futures
+import sys
+import os
+# Thêm đường dẫn của thư mục cha vào sys.path
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '../..')))
 from processing import *
 import warnings
 from urllib3.exceptions import InsecureRequestWarning
@@ -72,7 +76,7 @@ def search_text(text):
             except Exception as e:
                 print(f"An error occurred: {e}")
 
-with open('./test/test_2.txt', 'r', encoding='utf-8') as file:
+with open('./test/Data/test_2.txt', 'r', encoding='utf-8') as file:
     text = file.read()
 
 # Start the timer

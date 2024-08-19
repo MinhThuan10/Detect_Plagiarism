@@ -1,10 +1,18 @@
-Trong thời gian thực tập và hoàn thành chuyên đề: Em xin chân thành cảm ơn sự giúp đỡ nhiệt tình của ban giám đốc và các anh chị trong công ty đã giúp đỡ, cung cấp nhiều thông tin quý báu và tạo điều kiện cho em trong quá trình thực hiện chuyên đề này.
-Em cũng xin được gửi lời cảm ơn đặc biệt tới Thầy đã tận tình hướng dẫn, giúp đỡ chỉ bảo cho em nghiên cứu đề tài và hoàn thành chuyên đề này.
-Mặc dù bản thân đã rất cố gắng nhưng do thời gian, kiến thức và kinh nghiệm có hạn, và cũng là lần đầu tiên được tiếp xúc, làm việc thực tế tại công ty nên bài làm của em còn có nhiều thiếu sót trong việc trình bày, đánh giá và đề xuất ý kiến.
-Có thể thấy khái niệm học bị hiểu sai đã kéo theo khái niệm tự học bị hiểu sai luôn.
-Em rất mong nhận được sự thông cảm và đóng góp ý kiến của quý thầy cô và các bạn.
-Điện áp ở đầu có dấu chấm của cuộn sơ cấp cao hơn đầu còn lại, gây ra hiện tượng tương tự ở cuộn thứ cấp.
-Điện áp dương được đặt lên diode theo hướng thuận, mở ra cho dòng điện từ cuộn thứ cấp nạp vào tụ và cung cấp cho tải.
-Mọi loại nguồn xung thông thường đều có điện áp đầu ra ở dạng xung vuông với tần số nhất định, được gọi là điều chế độ rộng xung (PWM), thường được gọi là băm xung.
-Điện áp đầu ra cơ bản của nguồn xung là dạng xung vuông với chu kỳ Tp và độ rộng Ton là thời gian mà xung ở điện áp đỉnh Vpk.
-Sau khi qua mạch lọc LC, xung vuông này sẽ được san phẳng thành điện áp một chiều có giá trị Vout mong muốn.
+TP HCMTrong 10 phút nói lời sau cùng, cựu cục trưởng Trần Kỳ Hình nghẹn giọng bày tỏ ăn năn, tiếc nuối;
+có lúc bật khóc, xin được hưởng khoan hồng của pháp luật.
+Ngày 17/8, sau một tháng làm việc, phiên tòa xét xử hai cựu cục trưởng Đăng kiểm Trần Kỳ Hình, Đặng Việt Hà và 252 bị cáo kết thúc phần tranh luận.
+Trước khi tòa nghị án, các bị cáo nói lời sau cùng.
+Cựu cục trưởng Trần Kỳ Hình tại tòa sáng nay.
+Cựu cục trưởng đăng kiểm Trần Kỳ Hình khóc, xin khoan hồng  
+Ông Trần Kỳ Hình khóc khi nói lời sau cùng.
+Là người đầu tiên thực hiện quyền của bị cáo, ông Trần Kỳ Hình tỏ ra mất bình tĩnh, nói trong 37 năm công tác, từ đăng kiểm viên đến làm quản lý, đều tâm huyết với công việc, không nghỉ phép một ngày nào.
+Nhưng vào những năm cuối, khi sắp nghỉ hưu, thì bị cáo không giữ được mình, đã phạm tội dẫn đến phải trả giá bằng bản án cuối đời.
+Ông Hình bày tỏ, sau những ngày bị xét xử, bản thân "đã nhận thức rất rõ hành vi phạm tội, vô cùng ăn năn hối cải".
+Ông xin lỗi gia đình, Đảng, Nhà nước cùng toàn bộ cán bộ ngành đăng kiểm.
+"Bị cáo vô cùng đau xót, ân hận khi không làm tròn trách nhiệm được giao phó, mong mọi người tha thứ", ông Hình nói, thêm rằng "đến cuối đời không biết còn đủ sức khỏe để chờ mãn hạn tù hay không".
+Không giữ được bình tĩnh, ông Hình bật khóc, nói:
+"Bản án tòa sẽ tuyên đã nặng, nhưng bản án lương tâm còn nặng hơn.
+Ở tuổi xế chiều, bị cáo phải trả giá bằng những ngày tháng trong lao tù".
+Cựu cục trưởng cũng cho biết "rất tiếc cho cuộc đời của mình, những năm cuối không được sống cùng gia đình".
+"Lời cuối, bị cáo xin một sự nhân đạo của Đảng, khoan hồng của pháp luật, lòng nhân đức của HĐXX, xử nhẹ cho bị cáo.
+Cho bị cáo có cơ hội để giữ sức khỏe trở về với gia đình...", ông Hình nghẹn giọng, đồng thời xin tòa xem xét giảm nhẹ hình phạt cho các cựu cán bộ Cục Đăng kiểm để họ sớm trở về tiếp tục cống hiến cho xã hội.
