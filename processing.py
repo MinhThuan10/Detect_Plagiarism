@@ -28,38 +28,92 @@ API_KEYS = [
     'AIzaSyBf9wrYHM4SYW9w-jvA-PIIF-VJKI4owaA',
     'AIzaSyBU5mrYJLK3cGAuG3hlSDHsDFgZoWDauQM',
     'AIzaSyAn3PKdLNNuy6dc2zUcPnRiXuiSYFmLrpg',
-    'AIzaSyATVTCw6KpsRrTpot-B8M5ON0J06uULkD4'
+    'AIzaSyATVTCw6KpsRrTpot-B8M5ON0J06uULkD4',
+    'AIzaSyBpjtdhFaONvHjaf-YLZqSBMwigv5OetnA',
+    'AIzaSyBLwEhO1xq-p57LR5NjccC0ym2_ZdV-oSI',
+    'AIzaSyBwIrGwgFYQI47PrY3VTnvrEuUC4Ei5V_Q',
+    'AIzaSyB4dVUMkfQE5fd5-ehopPC6XM3pl0oQerk',
+    'AIzaSyAF73pow1YLtPLsyxT7mnGd0eB4nMdzRJU',
+
 ]
 CX = 'f5a8b4e14ca474f61'
 
+API_KEYS2 = [
+    'AIzaSyDBhQBb0pKBPTh1iiLikdtecc7PW9XaGFY',
+    'AIzaSyBjbKPbW6nLb6lj9_a1inSitoSKkH0wo7o',
+    'AIzaSyC35aTxM9bZpW4XFLiN0cZvMgLG83eKJRs',
+    'AIzaSyAokaQBIB3uaUxAm9mZjpktV5YzaP8gYLI',
+    'AIzaSyAh4EtsRgwRZLdgN3W2mTqfPj6AV2qdWwI',
+    'AIzaSyBXv3I1N6DqClEJwZqZJpNT15272slb5uw',
+    'AIzaSyCTcoSHq5-y1PYhePN9plTp3p27b1NKVWA',
+    'AIzaSyD5lIcE4onfdWFcigcGfXMAP6UM0Zuk2Uk',
+    'AIzaSyDAcREUVSuy4sfKs2Lh4OxuBvgF_rV9SqI',
+    'AIzaSyBHOKyYLiSWETnNH0-e8ikQWmeN0BKi7BU',
+    'AIzaSyBWx3xGBXLHO-XWys5LxIlOHodjDrU6lGA',
+    'AIzaSyBt43IZ77nq8BwvLpaMDUTEFAfBGdlPqoo',
+    
+]
+
+CX2 = 'a6694d6bf858e42f6'
 # Khởi tạo API Key hiện tại
+# Biến toàn cục
 current_api_key_index = 0
+current_list = 1  # 1 là API_KEYS, 2 là API_KEYS2
 
 def get_current_api_key():
-    return API_KEYS[current_api_key_index]
+    """Trả về API Key hiện tại."""
+    global current_list
+    if current_list == 1 and current_api_key_index < len(API_KEYS):
+        return API_KEYS[current_api_key_index]
+    elif current_list == 2 and current_api_key_index < len(API_KEYS2):
+        return API_KEYS2[current_api_key_index]
+    return None
 
 def get_next_api_key():
-    global current_api_key_index
-    current_api_key_index = (current_api_key_index + 1) % len(API_KEYS)
+    """Chuyển sang API Key tiếp theo, và chuyển danh sách khi hết key."""
+    global current_api_key_index, current_list
+    current_api_key_index += 1
+
+    # Kiểm tra nếu danh sách hiện tại hết API Key
+    if current_list == 1 and current_api_key_index >= len(API_KEYS):
+        # Chuyển sang danh sách API_KEYS2
+        current_list = 2
+        current_api_key_index = 0  # Reset lại index cho API_KEYS2
+    
+    elif current_list == 2 and current_api_key_index >= len(API_KEYS2):
+        return None  # Đã dùng hết cả hai danh sách
+
     return get_current_api_key()
 
 def search_google(query):
-    global current_api_key_index
+    """Tìm kiếm Google với các API Key, chuyển sang key tiếp theo khi gặp lỗi 403 hoặc 429."""
+    global current_api_key_index, current_list
     while True:
         api_key = get_current_api_key()
-        url = f"https://www.googleapis.com/customsearch/v1?q={query}&key={api_key}&cx={CX}"
+        
+        if api_key is None:
+            print("Đã hết tất cả API Key.")
+            return {}  # Trả về rỗng khi không còn API Key khả dụng
+        
+        # Chọn CX tương ứng với danh sách API
+        cx = CX if current_list == 1 else CX2
+        url = f"https://www.googleapis.com/customsearch/v1?q={query}&key={api_key}&cx={cx}"
         response = requests.get(url, verify=False)
         
         if response.status_code == 200:
-            return response.json()  # Trả về dữ liệu khi yêu cầu thành công
+            return response.json()  # Trả về dữ liệu khi thành công
+        
+        elif response.status_code in [403, 429]:
+            print(f"API Key {api_key} gặp lỗi {response.status_code}. Chuyển sang key khác.")
+            api_key = get_next_api_key()  # Chuyển sang API Key tiếp theo
+            
+            if api_key is None:
+                print("Không còn API Key nào khả dụng.")
+                return {}  # Trả về rỗng nếu không còn API Key
+            
         else:
             print(f"Yêu cầu không thành công với API Key {api_key}. Mã lỗi: {response.status_code}")
-            if response.status_code == 403:
-                print(f"API Key {api_key} có thể đã hết hạn. Chuyển sang key khác.")
-            # Chuyển sang API Key tiếp theo
-            current_api_key_index = (current_api_key_index + 1) % len(API_KEYS)
-            api_key = get_current_api_key()
-
+            return {}
 # Determine device
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
@@ -69,8 +123,6 @@ model = SentenceTransformer('dangvantuan/vietnamese-embedding', device = device)
 def embedding_vietnamese(text):
     embedding = model.encode(text)
     return embedding
-
-
 
 def preprocess_text_vietnamese(text):
     # Process text with spaCy pipeline
@@ -102,9 +154,6 @@ def compare_with_content(sentence, combined_webpage_text):
     preprocessed_references = [preprocess_text_vietnamese(ref)[0] for ref in sentences]
 
     all_sentences = [preprocessed_query] + preprocessed_references
-    print(len(all_sentences))
-    if len(all_sentences) == 1319:
-        print(combined_webpage_text)
     embeddings = embedding_vietnamese(all_sentences) 
     # Tính toán độ tương đồng cosine giữa câu và các snippet
     similarity_scores = calculate_similarity(embeddings[0:1], embeddings[1:]) 
@@ -134,77 +183,153 @@ def compare_sentences(sentence, all_snippets):
     
     return top_similarities
 
-def extract_text_from_pdf(url, save_path):
-    response = requests.get(url, verify=False)
-    if response.status_code != 200:
-        return ""
-    if save_path:
-        with open(save_path, 'wb') as file:
-            file.write(response.content)
-        pdf_path = save_path
-    else:
-        pdf_path = io.BytesIO(response.content)
+# def extract_text_from_pdf(url, save_path):
+#     response = requests.get(url, verify=False)
+#     if response.status_code != 200:
+#         return ""
+#     if save_path:
+#         with open(save_path, 'wb') as file:
+#             file.write(response.content)
+#         pdf_path = save_path
+#     else:
+#         pdf_path = io.BytesIO(response.content)
 
-    with fitz.open(pdf_path) as document:
-        with ThreadPoolExecutor() as executor:
-            text_parts = executor.map(lambda page: page.get_text("text"), document)
+#     with fitz.open(pdf_path) as document:
+#         with ThreadPoolExecutor() as executor:
+#             text_parts = executor.map(lambda page: page.get_text("text"), document)
     
-    pdf_text = ''.join(text_parts)
+#     pdf_text = ''.join(text_parts)
 
-    if save_path:
-        os.remove(save_path)
+#     if save_path:
+#         os.remove(save_path)
     
-    return pdf_text
+#     return pdf_text
 
-def extract_text_from_html(html):
-    # Phân tích HTML với BeautifulSoup
-    # Sử dụng BeautifulSoup để phân tích cú pháp HTML
-    soup = BeautifulSoup(html, 'html.parser')
-    if soup.body:
-        # Lấy tất cả nội dung hiển thị trên trang web từ thẻ <body>
-        body_content = soup.body.get_text(separator='\n', strip=True)
-    elif soup.html:  # Nếu không có <body>, thử lấy nội dung từ thẻ <html>
-        body_content = soup.html.get_text(separator='\n', strip=True)
-    else:
-        # Nếu không có <body> hoặc <html>, trả về chuỗi rỗng hoặc thông báo lỗi
-        body_content = ""
+# def extract_text_from_html(html):
 
-    return body_content
+#     soup = BeautifulSoup(html, 'html.parser')
+#     if soup.body:
+#         # Lấy tất cả nội dung hiển thị trên trang web từ thẻ <body>
+#         body_content = soup.body.get_text(separator='\n', strip=True)
+#     elif soup.html:  # Nếu không có <body>, thử lấy nội dung từ thẻ <html>
+#         body_content = soup.html.get_text(separator='\n', strip=True)
+#     else:
+#         # Nếu không có <body> hoặc <html>, trả về chuỗi rỗng hoặc thông báo lỗi
+#         body_content = ""
 
-def fetch_docx(url):
-    response = requests.get(url)
-    response.raise_for_status()  # Kiểm tra lỗi HTTP
-    doc_file = BytesIO(response.content)
-    doc = Document(doc_file)
-    text = [para.text for para in doc.paragraphs]
-    return '\n'.join(text)
+#     return body_content
 
-def fetch_csv(url):
-    response = requests.get(url)
-    response.raise_for_status()  # Kiểm tra lỗi HTTP
-    csv_content = StringIO(response.text)
-    df = pd.read_csv(csv_content)
-    return df.to_string()  # Trả về dữ liệu CSV dưới dạng chuỗi
+# def fetch_docx(url):
+#     response = requests.get(url)
+#     response.raise_for_status()  # Kiểm tra lỗi HTTP
+#     doc_file = BytesIO(response.content)
+#     doc = Document(doc_file)
+#     text = [para.text for para in doc.paragraphs]
+#     return '\n'.join(text)
+
+# def fetch_csv(url):
+#     response = requests.get(url)
+#     response.raise_for_status()  # Kiểm tra lỗi HTTP
+#     csv_content = StringIO(response.text)
+#     df = pd.read_csv(csv_content)
+#     return df.to_string()  # Trả về dữ liệu CSV dưới dạng chuỗi
     
-def fetch_url(url):
+# def fetch_url(url):
+#     try:
+#         response = requests.get(url, timeout=10, verify=False)
+#         response.raise_for_status()
+#         if response.status_code == 200:
+#             # Kiểm tra Content-Type để xác định loại tệp
+#             content_type = response.headers.get('Content-Type', '').lower()
+            
+#             if 'application/pdf' in content_type:
+#                 return extract_text_from_pdf(url, 'downloaded_document.pdf')
+#             elif 'application/vnd.openxmlformats-officedocument.wordprocessingml.document' in content_type:
+#                 return fetch_docx(url) 
+#             elif 'text/csv' in content_type:
+#                 return fetch_csv(url)  
+#             else:
+#                 return extract_text_from_html(response.content) 
+#     except (requests.exceptions.RequestException, TimeoutError) as e:
+#         print(f"Error accessing {url}: {e}")
+#         return ""
+
+
+def fetch_response(url):
     try:
         response = requests.get(url, timeout=10, verify=False)
         response.raise_for_status()
-        
-        # Kiểm tra Content-Type để xác định loại tệp
-        content_type = response.headers.get('Content-Type', '').lower()
-        
-        if 'application/pdf' in content_type:
-            return extract_text_from_pdf(url, 'downloaded_document.pdf')
-        elif 'application/vnd.openxmlformats-officedocument.wordprocessingml.document' in content_type:
-            return fetch_docx(url) 
-        elif 'text/csv' in content_type:
-            return fetch_csv(url)  
-        else:
-            return extract_text_from_html(response.text) 
+        return response
     except (requests.exceptions.RequestException, TimeoutError) as e:
         print(f"Error accessing {url}: {e}")
+        return None
+
+def extract_text_from_pdf(response):
+    try:
+        # Đảm bảo `response` là bytes
+        pdf_source = io.BytesIO(response.content)  # Sử dụng .content để lấy dữ liệu dạng bytes
+
+        # Mở tài liệu PDF từ đối tượng BytesIO
+        with fitz.open(stream=pdf_source, filetype='pdf') as document:
+            # Sử dụng ThreadPoolExecutor để xử lý đồng thời các trang
+            with ThreadPoolExecutor() as executor:
+                text_parts = executor.map(lambda page: page.get_text("text"), document)
+            pdf_text = ''.join(text_parts)
+    except Exception as e:
+        print(f"Lỗi khi xử lý PDF: {e}")
         return ""
+
+    return pdf_text
+
+def extract_text_from_html(response):
+    try:
+        soup = BeautifulSoup(response.content, 'html.parser')
+        if soup.body:
+            # Lấy tất cả nội dung hiển thị trên trang web từ thẻ <body>
+            body_content = soup.body.get_text(separator='\n', strip=True)
+        elif soup.html:  # Nếu không có <body>, thử lấy nội dung từ thẻ <html>
+            body_content = soup.html.get_text(separator='\n', strip=True)
+        else:
+            # Nếu không có <body> hoặc <html>, trả về chuỗi rỗng hoặc thông báo lỗi
+            body_content = ""
+        return body_content
+    except Exception as e:
+        print(f"Lỗi khi xử lý HTML: {e}")
+        return ""
+
+def fetch_docx(response):
+    try:
+        doc_file = BytesIO(response.content)
+        doc = Document(doc_file)
+        return '\n'.join(para.text for para in doc.paragraphs)
+    except Exception as e:
+        print(f"Lỗi khi xử lý DOCX: {e}")
+        return ""
+
+def fetch_csv(response):
+    try:
+        csv_content = StringIO(response.content.decode('utf-8'))
+        df = pd.read_csv(csv_content)
+        return df.to_string()  # Trả về dữ liệu CSV dưới dạng chuỗi
+    except Exception as e:
+        print(f"Lỗi khi xử lý CSV: {e}")
+        return ""
+
+def fetch_url(url):
+    response = fetch_response(url)
+    if not response:
+        return ""
+    
+    content_type = response.headers.get('Content-Type', '').lower()
+
+    if 'application/pdf' in content_type:
+        return extract_text_from_pdf(response)
+    elif 'application/vnd.openxmlformats-officedocument.wordprocessingml.document' in content_type:
+        return fetch_docx(response)
+    elif 'text/csv' in content_type:
+        return fetch_csv(response)
+    else:
+        return extract_text_from_html(response)
 
 
 # Load Vietnamese spaCy model

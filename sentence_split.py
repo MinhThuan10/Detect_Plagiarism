@@ -20,8 +20,8 @@ def combine_lines_and_split_sentences(extracted_text):
     
     for text, page_num in extracted_text:
         # Thay thế '\n' theo điều kiện: Nếu có ký tự '\n' và sau đó là chữ thường tiếng Việt
+        text = re.sub(r'\n+', '\n', text)
         text = re.sub(rf'\n(?=[{vietnamese_lowercase}])', ' ', text)
-        
         text = re.sub(r'[^\w\s.,;?:]', ' ', text)
         text = re.sub(r'\.{2,}', '.', text)
         text = re.sub(r'\ {2,}', ' ', text)
@@ -31,7 +31,7 @@ def combine_lines_and_split_sentences(extracted_text):
     for text, page_num in processed_text:
         lines = text.split('\n')
         for line in lines:
-            sentences = re.split(r'[.?!:]', line)
+            sentences = re.split(r'[.?!:;]', line)
             for sentence in sentences:
                 sentence = sentence.strip()
                 if sentence:
@@ -48,7 +48,7 @@ def split_sentences(text):
     vietnamese_lowercase = 'aáàảãạăắằẳẵặâấầẩẫậbcdđeéèẻẽẹêếềểễệfghiíìỉĩịjklmnoóòỏõọôốồổỗộơớờởỡợpqrstuúùủũụưứừửữựvxyýỳỷỹỵ'
     text = re.sub(r'\n+', '\n', text)
     text = re.sub(rf'\n(?=[{vietnamese_lowercase}])', ' ', text)
-    text = re.sub(r'[^\w\s.,;?:]', ' ', text)
+    text = re.sub(r'[^\w\s.,;?:!]', ' ', text)
     text = re.sub(r'\.{2,}', '.', text)
     text = re.sub(r'\ {2,}', ' ', text)
     text = text.replace('. ', '.\n')
@@ -63,4 +63,4 @@ def split_sentences(text):
 
     return combined_sentences
 def remove_sentences(sentences):
-    return [sentence for sentence in sentences if len(sentence.split()) > 3]
+    return [sentence for sentence in sentences if(len(sentence.split()) > 3 and len(sentence.split()) < 100)]

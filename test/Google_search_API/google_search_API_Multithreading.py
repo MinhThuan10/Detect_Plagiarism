@@ -15,12 +15,6 @@ warnings.simplefilter('ignore', InsecureRequestWarning)
 content_cache = {}
 plagiarized_count = 0
 
-def fetch_and_cache_url(url):
-    """Lấy nội dung từ URL và lưu vào cache."""
-    if url not in content_cache:
-        content_cache[url] = fetch_url(url)
-    return content_cache[url]
-
 def process_sentence(sentence):
     global plagiarized_count
     print(f"********Tìm kiếm câu: {sentence}")
