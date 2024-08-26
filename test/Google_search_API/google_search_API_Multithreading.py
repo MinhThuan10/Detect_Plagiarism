@@ -12,7 +12,7 @@ import time
 warnings.simplefilter('ignore', InsecureRequestWarning)
 
 # Dictionary để lưu trữ nội dung các file PDF và nội dung trang web
-content_cache = {}
+sentences_cache = {}
 plagiarized_count = 0
 
 def process_sentence(sentence):
@@ -33,14 +33,17 @@ def process_sentence(sentence):
         url = items[idx].get('link')
         title = items[idx].get('title')
         print(f"Checking URL: {url}")
-        content = None
-        if url in content_cache:
-            content =  content_cache[url]
-        else:
+        # Tìm trong cache trước khi tải nội dung
+        sentences = sentences_cache.get(url)
+        
+        if sentences is None:
             content = fetch_url(url)
-            content_cache[url] = content
-        if content:
-            similarity, match_sentence, _ = compare_with_content(sentence, content)        
+            sentences_from_webpage = split_sentences(content)
+            sentences = remove_sentences(sentences_from_webpage)
+            sentences_cache[url] = sentences
+        
+        if sentences:
+            similarity_sentence, match_sentence, _ = compare_with_content(sentence, sentences)
             if similarity > best_match_similarity:
                 best_match_similarity = similarity
                 best_match_url = url
@@ -76,7 +79,7 @@ with open('./test/Data/test_2.txt', 'r', encoding='utf-8') as file:
 # Start the timer
 start_time = time.time()
 search_text(text)
-content_cache.clear()
+sentences_cache.clear()
 end_time = time.time()
 elapsed_time = end_time - start_time
 print("Đánh giá độ hiệu quả của Google Search API ")

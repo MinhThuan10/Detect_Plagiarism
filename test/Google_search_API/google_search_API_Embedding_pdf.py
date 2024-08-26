@@ -13,7 +13,7 @@ warnings.simplefilter('ignore', InsecureRequestWarning)
 
 # Bắt đầu tính thời gian
 start_time = time.time()
-file_path = './test/Data/nhom1.pdf'
+file_path = './test/Data/test.pdf'
 
 # Dictionary để lưu trữ nội dung các file PDF và nội dung trang web
 sentences_cache = {}
@@ -60,15 +60,16 @@ def handle_sentence(sentence_data):
         print(f"Checking URL: {url}")
         
         # Tìm trong cache trước khi tải nội dung
-        sentences_from_webpage = sentences_cache.get(url)
+        sentences = sentences_cache.get(url)
         
-        if sentences_from_webpage is None:
+        if sentences is None:
             content = fetch_url(url)
             sentences_from_webpage = split_sentences(content)
-            sentences_cache[url] = sentences_from_webpage
+            sentences = remove_sentences(sentences_from_webpage)
+            sentences_cache[url] = sentences
         
-        if sentences_from_webpage:
-            similarity_sentence, match_sentence, _ = compare_with_content(sentence, sentences_from_webpage)
+        if sentences:
+            similarity_sentence, match_sentence, _ = compare_with_content(sentence, sentences)
             
             if similarity_sentence > best_match_similarity:
                 best_match_similarity = similarity_sentence

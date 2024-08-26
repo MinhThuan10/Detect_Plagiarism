@@ -193,75 +193,22 @@ def calculate_similarity(query_features, reference_features):
     similarity_scores = cosine_similarity(query_features, reference_features)
     return similarity_scores
 
-# def compare_with_content(sentence, sentences_from_webpage):
-#     preprocessed_query, _ = preprocess_text_vietnamese(sentence)
-#     sentences = remove_sentences(sentences_from_webpage)
-#     if sentences == []:
-#         return 0, "", -1
-#     preprocessed_references = [preprocess_text_vietnamese(ref)[0] for ref in sentences]
-
-#     all_sentences = [preprocessed_query] + preprocessed_references
-#     embeddings = embedding_vietnamese(all_sentences) 
-#     # Tính toán độ tương đồng cosine giữa câu và các snippet
-#     similarity_scores = calculate_similarity(embeddings[0:1], embeddings[1:]) 
-    
-#     if similarity_scores.shape[1] == 0:
-#         return 0, "", -1
-    
-#     max_similarity_idx = similarity_scores.argmax()
-#     max_similarity = similarity_scores[0][max_similarity_idx]
-#     best_match = sentences[max_similarity_idx]
-#     return max_similarity, best_match, max_similarity_idx
-
-def compare_with_content(sentence, snippet, sentences_from_webpage):
+def compare_with_content(sentence, sentences):
     preprocessed_query, _ = preprocess_text_vietnamese(sentence)
-    sentences = remove_sentences(sentences_from_webpage)
-    
-    if not sentences:
-        return 0, "", -1
-    
-    snippets = split_sentences(snippet)
-    matching_sentences = []
-    
-    # Tìm các câu trong sentences_from_webpage chứa bất kỳ câu nào trong snippets
-    for web_sentence in sentences:
-        for snippet_sentence in snippets:
-            if snippet_sentence in web_sentence:
-                matching_sentences.append(web_sentence)
-                break  # Ngừng kiểm tra nếu đã tìm thấy câu phù hợp
-    
-    if not matching_sentences:
-        return 0, "", -1
-    
-    all_sentences = [preprocessed_query] + matching_sentences
+    preprocessed_references = [preprocess_text_vietnamese(ref)[0] for ref in sentences]
+
+    all_sentences = [preprocessed_query] + preprocessed_references
     embeddings = embedding_vietnamese(all_sentences) 
+    # Tính toán độ tương đồng cosine giữa câu và các snippet
+    similarity_scores = calculate_similarity(embeddings[0:1], embeddings[1:]) 
     
-    similarity_scores = calculate_similarity(embeddings[0:1], embeddings[1:])
+    if similarity_scores.shape[1] == 0:
+        return 0, "", -1
     
-    max_similarity_index = similarity_scores.argmax()
-    max_similarity = similarity_scores[0][max_similarity_index]
-    best_sentence = matching_sentences[max_similarity_index]
-    
-    return max_similarity, best_sentence, sentences.index(best_sentence)
-
-
-
-# def compare_sentences(sentence, all_snippets):
-#     # Tiền xử lý câu và các snippet
-#     preprocessed_query, _ = preprocess_text_vietnamese(sentence)
-#     preprocessed_references = [preprocess_text_vietnamese(snippet)[0] for snippet in all_snippets]  
-#     all_sentences = [preprocessed_query] + preprocessed_references
-#     embeddings = embedding_vietnamese(all_sentences) 
-#     # Tính toán độ tương đồng cosine giữa câu và các snippet
-#     similarity_scores = calculate_similarity(embeddings[0:1], embeddings[1:]) 
-#     # Sắp xếp điểm số tương đồng và chỉ số của các snippet
-#     sorted_indices = similarity_scores[0].argsort()[::-1]
-#     top_indices = sorted_indices[:3]
-#     top_scores = similarity_scores[0][top_indices]
-#     # Trả về ba điểm số độ tương đồng cao nhất và các chỉ số tương ứng
-#     top_similarities = [(top_scores[i], top_indices[i]) for i in range(len(top_indices))]
-    
-#     return top_similarities
+    max_similarity_idx = similarity_scores.argmax()
+    max_similarity = similarity_scores[0][max_similarity_idx]
+    best_match = sentences[max_similarity_idx]
+    return max_similarity, best_match, max_similarity_idx
 
 def compare_sentences(sentence, all_snippets):
     # Tiền xử lý câu và các snippet
@@ -277,7 +224,6 @@ def compare_sentences(sentence, all_snippets):
     top_scores = similarity_scores[0][top_indices]
     # Trả về ba điểm số độ tương đồng cao nhất và các chỉ số tương ứng
     top_similarities = [(top_scores[i], top_indices[i]) for i in range(len(top_indices))]
-    
     return top_similarities
 
 def fetch_response(url):
