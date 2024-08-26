@@ -193,6 +193,23 @@ def calculate_similarity(query_features, reference_features):
     similarity_scores = cosine_similarity(query_features, reference_features)
     return similarity_scores
 
+# def compare_with_content(sentence, sentences):
+#     preprocessed_query, _ = preprocess_text_vietnamese(sentence)
+#     preprocessed_references = [preprocess_text_vietnamese(ref)[0] for ref in sentences]
+
+#     all_sentences = [preprocessed_query] + preprocessed_references
+#     embeddings = embedding_vietnamese(all_sentences) 
+#     # Tính toán độ tương đồng cosine giữa câu và các snippet
+#     similarity_scores = calculate_similarity(embeddings[0:1], embeddings[1:]) 
+    
+#     if similarity_scores.shape[1] == 0:
+#         return 0, "", -1
+    
+#     max_similarity_idx = similarity_scores.argmax()
+#     max_similarity = similarity_scores[0][max_similarity_idx]
+#     best_match = sentences[max_similarity_idx]
+#     return max_similarity, best_match, max_similarity_idx
+
 def compare_with_content(sentence, sentences):
     preprocessed_query, _ = preprocess_text_vietnamese(sentence)
     preprocessed_references = [preprocess_text_vietnamese(ref)[0] for ref in sentences]
@@ -210,6 +227,7 @@ def compare_with_content(sentence, sentences):
     best_match = sentences[max_similarity_idx]
     return max_similarity, best_match, max_similarity_idx
 
+
 def compare_sentences(sentence, all_snippets):
     # Tiền xử lý câu và các snippet
     preprocessed_query, _ = preprocess_text_vietnamese(sentence)
@@ -225,6 +243,10 @@ def compare_sentences(sentence, all_snippets):
     # Trả về ba điểm số độ tương đồng cao nhất và các chỉ số tương ứng
     top_similarities = [(top_scores[i], top_indices[i]) for i in range(len(top_indices))]
     return top_similarities
+
+def check_snippet_in_sentence(sentence, snippet_parts):
+    # Kiểm tra xem câu có chứa bất kỳ phần nào của snippet hay không
+    return any(part in sentence for part in snippet_parts)
 
 def fetch_response(url):
     try:

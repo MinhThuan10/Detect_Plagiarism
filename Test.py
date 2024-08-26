@@ -57,25 +57,31 @@ def handle_sentence(sentence_data):
     for _, idx in top_similarities:
         url = items[idx].get('link')
         title = items[idx].get('title')
-        snippet = items[idx].get('snippet')
+        snippet = all_snippets[idx]
         print(f"Checking URL: {url}")
         
         # Tìm trong cache trước khi tải nội dung
-        sentences_from_webpage = sentences_cache.get(url)
+        sentences = sentences_cache.get(url)
         
-        if sentences_from_webpage is None:
+        if sentences is None:
             content = fetch_url(url)
             sentences_from_webpage = split_sentences(content)
-            sentences_cache[url] = sentences_from_webpage
-        
-        if sentences_from_webpage:
-            similarity_sentence, match_sentence, _ = compare_with_content(sentence, snippet, sentences_from_webpage)
-            
-            if similarity_sentence > best_match_similarity:
-                best_match_similarity = similarity_sentence
-                best_match_url = url
-                best_match_title = title
-                best_match_sentence = match_sentence
+            sentences = remove_sentences(sentences_from_webpage)
+            sentences_cache[url] = sentences
+
+        if sentences:      
+            print(snippet)
+            snippet_parts = split_sentences(snippet)
+            snippet_parts = remove_snippet_parts(snippet_parts)
+            # Lọc các câu chứa ít nhất một phần của snippet
+            relevant_sentences = [s for s in sentences if check_snippet_in_sentence(s, snippet_parts)]
+            if relevant_sentences:
+                similarity_sentence, match_sentence, _ = compare_with_content(sentence, relevant_sentences)
+                if similarity_sentence > best_match_similarity:
+                    best_match_similarity = similarity_sentence
+                    best_match_url = url
+                    best_match_title = title
+                    best_match_sentence = match_sentence
 
     # Kiểm tra kết quả và cập nhật nếu phát hiện đạo văn
     if best_match_url:
@@ -94,13 +100,8 @@ def handle_sentence(sentence_data):
 # Tiền xử lý dữ liệu từ file PDF
 processed_sentences = processing_data(file_path)
 
-# Xử lý từng câu lần lượt (đa luồng)
-with ThreadPoolExecutor(max_workers=10) as executor:
-    futures = [executor.submit(handle_sentence, sentence_data) for sentence_data in processed_sentences]
-    
-    for future in as_completed(futures):
-        future.result()
-
+for sentece in processed_sentences:
+    handle_sentence(sentece)
 # Dọn dẹp cache
 sentences_cache.clear()
 

@@ -1,39 +1,33 @@
-import requests
-import re
-from sentence_split import *
-# Thông tin API Key và Custom Search Engine ID
-API_KEY = 'AIzaSyAe4kQFGeVqXnD0-EIx5qAUxA4aeauTx_Y'  # Thay thế bằng API Key của bạn
-CX = '01d819c8b90df4a04'  # Thay thế bằng Custom Search Engine ID của bạn
+def extract_phrases(sentence, n=3):
+    # Tách câu thành các từ
+    words = sentence.split()
+    # Danh sách để lưu các cụm từ
+    phrases = []
+    
+    # Nếu số từ ít hơn n, không thể tạo cụm từ
+    if len(words) < n:
+        return phrases
+    
+    # Tạo các cụm từ với khoảng n từ
+    for i in range(0, len(words), n):
+        phrase = ' '.join(words[i:i + n])
+        phrases.append(phrase)
+    
+    return phrases
 
-def search_query(query):
-    # Tạo URL truy vấn
-    url = f"https://www.googleapis.com/customsearch/v1?key={API_KEY}&cx={CX}&q={query}"
+def process_sentences(sentences, n=3):
+    all_phrases = []
+    for sentence in sentences:
+        phrases = extract_phrases(sentence, n)
+        all_phrases.extend(phrases)
+    return all_phrases
 
-    # Gửi yêu cầu GET tới API
-    response = requests.get(url)
+# Ví dụ sử dụng
+sentences = [
+    "Chào bạn! Tôi là ChatGPT và tôi giúp bạn giải đáp thắc mắc.",
+    "Có điều gì bạn cần biết không? Hãy cho tôi biết."
+]
 
-    # Kiểm tra xem yêu cầu có thành công không
-    if response.status_code == 200:
-        results = response.json()
-        
-        # Trích xuất và in ra các snippet từ kết quả tìm kiếm
-        if 'items' in results:
-            for i, item in enumerate(results['items']):
-                snippet = item.get('snippet', 'No snippet available')
-                print(item.get('link'))
-                print(item.get('snippet'))
-
-                sentences = split_sentences(snippet)
-                for sentence in sentences:
-                    print(sentence)
-                print("\n")  # In dòng trắng để tách giữa các snippet
-        else:
-            print("No results found.")
-    else:
-        print(f"Error: {response.status_code}")
-
-# Câu muốn tìm kiếm
-query = "Tự đạo văn thường được hiểu là “tái sử dụng” hay “tái chế” lại các một phần hay toàn bộ nghiên cứu cũ đã được phát hành trước đó của chính bản thân"
-
-# Thực hiện tìm kiếm
-search_query(query)
+# Tách câu thành các cụm từ 3 từ
+phrases = process_sentences(sentences, n=3)
+print(phrases)
