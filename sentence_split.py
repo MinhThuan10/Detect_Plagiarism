@@ -40,7 +40,7 @@ def combine_lines_and_split_sentences(extracted_text):
     return combined_sentences
 
 def remove_single_word_sentences(sentences):
-    return [sentence for sentence in sentences if len(sentence[0].split()) > 3]
+    return [sentence for sentence in sentences if(len(sentence[0].split()) > 3 and len(sentence[0].split()) < 100)]
 
 
 def split_sentences(text):

@@ -62,7 +62,7 @@ def process_sentence(sentence):
 def search_text(text):
     sentences = text.split('\n')
 
-    with concurrent.futures.ThreadPoolExecutor(max_workers=5) as executor:
+    with concurrent.futures.ThreadPoolExecutor(max_workers=10) as executor:
         futures = [executor.submit(process_sentence, sentence) for sentence in sentences]
         for future in concurrent.futures.as_completed(futures):
             try:

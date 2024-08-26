@@ -6,18 +6,17 @@ from urllib3.exceptions import InsecureRequestWarning
 import time
 from save_txt import *
 from processing import *
-
-# Thêm đường dẫn của thư mục cha vào sys.path
+from concurrent.futures import ThreadPoolExecutor, as_completed
 
 # Tắt cảnh báo InsecureRequestWarning
 warnings.simplefilter('ignore', InsecureRequestWarning)
 
 # Bắt đầu tính thời gian
 start_time = time.time()
-file_path = './Data/SKL007296.pdf'
+file_path = './test/Data/nhom1.pdf'
 
 # Dictionary để lưu trữ nội dung các file PDF và nội dung trang web
-content_cache = {}
+sentences_cache = {}
 plagiarized_count = 0
 processed_sentences = []
 
@@ -61,14 +60,15 @@ def handle_sentence(sentence_data):
         print(f"Checking URL: {url}")
         
         # Tìm trong cache trước khi tải nội dung
-        content = content_cache.get(url)
+        sentences_from_webpage = sentences_cache.get(url)
         
-        if content is None:
+        if sentences_from_webpage is None:
             content = fetch_url(url)
-            content_cache[url] = content
+            sentences_from_webpage = split_sentences(content)
+            sentences_cache[url] = sentences_from_webpage
         
-        if content:
-            similarity_sentence, match_sentence, _ = compare_with_content(sentence, content)
+        if sentences_from_webpage:
+            similarity_sentence, match_sentence, _ = compare_with_content(sentence, sentences_from_webpage)
             
             if similarity_sentence > best_match_similarity:
                 best_match_similarity = similarity_sentence
@@ -80,7 +80,7 @@ def handle_sentence(sentence_data):
     if best_match_url:
         threshold = calculate_dynamic_threshold(len(sentence.split()))
         print(f"Độ tương đồng: {best_match_similarity}")
-        print(f"Ngưỡng:{threshold}")
+        print(f"Ngưỡng: {threshold}")
         if best_match_similarity > threshold:
             print("+++++++Nội dung bị trùng phát hiện:")
             print(f"Title: {best_match_title}")
@@ -93,13 +93,15 @@ def handle_sentence(sentence_data):
 # Tiền xử lý dữ liệu từ file PDF
 processed_sentences = processing_data(file_path)
 
-# Xử lý từng câu lần lượt (đơn luồng)
-for i, sentence_data in enumerate(processed_sentences):
-    print(f"Câu {i+1}")
-    handle_sentence(sentence_data)
+# Xử lý từng câu lần lượt (đa luồng)
+with ThreadPoolExecutor(max_workers=10) as executor:
+    futures = [executor.submit(handle_sentence, sentence_data) for sentence_data in processed_sentences]
+    
+    for future in as_completed(futures):
+        future.result()
 
 # Dọn dẹp cache
-content_cache.clear()
+sentences_cache.clear()
 
 # Kết thúc và in ra thời gian thực hiện
 end_time = time.time()

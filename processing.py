@@ -55,6 +55,40 @@ API_KEYS2 = [
 ]
 
 CX2 = 'a6694d6bf858e42f6'
+
+API_KEYS3 = [
+    'AIzaSyB9pd6wJ5oEO4-AN5F0kjtMKXH69ky3oe8',
+    'AIzaSyBhEFWEralUvFNsuqjrwZhMX__YjbBIDeo',
+    'AIzaSyC5965PVE6g5mhSL_nSZoDcxFihduk3Vok',
+    'AIzaSyCKAEdJwGwhiJxA8bGXm_lbi3ZHnSRGCGc',
+    'AIzaSyDEKcMT2Sn0xNJGLFhXt6X4d9t0D5onw5A',
+    'AIzaSyD_z3VYwanzMQcrCiRan-5jplIhAJKLnoM',
+    'AIzaSyB4odGdiBhlrZcrOrngwcHIM_FlLweCX80',
+    'AIzaSyBPRxRJWlr8q4v81xGMshDyJKpc_dGWODg',
+    'AIzaSyALCy-7PoY_SZ425b3V4IBMnTLcrm2QFmg',
+    'AIzaSyDQq2ppxwmYWtW8aGQUi9RTh1g7tpk6KOc',
+    'AIzaSyBmBPKHZAXMd35HjNDCEMMeSpqgp4CDcBo',
+    'AIzaSyB-dx-CFUpzfsGagGT9-4wiYAhc4PsIyD0',
+]
+CX3 = 'c0c0ab4e2da9b4ef2'
+
+API_KEYS4 = [
+    'AIzaSyB3xLylKi869uTqRwOeZBMXPaHFOE4_WG0',
+    'AIzaSyApQdG_sSdiG6zkUDzagXipLQFKM2O8mww',
+    'AIzaSyDbSYjRWLeAHgDXohIORPxL4TG3wEMEnt0',
+    'AIzaSyDFQcrxtpCvA3u98RuqYsdNhqOehX8VIe4',
+    'AIzaSyAwECCGT_p6wOWz3cIUNJptiN0dnPRv8hs',
+    'AIzaSyBwwA43nAbL_rNJrVs0Tx85elMrOg3Sm-U',
+    'AIzaSyBqHNzB_YT8GwQML1x-eAcDXh3Kl9y1FDo',
+    'AIzaSyArm92_Il9cFufWYN6zHnFwgjPodhvALHY',
+    'AIzaSyCiRnAnm-RvoczOfcJ_Jp_uYEHjP8X5irQ',
+    'AIzaSyBAoedWrVtHO-0iVuZKqzUwwpzMDlppqhE',
+    'AIzaSyD0jh0n0mEsd_acUt7yTuLasXeHQk6auGU',
+    'AIzaSyAe4kQFGeVqXnD0-EIx5qAUxA4aeauTx_Y',
+]
+CX4 = '01d819c8b90df4a04'
+
+
 # Khởi tạo API Key hiện tại
 # Biến toàn cục
 current_api_key_index = 0
@@ -67,6 +101,10 @@ def get_current_api_key():
         return API_KEYS[current_api_key_index]
     elif current_list == 2 and current_api_key_index < len(API_KEYS2):
         return API_KEYS2[current_api_key_index]
+    elif current_list == 3 and current_api_key_index < len(API_KEYS3):
+        return API_KEYS3[current_api_key_index]
+    elif current_list == 4 and current_api_key_index < len(API_KEYS4):
+        return API_KEYS4[current_api_key_index]
     return None
 
 def get_next_api_key():
@@ -79,8 +117,15 @@ def get_next_api_key():
         # Chuyển sang danh sách API_KEYS2
         current_list = 2
         current_api_key_index = 0  # Reset lại index cho API_KEYS2
-    
     elif current_list == 2 and current_api_key_index >= len(API_KEYS2):
+        # Chuyển sang danh sách API_KEYS2
+        current_list = 3
+        current_api_key_index = 0  # Reset lại index cho API_KEYS2
+    elif current_list == 3 and current_api_key_index >= len(API_KEYS3):
+        # Chuyển sang danh sách API_KEYS2
+        current_list = 4
+        current_api_key_index = 0  # Reset lại index cho API_KEYS2
+    elif current_list == 4 and current_api_key_index >= len(API_KEYS4):
         return None  # Đã dùng hết cả hai danh sách
 
     return get_current_api_key()
@@ -96,7 +141,12 @@ def search_google(query):
             return {}  # Trả về rỗng khi không còn API Key khả dụng
         
         # Chọn CX tương ứng với danh sách API
-        cx = CX if current_list == 1 else CX2
+        if current_list == 1:
+            cx = CX
+        elif current_list == 2:
+            cx = CX2
+        else:
+            cx = CX3
         url = f"https://www.googleapis.com/customsearch/v1?q={query}&key={api_key}&cx={cx}"
         response = requests.get(url, verify=False)
         
@@ -143,28 +193,75 @@ def calculate_similarity(query_features, reference_features):
     similarity_scores = cosine_similarity(query_features, reference_features)
     return similarity_scores
 
-def compare_with_content(sentence, combined_webpage_text):
-    preprocessed_query, _ = preprocess_text_vietnamese(sentence)
-    sentences_from_webpage = split_sentences(combined_webpage_text)
-    if sentences_from_webpage == []:
-        return 0, "", -1
-    sentences = remove_sentences(sentences_from_webpage)
-    if sentences == []:
-        return 0, "", -1
-    preprocessed_references = [preprocess_text_vietnamese(ref)[0] for ref in sentences]
+# def compare_with_content(sentence, sentences_from_webpage):
+#     preprocessed_query, _ = preprocess_text_vietnamese(sentence)
+#     sentences = remove_sentences(sentences_from_webpage)
+#     if sentences == []:
+#         return 0, "", -1
+#     preprocessed_references = [preprocess_text_vietnamese(ref)[0] for ref in sentences]
 
-    all_sentences = [preprocessed_query] + preprocessed_references
+#     all_sentences = [preprocessed_query] + preprocessed_references
+#     embeddings = embedding_vietnamese(all_sentences) 
+#     # Tính toán độ tương đồng cosine giữa câu và các snippet
+#     similarity_scores = calculate_similarity(embeddings[0:1], embeddings[1:]) 
+    
+#     if similarity_scores.shape[1] == 0:
+#         return 0, "", -1
+    
+#     max_similarity_idx = similarity_scores.argmax()
+#     max_similarity = similarity_scores[0][max_similarity_idx]
+#     best_match = sentences[max_similarity_idx]
+#     return max_similarity, best_match, max_similarity_idx
+
+def compare_with_content(sentence, snippet, sentences_from_webpage):
+    preprocessed_query, _ = preprocess_text_vietnamese(sentence)
+    sentences = remove_sentences(sentences_from_webpage)
+    
+    if not sentences:
+        return 0, "", -1
+    
+    snippets = split_sentences(snippet)
+    matching_sentences = []
+    
+    # Tìm các câu trong sentences_from_webpage chứa bất kỳ câu nào trong snippets
+    for web_sentence in sentences:
+        for snippet_sentence in snippets:
+            if snippet_sentence in web_sentence:
+                matching_sentences.append(web_sentence)
+                break  # Ngừng kiểm tra nếu đã tìm thấy câu phù hợp
+    
+    if not matching_sentences:
+        return 0, "", -1
+    
+    all_sentences = [preprocessed_query] + matching_sentences
     embeddings = embedding_vietnamese(all_sentences) 
-    # Tính toán độ tương đồng cosine giữa câu và các snippet
-    similarity_scores = calculate_similarity(embeddings[0:1], embeddings[1:]) 
     
-    if similarity_scores.shape[1] == 0:
-        return 0, ""
+    similarity_scores = calculate_similarity(embeddings[0:1], embeddings[1:])
     
-    max_similarity_idx = similarity_scores.argmax()
-    max_similarity = similarity_scores[0][max_similarity_idx]
-    best_match = sentences[max_similarity_idx]
-    return max_similarity, best_match, max_similarity_idx
+    max_similarity_index = similarity_scores.argmax()
+    max_similarity = similarity_scores[0][max_similarity_index]
+    best_sentence = matching_sentences[max_similarity_index]
+    
+    return max_similarity, best_sentence, sentences.index(best_sentence)
+
+
+
+# def compare_sentences(sentence, all_snippets):
+#     # Tiền xử lý câu và các snippet
+#     preprocessed_query, _ = preprocess_text_vietnamese(sentence)
+#     preprocessed_references = [preprocess_text_vietnamese(snippet)[0] for snippet in all_snippets]  
+#     all_sentences = [preprocessed_query] + preprocessed_references
+#     embeddings = embedding_vietnamese(all_sentences) 
+#     # Tính toán độ tương đồng cosine giữa câu và các snippet
+#     similarity_scores = calculate_similarity(embeddings[0:1], embeddings[1:]) 
+#     # Sắp xếp điểm số tương đồng và chỉ số của các snippet
+#     sorted_indices = similarity_scores[0].argsort()[::-1]
+#     top_indices = sorted_indices[:3]
+#     top_scores = similarity_scores[0][top_indices]
+#     # Trả về ba điểm số độ tương đồng cao nhất và các chỉ số tương ứng
+#     top_similarities = [(top_scores[i], top_indices[i]) for i in range(len(top_indices))]
+    
+#     return top_similarities
 
 def compare_sentences(sentence, all_snippets):
     # Tiền xử lý câu và các snippet
@@ -182,78 +279,6 @@ def compare_sentences(sentence, all_snippets):
     top_similarities = [(top_scores[i], top_indices[i]) for i in range(len(top_indices))]
     
     return top_similarities
-
-# def extract_text_from_pdf(url, save_path):
-#     response = requests.get(url, verify=False)
-#     if response.status_code != 200:
-#         return ""
-#     if save_path:
-#         with open(save_path, 'wb') as file:
-#             file.write(response.content)
-#         pdf_path = save_path
-#     else:
-#         pdf_path = io.BytesIO(response.content)
-
-#     with fitz.open(pdf_path) as document:
-#         with ThreadPoolExecutor() as executor:
-#             text_parts = executor.map(lambda page: page.get_text("text"), document)
-    
-#     pdf_text = ''.join(text_parts)
-
-#     if save_path:
-#         os.remove(save_path)
-    
-#     return pdf_text
-
-# def extract_text_from_html(html):
-
-#     soup = BeautifulSoup(html, 'html.parser')
-#     if soup.body:
-#         # Lấy tất cả nội dung hiển thị trên trang web từ thẻ <body>
-#         body_content = soup.body.get_text(separator='\n', strip=True)
-#     elif soup.html:  # Nếu không có <body>, thử lấy nội dung từ thẻ <html>
-#         body_content = soup.html.get_text(separator='\n', strip=True)
-#     else:
-#         # Nếu không có <body> hoặc <html>, trả về chuỗi rỗng hoặc thông báo lỗi
-#         body_content = ""
-
-#     return body_content
-
-# def fetch_docx(url):
-#     response = requests.get(url)
-#     response.raise_for_status()  # Kiểm tra lỗi HTTP
-#     doc_file = BytesIO(response.content)
-#     doc = Document(doc_file)
-#     text = [para.text for para in doc.paragraphs]
-#     return '\n'.join(text)
-
-# def fetch_csv(url):
-#     response = requests.get(url)
-#     response.raise_for_status()  # Kiểm tra lỗi HTTP
-#     csv_content = StringIO(response.text)
-#     df = pd.read_csv(csv_content)
-#     return df.to_string()  # Trả về dữ liệu CSV dưới dạng chuỗi
-    
-# def fetch_url(url):
-#     try:
-#         response = requests.get(url, timeout=10, verify=False)
-#         response.raise_for_status()
-#         if response.status_code == 200:
-#             # Kiểm tra Content-Type để xác định loại tệp
-#             content_type = response.headers.get('Content-Type', '').lower()
-            
-#             if 'application/pdf' in content_type:
-#                 return extract_text_from_pdf(url, 'downloaded_document.pdf')
-#             elif 'application/vnd.openxmlformats-officedocument.wordprocessingml.document' in content_type:
-#                 return fetch_docx(url) 
-#             elif 'text/csv' in content_type:
-#                 return fetch_csv(url)  
-#             else:
-#                 return extract_text_from_html(response.content) 
-#     except (requests.exceptions.RequestException, TimeoutError) as e:
-#         print(f"Error accessing {url}: {e}")
-#         return ""
-
 
 def fetch_response(url):
     try:
