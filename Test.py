@@ -15,29 +15,21 @@ warnings.simplefilter('ignore', InsecureRequestWarning)
 
 # Bắt đầu tính thời gian
 start_time = time.time()
-
+sentences_cache = {}
 
 # Đường dẫn URL của file PDF
-url = 'https://m.hvtc.edu.vn/Portals/0/01_2018/3Toan%20van%20luan%20an.pdf'
+# url = 'https://www.barbercosmo.ca.gov/laws_regs/act_regs_vt.pdf'
+url = 'https://www.fmu.ac.jp/home/public_h/ebm/materials/images/VN_epibook_130515_KhoaH27.4.14.pdf'
+content = fetch_url(url)
+sentences_cache[url] = content
+print(content)
+content = sentences_cache.get(url)
+if content is None:
+    content = fetch_url(url)
+print(content)
 
-# Gửi yêu cầu GET để tải về nội dung file PDF
-response = requests.get(url)
-
-# Kiểm tra nếu yêu cầu thành công
-if response.status_code == 200:
-    # Đọc nội dung PDF từ response
-    f = io.BytesIO(response.content)
-    reader = PyPDF2.PdfReader(f)
-
-    # Lấy văn bản từ từng trang của PDF
-    for i in range(len(reader.pages)):
-        page = reader.pages[i]
-        text = page.extract_text()
-        print(f"Page {i+1}:")
-        print(text)
-else:
-    print(f"Không thể tải file PDF. Mã lỗi: {response.status_code}")
-
+# sentences_from_webpage = split_sentences(content)
+# sentences = remove_sentences(sentences_from_webpage)
 
 
 # embedding_vietnamese(sentences)
