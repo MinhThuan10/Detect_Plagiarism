@@ -13,7 +13,9 @@ warnings.simplefilter('ignore', InsecureRequestWarning)
 
 # Bắt đầu tính thời gian
 start_time = time.time()
-file_path = './Data/SKL007296.pdf'
+# file_path = './Data/SKL007296.pdf'
+file_path = './test/Data/test.pdf'
+
 # file_path = './test/Data/test.pdf'
 # Dictionary để lưu trữ nội dung các file PDF và nội dung trang web
 sentences_cache = {}
@@ -75,7 +77,7 @@ def handle_sentence(sentence_data):
             # Lọc các câu chứa ít nhất một phần của snippet
             relevant_sentences = [s for s in sentences if check_snippet_in_sentence(s, snippet_parts)]
             if relevant_sentences:
-                similarity_sentence, match_sentence, _ = compare_with_content(sentence, relevant_sentences)
+                similarity_sentence, match_sentence, _ = compare_with_sentences(sentence, relevant_sentences)
                 if similarity_sentence > best_match_similarity:
                     best_match_similarity = similarity_sentence
                     best_match_url = url

@@ -7,108 +7,43 @@ import time
 from save_txt import *
 from processing import *
 from concurrent.futures import ThreadPoolExecutor, as_completed
-
+import io
+import requests
+import PyPDF2
 # Tắt cảnh báo InsecureRequestWarning
 warnings.simplefilter('ignore', InsecureRequestWarning)
 
 # Bắt đầu tính thời gian
 start_time = time.time()
-file_path = './test/Data/test.pdf'
 
-# Dictionary để lưu trữ nội dung các file PDF và nội dung trang web
-sentences_cache = {}
-plagiarized_count = 0
-processed_sentences = []
 
-def processing_data(file_path):
-    # Trích xuất nội dung văn bản từ file PDF với số trang
-    text_with_page = extract_pdf_text(file_path)
-    # Lưu nội dung vào file văn bản với số trang
-    save_text_with_page_to_file(text_with_page, './output/content.txt')
-    # Kết hợp các dòng và tách câu, lưu cả số trang cho mỗi câu
-    sentences_with_page = combine_lines_and_split_sentences(text_with_page)
-    # Lưu nội dung vào file văn bản với số dòng và số trang
-    save_combined_text_with_page_to_file(sentences_with_page, './output/sentence_split.txt')
-    # Loại bỏ các câu có ít hơn 1 từ
-    processed_sentences = remove_single_word_sentences(sentences_with_page)
-    # Lưu nội dung vào file văn bản
-    save_combined_text_with_page_to_file(processed_sentences, './output/processed_sentences.txt')
-    return processed_sentences
+# Đường dẫn URL của file PDF
+url = 'https://m.hvtc.edu.vn/Portals/0/01_2018/3Toan%20van%20luan%20an.pdf'
 
-def handle_sentence(sentence_data):
-    global plagiarized_count
+# Gửi yêu cầu GET để tải về nội dung file PDF
+response = requests.get(url)
 
-    sentence, _ = sentence_data
-    print(f"********Tìm kiếm câu: {sentence}")
-    
-    result = search_google(sentence)
-    items = result.get('items', [])
-    all_snippets = [item.get('snippet', '') for item in items if item.get('snippet', '')]
-    
-    if not all_snippets:
-        return None
+# Kiểm tra nếu yêu cầu thành công
+if response.status_code == 200:
+    # Đọc nội dung PDF từ response
+    f = io.BytesIO(response.content)
+    reader = PyPDF2.PdfReader(f)
 
-    top_similarities = compare_sentences(sentence, all_snippets)
-    best_match_url = None
-    best_match_title = None
-    best_match_similarity = 0
-    best_match_sentence = ""
+    # Lấy văn bản từ từng trang của PDF
+    for i in range(len(reader.pages)):
+        page = reader.pages[i]
+        text = page.extract_text()
+        print(f"Page {i+1}:")
+        print(text)
+else:
+    print(f"Không thể tải file PDF. Mã lỗi: {response.status_code}")
 
-    for _, idx in top_similarities:
-        url = items[idx].get('link')
-        title = items[idx].get('title')
-        snippet = all_snippets[idx]
-        print(f"Checking URL: {url}")
-        
-        # Tìm trong cache trước khi tải nội dung
-        sentences = sentences_cache.get(url)
-        
-        if sentences is None:
-            content = fetch_url(url)
-            sentences_from_webpage = split_sentences(content)
-            sentences = remove_sentences(sentences_from_webpage)
-            sentences_cache[url] = sentences
 
-        if sentences:      
-            print(snippet)
-            snippet_parts = split_sentences(snippet)
-            snippet_parts = remove_snippet_parts(snippet_parts)
-            # Lọc các câu chứa ít nhất một phần của snippet
-            relevant_sentences = [s for s in sentences if check_snippet_in_sentence(s, snippet_parts)]
-            if relevant_sentences:
-                similarity_sentence, match_sentence, _ = compare_with_content(sentence, relevant_sentences)
-                if similarity_sentence > best_match_similarity:
-                    best_match_similarity = similarity_sentence
-                    best_match_url = url
-                    best_match_title = title
-                    best_match_sentence = match_sentence
 
-    # Kiểm tra kết quả và cập nhật nếu phát hiện đạo văn
-    if best_match_url:
-        threshold = calculate_dynamic_threshold(len(sentence.split()))
-        print(f"Độ tương đồng: {best_match_similarity}")
-        print(f"Ngưỡng: {threshold}")
-        if best_match_similarity > threshold:
-            print("+++++++Nội dung bị trùng phát hiện:")
-            print(f"Title: {best_match_title}")
-            print(f"URL: {best_match_url}")
-            print(f"Best match sentence: {best_match_sentence}")
-            plagiarized_count += 1
-
-    return best_match_url
-
-# Tiền xử lý dữ liệu từ file PDF
-processed_sentences = processing_data(file_path)
-
-for sentece in processed_sentences:
-    handle_sentence(sentece)
-# Dọn dẹp cache
-sentences_cache.clear()
-
+# embedding_vietnamese(sentences)
 # Kết thúc và in ra thời gian thực hiện
 end_time = time.time()
 elapsed_time = end_time - start_time
 
-print("Đánh giá độ hiệu quả của Google Search API ")
+
 print(f"Thời gian thực hiện: {elapsed_time:.2f} giây")
-print(f"Số lượng câu phát hiện đạo văn: {plagiarized_count}")

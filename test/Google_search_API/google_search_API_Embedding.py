@@ -45,7 +45,7 @@ def search_text(text):
                 sentences_cache[url] = sentences
             
             if sentences:
-                similarity_sentence, match_sentence, _ = compare_with_content(sentence, sentences)
+                similarity_sentence, match_sentence, _ = compare_with_sentences(sentence, sentences)
                 if similarity_sentence > best_match_similarity:
                     best_match_similarity = similarity_sentence
                     best_match_url = url
