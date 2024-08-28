@@ -15,17 +15,28 @@ with open('./test/Data/test.txt', 'r', encoding='utf-8') as file:
 sentences = text.split('\n')
 
 for i, sentence in enumerate(sentences):
-    preprocessed_query, all_sentences, embeddings = search_sentence_elastic_embedding(sentence)
-    preprocessed_embedding = embedding_vietnamese(preprocessed_query).reshape(1, -1)
+    
+    preprocessed_query, all_sentences = search_sentence_elastic(sentence)
 
-    # Ensure all_embeddings[i] is a numpy array
-    reference_embeddings = np.array(embeddings)
-    # Calculate cosine similarity
-    similarity_scores = calculate_similarity(preprocessed_embedding, reference_embeddings)
-    # Tính ngưỡng động dựa trên chiều dài câu
+    preprocessed_references = [preprocess_text_vietnamese(ref)[0] for ref in all_sentences]
+      
+    all_sentences = [preprocessed_query] + preprocessed_references
+    
+    # Tính toán embeddings cho tất cả các câu cùng một lúc
+    embeddings = embedding_vietnamese(all_sentences)
+
+    # Tách embedding của câu truy vấn và các câu tham chiếu
+    query_embedding = embeddings[0].reshape(1, -1)
+    reference_embeddings = embeddings[1:]
+
+
+
+    similarity_scores = calculate_similarity(query_embedding, reference_embeddings)
+
+    # Calculate dynamic threshold based on sentence length
     query_length = len(preprocessed_query.split())
     dynamic_threshold = calculate_dynamic_threshold(query_length)
-
+    
     max_similarity_idx = similarity_scores[0].argmax()
     # Lấy giá trị similarity cao nhất
     highest_score = similarity_scores[0][max_similarity_idx]

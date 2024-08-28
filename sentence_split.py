@@ -98,8 +98,10 @@ def split_snippet(text):
                 sentence = sentence.strip()
                 if sentence:
                     # Tách câu thành các cụm từ
-                    phrases = extract_phrases(sentence, n=3)
-                    combined_sentences.extend(phrases)
+                    phrases = extract_phrases(sentence, n=2)
+                    for phrase in phrases:
+                        if len(phrase.split()) > 1:
+                            combined_sentences.append(phrase)
 
     return combined_sentences
 

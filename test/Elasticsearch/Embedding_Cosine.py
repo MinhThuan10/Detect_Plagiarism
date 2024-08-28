@@ -4,7 +4,12 @@ import os
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '../..')))
 from processing import *
 import time
+# Tải mô hình và chuyển sang GPU (nếu có)
+model = SentenceTransformer('dangvantuan/vietnamese-embedding', device = 'cpu')
 
+def embedding_vietnamese(text):
+    embedding = model.encode(text)
+    return embedding
 # Start the timer
 start_time = time.time()
 plagiarized_count = 0

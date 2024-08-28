@@ -1,33 +1,17 @@
-def extract_phrases(sentence, n=3):
-    # Tách câu thành các từ
-    words = sentence.split()
-    # Danh sách để lưu các cụm từ
-    phrases = []
-    
-    # Nếu số từ ít hơn n, không thể tạo cụm từ
-    if len(words) < n:
-        return phrases
-    
-    # Tạo các cụm từ với khoảng n từ
-    for i in range(0, len(words), n):
-        phrase = ' '.join(words[i:i + n])
-        phrases.append(phrase)
-    
-    return phrases
+import sys
+import os
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '../..')))
+import warnings
+from urllib3.exceptions import InsecureRequestWarning
+import time
+from save_txt import *
+from processing import *
+from concurrent.futures import ThreadPoolExecutor, as_completed
 
-def process_sentences(sentences, n=3):
-    all_phrases = []
-    for sentence in sentences:
-        phrases = extract_phrases(sentence, n)
-        all_phrases.extend(phrases)
-    return all_phrases
+url = 'https://cait.neu.edu.vn/vi/turnitin/khai-niem-va-cac-van-de-ve-dao-van'
 
-# Ví dụ sử dụng
-sentences = [
-    "Chào bạn! Tôi là ChatGPT và tôi giúp bạn giải đáp thắc mắc.",
-    "Có điều gì bạn cần biết không? Hãy cho tôi biết."
-]
-
-# Tách câu thành các cụm từ 3 từ
-phrases = process_sentences(sentences, n=3)
-print(phrases)
+content = fetch_url(url)
+if content:
+    sentences_from_webpage = split_sentences(content)
+    sentences = remove_sentences(sentences_from_webpage)
+    print(sentences)

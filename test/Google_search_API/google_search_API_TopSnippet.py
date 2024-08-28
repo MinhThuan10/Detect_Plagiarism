@@ -12,7 +12,6 @@ warnings.simplefilter('ignore', InsecureRequestWarning)
 
 # Dictionary để lưu trữ nội dung các file PDF và nội dung trang web
 sentences_cache = {}
-
 plagiarized_count = 0
 
 def search_text(text):

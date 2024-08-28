@@ -13,8 +13,8 @@ warnings.simplefilter('ignore', InsecureRequestWarning)
 
 # Bắt đầu tính thời gian
 start_time = time.time()
-# file_path = './Data/SKL007296.pdf'
 file_path = './test/Data/test.pdf'
+# file_path = './Data/SKL007296.pdf'
 
 # file_path = './test/Data/test.pdf'
 # Dictionary để lưu trữ nội dung các file PDF và nội dung trang web
