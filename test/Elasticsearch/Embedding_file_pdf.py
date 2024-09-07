@@ -5,37 +5,72 @@ sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '../..')
 from processing import *
 import time
 from sentence_split import *
-from save_txt import *
+import json
+from pymongo import MongoClient
+import difflib
+
+# Kết nối tới MongoDB
+client = MongoClient('mongodb://localhost:27017/')
+db = client['Plagiarism']
+collection_sentences = db['sentences']
+collection_files = db['files']
 
 # Start the timer
 start_time = time.time()
 plagiarized_count = 0
-file_path = './Data/SKL007296.pdf'
+file_path = './test/Data/nhom1.pdf'
+
+assignment_id = 1
+file_id = 1
+title = 'test'
+author = 'Thuan'
+
 
 def processing_data(file_path):
     # Trích xuất nội dung văn bản từ file PDF với số trang
-    text_with_page = extract_pdf_text(file_path)
-    # Lưu nội dung vào file văn bản với số trang
-    save_text_with_page_to_file(text_with_page, './output/content.txt')
+    text, page_count, word_count = extract_pdf_text(file_path, './output/content.txt')
     # Kết hợp các dòng và tách câu, lưu cả số trang cho mỗi câu
-    sentences_with_page = combine_lines_and_split_sentences(text_with_page)
-    # Lưu nội dung vào file văn bản với số dòng và số trang
-    save_combined_text_with_page_to_file(sentences_with_page, './output/sentence_split.txt')
+    sentences_with_page = combine_lines_and_split_sentences(text, './output/sentence_split.txt')
     # Loại bỏ các câu có ít hơn 1 từ
-    processed_sentences = remove_single_word_sentences(sentences_with_page)
-    # Lưu nội dung vào file văn bản
-    save_combined_text_with_page_to_file(processed_sentences, './output/processed_sentences.txt')
-    return processed_sentences
+    processed_sentences = remove_single_word_sentences(sentences_with_page, './output/processed_sentences.txt')
+    return processed_sentences, page_count, word_count
 
-processed_sentences = processing_data(file_path)
+processed_sentences, page_count, word_count = processing_data(file_path)
 
-for i, (sentence, page_num) in enumerate(processed_sentences):
-    preprocessed_query, all_sentences = search_sentence_elastic(sentence)
+def read_pdf_binary(file_path):
+    with open(file_path, 'rb') as file:
+        return file.read()
+
+def save_pdf_to_mongo(pdf_path):
+    content = read_pdf_binary(pdf_path)
+    result = {
+        "assignment_id" : assignment_id,
+        "file_id": file_id,
+        "title": title,
+        "author": author,
+        "plagiarism": None,
+        "content": content,
+        "page_count" : page_count,
+        "word_count" : word_count
+        }
+    collection_files.insert_one(result)
+save_pdf_to_mongo(file_path)
+
+for i, sentence in enumerate(processed_sentences):
+    preprocessed_query, sentence_results = search_sentence_elastic(sentence)
     if preprocessed_query is None:
         print(f"Câu {i + 1}: No results found for this sentence. Moving to the next one.")
+        result = {
+            "file_id" : file_id,
+            "title": title,
+            "sentence_index": i + 1,
+            "sentence": sentence,
+            "plagiarism": 'no',
+            "sources": []
+            }
+        collection_sentences.insert_one(result)
         continue
-    preprocessed_references = [preprocess_text_vietnamese(ref)[0] for ref in all_sentences]
-      
+    preprocessed_references = [preprocess_text_vietnamese(ref['sentence'])[0] for ref in sentence_results]
     all_sentences = [preprocessed_query] + preprocessed_references
     
     # Tính toán embeddings cho tất cả các câu cùng một lúc
@@ -44,27 +79,62 @@ for i, (sentence, page_num) in enumerate(processed_sentences):
     # Tách embedding của câu truy vấn và các câu tham chiếu
     query_embedding = embeddings[0].reshape(1, -1)
     reference_embeddings = embeddings[1:]
-
     similarity_scores = calculate_similarity(query_embedding, reference_embeddings)
 
-    # Calculate dynamic threshold based on sentence length
     query_length = len(preprocessed_query.split())
     dynamic_threshold = calculate_dynamic_threshold(query_length)
     
     max_similarity_idx = similarity_scores[0].argmax()
-    # Lấy giá trị similarity cao nhất
-    highest_score = similarity_scores[0][max_similarity_idx]
-    print(f"Score: {highest_score:.2f}, Threshold: {dynamic_threshold:.2f}")
-    # So sánh với dynamic_threshold
-    if highest_score >= dynamic_threshold:
-        best_match = all_sentences[max_similarity_idx]
+    highest_score = float(similarity_scores[0][max_similarity_idx])
+    print(f"Threshold: {dynamic_threshold:.2f}")
+    sources = []
+    for idx, score in enumerate(similarity_scores[0]):
+        if score >= dynamic_threshold:
+            school_id = sentence_results[idx]['school_id']
+            school_name = sentence_results[idx]['school_name']
+            file_id_source = sentence_results[idx]['file_id']
+            file_name = sentence_results[idx]['file_name']
+            num_of_sentence = sentence_results[idx]['num_of_sentence']
+            best_match = sentence_results[idx]['sentence']
+
+            word_count_sml, indices_best_match, indices_sentence = common_ordered_words_difflib(best_match, sentence)
+            sources.append({
+                "school_id": school_id,
+                "school_name": school_name,
+                "file_id": file_id_source,
+                "file_name": file_name,
+                "num_of_sentence": num_of_sentence,
+                "best_match": best_match,
+                "score": float(score),
+                "highlight": {
+                    "word_count_sml":word_count_sml,
+                    "indices_best_match": indices_best_match,
+                    "indices_sentence": indices_sentence
+                }
+            })
+
+    if sources:
         plagiarized_count += 1
-        print(f"Câu {i + 1}: Plagiarized content detected:")
-        print(f"Reference:", best_match)
-        print()
-        
+        print(f"Câu {i + 1}: Plagiarized content detected with {len(sources)} sources.")
+        result = {
+            "file_id" : file_id,
+            "title": title,
+            "sentence_index": i + 1,
+            "sentence": sentence,
+            "plagiarism": 'yes',
+            "sources": sources
+        }
     else:
         print(f"Câu {i + 1}: No plagiarism detected.\n")
+        result = {
+            "file_id" : file_id,
+            "title": title,
+            "sentence_index": i + 1,
+            "sentence": sentence,
+            "plagiarism": 'no',
+            "sources": []
+        }
+    collection_sentences.insert_one(result)
 
 # End the timer
 end_time = time.time()

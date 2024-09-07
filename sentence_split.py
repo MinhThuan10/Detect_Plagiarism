@@ -1,46 +1,58 @@
 import fitz
 import re
 
-def extract_pdf_text(pdf_path):
-    pdf_document = fitz.open(pdf_path)
-    extracted_text = []
-    for page_num in range(len(pdf_document)):
-        page = pdf_document.load_page(page_num)
-        text = page.get_text().strip()
-        if text:
-            extracted_text.append((text, page_num + 1))  # page_num + 1 để đánh số trang từ 1
-    pdf_document.close()
-    return extracted_text
+def extract_pdf_text(pdf_path, output_file_path):
+    doc = fitz.open(pdf_path)
+    text = ""
+    total_pages = doc.page_count  # Lấy tổng số trang
+    total_words = 0
+    
+    for page in doc:
+        page_text = page.get_text()
+        text += page_text
+        total_words += len(page_text.split())  # Đếm số từ trong mỗi trang
+    
+    doc.close()
+    
+    with open(output_file_path, 'w', encoding='utf-8') as file:
+        file.write(text)
+    
+    return text, total_pages, total_words
 
-def combine_lines_and_split_sentences(extracted_text):
+def combine_lines_and_split_sentences(text, output_file_path):
     processed_text = []
     combined_sentences = []
     # Bao gồm tất cả các ký tự thường trong tiếng Việt
     vietnamese_lowercase = 'aáàảãạăắằẳẵặâấầẩẫậbcdđeéèẻẽẹêếềểễệfghiíìỉĩịjklmnoóòỏõọôốồổỗộơớờởỡợpqrstuúùủũụưứừửữựvxyýỳỷỹỵ'
     
-    for text, page_num in extracted_text:
-        # Thay thế '\n' theo điều kiện: Nếu có ký tự '\n' và sau đó là chữ thường tiếng Việt
-        text = re.sub(r'\n+', '\n', text)
-        text = re.sub(rf'\n(?=[{vietnamese_lowercase}])', ' ', text)
-        text = re.sub(r'[^\w\s.,;?:]', ' ', text)
-        text = re.sub(r'\.{2,}', '.', text)
-        text = re.sub(r'\ {2,}', ' ', text)
-        text = text.replace('. ', '.\n')
-        processed_text.append((text, page_num))
+    # Thay thế '\n' theo điều kiện: Nếu có ký tự '\n' và sau đó là chữ thường tiếng Việt
+    text = re.sub(r'\n+', '\n', text)
+    text = re.sub(rf'\n(?=[{vietnamese_lowercase}])', ' ', text)
+    text = re.sub(r'[^\w\s.,;?:]', ' ', text)
+    text = re.sub(r'\.{2,}', '.', text)
+    text = re.sub(r'\ {2,}', ' ', text)
+    text = text.replace('. ', '.\n')
+    processed_text.append((text))
          
-    for text, page_num in processed_text:
-        lines = text.split('\n')
-        for line in lines:
-            sentences = re.split(r'[.?!:;]', line)
-            for sentence in sentences:
-                sentence = sentence.strip()
-                if sentence:
-                    combined_sentences.append((sentence, page_num))
+    lines = text.split('\n')
+    for line in lines:
+        sentences = re.split(r'[.?!:;]', line)
+        for sentence in sentences:
+            sentence = sentence.strip()
+            if sentence:
+                combined_sentences.append((sentence))
 
+    with open(output_file_path, 'w', encoding='utf-8') as file:
+        for i, sentence in enumerate(combined_sentences, start=1):
+            file.write(f"Câu {i}: {sentence}\n")
     return combined_sentences
 
-def remove_single_word_sentences(sentences):
-    return [sentence for sentence in sentences if(len(sentence[0].split()) > 3 and len(sentence[0].split()) < 100)]
+def remove_single_word_sentences(sentences, output_file_path):
+    sentences =  [sentence for sentence in sentences if(len(sentence.split()) > 3 and len(sentence.split()) < 100)]
+    with open(output_file_path, 'w', encoding='utf-8') as file:
+            for i, sentence in enumerate(sentences, start=1):
+                file.write(f"Câu {i}: {sentence}\n")
+    return sentences
 
 
 def split_sentences(text):

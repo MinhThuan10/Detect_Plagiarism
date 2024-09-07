@@ -16,6 +16,10 @@ from elasticsearch import Elasticsearch
 import json
 import torch
 from sentence_split import *
+
+import difflib
+
+
 # Load Vietnamese spaCy model
 nlp = spacy.blank("vi")
 nlp.add_pipe("sentencizer")
@@ -331,7 +335,6 @@ def fetch_url(url):
 nlp = spacy.blank("vi")
 es = Elasticsearch("http://localhost:9200")
 
-sentence_file = './test/Data/test_sentence.txt'
 output_file = './test/Data/search.txt'
 
 def search_sentence_elastic(sentence):
@@ -341,7 +344,6 @@ def search_sentence_elastic(sentence):
     print(f"Tokens: {tokens}")
     # Tạo danh sách các field_value từ Elasticsearch
     sentence_results = []  # Mảng lưu trữ kết quả từng câu
-    seen_ids = set()  # Tập lưu các mongo_id đã thấy
     if not tokens:
         return None, []
     res = es.search(index="plagiarism", body={
@@ -350,44 +352,24 @@ def search_sentence_elastic(sentence):
         },
         "size": 10
     })
-    
     for hit in res['hits']['hits']:
-        mongo_id = hit['_source']['mongo_id']
-        
-        # Nếu mongo_id chưa thấy, mới thêm vào kết quả
-        if mongo_id not in seen_ids:
-            seen_ids.add(mongo_id)
-            log_entry = hit['_source']['log_entry']
-            log_entry = log_entry.replace("=>", ":").replace("BSON::ObjectId(", "").replace(")", "").replace("'", '"')
-            
-            # Phân tích chuỗi JSON
-            data = json.loads(log_entry)
-            
-            # Truy cập các giá trị
-            sentence = data.get("sentence")
-            sentence_index = data.get("sentence_index")
-            page_number = data.get("page_number")
-            file_name = data.get("file_name")
-            
-            result_info = {
-                'page_number': page_number,
-                'sentence_index': sentence_index,
-                'sentence_content': sentence,
-                'file_name': file_name,
-            }
-            sentence_results.append(result_info)
+        school_id = hit['_source']['school_id']
+        school_name = hit['_source']['school_name']
+        file_id = hit['_source']['file_id']
+        file_name = hit['_source']['file_name']
+        num_of_sentence = hit['_source']['num_of_sentence']
+        sentence = hit['_source']['sentence']
 
-    # Ghi kết quả vào file
-    with open(output_file, 'w', encoding='utf-8') as file:
-        sentence_contents = [] 
-        for result in sentence_results:
-            page_number = result['page_number']
-            sentence_index = result['sentence_index']
-            sentence_content = result['sentence_content']
-            file_name = result['file_name']
-            file.write(f"Sentence: {processed_sentence}, Elasticsearch result: File: {file_name}, Trang: {page_number}; Số câu: {sentence_index}; Nội dung: {sentence_content}\n")             
-            sentence_contents.append(sentence_content)
-    return processed_sentence, sentence_contents
+        result_info = {
+            'school_id': school_id,
+            'school_name': school_name,
+            'file_id': file_id,
+            'file_name': file_name,
+            'num_of_sentence': num_of_sentence,
+            'sentence': sentence
+        }
+        sentence_results.append(result_info)
+    return processed_sentence, sentence_results
 
 def search_sentence_elastic_embedding(sentence): 
     processed_sentence, _ = preprocess_text_vietnamese(sentence)
@@ -437,3 +419,28 @@ def calculate_dynamic_threshold(length, max_threshold=0.9, min_threshold=0.7):
         scaling_factor = (max_threshold - min_threshold) / (40 - 10)
         threshold = max_threshold - (length - 10) * scaling_factor
         return threshold
+    
+
+# Highlight
+
+def read_pdf_binary(file_path):
+    with open(file_path, 'rb') as file:
+        return file.read()
+    
+def common_ordered_words_difflib(best_match, sentence):
+    words_best_match = best_match.lower().split()
+    words_sentence = sentence.lower().split()
+
+    seq_matcher = difflib.SequenceMatcher(None, words_best_match, words_sentence)
+    
+    common_words = []
+    indices_best_match = []
+    indices_sentence = []
+    
+    for match in seq_matcher.get_matching_blocks():
+        if match.size > 0:  # Nếu có từ giống nhau
+            common_words.extend(words_best_match[match.a: match.a + match.size])
+            indices_best_match.extend(range(match.a, match.a + match.size))
+            indices_sentence.extend(range(match.b, match.b + match.size))
+
+    return len(common_words), indices_best_match, indices_sentence

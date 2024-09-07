@@ -1,5 +1,5 @@
 from pymongo import MongoClient
-def save_to_mongodb(processed_sentences,  file_name, db_name, collection_name):
+def save_to_mongodb(processed_sentences, file_id, file_name, db_name, collection_name):
     client = MongoClient('localhost', 27017)  # Kết nối tới MongoDB, chỉnh sửa theo cấu hình của bạn
     
     #client = MongoClient("mongodb+srv://minhthuan:minhthuan@minhthuan.vkhimqg.mongodb.net/?retryWrites=true&w=majority&appName=MinhThuan")
@@ -8,13 +8,14 @@ def save_to_mongodb(processed_sentences,  file_name, db_name, collection_name):
 
     # Chuẩn bị dữ liệu để chèn vào MongoDB
     documents = []
-    for sentence_index, (sentence, page_num, embedding) in enumerate(processed_sentences, start=1):
+    for i, sentence in enumerate(processed_sentences, start=1):
         document = {
+            'school_id': '1',
+            'school_name': 'Ho Chi Minh University of Technology and Education',
+            'file_id': file_id,
             'file_name': file_name,
             'sentence': sentence,
-            'page_number': page_num,
-            'sentence_index': sentence_index,  # Add sentence index
-            'Embedding': embedding.tolist()
+            'num_of_sentence': i,  # Add sentence index
         }
         documents.append(document)
     # Lưu các tài liệu vào MongoDB

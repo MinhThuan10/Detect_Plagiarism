@@ -4,7 +4,6 @@ sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '../..')
 import warnings
 from urllib3.exceptions import InsecureRequestWarning
 import time
-from save_txt import *
 from processing import *
 from concurrent.futures import ThreadPoolExecutor, as_completed
 
@@ -24,17 +23,11 @@ processed_sentences = []
 
 def processing_data(file_path):
     # Trích xuất nội dung văn bản từ file PDF với số trang
-    text_with_page = extract_pdf_text(file_path)
-    # Lưu nội dung vào file văn bản với số trang
-    save_text_with_page_to_file(text_with_page, './output/content.txt')
+    text = extract_pdf_text(file_path, './output/content.txt')
     # Kết hợp các dòng và tách câu, lưu cả số trang cho mỗi câu
-    sentences_with_page = combine_lines_and_split_sentences(text_with_page)
-    # Lưu nội dung vào file văn bản với số dòng và số trang
-    save_combined_text_with_page_to_file(sentences_with_page, './output/sentence_split.txt')
+    sentences_with_page = combine_lines_and_split_sentences(text, './output/sentence_split.txt')
     # Loại bỏ các câu có ít hơn 1 từ
-    processed_sentences = remove_single_word_sentences(sentences_with_page)
-    # Lưu nội dung vào file văn bản
-    save_combined_text_with_page_to_file(processed_sentences, './output/processed_sentences.txt')
+    processed_sentences = remove_single_word_sentences(sentences_with_page, './output/processed_sentences.txt')
     return processed_sentences
 
 def handle_sentence(sentence_data):
