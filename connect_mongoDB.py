@@ -10,8 +10,8 @@ def save_to_mongodb(processed_sentences, file_id, file_name, db_name, collection
     documents = []
     for i, sentence in enumerate(processed_sentences, start=1):
         document = {
-            'school_id': '1',
-            'school_name': 'Ho Chi Minh University of Technology and Education',
+            'school_id': '2',
+            'school_name': 'Phan Minh Thuan',
             'file_id': file_id,
             'file_name': file_name,
             'sentence': sentence,

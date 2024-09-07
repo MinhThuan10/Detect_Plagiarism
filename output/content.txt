@@ -1,3 +1,3770 @@
+THỰC TRẠNG KẾ TOÁN CÔNG NỢ VÀ  
+KHẢ NĂNG THANH TOÁN TẠI CÔNG TY TNHH
+THIẾT BỊ INOX HOÀNG TÂM
+SKL 0 0 7 8 6 6
+BỘ GIÁO DỤC & ĐÀO TẠO
+TRƯỜNG ĐẠI HỌC SƯ PHẠM KỸ THUẬT TP. HỒ CHÍ MINH
+KHOA ĐÀO TẠO CHẤT LƯỢNG CAO
+GVHD: ThS. NGUYỄN THỊ LAN ANH
+SVTH: VÕ CHƯ THÙY
+MSSV: 17125105
+Tp. Hồ Chí Minh, tháng 02/2021
+KHÓA LUẬN TỐT NGHIỆP
+NGÀNH KẾ TOÁN
+  
+ 
+i 
+ 
+ 
+TRƯỜNG ĐẠI HỌC SƯ PHẠM KỸ THUẬT THÀNH PHỐ  
+HỒ CHÍ MINH 
+KHOA ĐÀO TẠO CHẤT LƯỢNG CAO 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+KHÓA LUẬN TỐT NGHIỆP 
+  
+ 
+THỰC TRẠNG KẾ TOÁN CÔNG NỢ VÀ  
+KHẢ NĂNG THANH TOÁN TẠI CÔNG TY TNHH 
+THIẾT BỊ INOX HOÀNG TÂM 
+                       
+ 
+ 
+ 
+SVTH:  VÕ CHƯ THÙY 
+                       
+ 
+ 
+ 
+MSSV:    17125105 
+                       
+ 
+ 
+ 
+Khoá  :    17 
+                       
+ 
+ 
+ 
+Ngành:    KẾ TOÁN 
+                       
+ 
+ 
+ 
+GVHD: THS. NGUYỄN THỊ LAN ANH 
+ 
+                               
+ 
+ 
+                                              Tp. Hồ Chí Minh, tháng 02 năm 2021 
+ 
+  
+ 
+ii 
+ 
+ 
+TRƯỜNG ĐẠI HỌC SƯ PHẠM KỸ THUẬT THÀNH PHỐ  
+HỒ CHÍ MINH 
+KHOA ĐÀO TẠO CHẤT LƯỢNG CAO 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+KHÓA LUẬN TỐT NGHIỆP 
+  
+ 
+THỰC TRẠNG KẾ TOÁN CÔNG NỢ VÀ  
+KHẢ NĂNG THANH TOÁN TẠI CÔNG TY TNHH 
+THIẾT BỊ INOX HOÀNG TÂM 
+                       
+ 
+ 
+ 
+SVTH:  VÕ CHƯ THÙY 
+                       
+ 
+ 
+ 
+MSSV:    17125105 
+                      
+ 
+ 
+ 
+Khoá  :    17 
+                      
+ 
+ 
+ 
+Ngành:    KẾ TOÁN 
+                       
+ 
+ 
+ 
+GVHD: THS. NGUYỄN THỊ LAN ANH 
+                               
+ 
+ 
+ 
+                                              Tp. Hồ Chí Minh, tháng 02 năm 2021 
+ 
+  
+ 
+iii 
+ 
+Tp. Hồ Chí Minh, ngày 01 tháng 02 năm 2021  
+                  
+NHIỆM VỤ KHÓA LUẬN TỐT NGHIỆP 
+Họ và tên sinh viên: VÕ CHƯ THÙY 
+MSSV: 17125105 
+Ngành: KẾ TOÁN 
+Lớp: 17125CL1A 
+Giảng viên hướng dẫn: Th.S NGUYỄN THỊ LAN ANH ĐT:  
+Ngày nhận đề tài: 12/12/2020 
+Ngày nộp đề tài: 01/02/2021 
+1. Tên đề tài:  
+THỰC TRẠNG KẾ TOÁN CÔNG NỢ VÀ KHẢ NĂNG THANH TOÁN TẠI 
+CÔNG TY TNHH THIẾT BỊ INOX HOÀNG TÂM. 
+2. Các số liệu, tài liệu ban đầu:  
+- Thu thập các chính sách; Báo cáo tài chính năm 2019, 2020; các chứng từ liên quan 
+kế toán công nợ công ty TNHH Thiết bị Inox Hoàng Tâm bằng cách quan sát, phân 
+tích, đối chiếu các nghiệp vụ, sổ chi tiết,... qua 3 năm 2018-2020. 
+- Giáo trình Kế toán tài chính, nguyên lý kế toán,... 
+3. Nội dung thực hiện đề tài: 
+        Tìm hiểu cơ sở lý thuyết của kế toán công nợ đúng theo quy định hiện hành; làm 
+cơ sở để đi sâu tìm hiểu, phân tích tình hình áp dụng vào thực tế kế toán công nợ và 
+khả năng thanh toán công ty TNHH Thiết bị Inox Hoàng Tâm. Từ đó rút ra những nhận 
+xét chung, ưu nhược điểm về tình hình áp dụng kế toán công ty. Cuối cùng trên cơ sở 
+nhận xét nêu ra giải pháp nâng cao hiệu quả phát triển kế toán công nợ tại công ty. 
+ 
+ 
+CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM 
+Độc lập – Tự do – Hạnh phúc 
+----***---- 
+  
+ 
+iv 
+ 
+4. Sản phẩm: 
+Báo cáo tổng kết 
+ 
+ 
+         TRƯỞNG NGÀNH 
+GIẢNG VIÊN HƯỚNG DẪN 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+v 
+ 
+ 
+CỘNG HOÀ XÃ HỘI CHỦ NGHĨA VIỆT NAM 
+Độc lập – Tự do – Hạnh Phúc 
+******* 
+PHIẾU NHẬN XÉT CỦA GIÁO VIÊN HƯỚNG DẪN 
+ 
+Họ và tên Sinh viên: VÕ CHƯ THÙY                  MSSV: 17125105 
+Ngành: KẾ TOÁN 
+Tên đề tài: THỰC TRẠNG KẾ TOÁN CÔNG NỢ VÀ KHẢ NĂNG THANH TOÁN 
+TẠI CÔNG TY TNHH THIẾT BỊ INOX HOÀNG TÂM. 
+Họ và tên Giáo viên hướng dẫn: Th.S NGUYỄN THỊ LAN ANH 
+ 
+NHẬN XÉT 
+1. Về nội dung đề tài & khối lượng thực hiện: 
+ .................................................................................................................................. 
+ 
+ .................................................................................................................................. 
+ 
+ .................................................................................................................................. 
+ 
+ .................................................................................................................................. 
+ 
+2. Ưu điểm: 
+ .................................................................................................................................. 
+ 
+ .................................................................................................................................. 
+ 
+ .................................................................................................................................. 
+ 
+ .................................................................................................................................. 
+ 
+3. Khuyết điểm: 
+ .................................................................................................................................. 
+ 
+ ............................................................................................................................ ….. 
+ ................................................................................................................................. 
+. 
+ 
+  
+ 
+vi 
+ 
+4. Đề nghị cho bảo vệ hay không? 
+ .................................................................................................................................. 
+ 
+5. Đánh giá loại: 
+ .................................................................................................................................. 
+ 
+6. Điểm:……………….(Bằng chữ: 
+.......................................................................... 
+) 
+ .................................................................................................................................. 
+ 
+ 
+Tp. Hồ Chí Minh, ngày      tháng      năm 20… 
+ 
+ 
+Giáo viên hướng dẫn 
+ 
+(Ký & ghi rõ họ tên) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+vii 
+ 
+ 
+CỘNG HOÀ XÃ HỘI CHỦ NGHĨA VIỆT 
+NAM 
+Độc lập – Tự do – Hạnh Phúc 
+******* 
+                 PHIẾU NHẬN XÉT CỦA GIÁO VIÊN PHẢN BIỆN 
+ 
+Họ và tên Sinh viên:  VÕ CHƯ THÙY 
+Ngành: KẾ TOÁN 
+Tên đề tài: THỰC TRẠNG KẾ TOÁN CÔNG NỢ VÀ KHẢ NĂNG THANH TOÁN 
+TẠI CÔNG TY TNHH THIẾT BỊ INOX HOÀNG TÂM. 
+Họ và tên Giáo viên phản biện: 
+.................................................................................. 
+ .................................................................................................................................. 
+ .................................................................................................................................. 
+ 
+NHẬN XÉT 
+1. Về nội dung đề tài & khối lượng thực hiện: 
+ .................................................................................................................................. 
+ 
+ .................................................................................................................................. 
+ 
+ .................................................................................................................................. 
+ 
+2. Ưu điểm: 
+ .................................................................................................................................. 
+ 
+ .................................................................................................................................. 
+ 
+ .................................................................................................................................. 
+ 
+ .................................................................................................................................. 
+ 
+3. Khuyết điểm: 
+ .................................................................................................................................. 
+ 
+ .................................................................................................................................. 
+ 
+ .................................................................................................................................. 
+ 
+ 
+  
+ 
+viii 
+ 
+4. Đề nghị cho bảo vệ hay không? 
+ .................................................................................................................................. 
+ 
+5. Đánh giá loại: 
+ .................................................................................................................................. 
+ 
+6. Điểm:……………….(Bằng chữ: 
+.......................................................................... 
+) 
+ .................................................................................................................................. 
+ 
+ 
+Tp. Hồ Chí Minh, ngày        tháng    năm 20… 
+ 
+ 
+Giáo viên phản biện  
+ 
+(Ký & ghi rõ họ tên) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+i 
+ 
+ 
+LỜI MỞ ĐẦU 
+ 
+1. Tính cấp thiết 
+Với nền kinh tế đang trong thời kỳ phát triển rất mạnh và bất ổn như hiện nay thì 
+đối với danh nghiệp công tác kế toán công nợ cũng rất quan trọng vì doanh nghiệp 
+ngoài việc phải thanh toán các khoản nợ cho khách hàng nhằm để có chữ tin với khách 
+hàng ra còn phải thu hồi được các khoản nợ để tránh tình trạng chiếm dụng vốn của 
+doanh nghiệp. Ngoài ra việc thanh toán cũng giúp doanh nghiệp thực hiện nghĩa vụ đối 
+với nhà nước. 
+Sau khi thấy tầm quan trọng của một kế toán công nợ và được sự phân công công 
+tác của Ban giám đốc trong quá trình thực tập em đã chọn đề tài: “Thực trạng kế toán 
+công nợ và khả năng thanh toán tại công ty TNHH Thiết bị Inox Hoàng Tâm” để làm 
+luận văn tốt nghiệp. 
+2. Mục tiêu nghiên cứu 
+Luận văn nghiên cứu thực trạng kế toán công nợ áp dụng tại công ty trách nhiệm 
+hữu hạn Thiết bị Inox Hoàng Tâm, nhận diện những tồn tại về công tác kế toán công 
+nợ tại công ty, qua đó đưa ra những giải pháp nâng cao hiệu quả quản lý công nợ và 
+thu hồi nợ tại công ty TNHH Thiết bị Inox Hoàng Tâm. 
+3. Đối tượng và phạm vi nghiên cứu 
+3.1. 
+Đối tượng nghiên cứu 
+Luận văn tập trung nghiên cứu các nội dung về kế toán công nợ và tổ chức kế toán 
+công nợ tại công ty TNHH Thiết bị Inox Hoàng Tâm 
+3.2. 
+Phạm vi nghiên cứu 
+- Không gian nghiên cứu: công ty TNHH Thiết bị Inox Hoàng Tâm, bao gồm văn 
+phòng công ty và các đơn bị, bộ phận trực thuộc. 
+- Thời gian nghiên cứu: số liệu được minh họa về kế toán công nợ tại công ty là số 
+liệu từ tháng 9/2018 đến 2020. 
+4. Phương pháp nghiên cứu 
+Luận văn sử dụng phương pháp quan sát, so sánh, giải thích, lập luận logic. 
+5. Bố cục của đề tài: 
+Bố cục đề tài ngoài mở đầu và kế luận thì gồm 4 chương 
+- Giới thiệu khái quát về công ty TNHH Thiết bị Inox Hoàng Tâm. 
+  
+ 
+ii 
+ 
+- Cơ sở lý thuyết. 
+- Thực trạng công nợ và khả năng thanh toán công ty TNHH Thiết bị Inox Hoàng 
+Tâm. 
+- Một số biện pháp nâng cao hiệu quả quản lý và thu hồi công nợ tại công ty TNHH 
+Thiết bị Inox Hoàng Tâm. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+iii 
+ 
+LỜI CẢM ƠN 
+Trước hết, em xin chân thành cảm ơn Thạc sĩ Nguyễn Thị Lan Anh đã tận tình 
+hướng dẫn giúp đỡ và truyền đạt cho em những kinh nghiệm, giúp em hoàn thành tốt bài 
+khóa luận tốt nghiệp này. 
+    
+Để hoàn thành báo cáo này em xin chân thành cảm ơn Ban Giám Đốc cùng anh 
+chị Phòng kế toán, Phòng kinh doanh và các anh chị  ở các bộ phận khác công ty TNHH 
+Thiết bị Inox Hoàng Tâm đã nhiệt tình giúp đỡ, tạo mọi điều kiện thuận lợi cho em được 
+tiếp xúc thực tế, giải đáp thắc mắc, giúp em có thêm hiểu biết về công việc kế toán. 
+    
+Qua thời gian thực tập tại Công ty TNHH Thiết bị Inox Hoàng Tâm  đã giúp em 
+hiểu một cách tổng quát và sâu sắc hơn về “Thực trạng kế toán công nợ và khả năng 
+thanh toán” của công ty. Qua đó, em hiểu được sự khác biệt giữa lý thuyết được học ở 
+trường và thực tiễn công ty đang thực hiện. 
+Với vốn kiến thức được học tại trường, em đã áp dụng trong quá trình thực tập 
+của mình nhưng vẫn không tránh khỏi những thiếu xót. Em rất mong nhận được những 
+ý kiến đóng góp, phê bình của quý thầy cô và anh chị trong công ty. Đó sẽ là hành trang 
+quý báu giúp em hoàn thiện kiến thức của mình sau này.  
+Kính chúc Cô Nguyễn Thị Lan Anh  và Ban Giám Đốc cùng các anh chị trong 
+công ty được nhiều sức khỏe, công tác tốt./. 
+Em xin chân thành cảm ơn!! 
+                                                            TP.Hồ Chí Minh, ngày 30 tháng 01 năm 2021 
+                                                                                    Sinh viên thực hiện   
+                                                                                       Võ Chư Thùy 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+iv 
+ 
+TÓM TẮT  
+ 
+Để thực hiện tìm hiểu đề tài “ Thực trạng kế toán công nợ và khả năng thanh toán 
+công ty TNHH Thiết bị Inox Hoàng Tâm” em tiến hành nghiên cứu các vấn đề cần thiết 
+như: tình hình công nợ, thu thập sổ sách, chứng từ liên quan, tham khảo ý kiến từ nhân 
+viên kế toán công ty. Đồng thời, phân tích bằng cách sử dụng, tính toán những tỷ số tài 
+chính liên quan, cách thức hoạt động, nội dung kế toán từ đó áp dụng đánh giá thực trạng 
+công nợ và khả năng thanh toán của công ty TNHH Thiết bị Inox Hoàng Tâm. Sau đó 
+đưa ra biện pháp khắc phục những hạn chế mà công nợ công ty còn gặp phải. 
+ 
+Nội dung của bài báo cáo gồm 4 chương: 
+ 
+- Giới thiệu khái quát về công ty TNHH Thiết bị Inox Hoàng Tâm. 
+ 
+- Cơ sở lý thuyết. 
+- Thực trạng công nợ và khả năng thanh toán công ty TNHH Thiết bị Inox Hoàng 
+Tâm. 
+- Một số biện pháp nâng cao hiệu quả quản lý và thu hồi công nợ tại công ty 
+TNHH Thiết bị Inox Hoàng Tâm. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+v 
+ 
+ABSTRACT  
+To learn the topic "Current situation of accounting for debt and solvency of Hoang 
+Tam Inox Equipment Co., Ltd." Research was conducted on: debt situation, collection 
+of books, Relevant words, consult the company accountant. At the same time, the 
+financial ratios, operation, accounting content were analysed, then applying the 
+assessment of the current status of liabilities and solvency of the Equipment Company 
+Limited. Inox Hoang Tam. Then take measures to overcome the limitations that the 
+company still faces. 
+The content of the report consists of 4 chapters: 
+- An overview of Hoang Tam Inox Equipment Company Limited 
+- Theoretical basis 
+- Current status of debt and solvency of Hoang Tam Inox Equipment Company Limited 
+- Some measures to improve management efficiency and debt collection at Hoang Tam 
+Inox Equipment Company Limited 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+vi 
+ 
+MỤC LỤC 
+ 
+LỜI MỞ ĐẦU ............................................................................................................... 
+i 
+LỜI CẢM ƠN..................................... ................................................ ...........................ii 
+TÓM TẮT 
+................................................................................................................... 
+iv 
+ABSTRACT 
+................................................................................................................. 
+v 
+MỤC LỤC .................................................................................................................. 
+vi 
+DANH MỤC TỪ VIẾT TẮT ....................................................................................viii 
+DANH MỤC BẢNG BIỂU ......................................................................................... 
+ix 
+DANH MỤC BIỂU ĐỒ VÀ HÌNH ẢNH 
+..................................................................... 
+x 
+CHƯƠNG 1: GIỚI THIỆU KHÁI QUÁT VỀ CÔNG TY TNHH THIẾT BỊ INOX 
+HOÀNG TÂM ............................................................................................................. 
+1 
+1.1.Tóm lược quá trình hình thành và phát triển ........................................................... 
+1 
+1.2.Tổ chức sản xuất kinh doanh .................................................................................. 
+2 
+1.3.Tổ chức quản lý đơn vị ........................................................................................... 
+3 
+1.4.Tổ chức bộ phận thực tập ......................................................................................... 
+5 
+1.5.Chiến lược, phương hướng phát triển của đơn vị trong tương lai .......................... 
+10 
+CHƯƠNG 2: CƠ SỞ LÝ THUYẾT ........................................................................... 
+12 
+2.1. Khái niệm, bản chất, vai trò và một số kiến thức liên quan công nợ ..................... 
+12 
+2.1.1. Vai trò .............................................................................................................. 
+12 
+2.1.2. Kế toán khoản phải thu ..................................................................................... 
+12 
+2.1.3. Kế toán khoản phải trả ...................................................................................... 
+21 
+2.2. Nội dung trong công tác quản lý công nợ 
+............................................................. 
+30 
+2.2.1. Chính sách quản lý kế toán phải thu khách hàng ............................................... 
+30 
+2.2.2. Chính sách quản lý khoản phải trả cho nhà cung cấp ........................................ 
+31 
+2.2.3. Những yếu tố ảnh hưởng đến chính sách bán chịu ............................................ 
+32 
+CHƯƠNG 3: THỰC TRẠNG CÔNG NỢ VÀ KHẢ NĂNG THANH TOÁN CÔNG TY 
+TNHH THIẾT BỊ INOX HOÀNG TÂM .................................................................... 
+35 
+3.1. Cơ cấu tổ chức tài sản và nguồn vốn của công ty TNHH Thiết bị Inox Hoàng Tâm 
+giai đoạn 2018 – 2020. ............................................................................................... 
+35 
+  
+ 
+vii 
+ 
+3.2. Thực trạng kế toán phải thu khách hàng và kế toán dự phòng nợ phải thu khó đòi tại 
+công ty TNHH Thiết bị Inox Hoàng Tâm ................................................................... 
+38 
+3.2.1. Chính sách quản lý công nợ phải thu khách hàng của công ty TNHH Thiết bị Inox 
+Hoàng Tâm 
+................................................................................................................. 
+38 
+3.2.2.  Kế toán phải thu khách hàng tại công ty 
+........................................................... 
+45 
+3.2.3. Đánh giá tình hình, kiểm soát nợ phải thu khách hàng ...................................... 
+46 
+3.3. Thực trạng các khoản phải trả của công ty ........................................................... 
+49 
+3.3.1. Chính sách quản lý công nợ phải trả nhà cung cấp của công ty TNHH Thiết bị 
+Inox Hoàng Tâm......................................................................................................... 
+50 
+3.3.2. Kế toán các khoản phải trả người bán ............................................................... 
+55 
+CHƯƠNG 4: MỘT SỐ BIỆN PHÁP NÂNG CAO HIỆU QUẢ QUẢN LÝ VÀ THU 
+HỒI CÔNG NỢ Ở CÔNG TY TNHH THIẾT BỊ INOX HOÀNG TÂM .................... 
+62 
+4.1. Những ưu điểm và hạn chế đối với công ty TNHH Thiết bị Inox Hoàng Tâm 
+...... 
+62 
+4.1.1. Ưu điểm................................................................................................................56 
+4.1.2. Hạn chế............................................................................................................. 
+63 
+4.2. Một số biện pháp được đề xuất ............................................................................ 
+65 
+KẾT LUẬN 
+................................................................................................................ 
+67 
+TÀI LIỆU THAM KHẢO .......................................................................................... 
+68 
+PHỤ LỤC.......................................................................................................................69 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+viii 
+ 
+DANH MỤC TỪ VIẾT TẮT 
+BCTC: Báo cáo tài chính 
+BVMT: Bảo vệ môi trường 
+CĐKT: Cân đối kế toán 
+CEO: Tổng giám đốc 
+COW: Lệnh khởi công (Commencement of work) 
+GTGT: Giá trị gia tăng 
+HTKK: Hỗ trợ kê khai 
+KQHĐKD: Kết quả hoạt động kinh doanh 
+LCTT: Lưu chuyển tiền tệ 
+PM: Quản lý dự án (Project manager) 
+TK: Tài khoản 
+TNCN: Thu nhập cá nhân 
+TNDN: Thu nhập doanh nghiệp 
+TNHH: Trách nhiệm hữu hạn 
+TSCĐ: Tài sản cố định 
+TT: Thông tư 
+TTĐB: Tiêu thụ đặc biệt 
+XDCB: Xây dựng cơ bản 
+XK: Xuất khẩu 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+ix 
+ 
+DANH MỤC BẢNG BIỂU 
+Bảng 3.1: Cơ cấu tài sản và nguồn vốn của công ty TNHH Thiết bị Inox Hoàng Tâm 
+giai đoạn đầu ( 2018-2020)............................................................................................31 
+Bảng 3.2: Danh sách những khách hàng thân thiết của công ty TNHH Thiết bị Inox 
+Hoàng Tâm.................................................................................................................... 35 
+Bảng 3.3: Thời gian thu hồi công nợ.............................................................................39 
+Sơ đồ 1.1: Quy trình sản xuất kinh doanh của Công ty TNHH Thiết bị Inox Hoàng 
+Tâm..................................................................................................................................2 
+Sơ đồ 1.2: Sơ đồ mô tả tổ chức quản lý của công ty.......................................................3 
+Sơ đồ 1.3: Sơ đồ bộ máy kế toán công ty TNHH Thiết bị Inox Hoàng Tâm..................6 
+Sơ đồ 1.4:  Sơ  đồ kế toán trình tự ghi sổ theo hình thức Nhật Ký Chung......................8 
+Sơ đồ 2.1: Sơ đồ hạch toán nghiệp vụ thanh toán với người mua (Theo Quyết định 
+48/2006/QĐ-BTC).........................................................................................................14 
+Sơ đồ 2.2: Sơ đồ hạch toán nghiệp vụ thanh toán với người bán (Theo Quyết định 
+48/2006/QĐ-BTC...........................................................................................................21 
+Sơ đồ 3.1: Quy trình bán hàng tại công ty TNHH Thiết bị Inox Hoàng Tâm...............36 
+Sơ đồ 3.2: Sơ đồ thu tiền mặt của công ty TNHH Thiết bị Inox Hoàng Tâm...............40 
+Sơ đồ 3.3: Sơ đồ thu tiền gửi ngân hàng của Công ty TNHH Thiết bị Inox Hoàng 
+Tâm................................................................................................................................40 
+Sơ đồ 3.4: Sơ đồ quy trình mua hàng công ty TNHH Thiết bị Inox Hoàng Tâm.........48 
+Sơ đồ 3.5: Quy trình thanh toán tiền mặt của công ty TNHH Thiết bị Inox Hoàng 
+Tâm................................................................................................................................50 
+Sơ đồ 3.6: Quy trình thanh toán bằng tiền gửi ngân hàng của công ty TNHH Thiết bị 
+Inox Hoàng Tâm............................................................................................................51 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+x 
+ 
+DANH MỤC BIỂU ĐỒ VÀ HÌNH ẢNH 
+ 
+Hình 1.1: Logo công ty TNHH Thiết bị Inox Hoàng Tâm................................................1 
+Hình 1.2: Giao diện phần mềm kế toán SmartPro.............................................................9 
+Hình 3.1: Giao diện bàn làm việc trên phần mềm kế toán SmartPro...............................52 
+Hình 3.2: Giao diện đơn mua hàng trên phần mềm SmartPro.........................................53 
+Hình 3.3: Giao diện Phiếu nhập kho vật liệu chính trên phần mềm kế toán S
+martPro.........................................................................................................................53 
+Hình 3.4: Giao diện Phiếu nhập thuế GTGT đầu vào trên phần mềm SmartPro.............54 
+Hình 3.5: Giao diện Chứng từ ngân hàng chuyển khoản trả người bán trên phần mềm 
+SmartPro.........................................................................................................................55 
+Hình 3.6: Giao diện Chứng từ ngân hàng phí chuyển tiền trên phần mềm SmartPro......55 
+Biểu đồ 3.1: Cơ cấu tài sản giai đoạn 2018-2020............................................................32 
+Biểu đồ 3.2: Cơ cấu nguồn vốn giai đoạn 2018-2020.....................................................33 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+1 
+ 
+CHƯƠNG 1: GIỚI THIỆU KHÁI QUÁT VỀ CÔNG TY TNHH THIẾT BỊ INOX 
+HOÀNG TÂM 
+1.1. 
+Tóm lược quá trình hình thành và phát triển 
+Tên công ty : Công ty TNHH Thiết bị Inox Hoàng Tâm 
+Tên giao dịch : HOANG TAM SSE CO.,LTD. 
+Tên quốc tế : HOANG TAM STAINLESS STEEL EQUIPMENT COMPANY 
+LIMITED. 
+Người đại điện : Lê Ngọc Hiền 
+Logo công ty :  
+                                    
+ 
+ 
+Hình 1.1: Logo công ty TNHH Thiết bị Inox Hoàng Tâm 
+ 
+Địa chỉ trụ sở chính: Lô C14B Đường số 9, Khu công nghiệp Lê Minh Xuân, Xã 
+Tân Nhựt, Huyện Bình Chánh, Thành phố Hồ Chí Minh. 
+Nhà máy: Lô I-3B-3 Đường N6, Khu Công Nghệ Cao, Quận 9, Thành Phố Hồ 
+Chí Minh. 
+Giấy chứng nhận đăng ký kinh doanh công ty TNHH lần đầu ngày 19 tháng 09  
+năm 2018 cấp tại phòng đăng ký kinh doanh SỞ KẾ HOẠCH VÀ ĐẦU TƯ THÀNH 
+PHỐ HỒ CHÍ MINH.  
+Giấy chứng nhận đăng ký thuế: 0315278866 Ngày 19 tháng 09 năm 2018 cấp do 
+cơ quan quản lý thuế: Cục Thuế Thành phố Hồ Chí Minh. 
+Vốn điều lệ: 16.400.000.000 VNĐ ( Mười sáu tỷ bốn trăm triệu đồng chẵn). 
+Loại hình kinh tế:  Trách nhiệm hữu hạn 2 Thành viên trở lên. 
+Lĩnh vực, ngành nghề kinh doanh:  
+ 
+Sản xuất thùng, bể chứa và dụng cụ chứa đựng bằng kim loại. (Ngành chính) 
+  
+ 
+2 
+ 
+Đạt yêu cầu 
+ 
+Sản xuất sản phẩm khác bằng kim loại chưa được phân vào đâu. 
+ 
+Lắp đặt máy móc và thiết bị công nghiệp. 
+ 
+Sản xuất các cấu kiện kim loại. 
+Sau 2 năm hoạt động hiện tại Hoàng Tâm đã phát triển, trưởng thành và khẳng 
+định vị thế của công ty trên thị trường. Hiện tại, công ty Hoàng Tâm là một trong những 
+thương hiệu có uy tín tại thị trường Việt Nam. Với đa dạng sản phẩm, nhiều mức giá phù 
+hợp cho khách hàng chọn lựa 
+1.2. 
+Tổ chức sản xuất kinh doanh 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Sơ đồ 1.1: Quy trình sản xuất kinh doanh của Công ty TNHH Thiết bị Inox HoàngTâm 
+Nguồn: Phòng kế hoạch 
+ 
+Quy trình sản xuất kinh doanh: 
+ 
+Bước 1: Đấu thầu, tiếp thị sản phẩm, phòng kinh doanh tìm kiếm, tiếp cận khách 
+hàng là các công ty nước giải khát, thực phẩm, mỹ phẩm,...Tham gia đấu thầu cạnh tranh 
+với các công ty khác. 
+ 
+Bước 2: Phòng kế toán làm hợp đồng khi phòng kinh doanh thông báo nhận được 
+thầu của bên đối tác. 
+Nhận hợp đồng  
+(Đơn đặt hàng) 
+ 
+Lập kế hoạch           
+sản xuất sản phẩm 
+Tiến hành                     
+sản xuất sản phẩm 
+Giao hàng cho 
+khách hàng 
+Nghiệm thu sản phẩm 
+Đấu thầu,           
+tiếp thị sản phẩm  
+Thanh lý hợp đồng  
+Bàn giao sản phẩm 
+Không đạt 
+yêu cầu 
+  
+ 
+3 
+ 
+ 
+Bước 3: Hợp đồng sau khi ký sẽ chuyển xuống phòng kế hoạch. Phòng kế hoạch 
+bắt đầu lập kế hoạch để tiến hành sản xuất sản phẩm. 
+ 
+Bước 4: Phân xưởng sản xuất nhận được kế hoạch sản xuất sản phẩm sẽ tiến hành 
+sản xuất sản phẩm cho dự án. 
+ 
+Bước 5: Nghiệm thu sản phẩm kiểm tra kỹ thuật, chất lượng,...Nếu sản phẩm đạt 
+những chỉ tiêu đã nêu ra thi tiến hành đóng gói giao cho khách hàng. Ngược lại quay lại 
+bước 4 kiểm tra, sửa lỗi hàng cho đến khi đạt tiêu chuẩn nhưng đảm bảo thời hạn hợp 
+đồng. 
+ 
+Bước 6: Phòng kinh doanh sẽ tiến hành thanh lý hợp đồng dự án với đối tác, tiếp 
+đó chuyển sang phòng kế toán để tiến hành xuất hóa đơn, chứng từ, lưu trữ sổ sách tại 
+công ty.  
+1.3. 
+Tổ chức quản lý đơn vị 
+ 
+Sơ đồ tổ chức của công ty 
+ 
+ 
+ 
+Sơ đồ 1.2: Sơ đồ mô tả tổ chức quản lý của công ty 
+Nguồn: Phòng Hành chính 
+ 
+Chức năng và nhiệm vụ của từng bộ phận. 
+ 
+Tổng giám đốc 
+Là  người điều hành công việc kinh doanh hằng ngày của công ty; chịu sự giám 
+sát của Tổng giám đốc và chịu trách nhiệm trước Hội đồng thành viên và trước pháp luật 
+về việc thực hiện các quyền và nhiệm vụ được giao; Giám đốc phải điều hành công ty 
+theo đúng quy định của pháp luật, điều lệ công ty, hợp đồng lao động ký với công ty và 
+quyết định của Hội đồng thành viên. Nếu điều hành trái với quy định này mà gây thiệt 
+TỔNG GIÁM ĐỐC
+PHÒNG KỸ 
+THUẬT SẢN 
+XUẤT-
+KẾ HOẠCH
+PHÒNG 
+KINH 
+DOANH
+PHÒNG
+HÀNH 
+CHÍNH
+PHÒNG   
+KẾ TOÁN
+PHÂN 
+XƯỞNG SẢN 
+XUẤT
+  
+ 
+4 
+ 
+hại cho công ty thì Giám đốc điều hành phải chịu trách nhiệm trước pháp luật và phải 
+bồi thường thiệt hại cho công ty. 
+ 
+Phòng kỹ thuật sản xuất – kế hoạch 
+Tham mưu cho Giám đốc điều hành quản lý các lĩnh vực sau: công tác quản lý và 
+giám sát kỹ thuật, chất lượng, quản lý vật tư thiết bị, quản lý an toàn, lao động, vệ sinh 
+môi trường tại các dự án, soát xét, lập, trình duyệt thiết kế kỹ thuật, thiết kế bản vẽ thi 
+công kiểm định chất lượng thi công, chất lượng công trình, soát xét trình duyệt hồ sơ 
+hoàn công công trình. 
+Xây dựng kế hoạch sản xuất theo yêu cầu của Lãnh đạo Tổng công ty, tổng hợp 
+cân đối và giao kế hoạch, đầu tư cho các đơn vị. Đề xuất những biện pháp phát triển thực 
+hiện chiến lược,chính sách của công ty. Thúc đẩy tiến độ đảm bảo chất lượng. 
+ 
+Phòng kế toán  
+Là đơn vị thuộc bộ máy quản lý của công ty, tham mưu cho HĐQT và Tổng Giám 
+đốc Công ty trong lĩnh vực quản lý tài chính và tổ chức hạch toán kế toán. Giám sát hoạt 
+động sản xuất kinh doanh của công ty theo đúng các chuẩn mực và Luật Kế toán hiện 
+hành nhằm phản ánh kịp thời, chính xác, đầy đủ các hoạt động sản xuất kinh doanh của 
+công ty và tình hình tài sản của công ty. Có nhiệm vụ tổ chức thực hiện bảo toàn vốn cho 
+kinh doanh và công tác chi phí trong toàn công ty, theo dõi thanh toán các khoản chi phí 
+phát sinh, hạch toán kinh tế, tổng kết và báo cáo nhanh thanh toán tiền lương, lập quyết 
+định….. 
+ 
+Phòng Hành chính 
+Có nhiệm vụ công tác tổ chức nhân sự, tổ chức quản lý lao động, thống kê về số 
+lượng, chất lượng công nhân viên. Tham mưu, giúp việc cho giám đốc công ty và tổ chức 
+thực hiện các việc trong lĩnh vực tổ chức lao động, quản lý và bố trí nhân lực, bảo hộ lao 
+động, chế độ chính sách, chăm sóc sức khỏe cho người lao động, bảo vệ quân sự theo 
+luật và quy chế công ty, kiểm tra, đôn đốc các bộ phận trong công ty thực hiện nghiêm 
+túc nộ quy, quy chế công ty, làm đầu mối liên lạc cho mọi thông tin của giám đốc công 
+ty. 
+ 
+Phòng kinh doanh 
+Lập kế hoạch tiêu thụ sản phẩm dựa trên nhu cầu thực tế, đảm bảo nguồn vật tư,  
+máy móc thiết bị cho hoạt động sản xuất, lập kế hoạch, tổ chức đội ngũ nhân viên kinh 
+doanh tiếp xúc và tìm kiếm khách hàng. Thực hiện các báo cáo tổng hợp về tình hình 
+sản xuất kinh doanh 
+  
+ 
+5 
+ 
+ 
+Phân xưởng sản xuất 
+Nhiệm vụ tổ chức gia công, lắp ráp có hiệu quả bồn chứa, dụng cụ chứa theo kế 
+hoạch của công ty giao cho. Đảm bảo về chất lượng, số lượng, chính xác đúng với bản 
+thiết kế. Chịu trách nhiệm quản lý, sử dụng có hiệu quả đối với công cụ dụng cụ, TSCĐ, 
+thành phẩm và đặc biệt giữ bí mật công nghệ, thiết kế và số liệu tròn quá trình sản xuất 
+và sau sản xuất. 
+ 
+Chức năng nhiệm vụ: 
+Trong hoạt động sản xuất kinh doanh công ty có nhiệm vụ là tham gia đấu thầu, 
+tổ chức gia công, chế tạo, thi công lắp ráp sản phẩm theo yêu cầu khách hàng. 
+Đấu thầu là quá trình rất quan trọng quyết định lớn đến doanh thu của công ty. Chuẩn bị 
+kế hoạch, dự toán phải tốt, là điều quan trọng nhất trong việc đấu thầu với chủ đầu tư, kế 
+hoạch tốt thì sức thuyết phục về chất lượng sản phẩm của công ty với khách hàng sẽ cao 
+hơn. Mặc khác, việc tổ chức thiết kế, gia công, chế tạo quyết định công ty có đủ năng 
+lực nhận thầu, liệu giá nhận thầu có thích hợp không? Với đội ngũ quản lý chuyên nghiệp, 
+công nhân tay lành nghề, được đào tạo tốt tại chi phí công ty luôn ở mức thấp nhất nhưng 
+ở mức doanh thu cao là điều mà Hoàng Tâm đang hướng tới. Điều đó tạo một lợi thế 
+trong quá trình đầu tư với một mức giá thích hợp. Hai yếu tố là bàn đạp tạo sự phát triển 
+bền vững cho Hoàng Tâm trong tương lai. 
+1.4. 
+Tổ chức bộ phận kế toán 
+ 
+Sơ đồ tổ chức bộ máy kế toán: 
+Phòng kế toán có các vị trí như sau: 
+- 
+Kế toán trưởng: 1 nhân viên 
+- 
+Kế toán tổng hợp: 1 nhân viên 
+- 
+Kế toán thu- chi: 1 nhân viên 
+- 
+Kế toán kho: 1 nhân viên 
+ 
+ 
+ 
+ 
+  
+ 
+6 
+ 
+ 
+Sơ đồ 1.3. Sơ đồ bộ máy kế toán công ty TNHH Thiết bị Inox Hoàng Tâm 
+Nguồn: Phòng kế toán 
+ 
+ 
+Chức năng, nhiệm vụ của từng vị trí: 
+ 
+Kế toán trưởng  
+Là người người chịu trách nhiệm chung về toàn bộ công tác kế toán, phân công 
+nhiệm vụ và kiểm soát công việc của các kế toán viên. Đảm bảo tính hợp lý, hợp lệ của 
+các báo cáo trước công ty và cơ quan tài chính. Tổ chức lưu trữ bảo quản và giữ gìn bí 
+mật tài liệu kế toán. 
+ 
+Kế toán thu – chi 
+Kiểm tra các chứng từ thanh toán để lập các phiếu thu, chi tiền mặt, lưu trữ và 
+bảo quản hồ sơ, tài liệu sổ sách kế toán về tiền mặt và tiền lương, theo dõi các khoản nợ 
+của khách hàng, báo cáo tình hình công việc cho kế toán trưởng. 
+ 
+Cập nhật những thông tin ghi nhận hóa đơn hàng ngày, kiểm tra đơn giá sản phẩm, 
+lượng sản phẩm từ đó xuất hóa đơn cho khách hàng. Cập nhật giá cả và sản phẩm mới 
+cho doanh nghiệp. Đối chiếu với thủ kho về lượng hàng bán và tồn. 
+ 
+Kế toán tổng hợp 
+Nhận chứng từ của các kế toán viên khác gửi qua, kiểm tra tính đầy đủ, hợp pháp, 
+chính xác của chứng từ. Khi các nghiệp vụ kế toán có những sai sót thì kế toán tổng hợp 
+được quyền yêu cầu các nhân viên kế toán khác điều chỉnh sao cho hợp lý. Được đề nghị 
+các nhân viên khác cung cấp số liệu, cung cấp báo cáo theo đúng quy định.  
+Cuối tháng lập báo cáo thuế GTGT, thuế TNDN và nộp tiền thuế cho cơ quan 
+thuế. Hằng quý làm báo báo thuế tháng của quý đó và cáo cáo quý cho thuế GTGT, thuế 
+TNDN và báo cáo sử dụng hóa đơn. Cuối năm, lập báo cáo tài chính, báo cáo thuế cho 
+tháng cuối năm, báo cáo thuế TNDN quý I và báo cáo quyết toán thuế TNCN. 
+ 
+Kế toán kho 
+KẾ TOÁN TRƯỞNG
+KẾ TOÁN 
+THU- CHI
+KẾ TOÁN TỔNG HỢP
+KẾ TOÁN KHO
+  
+ 
+7 
+ 
+Tổ chức ghi chép phản ánh tổng hợp số liệu về tình hình tiêu thụ vật tư ,theo dõi 
+tình hình xuất nhập vật tư . Chịu trách nhiệm ghi chép đầy đủ và chính xác các biến động 
+về nguyên liệu, vật liệu, công cụ, dụng cụ, bao gồm nhập hàng, xuất hàng, mất mát, các 
+chi phí tính vào giá vốn hàng tồn kho, nguyên vật liệu... Hạch toán đầy đủ và chính xác 
+tất cả các giao dịch về hàng hoá và tồn kho vào tài khoản sổ cái tương ứng ngay khi các 
+giao dịch đó phát sinh. Hỗ trợ kế toán tổng hợp lập các phiếu nhập kho, xuất kho, hoá 
+đơn bán hàng,…. 
+Ngoài ra kế toán kho còn đảm nhiệm nhận và cập nhập chứng từ về TSCĐ, kiểm 
+tra xác nhận TSCĐ khi nhập, lập biên bản bàn giao và bàn giao TSCĐ cho các bộ phận. 
+Cập nhật tắng, giảm TSCĐ, xác định thời gian, tính khấu hao. 
+ 
+Hình thức, chế độ kế toán áp dụng: 
+Bộ máy kế toán ở công ty TNHH Thiết bị Inox Hoàng Tâm được tổ chức theo 
+hình thức kế toán tập trung nên mọi nghiệp vụ kinh tế phát sinh của công ty sẽ gửi về 
+phòng kế toán để kiểm tra, xử lý và ghi sổ kế toán 
+Công ty sử dụng hình thức nhật kí chung trên máy tính, bảng tính excel. Trình tự 
+ghi sổ: 
+Hằng ngày, căn cứ vào các chứng từ đã kiểm tra được dùng làm căn cứ ghi sổ, 
+trước hết ghi nghiệp vụ phát sinh vào sổ nhật kí chung, sau đó căn cứ số liệu đã ghi trên 
+nhật kí chung để ghi vào sổ cái theo các tài khoản kế toán phù hợp. Nếu công ty có mở 
+sổ, thẻ kế toán chi tiết thì đồng thời với việc ghi sổ nhật ký chung ,các nghiệp vụ phát 
+sinh được ghi vào các sổ, thẻ kế toán chi tiết liên quan. 
+Cuối tháng, cuối quý, cuối năm cộng số liệu trên Sổ Cái, lập Bảng cân đối số phát 
+sinh. Sau khi đã kiểm tra đối chiếu khớp, đúng số liệu ghi trên Sổ Cái và bảng tổng hợp 
+chi tiết ( được lập từ các sổ,  thẻ kế toán chi tiết) được dùng  để lập các Báo cáo tài chính. 
+Về nguyên tắc, tổng số phát sinh nợ và tổng số phát sinh có trên bảng cân đối số phát 
+sinh phải bằng tổng số phát sinh nợ và tổng số phát sinh có trên sổ nhật ký chung ( hoặc 
+sổ nhật ký chung và các sổ nhật ký đặc biệt sau khi đã loại trừ số trùng lập trên các sổ 
+nhật ký đặc biệt) cùng kỳ. 
+  
+ 
+8 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Sơ đồ 1.4:  Sơ  đồ kế toán trình tự ghi sổ theo hình thức Nhật Ký Chung 
+        Ghi chú : 
+ 
+                              : Ghi hằng ngày  
+                              : Ghi cuối tháng 
+ 
+                              : Quan hệ đối chiếu kiểm tra  
+Nguồn: Phòng kế toán 
+Định kỳ nhân viên kế toán thực hiện những báo cáo sau: 
+Hằng tháng: Báo cáo thuế GTGT. 
+Hằng quý: Báo cáo thuế GTGT, Báo cáo thuế TNDN tạm tính, Thuế TNCN và 
+báo cáo tình hình sử dụng hóa đơn. 
+Chứng từ                
+ngân hàng  
+NHẬT KÝ CHUNG  
+SỔ CÁI  
+Bảng cân đối     
+phát sinh  
+BÁO CÁO TÀI 
+CHÍNH  
+Sổ chi tiết  
+Bảng tổng hợp 
+chi tiết  
+Sổ nhật ký      
+đặc biệt  
+  
+ 
+9 
+ 
+Hằng năm: Báo cáo quyết toán thuế TNDN, bảng CĐKT, Báo cáo KQHĐKD, 
+Báo  cáo LCTT, Thuyết minh BCTC. 
+ 
+Hệ thống tài khoản: 
+Công ty TNHH Thiết bị Inox Hoàng Tâm có hệ thống tài khoản áp dụng theo Chế 
+độ kế toán của doanh nghiệp được ban hành theo TT 200/2014/TT-BTC. 
+ 
+Phần mềm kế toán đang sử dụng– Chi tiết các phần hành kế toán của phần 
+mềm. 
+Công ty sử dụng phần mềm kế toán SmartPro để hoạch toán các nghiệp vụ phát 
+sinh của công ty hỗ trợ công tác kế toán in chứng từ, sổ sách kế toán, BCTC, tích hợp 
+hóa đơn điện tử, cập nhật BCTC qua HTKK và đưa dữ liệu qua Excel và ngược lại dễ 
+dàng. Việc sử dụng phần mềm SmartPro và các phần mềm khác như Excel khác giúp 
+Ban quản lý dễ dàng trong việc nhập liệu thông tin chủ đầu tư, khách hàng, nhà cung 
+cấp,...  
+ 
+ 
+Hình 1.2: Giao diện Phần mềm kế toán SmartPro 
+Nguồn: Phòng kế toán 
+ 
+ 
+  
+ 
+10 
+ 
+ 
+Các phương pháp kế toán: 
+- Phương pháp khấu hao TSCĐ hữu hình, TSCĐ vô hình: Theo phương pháp 
+đường thẳng . 
+- Hạch toán thuế GTGT: Theo phương pháp khấu trừ . 
+- Hạch toán hàng tồn kho và tính giá xuất kho: theo phương pháp bình quân gia 
+quyền cuối kỳ 
+- Nguyên tắc ghi nhận doanh thu bán hàng, doanh thu cung cấp dịch vụ, doanh 
+thu hoạt động tài chính: theo chuẩn mực kế toán . 
+ 
+Niên độ kế toán, đơn vị tiền tệ sử dụng trong kế toán  
+- Kỳ kế toán: Niên độ kế toán của công ty bắt đầu từ ngày 01 tháng 01 và kết thúc 
+vào ngày 31 tháng 12 hàng năm. 
+- Đơn vị tiền tệ sử dụng trong kế toán : Đồng Việt Nam (VND) 
+1.5. 
+Chiến lược, phương hướng phát triển của đơn vị trong tương lai 
+Hoàng Tâm luôn đề cao rằng tài sản lớn nhất của một công ty là con người. Chính 
+vì vậy công ty tập trung vào trí tuệ, đào tạo và chấn chỉnh tổ chức đẩy lùi khó khăn, khai 
+thác tối đa các nguồn vốn, đầu tư thiết bị, ứng dụng và năm bắt những công nghệ mới 
+vào sản xuất. Xây dựng Hoàng Tâm vững mạnh trong lĩnh vực sản xuất, lắp ráp bồn 
+chứa và dụng cụ chứa. 
+ 
+Về sản phẩm: phát triển sản phẩm cải tiền, hiện đại, quan tâm phát triển những 
+sản phẩm có tính công nghệ, kỹ thuật cao khẳng định được vị thế của Hoàng Tâm hơn 
+trong lĩnh vực này. 
+ 
+Về thị trường: Cần phải tiếp thị quảng bá thương hiệu của công ty. Thực hiện tốt 
+chính sách bảo trì đối với sản phẩm của công ty để tạo được niềm tin, đáp ứng yêu cầu 
+khách hàng. Phát huy mọi nguồn lực, đẩy mạnh hoạt động đối ngoại, liên doanh, liên kết 
+với các đối tác nước ngoài để tiếp cận thị trường quốc tế rộng lớn hơn. 
+ 
+Về khoa học công nghệ: Thường xuyên cập nhật, nghiên cứu, áp dụng các tiến 
+bộ khoa học công nghệ trên thế giới. Cải tiến máy móc để chi phí tiết kiệm nhưng chất 
+lượng vẫn tốt và có thể hơn thế nữa. 
+ 
+Về đầu tư: duy trì đầu tư thiết bị hiện đại, mang tính đổi mới công nghệ, đồng 
+thời tiếp tục đào tạo đội ngũ nhân viên và công nhân để quá trình được xuyên suốt và 
+đáp ứng yêu cầu phát triển của công ty. 
+ 
+Về tài chính: Đảm bảo chi phí hợp lý, nguồn vốn sử dụng có hiệu quả; năng lực 
+tài chính nâng cao, đảm bảo phát triển liên tục, ổn định, vững chắc. 
+  
+ 
+11 
+ 
+TÓM TẮT CHƯƠNG 1 
+Chương 1 giới thiệu tổng quát về công ty TNHH Thiết bị Inox Hoàng Tâm. Đồng 
+thời đề cập đến các sản phẩm dịch vụ đang được cung cấp tại công ty. Việc tìm hiểu 
+thông tin cơ bản về công ty TNHH Thiết bị Inox Hoàng Tâm giúp thuận lợi hơn trong 
+việc phân tích tình hình tài sản và nguồn vốn của công ty trong chương 2. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+12 
+ 
+CHƯƠNG 2: CƠ SỞ LÝ THUYẾT 
+2.1. Khái niệm, bản chất, vai trò và một số kiến thức liên quan công nợ 
+2.1.1. Vai trò  
+ 
+Đối với công ty 
+ 
+Hiện nay ở bất kỳ doanh nghiệp lớn, nhỏ nào để mà có thể cạnh tranh trên thị 
+trường thì đều phải tận dụng hết tất cả những khả năng, nguồn lực và công cụ mà doanh 
+nghiệp đó. Trong đó cách để đạt được doanh thu, dự án thì công ty phải tạo điều kiện về 
+việc bán chịu đối với khách hàng. Bởi lẽ xu hướng cạnh tranh thị trường hiện nay, thì 
+người mua sẽ quan tâm về chính sách giá cả và cho nợ lâu dài vì vậy chính sách này thu 
+hút thêm nhiều khách hàng mới có nhu cầu cho công ty. Đây được coi là một chiến lược 
+dài hạn trong cạnh tranh để thu hút khách hàng, nhất là khách hàng mới. Công ty có 
+chính sách đãi ngộ hấp dẫn về thanh toán và nợ thì chắc chắn khách hàng sẽ quan tâm 
+công ty hơn là công ty đối thủ. Đặc biệt, công ty sẽ tạo dựng được hình ảnh đẹp và uy 
+tín trên thương trường và mở rộng được nhiều mối quan hệ khách hàng,... 
+ 
+Việc bán chịu ngoài các lợi ích mang lại còn có nhiều mặt tác hại ảnh hưởng như 
+xuất hiện những khoản nợ ngoài vòng kiểm soát. Các vấn đề về rắc rối tài chính có thể 
+làm khoản nợ khó đòi tăng lên và dẫn đến phá sản.  
+ 
+Đối với khách hàng 
+ 
+Khách hàng mua nhưng chưa thể thanh toán hết được số tiền cần trả nên có thể 
+chịu nợ để lấy hàng ngay và sẽ trả vào một thời gian sau. Bán chịu đối với khách hàng 
+tạo điều kiện tốt để mua hàng, được sử dụng vốn của “bạn hàng”, khách hàng còn có thể 
+nhận được khoản chiết khấu nếu trả nợ sớm hoặc thời hạn được kéo dài thêm. Khi khách 
+hàng thiếu vốn gặp khó khăn về vốn kinh doanh hay muốn đầu tư vào cơ hội khác thì 
+việc bán chịu là biên pháp tài trợ vốn hữu hiệu.  
+2.1.2. Kế toán khoản phải thu 
+ 
+Khái niệm, bản chất 
+Phản ánh các khoản nợ phải thu, tình hình thanh toán các khoản nợ phải thu của 
+doanh nghiệp với khách hàng về tiền bán sản phẩm, hàng hóa, BĐS đầu tư, TSCĐ, các 
+khoản đầu tư tài chính, cung cấp dịch vụ. Tài khoản này còn dùng để phán ánh các khoản 
+phải thu của người nhận thầu XDCB với người giao thầu về khối lượng công tác XDCB 
+đã hoàn thành. Không phản ánh vào các tài khoản này các nghiệp vụ thu tiền ngay. 
+Khoản phải thu của khách hàng cần được hạch toán chi tiết cho từng đối tượng, 
+từng nội dung phả thu, theo dõi chi tiết kỳ hạn thu hồi ( trên 12 tháng hay không quá 12 
+  
+ 
+13 
+ 
+tháng kể từ thời điểm báo cáo) và ghi chép theo từng lần thanh toán. Đối tượng phải thu 
+là các khách hàng có quan hệ kinh tế với doanh nghiệp về mua sản phẩm, hàng hóa, nhận 
+cung cấp dịch vụ, kể cả TSCĐ, bất động sản đầu tư, các khoản đầu tư tài chính. 
+Bên giao ủy thác xuất khẩu ghi nhận trong tài khoản này đối với các khoản phải 
+thu từ bên nhận ủy thác xuất  khẩu về tiền bán hàng xuất khẩu như các giao dịch bán 
+hàng, cung cấp dịch vụ thông thường. 
+Trong hạch toán chi tiết tài khoản này, kế toán tiến hành phân loại các khoản nợ, 
+loại nợ có thể trả đúng hạn, khoản nợ khó đòi hoặc có khả năng không thu hồi được, để 
+có căn cứ xác định số trích lập dự phòng phải thu khó đòi hoặc biện pháp xử lý đối với 
+khoản nợ phải thu không đòi được. 
+Doanh nghiệp phải theo dõi chi tiết các khoản nợ phải thu của khách hàng theo 
+từng loại nguyên tệ. Đối với các khoản phải thu bằng ngoại tệ thì thực hiện theo nguyên 
+tắc: 
+- Khi phát sinh các khoản nợ phải thu khách hàng (bên Nợ tài khoản 131), kế toán 
+phải quy đổi ra Đồng Việt Nam theo tỷ giá giao dịch thực tế tại thời điểm phát sinh (là 
+tỷ giá mua của ngân hàng thương mại nơi chỉ định khách hàng thanh toán). Riêng trường 
+hợp nhận trước của người mua, khi đủ điều kiện ghi nhận doanh thu thì bên Nợ tài khoản 
+131 áp dụng tỷ giá ghi sổ thực tế đích danh đối với số tiền đã nhận trước; 
+- Khi thu hồi nợ phải thu của khách hàng ( bên Có tài khoản 131), kế toán phải 
+quy đổi ra Đồng Việt Nam theo tỷ giá ghi sổ thực tế đích danh cho từng đối tượng khách 
+nợ ( Trường hợp khách nợ có nhiều giao dịch thì tỷ giá thực tế đích danh được xác định 
+là tỷ giá bình quân gia quyền di động các giao dịch của khách nợ đó). Riêng trường hợp 
+phát sinh giao dịch nhận trước tiền của người mua thì bên Có tài khoản 131 áp dụng tỷ 
+giá giao dịch thực tế ( là tỷ giá ghi vào bên Nợ tài khoản tiền) tại thời điểm nhận trước; 
+- Doanh nghiệp phải đánh giá lại các tài khoản phải thu của khách hàng có gốc 
+ngoại tệ tại tất cả các thời điểm lập Báo cáo tài chính theo quy định của pháp luật. Tỷ 
+giá giao dịch thực tế khi đánh giá lại khoản phải thu của khách hàng là tỷ giá mua ngoại 
+tệ của ngân hàng thương mại nơi doanh nghiệp chỉ định khách hành thanh toán tại thời 
+điểm lập Báo cáo tài chính.  Trường hợp doanh nghiệp có nhiều khoản phải thu và giao 
+dịch tại nhiều ngân hàng thi được chủ động lựa chọn tỷ giá mua của một trong những 
+ngân hàng thương mại nơi doanh nghiệp thường xuyên có giao dịch. Các đơn vị trong 
+tập đoàn được áp dụng chung một tỷ giá do Công ty mẹ quy định (phải đảm bảo sát với 
+tỷ giá giao dịch thực tế) để đánh giá lại các khoản phải thu của khách hàng có gốc ngoại 
+tệ phát sinh từ các giao dịch trong nội bộ. 
+  
+ 
+14 
+ 
+ 
+Chứng từ sử dụng 
+- Hợp đồng bán hàng ( đối với những khách hàng lớn có giao dịch 1 lần) 
+- Phiếu xuất kho 
+- Hóa đơn bán hàng ( hoặc hóa đơn GTGT) do doanh nghiệp lập. 
+- Giấy nhận nợ hoặc lệnh phiếu do khách hàng lập. 
+- Chứng từ thu tiền: Phiếu thu, giấy báo có,... 
+- Bảng đối chiếu công nợ phải thu khách hàng. 
+- Sổ chi tiết TK 131 từng khách hàng 
+- Bảng tổng hợp TK 131 
+- Sổ cái TK131,... 
+ 
+Tài khoản sử dụng 
+- Tài khoản 131- Phải thu của khách hàng không có tài khoản cấp 2 
+- Tài khoản này có kết cấu 2 bên. 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+15 
+ 
+ 
+Phương pháp hạch toán 
+ 
+ 
+Sơ đồ 2.1: Sơ đồ hạch toán nghiệp vụ thanh toán với người mua (theo thông tư 
+200/2014/TT-BTC) 
+  
+ 
+16 
+ 
+ 
+Phương pháp hạch toán: 
+ 
+Khi cung cấp sản phẩm, hàng hóa và dịch vụ khách hàng chưa thanh toán ngày 
+bằng tiền mặt (bao gồm các khoản phải thu về tiền bán hàng xuất khẩu của bên giao uy 
+thác), kế toán ghi nhận doanh thu, ghi:  
+- Đối với sản phẩm, hàng hóa, dịch vụ, bất động sản đầu tư thuộc đối tượng chịu 
+thuế GTGT, thuế tiêu thụ đặc biệt, thuế xuất khẩu, thuế bảo vệ môi trường, kế toán phản 
+ánh doanh thu bán hàng và cung cấp dịch vụ theo giá bán chưa có thuế, các khoản thuế 
+gián thu phải nộp tách riêng ngay khi ghi nhận doanh thu ( kể cả thuế GTGT phải nộp 
+theo phương pháp trực tiếp), ghi: 
+Nợ TK 131 – Phải thu của khách hàng (tổng giá thanh toán) 
+Có TK 511 – Doanh thu bán hàng và cung cấp dịch vụ ( giá chưa có thuế) 
+ 
+ 
+Có 333 – thuế và các khoản phải nộp nhà nước 
+- Trường hợp không tách ngay được các khoản thuế phải nội, kế toán ghi nhận 
+doanh thu bao gồm cả thuế phải nộp. Định kỳ kế toán xác định nghĩa vụ thuế phải nộp 
+và ghi giảm doanh thu, ghi:  
+ 
+Nợ TK 511 – Doanh thu  bán hàng và cung cấp dịch vụ 
+ 
+ 
+Có TK 333 – Thuế và các khoản phải nộp nhà nước. 
+ 
+Kế toán bán hàng bị khách hàng trả lại: 
+Nợ TK 5213 – Hàng bán bị trả lại ( giá bán chưa có thuế)  
+Nợ TK 333 – Thuế và các khoản phải nộp Nhà nước ( số thuê GTGT của hàng 
+bán bị trả lại, chi tiết cho từng loại thuế) 
+Có TK 131 – Phải thu của khách hàng 
+ 
+Kế toán chiết khấu thương mại và giảm giá hàng bán 
+- Trường hợp số tiền chiết khấu thương mại, giảm giá hàng bán đã ghi ngay trên 
+hóa đơn bán hàng, kê toán phản ánh doanh thu theo giá đã trừ chiết khấu, giảm giá (ghi 
+nhận theo doanh thu thuần) và không phản ánh riêng số chiết khấu, giảm giá; 
+- Trường hợp trên hóa đơn bán hàng chưa thể hiện số tiền chiết khấu thương mại, 
+giảm giá hàng bán do khách hàng chưa đủ điều kiện để được hưởng hoặc chưa xác định 
+được số phải chiết khấu, giảm giá thì doanh thu ghi nhận theo giá chưa trừ chiết khấu ( 
+doanh thu gộp). Sau thời điểm ghi nhận doanh thu, nếu khách hàng đủ điều kiện được 
+  
+ 
+17 
+ 
+hưởng chiết khấu , giảm giá thì kế toán phải ghi nhận riền khoản chiết khấu giảm giá để 
+định kỳ điều chỉnh giảm doanh thu gộp, ghi : 
+Nợ TK 521 – các khoản giảm trừ doanh thu ( 5211, 5212) (giá chưa có thuế) 
+Nợ TK 333 – Thuế và các khoản phải nộp Nhà nước ( số thuế của hàng giảm giá, 
+chiết khấu thương mại) 
+Có TK 131- Phải thu của khách hàng ( Tổng sổ tiền giảm giá) 
+ 
+Số chiết khấu thanh toán phải trả cho người mua do người mua thanh toán tiền 
+hàng trước thời hạn quy định, trừ vào khoản nợ phải thu của khách hàng, ghi: 
+Nợ TK 111 – Tiền mặt 
+Nợ TK 112 – Tiền gửi ngân hàng 
+Nợ TK 635 – Chi phí tài chính ( số tiền chiết khấu thanh toán) 
+ 
+ 
+Có TK 131 – Phải thu của khách hàng 
+ 
+Nhận được tiền do khách hàng trả (kể cả tiền lãi của số nợ - nếu có), nhận tiền 
+ứng trước của khách hàng theo hợp đồng bán hàng hoặc cung cấp dịch vụ, ghi:  
+Nợ TK 111,112,... 
+Có TK 131 – Phải thu của khách hàng 
+ 
+ 
+Có TK 515 – Doanh thu hoạt động tài chính (phần tiền lãi) 
+Trường hợp nhận ứng trước bằng ngoại tệ thì bên Có TK 131 ghi theo tỷ giá giao 
+dịch thực tế tại thời điểm ứng trước (tỷ giá mua của ngân hàng nợ thực hiện giao dịch) 
+ 
+Phương pháp kế toán các khoản phải thu của nhà thầu đối với khách hàng liên 
+quan đến hợp đồng xây dựng: 
+- Trường hợp hợp đồng xây dựng quy định nhà thầu được thanh toán theo tiến độ 
+kế hoạch: 
++ Khi kết quả thực hiện hợp đồng xây dựng được ước tính một cách đáng tin cậy, 
+kế toán căn cứ vào chứng từ phản ánh doanh thu ứng với phần công việc đã hoàn thành 
+( không phải hóa đơn) do nhà thầu tự xác nhận, ghi: 
+Nợ TK 337 – Thanh toán theo tiến độ kế hoạch hợp đồng xây dựng 
+ 
+Có TK 511 – Doanh thu bán hàng và cung cấp dịch vụ 
++ Căn cứ vào hóa đơn được lập theo tiến độ kế hoạch để phản ánh số tiền khách 
+hàng phải trả theo tiến độ kế hoạch đã ghi trong hợp đồng, ghi: 
+Nợ TK 131 – Phải thu của khách hàng 
+Có TK 337 – Thanh toán theo tiến độ kế hoạch hợp đồng xây dựng 
+  
+ 
+18 
+ 
+-Trường hợp hợp đồng xây dựng quy định nhà thầu được thanh toán theo giá trị 
+khối lượng thực hiện, khi kết quả thực hiện hợp đồng xấy dựng được xác định một cách 
+đáng tin cậy và được khách hangfxacs nhận, kế toán phải lập hóa đơn trên cơ sở phần 
+công việc đã hoàn thanh được khách hàng xác nhận, căn cứ vào hóa đơn, ghi : 
+Nợ TK 131 – phải thu của khách hàng 
+ 
+ 
+Có TK 511 – Doanh thu bán hàng và cung cấp dịch vụ 
+Có TK 3331 –Thuế GTGT phải nộp (33311) 
+- Khoản tiền thưởng thu được từ khách hàng trả phụ thêm cho nhà thầu khi thực 
+hiện hợp đồng đạt hoặc vượt một số chỉ tiêu cụ thể đã được ghi trong hợp đồng, ghi:  
+Nợ TK 131 – Phải thu của khách hàng 
+ 
+ 
+Có 511 – Doanh thu bán hàng và cung cấp dịch vụ 
+ 
+ 
+Có 3331 – Thuế GTGT phải nộp (33311) 
+- Khoản bồi thường thu được từ khách hàng hay các bên khác để bù đắp cho các 
+chi phí không bao gồm trong giá trị hợp đồng ( như sự chậm trễ, sai sót của khách hàng 
+và các tranh chấp về các thay đổi trong việc thực hiện hợp đồng) , ghi : 
+Nợ TK 131 – Phải thu của khách hàng  
+ 
+ 
+Có 511 – Doanh thu bán hàng và cung cấp dịch vụ  
+ 
+ 
+Có 3331 – Thuế GTGT phải nộp (33311) 
+- Khi nhận được tiền thanh toán khối lượng công trình trình hoàn thành  
+Nợ TK 111,112,... 
+Có TK 131 – Phải thu của khách hàng 
+- Trường hợp khách hàng không thanh toán bằng tiền mà thanh toán bằng hàng( 
+theo phương thức hàng đổi hàng), căn cứ vào giá trị vật tư, hàng hóa nhận trao đổi ( tính 
+theo giá trị hợp lý ghi trong hóa đơn GTGT hoặc hóa đơn bán hàng của khách hàng ) trừ 
+vào số nợ phải thu của khách hàng, ghi: 
+Nợ TK 152 – Nguyên liệu, vật liệu 
+Nợ TK 153 – Công cụ, dụng cụ 
+Nợ TK 156 – Hàng hóa 
+Nợ TK 611 – Mua hàng ( hàng tồn kho kế toán theo phương pháp KKĐK) 
+Có TK 131 – Phải thu của khách hàng. 
+ 
+Trường hợp phát sinh khoản nợ phải thu khó đòi thực sự không thể thu nợ được 
+phải xử lý xóa sổ, căn cứ vào biên bản xử lý xóa nợ, ghi: 
+  
+ 
+19 
+ 
+ 
+Nhận ủy thác xuất nhập khẩu ghi thu 
+Nợ TK 131 – Phải thu của khách hàng 
+ 
+ 
+Có TK 511 – Doanh thu bán hàng và cung cấp dịch vụ ( 5113) 
+Có TK 3331 – Thuế GTGT phải nộp (33311) 
+ 
+Khi lập báo cáo tài chính, thực hiện đánh giá theo tỷ giá giao dịch thực tế số dư 
+nợ phải thu của khách hàng bằng ngoại tại thời điểm lập Báo cáo tài chính: 
+- Nếu tỷ giá ngoại tệ tăng so với tỷ giá Đồng Việt Nam, ghi: 
+Nợ TK 131 – Phải thu của khách hàng 
+ 
+ 
+Có TK 413 – Chênh lệch tỷ giá hối đoái (4131) 
+- Nếu tỷ giá ngoại tệ giảm so với tỷ giá Đồng Việt Nam, ghi: 
+Nợ TK 413 – Chênh lệch tỷ giá hối đoái (4131) 
+ 
+ 
+Có TK 131 – Phải thu của khách hàng. 
+ Kế toán nợ phải thu khó đòi:  
+Dự phòng phải thu khó đòi: là khoản sự phòng phần giá trị các khoản nợ phải thu 
+và các khoản đầu tư nắm giữ đến ngày đáo hạn khác có bản chất tương tự các khoản phải 
+thu khó đòi có khả năng thu hồi. 
+ Đối với nợ phải thu quá hạn thanh toán, mức trích lập dự phòng như sau: 
++ 30% giá trị đối với khoản nợ phải thu quá hạn trên 6 tháng đến dưới 1 năm 
++ 50% giá trị đối với những khoản nợ thu quá hạn từ 1 năm đến dưới 2 năm 
++ 70% giá trị đối với những khoản nợ thu quá hạn từ 2 năm đến dưới 3 năm 
++ 100% giá trị đối với những khoản nợ phải thu từ 3 năm trở lên. 
+ Đối với những khoản nợ phải thu chưa đến hạn thanh toán nhưng tổ chức kinh tế 
+đã lâm vào tình trạng phá sản hoặc đang làm thủ tục giải thể; người nợ mất tích, 
+bỏ trốn, đang bị các cơ quan pháp luật truy tố, giam giữ, xét xử hoặc đang thi 
+hành án hoặc đã chết ... thì doanh nghiệp dự kiến mức tổn thất không thu hồi được 
+để trích lập dự phòng.  
+Sau khi lập dự phòng cho từng khoản nợ phải thu khó đòi, doanh nghiệp tổng hợp 
+toàn bộ khoản dự phòng các khoản nợ vào bảng kê chi tiết để căn cứ hạch toán vào chi 
+phí quản lý của doanh nghiệp. 
+ Cách hạch toán khoản nợ phải thu khó đòi 
+- Khi lập BCTC, căn cứ các khoản nợ phải thu được phân loại là nợ phải thu khó đòi, 
+nếu số dự phòng nợ phải thu khó đòi cần trích lập ở kỳ kế toán này lớn hơn số dự phòng 
+  
+ 
+20 
+ 
+nợ phải thu khó đòi đã trích lập ở kỳ kế toán trước chưa sử dụng hết, kế toán trích lập bổ 
+sung phần chênh lệch, ghi: 
+Nợ TK 642 - Chi phí quản lý doanh nghiệp 
+Có TK 229 - Dự phòng tổn thất tài sản (2293). 
+      - Nếu nhỏ hơn, kế toán hoàn nhập phần chênh lệch, ghi: 
+Nợ TK 229 - Dự phòng tổn thất tài sản (2293) 
+           Có TK 642 - Chi phí quản lý doanh nghiệp. 
+      - Đối với các khoản nợ phải thu khó đòi khi xác định là không thể thu hồi được,        
+kế toán thực hiện xóa nợ theo quy định của pháp luật hiện hành. Căn cứ vào quyết định 
+xoá nợ, ghi: 
+Nợ các TK 111, 112, 331, 334....(phần tổ chức cá nhân phải bồi thường) 
+Nợ TK 229 - Dự phòng tổn thất tài sản (2293)(phần đã lập dự phòng) 
+Nợ TK 642 - Chi phí quản lý doanh nghiệp (phần được tính vào chi phí) 
+           Có các TK 131, 138, 128, 244... 
+      - Đối với những khoản nợ phải thu khó đòi đã được xử lý xoá nợ, nếu sau đó lại thu 
+hồi được nợ, kế toán căn cứ vào giá trị thực tế của khoản nợ đã thu hồi được, ghi: 
+Nợ các TK 111, 112,.... 
+           Có TK 711 - Thu nhập khác. 
+      - Đối với các khoản nợ phải thu quá hạn được bán theo giá thoả thuận, tuỳ từng 
+trường hợp thực tế, kế toán ghi nhận như sau: 
++ Trường hợp khoản phải thu quá hạn chưa lập dự phòng phải thu khó đòi, ghi: 
+Nợ các TK 111, 112 (theo giá bán thỏa thuận) 
+Nợ TK 642 - Chi phí quản lý doanh nghiệp (số tổn thất từ việc bán nợ) 
+           Có các TK 131, 138,128, 244... 
+      + Trường hợp khoản phải thu quá hạn đã lập dự phòng phải thu khó đòi nhưng 
+số đã lập dự phòng không đủ bù đắp tổn thất khi bán nợ thì số tổn thất còn lại được hạch 
+toán vào chi phí quản lý doanh nghiệp, ghi: 
+Nợ các TK 111, 112 (theo giá bán thỏa thuận) 
+Nợ TK 229 - Dự phòng tổn thất tài sản (2293) (số đã lập dự phòng) 
+Nợ TK 642 - Chi phí quản lý doanh nghiệp (số tổn thất từ việc bán nợ) 
+          Có các TK 131, 138,128, 244... 
+ 
+  
+ 
+21 
+ 
+2.1.3. Kế toán khoản phải trả 
+ 
+Khái niệm, bản chất 
+Phản ánh tình hình thanh toán về các khoản phải trả của doanh nghiệp cho người 
+bán vật tư, hàng hóa, người cung cấp dịch vụ, người bán TSCĐ, BĐSDT, các khoản đầu 
+tư tài chính theo hợp đồng kinh tế đã ký kết. Tài khoản này cũng dùng để phản ánh tình 
+hình thanh toán về các khoản nợ phải trả cho người nhận thầu xây lắp chính, phụ. Không 
+phản ánh các tài khoản này các nghiệp vụ mua hàng trả tiền ngay. 
+Nợ phải trả cho người bán, người cung cấp, người nhận thầu xây lắp cần được 
+hạch toán chi tiết cho từng dối tượng phải trả. Trong chi tiết từng đối tượng phải trả , tài 
+khoản này phản ánh cả số tiền đã ứng cho người bán, người cung cấp, người nhận thầu 
+xây lắp nhưng chưa nhận được sản phẩm, hàng hóa, dịch vụ, khối lượng xây lắp hoàn 
+thành bàn giao. 
+Doanh nghiệp phải theo dõi chi tiết các khoản nợ phải trả cho người bán theo từng 
+loại nguyên tệ. Đối với những khoản phải trả bằng ngoại tệ thì thực hiện theo nguyên 
+tắc: 
+- Khi phát sinh các khoản nợ phải trả cho người bán ( bên có tài khoản 331) bằng 
+ngoại tệ , kế toán quy đổi ra Đồng Việt Năm theo tỷ giá giao dịch thực tế tại thời điểm 
+phát sinh (là tỷ giá bán của ngân hàng thương mại nơi thường xuyên giao dịch). Riêng 
+trường hợp ứng trước riêng cho nhà thầu hoặc người bán, khi đủ điều kiện ghi nhận tài 
+sản hoặc chi phí thì bên có tài khoản 331 được áp dụng tỷ giá ghi sổ thực tế đích danh 
+đối với số tiền đã ứng trước; 
+- Khi thanh toán nợ phải trả cho người bán ( bên nợ tài khoản 331) bằng ngoại tệ, 
+kế toán phải quy đổi ra Đồng Việt Nam theo tỷ giá ghi sổ thực tế đích danh theo từng 
+đối tượng chủ nợ ( Trường hợp chủ nợ có nhiều giao dịch thì tỷ giá thực tế đích dánh 
+được xác định trên cơ sở bình quân gia quyền di động các giao dịch của chủ nợ đó). 
+Riêng trường hợp phát sinh giao dịch ứng trước tiền cho nhà thầu hoặc người bán thì bên 
+nợ tài khoản 331 áp dụng tỷ giá giao dịch thực tế ( là tỷ giá bán của ngân hàng nợ thường 
+xuyên có giao dịch) tại thời điểm ứng trước; 
+- Doanh nghiệp phải đánh giá lại các khoản phải trả cho người bán có gốc ngoại 
+tệ tại tất cả các thời điểm lập Báo cáo tài chính theo quy định của pháp luật. Tỷ giá giao 
+dịch thực tế khi đánh giá lại khoản phải trả cho người bán là tỷ giá bán ngoại tệ của ngân 
+hàng thương mại nơi doanh nghiệp thường xuyên có giap dịch tại thời điểm lập Báo cáo 
+tài chính. Các đơn vị trong tập đoàn được áp dụng chung một tỷ giá do công ty mẹ quy 
+  
+ 
+22 
+ 
+định ( phải đảm bảo sát với tỷ giá giao dịch thực tế ) để đánh giá lại các khoản phải trả 
+cho người bán có gốc ngoại tệ phát sinh từ các giao dịch trong nội bộ tập đoàn. 
+Bên giao nhập khẩu ủy thác ghi nhận trên tài khoản này số tiền phải trả người bán 
+về hàng nhập khẩu thông qua bên nhận nhập khẩu ủy thác như khoản phải trả người bán 
+thông thường. 
+Những vật tư, hàng hóa, dịch vụ đã nhận, nhập kho những đến cuối tháng vẫn 
+chưa có hóa đơn thì sử dụng giá tạm tính để ghi sổ và phải điều chỉnh về giá thực tế khi 
+nhận được hóa đơn hoặc được thông báo giá chính thức của người bán. 
+Khi hạch toán chi tiết các khoản này, kế toán phải hạch toán rõ ràng, rành mạch 
+các khoản chiết khấu thanh toán, chiết khấu thương mại, giảm giá hàng bán của người 
+bán, người cung cấp nếu chưa được phản ánh trong hóa đơn mua hàng. 
+ 
+Chứng từ sử dụng và quy trình luân chuyển 
+Các chừng từ về mua hàng: Hợp đồng mua hàng, hóa đơn bán hàng ( hoặc hóa 
+đơn VAT) do người bán lập, biên bản kiểm nghiệm vật tư, sản phẩm, hàng hóa; phiếu 
+nhập kho, biên bản bàn giao TSCĐ,... 
+Chứng từ ứng trước tiền: phiếu thu ( do người bán lập) 
+Các chứng từ thanh toán tiền mua hàng; phiếu chi, giấy báo Nợ, ủy nhiệm chi, 
+Séc,... 
+Sổ sách kế toán sử dụng: Bảng kê đối chiếu công nợ phả trả người bán, Sổ chi tiết 
+TK 331 từng khách hàng, Bảng tổng hợp TK 331, Sổ Nhật ký chung, Sổ cái TK 331,... 
+ 
+Tài khoản sử dụng 
+Tài khoản 331: Phải trả cho người bán 
+  
+ 
+23 
+ 
+ 
+ 
+ 
+  
+ 
+24 
+ 
+ 
+Phương pháp hoặc toán 
+ 
+Sơ đồ 2.2: Sơ đồ hạch toán nghiệp vụ thanh toán với người bán (theo thông tư 
+200/2014/TT-BTC) 
+ 
+  
+ 
+25 
+ 
+Mua vật tư, hàng hóa chưa trả tiền người bán về nhập kho trong trường hợp hạch toán 
+hàng tồn kho theo phương pháp kê khai thường xuyên hoặc khi mua TSCĐ: 
++ Trường hợp mua trong nội địa, ghi: 
+Nếu thuế GTGT đầu vào được khấu trừ, ghi: 
+Nợ TK 152, 153, 156, 157, 211, 213 (giá chưa thuế GTGT) 
+Nợ TK 133 – Thuế GTGT được khấu trừ (1331)  
+ 
+ 
+Có TK 331 – Phải trả cho người bán ( tổng giá thanh toán). 
+Trường hợp thuế GTGT đầu vào không được khấu trừ thì giá trị vật tư, hàng hóa, 
+TSCĐ bào gồm cả thuế GTGT ( tổng giá thanh toán ). 
++ Trường hợp nhập khẩu, ghi: 
+Phản ánh giá trị hàng nhập khẩu bao gồm cả thuế TTĐB, thuế XK, thuế BVMT  
+(nếu có ), ghi: 
+Nợ TK 152, 153, 156, 157, 211, 213 
+ 
+ 
+Có TK 331 – Phải trả cho người bán 
+ 
+ 
+Có TK 3332 – Thuế TTĐB (nếu có) 
+ 
+ 
+Có TK 3333 – Thuế xuất nhập khẩu ( chi tiết thuế nhập khẩu, nếu có) 
+ 
+ 
+Có TK 33381 – Thuế bảo vệ môi trường 
+Nếu thuế GTGT đầu vào được khấu trừ, ghi:  
+ 
+Nợ TK 133 – Thuế GTGT được khấu trừ (1331) 
+ 
+ 
+Có 3331 – Thuế GTGT phải nộp (33312) 
+ 
+Mua vật tư, hàng hóa chưa trả tiền người bán về nhập kho trong trường hợp hạch 
+toán hàng tồn khi theo phương pháp kiểm kê định kỳ: 
+- Trường hợp mua trong nội địa: 
++ Nếu thuế GTGT đầu vào được khấu trừ, ghi: 
+Nợ TK 611 – Mua hàng (giá chưa có thuế GTGT) 
+Nợ TK 133 – Thuế GTGT được khấu trừ 
+Có TK 331 – Phải trả cho người bán ( tổng giá thanh toán ) 
+Trường hợp thuế GTGT đầu vào khong được khấu trừ thì giá trị vật tư, hàng hóa 
+bao gồm cả thuế GTGT ( tổng giá thanh toán) 
+- Trường hợp nhập khẩu, ghi: 
+  
+ 
+26 
+ 
+Phản ánh giá trị nhập khẩu bao gồm cả thuế TTĐB, thuế XK, thuế BVMT (nếu 
+có), ghi: 
+Nợ TK 611 – Mua hàng 
+ 
+ 
+Có TK 331 – Phải trả cho người bán 
+ 
+ 
+Có TK 3332 – Thuế TTĐB (nếu có) 
+ 
+ 
+Có TK 3333 – Thuế xuất nhập khẩu ( chi tiết thuế nhập khẩu, nếu có) 
+ 
+ 
+Có TK 33381 – Thuế bảo vệ môi trường 
+Nếu thuế GTGT đầu vào được khấu trừ, ghi : 
+Nợ TK 133 – Thuế GTGT được khấu trừ (1331) 
+ 
+ 
+Có 3331 – Thuế GTGT phải nộp (33312) 
+ 
+Trường hợp đơn vị có thực hiện đầu tư XDCB theo phương thức giao thầu, khi 
+nhận khối lượng xây lắp hoàn thành bàn giao bên nhận thầu xây lắp,căn cứ hơp đồng 
+giao thầu và biên bản bàn giao khối lượng xây lắp, hóa đơn khối lượng xây lắp hoàn 
+thành: 
+- Nếu thuế GTGT đầu vào khấu trừ, ghi: 
+Nợ TK 241 – XDXB dở dang (giá chưa có thuế GTGT) 
+ 
+Nợ TK 133 – Thuế GTGT được khấu trừ 
+ 
+ 
+Có TK 331 – Phải trả cho người bán ( tổng giá thanh toán) 
+- Trường hợp thuế GTGT đầu vào không được khấu trừ thì đầu tư XDCB bao 
+gồm cả thuế GTGT ( tổng gá thanh toán) 
+ 
+Đối với việc ứng trước tiền hoặc thanh toán số tiền phải trả cho người bán vật tư, 
+hàng hóa, người cung cấp dịch vụ, người nhận thầu xây lắp, ghi: 
+Nợ TK 331 – Phải trả cho người bán 
+ 
+ 
+Có TK 111, 112, 341,... 
+- Trường hợp phải thanh toán cho nhà thầu bằng ngoại tệ, kế toán phải quy đổi ra 
+Đồng Việt Nam theo tỷ giá giao dịch thực tế tại thời điểm phát sinh ( là tỷ giá bán cho 
+ngân hàng thương mại nơi thường xuyên có giao dịch). 
+- Trường hợp đã ứng trước tiền cho nhà cung cấp bằng ngoại tệ, kế toán ghi nhận 
+giá trị đầu tư XDCB tương ứng với số tiền đã ứng trước theo tỷ giá giao dịch thực tế tại 
+thời điểm ứng trước. Phần giáo trị đầu tư XDCB còn phải thanh toán (sau khi đã trừ đi 
+số tiền ứng trước) được ghi nhận theo tỷ giá giao dịch thực tế tại thời điểm phát sinh. 
+ 
+  
+ 
+27 
+ 
+Nợ TK 331 – Phải trả cho người bán ( tỷ giá giao dịch thực tế) 
+Nợ TK 635 – Chi phí tài chính ( nếu tỷ giá giao dịch thực tế thấp hơn tỷ giá giao 
+dịch sổ kế toán của TK tiền) 
+Có TK 112, 113,... ( tỷ giá ghi sổ kế toán) 
+Có TK 515 – Doanh thu hoat động tài chính ( nếu tỷ giá giao dịch thực tế 
+cao hơn tỷ giá ghi sổ kế toán của TK tiền). 
+ 
+Khi nhận lại tiền do người bán hoàn lại số tiền đã ứng trước vì không cung cấp 
+được hàng hóa, dịch vụ, ghi: 
+ 
+Nợ TK 111,112,... 
+ 
+ 
+Có TK 331 – Phải trả cho người bán 
+ 
+Nhận dịch vụ cung cấp ( chi phí vận chuyển hàng hóa, điện, nước, kiểm toán, tư 
+vấn,quảng cáo, dịch vụ khác) của người bán: 
+- Nếu thuế GTGT đầu vào được khấu trừ, ghi: 
+Nợ TK 156 – Hàng hóa ( 1562) 
+Nợ TK 241 – XDCB  
+Nợ TK 242 – Chi phí trả trước 
+Nợ TK 623,627, 641, 642, 635, 811 
+Nợ TK 133 – Thuế GTGT được khấu trừ (1331)  (nếu có) 
+ 
+ 
+Có 331 – Phải trả cho người bán (tổng giá thanh toán) 
+- Trường hợp thuế GTGT đầu vào không được kaaus trừ thì giá trị dịch vụ bao 
+gồm cả thuế GTGT ( tổng giá thanh toán) 
+ 
+Chiết khấu thanh toán mua vật tư, hàng hóa doanh nghiệp được hưởng do thanh 
+toán trước thời hạn thanh toán và tính trừ vào khoản nự phải trả người bán, người cung 
+cấp, ghi: 
+ 
+Nợ TK 331 – Phải trả cho người bán 
+ 
+ 
+Có TK 515 – Doanh thu hoạt động tài chính 
+ 
+Trường hợp vật tư, hàng hóa mua vào phải trả lại hoặc người bán chấp nhận giảm 
+giá do không đúng quy cách, phẩm chất được tính trừ vào nợ phải trả cho người bán, ghi: 
+Nợ TK 331 – Phải trả cho người bán 
+ 
+ 
+Có TK 133 – Thuế GTGT được khấu trừ (1331) (nếu có) 
+ 
+ 
+Có TK 152, 153, 156, 611,.. 
+  
+ 
+28 
+ 
+ 
+Trường hợp các khoản nợ phải trả cho người bán không tìm ra chủ nợ hoặc chủ 
+nợ không đòi và được xử lý ghi tăng thu nhập khác của doanh nghiệp, ghi : 
+Nợ TK 331 – Phải trả cho người bán 
+ 
+ 
+Có TK 711 – Thu nhập khác 
+ 
+Đối với những nhà thầu chính, khi xác định giá trị khối lượng xây lắp phải trả cho 
+nhà thầu phụ theo hợp đồng kinh tế đã ký kết, căn cứ vào hóa đơn,phiếu giá công trình, 
+biên bản nghiệm thu khối lượng xây lắp hoàn thành và họp đồng giao thầu phụ, ghi: 
+ 
+Nợ TK 632 – Giá vốn hàng bán (giá chưa có thuế GTG) 
+ 
+Nợ TK 133 – Thuế GTGT được khấu trừ ( 1331) 
+Có TK 331 – Phải trả cho người bán ( tổng số tiền phải trả cho nhà thầu 
+phụ gồm cả thuế GTGT đầu vào) 
+ 
+Trường hợp doanh nghiệp nhận bán hàng đại lý, bán đúng giá, hưởng hoa hồng. 
+- Khi nhận hàng bán đại lý, doanh nghiệp chủ động theo dõi và ghi chép thông tin 
+về hàng nhận bán đại lý trong phần thuyết minh Báo cáo tài chính. 
+- Khi bán hàng nhận đại lý, ghi: 
+Nợ TK 111,112,131,.. (tổng giá thanh toán ) 
+ 
+ 
+Có TK 331 – Phải trả cho người bán ( giá giao bán đại lý +thuế ) 
+Đồng thời doanh nghiệp theo dõi ghi chép thông tin về hàng nhận bán đại lý đã 
+xuất bán trong phân thuyết minh Báo cáo tài chính. 
+- Khi xác định hoa hồng đại lý được hưởng, tính vào doanh thu hoa hồng về bán 
+hàng đại lý, ghi: 
+Nợ TK 331 – Phải trả cho người bán 
+Có TK 511 – Danh thu bán hàng và cung cấp dịch vụ 
+Có TK 3331 – Thuế GTGT phải nộp (nếu có). 
+- Khi thanh toán tiền cho bên giao hàng đại lý, ghi: 
+Nợ TK 331 – Phải trả cho người bán ( giá bán trừ hoa hồng đại lý) 
+Có TK 111,112,... 
+ 
+Kế toán phải trả cho người bán tại đơn vị giao ủy thác nhập khẩu: 
+- Khi trả trước một khoản tiền ủy thác mua hàng theo hợp đồng ủy thác nhập khẩu 
+cho đơn vị nhận ủy thác nhập khẩu mở LC... căn cứ các chứng từ liên quan, ghi: 
+ 
+  
+ 
+29 
+ 
+Nợ TK 331 – Phải trả cho người bán (chi tiết cho từng đơn vị nhận ủy thác) 
+Có TK 111, 112,... 
+- Khi nhận hàng ủy thác nhập khẩu do bên nhận ủy thác giao trả, kế toán thực 
+hiện như đói với hành nhập khẩu thông thường 
+- Khi trả tiền cho đơn vị nhận ủy thác nhập khẩu về số tiền hàng nhập khẩu và các 
+chi phí liên quan trực tiếp đến hàng nhập khẩu, căn cú các chứng từ liên quan, ghi: 
+Nợ TK 331 – Phải trả cho người bán (chi tiết cho từng đơn vị nhận ủy thác) 
+ 
+ 
+Có TK 111,112,.. 
+- Phí ủy thác nhập khẩu phải trả đơn vị nhận ủy thác được tính vào giá trị hàng 
+nhập khẩu, căn cứ các chứng từ liên quan, ghi: 
+Nợ TK 151, 152, 156, 211,... 
+Nợ TK 133 – Thuế GTGT được khấu trừ 
+ 
+ 
+Có TK 331 – Phải trả cho người bán (chi tiết từng đơn vị nhận ủy thác) 
+- Việc thanh toán nghĩ vụ thuế đối với hàng nhập khẩu thực hiện theo quy định 
+của TK 333 – Thuế và các khoản phải nộp nhà nước 
+- Đơn vị nhận ủy thác không sử dụng tài khoản này để phản ánh các nghiệp vụ 
+thanh toán ủy thác mà sử dụng qua các TK 138 và 338 
+ 
+Khi lập Báo cáo tài chính, số dư nợ phải trả cho người bán bằng ngoại tệ được 
+đánh giá theo tỷ giá giao dịch thực tế tại thời điểm lập Báo cáo tài chính: 
+- Nếu tỷ giá ngoại tệ giảm so với Đồng Việt Nam, ghi: 
+Nợ TK 331 – Phải trả cho người bán 
+ 
+ 
+Có TK 413 – Chênh lệch tỷ giá hối đoái (4131) 
+- Nếu tỷ giá ngoại tệ tăng so với Đồng Việt Nam, ghi: 
+Nợ TK 413 – Chênh lệch tỷ giá hối đoái (4131) 
+ 
+ 
+Có TK 331 – Phải trả cho người bán 
+ 
+ 
+ 
+ 
+  
+ 
+30 
+ 
+2.2. Nội dung trong công tác quản lý công nợ  
+2.2.1. Chính sách quản lý kế toán phải thu khách hàng 
+ 
+Nguyên tắc chung 
+ 
+Kế toán thưc hiện hạch toán chi tiết các khoản nợ phải thu theo từng khách hàng 
+mà công ty hợp tác và theo từng công trình mà công ty nhận đấu thầu được. 
+ 
+Tổ chức, theo dõi chặt chẽ và chủ động nhắc nợ khách hàng bằng nhiều cách: gọi 
+điện thoại, nhắc bằng email đối với những khoản nợ gần tới hạn thanh toán; phải thúc 
+giục, hối thúc trả nợ từ các khoản nợ đã trễ ngày thanh toán 
+ 
+Bộ phận kế toán phải lưu trữ đầy đủ, chính xác những chứng từ liên quan đến 
+những khoản nợ của khách hàng, đặc biệt là những khoản nợ có nhiều lần bán hàng để 
+từ đó có căn cứ và kế hoạch thu tiền khách hàng hợp lý. 
+ 
+Các yêu cầu kế toán đối với những khoản mục nợ phải thu khách hàng 
+Kế toán phải thu luôn theo dõi chi tiết từng khoản phải thu từng khách hàng, đối 
+tượng; thường xuyên đối chiếu, kiểm tra, đôn đốc để việc thanh toán kịp thời, không trì 
+hoãn. 
+Đối với những khách hàng giao dịch, mua bán thường xuyên có số dư nợ lớn thì 
+phải thực hiện kiểm tra, đối chiếu từng định khoản nợ phát sinh, số đã thanh toán và số 
+còn phải thanh toán thường xuyên định kỳ hoặc vào cuối tháng và có xác nhận bằng văn 
+bản. 
+Phân loại các khoản phải thu là khoản phải thu khách hàng, phải thu nội bộ, phải 
+thu khác: phải thu của khách hàng gồm các khoản phải thu mang tính chất thương mại 
+phát sinh từ giao dịch có tính chất mua bán- bán; phải thu nội bộ gồm các khoản phải 
+thu giữa đơn vị cấp trên và đơn vị cấp dưới trực thuộc không có tư cách pháp nhân hạch 
+toán phụ thuộc; phải thu khác gồm các khoản phải thu không có tính chất thương mại, 
+không liên quan đến giao dịch mua bán. 
+Đối với những khoản nợ thu tiền có gốc ngoại tệ cần theo dõi số tiền nguyên tệ 
+trên các tài khoản chi tiết và cả số tiền quy đổi thành tiền Việt Nam. Cuối mỗi kỳ phải 
+thực hiện điều chỉnh số dư theo tỷ giá thực tế. 
+Đặc biệt, không được bù trừ công nợ giữa các khách hàng, giữa các khách hàng mà phải 
+căn cứ trên sổ chỉ tiết từ đó lấy số liệu hoàn thành bảng cân đối kế toán cuối kỳ 
+ 
+ 
+ 
+  
+ 
+31 
+ 
+ 
+Trình bày khoản mục nợ phải thu của khách hàng trên Báo cáo tài chính 
+ 
+Những khoản phải thu khách hàng (số dư bên Nợ TK 131) có thời hạn thanh toán 
+bé hơn hoặc bằng 12 tháng tại thời điểm thực hiện lập báo cáo được trình bày trên Bảng 
+Cân đối kế toán, Phần A (Tài sản ngắn hạn), thuộc chỉ tiêu “Phải thu ngắn hạn của khách 
+hàng” (mã số 131); 
+ 
+Những khoản phải thu khách hàng (Số dư bên Nợ TK 131) có thời hạn thanh toán 
+lớn hơn 12 tháng tại thời điểm thực hiện lập báo cáo được trình bày trên Bảng cân đối 
+kế toán, Phần B (Tài sản dài hạn), thuộc chỉ tiêu “ Phải thu dài hạn của khách hàng” (mã 
+số 211); 
+ 
+Trường hợp khi người mua hàng thanh toán trước ( số dư Có của TK 131) có thời 
+hạn bé hơn hơn 12 tháng thi được trình bày trên Bảng Cân đối kế toán , Phần B (Nguồn 
+vốn), thuộc chỉ tiêu  “Người mua trả tiền trước ngắn hạn” (Mã số 312) ; 
+ 
+Nếu người mua hàng thanh toán trước có thời hạn lớn hơn 12 tháng thì thuộc chỉ 
+tiêu “ Người mua trả tiền trước dài hạn” (Mã số 332); 
+ 
+Ngoài ra, chỉ tiêu dự phòng nợ phải thu khó đòi cũng được trình bày bên phần  tài 
+sản ghi bằng số âm, thuộc chỉ tiêu “ Dự phòng phải thu ngắn hạn khó đòi” và “ Dự phòng 
+phải thu dài hạn khó đòi”. Tài khoản đưa vào chi tiêu này là số dư bên Có TK 2293 (dưới 
+12 tháng) và 2293 (trên 12 tháng). 
+2.2.2. Chính sách quản lý khoản phải trả cho nhà cung cấp 
+ 
+Nguyên tắc chung 
+Kế toán thưc hiện hạch toán chi tiết các khoản nợ phải trả theo từng nhà cung cấp 
+mà công ty hợp tác và từng dự án. 
+Theo dõi các khoản phải trả nhà cung cấp, xem xét các khoản nợ để lên kế hoạch 
+thực hiện thanh toán sao cho phù hợp với tình hình công ty. 
+ 
+Bộ phận kế toán phải lưu trữ đầy đủ, chính xác những chứng từ liên quan đến 
+những khoản phải trả nhà cung cấp. Yêu cầu người bán cung cấp đủ tất cả hóa đơn, 
+chứng từ liên quan thì mới thực hiện thanh toán. 
+ 
+Các yêu cầu kế toán đối với những khoản mục nợ phải trả nhà cung cấp 
+Nợ phải trả cho người bán, người cung cấp vật tư, hàng hóa, dịch vụ hoặc cho 
+người nhận thầu xây lắp chính,phụ cần được hạch toán chi tiết cho từng đối tượng phải 
+trả. Trong chi tiết từng đối tượng phải trả, tài khoản này phản ánh cả số tiền đã ứng trước 
+cho người bán, người cung cấp, người nhận thầu xây lắp hoàn thành bàn giao 
+  
+ 
+32 
+ 
+Những vật tư, hàng hóa, dịch vụ đã nhận, nhập kho nhưng đến cuối tháng vẫn 
+chưa có hóa đơn thì sử dụng giá tạm tính ghi sổ và phải điều chỉnh về giá thực tế khi 
+nhận được hóa đơn hoặc thong báo giá chính thức của người bán. 
+Khi hạch toán chi tiết các khoản vay này, kế toán phải hạch toán rõ ràng, rành 
+mạch các khoản chiết khấu thanh toán, giảm giá hàng bán cho người bán, ngoài hóa đơn 
+mua hàng. 
+ 
+Trình bày khoản mục nợ phải trả của khách hàng trên Báo cáo tài chính 
+Những khoản phải trả người bán ngắn hạn (số dư bên Có TK 331) có thời hạn 
+thanh toán bé hơn hoặc bằng 12 tháng tại thời điểm thực hiện lập báo cáo được trình bày 
+trên Bảng Cân đối kế toán, Phần C (Nợ ngắn hạn), thuộc chỉ tiêu “Phải trả cho người bán 
+ngắn hạn” (mã số 311); 
+ 
+Những khoản phải thu khách hàng (Số dư bên Có TK 331) có thời hạn thanh toán 
+lớn hơn 12 tháng tại thời điểm thực hiện lập báo cáo được trình bày trên Bảng cân đối 
+kế toán, Phần C (Tài sản dài hạn), thuộc chỉ tiêu “ Phải trả cho người bán dài hạn” (mã 
+số 331); 
+ 
+Trường hợp khi trả trước cho người bán ( số dư Nợ của TK 331) có thời hạn bé 
+hơn hơn 12 tháng thi được trình bày trên Bảng Cân đối kế toán , Phần A (Tài sản ngắn 
+hạn), thuộc chỉ tiêu  “Trả trước cho người bán ngắn hạn” (Mã số 132) ; 
+ 
+Nếu người mua hàng thanh toán trước có thời hạn lớn hơn 12 tháng thì thuộc chỉ 
+tiêu “ Trả trước cho người bán dài hạn” (Mã số 212); 
+2.2.3. Những yếu tố ảnh hưởng đến chính sách bán chịu 
+ 
+Các khoản phải thu thật ra đang là vốn mà khách hàng chiếm dụng của công ty, 
+chính vì vậy về nguyên tắc quy mô các khoản phải thu càng nhỏ thì sẽ càng có lợi cho 
+công ty. Công ty TNHH Thiết bị Inox Hoàng Tâm là công ty cung cấp bồn chứa, dụng 
+cụ chưa và cung cấp dịch vụ lắp đặt, vì vậy những khoản phải thu khách hàng của công 
+ty thường là số tiền lớn nên việc cân bằng nợ phải thu có ảnh hướng rất lớn đến nguồn 
+vốn của công ty.  
+ 
+Hoạt động sản xuất kinh doanh càng mở rộng, thì quy mô khoản phải thu doanh 
+nghiệp tăng lên và ngược lại. Để có sự xem xét tương quan giữa hai chỉ tiêu này chúng 
+ta dùng tỷ số vòng quay khoản phải thu. Nếu quy mô các khoản phải thu tăng lên nhưng 
+vòng quay khoản phải thu vẫn như cũ hoặc tăng lên thì số ngày thu tiền bình quân sẽ 
+giảm xuống chứng tỏ tình hình quản lý công nợ tốt, sản phẩm được tiêu thụ dễ dàng hơn. 
+Ngược lại nếu quy mô công ty có khoản phải thu tăng trong khi doanh  thu, quy mô kinh 
+doanh không tăng, thì như vật tình hình kinh doanh của công ty có nhiều biến động và 
+  
+ 
+33 
+ 
+cần thay đổi ngay trong chính sách bán hàng. Công ty cần xac định bản chất các khoản 
+nợ này, tìm nguyên nhân và khắc phục  để không ảnh  
+Nhận xét: 
+ 
+Nếu số vòng quay nợ phải thu quá cao cho thấy phương thức bán hàng khác cứng 
+nhắc chủ yếu thu bằng tiền mặt, có thể chưa tốt vì ảnh hưởng đến sức cạnh tranh của 
+công ty với đối thủ và khó mở rộng thị phần tăng doanh thu. 
+ 
+Ngược lại phải tối thiểu hóa kỳ tồn kho và kỳ thu nợ bình quân, công ty thường 
+sẽ cố gắng kéo dài công nợ càng lớn càng tốt mà vẫn duy trì uy tín đối với khách hàng. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+34 
+ 
+TÓM TẮT CHƯƠNG 2 
+ 
+Chương này tập trung trình bày khái niệm, bản chất, vai trò và một số kiến thức 
+liên quan công nợ và nội dung trong công tác quản lý công nợ. 
+Trong chương tiếp theo sẽ trình bày những khảo sát thực tế về thực trạng công nợ 
+những khoản thu khách hàng, phải trả khách hàng trong 3 năm 2018 – 2020 ( chủ yếu là 
+2019 và 2020) , với việc phân tích sẽ giúp đánh giá được những khoản phải thu, phải trả 
+ảnh hưởng như thế nào đến tài chính của công ty để tìm ra những ưu, nhược điểm của 
+công ty để vượt qua thách thức, từ đó nâng cao hình ảnh công ty trong khách hàng. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+35 
+ 
+CHƯƠNG 3: THỰC TRẠNG CÔNG NỢ VÀ KHẢ NĂNG THANH TOÁN CÔNG 
+TY TNHH THIẾT BỊ INOX HOÀNG TÂM 
+3.1. Cơ cấu tổ chức tài sản và nguồn vốn của công ty TNHH Thiết bị Inox Hoàng 
+Tâm giai đoạn 2018 – 2020. 
+Bảng 3.1: Cơ cấu tài sản và nguồn vốn của công ty TNHH Thiết bị Inox Hoàng Tâm 
+giai đoạn đầu ( 2018-2020) 
+ĐVT: VNĐ 
+Chỉ tiêu 
+Năm 2018 
+Năm 2019 
+Năm 2020 
+Tài sản ngắn hạn 
+16,455,457,299 
+20,160,954,057 
+27,246,728,419 
+Tài sản dài hạn 
+0  
+3,968,073,944  
+3,968,073,944  
+Tổng tài sản 
+16,455,457,299 
+24,129,028,001 
+31,214,802,363 
+Nợ phải trả  
+130,953,669 
+6,273,812,647 
+13,139,034,884 
+Vốn chủ sở hữu 
+16,324,503,630 
+17,855,215,355 
+18,075,767,479 
+Tổng nguồn vốn 
+16,455,457,299 
+24,129,028,001 
+31,214,802,363 
+ 
+(Nguồn: trích từ Báo cáo tài chính năm 2019 – Đính kèm phụ lục 1, Báo cáo tài chính 
+2020 công ty TNHH Thiết bị Inox Hoàng Tâm – Đính kèm phụ lục 2) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+36 
+ 
+Biểu đồ 3.1: Cơ cấu tài sản giai đoạn 2018-2020 
+ 
+ 
+Theo như biểu đồ trên thấy rõ tài sản ngắn hạn của công ty TNHH Thiết bị Inox 
+Hoàng Tâm có tỷ trọng lớn hơn nhiều so với tài sản dài hạn. Hai chỉ tiêu này đều có sự 
+tăng nhẹ chưa có biến động lớn trong giai đoạn này. Chứng tỏ công ty chưa có ý định 
+thay đổi cơ cấu tài sản này. Vì năm 2018 là năm thành lập công ty vì vậy chưa phản ánh 
+tài sản dài hạn. Năm 2020, tổng tài sản công ty là 31,214,802,363 đồng trong đó tài sản 
+ngắn hạn 27,246,728,419 đồng và tài sản dài hạn là 3,968,073,944 đồng 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+16,4 tỷ
+20,1 tỷ
+27,2 tỷ
+0 
+3,9 tỷ
+3,9 tỷ
+Năm 2018
+Năm 2019
+Năm 2020
+Cơ cấu tài sản công ty TNHH Thiết bị Inox 
+Hoàng Tâm giai đoạn đầu (2018-2020)
+Tài sản ngắn hạn
+Tài sản dài hạn
+  
+ 
+37 
+ 
+Biểu đồ 3.2: Cơ cấu nguồn vốn giai đoạn 2018-2020 
+ 
+ 
+ 
+Nợ phải trả của công ty có tỷ trọng thấp hơn Vốn chủ sở hữu bởi lẽ giai đoạn này 
+công ty đang phát triển, xây dựng. Mặc khác, nợ phải trả qua các năm ngày càng tăng 
+lên thể hiện tốt hay xấu còn phải dựa vào doanh thu và nhiều yếu tố khác. Nợ phải trả 
+đến cuối năm 2020 là 8,4 tỷ đồng. 
+ 
+Về nguồn vốn công ty có xu hướng tăng lên qua các năm, điểm hình tăng nhẹ giai 
+đoạn 2019-2020 từ  17,8 tỷ lên đến 18 tỷ cho thấy sự tự chủ của công ty càng cao. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+38 
+ 
+3.2. Thực trạng kế toán phải thu khách hàng và kế toán dự phòng nợ phải thu khó 
+đòi tại công ty TNHH Thiết bị Inox Hoàng Tâm 
+3.2.1. Chính sách quản lý công nợ phải thu khách hàng của công ty TNHH Thiết bị 
+Inox Hoàng Tâm 
+ 
+Mục đích 
+Đưa ra những chính sách công nợ của khách hàng nhằm mục đích quy định cụ 
+thể nguyên tắc thu hồi nợ và hạn mức tín dụng đối với công nợ khách hàng. 
+Nhân viên kiểm soát công nợ thực hiện các điều khoản về các chính sách công nợ  
+với khách hàng là những người chịu trách nhiệm chính, còn kế toán trưởng sẽ chịu trách 
+nhiệm chỉnh sửa. 
+ 
+Quy định về hạn mức tín dụng và hạn ngày 
+Hạn mức tín dụng là số dư tối đa mà công ty cho khách hàng nợ. 
+Hạn ngày tín dụng (tuổi nợ): là thời gian tối đa cho khoản nợ đối với mỗi phiếu 
+xuất hàng. 
+Quyền đề nghị cấp hoặc điều chỉnh hạn mức tín dụng: nhân viên kinh doanh (Bộ 
+phận kinh doanh) và nhân viên kiểm soát tín dụng (nhân viên kế toán công nợ phải thu). 
+Còn quyền chấp nhận, thay đổi hạn mức tín dụng do Giám đốc hoặc Kế toán trưởng ký 
+duyệt. 
+Hạn mức tín dụng được xét lại (Tăng hoặc giảm) theo quy định kỳ 12 tháng hoặc 
+khi có đề nghị thay đổi của nhân viên kinh doanh hoặc nhân viên kiểm soát tín dụng. 
+Nếu công nợ của khách hàng vi phạm một trong hai điều kiện về hạn ngày và hạn 
+mức tín dụng thì sẽ ngừng xuất hàng, trừ trường hợp đặc biệt có sự đồng ý của Giám đốc 
+hoặc Kế toán trưởng. 
+Đối với khách hàng không được cấp hạn mức tín dụng thì phải thanh toán trước 
+tối thiểu 30% giá trị sản phẩm khi đặt hàng. 
+ 
+Quyền hạn xét hạn mức tín dụng 
+ Đối với đơn hàng nhỏ lẻ 
+Đơn hàng nhỏ, lẻ mà không ký hợp đồng thì khách hàng sẽ tạm ứng 30% thanh 
+toán 70% còn lại trước khi công ty tiến hành giao hàng, dịch vụ. Đơn hàng lẻ mà có phát 
+sinh tín dụng thì vẫn dựa và quy định trên để xét duyệt. 
+ Đối với những khách hàng dự án làm việc theo hợp đồng 
+Hạn mức tín dụng sẽ được nêu rõ trong điều khoản phương thức thanh toán.Tuy 
+nhiên mức đặt cọc tối thiểu ngay sau khi ký hợp đồng là 30% số tiền, còn lại sau khi lắp 
+  
+ 
+39 
+ 
+đặt xong và chờ nghiệm thu phải yêu cầu khách hàng bảo lãnh ngân hàng. Các trường 
+hợp ngoại lệ, thay đổi sẽ do Giám đốc Giám đốc ký duyệt 
+Nhân viên kinh doanh phải điền đầy đủ thông tin về hợp đồng và đơn hàng bán 
+trình Giám đốc duyệt trước khi ký hợp đồng. 
+Bảng 3.2: Danh sách những khách hàng thân thiết của công ty TNHH Thiết bị Inox 
+Hoàng Tâm. 
+STT 
+Mã khách hàng 
+Tên khách hàng 
+1 
+NAMDUONG 
+Công ty TNHH Thực phẩm Quốc tế Nam Dương 
+2 
+GEA 
+GEA PROCESS ENGINEERING Pte., Ltd  
+3 
+KRONES 
+KRONES IZUMI  
+4 
+ACECOOK   
+Công ty Cổ phẩn ACECOOK Việt Năm (TP.HCM) 
+5 
+TRUNGNGUYEN Công ty Cổ phần Cà phê hòa tan Trung Nguyên 
+6 
+VINHHOAN 
+Công ty TNHH Vĩnh Hoàn Collagen 
+7 
+ENTOBEL 
+Công ty TNHH ENTOBEL Đồng Nai  
+8 
+TETRAPARK 
+Công ty Tetra Park  
+(Nguồn: Phòng Kế toán) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+40 
+ 
+No 
+Yes 
+ 
+Quy trình bán hàng  
+Sơ đồ 3.1. Quy trình bán hàng tại công ty TNHH Thiết bị Inox Hoàng Tâm 
+STT 
+Tổng    
+giám đốc 
+Nhân viên               
+mua hàng 
+Phòng kỹ thuật 
+sản xuất – kế 
+hoạch 
+Biểu mẫu 
+Diễn giải 
+1 
+ 
+ 
+ 
+Giải thích điền vào biểu mẫu 
+Kiếm soát tiến độ báo giá  
+2 
+ 
+ 
+ 
+Sử dụng biểu mẫu Lệnh khởi công 
+Yêu cầu tất các bộ phận liên quan 
+xem xét chi tiết. 
+3 
+ 
+ 
+ 
+ 
+ 
+4 
+ 
+ 
+ 
+ 
+5 
+ 
+ 
+ 
+ 
+6 
+ 
+ 
+ 
+ 
+7 
+ 
+ 
+ 
+Điền vào biểu mẫu Kiểm soát tiến 
+độ báo giá 
+8 
+ 
+ 
+ 
+ 
+ 
+9 
+ 
+ 
+ 
+Sử dụng biểu mẫu Lệnh khởi công 
+Cập nhật kết quả vào biểu mẫu 
+Lệnh khởi công 
+10 
+ 
+ 
+ 
+ 
+Nhận yêu cầu 
+Xem xét và 
+đánh giá 
+Chuẩn bị báo giá 
+và tài liệu 
+Ký 
+duyệt 
+Gửi cho khách hàng 
+Theo dõi và cập nhật báo 
+giá khác theo yêu cầu 
+Nhận kết quả và thông báo 
+đến các bộ phận liên quan 
+Lưu trữ hồ sơ 
+Khảo sát 
+Thiết kế bản vẽ 
+và BOO 
+Xem 
+xét 
+Hỗ trợ 
+và sửa 
+đổi BOQ 
+  
+ 
+41 
+ 
+Nhân viên bán hàng tham gia đấu thầu, tiếp thị dịch vụ, sản phẩm công ty. Đối 
+tượng là những công ty nước giải khá, thực phẩm, mỹ phẩm,...; Sau khi nhận yêu cầu 
+thầu bộ phận mua hàng sẽ yêu cầu tất cả các bộ phận liên quan, xem xét về mọi mặt về 
+khách hàng. Sau đó, Bộ phận thiết kế sẽ yêu cầu phòng kỹ thuật sản xuất kế hoạch thiết 
+kế bản vẽ và BOO và đồng thời bộ phận giao hàng sẽ chuẩn bị báo giá cho trình lên lên 
+CEO ký chấp nhận. 
+Nếu Tổng giám đốc không xét duyệt với thiết kế phòng kỹ thuật sản xuất – kế 
+hoạch phải chỉnh sửa những điểm chưa đạt yêu cầu, hoặc thay đổi về báo giá thì . Sau 
+đó duyệt thiết kế và báo giá bởi Tổng giám đốc, nhân viên kinh doanh mới gửi báo giá 
+cho khách hàng. 
+Nhân viên kinh doanh phải theo dõi và cập nhật giá cho khách hàng khi có yêu 
+cầu khác, phải hỗ trợ và sửa đổi BOQ. 
+Khi có thông báo trúng thầu và hợp đồng được ký kếtnhân viên kinh doanh thông 
+báo đến tất cả các bộ phận liên quan, bộ phận kinh doanh sẽ nhập đơn hàng lên excel và 
+thông báo nhận thầu. Đồng thời chuyển toàn bộ hồ sơ kèm đơn hàng qua cho bộ phận kế 
+toán. Tại đây kế toán thu- chi có nhiệm vụ kiểm tra hạn mức tín dụng của khách hàng 
+theo hợp đồng đã ký kết, sau đó chuyển đơn đặt hàng cho Phòng kế hoạch. 
+Phòng kỹ thuật sản xuất – kế hoạch sẽ bắt đầu lên kế hoạch sản xuất sản phẩm theo hợp 
+đồng đã ký đúng với số lượng và quy cách. Phân xưởng sản xuất nhận được kế hoạch 
+sản xuất sản phẩm sẽ tiến hành sản xuất. 
+Sau khi sản phẩm hoàn thành tiến hành nghiệm thu sản phẩm kiểm tra kỹ thuật, 
+chất lượng,... Nếu sản phẩm đạt những chỉ tiêu đã nêu ra trong hợp đồng thi tiến hành 
+đóng gói giao cho khách hàng. Ngược lại quay lại kiểm tra, sửa lỗi hàng cho đến khi đạt 
+tiêu chuẩn nhưng đảm bảo thời hạn hợp đồng. Khi hoàn thành cập nhật thông báo cho 
+các phòng ban và dựa vào đơn hàng trong hợp đồng phòng kỹ thuật sản xuất – kế hoạch 
+sẽ kiểm hàng, lập phiếu xuất kho, biên bản giao hàng và kế toán xuất hóa đơn bán hàng 
+(3 liên) có ký nhận và đóng dấu. Nhân viên phòng kinh doanh sẽ thực hiện giao hàng 
+đúng thời hạn, địa điểm, quy cách; đồng thời cập nhật tình hình về số lượng hàng xuất 
+và ghi nhận doanh thu; hóa đơn bán hàng sau khi ký, đóng dấu, liên 1 được chuyển về 
+bộ phận kinh doanh để lưu trữ. Kế toán thu- chi sẽ gửi hóa đơn bán hàng liên 2 cho khác 
+hàng và kiểm tra việc thanh toán của khách hàng, liên 3 được lưu hành nội bộ tại phòng 
+kế toán. Sau khi kế toán thu – chi nhận được Giấy báo có của ngân hàng về khoản thanh 
+toán lô hàng hoặc dịch vụ, kế toán sẽ hoàn tất hồ sơ về lô hàng này và lưu trữ chi tiết 
+theo khách hàng và lô hàng. 
+  
+ 
+42 
+ 
+ 
+Cách thức theo dõi quản lý khoản phải thu  
+Công ty TNHH Thiết bị Inox Hoàng Tâm chuyên cung cấp bồn chứa, dụng cụ 
+chứa và cung cấp dịch vụ lắp đặt hệ thống bồn chứa. Với chiến lược mang lại lợi ích tối 
+ưu nhất cho khách hàng công ty có thêm nhiều khoản phải thu mới. Doanh nghiệp hiện 
+tại chỉ có  phương quản lý khoản phải thu duy nhất theo khách hàng. 
+Thường phương pháp này dùng cho những dự án, hợp đồng lớn vì Công ty TNHH 
+Thiết bị Inox Hoàng Tâm có nhiều khách hàng và mỗi hợp đồng, hóa đơn có giá trị lớn 
+ảnh hưởng đến nguồn vốn công ty , nên việc theo dõi khoản phải thu rất quan trọng và 
+cấp thiết. Doanh nghiệp dùng phần mềm kế toán SmartPro để quản lý các khoản phải 
+thu khách hàng, kế toán thu – chi thực hiện hạch toán hóa đơn GTGT và có kèm mã đối 
+tượng khách hàng riêng ( Đính kèm phụ lục 1). Phương pháp theo dõi theo từng khách 
+hàng giúp công ty theo dõi được công ty nào nợ nhiều, nợ ít để thay đổi chính sách phù 
+hợp với tình trạng thu hồi nợ của công ty. Theo như phụ lục , ta có thể thấy khoản phải 
+thu của công ty Hoàng Tâm tập trung vào hai công ty Cổ phần ACECOOK Việt Nam và 
+Công ty TNHH MTV Thực phẩm Vĩnh Phước. Khoản phải thu đến tháng 6 năm 2020 là 
+6,360,532,090 VNĐ trong đó công ty ACECOOK Việt Nam là khách hàng thân thiết 
+nên công ty cho khách nợ lâu. Vì những khoản nợ của khách hàng lớn nên lo ngại về 
+việc xoay vốn để thực hiện những dự án sau rất lớn. Cũng ảnh hưởng đến việc những 
+khoản phải trả của công ty TNHH Thiết bị Inox Hoàng Tâm. 
+ 
+Khoản phải thu khách hàng thể hiện công ty đã thực hiện xuất hàng hoặc cung 
+cấp dịch vụ cho khách hàng, đã xuất hóa đơn, chứng từ và đã kê khai thuế. Những điều 
+cần quan tâm khi quản lý những khoản phải thu là: 
+- Kế toán phải tham gia chuẩn bị và kiểm soát tốt tất cả những nội dung trong hợp 
+đồng về thông tin khách hàng, nám chắc các điều khoản và phương thức thanh toán, 
+chính sách phạt áp dụng khi quá hạn thanh toán, nêu ra được trách nhiệm và nghĩa vụ 
+của hai bên bên tham gia hợp đồng, ngoài ra phải đề cập phương án giải quyết các vấn 
+đề phát sinh. 
+- Nắm rõ các diễn biến tăng, giảm phát sinh khoản phải thu theo ngày,tháng, quý, 
+năm và thông tin ghi lại chi tiết, cẩn thận. 
+- Căn cứ vào hợp đồng bán hàng cùng với các chỉnh sách của công ty để thực hiện 
+công tác hạch toán khoản giảm trừ công nợ mà khách hàng được hưởng. 
+- Lập kế hoạch và thường xuyên kiểm tra công nợ khách hàng định kì kèm theo 
+đó là lập biên bảng đối chiếu công nợ. 
+  
+ 
+43 
+ 
+- Lập các báo cáo cần thiết nộp giám đốc về các công nợ cần thu, báo cáo ohaan 
+tích thời gian nợ theo thời gian định kỳ. 
+- Vạch ra kế hoạch chi tiết để thu hồi công nợ khách hàng,kèm theo việc phân tích 
+đánh giá nhằm đưa ra phương án hợp để trình cấp trên để giải quyết triệt để nợ khó đòi 
+hoặc quá hạn thanh toán. 
+- Chủ động hợp tác, phối hợp với các phòng ban khác có liên quan trong công ty 
+để thu hồi nợ đúng thời hạn trong hợp đồng. 
+Thời gian thu hồi nợ được công ty quy định rõ trong chính sách công ty như sau: 
+Thời gian từ ngày xuất hóa đơn 
+Cách thức 
+7 ngày  
+Xuất hóa đơn cho khách hàng, liên lạc và 
+gửi hóa đơn. 
+30 ngày ( 60 ngày đối với khách hàng 
+quốc tế) 
+Viết mail thông báo hoặc gọi điện thúc 
+giục khách hàng thanh toán tiền và có thể 
+cử nhân viên đến tận nơi nhắc nhở, thu 
+tiền,... 
+Sau 30 ngày ( 60 ngày đối với khách hàng 
+quốc tế) 
+Nhờ sự can thiệp của pháp luật, nhà 
+Bảng 3.3: Thời gian thu hồi công nợ 
+ 
+Quy trình thu nợ của công ty TNHH Thiết bị Inox Hoàng Tâm 
+Công ty TNHH Thiết bị Inox Hoàng Tâm đưa ra hai phương thức thanh toán tiền để phù 
+hợp với từng khách hàng và điều kiện của công ty. Phương thức thanh toán được hai bên 
+thỏa thuận trước khi xuất hóa đơn GTGT và ký hợp đồng để xác định rõ ràng là thanh 
+toán bằng tiền mặt hoặc tiền gửi ngân hàng. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+44 
+ 
+Xác định 
+Chỉ định 
+Thông báo 
+Thông báo số 
+tiền và ngày thu 
+Chuẩn bị hồ sơ 
+Xác định 
+Chỉ định 
+Thanh 
+toán đủ 
+ 
+Thu tiền bằng tiền mặt: 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Sơ đồ 3.2. Sơ đồ thu tiền mặt của công ty TNHH Thiết bị Inox Hoàng Tâm 
+ 
+Xác định số tiền của khách hàng Nợ 
+ 
+Thông báo khách hàng đến hạn thanh toán hợp đồng  
+ 
+Giám đốc chỉ định nhân viên kinh doanh nhắc nợ khách hàng 
+ 
+Nhân viên kinh doanh thực hiện thông báo thu nợ, số nợ và ngày thu tiền. 
+ 
+Phòng kế toán chuẩn bị đầy đủ hồ sơ, chứng từ trả cho khách hàng 
+ 
+Nhân viên kinh doanh hồ sơ cho khách hàng 
+ 
+ 
+Thu tiền gửi ngân hàng 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Sơ đồ 3.3. Sơ đồ thu tiền gửi ngân hàng của Công ty TNHH Thiết bị Inox Hoàng Tâm 
+ 
+Xác định số tiền Nợ 
+ 
+Viết mail, gọi điện thông báo khách hàng đến hạn thanh toán 
+ 
+Thông báo số tài khoản và số tiền khách hàng thanh toán 
+ 
+Nhân viên kế toán chuẩn bị hồ sơ gửi khách hàng khi khách hàng 
+Giám đốc 
+Giao hồ sơ 
+Nhân viên      
+phòng kinh doanh 
+Khách hàng 
+Số tiền khách hàng nợ 
+Giao hồ sơ 
+Nhân viên      
+phòng kinh doanh 
+Khách hàng 
+Số tiền khách hàng nợ 
+Thông báo 
+Giám đốc 
+Tài khoản 
+  
+ 
+45 
+ 
+ 
+Khi nhận giấy báo có ngân hàng, khách hàng gửi tiền thì nhân viên kinh doanh 
+giao cho hồ sơ trả khách. 
+3.2.2.  Kế toán phải thu khách hàng tại công ty 
+ 
+Tài khoản sử dụng 
+Công ty TNHH Hoàng Tâm sử dụng tài khoản 131 để phản ánh tổng khoản phải thu 
+ 
+Chứng từ sử dụng 
+ Hợp đồng bán hàng 
+ Phiếu xuất kho 
+ Hóa đơn bán hàng 
+ Giấy báo nợ ( khách hàng lập) 
+ Giấy báo có 
+ Bảng đối chiếu công nợ khách hàng 
+ Sổ chi tiết 131 
+ Sổ cái 131 
+Một số nghiệp vụ phát sinh liên quan đến công nợ phải thu  
+Nghiệp vụ 1:  
+a) Ngày 26/12/2020, căn cứ vào hợp đồng số 03/HĐKT-VHC/HT/2019 ngày 26/12/2019 
+(Đính kèm phụ lục số 3), thi công hệ thống bồn và đường ống cho dây chuyển sản xuất 
+Gelatin – Collagen (lần 1) tổng số tiền 6.449.716.240 VNĐ (bao gồm 10% thuế GTGT), 
+thanh toán bằng tiền gửi ngân hàng. 
+b) Ngày 09/01/2020, khách hàng thanh toán 30% tiền hàng theo quy định trong hợp 
+đồng, căn cứ vào Giấy báo có (bản sao kê) của Ngân hàng Thương mại cổ phần dịch vụ 
+và Phát triển Việt Nam (Đính kèm phụ lục 4), căn cứ vào Hóa đơn bán hàng số 0000023 
+ký hiệu TT/19E (Đính kèm phụ lục 5) theo hợp đồng số 03/HĐKT-VHC/HT/2019, kế 
+toán ghi nhận: 
+ 
+Nợ 112 
+ 
+ 
+  1.934.914.872 
+ 
+ 
+Có 131VINHHOAN  1.934.914.872 
+Nghiệp vụ 2: Ngày 20.01.2020, phòng sản xuất xuất kho lô hàng cho công ty Cổ phần 
+ACECOOK tại Hưng Yên, giá xuất kho , Giá bán ( đã bao gồm 10 % thuế GTGT) là 
+230.395.000 VNĐ, bộ phận kế toán xuất hóa đơn GTGT số 0000021 (Đính kèm phụ 
+lục 6), mẫu số 01GTKT0/01, ký hiệu TT/19E theo hợp đồng số 0000021 cho lô hàng, 
+kế toán ghi nhận giá vốn và doanh thu: 
+ 
+  
+ 
+46 
+ 
+ 
+Nợ 632: 
+ 
+150.000.000 
+ 
+ 
+Có 155: 
+150.000.000 
+ 
+Nợ 131ACECOOK  230.395.000 
+ 
+ 
+Có 511 
+209.450.000 
+ 
+ 
+Có 3331 
+  20.945.000  
+3.2.3. Đánh giá tình hình, kiểm soát nợ phải thu khách hàng 
+ 
+Phân tích chung  
+ 
+Tỷ số hoạt động khoản phải thu năm 2020 của công ty 
+ 
+ 
+ 
+=  
+ 
+ 
+ 
+                                 = 
+ 
+ 
+ 
+                                 = 1.2 (vòng) 
+                              
+ 
+                                 =                               
+ 
+      
+ 
+                                 =                               
+        
+ 
+                                 =      335.64 (ngày)                         
+Vòng quay 
+khoản phải thu 
+Doanh thu thuần 
+Bình quân khoản phải thu 
+20,330,620,937  
+ 
+(13,034,808,650+0) + (20,387,387,220 +0) /2 
+Số ngày thu tiền 
+bình quân 
+365 
+Số vòng quay 
+365 
+2.09 
+  
+ 
+47 
+ 
+ 
+Tỷ số hoạt động khoản phải thu của công ty năm 2020 là 1.2 vòng, số ngày thu 
+tiền bình quân trong năm là 335.64 ngày. Mặc dù công ty có nhiều cố gắng để thu hồi 
+nợ. Nhưng trên thực tế công ty thực hiện sản xuất theo dự án và loại hàng hóa có giá trị 
+lớn. Số ngày thu tiền bình quân của khách hàng là tương đối khắc khe, không thu hút 
+được khách hàng.  
+ 
+Tỷ số thanh toán 
+ 
+ 
+ 
+=  
+ 
+ 
+ 
+                                 = 
+ 
+ 
+ 
+                                 = 2.07 (lần) 
+ 
+ 
+ 
+=  
+ 
+ 
+ 
+                                 = 
+ 
+ 
+ 
+                                 = 1.69 (lần) 
+ 
+ 
+Tỷ số thanh 
+toán hiện hành 
+Tài sản ngắn hạn 
+Nợ ngắn hạn 
+27,246,728,419 
+13,139,034,884 
+Tỷ số thanh 
+toán nhanh 
+Tiền + Đầu tư ngắn hạn + Phải thu 
+Nợ ngắn hạn 
+1,802,776,718 + 0 + 20,387,387,220 
+ 
+13,139,034,884 
+  
+ 
+48 
+ 
+Tỷ số thanh toán hiện hành của công ty là 2.07 lần cho biết tương ứng với một 
+đồng nợ thì tương ứng với 2.07 đồng tài sản ngắn hạn có thể thanh toán. Tỷ số thanh 
+toán nhanh là 1.69 lần cho biêt tương ứng với một đồng nợ thì có 1.69 đồng tài sản ngắn 
+hạn có thể huy động ngay để thanh toán. Tỷ số thanh toán hiện hành và tỷ số thanh toán 
+nhanh đều lớn hơn 1 cho thấy công ty TNHH Thiết bị Inox Hoàng Tâm có khả năng 
+thanh toán các khoản nợ ngắn hạn ; tỷ số thanh toán nhanh cho thấy việc chuyển đổi 
+nhanh thành tiền của tài sản ngắn hạn tốt, lượng hàng tồn kho không cao, vì công ty sản 
+xuất theo đơn đặt hàng hoặc dự án, không tốn chi phí kho bãi và hàng tồn kho. 
+ 
+Rủi ro về việc bán chịu 
+Hiện nay việc gặp rủi ro về bán chịu của mỗi doanh nghiệp là việc không thể tránh 
+khỏi, các biện pháp chỉ có thể giảm rủi ro hơn chứ không thể tránh được. Chính sách bán 
+chịu nới lỏng thì doanh nghiệp mới có khả năng tăng doanh thu, thu hút khách hàng, thị 
+trường mở rộng, nhưng mắc khác chúng mang lại những rủi ro tiềm ẩn không lường 
+trước được. Vì vậy bộ phận kế toán phải phòng ngừa rủi ro đối với những khoản phải 
+thu này vì quan trọng và cần thiết với mỗi doanh nghiệp. Công ty TNHH Thiết bị Inox 
+Hoàng Tâm quan tâm hai rủi ro bán chịu như sau: 
+ 
+Rủi ro nợ khó đòi không thu hồi được, nếu các khoản nợ chiếm tới 20-30% tổng 
+tài sản của doanh nghiệp. Những khoản nợ khó đòi thường đưa vốn lưu động của doanh 
+nghiệp vào tình trạng bế tắc và khả năng rủi ro. Ảnh hưởng đến dòng tiền của doanh 
+nghiệp ở khâu bán hàng. 
+ 
+Rủi ro về tỷ giá bị thay đổi: khách hàng, đối tác của công ty TNHH Thiết bị Inox 
+Hoàng Tâm đa số là công ty Việt Nam và có giao dịch VNĐ, nhưng chiến lược công ty 
+mong muốn mở rộng thị trường sang nước ngoài, vì vậy rủi ro về tỷ giá rất được quan 
+tâm. Đối với những khách hàng nước ngoài công ty luôn được kế toán công ty theo dõi 
+theo từng tháng, lần thanh toán, lần thu và chốt tỷ giá . Theo dõi các tài khoản bằng tiền 
+gửi ngân hàng bằng ngoại tệ, lãi suất từng tháng và đánh giá chênh lệch vào cuối mỗi 
+tháng. 
+ 
+Biện pháp phòng ngừa rủi ro 
+ 
+Sử dụng phần mềm kế toán SmartPro để theo dõi từng đối tượng, thường xuyên 
+liên lạc nhắc nhở khách hàng về những khoản nợ thu hồi. 
+ 
+Công ty đưa ra các biện pháp phòng ngừa rủi ro như tạm ứng trước, thanh toán 
+trước 30% hoặc yêu cầu đặt cọc trước, trích lập khoản nợ dự phòng. 
+ 
+Đưa ra những quy định về theo dõi các khoản phải thu, cần phân công nhân viên 
+cụ thể theo dõi khoản nợ và thu hồi nợ cho từng dự án, hợp đồng. 
+  
+ 
+49 
+ 
+ 
+Phải xét duyệt từng loại khách hàng, sau đó thực hiện chính sách bán chịu phù 
+hợp từng loại khách hàng. 
+ 
+Thường xuyên xem xét, đánh giá các khoản nợ vào cuối mỗi quý, phát hiện ra 
+những nguyên nhân nợ quá hạn và có biện pháp xử lý phù hợp. 
+ 
+Dự phòng khoản phải thu đối với doanh nghiệp 
+ 
+Kế toán dự phòng nợ phải thu khó đòi tại công ty: 
+Dự phòng nợ phải thu khó đòi tại công ty thường là những khoản dự phòng phần 
+tổn thất của các khoản nợ phải thu khách hàng đã quá hạn thanh toán hoặc những khaorn 
+nợ phải thu chưa quá hạn nhưng có thể không đòi được khi kiểm tra phát hiện thông tin 
+khách nợ không có khả năng thanh toán. 
+ 
+Căn cứ ghi nhận nợ phải thu khó đòi 
+ 
+ Kế toán căn cứ vào các khoản phải thu đã quá hạn thanh toán dựa trên các điều 
+khoản ghi trên hợp đồng kinh tế, các khế ước vay hoặc cam kết nợ khác để ghi nhận là 
+khoản nợ phải thu khó đòi. 
+ 
+Nếu các khoản nợ đã ghi nhận là khoản dự phòng phải thu khó đòi được nợ, kế 
+toán căn cứ chứng từ liên quan để tiến hành xóa nợ trên tài khoản phải thu. 
+ 
+Biện pháp xử lý nợ phải thu khó đòi 
+ 
+Cuối tháng, kế toán trưởng sẽ lấy báo cáo chi tiết về các khoản pải thu nhưng 
+chưa thu được trình lên Giám đốc quyết định trích lập các khoản lập dự phòng như thế 
+nào. Lúc này kế toán trưởng sẽ tiến hành hạch toán bút toán dự phòng phải thu khó đòi 
+cho khách hàng đó. 
+ 
+Kế toán trưởng chịu trách nhiệm tiến hành lập các khoản dự phòng phải thu khó 
+đòi và thực hiện nhiệm vụ này trên Excel được xuất từ phần mềm SmartPo. Công việc 
+đều được thực hiện bởi công thức, tách biệt riêng các khoản nợ dựa theo tuổi nợ của con 
+nợ: 
+ 
+Dưới 180 ngày loại A ( A< 6 tháng) 
+ 
+Từ 181 ngày đến 365 ngày loại B (6 tháng <=B <= 1 năm) 
+ 
+Trên 365 ngày loại C (C >1 năm) 
+Sau khi xác định loại nợ sẽ tiến hành trích lập dự phòng: Loại A chỉ ghi nhận là 
+nợ mới, đối với B trích lập 50%, loại C trích lập 100%. 
+3.3. Thực trạng các khoản phải trả của công ty TNHH Thiết bị Inox Hoàng Tâm 
+ 
+Để việc mua hàng không bị gián đoạn bộ phận mua hàng phải cập nhật kịp thời 
+công nợ về phòng kế toán theo dõi để tránh các trường hợp công nợ quá hạn ảnh hưởng 
+  
+ 
+50 
+ 
+đến việc mua hàng và hằng tuân gửi đề xuất thanh toán cho cấp trên giải quyết các công 
+nợ cần thiết trước để mua hàng tiếp theo. 
+ 
+Các phòng bán khác: gửi chứng từ thanh toán về phòng kế toán và tránh để quá 
+hạn thanh toán công nợ. Phòng kế toán cập nhật công nợ theo dõi đến hạn sẽ tiến hành 
+đề xuất với cấp trên để thanh toán. 
+3.3.1. Chính sách quản lý công nợ phải trả nhà cung cấp của công ty TNHH Thiết 
+bị Inox Hoàng Tâm 
+ 
+Quy trình mua hàng 
+ 
+Tại công ty TNHH Hoàng Tâm thì quy trình luân chuyển chứng từ đối với kế toán 
+phải thu tiến hành như sau: 
+ 
+Áp dụng cho vật tư của dự án có trong BOM 
+ 
+Khi công ty bắt đầu khởi công dự án thì Tổng giám đốc sẽ gởi dự trù cho bộ phận 
+mua hàng khi có lệnh khởi công dự án.  
+ 
+Khi bộ phận mua hàng nhận được lệnh khởi công sẽ bắt đầu hỏi giá sơ bộ và 
+chuẩn bị mua vật tư. Mặc khác nếu bộ phận kho thấy thiếu vật tư hoặc yêu cầu mua hàng 
+từ các bộ phận khác, thủ kho sử dụng biểu mẫu Lệnh khởi công, đối với vật tư ngoài dự 
+trù thông qua quản lý dự án (PM) sẽ xem xét cho vật tư dự án và thông qua TP nếu xem 
+xét cho vật tư khác dự án.  
+ 
+Khi được duyệt nhân viên mua hàng sẽ tìm, thu thập tối thiểu 2 bảng báo giá phù 
+hợp về giá cả, trình tự, thời gian giao hàng, các chứng từ  ta dùng biểu mẫu PR.804.FR04. 
+Từ đó nhân viên tiến hành thỏa thuận với nhà cung cấp rồi mới ra quyết định chọn nhà 
+cung cấp lập đề nghị mua hàng và soạn hợp đồng 
+ 
+Đề nghị mua hàng và hợp đồng sẽ được trình lên CEO và COO duyệt theo quy 
+định ủy quyền của công ty sau khi được ký duyệt nhân viên mua hàng tiến hành gửi PO 
+cho nhà cung cấp và theo dõi thực hiện  
+ 
+Khi hàng về bộ phận yêu cầu phối hợp cùng Quản lý chất lượng sẽ tiến hành kiểm 
+tra số lượng và chất lượng, nhận vật tư có đảm bảo theo như yêu cầu trong đơn hàng 
+hoặc hợp đồng, sau đó quản lý chất lượng sẽ gửi lại chứng từ gồm phiếu giao hàng, biên 
+bản kiểm kê,... cho bộ phận kế toán. 
+ 
+Tại đây kế toán thu – chi sẽ kiểm tra chứng từ có thực hay không rồi chuyển cho 
+kế toán trưởng và Giám đốc duyệt. Sau đó Kế toán thu – chi sẽ nhập vào phần mềm kế 
+toán SmartPro để công ty theo dõi công nợ nhà cung cấp để thanh toán đúng hạn. 
+  
+ 
+51 
+ 
+ 
+Đến hạn thanh toán kế toán thu – chi  thực hiện ủy nhiệm chi thanh toán tiền cho 
+nhà cung cấp, ủy nhiệm chi bao gồm chữ ký của Tổng Giám đốc và Kế toán trưởng 
+Cuối tháng kế toán thu – chi tổng hợp công nợ báo cáo cho kế toán trưởng để lên kế 
+hoạch thanh toán phù hợp với tình hình tài chính công ty.  
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+52 
+ 
+No 
+Yes 
+Yes 
+STT 
+Tổng      
+Giám đốc 
+Nhân viên               
+mua hàng 
+Bộ phận          
+yêu cầu 
+Biểu mẫu 
+Diễn giải 
+ 
+ 
+ 
+ 
+Giám đốc sẽ gửi dự trù được 
+duyệt cho phòng mua hàng khi 
+có lệnh khởi công dự án 
+ 
+ 
+ 
+ 
+Chỉ áp dụng cho vật tư dự án có 
+trong BOM 
+ 
+ 
+ 
+ 
+Sử dụng biểu mẫu Lệnh khởi 
+công, đối với vật tư ngoài dự trù 
+theo quy định quy định bổ sung 
+ 
+ 
+ 
+ 
+PM sẽ xem xét cho vật tư dự án 
+TP sẽ xem xét cho vật tư khác 
+dự án 
+ 
+ 
+ 
+ 
+Tối thiểu 2 Báo giá phù hợp 
+So sánh giá dùng biểu mẫu 
+PR.804.FR02.03 
+ 
+ 
+ 
+ 
+Đơn đặt hàng theo biểu mẫu 
+PR.804.FR04 
+ 
+ 
+ 
+ 
+CEO hoặ COO duyệt theo quy 
+định ủy quyền của công ty. 
+ 
+ 
+\ 
+ 
+Thực 
+hiện 
+trên 
+EPR 
+PR.804.AT01.AT02 
+ 
+ 
+ 
+ 
+Phối hợp với QC thực hiện kiểm 
+tra theo tài liệu IN.QC.01 
+ 
+ 
+ 
+ 
+Làm thủ tục thanh toán theo tài 
+liệu IN.FA.01 
+ 
+ 
+ 
+ 
+Bao gồm báo cáo 
+Sơ đồ 3.4: Sơ đồ quy trình mua hàng công ty TNHH Thiết bị Inox Hoàng Tâm 
+Dự trù 
+của dự án 
+Hỏi giá sơ bộ 
+và chuẩn bị 
+Yêu cầu mua 
+gấp/ BOM 
+Xem xét 
+Lấy báo giá 
+và so sánh giá 
+Lập đề nghị 
+mua hàng và 
+soạn hợp đồng  
+Ký 
+duyệt 
+Gửi PO cho 
+NCC và theo dõi 
+Kiểm tra và 
+nhận vật tư 
+Nhận và 
+kiểm tra 
+Làm thủ tục 
+thanh toán 
+Báo cáo và lưu hồ sơ 
+No 
+  
+ 
+53 
+ 
+ 
+Cách thức theo dõi quản lý khoản phải trả  
+Tiếp nhận và nắm rõ các thông tin cần thiết về nhà cung cấp, các điều khoản và 
+thời hạn thanh toán, hình thức thanh toán,... thông qua hợp đồng từ công ty đưa xuống. 
+Thực hiện xác nhận các thông tin nhận được sau đó nhập vào phần mềm SmartPro 
+để theo dõi. 
+Nhằm phân biệt và tránh nhầm lẫn giữa nhà cung cấp và khách hàng kế toán thiết 
+lập mã cho nhà cung cấp đó. 
+Thực hiện kiểm tra và ghi nhận một cách chính xác các giao dịch phát sinh tăng 
+giảm hằng ngày như lấy hàng, thanh toán tiền cho người bán dựa trên các số liệu hạch 
+tán của bộ phận mua hàng. 
+Dựa trên hợp đồng mua hàng, xác định các khoản giảm trừ công nợ mà doanh 
+nghiệp có thể được hưởng khi bên bán hạch toán theo chính sách và chương trình chính 
+sách kinh doanh bên bán. 
+Thường xuyên theo dõi ghi chép và đối chiếu công nợ của từng nhà cung cấp của 
+doanh nghiệp, cuối cùng chốt số liệu định kỳ bằng biên bản đối chiếu công nợ. 
+Trình giám đốc báo cáo tổng hợp công nợ phải trả nhà cung cấp định kỳ để thanh 
+toán kịp thời không gây gián đoạn việc mua hàng. 
+ 
+Quy trình quản lý công nợ khoản phải trả 
+Tại công ty khi có các nghiệp vụ kinh tế phát sinh, kế toán sẽ liên hệ ngay bộ phận 
+mua hàng để mở sổ theo dõi các khoản mua hàng phát sinh 
+Ngay khi hàng về nhập, bộ phận kho sẽ phải kiểm tra chất lượng, số lượng, quy 
+cách của hàng nhập thì người nhận hàng sẽ ký xác nhận vào phiếu giao hàng (gồm hai 
+liên) liên 1 gửi bên nhà cung cấp, liên 2 phòng kế toán giữ lại để  xác nhận đã nhận hàng. 
+Từ hóa đơn, phiếu nhập kho,... kế toán bắt đầu nhập bút toán vào phần mềm kế toán 
+SmartPro để theo dõi thanh toán cho nhà cung cấp. 
+Hầu hết các khoan phải trả cho nhà cung cấp công ty đều thanh toán chuyển khoản 
+cho nhà cung cấp vào thứ 2 và thứ 6 hàng tuần nhưng vẫn đảm bảo thời hạn trả tiền hàng, 
+trừ những khoản dưới 2 triệu sẽ thanh toán bằng tiền mặt. 
+Đối với các đơn hàng dưới 50 triệu chỉ cần lập đơn đặt hàng – Purchase Order. 
+Còn những đơn hàng lớn hơn 50 triệu thì cần phải soạn thảo hợp đồng. 
+Tuy nhiên đối với những nhà cung cấp thường xuyên, ban đầu hai bên sẽ thỏa thuận để 
+lập “ Hợp đồng nguyên tắc”, sau đó chỉ việc lập đơn hàng mà không cần soạn thảo hợp 
+  
+ 
+54 
+ 
+Trình ký  
+Thông báo nợ 
+Thanh toán 
+đồng nữa. Hợp đồng nguyên tắc kéo dài bao nhiêu năm ( 1 năm, 2 năm ,...) còn tùy thuộc 
+vào mức độ tin cậy về nguồn hàng cũng như uy tín làm ăn. 
+ 
+Quy trình thanh toán cho người bán: 
+ 
+Thanh toán bằng tiền mặt: 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Sơ đồ 3.5. Quy trình thanh toán tiền mặt của công ty TNHH Thiết bị Inox Hoàng Tâm 
+Chứng từ yêu cầu: 
+ 
+Đề nghị thanh toán 
+ 
+Đơn đặt hàng 
+ 
+Dự trù vật tư 
+ 
+Báo giá 
+ 
+Phiếu giao hàng 
+ 
+Hóa đơn 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Giao hồ sơ 
+Nhân viên      
+phòng kinh doanh 
+Kế toán 
+thu-chi 
+Giám đốc 
+Ký duyệt 
+Nhà        
+cung cấp 
+Lập      
+phiếu chi 
+  
+ 
+55 
+ 
+Trình ký  
+Thông báo nợ 
+Thanh toán 
+ 
+Thanh toán bằng tiền gửi ngân hàng: 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Sơ đồ 3.6. Quy trình thanh toán bằng tiền gửi ngân hàng của công ty TNHH Thiết bị 
+Inox Hoàng Tâm. 
+Chứng từ yêu cầu: 
+ 
+Đơn đặt hàng 
+ 
+Dự trù vật tư 
+ 
+Báo giá 
+ 
+Phiếu giao hàng 
+ 
+Hóa đơn 
+3.3.2. Kế toán các khoản phải trả người bán  
+Một số nghiệp vụ liên quan đến phải trả người bán tháng 12/2019 
+Nghiệp vụ 1: Ngày 11/12/2019, công ty TNHH Tư Vấn SAGITTA cung cấp dịch vụ 
+quý 4/2019, tổng tiền là 7.500.000, thuế GTGT 10%, theo hóa đơn GTGT số 0000066 
+ngày 22/12/2019 (Đính kèm phụ lục 7 ). 
+ 
+Nợ TK 6428  
+                 7.500.000 
+           
+Nợ TK 1331 
+                  750.000 
+   
+ 
+Có TK 331SAGITTA      8.250.000 
+Nghiệp vụ 2: Ngày 06/12/2019, công ty TNHH sản xuất thương mại Trần Lâm cung cấp 
+dịch vụ gia công Name Plate số tiền 6.006.000 đồng đã bao gồm 10% thuế GTGT theo 
+hóa đơn GTGT ký hiệu TL/18P, số 0000364, ngày 23/12/2019 (Đính kèm phụ lục 8), 
+kế toán ghi: 
+Giao hồ sơ 
+Nhân viên      
+phòng kinh doanh 
+Kế toán 
+thu-chi 
+Giám đốc 
+Ký duyệt 
+Nhà        
+cung cấp 
+Lập ủy 
+nhiệm chi 
+Ngân 
+hàng 
+  
+ 
+56 
+ 
+ 
+ 
+Nợ TK 627  
+5.460.000 
+ 
+ 
+ 
+Nợ TK 1331  
+   546.000 
+ 
+ 
+ 
+Có 331TRANLAM 6.006.000 
+ 
+Nghiệp vụ 3: Ngày 27/12/2019, Công ty TNHH Thiết bị Inox Hoàng Tâm mua vật tư 
+chính theo hóa đơn số 0002135, ký hiệu TV/18P, mẫu số 01GTKT3/001 ( Đính kèm 
+phụ lục 9) và phiếu giao hàng số 003031 ( Đính kèm phụ lục 10)  ngày giao 27/12/2020 
+đính kèm hóa đơn, ngày 27/12/2019 của Công ty TNHH Vật tư Kỹ thuật Thái Việt với 
+số tiền 372.250.000 đồng , thuế GTGT 10%. 
+Chứng từ sử dụng 
+ 
+- Hóa đơn mua hàng số 0002135, ký hiệu TV/18P, mẫu số 01GTKT3/001 
+ 
+- Phiếu giao hàng số 003031 ngày giao 27/12/2020 đính kèm hóa đơn 
+ 
+- Nhập liệu vào phần mềm: Khi nhận hóa đơn từ bên bán hàng, kế toán sẽ trực 
+tiếp ghi nhận hóa đơn lên phần mềm. 
+ 
+Bước 1: Khởi động phần mềm SmartPro, nhấp chuột vào mục Đơn mua hàng trên 
+bàn làm việc. 
+ 
+Hình 3.1: Giao diện bàn làm việc trên phần mềm kế toán SmartPro. 
+Khi nhận hóa đơn và nhập kho vật tư chính  
+Bước 2: Chọn Thêm đơn hàng Mua để tạo đơn mua hàng trên SmartPro 
+  
+ 
+57 
+ 
+ 
+Bước 3: Nhập liệu thông tin mua hàng lên phần mềm 
+ 
+Hình 3.2: Giao diện đơn mua hàng trên phần mềm SmartPro. 
+ 
+Bước 4: Chọn Lưu để lưu thông tin đơn mua hàng 
+ 
+Bước 5: Sau đó nhập kho vật tư chính vào dự án. Đầu tiên, vào bàn làm việc chọn 
+nhập phát sinh, nhập PNKT đưa vật tư chính vào cho dự án đồng thời nhập hóa đơn mua 
+hàng. 
+ 
+Hình 3.3: Giao diện Phiếu nhập kho vật liệu chính trên phần mềm kế SmartPro. 
+  
+ 
+58 
+ 
+ 
+Sau khi hoàn thành PNKT (Phiếu nhập kho vật tư chính ) bấm LƯU 
+ 
+Bước 6: Vào Bàn làm việc chọn nhập phát sinh, nhập VAT_V để nhập thuế GTGT 
+10% trên hóa đơn. 
+ 
+Hình 3.4: Giao diện Phiếu nhập thuế GTGT đầu vào trên phần mềm SmartPro. 
+Khi đến hạn thanh toán Công ty gửi ủy nhiệm chi ngày 30/12/2019 chuyển khoản cho 
+Công ty TNHH Vật tư Kỹ thuật Thái Việt qua tài khoản ngân hàng BIDV (Ngân hàng 
+Đầu tư và Phát triển Việt Nam) với số tiền 409.475.000 đồng. Phí chuyển tiền là 22.000 
+đồng  
+ 
+Bước 7: Nhập CTNH thanh toán công nợ khách hàng 
+  
+ 
+59 
+ 
+ 
+Hình 3.5: Giao diện Chứng từ ngân hàng chuyển khoản trả người bán trên phần mềm 
+SmartPro. 
+ 
+Hình 3.6: Giao diện Chứng từ ngân hàng phí chuyển tiền trên phần mềm SmartPro. 
+Kế toán hoạch toán:  
+ 
+Khi nhận hóa đơn và nhập kho vật tư chính (1521) 
+  
+ 
+60 
+ 
+Nợ TK 1521       372.250.000  
+Nợ TK 1331               37.225.000                                             
+Có TK 331THAIVIET            409.475.000  
+ 
+Khi thanh toán cho Công ty TNHH Vật tư Kỹ thuật Thái Việt 
+Nợ TK 331THAIVIET          
+409.475.000  
+ 
+Có TK 11211:  
+ 
+ 409.475.000  
+ 
+ 
+ 
+Phí chuyển tiền 
+Nợ TK 6425:  
+22.000 
+ 
+Có TK 1121:  
+22.000 
+- Ngày 18.01.2020, công ty mua văn phòng phẩm thanh toán bằng tiền mặt – phiếu chi 
+số 011/09 ngày 18.19.2020 (Đính kèm phụ lục 11) cho công ty TNHH Thương mại 
+Dịch vụ Văn phòng phẩm FAST. Kèm theo hóa đơn số 0001917, ký hiệu AA/19E ( Đính 
+kèm phụ lục 12), công ty được giảm giá vì thanh toán ngay 40.745 đồng. Tổng số tiền 
+thanh toán là 1.645.771 đồng. 
+ 
+Nợ 642 
+ 
+ 
+1.496.155 
+ 
+Nợ 133 
+ 
+ 
+   149.616 
+ 
+ 
+Có 1111 
+ 
+1.645.771 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+61 
+ 
+TÓM TẮT CHƯƠNG 3 
+Nội dung chương 3 đề cập đến thực trạng kế toán công nợ về tìm hiểu về kế toán 
+phải thu khách hàng và phải trả nhà cung cấp tại công ty TNHH Thiết bị Inox Hoàng 
+Tâm. Với việc phân tích các số liệu thống kê về nguồn vốn và tài sản của công ty cho 
+thấy công ty khá ổn định, phát triển tương đối tốt. 
+Chương 3 cũng đề cập thực trạng kế toán công nợ các khoản phải thu khách hàng, 
+nguồn vốn công ty sử dụng hiệu quả, nợ ngắn hạn của công ty có xu hướng giảm dần, 
+tăng khả năng thanh toán của công ty. 
+Ngoài ra chương 3 cũng đề cập đến khoản phải trả nhà cung cấp ảnh hưởng như 
+thế nào đến công ty. Như vật, chương 2 thể hiện thực trạng kế toán công nợ tại công ty  
+cho thấy những thế mạnh, điểm yếu, tồn tại cần khắc phục,... tại đơn vị. Từ đó hình thành 
+cơ sở đưa ra các biện pháp ở chương tiếp theo.   
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+62 
+ 
+CHƯƠNG 4: MỘT SỐ BIỆN PHÁP NÂNG CAO HIỆU QUẢ QUẢN LÝ VÀ THU 
+HỒI CÔNG NỢ Ở CÔNG TY TNHH THIẾT BỊ INOX HOÀNG TÂM 
+4.1. Những ưu điểm và hạn chế đối với công ty TNHH Thiết bị Inox Hoàng Tâm 
+4.1.1. Ưu điểm 
+ Đội ngũ nhân viên của công ty 
+Mặc dù mới thành lập, bước đầu có ít nhân viên nhưng trình độ nhân viên tốt, năng 
+động, tích cực đóng góp và có tinh thần trách nhiệm cao với công ty. Phong cách làm 
+việc chuyên nghiệp, nhiệt huyết, nhiều nhân nhân viên gắn bó sâu sắc với công ty; tất 
+cả nhân viên công ty đều đoàn kết đảm bảo an toàn bảo mật và góp phần đưa công ty 
+ngày đi lên.  
+ Công tác kế toán 
+- Công ty theo dõi theo từng đối tượng khách hàng, nhà cung cấp, từng công trình, 
+dự án, bán hàng theo đơn đặt hàng, theo số hợp đồng đã ký, có kiểm soát và đánh giá 
+khả năng thanh toán của khách hàng. 
+- Các chứng từ sử dụng trong quá trình hạch toán ban đầu đều phù hợp với yêu cầu 
+nghiệp vụ kinh tế phát sinh và cơ sở pháp lý của nghiệp vụ. 
+- Các chứng từ đều được sử dụng đúng mẫu của bộ tài chính ban hành, những thông 
+tin kinh tế về nội dung của các nghiệp vụ kinh tế phát sinh đều được ghi đầy đủ,chính 
+xác vào chứng từ. 
+- Các chứng từ đều được kiểm tra , giám sát chặt chẽ, hoàn chỉnh và xử lý kịp thời. 
+- Công ty có kế hoạch lưu chuyển chứng từ tương đối tốt,các chứng từ dược phân 
+loại,hệ thống hóa theo các nghiệp vụ,trình tự thời gian trước khi đi vào lưu trữ. 
+- Công ty đã có sự quan tâm đúng mức chế độ quản lý thành phẩm: Hệthống kho 
+được bố trí khoa học, hợp lý đảm bảo quản lý theo từng nhóm, mặt hàngthuận tiện cho 
+việc nhập- xuất hàng. Công tác quản lý thành phẩm cũng được đánhgiá cao trong việc 
+xác định đúng đắn rõ ràng nội quy, quy chế, trách nhiệm của cácbên (bảo vệ, KCS, thủ 
+kho và kế toán) trong quản lý tránh nhầm lẫn hao hụt. Bêncạnh đó công tác quản lý bán 
+hàng, theo dõi thanh toán công nợ với khách hàngcũng được tiến hàng đều đặn gắn với 
+thực tế của công ty. 
+- Về việc sử dụng hệ thống tài khoản kế toán thì công ty áp dụng chế độ kế toán 
+mới do Bộ tài chính phát hành, việc sử dụng tài khoản và phương pháp hạch toán mới 
+vào công tác kế toán nói chung là hợp lý và tương đối khoa học. 
+  
+ 
+63 
+ 
+- Về việc sử dụng hệ thống chứng từ kế toán có nhiều ưu điểm biểu hiện là việc sử 
+dụng trình tự luân , trình tự ghi chép chứng từ đã đảm bảo cơ sở lập ra từ thực tế và cơ 
+sở pháp lý cho công ty giám sát tình hình nhập- xuất- tồn kho thành 
+Mặc dù, vào đầu năm 2020 sự xuất hiện của dịch covid 19 làm ảnh hưởng đến rất 
+nhiều công ty từ hoạt động đến tài chính. Nhưng vì đặc thù mặt hàng và ứng phó kịp 
+thời của công ty đã giúp công ty tránh khỏi những rủi ro ảnh hưởng như: thực hiện giao 
+hàng đúng hạn theo hợp đồng. 
+ Đối với kế toán phải thu khách hàng 
+Đa số khách hàng công ty TNHH Thiết bị Inox Hoàng Tâm hầu như là những công 
+ty có uy tín và lớn trên thị trường, vì vậy việc công nợ cho khách hàng được đảm bảo sẽ 
+được trả. Nhờ chính sách ưu đãi mà hiện nay công ty rất “được lòng” những khách hàng 
+mới và được mở rộng mối quan hệ nhiều hơn. Doanh thu cải thiện so với những ngày 
+đầu thành lập. 
+Thứ hai, các chứng từ hạch toán của công ty luôn đầy đủ, chính xác để đáp ứng kịp 
+thời để Ban Giám đốc có thể nắm rõ tình hình, để kịp thời ngăn chặn những khoản nợ 
+ảnh hưởng và gây hệ lụy cho cả những khoản phải trả khách hàng. 
+Thứ ba, Công ty áp dụng đầy đủ chế độ tài chính, kế toán của bộ tài chính ban hành 
+để có thể phù hợp với đặc điểm công ty, kế toán đã mở tài khoản cấp 2, 3 để dễ dàng 
+theo dõi công nợ của từng khách hàng, nhà cung cấp. Giảm nhẹ công việc cho kế toán , 
+tránh sự chồng chéo, ghi chép sai. 
+ Đối với kế toán phải trả 
+Kế toán thu – chi thanh toán các khoản mục phải trả được hạch toán đúng chuẩn mực 
+kế toán, ghi nhận kịp thời, sắp xếp chứng từ hợp lý, dễ tìm chứng từ để theo dõi 
+Quy trình quản lý an toàn thanh toán đúng hạn không có tình trạng mất uy tín hoặc 
+kiện tụng,...thuận lợi trong việc mua hàng. 
+Công ty có quy trình luân chuyển chứng từ chặt chẽ, tránh thấm thoát, chứng từ liên 
+quan. 
+4.1.2. Hạn chế 
+ 
+Công ty TNHH Thiết bị Inox Hoàng Tâm mặc dù mới thành lập nhưng nhiều mặt 
+tích cực đã đạt được trong công tác kế toán nói chung và kế toán công nợ nói riêng, và 
+không thể tránh khỏi những hạn chế tồn đọng nhất định như sau: 
+ Đối với bộ máy kế toán 
+  
+ 
+64 
+ 
+Bộ máy kế toán được tổ chức theo mô hình vừa tập trung vừa phân tán nên các đơn 
+vị trực thuộc vẫn còn chậm trong công tác cung cấp thông tin kế toán, các báo cáo quyết 
+toán gửi không đúng thời gian quy định, làm ảnh hưởng đến việc lập báo cáo của đơn vị, 
+khiến cho tính kịp thời của thông tin chưa được phát huy.  
+ Đối với việc theo dõi tình hình công nợ 
+Kế toán công nợ đã mở sổ chi tiết theo từng đối tượng khách hàng và nhà cung cấp 
+nhưng chỉ cho biết thông tin về số lượng chứ chưa đề cấp được thời hạn thanh toán, thời 
+gian chiết khấu nên chưa thể cung cấp đầy đủ thông tin cho Giám đốc để đưa ra chính 
+sách kịp thời. 
+Báo cáo công nợ chưa được thiết lập nên đã hạn chế tầm nhìn của các nhà quản lý 
+đối với tình hình tổng quát các khoản phải thu, phải trả. 
+ Đối với các khoản phải thu 
+Các khoản phải thu công ty chiếm tỷ trọng cao trong tổng tài sản do đặc thù của 
+công ty là thực hiện theo dự án, hợp đồng lớn, và công ty cũng chưa có chính sách thu 
+hồi nợ hợp lý. Ngoài ra, quy trình liên quan đến phải thu khách hàng còn nhiều hạn chế 
+chưa được khắc phục. Đây cũng là những hạn chế tương đối lớn gây ảnh hưởng đến hoạt 
+động sản xuất kinh doanh của công ty. Bởi vì, công ty mới được thành lập gần đây nên 
+một số chính sách và quy trình nhân viên vẫn vi phạm dấn đến việc khách hàng thanh 
+toán chậm hơn hạn đã thỏa thuận vì thiếu một số hồ sơ như: Giấy kiểm định, thiếu phiếu 
+giao hoặc nhiều chứng từ liên quan. Việc trì trệ thanh toán dẫn đến hậu quả làm gián 
+đoạn kế hoạch chi trả cho nhà cung cấp mà công ty đang nợ. Làm mất uy tín và mất 
+nhiều thời gian để chỉnh sửa. Làm cho việc sản xuất công ty gặp khó khăn, ngoài ra bỏ 
+mất nhiều cơ hội. Quy trình mua hàng và bán hàng còn có nhiều bước còn chưa phân 
+công rõ đối tượng thực hiện, trách nhiệm thuộc về ai. Nên khi xảy ra vấn đề ngoài ý 
+muốn thì các phòng ban đùn đẩy trách nhiệm cho nhau. 
+Mặc dù đã có chính sách về chiết khấu, giảm giá nhưng công ty chưa thực hiện 
+được như chính sách đã ban dành cho khách hàng thường xuyên. Vì vậy không thể 
+khuyến khích khách hàng trả sớm hơn. Ngoài ra, chính sách dự phòng khoản nợ phải thu 
+khó đòi cũng chưa được thực hiện. Vì vậy, có thể gây rủi ro cho doanh nghiệp. 
+Công ty cũng chưa ra những biến pháp thu hồi nợ khác ngoài gửi mail và gọi điện 
+nhắc khoản nợ, biện pháp cuối cùng đối với những khách hàng không chịu thanh toán 
+đó là pháp luật. Mặc dù, biện pháp này chắc chắn có thể thắng kiện nhưng phải xem xét 
+chi phí kiện tụng, thời gian. Nên đó là điều e ngại không những công ty TNHH Thiết bị 
+Inox Hoàng Tâm nói riêng mà công ty khác nói chung. 
+  
+ 
+65 
+ 
+Công ty TNHH Thiết bị Inox Hoàng Tâm còn có những khách hàng nước ngoài, nên khó 
+khăn trong công tác những khoản phải thu, đặc biệt là rủi ro hối đoái. 
+ 
+Bắt đầu từ ngày 01.04.2020, Việt Nam thực hiện cách ly xã hội trên toàn quốc 15 
+ngày để chiến đấu với dịch bệnh Covid – 19. Theo đó các hoạt động của nhiều công ty 
+tạm thời dừng lại, trong đó có những khách hàng, nhà cung cấp của Hoàng Tâm, khiến 
+việc thu nợ là một trở ngại và áp lực lớn.  
+ Đối với các khoản phải trả 
+Trong tổng nguồn vốn thì nợ phải trả chiến tỷ trọng rất cao, một phần vì kế hoạch 
+trả nợ chưa hợp lý. Qua đó cho thấy, nguồn vón kinh doanh của công ty chủ yếu do 
+chiếm dụng từ bên ngoài, chứng tỏ mức phụ thuộc về tài chính công ty cao. 
+4.2. Một số biện pháp được đề xuất  
+ Đối với bộ máy kế toán:  
+Cần đưa ra các quy định cụ thể và ro ràng hơn để tăng cường hiêu quả trong công tác 
+quản lý đảm bảo cho việc cung cấp thông tin kế toán luôn luôn đáp ứng kịp thời. Ngoài 
+công ty TNHH Thiết bị Inox Hoàng Tâm nói riêng và các công khác nói chung cần có 
+sự đo lường hiệu suất cao của các khoản phải thu, điều này hay bị bỏ sót. Điều này không 
+bắt buộc phải thực hiện nhưng nó giúp cho công việc kế toán trở nên dễ dàng hơn. Bởi 
+vì, những công ty phát triển, thành công trong công tác làm việc thu hồi công nợ khách 
+hàng chính là thường xuyên đo lường kết quả mỗi khi hoàn thành công việc của mình. 
+Theo đó, các nhân viên kế toán công nợ sẽ thiết lập ra các chỉ số đo hiệu suất cao của 
+không ít hoạt động giải trí nhằm mục đích biết được một số thông tin rất cần thiết liên 
+quan đến tiến độ thực thi như là thời gian thu tiền trong các đợt là bao nhiêu, số lượng 
+khách hàng trả đúng thời hạn, con số khách hàng không hợp tác hoặc khất nợ,... 
+ Đối với kế toán phải thu khách hàng 
+Nên thiết lập sổ chi tiết phải thu khách hàng gồm có các mục thể hiện nợ trong hạn, 
+nợ quá hạn và thời hạn thanh toán,...Đặc biệt nên theo dõi khách hàng theo dự án để xem 
+xét khách quan hơn. Dựa vào đó công ty theo dõi được tình hình từng khách hàng, đê 
+kịp thời đưa ra những biện pháp thu hồi nợ hợp lý. Cuối mỗi tháng, kế toán nên thiết lập 
+Báo cáo tuổi nợ khách hàng để Giám đốc dễ dàng quản lý. 
+Cần thay đổi chính sách công ty về quy trình được phân công rõ ràng , thống nhất đối 
+tượng , tùy vào môi trường kinh doanh để xây dựng chính sách phù hợp hơn. Có quy 
+định và xử lý nếu nhân viên quy phạm quy trình mua hàng, bán hàng, tổ chức họp thường 
+  
+ 
+66 
+ 
+xuyên để điều chỉnh những cá nhân vi phạm. Nâng cao tay nghề nhân viên và kinh 
+nghiệm chuyên môn khi thực hiện quản lý, hoặc gửi cán bộ quản lý học tại các khóa học.  
+ Đối với Kế toán phải trả 
+Tương tự kế toán phải thu, lập sổ chi tiết phải trả cho người bán và Báo cáo tuổi nợ 
+nhà cung cấp nhằm biết được thời gian quá nợ và tình hình tài chính công ty và những 
+khoản phải thu khách hàng đến hạn thu để có kế hoạch trả nợ nào trước, trả nợ nào sau, 
+tránh trường hợp kéo dài nợ làm mất uy tín với nhà cung cấp.Kế toán phụ trách công nợ 
+cần theo dõi chi tiết thời gian thanh toán từng chủ nợ, từng hợp đồng từ đó lập kế hoạch 
+thanh toán theo thời hạn chiết khấu.  
+Trong công tác chuyển tiền: thay vì chuyển tiền theo giải pháp thủ công thì nên có 
+sự nâng cấp cải tiến, áp dụng những phần mềm công nghệ thông tin tiên tiến, quy trình 
+tự động. 
+Công ty cần có chính sách tín dụng thật rõ ràng và có sự phân chia cho từng nhóm 
+khách hàng. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+67 
+ 
+KẾT LUẬN 
+ 
+Công ty TNHH Thiết bị Inox Hoàng Tâm có thể nói là công ty non trẻ, mới thành 
+lập chưa có bước bật lớn. Nhưng cũng đạt được nhiều kết quả nhất định đó là nhờ sự 
+quan tâm và tin tưởng từ khách hàng. 
+ 
+Mặc dù còn nhiều khó khăn, chưa hoàn thiện nhưng Hoàng Tâm luôn phấn đấu, 
+không ngừng vươn lên, trở thành doanh nghiệp đứng vững trên thị trường. Có sự đóng 
+góp phát triển đất nước, thúc đẩy quá trình công nghiệp hóa, hiện đại hóa. 
+ 
+Bài khóa luận đã nêu “Thực trạng công tác kế toán công nợ và khả năng thanh 
+toán công ty Thiết bị Inox Hoàng Tâm”. Là vấn đề được công ty quan tâm và chú trọng. 
+Trong thời gian tới, với quy mô kinh doanh ngày càng mở rộng, em hi vọng rằng công 
+tác kế toán của công ty sẽ hoàn thiện hơn nữa để đáp ứng yêu cầu ngày càng cao của nền 
+kinh tế thị trường. 
+Sự liên hệ giữa thực tiễn và lý luận đã giúp em có nhừng kiến thức bổ ích, nắm 
+bắt yêu cầu thực tiễn, hoàn thiện năng lực và kỹ năng bản thân, và có những hình dung 
+cơ bản về nghề nghiệp của mình trong tương lai. Tuy nhiên vì hiểu biết,  kiến thức em 
+cũng như kinh nghiệm thực tế  còn hạn chế nên không tránh khỏi những thiếu xót. Em 
+rất mong được sự thông cảm và sự chỉ dẫn của thầy cô, anh chị trong công ty. 
+Em xin chân thành cảm ơn!!! 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+68 
+ 
+TÀI LIỆU THAM KHẢO 
+1. 
+Thông tư số 200/2014/TT-BTC ngày 22/12/2014 của Bộ Tài chính hướng dẫn chế 
+độ kế toán doanh nghiệp. 
+2. 
+Sổ liệu sổ sách của Công ty TNHH Thiết bị Inox Hoàng Tâm năm 2018, 2019, 
+2020. 
+3. 
+Phần mềm kế toán SmartPro. 
+4. 
+Tập thể tác giả (2017), Kế toán tài chính – Quyển 1, NXB Kinh tế TP.HCM, 
+TP.HCM. 
+5. 
+PGS.TS Nguyễn Phú Giang, TS. Nguyễn Trúc Lê, 2013, Lý thuyết và thực hành 
+Kế toán Tài chính, TP.Hồ Chí Minh, NXB: Đại học Kinh tế Quốc dân. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+69 
+ 
+PHỤ LỤC 
+Phụ lục 1 – Bảng tổng hợp công nợ phải thu khách hàng đến tháng 22/06/2020. 
+Phụ lục 1 – Báo cáo tài chính 2019 công ty TNHH Thiết bị Inox Hoàng Tâm. 
+Phụ lục 2 – Báo cáo tài chính 2020 công ty TNHH Thiết bị Inox Hoàng Tâm. 
+Phụ lục 3 – Hợp đồng kinh tế số 03/HĐKT – VHC/HT/2019. 
+Phụ lục 4 – Bản sao kê tài khoản. 
+Phụ lục 5 – Hóa đơn GTGT số 0000023, ký hiệu TT/19E, mẫu số 01GTKT0/001. 
+Phụ lục 6 – Hóa đơn GTGT số 0000021, ký hiệu TT/19E, mẫu số 01GTKT0/001. 
+Phụ lục 7 – Hóa đơn GTGT số 0000066, ký hiệu SG/19E, mẫu số 01GTKT0/001. 
+Phụ lục 8 – Hóa đơn GTGT, số 0000364, ký hiệu TL/18P, mẫu số 01GTKT3/003 
+Phụ lục 9 – Hóa đơn số 0002135, ký hiệu TV/18P, mẫu số 01GTKT3/001 
+Phụ lục 10 – Phiếu giao hàng số 003031 
+Phụ lục 11 – Phiếu chi số 011/09. 
+Phụ lục 12 – Hóa đơn GTGT số 0001917, ký hiệu AA/19E, mẫu số 01GTKT0/001. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+70 
+ 
+Phụ lục 1 
+ 
+ 
+  
+ 
+71 
+ 
+Phụ lục 2 
+ 
+  
+ 
+72 
+ 
+ 
+ 
+ 
+Bảng cân đối kế toán 2019 
+  
+ 
+73 
+ 
+ 
+ 
+Báo cáo kết quả hoạt động kinh doanh 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+74 
+ 
+Phụ lục 2 
+ 
+  
+ 
+75 
+ 
+ 
+Bảng cân đối kế toán năm 2020 
+  
+ 
+76 
+ 
+ 
+Bảng kết quả hoạt động kinh doanh năm 2019 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+77 
+ 
+Phụ lục 3 
+ 
+  
+ 
+78 
+ 
+ 
+ 
+  
+ 
+79 
+ 
+Phụ lục 4 
+ 
+  
+ 
+80 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+81 
+ 
+Phụ lục 5
+ 
+  
+ 
+82 
+ 
+Phụ lục 6 
+  
+  
+ 
+83 
+ 
+Phụ lục 7 
+ 
+  
+ 
+84 
+ 
+Phụ lục 8 
+ 
+  
+ 
+85 
+ 
+Phụ lục 9 
+ 
+  
+ 
+86 
+ 
+Phụ lục 10 
+ 
+  
+ 
+87 
+ 
+Phụ lục 11
+ 
+  
+ 
+88 
+ 
+Phụ lục 12 
+  
+  
+ 
+89 
+ 
+ 
+ 
+  
+ 
+90 
+ 
+ 
+S
+K
+L
+0
+0
+2
+1
+5
+4
  
  
 BỘ GIÁO DỤC VÀ ĐÀO TẠO 

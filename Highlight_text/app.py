@@ -30,7 +30,7 @@ def get_pdf_from_mongo(file_id):
         print("File not found")
         return 0, 0
 
-def highlight_text(original_text, indices):
+def highlight_text(original_text, indices, x):
     words = original_text.split()
     highlighted = []
     i = 0
@@ -39,7 +39,7 @@ def highlight_text(original_text, indices):
             start = i
             while i in indices and i < len(words):
                 i += 1
-            highlighted.append(f'<span class="highlight">{" ".join(words[start:i])}</span>')
+            highlighted.append(f'<span class="highlight{x}">{" ".join(words[start:i])}</span>')
         else:
             highlighted.append(words[i])
             i += 1
@@ -51,35 +51,39 @@ def index(file_id):
         plagiarism_data = []
         page_count, word_count = get_pdf_from_mongo(file_id)
         plagiarisms = sentences_collection.find({'file_id': int(file_id)})
-        schools = defaultdict(lambda: {'total_word_count': 0, 'sentences': []})
+        schools = defaultdict(lambda: {'school_name':'', 'total_word_count': 0, 'sentences': []})
         
         for doc in plagiarisms:
             if doc['plagiarism'] == 'no':
-                plagiarism_data.append(doc['sentence'])
+                plagiarism_data.append([doc['sentence'], None])
             else:
                 best_matches = {}
                 
                 for source in doc['sources']:
-                    school_name = source.get('school_name', 'Unknown')
+                    school_id = source.get('school_id', 'Unknown')
+                    school_name = source.get('school_name')
                     word_count_sml = source.get('highlight', {}).get('word_count_sml', 0)
                     best_match = source.get('best_match', '')
                     indices_sentence = source.get('highlight', {}).get('indices_sentence', [])
                     indices_best_match = source.get('highlight', {}).get('indices_best_match', [])
                     score = source.get('score', 0)
                     
-                    highlighted_sentence = highlight_text(doc['sentence'], indices_sentence)
-                    highlighted_best_match = highlight_text(best_match, indices_best_match)
+                    highlighted_sentence = highlight_text(doc['sentence'], indices_sentence, school_id)
+                    highlighted_best_match = highlight_text(best_match, indices_best_match, school_id)
                     
-                    if school_name not in best_matches or best_matches[school_name]['score'] < score:
-                        best_matches[school_name] = {
+                    if school_id not in best_matches or best_matches[school_id]['score'] < score:
+                        best_matches[school_id] = {
+                            'school_name': school_name,
                             'highlighted_best_match': highlighted_best_match,
                             'word_count_sml': word_count_sml,
                             'score': score
                         }
-                plagiarism_data.append(highlighted_sentence)
-                for school_name, data in best_matches.items():
-                    schools[school_name]['total_word_count'] += data['word_count_sml']
-                    schools[school_name]['sentences'].append({
+                plagiarism_data.append([highlighted_sentence, school_id])
+                for school_id, data in best_matches.items():
+                    
+                    schools[school_id]['total_word_count'] += data['word_count_sml']
+                    schools[school_id]['school_name'] = data['school_name']
+                    schools[school_id]['sentences'].append({
                         'best_match': data['highlighted_best_match'],
                         'word_count_sml': data['word_count_sml'],
                     })

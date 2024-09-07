@@ -13,12 +13,6 @@
             padding: 10px;
             box-sizing: border-box;
         }
-        img {
-            display: block;
-            width: 100%;
-            height: auto;
-            margin-bottom: 20px;
-        }
         .school-box {
             padding: 15px;
             margin-bottom: 10px;
@@ -35,19 +29,11 @@
             background-color: #f8f9fa;
             padding: 15px;
         }
-        .pdf-content {
-            height: 600px;
-            overflow-y: scroll;
-            background-color: #f8f9fa;
-            padding: 15px;
-            white-space: pre-wrap;
-        }
-        .pdf-image {
-            margin-bottom: 20px;
-            border: 1px solid #ccc;
-        }
-        .highlight {
+        .highlight1.highlight {
             background-color: yellow;
+        }
+        .highlight2.highlight {
+            background-color: pink;
         }
     </style>
 </head>
@@ -58,8 +44,10 @@
             <div class="col-md-8">
                 <h2>PDF Viewer</h2>
                 <div id="pdf-viewer">
-                    {% for plagiarism in plagiarisms %}
-                        {{ plagiarism|safe}}
+                    {% for plagiarism, sentence_index in plagiarisms %}
+                        <div id="school-pdf-{{ sentence_index }}">
+                            {{ plagiarism|safe}}
+                        </div>
                     {% endfor %}
                 </div>
             </div>
@@ -75,18 +63,20 @@
                 
                 <!-- Thêm thanh cuộn cho bảng thống kê -->
                 <div class="statistics-box">
-                    {% for school_name, total_word_count_and_sentences in schools.items() %}
-                    <div class="school-box" onclick="toggleSchool('{{ school_name }}')">
-                        <strong>{{ school_name }}</strong><br>
-                        <strong>Word Matched:</strong> {{ total_word_count_and_sentences.total_word_count }}<br>
-                        <strong>Percentage:</strong> {{ "%.2f" % ((total_word_count_and_sentences.total_word_count / word_count) * 100) }}%
+                    {% for school_id, school_name_and_total_word_count_and_sentences in schools.items() %}
+                    <div class="school-box" onclick="toggleSchool('{{ school_id }}')">
+                        <strong>{{ school_name_and_total_word_count_and_sentences.school_name }}</strong><br>
+                        <strong>Word Matched:</strong> {{ school_name_and_total_word_count_and_sentences.total_word_count }}<br>
+                        <strong>Percentage:</strong> {{ "%.2f" % ((school_name_and_total_word_count_and_sentences.total_word_count / word_count) * 100) }}%
                     </div>
 
-                    <div class="sentence-box" id="{{ school_name }}">
+                    <div class="sentence-box" id="{{ school_id }}">
                         <ul>
-                            {% for sentence in total_word_count_and_sentences.sentences %}
-                                <li>
-                                    <strong>Best Match:</strong> {{ sentence.best_match|safe }}
+                            {% for sentence in school_name_and_total_word_count_and_sentences.sentences %}
+                                <br>
+                                    <strong>Best Match:</strong> {{ sentence.best_match|safe }} </br>
+                                    {{sentence.word_count_sml}} word
+                                    
                                 </li>
                             {% endfor %}
                         </ul>
@@ -98,13 +88,37 @@
     </div>
 
     <script>
-        // Hàm để bật/tắt hiển thị câu khi bấm vào trường
-        function toggleSchool(schoolName) {
-            const element = document.getElementById(schoolName);
+        function toggleSchool(school_id) {
+            const elements = Array.from(document.getElementsByClassName("sentence-box"));
+            const element = document.getElementById(school_id);
+
+            const otherElements = elements.filter(el => el !== element);
+
+            otherElements.forEach(el => {
+                el.style.display = "none";
+            });
+
             if (element.style.display === "none" || element.style.display === "") {
                 element.style.display = "block";
+
+                document.querySelectorAll('span.highlight').forEach(el => {
+                    el.classList.remove('highlight');
+                });
+
+                document.querySelectorAll('span.highlight' + school_id).forEach(el => {
+                    el.classList.add('highlight');
+                });
+                // Cuộn đến phần nội dung PDF tương ứng với school_id
+                const pdfSection = document.getElementById('school-pdf-' + school_id);
+                if (pdfSection) {
+                    pdfSection.scrollIntoView({ behavior: 'smooth' });
+                }
             } else {
                 element.style.display = "none";
+
+                document.querySelectorAll('span.highlight' + school_id).forEach(el => {
+                    el.classList.remove('highlight');
+                });
             }
         }
     </script>

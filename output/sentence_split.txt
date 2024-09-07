@@ -1,825 +1,3054 @@
-Câu 1: BỘ GIÁO DỤC VÀ ĐÀO TẠO
-Câu 2: TRƯỜNG ĐẠI HỌC SƯ PHẠM KỸ THUẬT TP
-Câu 3: HCM
-Câu 4: KHOA CÔNG NGHỆ THÔNG TIN
-Câu 5: MÔN HỌC
-Câu 6: CƠ SỞ DỮ LIỆU NÂNG CAO
-Câu 7: BÁO CÁO ĐỒ ÁN
-Câu 8: ĐỀ TÀI
-Câu 9: TÌM HIỂU CSDL NOSQL, CÀI ĐẶT MONGODB
-Câu 10: THIẾT KẾ CSDL MONGODB VÀ THAO TÁC
-Câu 11: TP
-Câu 12: Hồ Chí Minh, tháng 04 năm 2024
-Câu 13: GVHD
-Câu 14: ThS
-Câu 15: Lê Thị Minh Châu
-Câu 16: Mã lớp
-Câu 17: ADDB331784_23_2_02
-Câu 18: Nhóm sinh viên thực hiện
-Câu 19: Nhóm 1
-Câu 20: 1
-Câu 21: Nguyễn Thị Lan Anh 21110368
-Câu 22: 2
-Câu 23: Huỳnh Nhật Nam 21110903
-Câu 24: 3
-Câu 25: Trịnh Thị Thanh Huyền 21110477
-Câu 26: 4
-Câu 27: Phan Minh Thuận 21110667
-Câu 28: LỜI CẢM ƠN
-Câu 29: Lời nói đầu tiên, chúng em xin gửi lời biết ơn sâu sắc và lòng tri ân đến Thạc sĩ
-Câu 30: Lê Thị Minh Châu người đã dành thời gian và công sức để hỗ trợ, đồng hành cùng chúng em trong suốt quá trình nghiên cứu và học tập đề tài này
-Câu 31: Từ khi chúng em bắt đầu bước vào lĩnh vực học tập này đến hiện tại, sự quan tâm và sự hỗ trợ tận tình từ Cô đã giúp chúng em phát triển và hoàn thành đề tài của mình một cách thành công
-Câu 32: Chúng em xin bày tỏ lòng biết ơn chân thành nhất đến Cô Lê Thị Minh Châu người đã chia sẻ những kiến thức quý báu và cung cấp sự hướng dẫn cần thiết cho chúng em trong suốt quá trình học tập
-Câu 33: Nhờ vào sự chỉ dạy và hướng dẫn tận tình của Cô mà chúng em đã có thể hoàn thiện đề tài nghiên cứu của mình
-Câu 34: Bài báo cáo về đề tài TÌM HIỂU CSDL NOSQL, CÀI ĐẶT MONGODB,
-Câu 35: THIẾT KẾ CSDL MONGODB VÀ THAO TÁC của môn Cơ Sở Dữ Liệu Nâng Cao đã được chúng em thực hiện trong vòng một tháng
-Câu 36: Tuy chúng em còn hạn chế trong lượng kiến thức, nhưng chúng em hy vọng nhận được sự đóng góp quý báu từ Cô để bổ sung và hoàn thiện kiến thức của mình, từ đó học hỏi thêm kinh nghiệm và nâng cao trình độ, chuẩn bị cho tương lai công việc
-Câu 37: Chúng em xin gửi lời cảm ơn chân thành nhất đến Cô, và chúc Cô luôn vui vẻ, giữ lửa nhiệt quyết tâm dành cho nghề, và luôn tràn đầy niềm tin trong cuộc sống
-Câu 38: Chúng em hy vọng mọi điều tốt lành sẽ đến với Cô, và Cô sẽ tiếp tục đóng góp cho sự nghiệp trồng người với sự cao cả và vĩ đại như Cô đã từng làm
-Câu 39: BẢNG PHÂN CÔNG
-Câu 40: STT
-Câu 41: MSSV
-Câu 42: Họ Và Tên
-Câu 43: Nhiệm Vụ
-Câu 44: Hoàn Thành
-Câu 45: 1
-Câu 46: 21110903
-Câu 47: Huỳnh Nhật Nam
-Câu 48: Nhóm Trưởng
-Câu 49: Soạn nội dung phần III
-Câu 50: Làm việc với MongoDB cài đặt và cấu hình MongoDB, tạo lập cơ sở dữ liệu
-Câu 51: Các thao tác CRUD cơ bản
-Câu 52: Code front end và back end các chức năng
-Câu 53: Tài khoản đăng nhập đăng ký , đăng xuất cập nhật thông tin tài khoản
-Câu 54: Đơn hàng trong quản lý hệ thống xem đơn hàng, xem báo cáo đơn hàng
-Câu 55: Đơn hàng của người dùng đặt hàng, hủy đơn hàng
-Câu 56: 100
-Câu 57: 2
-Câu 58: 21110368
-Câu 59: Nguyễn Thị Lan Anh
-Câu 60: Soạn nội dung phần III
-Câu 61: Làm việc với MongoDB Thao tác với cơ sở dữ liệu
-Câu 62: Các thao tác CRUD cơ bản
-Câu 63: Code front end và back end các chức năng
-Câu 64: Trang chủ xem sản phẩm, tìm kiếm, xem chi tiết sản phẩm, xem sản phẩm, xem thêm, xem sản phẩm theo loại
-Câu 65: 100
-Câu 66: 3
-Câu 67: 21110477
-Câu 68: Trịnh Thị Thanh Huyền
-Câu 69: Soạn nội dung phần I
-Câu 70: Giới thiệu NoSQL
-Câu 71: 100
-Câu 72: Các thao tác CRUD cơ bản
-Câu 73: Code front end và back end các chức năng
-Câu 74: Sản phẩm trong quản lý hệ thống thêm sản phẩm, tìm kiếm sản phẩm, chỉnh sửa sản phẩm, xóa sản phẩm, xem list thông tin sản phẩm
-Câu 75: 4
-Câu 76: 21110667
-Câu 77: Phan Minh Thuận
-Câu 78: Soạn nội dung phần II
-Câu 79: Cơ sở dữ liệu MongoDB
-Câu 80: Các thao tác CRUD cơ bản
-Câu 81: Code front end và back end các chức năng
-Câu 82: Người dùng trong quản lý hệ thống xóa thông tin, chỉnh sửa thông tin, tìm kiếm người dùng, xem list thông tin người dùng
-Câu 83: 100
-Câu 84: MỤC LỤC
-Câu 85: CHƯƠNG 1
-Câu 86: GIỚI THIỆU NOSQL
-Câu 87: 1
-Câu 88: 1
-Câu 89: 1
-Câu 90: Giới thiệu
-Câu 91: 1
-Câu 92: 1
-Câu 93: 2
-Câu 94: Đặc điểm của NoSQL
-Câu 95: 1
-Câu 96: 1
-Câu 97: 3
-Câu 98: Phân loại cơ sở dữ liệu NoSQL
-Câu 99: 2
-Câu 100: 1
-Câu 101: 3
-Câu 102: 1
-Câu 103: Key value
-Câu 104: 2
-Câu 105: 1
-Câu 106: 3
-Câu 107: 2
-Câu 108: Document
-Câu 109: 2
-Câu 110: 1
-Câu 111: 3
-Câu 112: 3
-Câu 113: Graph
-Câu 114: 3
-Câu 115: 1
-Câu 116: 3
-Câu 117: 4
-Câu 118: Column
-Câu 119: 4
-Câu 120: 1
-Câu 121: 4
-Câu 122: So sánh cơ sở dữ liệu NoSQL với cơ sở dữ liệu quan hệ
-Câu 123: 4
-Câu 124: CHƯƠNG 2
-Câu 125: CƠ SỞ DỮ LIỆU MONGODB
-Câu 126: 6
-Câu 127: 2
-Câu 128: 1
-Câu 129: Giới thiệu
-Câu 130: 6
-Câu 131: 2
-Câu 132: 2
-Câu 133: Mô hình dữ liệu trong MongoDB
-Câu 134: 6
-Câu 135: 2
-Câu 136: 3
-Câu 137: Kiến trúc của MongoDB
-Câu 138: 8
-Câu 139: 2
-Câu 140: 4
-Câu 141: Các chế độ thực thi MongoDB
-Câu 142: 9
-Câu 143: CHƯƠNG 3
-Câu 144: LÀM VIỆC VỚI MONGODB
-Câu 145: 10
-Câu 146: 3
-Câu 147: 1
-Câu 148: Cài đặt và cấu hình MongoDB
-Câu 149: 10
-Câu 150: 3
-Câu 151: 1
-Câu 152: 1
-Câu 153: Cài đặt
-Câu 154: 10
-Câu 155: 3
-Câu 156: 1
-Câu 157: 2
-Câu 158: Cấu hình
-Câu 159: 10
-Câu 160: 3
-Câu 161: 2
-Câu 162: Tạo lập cơ sở dữ liệu
-Câu 163: 19
-Câu 164: 3
-Câu 165: 3
-Câu 166: Thao tác với dữ liệu
-Câu 167: 19
-Câu 168: 3
-Câu 169: 3
-Câu 170: 1
-Câu 171: Truy vấn dữ liệu
-Câu 172: 19
-Câu 173: 3
-Câu 174: 3
-Câu 175: 2
-Câu 176: Thêm dữ liệu
-Câu 177: 21
-Câu 178: 3
-Câu 179: 3
-Câu 180: 3
-Câu 181: Cập nhật dữ liệu
-Câu 182: 22
+Câu 1: THỰC TRẠNG KẾ TOÁN CÔNG NƠ VÀ
+Câu 2: KHẢ NĂNG THANH TOÁN TẠI CÔNG TY TNHH
+Câu 3: THIẾT BỊ INOX HOÀNG TÂM
+Câu 4: SKL 0 0 7 8 6 6
+Câu 5: BỘ GIÁO DỤC ĐÀO TẠO
+Câu 6: TRƯỜNG ĐẠI HỌC SƯ PHẠM KỸ THUẬT TP
+Câu 7: HỒ CHÍ MINH
+Câu 8: KHOA ĐÀO TẠO CHÂ T LƯƠ NG CAO
+Câu 9: GVHD
+Câu 10: ThS
+Câu 11: NGUYỄN THỊ LAN ANH
+Câu 12: SVTH
+Câu 13: VÕ CHƯ THÙY
+Câu 14: MSSV
+Câu 15: 17125105
+Câu 16: Tp
+Câu 17: Hồ Chí Minh, tháng 02 2021
+Câu 18: KHÓA LUẬN TỐT NGHIỆP
+Câu 19: NGÀNH KẾ TOÁN
+Câu 20: i
+Câu 21: TRƯỜNG ĐẠI HỌC SƯ PHẠM KỸ THUẬT THÀNH PHỐ
+Câu 22: HỒ CHÍ MINH
+Câu 23: KHOA ĐÀO TẠO CHÂ T LƯƠ NG CAO
+Câu 24: KHÓA LUẬN TỐT NGHIỆP
+Câu 25: THỰC TRẠNG KẾ TOÁN CÔNG NƠ VÀ
+Câu 26: KHẢ NĂNG THANH TOÁN TẠI CÔNG TY TNHH
+Câu 27: THIẾT BỊ INOX HOÀNG TÂM
+Câu 28: SVTH
+Câu 29: VÕ CHƯ THÙY
+Câu 30: MSSV
+Câu 31: 17125105
+Câu 32: Khoá
+Câu 33: 17
+Câu 34: Nga nh
+Câu 35: KẾ TOÁN
+Câu 36: GVHD
+Câu 37: THS
+Câu 38: NGUYỄN THỊ LAN ANH
+Câu 39: Tp
+Câu 40: Hồ Chí Minh, tháng 02 năm 2021
+Câu 41: ii
+Câu 42: TRƯỜNG ĐẠI HỌC SƯ PHẠM KỸ THUẬT THÀNH PHỐ
+Câu 43: HỒ CHÍ MINH
+Câu 44: KHOA ĐÀO TẠO CHÂ T LƯƠ NG CAO
+Câu 45: KHÓA LUẬN TỐT NGHIỆP
+Câu 46: THỰC TRẠNG KẾ TOÁN CÔNG NƠ VÀ
+Câu 47: KHẢ NĂNG THANH TOÁN TẠI CÔNG TY TNHH
+Câu 48: THIẾT BỊ INOX HOÀNG TÂM
+Câu 49: SVTH
+Câu 50: VÕ CHƯ THÙY
+Câu 51: MSSV
+Câu 52: 17125105
+Câu 53: Khoá
+Câu 54: 17
+Câu 55: Nga nh
+Câu 56: KẾ TOÁN
+Câu 57: GVHD
+Câu 58: THS
+Câu 59: NGUYỄN THỊ LAN ANH
+Câu 60: Tp
+Câu 61: Hồ Chí Minh, tháng 02 năm 2021
+Câu 62: iii
+Câu 63: Tp
+Câu 64: Hồ Chí Minh, ngày 01 tháng 02 năm 2021
+Câu 65: NHIỆM VỤ KHÓA LUẬN TỐT NGHIỆP
+Câu 66: Họ và tên sinh viên
+Câu 67: VÕ CHƯ THÙY
+Câu 68: MSSV
+Câu 69: 17125105
+Câu 70: Ngành
+Câu 71: KẾ TOÁN
+Câu 72: Lớp
+Câu 73: 17125CL1A
+Câu 74: Giảng viên hướng dẫn
+Câu 75: Th
+Câu 76: S NGUYỄN THỊ LAN ANH ĐT
+Câu 77: Ngày nhâ n đề tài
+Câu 78: 12 12 2020
+Câu 79: Ngày nộp đề tài
+Câu 80: 01 02 2021
+Câu 81: 1
+Câu 82: Tên đề tài
+Câu 83: THỰC TRẠNG KẾ TOÁN CÔNG NƠ VÀ KHẢ NĂNG THANH TOÁN TẠI
+Câu 84: CÔNG TY TNHH THIẾT BỊ INOX HOÀNG TÂM
+Câu 85: 2
+Câu 86: Các số liệu, tài liệu ban đầu
+Câu 87: Thu thâ p các chính sách
+Câu 88: Báo cáo tài chính năm 2019, 2020
+Câu 89: các chứng từ liên quan kế toán công nợ công ty TNHH Thiết bị Inox Hoàng Tâm bằng cách quan sát, phân tích, đối chiếu các nghiệp vụ, sổ chi tiết,
+Câu 90: qua 3 năm 2018 2020
+Câu 91: Giáo trình Kế toán tài chính, nguyên lý kế toán,
+Câu 92: 3
+Câu 93: Nội dung thư c hiện đề ta i
+Câu 94: Tìm hiểu cơ sở lý thuyết của kế toán công nợ đúng theo quy định hiện hành
+Câu 95: làm cơ sở để đi sâu tìm hiểu, phân tích tình hình áp dụng vào thực tế kế toán công nợ và khả năng thanh toán công ty TNHH Thiết bị Inox Hoàng Tâm
+Câu 96: Từ đó rút ra những nhâ n xét chung, ưu nhược điểm về tình hình áp dụng kế toán công ty
+Câu 97: Cuối cùng trên cơ sở nhâ n xét nêu ra giải pháp nâng cao hiệu quả phát triển kế toán công nợ tại công ty
+Câu 98: CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM
+Câu 99: Độc lâ p Tự do Hạnh phúc
+Câu 100: iv
+Câu 101: 4
+Câu 102: Sản phẩm
+Câu 103: Báo cáo tổng kết
+Câu 104: TRƯỞNG NGÀNH
+Câu 105: GIẢNG VIÊN HƯỚNG DẪN
+Câu 106: v
+Câu 107: CỘNG HOÀ XÃ HỘI CHỦ NGHĨA VIỆT NAM
+Câu 108: Độc lập Tư do Hạnh Phúc
+Câu 109: PHIẾU NHẬN XÉT CỦA GIÁO VIÊN HƯỚNG DẪN
+Câu 110: Họ và tên Sinh viên
+Câu 111: VÕ CHƯ THÙY MSSV
+Câu 112: 17125105
+Câu 113: Ngành
+Câu 114: KẾ TOÁN
+Câu 115: Tên đề tài
+Câu 116: THỰC TRẠNG KẾ TOÁN CÔNG NƠ VÀ KHẢ NĂNG THANH TOÁN
+Câu 117: TẠI CÔNG TY TNHH THIẾT BỊ INOX HOÀNG TÂM
+Câu 118: Họ và tên Giáo viên hướng dẫn
+Câu 119: Th
+Câu 120: S NGUYỄN THỊ LAN ANH
+Câu 121: NHẬN XÉT
+Câu 122: 1
+Câu 123: Về nội dung đề tài khối lượng thực hiện
+Câu 124: 2
+Câu 125: Ưu điểm
+Câu 126: 3
+Câu 127: Khuyết điểm
+Câu 128: vi
+Câu 129: 4
+Câu 130: Đề nghị cho bảo vệ hay không
+Câu 131: 5
+Câu 132: Đánh giá loại
+Câu 133: 6
+Câu 134: Điểm
+Câu 135: Bằng chữ
+Câu 136: Tp
+Câu 137: Hồ Chí Minh, ngày tháng năm 20
+Câu 138: Giáo viên hướng dẫn
+Câu 139: Ký ghi rõ họ tên
+Câu 140: vii
+Câu 141: CỘNG HOÀ XÃ HỘI CHỦ NGHĨA VIỆT
+Câu 142: NAM
+Câu 143: Độc lập Tư do Hạnh Phúc
+Câu 144: PHIẾU NHẬN XÉT CỦA GIÁO VIÊN PHẢN BIỆN
+Câu 145: Họ và tên Sinh viên
+Câu 146: VÕ CHƯ THÙY
+Câu 147: Ngành
+Câu 148: KẾ TOÁN
+Câu 149: Tên đề tài
+Câu 150: THỰC TRẠNG KẾ TOÁN CÔNG NƠ VÀ KHẢ NĂNG THANH TOÁN
+Câu 151: TẠI CÔNG TY TNHH THIẾT BỊ INOX HOÀNG TÂM
+Câu 152: Họ và tên Giáo viên phản biện
+Câu 153: NHẬN XÉT
+Câu 154: 1
+Câu 155: Về nội dung đề tài khối lượng thực hiện
+Câu 156: 2
+Câu 157: Ưu điểm
+Câu 158: 3
+Câu 159: Khuyết điểm
+Câu 160: viii
+Câu 161: 4
+Câu 162: Đề nghị cho bảo vệ hay không
+Câu 163: 5
+Câu 164: Đánh giá loại
+Câu 165: 6
+Câu 166: Điểm
+Câu 167: Bằng chữ
+Câu 168: Tp
+Câu 169: Hồ Chí Minh, ngày tháng năm 20
+Câu 170: Giáo viên phản biện
+Câu 171: Ký ghi rõ họ tên
+Câu 172: i
+Câu 173: LỜI MỞ ĐẦU
+Câu 174: 1
+Câu 175: Tính cấp thiết
+Câu 176: Với nền kinh tế đang trong thời kỳ phát triển rất mạnh và bất ổn như hiện nay thì đối với danh nghiệp công tác kế toán công nợ cũng rất quan trọng vì doanh nghiệp ngoài việc phải thanh toán các khoản nợ cho khách hàng nhằm để có chữ tin với khách hàng ra còn phải thu hồi được các khoản nợ để tránh tình trạng chiếm dụng vốn của doanh nghiệp
+Câu 177: Ngoài ra việc thanh toán cũng giúp doanh nghiệp thực hiện nghĩa vụ đối với nhà nước
+Câu 178: Sau khi thấy tầm quan trọng của một kế toán công nợ và được sự phân công công tác của Ban giám đốc trong quá trình thực tâ p em đã chọn đề tài
+Câu 179: Thực trạng kế toán công nợ và khả năng thanh toán tại công ty TNHH Thiết bị Inox Hoàng Tâm để làm luâ n văn tốt nghiệp
+Câu 180: 2
+Câu 181: Mục tiêu nghiên cứu
+Câu 182: Luâ n văn nghiên cứu thực trạng kế toán công nợ áp dụng tại công ty trách nhiệm hữu hạn Thiết bị Inox Hoàng Tâm, nhâ n diện những tồn tại về công tác kế toán công nợ tại công ty, qua đó đưa ra những giải pháp nâng cao hiệu quả quản lý công nợ và thu hồi nợ tại công ty TNHH Thiết bị Inox Hoàng Tâm
 Câu 183: 3
-Câu 184: 3
-Câu 185: 4
-Câu 186: Xóa dữ liệu
-Câu 187: 25
-Câu 188: CHƯƠNG 4
-Câu 189: LÀM VIỆC VỚI MONGODB
-Câu 190: 27
-Câu 191: 4
-Câu 192: 1
-Câu 193: Mô tả bài toán
-Câu 194: 27
-Câu 195: 4
-Câu 196: 2
-Câu 197: Mô tả cơ sở dữ liệu, tập dữ liệu nếu có
-Câu 198: 27
-Câu 199: 4
-Câu 200: 3
-Câu 201: Các chức năng chính của ứng dụng
-Câu 202: 28
-Câu 203: 4
-Câu 204: 4
-Câu 205: Hướng dẫn cài đặt
-Câu 206: 29
-Câu 207: 4
-Câu 208: 5
-Câu 209: Kết quả
-Câu 210: 29
-Câu 211: 1
-Câu 212: CHƯƠNG 1
-Câu 213: GIỚI THIỆU NOSQL
-Câu 214: 1
-Câu 215: 1
-Câu 216: Giới thiệu
-Câu 217: NoSQL là một loại hệ thống quản lý cơ sở dữ liệu khác với cơ sở dữ liệu quan hệ truyền thống ở chỗ nó không sử dụng ngôn ngữ truy vấn có cấu trúc SQL để thao tác dữ liệu
-Câu 218: Thay vào đó, cơ sở dữ liệu NoSQL sử dụng các cơ sở dữ liệu phi quan hệ có thể xử lý lượng lớn dữ liệu phi cấu trúc và bán cấu trúc, chẳng hạn như documents, graphs, và key value pairs
-Câu 219: Cơ sở dữ liệu NoSQL ban đầu được phát triển để giải quyết các hạn chế về khả năng mở rộng và hiệu suất của cơ sở dữ liệu quan hệ truyền thống, vốn gặp khó khăn trong việc xử lý lượng dữ liệu khổng lồ được tạo ra bởi các ứng dụng web hiện đại và các hệ thống sử dụng nhiều dữ liệu khác
-Câu 220: Cơ sở dữ liệu NoSQL được thiết kế để có khả năng mở rộng cao, linh hoạt và có khả năng chịu lỗi cao, khiến chúng trở nên lý tưởng để sử dụng trong các hệ thống phân tán quy mô lớn và môi trường điện toán đám mây
-Câu 221: 1
-Câu 222: 2
-Câu 223: Đặc điểm của NoSQL
-Câu 224: Tính linh hoạt của lược đồ
-Câu 225: Cơ sở dữ liệu NoSQL được thiết kế để xử lý dữ liệu phi cấu trúc và bán cấu trúc, chúng không yêu cầu lược đồ cố định như cơ sở dữ liệu quan hệ
-Câu 226: Điều này giúp việc thêm dữ liệu mới vào cơ sở dữ liệu dễ dàng hơn mà không cần phải sửa đổi lược đồ
-Câu 227: Khả năng mở rộng
-Câu 228: Cơ sở dữ liệu NoSQL có khả năng mở rộng cao, chúng có thể xử lý khối lượng dữ liệu lớn và lưu lượng truy cập cao
-Câu 229: Nhiều cơ sở dữ liệu NoSQL được thiết kế để chạy trên nhiều nút hoặc máy chủ, giúp chúng mở rộng quy mô theo chiều ngang
-Câu 230: Hiệu suất cao
-Câu 231: Cơ sở dữ liệu NoSQL được tối ưu hóa về hiệu suất, thường sử dụng kiến trúc phân tán và lưu trữ trong bộ nhớ để đạt được tốc độ đọc và ghi nhanh
-Câu 232: Tính sẵn sàng
-Câu 233: Cơ sở dữ liệu NoSQL được thiết kế để có tính sẵn sàng cao, người dùng luôn có thể truy cập chúng ngay cả trong trường hợp xảy ra lỗi phần cứng hoặc mạng
-Câu 234: Sao chép
-Câu 235: Nhiều cơ sở dữ liệu NoSQL hỗ trợ sao chép dữ liệu, cho phép chúng phân phối dữ liệu trên nhiều nút hoặc máy chủ để tăng tính khả dụng và khả năng chịu lỗi
-Câu 236: 2
-Câu 237: Phân mảnh
-Câu 238: Cơ sở dữ liệu NoSQL thường hỗ trợ phân mảnh, giúp chúng phân vùng dữ liệu trên nhiều máy chủ hoặc nút để cải thiện khả năng mở rộng và hiệu suất
-Câu 239: Mô hình dữ liệu NoSQL
-Câu 240: Cơ sở dữ liệu NoSQL sử dụng nhiều mô hình dữ liệu phi quan hệ, chẳng hạn như key value, document, column family, và graph
-Câu 241: Mỗi mô hình này đều có điểm mạnh và điểm yếu riêng, giúp cơ sở dữ liệu NoSQL có tính linh hoạt cao và thích ứng với nhiều trường hợp sử dụng
-Câu 242: 1
-Câu 243: 3
-Câu 244: Phân loại cơ sở dữ liệu NoSQL
-Câu 245: 1
-Câu 246: 3
-Câu 247: 1
-Câu 248: Key value
-Câu 249: Là một loại cơ sở dữ liệu lưu trữ dữ liệu dưới dạng tập hợp các cặp key value
-Câu 250: Trong kiểu lưu trữ dữ liệu này, mỗi mục dữ liệu được xác định bằng một khóa duy nhất và giá trị được liên kết với khóa đó có thể là bất kỳ thứ gì, chẳng hạn như chuỗi, số, đối tượng hoặc thậm chí là cấu trúc dữ liệu khác
-Câu 251: Các database phổ biến
-Câu 252: Redis, Memcached và DynamoDB
-Câu 253: 1
-Câu 254: 3
-Câu 255: 2
-Câu 256: Document
-Câu 257: Một document là một bản ghi trong cơ sở dữ liệu document
-Câu 258: Một document thường lưu trữ thông tin về một đối tượng và bất kỳ siêu dữ liệu nào liên quan đến nó
-Câu 259: Document lưu trữ dữ liệu theo cặp trường giá trị
-Câu 260: Các giá trị có thể có nhiều loại và cấu trúc khác nhau, bao gồm chuỗi, số, ngày tháng, mảng hoặc đối tượng
-Câu 261: Tài
-Câu 262: 3
-Câu 263: liệu có thể được lưu trữ ở các định dạng như JSON, BSON và XML
-Câu 264: Các database phổ biến
-Câu 265: MongoDB, DocumentDB, CouchDB và Cloudant
-Câu 266: 1
-Câu 267: 3
-Câu 268: 3
-Câu 269: Graph
-Câu 270: Cơ sở dữ liệu loại graph lưu trữ các thực thể cũng như mối quan hệ giữa các thực thể đó
-Câu 271: Thực thể được lưu trữ dưới dạng một nút với mối quan hệ là các cạnh
-Câu 272: Một cạnh đưa ra mối quan hệ giữa các nút
-Câu 273: Mỗi nút và cạnh có một mã định danh duy nhất
-Câu 274: Các database phổ biến
-Câu 275: Neo4J và Cosmos DB
-Câu 276: 4
+Câu 184: Đối tượng và phạm vi nghiên cứu
+Câu 185: 3
+Câu 186: 1
+Câu 187: Đối tượng nghiên cứu
+Câu 188: Luâ n văn tâ p trung nghiên cứu các nội dung về kế toán công nợ và tổ chức kế toán công nợ tại công ty TNHH Thiết bị Inox Hoàng Tâm
+Câu 189: 3
+Câu 190: 2
+Câu 191: Phạm vi nghiên cứu
+Câu 192: Không gian nghiên cứu
+Câu 193: công ty TNHH Thiết bị Inox Hoàng Tâm, bao gồm văn phòng công ty và các đơn bị, bộ phâ n trực thuộc
+Câu 194: Thời gian nghiên cứu
+Câu 195: số liệu được minh họa về kế toán công nợ tại công ty là số liệu từ tháng 9 2018 đến 2020
+Câu 196: 4
+Câu 197: Phương pháp nghiên cứu
+Câu 198: Luâ n văn sử dụng phương pháp quan sát, so sánh, giải thích, lâ p luâ n logic
+Câu 199: 5
+Câu 200: Bố cục của đề tài
+Câu 201: Bố cục đề tài ngoài mở đầu và kế luâ n thì gồm 4 chương
+Câu 202: Giới thiệu khái quát về công ty TNHH Thiết bị Inox Hoàng Tâm
+Câu 203: ii
+Câu 204: Cơ sở lý thuyết
+Câu 205: Thực trạng công nợ và khả năng thanh toán công ty TNHH Thiết bị Inox Hoàng
+Câu 206: Tâm
+Câu 207: Một số biện pháp nâng cao hiệu quả quản lý và thu hồi công nợ tại công ty TNHH
+Câu 208: Thiết bị Inox Hoàng Tâm
+Câu 209: iii
+Câu 210: LỜI CẢM ƠN
+Câu 211: Trước hết, em xin chân thành cảm ơn Thạc sĩ Nguyễn Thị Lan Anh đã tâ n tình hướng dẫn giúp đỡ và truyền đạt cho em những kinh nghiệm, giúp em hoàn thành tốt bài khóa luâ n tốt nghiệp này
+Câu 212: Để hoàn thành báo cáo này em xin chân thành cảm ơn Ban Giám Đốc cùng anh chị Phòng kế toán, Phòng kinh doanh và các anh chị ở các bộ phâ n khác công ty TNHH
+Câu 213: Thiết bị Inox Hoàng Tâm đã nhiệt tình giúp đỡ, tạo mọi điều kiện thuâ n lợi cho em được tiếp xúc thực tế, giải đáp thắc mắc, giúp em có thêm hiểu biết về công việc kế toán
+Câu 214: Qua thời gian thực tâ p tại Công ty TNHH Thiết bị Inox Hoàng Tâm đã giúp em hiểu một cách tổng quát và sâu sắc hơn về Thực trạng kế toán công nợ và khả năng thanh toán của công ty
+Câu 215: Qua đó, em hiểu được sự khác biệt giữa lý thuyết được học ở trường và thực tiễn công ty đang thực hiện
+Câu 216: Với vốn kiến thức được học tại trường, em đã áp dụng trong quá trình thực tâ p của mình nhưng vẫn không tránh khỏi những thiếu xót
+Câu 217: Em rất mong nhâ n được những ý kiến đóng góp, phê bình của quý thầy cô và anh chị trong công ty
+Câu 218: Đó sẽ là hành trang quý báu giúp em hoàn thiện kiến thức của mình sau này
+Câu 219: Kính chúc Cô Nguyễn Thị Lan Anh và Ban Giám Đốc cùng các anh chị trong công ty được nhiều sức khỏe, công tác tốt
+Câu 220: Em xin chân thành cảm ơn
+Câu 221: TP
+Câu 222: Hồ Chí Minh, ngày 30 tháng 01 năm 2021
+Câu 223: Sinh viên thực hiện
+Câu 224: Võ Chư Thùy
+Câu 225: iv
+Câu 226: TÓM TẮT
+Câu 227: Để thực hiện tìm hiểu đề tài Thực trạng kế toán công nợ và khả năng thanh toán công ty TNHH Thiết bị Inox Hoàng Tâm em tiến hành nghiên cứu các vấn đề cần thiết như
+Câu 228: tình hình công nợ, thu thâ p sổ sách, chứng từ liên quan, tham khảo ý kiến từ nhân viên kế toán công ty
+Câu 229: Đồng thời, phân tích bằng cách sử dụng, tính toán những tỷ số tài chính liên quan, cách thức hoạt động, nội dung kế toán từ đó áp dụng đánh giá thực trạng công nợ và khả năng thanh toán của công ty TNHH Thiết bị Inox Hoàng Tâm
+Câu 230: Sau đó đưa ra biện pháp khắc phục những hạn chế mà công nợ công ty còn gặp phải
+Câu 231: Nội dung của bài báo cáo gồm 4 chương
+Câu 232: Giới thiệu khái quát về công ty TNHH Thiết bị Inox Hoàng Tâm
+Câu 233: Cơ sở lý thuyết
+Câu 234: Thực trạng công nợ và khả năng thanh toán công ty TNHH Thiết bị Inox Hoàng
+Câu 235: Tâm
+Câu 236: Một số biện pháp nâng cao hiệu quả quản lý và thu hồi công nợ tại công ty
+Câu 237: TNHH Thiết bị Inox Hoàng Tâm
+Câu 238: v
+Câu 239: ABSTRACT
+Câu 240: To learn the topic Current situation of accounting for debt and solvency of Hoang
+Câu 241: Tam Inox Equipment Co
+Câu 242: , Ltd
+Câu 243: Research was conducted on
+Câu 244: debt situation, collection of books, Relevant words, consult the company accountant
+Câu 245: At the same time, the financial ratios, operation, accounting content were analysed, then applying the assessment of the current status of liabilities and solvency of the Equipment Company
+Câu 246: Limited
+Câu 247: Inox Hoang Tam
+Câu 248: Then take measures to overcome the limitations that the company still faces
+Câu 249: The content of the report consists of 4 chapters
+Câu 250: An overview of Hoang Tam Inox Equipment Company Limited
+Câu 251: Theoretical basis
+Câu 252: Current status of debt and solvency of Hoang Tam Inox Equipment Company Limited
+Câu 253: Some measures to improve management efficiency and debt collection at Hoang Tam
+Câu 254: Inox Equipment Company Limited
+Câu 255: vi
+Câu 256: MỤC LỤC
+Câu 257: LỜI MỞ ĐẦU
+Câu 258: i
+Câu 259: LỜI CẢM ƠN
+Câu 260: ii
+Câu 261: TÓM TẮT
+Câu 262: iv
+Câu 263: ABSTRACT
+Câu 264: v
+Câu 265: MỤC LỤC
+Câu 266: vi
+Câu 267: DANH MỤC TỪ VIẾT TẮT
+Câu 268: viii
+Câu 269: DANH MỤC BẢNG BIỂU
+Câu 270: ix
+Câu 271: DANH MỤC BIỂU ĐỒ VÀ HÌNH ẢNH
+Câu 272: x
+Câu 273: CHƯƠNG 1
+Câu 274: GIỚI THIỆU KHÁI QUÁT VỀ CÔNG TY TNHH THIẾT BỊ INOX
+Câu 275: HOÀNG TÂM
+Câu 276: 1
 Câu 277: 1
-Câu 278: 3
-Câu 279: 4
-Câu 280: Column
-Câu 281: Sử dụng một tập hợp các cột để lưu trữ dữ liệu
-Câu 282: Các tập hợp cột này được gọi là họ cột và người dùng có thể truy vấn trực tiếp các họ cột này mà không cần xem qua tất cả các bản ghi dữ liệu
-Câu 283: Các database phổ biến
-Câu 284: Cassandra và HBase
+Câu 278: 1
+Câu 279: Tóm lược quá trình hình thành và phát triển
+Câu 280: 1
+Câu 281: 1
+Câu 282: 2
+Câu 283: Tổ chức sản xuất kinh doanh
+Câu 284: 2
 Câu 285: 1
-Câu 286: 4
-Câu 287: So sánh cơ sở dữ liệu NoSQL với cơ sở dữ liệu quan hệ
-Câu 288: NoSQL
-Câu 289: RDBMS
-Câu 290: Mô hình dữ liệu
-Câu 291: Đa dạng kiểu mô hình dữ liệu như documents, graphs, và key value pairs
-Câu 292: Không yêu cầu schema cố định và có thể lưu trữ dữ liệu có cấu trúc, bán cấu trúc hoặc phi cấu trúc
-Câu 293: Sử dụng mô hình dữ liệu quan hệ, trong đó dữ liệu được tổ chức thành các bảng có các hàng và cột
-Câu 294: Các bảng liên kết thông qua khóa ngoại
-Câu 295: Khả năng mở rộng
-Câu 296: Thường mở rộng theo chiều ngang horizontal scaling bằng cách thêm các node hoặc server
-Câu 297: Thường mở rộng theo chiều dọc
-Câu 298: vertical scaling bằng cách nâng cấp phần cứng tăng CPU, bộ nhớ,
-Câu 299: 5
-Câu 300: mới vào hệ thống
-Câu 301: Tính chất
-Câu 302: Linh hoạt về tính nhất quán, có thể đánh đổi tính nhất quán để đạt được hiệu suất cao hơn
-Câu 303: Tính linh hoạt, khả năng mở rộng và tính sẵn sàng cao được ưu tiên
-Câu 304: Sử dụng ACID nguyên tử atomicity, nhất quán consistency, cô lập isolation, bền vững durability để đảm bảo tính toàn vẹn của giao dịch
-Câu 305: Linh hoạt trong cấu trúc dữ liệu
-Câu 306: Linh hoạt hơn trong việc thay đổi cấu trúc dữ liệu, có thể sử dụng để lưu trữ dữ liệu phân tán
-Câu 307: Phức tạp trong việc thay đổi cấu trúc dữ liệu, không phù hợp cho việc lưu trữ phân tán
-Câu 308: Ứng dụng phù hợp
-Câu 309: Thường được dùng trong các dự án yêu cầu khả năng mở rộng và kiểu lưu trữ dữ liệu đa dạng có cấu trúc, bán hoặc phi cấu trúc
-Câu 310: xử lý có tính mối quan hệ phức tạp như mạng xã hội, phân tích dữ liệu lớn, IoT,
-Câu 311: Thích hợp cho các dự án yêu cầu tính toàn vẹn dữ liệu cao như hệ thống quản lý giao dịch, quản lý ngân hàng,
-Câu 312: 6
-Câu 313: CHƯƠNG 2
-Câu 314: CƠ SỞ DỮ LIỆU MONGODB
-Câu 315: 2
-Câu 316: 1
-Câu 317: Giới thiệu
-Câu 318: MongoDB là một hệ quản trị cơ sở dữ liệu mã nguồn mở, thuộc loại NoSQL là được sử dụng rỗng rãi hiện nay
-Câu 319: MongoDB là một dạng database hướng tài liệu hay còn gọi là document, các dữ liệu được lưu trữ dưới dạng document kiểu JSON thay vì dưới dạng bảng như là cơ sở dữ liệu quan hệ cho nên là việc truy vấn sẽ rất là nhanh
-Câu 320: Đối với cơ sở dữ liệu quan hệ thì chúng ta có khái niệm như là bảng, các cơ sở dữ liệu quan hệ như MySQL hay là SQL Server sẽ sử dụng các bảng để lưu trữ dữ liệu thì đối với MongoDB, chúng ta sẽ có khái niệm là collection thay vì là bảng
-Câu 321: So với cơ sở dữ liệu quan hệ thì trong MongoDB, collection tương ứng với table, còn các document thì sẽ ứng với các row, MongoDB sẽ dùng các document này thay cho các row trong cơ sở dữ liệu quan hệ
-Câu 322: Các collection trong MongoDB được cấu trúc rất linh hoạt, cho phép các dữ liệu được lưu trữ mà không cần tuân theo một cấu trúc nhất định nào
-Câu 323: Thông tin liên quan được lưu trữ cùng nhau để truy cập, truy vấn nhanh thông qua ngôn ngữ truy vấn MongoDB
+Câu 286: 3
+Câu 287: Tổ chức quản lý đơn vị
+Câu 288: 3
+Câu 289: 1
+Câu 290: 4
+Câu 291: Tổ chức bộ phâ n thực tâ p
+Câu 292: 5
+Câu 293: 1
+Câu 294: 5
+Câu 295: Chiến lược, phương hướng phát triển của đơn vị trong tương lai
+Câu 296: 10
+Câu 297: CHƯƠNG 2
+Câu 298: CƠ SỞ LÝ THUYẾT
+Câu 299: 12
+Câu 300: 2
+Câu 301: 1
+Câu 302: Khái niệm, bản chất, vai trò và một số kiến thức liên quan công nợ
+Câu 303: 12
+Câu 304: 2
+Câu 305: 1
+Câu 306: 1
+Câu 307: Vai trò
+Câu 308: 12
+Câu 309: 2
+Câu 310: 1
+Câu 311: 2
+Câu 312: Kế toán khoản phải thu
+Câu 313: 12
+Câu 314: 2
+Câu 315: 1
+Câu 316: 3
+Câu 317: Kế toán khoản phải trả
+Câu 318: 21
+Câu 319: 2
+Câu 320: 2
+Câu 321: Nội dung trong công tác quản lý công nợ
+Câu 322: 30
+Câu 323: 2
 Câu 324: 2
-Câu 325: 2
-Câu 326: Mô hình dữ liệu trong MongoDB
-Câu 327: Có 2 cách mô hình hóa dữ liệu trong MongoDB
-Câu 328: Embedded documents
-Câu 329: Mô hình tài liệu nhúng được biết đến là mô hình hoặc lược đồ dữ liệu không chuẩn hóa
-Câu 330: Một ví dụ cụ thể là một bài đăng trên blog và các bình luận tương ứng của chúng là nhúng tài liệu con vào tài liệu cha
-Câu 331: Trong ví dụ sau là bài đăng trên blog là tài liệu cha và bình luận là tài liệu con
-Câu 332: Ưu điểm của mô hình này là có hiệu suất tốt hơn vì chúng ta có thể độc và cập nhật dữ liệu trong một hoạt động cơ sở dữ liệu duy nhất
-Câu 333: Nhược điểm của mô hình này là có thể trùng lặp dữ liệu
-Câu 334: 7
-Câu 335: References
-Câu 336: Sử dụng mô hình này, chúng ta có thể mô tả mối quan hệ giữa các tài liệu bằng cách sử dụng tham chiếu
-Câu 337: Điều này cũng được biết đến là mô hình hoặc lược đồ dữ liệu Chuẩn hóa
-Câu 338: Ví dụ về mô hình này
-Câu 339: cũng là bài đăng trên blog và các bình luận
-Câu 340: Ngoài dữ liệu của riêng nó, mỗi tài liệu bình luận cũng chứa một tham chiếu đến bài đăng trên blog cha bằng cách sử dụng id của tài liệu bài đăng trên blog cha
-Câu 341: Ưu điểm
-Câu 342: Không có sự trùng lặp dữ liệu, có thể biểu diễn mối quan hệ phức tạp nhiều nhiều và có thể biểu diễn tập dữ liệu phân cấp
-Câu 343: Nhược điểm
-Câu 344: Khi cần truy xuất dữ liệu thì cần nhiều thao tác với cơ sở dữ liệu hơn hoặc cần tham gia đến nhiều collections
-Câu 345: 8
-Câu 346: 2
+Câu 325: 1
+Câu 326: Chính sách quản lý kế toán phải thu khách hàng
+Câu 327: 30
+Câu 328: 2
+Câu 329: 2
+Câu 330: 2
+Câu 331: Chính sách quản lý khoản phải trả cho nhà cung cấp
+Câu 332: 31
+Câu 333: 2
+Câu 334: 2
+Câu 335: 3
+Câu 336: Những yếu tố ảnh hưởng đến chính sách bán chịu
+Câu 337: 32
+Câu 338: CHƯƠNG 3
+Câu 339: THỰC TRẠNG CÔNG NỢ VÀ KHẢ NĂNG THANH TOÁN CÔNG TY
+Câu 340: TNHH THIẾT BỊ INOX HOÀNG TÂM
+Câu 341: 35
+Câu 342: 3
+Câu 343: 1
+Câu 344: Cơ cấu tổ chức tài sản và nguồn vốn của công ty TNHH Thiết bị Inox Hoàng Tâm giai đoạn 2018 2020
+Câu 345: 35
+Câu 346: vii
 Câu 347: 3
-Câu 348: Kiến trúc của MongoDB
-Câu 349: MongoDB sử dụng mô hình dữ liệu NoSQL không có cấu trúc cố định như trong
-Câu 350: SQL , cho phép lưu trữ và truy vấn dữ liệu dưới dạng JSON
-Câu 351: Mô hình này linh hoạt và có thể mở rộng, cho phép thay đổi cấu trúc dữ liệu mà không cần phải thay đổi cấu trúc của cơ sở dữ liệu
-Câu 352: Một số thuộc tính kiến trúc chính của MongoDB bao gồm
-Câu 353: Tài liệu Documents
-Câu 354: Dữ liệu được lưu trữ trong các tài liệu JSON, mỗi tài liệu được lưu trữ trong một bản ghi trong một bộ sưu tập
-Câu 355: Bộ sưu tập Collections
-Câu 356: Một bộ sưu tập tương tự như một bảng trong cơ sở dữ liệu quan hệ, nhưng không có cấu trúc cố định
-Câu 357: Nó chứa một tập hợp các tài liệu có thể có cấu trúc khác nhau
-Câu 358: Cơ sở dữ liệu Database
-Câu 359: MongoDB hỗ trợ nhiều cơ sở dữ liệu, mỗi cơ sở dữ liệu có thể chứa nhiều bộ sưu tập
-Câu 360: Chỉ mục Indexes
-Câu 361: MongoDB hỗ trợ việc tạo các chỉ mục để tăng tốc độ truy vấn dữ liệu
-Câu 362: 9
-Câu 363: Sao chép Replication
-Câu 364: MongoDB hỗ trợ sao chép dữ liệu sang nhiều nút, giúp tăng tính sẵn sàng và độ tin cậy của hệ thống
-Câu 365: Phân vùng Sharding
-Câu 366: MongoDB cung cấp tính năng phân vùng dữ liệu, cho phép phân tán dữ liệu trên nhiều nút, giúp tăng khả năng mở rộng của hệ thống
-Câu 367: Kiến trúc của MongoDB được thiết kế để tối ưu hóa cho các ứng dụng có yêu cầu về tính linh hoạt, mở rộng và hiệu suất cao
-Câu 368: 2
-Câu 369: 4
-Câu 370: Các chế độ thực thi MongoDB
-Câu 371: 2
-Câu 372: 4
+Câu 348: 2
+Câu 349: Thực trạng kế toán phải thu khách hàng và kế toán dự phòng nợ phải thu khó đòi tại công ty TNHH Thiết bị Inox Hoàng Tâm
+Câu 350: 38
+Câu 351: 3
+Câu 352: 2
+Câu 353: 1
+Câu 354: Chính sách quản lý công nợ phải thu khách hàng của công ty TNHH Thiết bị Inox
+Câu 355: Hoàng Tâm
+Câu 356: 38
+Câu 357: 3
+Câu 358: 2
+Câu 359: 2
+Câu 360: Kế toán phải thu khách hàng tại công ty
+Câu 361: 45
+Câu 362: 3
+Câu 363: 2
+Câu 364: 3
+Câu 365: Đánh giá tình hình, kiểm soát nợ phải thu khách hàng
+Câu 366: 46
+Câu 367: 3
+Câu 368: 3
+Câu 369: Thực trạng các khoản phải trả của công ty
+Câu 370: 49
+Câu 371: 3
+Câu 372: 3
 Câu 373: 1
-Câu 374: Mongo Shell
-Câu 375: Mongo Shell là một giao diện dòng lệnh cung cấp các công cụ để tương tác trực tiếp với cơ sở dữ liệu MongoDB
-Câu 376: Có thể sử dụng Mongo Shell để thực hiện các thao tác như truy vấn dữ liệu, thêm, sửa đổi hoặc xóa các tài liệu, tạo và quản lý các chỉ mục, xem và quản lý dữ liệu, và nhiều hơn nữa
-Câu 377: Shell được viết bằng JavaScript và cung cấp một loạt các lệnh và hàm để thực hiện các thao tác trên cơ sở dữ liệu
-Câu 378: 2
-Câu 379: 4
-Câu 380: 2
-Câu 381: Admin API
-Câu 382: Admin API là một tập hợp các API RESTful cho phép quản lý các cụm
-Câu 383: MongoDB, cơ sở dữ liệu, bộ sưu tập và người dùng từ xa thông qua HTTP
-Câu 384: Với Admin API có thể thực hiện các thao tác như tạo và quản lý cụm, xem thông tin về các cụm và nút, tạo và quản lý người dùng và vai trò, cũng như quản lý bộ sưu tập và chỉ mục
-Câu 385: Admin API cung cấp một phương tiện linh hoạt và tự động hóa để quản lý cơ sở dữ liệu MongoDB từ xa, điều này rất hữu ích cho việc tự động hóa công việc quản trị hệ thống
-Câu 386: 10
-Câu 387: CHƯƠNG 3
-Câu 388: LÀM VIỆC VỚI MONGODB
-Câu 389: 3
-Câu 390: 1
-Câu 391: Cài đặt và cấu hình MongoDB
-Câu 392: 3
-Câu 393: 1
-Câu 394: 1
-Câu 395: Cài đặt
-Câu 396: Trước tiên, tiến hành cài đặt MongoDB Community Server và MongoDB Shell bằng cách truy cập vào các liên kết sau
-Câu 397: MongoDB Community Server
-Câu 398: https
-Câu 399: www
-Câu 400: mongodb
-Câu 401: com try download community
-Câu 402: MongoDB Shell
-Câu 403: https
-Câu 404: www
-Câu 405: mongodb
-Câu 406: com try download shell
-Câu 407: 3
-Câu 408: 1
-Câu 409: 2
-Câu 410: Cấu hình
-Câu 411: 3
-Câu 412: 1
-Câu 413: 2
-Câu 414: 1
-Câu 415: Cấu Hình MongoDB Compass
-Câu 416: Nhấn Next
-Câu 417: 11
-Câu 418: Tích I accept the term in the License Agreement và chọn Next
-Câu 419: Nhấn Complete
-Câu 420: 12
-Câu 421: Nhập các thông tin và chọn Next
-Câu 422: Chọn Install
-Câu 423: 13
-Câu 424: Cài đặt thành công
-Câu 425: Kết nối với mongoDB server
-Câu 426: Nhấn connect để kết nối mongodb
-Câu 427: localhost
-Câu 428: 27017
-Câu 429: 14
-Câu 430: Kết quả
-Câu 431: Giao diện chính mongoDB Compass với localhost
-Câu 432: 27017
-Câu 433: Tạo database trên mongoDB compass
-Câu 434: Nhấn nút icon dấu bên phải chữ
-Câu 435: Databases , hộp thoại Create Database được mở ra
-Câu 436: Nhập tên database
-Câu 437: Nhập tên collection
-Câu 438: Create Database
-Câu 439: 15
-Câu 440: Import data
-Câu 441: Sau khi kết nối với MongoDB Server xong, chọn tùy chọn Import Data và sau đó chọn tập tin dữ liệu muốn import
-Câu 442: 16
-Câu 443: Import dữ liệu thành công
-Câu 444: 3
-Câu 445: 1
-Câu 446: 2
-Câu 447: 2
-Câu 448: Cài đặt Mongo Shell
-Câu 449: 17
-Câu 450: Chọn Next
-Câu 451: Điền thông tin và chọn Next
-Câu 452: 18
-Câu 453: Chọn Install
-Câu 454: Cài đặt thành công và kiểm tra phiên bản của mongosh
-Câu 455: Xem các cơ sở dữ liệu có trên máy
-Câu 456: Sử dụng thành công cơ sở dữ liệu
-Câu 457: 19
-Câu 458: 3
-Câu 459: 2
-Câu 460: Tạo lập cơ sở dữ liệu
-Câu 461: Chọn hoặc tạo cơ sở dữ liệu Database
-Câu 462: Sử dụng lệnh use để chọn một cơ sở dữ liệu đã tồn tại hoặc để tạo một cơ sở dữ liệu mới
-Câu 463: Ví dụ
-Câu 464: use mydatabase
-Câu 465: Trong ví dụ này, nếu mydatabase đã tồn tại, cơ sở dữ liệu này sẽ được chọn
-Câu 466: Nếu không, cơ sở dữ liệu mydatabase sẽ được tạo mới
-Câu 467: Tạo hoặc cập nhật các bảng Collections
-Câu 468: Có thể tạo mới hoặc cập nhật các bảng trong cơ sở dữ liệu bằng cách sử dụng các lệnh CRUD Create, Read, Update, Delete trong MongoDB Shell
-Câu 469: Ví dụ
-Câu 470: Để tạo một bảng mới tên users , sử dụng lệnh
-Câu 471: db
-Câu 472: createCollection users
-Câu 473: Sau đó kiểm tra xem tất cả các bảng hiện có trong cơ sở dữ liệu bằng lệnh
-Câu 474: show collections
+Câu 374: Chính sách quản lý công nợ phải trả nhà cung cấp của công ty TNHH Thiết bị
+Câu 375: Inox Hoàng Tâm
+Câu 376: 50
+Câu 377: 3
+Câu 378: 3
+Câu 379: 2
+Câu 380: Kế toán các khoản phải trả người bán
+Câu 381: 55
+Câu 382: CHƯƠNG 4
+Câu 383: MỘT SỐ BIỆN PHÁP NÂNG CAO HIỆU QUẢ QUẢN LÝ VÀ THU
+Câu 384: HỒI CÔNG NỢ Ở CÔNG TY TNHH THIẾT BỊ INOX HOÀNG TÂM
+Câu 385: 62
+Câu 386: 4
+Câu 387: 1
+Câu 388: Những ưu điểm và hạn chế đối với công ty TNHH Thiết bị Inox Hoàng Tâm
+Câu 389: 62
+Câu 390: 4
+Câu 391: 1
+Câu 392: 1
+Câu 393: Ưu điểm
+Câu 394: 56
+Câu 395: 4
+Câu 396: 1
+Câu 397: 2
+Câu 398: Hạn chế
+Câu 399: 63
+Câu 400: 4
+Câu 401: 2
+Câu 402: Một số biện pháp được đề xuất
+Câu 403: 65
+Câu 404: KẾT LUẬN
+Câu 405: 67
+Câu 406: TÀI LIỆU THAM KHẢO
+Câu 407: 68
+Câu 408: PHỤ LỤC
+Câu 409: 69
+Câu 410: viii
+Câu 411: DANH MỤC TỪ VIẾT TẮT
+Câu 412: BCTC
+Câu 413: Báo cáo tài chính
+Câu 414: BVMT
+Câu 415: Bảo vệ môi trường
+Câu 416: CĐKT
+Câu 417: Cân đối kế toán
+Câu 418: CEO
+Câu 419: Tổng giám đốc
+Câu 420: COW
+Câu 421: Lệnh khởi công Commencement of work
+Câu 422: GTGT
+Câu 423: Giá trị gia tăng
+Câu 424: HTKK
+Câu 425: Hỗ trợ kê khai
+Câu 426: KQHĐKD
+Câu 427: Kết quả hoạt động kinh doanh
+Câu 428: LCTT
+Câu 429: Lưu chuyển tiền tệ
+Câu 430: PM
+Câu 431: Quản lý dự án Project manager
+Câu 432: TK
+Câu 433: Tài khoản
+Câu 434: TNCN
+Câu 435: Thu nhâ p cá nhân
+Câu 436: TNDN
+Câu 437: Thu nhâ p doanh nghiệp
+Câu 438: TNHH
+Câu 439: Trách nhiệm hữu hạn
+Câu 440: TSCĐ
+Câu 441: Tài sản cố định
+Câu 442: TT
+Câu 443: Thông tư
+Câu 444: TTĐB
+Câu 445: Tiêu thụ đặc biệt
+Câu 446: XDCB
+Câu 447: Xây dựng cơ bản
+Câu 448: XK
+Câu 449: Xuất khẩu
+Câu 450: ix
+Câu 451: DANH MỤC BẢNG BIỂU
+Câu 452: Bảng 3
+Câu 453: 1
+Câu 454: Cơ cấu tài sản và nguồn vốn của công ty TNHH Thiết bị Inox Hoàng Tâm giai đoạn đầu 2018 2020
+Câu 455: 31
+Câu 456: Bảng 3
+Câu 457: 2
+Câu 458: Danh sách những khách hàng thân thiết của công ty TNHH Thiết bị Inox
+Câu 459: Hoàng Tâm
+Câu 460: 35
+Câu 461: Bảng 3
+Câu 462: 3
+Câu 463: Thời gian thu hồi công nợ
+Câu 464: 39
+Câu 465: Sơ đồ 1
+Câu 466: 1
+Câu 467: Quy trình sản xuất kinh doanh của Công ty TNHH Thiết bị Inox Hoàng
+Câu 468: Tâm
+Câu 469: 2
+Câu 470: Sơ đồ 1
+Câu 471: 2
+Câu 472: Sơ đồ mô tả tổ chức quản lý của công ty
+Câu 473: 3
+Câu 474: Sơ đồ 1
 Câu 475: 3
-Câu 476: 3
-Câu 477: Thao tác với dữ liệu
-Câu 478: 3
-Câu 479: 3
-Câu 480: 1
-Câu 481: Truy vấn dữ liệu
-Câu 482: Để truy vấn dữ liệu trong MongoDB, sử dụng lệnh find trên collection
-Câu 483: Ví dụ
-Câu 484: Ta có collection students trong database school
-Câu 485: Truy vấn tất cả các documents trong collection students thì sử dụng lệnh
-Câu 486: 20
-Câu 487: 21
-Câu 488: Truy vấn documents với điều kiện cụ thể ví dụ
-Câu 489: age lớn hơn 20 thì sử dụng lệnh
-Câu 490: 3
-Câu 491: 3
-Câu 492: 2
-Câu 493: Thêm dữ liệu
-Câu 494: Để thêm dữ liệu vào một collection, sử dụng lệnh insertOne hoặc insertMany
-Câu 495: Ví dụ
-Câu 496: Chèn một document vào collection students sử dụng lệnh
-Câu 497: 22
-Câu 498: Ví dụ
-Câu 499: Chèn nhiều documents vào collection students ta sử dụng lệnh
-Câu 500: 3
+Câu 476: Sơ đồ bộ máy kế toán công ty TNHH Thiết bị Inox Hoàng Tâm
+Câu 477: 6
+Câu 478: Sơ đồ 1
+Câu 479: 4
+Câu 480: Sơ đồ kế toán trình tự ghi sổ theo hình thức Nhâ t Ký Chung
+Câu 481: 8
+Câu 482: Sơ đồ 2
+Câu 483: 1
+Câu 484: Sơ đồ hạch toán nghiệp vụ thanh toán với người mua Theo Quyết định
+Câu 485: 48 2006 QĐ BTC
+Câu 486: 14
+Câu 487: Sơ đồ 2
+Câu 488: 2
+Câu 489: Sơ đồ hạch toán nghiệp vụ thanh toán với người bán Theo Quyết định
+Câu 490: 48 2006 QĐ BTC
+Câu 491: 21
+Câu 492: Sơ đồ 3
+Câu 493: 1
+Câu 494: Quy trình bán hàng tại công ty TNHH Thiết bị Inox Hoàng Tâm
+Câu 495: 36
+Câu 496: Sơ đồ 3
+Câu 497: 2
+Câu 498: Sơ đồ thu tiền mặt của công ty TNHH Thiết bị Inox Hoàng Tâm
+Câu 499: 40
+Câu 500: Sơ đồ 3
 Câu 501: 3
-Câu 502: 3
-Câu 503: Cập nhật dữ liệu
-Câu 504: Để cập nhật dữ liệu trong MongoDB, sử dụng lệnh updateOne hoặc updateMany
-Câu 505: Ví dụ
-Câu 506: Cập nhật một document trong collection students có tên là John
-Câu 507: 23
-Câu 508: Dữ liệu được cập nhật thành công sử dụng lệnh db
-Câu 509: students
-Câu 510: find để truy vấn lại thông tin
-Câu 511: Ví dụ
-Câu 512: Cập nhật nhiều documents trong collection students có điều kiện tuổi lớn hơn
-Câu 513: 20
-Câu 514: 24
-Câu 515: Dữ liệu được cập nhật thành công
-Câu 516: 25
-Câu 517: 3
-Câu 518: 3
-Câu 519: 4
-Câu 520: Xóa dữ liệu
-Câu 521: Để xóa dữ liệu trong MongoDB, sử dụng lệnh deleteOne hoặc deleteMany
-Câu 522: Ví dụ
-Câu 523: Xóa một document từ collection students có tên là John sử dụng lệnh
-Câu 524: 26
-Câu 525: Ví dụ
-Câu 526: Xóa nhiều documents từ collection students có điều kiện tuổi nhỏ hơn 22 sử dụng lệnh
-Câu 527: 27
-Câu 528: CHƯƠNG 4
-Câu 529: LÀM VIỆC VỚI MONGODB
-Câu 530: 4
-Câu 531: 1
-Câu 532: Mô tả bài toán
-Câu 533: Bài toán yêu cầu xây dựng một trang web thương mại điện tử tương tự như tiki
-Câu 534: vn
-Câu 535: Trang web này sẽ cung cấp các sản phẩm từ nhiều danh mục khác nhau, cho phép người dùng tìm kiếm, xem thông tin chi tiết sản phẩm, thêm sản phẩm vào giỏ hàng và thực hiện thanh toán
-Câu 536: 4
-Câu 537: 2
-Câu 538: Mô tả cơ sở dữ liệu, tập dữ liệu nếu có
-Câu 539: Cơ sở dữ liệu Ecommerce bao gồm 3 collection
-Câu 540: users, products, orders với mô tả các thuộc tính cho các đối tượng khác nhau trong hệ thống
-Câu 541: users
-Câu 542: email
-Câu 543: Địa chỉ email của người dùng
-Câu 544: password
-Câu 545: Mật khẩu của người dùng
-Câu 546: isAdmin
-Câu 547: Đánh dấu xem người dùng có quyền quản trị admin hay không
-Câu 548: createdAt
-Câu 549: Thời điểm tạo ra tài khoản người dùng
-Câu 550: updatedAt
-Câu 551: Thời điểm cập nhật gần nhất của tài khoản người dùng
-Câu 552: address
-Câu 553: Địa chỉ của người dùng
-Câu 554: avatar
-Câu 555: Hình đại diện của người dùng
-Câu 556: name
-Câu 557: Tên của người dùng
-Câu 558: phone
-Câu 559: Số điện thoại của người dùng
-Câu 560: city
-Câu 561: Thành phố của người dùng
-Câu 562: products
-Câu 563: name
-Câu 564: Tên sản phẩm
-Câu 565: image
-Câu 566: Hình ảnh sản phẩm
-Câu 567: type
-Câu 568: Loại sản phẩm
-Câu 569: price
-Câu 570: Giá của sản phẩm
-Câu 571: countInStock
-Câu 572: Số lượng sản phẩm có sẵn trong kho
-Câu 573: rating
-Câu 574: Điểm đánh giá của sản phẩm
-Câu 575: description
-Câu 576: Mô tả về sản phẩm
-Câu 577: discount
-Câu 578: Mức giảm giá của sản phẩm nếu có
-Câu 579: createdAt
-Câu 580: Thời điểm tạo ra sản phẩm
-Câu 581: updatedAt
-Câu 582: Thời điểm cập nhật gần nhất của sản phẩm
-Câu 583: selled
-Câu 584: Số lượng sản phẩm đã bán được
-Câu 585: orders
-Câu 586: orderItems
-Câu 587: Các mặt hàng trong đơn hàng
-Câu 588: 28
-Câu 589: Object
-Câu 590: Một đối tượng không được xác định cụ thể
-Câu 591: paymentMethod
-Câu 592: Phương thức thanh toán của đơn hàng
-Câu 593: shippingPrice
-Câu 594: Phí vận chuyển của đơn hàng
-Câu 595: totalPrice
-Câu 596: Tổng giá của đơn hàng
-Câu 597: user
-Câu 598: Người dùng đặt hàng
-Câu 599: isPaid
-Câu 600: Đánh dấu xem đơn hàng đã thanh toán hay chưa
-Câu 601: isDelivered
-Câu 602: Đánh dấu xem đơn hàng đã được giao hay chưa
-Câu 603: createdAt
-Câu 604: Thời điểm đơn hàng được tạo ra
-Câu 605: updatedAt
-Câu 606: Thời điểm cập nhật gần nhất của đơn hàng
-Câu 607: __v
-Câu 608: Phiên bản của đối tượng
-Câu 609: 4
-Câu 610: 3
-Câu 611: Các chức năng chính của ứng dụng
-Câu 612: Trang chủ
-Câu 613: Xem sản phẩm
-Câu 614: Xem chi tiết sản phẩm
-Câu 615: Xem sản phẩm , Xem thêm
-Câu 616: Xem sản phẩm theo loại
-Câu 617: Tài khoản
-Câu 618: Đăng nhập
-Câu 619: Đăng ký
-Câu 620: Đăng xuất
-Câu 621: Cập nhật thông tin tài khoản
-Câu 622: Đơn Hàng
-Câu 623: Đặt hàng
-Câu 624: Hủy đơn hàng
-Câu 625: Quản lý hệ thống
-Câu 626: Người dùng
-Câu 627: Xóa thông tin
-Câu 628: Chỉnh sửa thông tin
-Câu 629: Tìm kiếm người dùng
-Câu 630: Xem danh sách thông tin người dùng
-Câu 631: Sản phẩm
-Câu 632: Thêm Sản phẩm
-Câu 633: Tìm kiếm sản phẩm
-Câu 634: Chỉnh sửa sản phẩm
-Câu 635: Xóa sản phẩm
-Câu 636: xem danh sách thông tin sản phẩm
-Câu 637: Đơn hàng
-Câu 638: Xem đơn hàng
-Câu 639: Xem báo cáo đơn hàng
-Câu 640: 29
-Câu 641: 4
-Câu 642: 4
-Câu 643: Hướng dẫn cài đặt
-Câu 644: Bước 1
-Câu 645: Đứng tại thư mục C
-Câu 646: ECommerce server, chạy cmd và gõ lệnh npm start
-Câu 647: Bước 2
-Câu 648: Đứng tại thư mục C
-Câu 649: ECommerce server, chạy cmd và gõ lệnh npm start
-Câu 650: Kết quả
-Câu 651: Hệ thống chạy trên http
-Câu 652: localhost
-Câu 653: 3000
-Câu 654: 4
-Câu 655: 5
-Câu 656: Kết quả
-Câu 657: Sau khi hoàn thành, một trang web thương mại điện tử hoàn chỉnh, cho phép người dùng thực hiện các chức năng như tìm kiếm, mua hàng và quản lý tài khoản
-Câu 658: Trang chủ
-Câu 659: Xem sản phẩm
-Câu 660: Code frontend sẽ tiến hành gọi API lấy tất cả sản phẩm với giới hạn là 12
-Câu 661: 30
-Câu 662: 31
-Câu 663: Code backend sẽ có API lấy tất cả sản phẩm
-Câu 664: 32
-Câu 665: Kết quả
-Câu 666: 33
-Câu 667: Xem chi tiết sản phẩm
-Câu 668: Chọn sản phẩm muốn xem thông tin chi tiết
-Câu 669: Code frontend sẽ thực hiện gọi API lấy chi tiết sản phẩm
-Câu 670: Code backend sẽ có API lấy chi tiết sản phẩm
-Câu 671: 34
-Câu 672: Kết quả
-Câu 673: Click chuột vào sản phẩm đã chọn Giao diện chi tiết sản phẩm được hiển thị
-Câu 674: 35
-Câu 675: Xem thêm
-Câu 676: Nhấn vào nút Xem thêm để hiển thị thêm các sản phẩm trên trang chủ
-Câu 677: Code frontend xử lý Load more
-Câu 678: Khi click vào nút Load more thì limit sẽ tăng lên
-Câu 679: Sau đó xử lý tương tự như Xem sản phẩm
-Câu 680: 36
-Câu 681: Hiển thị thành công các sản phẩm trên trang chủ
-Câu 682: Xem sản phẩm theo loại
-Câu 683: Chọn các loại sản phẩm được hiển thị trên giao diện
-Câu 684: Code frontend xử lý lấy sản phẩm theo loại, API là API lấy tất cả sản phẩm nhưng truyền thêm tham số type là loại sản phẩm và page để tiến hành phân trang
-Câu 685: 37
-Câu 686: Code backend tương tự như Xem sản phẩm
-Câu 687: Kết quả
-Câu 688: Click chuột vào loại sản phẩm Điện Gia Dụng để xem danh sách sản phẩm theo loại sản phẩm
-Câu 689: 38
-Câu 690: Tài khoản
-Câu 691: Đăng nhập
-Câu 692: Người dùng tiến hành bấm vào link Tạo tài khoản
-Câu 693: Xử lý chuyển hướng tới trang đăng ký
-Câu 694: Người dùng sau khi điền thông tin tài khoản và bấm đăng ký
-Câu 695: 39
-Câu 696: code BE tiến hành tạo tài khoản
-Câu 697: Điền gmail và mật khẩu để đăng nhập
-Câu 698: Sau khi đăng nhập thì sẽ chuyển tới trang chủ
-Câu 699: 40
-Câu 700: Đăng ký
-Câu 701: Điền các thông tin gmail và mật khẩu để đăng ký
-Câu 702: Sau khi đăng ký thành công sẽ chuyển sang trang đăng nhập để tiến hành đăng nhập
-Câu 703: 41
-Câu 704: Đăng nhập thành công sẽ chuyển qua trang chủ
-Câu 705: Đăng xuất
-Câu 706: Nhấn nút Đăng xuất để đăng xuất
-Câu 707: Sau khi đăng xuất thành công sẽ chuyển qua trang đăng nhập
-Câu 708: 42
-Câu 709: Cập nhật thông tin tài khoản
-Câu 710: Chọn Thông tin người dùng để hiển thị trang thông tin người dùng
-Câu 711: Điền các thông tin cần cập nhật
-Câu 712: 43
-Câu 713: Đây là kết quả sau khi cập nhật thông tin tài khoản, tên tài khoản đã trở thành Nhật
-Câu 714: Nam
-Câu 715: Đơn Hàng
-Câu 716: Đặt Hàng
-Câu 717: Chọn mua đơn hàng bằng cách đặt số lượng và nhấn nút Chọn mua , sản phẩm sẽ được chuyển qua giỏ hàng
-Câu 718: 44
-Câu 719: Nhấn nút Mua hàng
-Câu 720: Điền thông tin nhận hàng
-Câu 721: 45
-Câu 722: Nhấn nút Mua hàng
-Câu 723: Chọn phương thức giao hàng và phương thức thanh toán và nhấn nút Đặt hàng
-Câu 724: 46
-Câu 725: Hủy Đơn Hàng
-Câu 726: Đây là danh sách đơn hàng ban đầu
-Câu 727: Nhấn nút Hủy đơn hàng vào đơn hàng cần hủy
-Câu 728: Kết quả
-Câu 729: Đơn hàng được hủy thành công
-Câu 730: 47
-Câu 731: Quản lý hệ thống
-Câu 732: Người dùng
-Câu 733: Xóa thông tin
-Câu 734: Danh sách người dùng lúc đầu
-Câu 735: Chọn tài khoản và nhấn icon xóa
-Câu 736: 48
-Câu 737: Sau khi xóa
-Câu 738: Chỉnh sửa thông tin
-Câu 739: Thông tin lúc đầu
-Câu 740: Thông tin cần chỉnh sửa
-Câu 741: 49
-Câu 742: Thông tin đã cập nhật sau khi chỉnh sửa
-Câu 743: Tìm kiếm người dùng
-Câu 744: Nhập địa chỉ Email cần tìm kiếm
-Câu 745: 50
-Câu 746: Kết quả tìm kiếm
-Câu 747: Xem danh sách thông tin người dùng
-Câu 748: Bấm vào Người dùng để xem danh sách người dùng
-Câu 749: Quản lý hệ thống
-Câu 750: Sản phẩm
-Câu 751: Xem danh sách thông tin sản phẩm
-Câu 752: Đây là danh sách sản phẩm có trong hệ thống
-Câu 753: 51
-Câu 754: Thêm sản phẩm
-Câu 755: Nhấn dấu để thêm sản phẩm
-Câu 756: Điền các thông tin sản phẩm và nhấn nút Submit
-Câu 757: 52
-Câu 758: Kết quả
-Câu 759: Sản phẩm được thêm thành công và hiện trong danh sách sản phẩm
-Câu 760: Tìm kiếm sản phẩm
-Câu 761: Nhấn icon tìm kiếm và nhập nội dung cần tìm, nhấn nút Search
-Câu 762: 53
-Câu 763: Kết quả
-Câu 764: Tìm kiếm được sản phẩm cần tìm
-Câu 765: Chỉnh sửa sản phẩm
-Câu 766: Đây là sản phẩm trước khi chỉnh sửa có giá 53000
-Câu 767: Nhấn icon chỉnh sửa để chỉnh sửa
-Câu 768: Chỉnh sửa giá sản phẩm thành 105000 và nhấn nút Apply
-Câu 769: 54
-Câu 770: Kết quả
-Câu 771: Giá của sản phẩm đã được sửa thành 105000
-Câu 772: Xóa một sản phẩm
-Câu 773: Đây là sản phẩm trước khi xóa
-Câu 774: Chọn một sản phẩm để xóa là MacBook Air M2 2022 và nhấn icon xóa
-Câu 775: Xác nhận xóa bằng cách nhấn nút OK
-Câu 776: Kết quả
-Câu 777: Sản phẩm bị xóa thành công và không còn hiện trong danh sách sản phẩm
-Câu 778: 55
-Câu 779: Xóa nhiều sản phẩm
-Câu 780: Đây là danh sách sản phẩm trước khi xóa
-Câu 781: Nhấn tích chọn các sản phẩm cần xóa và chọn Xóa tất cả
-Câu 782: Kết quả
-Câu 783: Xóa thành công các sản phẩm đã tích chọn và không còn hiện trong danh sách sản phẩm
-Câu 784: Quản lý hệ thống
-Câu 785: Đơn hàng
-Câu 786: Xem đơn hàng
-Câu 787: Giao diện hiển thị danh sách các đơn hàng mà người dùng đã đặt
-Câu 788: 56
-Câu 789: Xem báo cáo đơn hàng
-Câu 790: Giao diện hiển thị sơ đồ đơn hàng
-Câu 791: Xanh dương là phần trăm thanh toán bằng tiền mặt, màu xanh lá cây là phần trăm thanh toán bằng paypal
-Câu 792: 57
-Câu 793: TÀI LIỆU THAM KHẢO
-Câu 794: 1 Tutorialspoint, truy cập ngày 19 02 2024, https
-Câu 795: www
-Câu 796: tutorialspoint
-Câu 797: com mongodb mongodb_overview
-Câu 798: html
-Câu 799: 2 Stackjava , Hướng dẫn cấu hình MongoDB trên Win 10 , truy cập ngày
-Câu 800: 19 02 2024, https
-Câu 801: stackjava
-Câu 802: com mongodb huong dan cai dat cau hinh mongodb tren windows 10
-Câu 803: html
-Câu 804: 3 Pratibha Kumari J, What is a NoSQL database
-Câu 805: , truy cập ngày 20 02 2024, https
-Câu 806: www
-Câu 807: linkedin
-Câu 808: com pulse what nosql database pratibha kumari jha
-Câu 809: 4 David Taylor, NoSQL Tutorial
-Câu 810: What is, Types of NoSQL Databases
-Câu 811: Example , truy cập ngày 20 02 2024, https
-Câu 812: www
-Câu 813: guru99
-Câu 814: com nosql tutorial
-Câu 815: html
-Câu 816: 5 Yousaf Khan, What is data modeling in MongoDB
-Câu 817: , educative, truy cập ngày
-Câu 818: 26 4 2024, https
-Câu 819: www
-Câu 820: educative
-Câu 821: io answers what is data modeling in mongodb
-Câu 822: 6 Swetha Doddamani, What is MongoDB
-Câu 823: , intellipaat, truy cập ngày 23 02 2024, https
-Câu 824: intellipaat
-Câu 825: com blog what is mongodb
+Câu 502: Sơ đồ thu tiền gửi ngân hàng của Công ty TNHH Thiết bị Inox Hoàng
+Câu 503: Tâm
+Câu 504: 40
+Câu 505: Sơ đồ 3
+Câu 506: 4
+Câu 507: Sơ đồ quy trình mua hàng công ty TNHH Thiết bị Inox Hoàng Tâm
+Câu 508: 48
+Câu 509: Sơ đồ 3
+Câu 510: 5
+Câu 511: Quy trình thanh toán tiền mặt của công ty TNHH Thiết bị Inox Hoàng
+Câu 512: Tâm
+Câu 513: 50
+Câu 514: Sơ đồ 3
+Câu 515: 6
+Câu 516: Quy trình thanh toán bằng tiền gửi ngân hàng của công ty TNHH Thiết bị
+Câu 517: Inox Hoàng Tâm
+Câu 518: 51
+Câu 519: x
+Câu 520: DANH MỤC BIỂU ĐỒ VÀ HÌNH ẢNH
+Câu 521: Hình 1
+Câu 522: 1
+Câu 523: Logo công ty TNHH Thiết bị Inox Hoàng Tâm
+Câu 524: 1
+Câu 525: Hình 1
+Câu 526: 2
+Câu 527: Giao diện phần mềm kế toán SmartPro
+Câu 528: 9
+Câu 529: Hình 3
+Câu 530: 1
+Câu 531: Giao diện bàn làm việc trên phần mềm kế toán SmartPro
+Câu 532: 52
+Câu 533: Hình 3
+Câu 534: 2
+Câu 535: Giao diện đơn mua hàng trên phần mềm SmartPro
+Câu 536: 53
+Câu 537: Hình 3
+Câu 538: 3
+Câu 539: Giao diện Phiếu nhâ p kho vâ t liệu chính trên phần mềm kế toán S martPro
+Câu 540: 53
+Câu 541: Hình 3
+Câu 542: 4
+Câu 543: Giao diện Phiếu nhâ p thuế GTGT đầu vào trên phần mềm SmartPro
+Câu 544: 54
+Câu 545: Hình 3
+Câu 546: 5
+Câu 547: Giao diện Chứng từ ngân hàng chuyển khoản trả người bán trên phần mềm
+Câu 548: SmartPro
+Câu 549: 55
+Câu 550: Hình 3
+Câu 551: 6
+Câu 552: Giao diện Chứng từ ngân hàng phí chuyển tiền trên phần mềm SmartPro
+Câu 553: 55
+Câu 554: Biểu đồ 3
+Câu 555: 1
+Câu 556: Cơ cấu tài sản giai đoạn 2018 2020
+Câu 557: 32
+Câu 558: Biểu đồ 3
+Câu 559: 2
+Câu 560: Cơ cấu nguồn vốn giai đoạn 2018 2020
+Câu 561: 33
+Câu 562: 1
+Câu 563: CHƯƠNG 1
+Câu 564: GIỚI THIỆU KHÁI QUÁT VỀ CÔNG TY TNHH THIẾT BỊ INOX
+Câu 565: HOÀNG TÂM
+Câu 566: 1
+Câu 567: 1
+Câu 568: Tóm lược quá trình hình thành và phát triển
+Câu 569: Tên công ty
+Câu 570: Công ty TNHH Thiết bị Inox Hoàng Tâm
+Câu 571: Tên giao dịch
+Câu 572: HOANG TAM SSE CO
+Câu 573: ,LTD
+Câu 574: Tên quốc tế
+Câu 575: HOANG TAM STAINLESS STEEL EQUIPMENT COMPANY
+Câu 576: LIMITED
+Câu 577: Người đại điện
+Câu 578: Lê Ngọc Hiền
+Câu 579: Logo công ty
+Câu 580: Hình 1
+Câu 581: 1
+Câu 582: Logo công ty TNHH Thiết bị Inox Hoàng Tâm
+Câu 583: Địa chỉ trụ sở chính
+Câu 584: Lô C14B Đường số 9, Khu công nghiệp Lê Minh Xuân, Xã
+Câu 585: Tân Nhựt, Huyện Bình Chánh, Thành phố Hồ Chí Minh
+Câu 586: Nhà máy
+Câu 587: Lô I 3B 3 Đường N6, Khu Công Nghệ Cao, Quâ n 9, Thành Phố Hồ
+Câu 588: Chí Minh
+Câu 589: Giấy chứng nhâ n đăng ký kinh doanh công ty TNHH lần đầu ngày 19 tháng 09 năm 2018 cấp tại phòng đăng ký kinh doanh SỞ KẾ HOẠCH VÀ ĐẦU TƯ THÀNH
+Câu 590: PHỐ HỒ CHÍ MINH
+Câu 591: Giấy chứng nhâ n đăng ký thuế
+Câu 592: 0315278866 Ngày 19 tháng 09 năm 2018 cấp do cơ quan quản lý thuế
+Câu 593: Cục Thuế Thành phố Hồ Chí Minh
+Câu 594: Vốn điều lệ
+Câu 595: 16
+Câu 596: 400
+Câu 597: 000
+Câu 598: 000 VNĐ Mười sáu tỷ bốn trăm triệu đồng chẵn
+Câu 599: Loại hình kinh tế
+Câu 600: Trách nhiệm hữu hạn 2 Thành viên trở lên
+Câu 601: Lĩnh vực, ngành nghề kinh doanh
+Câu 602: Sản xuất thùng, bể chứa và dụng cụ chứa đựng bằng kim loại
+Câu 603: Ngành chính
+Câu 604: 2
+Câu 605: Đạt yêu cầu
+Câu 606: Sản xuất sản phẩm khác bằng kim loại chưa được phân vào đâu
+Câu 607: Lắp đặt máy móc và thiết bị công nghiệp
+Câu 608: Sản xuất các cấu kiện kim loại
+Câu 609: Sau 2 năm hoạt động hiện tại Hoàng Tâm đã phát triển, trưởng thành và khẳng định vị thế của công ty trên thị trường
+Câu 610: Hiện tại, công ty Hoàng Tâm là một trong những thương hiệu có uy tín tại thị trường Việt Nam
+Câu 611: Với đa dạng sản phẩm, nhiều mức giá phù hợp cho khách hàng chọn lựa
+Câu 612: 1
+Câu 613: 2
+Câu 614: Tổ chức sản xuất kinh doanh
+Câu 615: Sơ đồ 1
+Câu 616: 1
+Câu 617: Quy trình sản xuất kinh doanh của Công ty TNHH Thiết bị Inox HoàngTâm
+Câu 618: Nguồn
+Câu 619: Phòng kế hoạch
+Câu 620: Quy trình sản xuất kinh doanh
+Câu 621: Bước 1
+Câu 622: Đấu thầu, tiếp thị sản phẩm, phòng kinh doanh tìm kiếm, tiếp câ n khách hàng là các công ty nước giải khát, thực phẩm, mỹ phẩm,
+Câu 623: Tham gia đấu thầu cạnh tranh với các công ty khác
+Câu 624: Bước 2
+Câu 625: Phòng kế toán làm hợp đồng khi phòng kinh doanh thông báo nhâ n được thầu của bên đối tác
+Câu 626: Nhận hợp đồng
+Câu 627: Đơn đặt hàng
+Câu 628: Lập kế hoạch sản xuất sản phẩm
+Câu 629: Tiến hành sản xuất sản phẩm
+Câu 630: Giao hàng cho khách hàng
+Câu 631: Nghiệm thu sản phẩm
+Câu 632: Đấu thầu, tiếp thị sản phẩm
+Câu 633: Thanh lý hợp đồng
+Câu 634: Bàn giao sản phẩm
+Câu 635: Không đạt yêu cầu
+Câu 636: 3
+Câu 637: Bước 3
+Câu 638: Hợp đồng sau khi ký sẽ chuyển xuống phòng kế hoạch
+Câu 639: Phòng kế hoạch bắt đầu lâ p kế hoạch để tiến hành sản xuất sản phẩm
+Câu 640: Bước 4
+Câu 641: Phân xưởng sản xuất nhâ n được kế hoạch sản xuất sản phẩm sẽ tiến hành sản xuất sản phẩm cho dự án
+Câu 642: Bước 5
+Câu 643: Nghiệm thu sản phẩm kiểm tra kỹ thuâ t, chất lượng,
+Câu 644: Nếu sản phẩm đạt những chỉ tiêu đã nêu ra thi tiến hành đóng gói giao cho khách hàng
+Câu 645: Ngược lại quay lại bước 4 kiểm tra, sửa lỗi hàng cho đến khi đạt tiêu chuẩn nhưng đảm bảo thời hạn hợp đồng
+Câu 646: Bước 6
+Câu 647: Phòng kinh doanh sẽ tiến hành thanh lý hợp đồng dự án với đối tác, tiếp đó chuyển sang phòng kế toán để tiến hành xuất hóa đơn, chứng từ, lưu trữ sổ sách tại công ty
+Câu 648: 1
+Câu 649: 3
+Câu 650: Tổ chức quản lý đơn vị
+Câu 651: Sơ đồ tổ chức của công ty
+Câu 652: Sơ đồ 1
+Câu 653: 2
+Câu 654: Sơ đồ mô tả tổ chức quản lý của công ty
+Câu 655: Nguồn
+Câu 656: Phòng Hành chính
+Câu 657: Chức năng va nhiệm vụ của từng bộ phận
+Câu 658: Tổng giám đốc
+Câu 659: Là người điều hành công việc kinh doanh hằng ngày của công ty
+Câu 660: chịu sự giám sát của Tổng giám đốc và chịu trách nhiệm trước Hội đồng thành viên và trước pháp luâ t về việc thực hiện các quyền và nhiệm vụ được giao
+Câu 661: Giám đốc phải điều hành công ty theo đúng quy định của pháp luâ t, điều lệ công ty, hợp đồng lao động ký với công ty và quyết định của Hội đồng thành viên
+Câu 662: Nếu điều hành trái với quy định này mà gây thiệt
+Câu 663: TỔNG GIÁM ĐỐC
+Câu 664: PHÒNG KỸ
+Câu 665: THUẬT SẢN
+Câu 666: XUÂ T
+Câu 667: KẾ HOẠCH
+Câu 668: PHÒNG
+Câu 669: KINH
+Câu 670: DOANH
+Câu 671: PHÒNG
+Câu 672: HÀNH
+Câu 673: CHÍNH
+Câu 674: PHÒNG
+Câu 675: KẾ TOÁN
+Câu 676: PHÂN
+Câu 677: XƯỞNG SẢN
+Câu 678: XUÂ T
+Câu 679: 4
+Câu 680: hại cho công ty thì Giám đốc điều hành phải chịu trách nhiệm trước pháp luâ t và phải bồi thường thiệt hại cho công ty
+Câu 681: Phòng kỹ thuật sản xuất kế hoạch
+Câu 682: Tham mưu cho Giám đốc điều hành quản lý các lĩnh vực sau
+Câu 683: công tác quản lý và giám sát kỹ thuâ t, chất lượng, quản lý vâ t tư thiết bị, quản lý an toàn, lao động, vệ sinh môi trường tại các dự án, soát xét, lâ p, trình duyệt thiết kế kỹ thuâ t, thiết kế bản vẽ thi công kiểm định chất lượng thi công, chất lượng công trình, soát xét trình duyệt hồ sơ hoàn công công trình
+Câu 684: Xây dựng kế hoạch sản xuất theo yêu cầu của Lãnh đạo Tổng công ty, tổng hợp cân đối và giao kế hoạch, đầu tư cho các đơn vị
+Câu 685: Đề xuất những biện pháp phát triển thực hiện chiến lược,chính sách của công ty
+Câu 686: Thúc đẩy tiến độ đảm bảo chất lượng
+Câu 687: Phòng kế toán
+Câu 688: Là đơn vị thuộc bộ máy quản lý của công ty, tham mưu cho HĐQT và Tổng Giám đốc Công ty trong lĩnh vực quản lý tài chính và tổ chức hạch toán kế toán
+Câu 689: Giám sát hoạt động sản xuất kinh doanh của công ty theo đúng các chuẩn mực và Luâ t Kế toán hiện hành nhằm phản ánh kịp thời, chính xác, đầy đủ các hoạt động sản xuất kinh doanh của công ty và tình hình tài sản của công ty
+Câu 690: Có nhiệm vụ tổ chức thực hiện bảo toàn vốn cho kinh doanh và công tác chi phí trong toàn công ty, theo dõi thanh toán các khoản chi phí phát sinh, hạch toán kinh tế, tổng kết và báo cáo nhanh thanh toán tiền lương, lâ p quyết định
+Câu 691: Phòng Hành chính
+Câu 692: Có nhiệm vụ công tác tổ chức nhân sự, tổ chức quản lý lao động, thống kê về số lượng, chất lượng công nhân viên
+Câu 693: Tham mưu, giúp việc cho giám đốc công ty và tổ chức thực hiện các việc trong lĩnh vực tổ chức lao động, quản lý và bố trí nhân lực, bảo hộ lao động, chế độ chính sách, chăm sóc sức khỏe cho người lao động, bảo vệ quân sự theo luâ t và quy chế công ty, kiểm tra, đôn đốc các bộ phâ n trong công ty thực hiện nghiêm túc nộ quy, quy chế công ty, làm đầu mối liên lạc cho mọi thông tin của giám đốc công ty
+Câu 694: Phòng kinh doanh
+Câu 695: Lâ p kế hoạch tiêu thụ sản phẩm dựa trên nhu cầu thực tế, đảm bảo nguồn vâ t tư, máy móc thiết bị cho hoạt động sản xuất, lâ p kế hoạch, tổ chức đội ngũ nhân viên kinh doanh tiếp xúc và tìm kiếm khách hàng
+Câu 696: Thực hiện các báo cáo tổng hợp về tình hình sản xuất kinh doanh
+Câu 697: 5
+Câu 698: Phân xưởng sản xuất
+Câu 699: Nhiệm vụ tổ chức gia công, lắp ráp có hiệu quả bồn chứa, dụng cụ chứa theo kế hoạch của công ty giao cho
+Câu 700: Đảm bảo về chất lượng, số lượng, chính xác đúng với bản thiết kế
+Câu 701: Chịu trách nhiệm quản lý, sử dụng có hiệu quả đối với công cụ dụng cụ, TSCĐ, thành phẩm và đặc biệt giữ bí mâ t công nghệ, thiết kế và số liệu tròn quá trình sản xuất và sau sản xuất
+Câu 702: Chức năng nhiệm vụ
+Câu 703: Trong hoạt động sản xuất kinh doanh công ty có nhiệm vụ là tham gia đấu thầu, tổ chức gia công, chế tạo, thi công lắp ráp sản phẩm theo yêu cầu khách hàng
+Câu 704: Đấu thầu là quá trình rất quan trọng quyết định lớn đến doanh thu của công ty
+Câu 705: Chuẩn bị kế hoạch, dự toán phải tốt, là điều quan trọng nhất trong việc đấu thầu với chủ đầu tư, kế hoạch tốt thì sức thuyết phục về chất lượng sản phẩm của công ty với khách hàng sẽ cao hơn
+Câu 706: Mặc khác, việc tổ chức thiết kế, gia công, chế tạo quyết định công ty có đủ năng lực nhâ n thầu, liệu giá nhâ n thầu có thích hợp không
+Câu 707: Với đội ngũ quản lý chuyên nghiệp, công nhân tay lành nghề, được đào tạo tốt tại chi phí công ty luôn ở mức thấp nhất nhưng ở mức doanh thu cao là điều mà Hoàng Tâm đang hướng tới
+Câu 708: Điều đó tạo một lợi thế trong quá trình đầu tư với một mức giá thích hợp
+Câu 709: Hai yếu tố là bàn đạp tạo sự phát triển bền vững cho Hoàng Tâm trong tương lai
+Câu 710: 1
+Câu 711: 4
+Câu 712: Tổ chức bộ phận kế toán
+Câu 713: Sơ đồ tổ chức bộ máy kế toán
+Câu 714: Phòng kế toán có các vị trí như sau
+Câu 715: Kế toán trưởng
+Câu 716: 1 nhân viên
+Câu 717: Kế toán tổng hợp
+Câu 718: 1 nhân viên
+Câu 719: Kế toán thu chi
+Câu 720: 1 nhân viên
+Câu 721: Kế toán kho
+Câu 722: 1 nhân viên
+Câu 723: 6
+Câu 724: Sơ đồ 1
+Câu 725: 3
+Câu 726: Sơ đồ bộ máy kế toán công ty TNHH Thiết bị Inox Hoàng Tâm
+Câu 727: Nguồn
+Câu 728: Phòng kế toán
+Câu 729: Chức năng, nhiệm vụ của từng vị trí
+Câu 730: Kế toán trưởng
+Câu 731: Là người người chịu trách nhiệm chung về toàn bộ công tác kế toán, phân công nhiệm vụ và kiểm soát công việc của các kế toán viên
+Câu 732: Đảm bảo tính hợp lý, hợp lệ của các báo cáo trước công ty và cơ quan tài chính
+Câu 733: Tổ chức lưu trữ bảo quản và giữ gìn bí mâ t tài liệu kế toán
+Câu 734: Kế toán thu chi
+Câu 735: Kiểm tra các chứng từ thanh toán để lâ p các phiếu thu, chi tiền mặt, lưu trữ và bảo quản hồ sơ, tài liệu sổ sách kế toán về tiền mặt và tiền lương, theo dõi các khoản nợ của khách hàng, báo cáo tình hình công việc cho kế toán trưởng
+Câu 736: Câ p nhâ t những thông tin ghi nhâ n hóa đơn hàng ngày, kiểm tra đơn giá sản phẩm, lượng sản phẩm từ đó xuất hóa đơn cho khách hàng
+Câu 737: Câ p nhâ t giá cả và sản phẩm mới cho doanh nghiệp
+Câu 738: Đối chiếu với thủ kho về lượng hàng bán và tồn
+Câu 739: Kế toán tổng hợp
+Câu 740: Nhâ n chứng từ của các kế toán viên khác gửi qua, kiểm tra tính đầy đủ, hợp pháp, chính xác của chứng từ
+Câu 741: Khi các nghiệp vụ kế toán có những sai sót thì kế toán tổng hợp được quyền yêu cầu các nhân viên kế toán khác điều chỉnh sao cho hợp lý
+Câu 742: Được đề nghị các nhân viên khác cung cấp số liệu, cung cấp báo cáo theo đúng quy định
+Câu 743: Cuối tháng lâ p báo cáo thuế GTGT, thuế TNDN và nộp tiền thuế cho cơ quan thuế
+Câu 744: Hằng quý làm báo báo thuế tháng của quý đó và cáo cáo quý cho thuế GTGT, thuế
+Câu 745: TNDN và báo cáo sử dụng hóa đơn
+Câu 746: Cuối năm, lâ p báo cáo tài chính, báo cáo thuế cho tháng cuối năm, báo cáo thuế TNDN quý I và báo cáo quyết toán thuế TNCN
+Câu 747: Kế toán kho
+Câu 748: KẾ TOÁN TRƯỞNG
+Câu 749: KẾ TOÁN
+Câu 750: THU CHI
+Câu 751: KẾ TOÁN TỔNG HƠ P
+Câu 752: KẾ TOÁN KHO
+Câu 753: 7
+Câu 754: Tổ chức ghi chép phản ánh tổng hợp số liệu về tình hình tiêu thụ vâ t tư ,theo dõi tình hình xuất nhâ p vâ t tư
+Câu 755: Chịu trách nhiệm ghi chép đầy đủ và chính xác các biến động về nguyên liệu, vâ t liệu, công cụ, dụng cụ, bao gồm nhâ p hàng, xuất hàng, mất mát, các chi phí tính vào giá vốn hàng tồn kho, nguyên vâ t liệu
+Câu 756: Hạch toán đầy đủ và chính xác tất cả các giao dịch về hàng hoá và tồn kho vào tài khoản sổ cái tương ứng ngay khi các giao dịch đó phát sinh
+Câu 757: Hỗ trợ kế toán tổng hợp lâ p các phiếu nhâ p kho, xuất kho, hoá đơn bán hàng,
+Câu 758: Ngoài ra kế toán kho còn đảm nhiệm nhâ n và câ p nhâ p chứng từ về TSCĐ, kiểm tra xác nhâ n TSCĐ khi nhâ p, lâ p biên bản bàn giao và bàn giao TSCĐ cho các bộ phâ n
+Câu 759: Câ p nhâ t tắng, giảm TSCĐ, xác định thời gian, tính khấu hao
+Câu 760: Hình thức, chế độ kế toán áp dụng
+Câu 761: Bộ máy kế toán ở công ty TNHH Thiết bị Inox Hoàng Tâm được tổ chức theo hình thức kế toán tâ p trung nên mọi nghiệp vụ kinh tế phát sinh của công ty sẽ gửi về phòng kế toán để kiểm tra, xử lý và ghi sổ kế toán
+Câu 762: Công ty sử dụng hình thức nhâ t kí chung trên máy tính, bảng tính excel
+Câu 763: Trình tự ghi sổ
+Câu 764: Hằng ngày, căn cứ vào các chứng từ đã kiểm tra được dùng làm căn cứ ghi sổ, trước hết ghi nghiệp vụ phát sinh vào sổ nhâ t kí chung, sau đó căn cứ số liệu đã ghi trên nhâ t kí chung để ghi vào sổ cái theo các tài khoản kế toán phù hợp
+Câu 765: Nếu công ty có mở sổ, thẻ kế toán chi tiết thì đồng thời với việc ghi sổ nhâ t ký chung ,các nghiệp vụ phát sinh được ghi vào các sổ, thẻ kế toán chi tiết liên quan
+Câu 766: Cuối tháng, cuối quý, cuối năm cộng số liệu trên Sổ Cái, lâ p Bảng cân đối số phát sinh
+Câu 767: Sau khi đã kiểm tra đối chiếu khớp, đúng số liệu ghi trên Sổ Cái và bảng tổng hợp chi tiết được lâ p từ các sổ, thẻ kế toán chi tiết được dùng để lâ p các Báo cáo tài chính
+Câu 768: Về nguyên tắc, tổng số phát sinh nợ và tổng số phát sinh có trên bảng cân đối số phát sinh phải bằng tổng số phát sinh nợ và tổng số phát sinh có trên sổ nhâ t ký chung hoặc sổ nhâ t ký chung và các sổ nhâ t ký đặc biệt sau khi đã loại trừ số trùng lâ p trên các sổ nhâ t ký đặc biệt cùng kỳ
+Câu 769: 8
+Câu 770: Sơ đồ 1
+Câu 771: 4
+Câu 772: Sơ đồ kế toán trình tự ghi sổ theo hình thức Nhâ t Ký Chung
+Câu 773: Ghi chú
+Câu 774: Ghi hằng ngày
+Câu 775: Ghi cuối tháng
+Câu 776: Quan hệ đối chiếu kiểm tra
+Câu 777: Nguồn
+Câu 778: Phòng kế toán
+Câu 779: Định kỳ nhân viên kế toán thực hiện những báo cáo sau
+Câu 780: Hằng tháng
+Câu 781: Báo cáo thuế GTGT
+Câu 782: Hằng quý
+Câu 783: Báo cáo thuế GTGT, Báo cáo thuế TNDN tạm tính, Thuế TNCN và báo cáo tình hình sử dụng hóa đơn
+Câu 784: Chứng từ ngân hàng
+Câu 785: NHẬT KÝ CHUNG
+Câu 786: SỔ CÁI
+Câu 787: Bảng cân đối phát sinh
+Câu 788: BÁO CÁO TÀI
+Câu 789: CHÍNH
+Câu 790: Sổ chi tiết
+Câu 791: Bảng tổng hợp chi tiết
+Câu 792: Sổ nhật ký đặc biệt
+Câu 793: 9
+Câu 794: Hằng năm
+Câu 795: Báo cáo quyết toán thuế TNDN, bảng CĐKT, Báo cáo KQHĐKD,
+Câu 796: Báo cáo LCTT, Thuyết minh BCTC
+Câu 797: Hệ thống tài khoản
+Câu 798: Công ty TNHH Thiết bị Inox Hoàng Tâm có hệ thống tài khoản áp dụng theo Chế độ kế toán của doanh nghiệp được ban hành theo TT 200 2014 TT BTC
+Câu 799: Phần mềm kế toán đang sử dụng Chi tiết các phần hành kế toán của phần mềm
+Câu 800: Công ty sử dụng phần mềm kế toán SmartPro để hoạch toán các nghiệp vụ phát sinh của công ty hỗ trợ công tác kế toán in chứng từ, sổ sách kế toán, BCTC, tích hợp hóa đơn điện tử, câ p nhâ t BCTC qua HTKK và đưa dữ liệu qua Excel và ngược lại dễ dàng
+Câu 801: Việc sử dụng phần mềm SmartPro và các phần mềm khác như Excel khác giúp
+Câu 802: Ban quản lý dễ dàng trong việc nhâ p liệu thông tin chủ đầu tư, khách hàng, nhà cung cấp,
+Câu 803: Hình 1
+Câu 804: 2
+Câu 805: Giao diện Phần mềm kế toán SmartPro
+Câu 806: Nguồn
+Câu 807: Phòng kế toán
+Câu 808: 10
+Câu 809: Các phương pháp kế toán
+Câu 810: Phương pháp khấu hao TSCĐ hữu hình, TSCĐ vô hình
+Câu 811: Theo phương pháp đường thẳng
+Câu 812: Hạch toán thuế GTGT
+Câu 813: Theo phương pháp khấu trừ
+Câu 814: Hạch toán hàng tồn kho và tính giá xuất kho
+Câu 815: theo phương pháp bình quân gia quyền cuối kỳ
+Câu 816: Nguyên tắc ghi nhâ n doanh thu bán hàng, doanh thu cung cấp dịch vụ, doanh thu hoạt động tài chính
+Câu 817: theo chuẩn mực kế toán
+Câu 818: Niên độ kế toán, đơn vị tiền tệ sử dụng trong kế toán
+Câu 819: Kỳ kế toán
+Câu 820: Niên độ kế toán của công ty bắt đầu từ ngày 01 tháng 01 và kết thúc vào ngày 31 tháng 12 hàng năm
+Câu 821: Đơn vị tiền tệ sử dụng trong kế toán
+Câu 822: Đồng Việt Nam VND
+Câu 823: 1
+Câu 824: 5
+Câu 825: Chiến lược, phương hướng phát triển của đơn vị trong tương lai
+Câu 826: Hoàng Tâm luôn đề cao rằng tài sản lớn nhất của một công ty là con người
+Câu 827: Chính vì vâ y công ty tâ p trung vào trí tuệ, đào tạo và chấn chỉnh tổ chức đẩy lùi khó khăn, khai thác tối đa các nguồn vốn, đầu tư thiết bị, ứng dụng và năm bắt những công nghệ mới vào sản xuất
+Câu 828: Xây dựng Hoàng Tâm vững mạnh trong lĩnh vực sản xuất, lắp ráp bồn chứa và dụng cụ chứa
+Câu 829: Về sản phẩm
+Câu 830: phát triển sản phẩm cải tiền, hiện đại, quan tâm phát triển những sản phẩm có tính công nghệ, kỹ thuâ t cao khẳng định được vị thế của Hoàng Tâm hơn trong lĩnh vực này
+Câu 831: Về thị trường
+Câu 832: Cần phải tiếp thị quảng bá thương hiệu của công ty
+Câu 833: Thực hiện tốt chính sách bảo trì đối với sản phẩm của công ty để tạo được niềm tin, đáp ứng yêu cầu khách hàng
+Câu 834: Phát huy mọi nguồn lực, đẩy mạnh hoạt động đối ngoại, liên doanh, liên kết với các đối tác nước ngoài để tiếp câ n thị trường quốc tế rộng lớn hơn
+Câu 835: Về khoa học công nghệ
+Câu 836: Thường xuyên câ p nhâ t, nghiên cứu, áp dụng các tiến bộ khoa học công nghệ trên thế giới
+Câu 837: Cải tiến máy móc để chi phí tiết kiệm nhưng chất lượng vẫn tốt và có thể hơn thế nữa
+Câu 838: Về đầu tư
+Câu 839: duy trì đầu tư thiết bị hiện đại, mang tính đổi mới công nghệ, đồng thời tiếp tục đào tạo đội ngũ nhân viên và công nhân để quá trình được xuyên suốt và đáp ứng yêu cầu phát triển của công ty
+Câu 840: Về tài chính
+Câu 841: Đảm bảo chi phí hợp lý, nguồn vốn sử dụng có hiệu quả
+Câu 842: năng lực tài chính nâng cao, đảm bảo phát triển liên tục, ổn định, vững chắc
+Câu 843: 11
+Câu 844: TÓM TẮT CHƯƠNG 1
+Câu 845: Chương 1 giới thiệu tổng quát về công ty TNHH Thiết bị Inox Hoàng Tâm
+Câu 846: Đồng thời đề câ p đến các sản phẩm dịch vụ đang được cung cấp tại công ty
+Câu 847: Việc tìm hiểu thông tin cơ bản về công ty TNHH Thiết bị Inox Hoàng Tâm giúp thuâ n lợi hơn trong việc phân tích tình hình tài sản và nguồn vốn của công ty trong chương 2
+Câu 848: 12
+Câu 849: CHƯƠNG 2
+Câu 850: CƠ SỞ LÝ THUYẾT
+Câu 851: 2
+Câu 852: 1
+Câu 853: Khái niệm, bản chất, vai trò và một số kiến thức liên quan công nợ
+Câu 854: 2
+Câu 855: 1
+Câu 856: 1
+Câu 857: Vai trò
+Câu 858: Đối với công ty
+Câu 859: Hiện nay ở bất kỳ doanh nghiệp lớn, nhỏ nào để mà có thể cạnh tranh trên thị trường thì đều phải tâ n dụng hết tất cả những khả năng, nguồn lực và công cụ mà doanh nghiệp đó
+Câu 860: Trong đó cách để đạt được doanh thu, dự án thì công ty phải tạo điều kiện về việc bán chịu đối với khách hàng
+Câu 861: Bởi lẽ xu hướng cạnh tranh thị trường hiện nay, thì người mua sẽ quan tâm về chính sách giá cả và cho nợ lâu dài vì vâ y chính sách này thu hút thêm nhiều khách hàng mới có nhu cầu cho công ty
+Câu 862: Đây được coi là một chiến lược dài hạn trong cạnh tranh để thu hút khách hàng, nhất là khách hàng mới
+Câu 863: Công ty có chính sách đãi ngộ hấp dẫn về thanh toán và nợ thì chắc chắn khách hàng sẽ quan tâm công ty hơn là công ty đối thủ
+Câu 864: Đặc biệt, công ty sẽ tạo dựng được hình ảnh đẹp và uy tín trên thương trường và mở rộng được nhiều mối quan hệ khách hàng,
+Câu 865: Việc bán chịu ngoài các lợi ích mang lại còn có nhiều mặt tác hại ảnh hưởng như xuất hiện những khoản nợ ngoài vòng kiểm soát
+Câu 866: Các vấn đề về rắc rối tài chính có thể làm khoản nợ khó đòi tăng lên và dẫn đến phá sản
+Câu 867: Đối với khách hàng
+Câu 868: Khách hàng mua nhưng chưa thể thanh toán hết được số tiền cần trả nên có thể chịu nợ để lấy hàng ngay và sẽ trả vào một thời gian sau
+Câu 869: Bán chịu đối với khách hàng tạo điều kiện tốt để mua hàng, được sử dụng vốn của bạn hàng , khách hàng còn có thể nhâ n được khoản chiết khấu nếu trả nợ sớm hoặc thời hạn được kéo dài thêm
+Câu 870: Khi khách hàng thiếu vốn gặp khó khăn về vốn kinh doanh hay muốn đầu tư vào cơ hội khác thì việc bán chịu là biên pháp tài trợ vốn hữu hiệu
+Câu 871: 2
+Câu 872: 1
+Câu 873: 2
+Câu 874: Kế toán khoản phải thu
+Câu 875: Khái niệm, bản chất
+Câu 876: Phản ánh các khoản nợ phải thu, tình hình thanh toán các khoản nợ phải thu của doanh nghiệp với khách hàng về tiền bán sản phẩm, hàng hóa, BĐS đầu tư, TSCĐ, các khoản đầu tư tài chính, cung cấp dịch vụ
+Câu 877: Tài khoản này còn dùng để phán ánh các khoản phải thu của người nhâ n thầu XDCB với người giao thầu về khối lượng công tác XDCB đã hoàn thành
+Câu 878: Không phản ánh vào các tài khoản này các nghiệp vụ thu tiền ngay
+Câu 879: Khoản phải thu của khách hàng cần được hạch toán chi tiết cho từng đối tượng, từng nội dung phả thu, theo dõi chi tiết kỳ hạn thu hồi trên 12 tháng hay không quá 12
+Câu 880: 13
+Câu 881: tháng kể từ thời điểm báo cáo và ghi chép theo từng lần thanh toán
+Câu 882: Đối tượng phải thu là các khách hàng có quan hệ kinh tế với doanh nghiệp về mua sản phẩm, hàng hóa, nhâ n cung cấp dịch vụ, kể cả TSCĐ, bất động sản đầu tư, các khoản đầu tư tài chính
+Câu 883: Bên giao ủy thác xuất khẩu ghi nhâ n trong tài khoản này đối với các khoản phải thu từ bên nhâ n ủy thác xuất khẩu về tiền bán hàng xuất khẩu như các giao dịch bán hàng, cung cấp dịch vụ thông thường
+Câu 884: Trong hạch toán chi tiết tài khoản này, kế toán tiến hành phân loại các khoản nợ, loại nợ có thể trả đúng hạn, khoản nợ khó đòi hoặc có khả năng không thu hồi được, để có căn cứ xác định số trích lâ p dự phòng phải thu khó đòi hoặc biện pháp xử lý đối với khoản nợ phải thu không đòi được
+Câu 885: Doanh nghiệp phải theo dõi chi tiết các khoản nợ phải thu của khách hàng theo từng loại nguyên tệ
+Câu 886: Đối với các khoản phải thu bằng ngoại tệ thì thực hiện theo nguyên tắc
+Câu 887: Khi phát sinh các khoản nợ phải thu khách hàng bên Nợ tài khoản 131 , kế toán phải quy đổi ra Đồng Việt Nam theo tỷ giá giao dịch thực tế tại thời điểm phát sinh là tỷ giá mua của ngân hàng thương mại nơi chỉ định khách hàng thanh toán
+Câu 888: Riêng trường hợp nhâ n trước của người mua, khi đủ điều kiện ghi nhâ n doanh thu thì bên Nợ tài khoản
+Câu 889: 131 áp dụng tỷ giá ghi sổ thực tế đích danh đối với số tiền đã nhâ n trước
+Câu 890: Khi thu hồi nợ phải thu của khách hàng bên Có tài khoản 131 , kế toán phải quy đổi ra Đồng Việt Nam theo tỷ giá ghi sổ thực tế đích danh cho từng đối tượng khách nợ Trường hợp khách nợ có nhiều giao dịch thì tỷ giá thực tế đích danh được xác định là tỷ giá bình quân gia quyền di động các giao dịch của khách nợ đó
+Câu 891: Riêng trường hợp phát sinh giao dịch nhâ n trước tiền của người mua thì bên Có tài khoản 131 áp dụng tỷ giá giao dịch thực tế là tỷ giá ghi vào bên Nợ tài khoản tiền tại thời điểm nhâ n trước
+Câu 892: Doanh nghiệp phải đánh giá lại các tài khoản phải thu của khách hàng có gốc ngoại tệ tại tất cả các thời điểm lâ p Báo cáo tài chính theo quy định của pháp luâ t
+Câu 893: Tỷ giá giao dịch thực tế khi đánh giá lại khoản phải thu của khách hàng là tỷ giá mua ngoại tệ của ngân hàng thương mại nơi doanh nghiệp chỉ định khách hành thanh toán tại thời điểm lâ p Báo cáo tài chính
+Câu 894: Trường hợp doanh nghiệp có nhiều khoản phải thu và giao dịch tại nhiều ngân hàng thi được chủ động lựa chọn tỷ giá mua của một trong những ngân hàng thương mại nơi doanh nghiệp thường xuyên có giao dịch
+Câu 895: Các đơn vị trong tâ p đoàn được áp dụng chung một tỷ giá do Công ty mẹ quy định phải đảm bảo sát với tỷ giá giao dịch thực tế để đánh giá lại các khoản phải thu của khách hàng có gốc ngoại tệ phát sinh từ các giao dịch trong nội bộ
+Câu 896: 14
+Câu 897: Chứng từ sử dụng
+Câu 898: Hợp đồng bán hàng đối với những khách hàng lớn có giao dịch 1 lần
+Câu 899: Phiếu xuất kho
+Câu 900: Hóa đơn bán hàng hoặc hóa đơn GTGT do doanh nghiệp lâ p
+Câu 901: Giấy nhâ n nợ hoặc lệnh phiếu do khách hàng lâ p
+Câu 902: Chứng từ thu tiền
+Câu 903: Phiếu thu, giấy báo có,
+Câu 904: Bảng đối chiếu công nợ phải thu khách hàng
+Câu 905: Sổ chi tiết TK 131 từng khách hàng
+Câu 906: Bảng tổng hợp TK 131
+Câu 907: Sổ cái TK131,
+Câu 908: Tài khoản sử dụng
+Câu 909: Tài khoản 131 Phải thu của khách hàng không có tài khoản cấp 2
+Câu 910: Tài khoản này có kết cấu 2 bên
+Câu 911: 15
+Câu 912: Phương pháp hạch toán
+Câu 913: Sơ đồ 2
+Câu 914: 1
+Câu 915: Sơ đồ hạch toán nghiệp vụ thanh toán với người mua theo thông tư
+Câu 916: 200 2014 TT BTC
+Câu 917: 16
+Câu 918: Phương pháp hạch toán
+Câu 919: Khi cung cấp sản phẩm, hàng hóa và dịch vụ khách hàng chưa thanh toán ngày bằng tiền mặt bao gồm các khoản phải thu về tiền bán hàng xuất khẩu của bên giao uy thác , kế toán ghi nhâ n doanh thu, ghi
+Câu 920: Đối với sản phẩm, hàng hóa, dịch vụ, bất động sản đầu tư thuộc đối tượng chịu thuế GTGT, thuế tiêu thụ đặc biệt, thuế xuất khẩu, thuế bảo vệ môi trường, kế toán phản ánh doanh thu bán hàng và cung cấp dịch vụ theo giá bán chưa có thuế, các khoản thuế gián thu phải nộp tách riêng ngay khi ghi nhâ n doanh thu kể cả thuế GTGT phải nộp theo phương pháp trực tiếp , ghi
+Câu 921: Nợ TK 131 Phải thu của khách hàng tổng giá thanh toán
+Câu 922: Có TK 511 Doanh thu bán hàng và cung cấp dịch vụ giá chưa có thuế
+Câu 923: Có 333 thuế và các khoản phải nộp nhà nước
+Câu 924: Trường hợp không tách ngay được các khoản thuế phải nội, kế toán ghi nhâ n doanh thu bao gồm cả thuế phải nộp
+Câu 925: Định kỳ kế toán xác định nghĩa vụ thuế phải nộp và ghi giảm doanh thu, ghi
+Câu 926: Nợ TK 511 Doanh thu bán hàng và cung cấp dịch vụ
+Câu 927: Có TK 333 Thuế và các khoản phải nộp nhà nước
+Câu 928: Kế toán bán hàng bị khách hàng trả lại
+Câu 929: Nợ TK 5213 Hàng bán bị trả lại giá bán chưa có thuế
+Câu 930: Nợ TK 333 Thuế và các khoản phải nộp Nhà nước số thuê GTGT của hàng bán bị trả lại, chi tiết cho từng loại thuế
+Câu 931: Có TK 131 Phải thu của khách hàng
+Câu 932: Kế toán chiết khấu thương mại và giảm giá hàng bán
+Câu 933: Trường hợp số tiền chiết khấu thương mại, giảm giá hàng bán đã ghi ngay trên hóa đơn bán hàng, kê toán phản ánh doanh thu theo giá đã trừ chiết khấu, giảm giá ghi nhâ n theo doanh thu thuần và không phản ánh riêng số chiết khấu, giảm giá
+Câu 934: Trường hợp trên hóa đơn bán hàng chưa thể hiện số tiền chiết khấu thương mại, giảm giá hàng bán do khách hàng chưa đủ điều kiện để được hưởng hoặc chưa xác định được số phải chiết khấu, giảm giá thì doanh thu ghi nhâ n theo giá chưa trừ chiết khấu doanh thu gộp
+Câu 935: Sau thời điểm ghi nhâ n doanh thu, nếu khách hàng đủ điều kiện được
+Câu 936: 17
+Câu 937: hưởng chiết khấu , giảm giá thì kế toán phải ghi nhâ n riền khoản chiết khấu giảm giá để định kỳ điều chỉnh giảm doanh thu gộp, ghi
+Câu 938: Nợ TK 521 các khoản giảm trừ doanh thu 5211, 5212 giá chưa có thuế
+Câu 939: Nợ TK 333 Thuế và các khoản phải nộp Nhà nước số thuế của hàng giảm giá, chiết khấu thương mại
+Câu 940: Có TK 131 Phải thu của khách hàng Tổng sổ tiền giảm giá
+Câu 941: Số chiết khấu thanh toán phải trả cho người mua do người mua thanh toán tiền hàng trước thời hạn quy định, trừ vào khoản nợ phải thu của khách hàng, ghi
+Câu 942: Nợ TK 111 Tiền mặt
+Câu 943: Nợ TK 112 Tiền gửi ngân hàng
+Câu 944: Nợ TK 635 Chi phí tài chính số tiền chiết khấu thanh toán
+Câu 945: Có TK 131 Phải thu của khách hàng
+Câu 946: Nhâ n được tiền do khách hàng trả kể cả tiền lãi của số nợ nếu có , nhâ n tiền ứng trước của khách hàng theo hợp đồng bán hàng hoặc cung cấp dịch vụ, ghi
+Câu 947: Nợ TK 111,112,
+Câu 948: Có TK 131 Phải thu của khách hàng
+Câu 949: Có TK 515 Doanh thu hoạt động tài chính phần tiền lãi
+Câu 950: Trường hợp nhâ n ứng trước bằng ngoại tệ thì bên Có TK 131 ghi theo tỷ giá giao dịch thực tế tại thời điểm ứng trước tỷ giá mua của ngân hàng nợ thực hiện giao dịch
+Câu 951: Phương pháp kế toán các khoản phải thu của nhà thầu đối với khách hàng liên quan đến hợp đồng xây dựng
+Câu 952: Trường hợp hợp đồng xây dựng quy định nhà thầu được thanh toán theo tiến độ kế hoạch
+Câu 953: Khi kết quả thực hiện hợp đồng xây dựng được ước tính một cách đáng tin câ y, kế toán căn cứ vào chứng từ phản ánh doanh thu ứng với phần công việc đã hoàn thành
+Câu 954: không phải hóa đơn do nhà thầu tự xác nhâ n, ghi
+Câu 955: Nợ TK 337 Thanh toán theo tiến độ kế hoạch hợp đồng xây dựng
+Câu 956: Có TK 511 Doanh thu bán hàng và cung cấp dịch vụ
+Câu 957: Căn cứ vào hóa đơn được lâ p theo tiến độ kế hoạch để phản ánh số tiền khách hàng phải trả theo tiến độ kế hoạch đã ghi trong hợp đồng, ghi
+Câu 958: Nợ TK 131 Phải thu của khách hàng
+Câu 959: Có TK 337 Thanh toán theo tiến độ kế hoạch hợp đồng xây dựng
+Câu 960: 18
+Câu 961: Trường hợp hợp đồng xây dựng quy định nhà thầu được thanh toán theo giá trị khối lượng thực hiện, khi kết quả thực hiện hợp đồng xấy dựng được xác định một cách đáng tin câ y và được khách hangfxacs nhâ n, kế toán phải lâ p hóa đơn trên cơ sở phần công việc đã hoàn thanh được khách hàng xác nhâ n, căn cứ vào hóa đơn, ghi
+Câu 962: Nợ TK 131 phải thu của khách hàng
+Câu 963: Có TK 511 Doanh thu bán hàng và cung cấp dịch vụ
+Câu 964: Có TK 3331 Thuế GTGT phải nộp 33311
+Câu 965: Khoản tiền thưởng thu được từ khách hàng trả phụ thêm cho nhà thầu khi thực hiện hợp đồng đạt hoặc vượt một số chỉ tiêu cụ thể đã được ghi trong hợp đồng, ghi
+Câu 966: Nợ TK 131 Phải thu của khách hàng
+Câu 967: Có 511 Doanh thu bán hàng và cung cấp dịch vụ
+Câu 968: Có 3331 Thuế GTGT phải nộp 33311
+Câu 969: Khoản bồi thường thu được từ khách hàng hay các bên khác để bù đắp cho các chi phí không bao gồm trong giá trị hợp đồng như sự châ m trễ, sai sót của khách hàng và các tranh chấp về các thay đổi trong việc thực hiện hợp đồng , ghi
+Câu 970: Nợ TK 131 Phải thu của khách hàng
+Câu 971: Có 511 Doanh thu bán hàng và cung cấp dịch vụ
+Câu 972: Có 3331 Thuế GTGT phải nộp 33311
+Câu 973: Khi nhâ n được tiền thanh toán khối lượng công trình trình hoàn thành
+Câu 974: Nợ TK 111,112,
+Câu 975: Có TK 131 Phải thu của khách hàng
+Câu 976: Trường hợp khách hàng không thanh toán bằng tiền mà thanh toán bằng hàng theo phương thức hàng đổi hàng , căn cứ vào giá trị vâ t tư, hàng hóa nhâ n trao đổi tính theo giá trị hợp lý ghi trong hóa đơn GTGT hoặc hóa đơn bán hàng của khách hàng trừ vào số nợ phải thu của khách hàng, ghi
+Câu 977: Nợ TK 152 Nguyên liệu, vâ t liệu
+Câu 978: Nợ TK 153 Công cụ, dụng cụ
+Câu 979: Nợ TK 156 Hàng hóa
+Câu 980: Nợ TK 611 Mua hàng hàng tồn kho kế toán theo phương pháp KKĐK
+Câu 981: Có TK 131 Phải thu của khách hàng
+Câu 982: Trường hợp phát sinh khoản nợ phải thu khó đòi thực sự không thể thu nợ được phải xử lý xóa sổ, căn cứ vào biên bản xử lý xóa nợ, ghi
+Câu 983: 19
+Câu 984: Nhâ n ủy thác xuất nhâ p khẩu ghi thu
+Câu 985: Nợ TK 131 Phải thu của khách hàng
+Câu 986: Có TK 511 Doanh thu bán hàng và cung cấp dịch vụ 5113
+Câu 987: Có TK 3331 Thuế GTGT phải nộp 33311
+Câu 988: Khi lâ p báo cáo tài chính, thực hiện đánh giá theo tỷ giá giao dịch thực tế số dư nợ phải thu của khách hàng bằng ngoại tại thời điểm lâ p Báo cáo tài chính
+Câu 989: Nếu tỷ giá ngoại tệ tăng so với tỷ giá Đồng Việt Nam, ghi
+Câu 990: Nợ TK 131 Phải thu của khách hàng
+Câu 991: Có TK 413 Chênh lệch tỷ giá hối đoái 4131
+Câu 992: Nếu tỷ giá ngoại tệ giảm so với tỷ giá Đồng Việt Nam, ghi
+Câu 993: Nợ TK 413 Chênh lệch tỷ giá hối đoái 4131
+Câu 994: Có TK 131 Phải thu của khách hàng
+Câu 995: Kế toán nợ phải thu khó đòi
+Câu 996: Dự phòng phải thu khó đòi
+Câu 997: là khoản sự phòng phần giá trị các khoản nợ phải thu và các khoản đầu tư nắm giữ đến ngày đáo hạn khác có bản chất tương tự các khoản phải thu khó đòi có khả năng thu hồi
+Câu 998: Đối với nợ phải thu quá hạn thanh toán, mức trích lâ p dự phòng như sau
+Câu 999: 30 giá trị đối với khoản nợ phải thu quá hạn trên 6 tháng đến dưới 1 năm
+Câu 1000: 50 giá trị đối với những khoản nợ thu quá hạn từ 1 năm đến dưới 2 năm
+Câu 1001: 70 giá trị đối với những khoản nợ thu quá hạn từ 2 năm đến dưới 3 năm
+Câu 1002: 100 giá trị đối với những khoản nợ phải thu từ 3 năm trở lên
+Câu 1003: Đối với những khoản nợ phải thu chưa đến hạn thanh toán nhưng tổ chức kinh tế đã lâm vào tình trạng phá sản hoặc đang làm thủ tục giải thể
+Câu 1004: người nợ mất tích, bỏ trốn, đang bị các cơ quan pháp luâ t truy tố, giam giữ, xét xử hoặc đang thi hành án hoặc đã chết
+Câu 1005: thì doanh nghiệp dự kiến mức tổn thất không thu hồi được để trích lâ p dự phòng
+Câu 1006: Sau khi lâ p dự phòng cho từng khoản nợ phải thu khó đòi, doanh nghiệp tổng hợp toàn bộ khoản dự phòng các khoản nợ vào bảng kê chi tiết để căn cứ hạch toán vào chi phí quản lý của doanh nghiệp
+Câu 1007: Cách hạch toán khoản nợ phải thu khó đòi
+Câu 1008: Khi lâ p BCTC, căn cứ các khoản nợ phải thu được phân loại là nợ phải thu khó đòi, nếu số dự phòng nợ phải thu khó đòi cần trích lâ p ở kỳ kế toán này lớn hơn số dự phòng
+Câu 1009: 20
+Câu 1010: nợ phải thu khó đòi đã trích lâ p ở kỳ kế toán trước chưa sử dụng hết, kế toán trích lâ p bổ sung phần chênh lệch, ghi
+Câu 1011: Nợ TK 642 Chi phí quản lý doanh nghiệp
+Câu 1012: Có TK 229 Dự phòng tổn thất tài sản 2293
+Câu 1013: Nếu nhỏ hơn, kế toán hoàn nhâ p phần chênh lệch, ghi
+Câu 1014: Nợ TK 229 Dự phòng tổn thất tài sản 2293
+Câu 1015: Có TK 642 Chi phí quản lý doanh nghiệp
+Câu 1016: Đối với các khoản nợ phải thu khó đòi khi xác định là không thể thu hồi được, kế toán thực hiện xóa nợ theo quy định của pháp luâ t hiện hành
+Câu 1017: Căn cứ vào quyết định xoá nợ, ghi
+Câu 1018: Nợ các TK 111, 112, 331, 334
+Câu 1019: phần tổ chức cá nhân phải bồi thường
+Câu 1020: Nợ TK 229 Dự phòng tổn thất tài sản 2293 phần đã lâ p dự phòng
+Câu 1021: Nợ TK 642 Chi phí quản lý doanh nghiệp phần được tính vào chi phí
+Câu 1022: Có các TK 131, 138, 128, 244
+Câu 1023: Đối với những khoản nợ phải thu khó đòi đã được xử lý xoá nợ, nếu sau đó lại thu hồi được nợ, kế toán căn cứ vào giá trị thực tế của khoản nợ đã thu hồi được, ghi
+Câu 1024: Nợ các TK 111, 112,
+Câu 1025: Có TK 711 Thu nhâ p khác
+Câu 1026: Đối với các khoản nợ phải thu quá hạn được bán theo giá thoả thuâ n, tuỳ từng trường hợp thực tế, kế toán ghi nhâ n như sau
+Câu 1027: Trường hợp khoản phải thu quá hạn chưa lâ p dự phòng phải thu khó đòi, ghi
+Câu 1028: Nợ các TK 111, 112 theo giá bán thỏa thuâ n
+Câu 1029: Nợ TK 642 Chi phí quản lý doanh nghiệp số tổn thất từ việc bán nợ
+Câu 1030: Có các TK 131, 138,128, 244
+Câu 1031: Trường hợp khoản phải thu quá hạn đã lâ p dự phòng phải thu khó đòi nhưng số đã lâ p dự phòng không đủ bù đắp tổn thất khi bán nợ thì số tổn thất còn lại được hạch toán vào chi phí quản lý doanh nghiệp, ghi
+Câu 1032: Nợ các TK 111, 112 theo giá bán thỏa thuâ n
+Câu 1033: Nợ TK 229 Dự phòng tổn thất tài sản 2293 số đã lâ p dự phòng
+Câu 1034: Nợ TK 642 Chi phí quản lý doanh nghiệp số tổn thất từ việc bán nợ
+Câu 1035: Có các TK 131, 138,128, 244
+Câu 1036: 21
+Câu 1037: 2
+Câu 1038: 1
+Câu 1039: 3
+Câu 1040: Kế toán khoản phải trả
+Câu 1041: Khái niệm, bản chất
+Câu 1042: Phản ánh tình hình thanh toán về các khoản phải trả của doanh nghiệp cho người bán vâ t tư, hàng hóa, người cung cấp dịch vụ, người bán TSCĐ, BĐSDT, các khoản đầu tư tài chính theo hợp đồng kinh tế đã ký kết
+Câu 1043: Tài khoản này cũng dùng để phản ánh tình hình thanh toán về các khoản nợ phải trả cho người nhâ n thầu xây lắp chính, phụ
+Câu 1044: Không phản ánh các tài khoản này các nghiệp vụ mua hàng trả tiền ngay
+Câu 1045: Nợ phải trả cho người bán, người cung cấp, người nhâ n thầu xây lắp cần được hạch toán chi tiết cho từng dối tượng phải trả
+Câu 1046: Trong chi tiết từng đối tượng phải trả , tài khoản này phản ánh cả số tiền đã ứng cho người bán, người cung cấp, người nhâ n thầu xây lắp nhưng chưa nhâ n được sản phẩm, hàng hóa, dịch vụ, khối lượng xây lắp hoàn thành bàn giao
+Câu 1047: Doanh nghiệp phải theo dõi chi tiết các khoản nợ phải trả cho người bán theo từng loại nguyên tệ
+Câu 1048: Đối với những khoản phải trả bằng ngoại tệ thì thực hiện theo nguyên tắc
+Câu 1049: Khi phát sinh các khoản nợ phải trả cho người bán bên có tài khoản 331 bằng ngoại tệ , kế toán quy đổi ra Đồng Việt Năm theo tỷ giá giao dịch thực tế tại thời điểm phát sinh là tỷ giá bán của ngân hàng thương mại nơi thường xuyên giao dịch
+Câu 1050: Riêng trường hợp ứng trước riêng cho nhà thầu hoặc người bán, khi đủ điều kiện ghi nhâ n tài sản hoặc chi phí thì bên có tài khoản 331 được áp dụng tỷ giá ghi sổ thực tế đích danh đối với số tiền đã ứng trước
+Câu 1051: Khi thanh toán nợ phải trả cho người bán bên nợ tài khoản 331 bằng ngoại tệ, kế toán phải quy đổi ra Đồng Việt Nam theo tỷ giá ghi sổ thực tế đích danh theo từng đối tượng chủ nợ Trường hợp chủ nợ có nhiều giao dịch thì tỷ giá thực tế đích dánh được xác định trên cơ sở bình quân gia quyền di động các giao dịch của chủ nợ đó
+Câu 1052: Riêng trường hợp phát sinh giao dịch ứng trước tiền cho nhà thầu hoặc người bán thì bên nợ tài khoản 331 áp dụng tỷ giá giao dịch thực tế là tỷ giá bán của ngân hàng nợ thường xuyên có giao dịch tại thời điểm ứng trước
+Câu 1053: Doanh nghiệp phải đánh giá lại các khoản phải trả cho người bán có gốc ngoại tệ tại tất cả các thời điểm lâ p Báo cáo tài chính theo quy định của pháp luâ t
+Câu 1054: Tỷ giá giao dịch thực tế khi đánh giá lại khoản phải trả cho người bán là tỷ giá bán ngoại tệ của ngân hàng thương mại nơi doanh nghiệp thường xuyên có giap dịch tại thời điểm lâ p Báo cáo tài chính
+Câu 1055: Các đơn vị trong tâ p đoàn được áp dụng chung một tỷ giá do công ty mẹ quy
+Câu 1056: 22
+Câu 1057: định phải đảm bảo sát với tỷ giá giao dịch thực tế để đánh giá lại các khoản phải trả cho người bán có gốc ngoại tệ phát sinh từ các giao dịch trong nội bộ tâ p đoàn
+Câu 1058: Bên giao nhâ p khẩu ủy thác ghi nhâ n trên tài khoản này số tiền phải trả người bán về hàng nhâ p khẩu thông qua bên nhâ n nhâ p khẩu ủy thác như khoản phải trả người bán thông thường
+Câu 1059: Những vâ t tư, hàng hóa, dịch vụ đã nhâ n, nhâ p kho những đến cuối tháng vẫn chưa có hóa đơn thì sử dụng giá tạm tính để ghi sổ và phải điều chỉnh về giá thực tế khi nhâ n được hóa đơn hoặc được thông báo giá chính thức của người bán
+Câu 1060: Khi hạch toán chi tiết các khoản này, kế toán phải hạch toán rõ ràng, rành mạch các khoản chiết khấu thanh toán, chiết khấu thương mại, giảm giá hàng bán của người bán, người cung cấp nếu chưa được phản ánh trong hóa đơn mua hàng
+Câu 1061: Chứng từ sử dụng và quy trình luân chuyển
+Câu 1062: Các chừng từ về mua hàng
+Câu 1063: Hợp đồng mua hàng, hóa đơn bán hàng hoặc hóa đơn VAT do người bán lâ p, biên bản kiểm nghiệm vâ t tư, sản phẩm, hàng hóa
+Câu 1064: phiếu nhâ p kho, biên bản bàn giao TSCĐ,
+Câu 1065: Chứng từ ứng trước tiền
+Câu 1066: phiếu thu do người bán lâ p
+Câu 1067: Các chứng từ thanh toán tiền mua hàng
+Câu 1068: phiếu chi, giấy báo Nợ, ủy nhiệm chi,
+Câu 1069: Séc,
+Câu 1070: Sổ sách kế toán sử dụng
+Câu 1071: Bảng kê đối chiếu công nợ phả trả người bán, Sổ chi tiết
+Câu 1072: TK 331 từng khách hàng, Bảng tổng hợp TK 331, Sổ Nhâ t ký chung, Sổ cái TK 331,
+Câu 1073: Tài khoản sử dụng
+Câu 1074: Tài khoản 331
+Câu 1075: Phải trả cho người bán
+Câu 1076: 23
+Câu 1077: 24
+Câu 1078: Phương pháp hoặc toán
+Câu 1079: Sơ đồ 2
+Câu 1080: 2
+Câu 1081: Sơ đồ hạch toán nghiệp vụ thanh toán với người bán theo thông tư
+Câu 1082: 200 2014 TT BTC
+Câu 1083: 25
+Câu 1084: Mua vâ t tư, hàng hóa chưa trả tiền người bán về nhâ p kho trong trường hợp hạch toán hàng tồn kho theo phương pháp kê khai thường xuyên hoặc khi mua TSCĐ
+Câu 1085: Trường hợp mua trong nội địa, ghi
+Câu 1086: Nếu thuế GTGT đầu vào được khấu trừ, ghi
+Câu 1087: Nợ TK 152, 153, 156, 157, 211, 213 giá chưa thuế GTGT
+Câu 1088: Nợ TK 133 Thuế GTGT được khấu trừ 1331
+Câu 1089: Có TK 331 Phải trả cho người bán tổng giá thanh toán
+Câu 1090: Trường hợp thuế GTGT đầu vào không được khấu trừ thì giá trị vâ t tư, hàng hóa,
+Câu 1091: TSCĐ bào gồm cả thuế GTGT tổng giá thanh toán
+Câu 1092: Trường hợp nhâ p khẩu, ghi
+Câu 1093: Phản ánh giá trị hàng nhâ p khẩu bao gồm cả thuế TTĐB, thuế XK, thuế BVMT
+Câu 1094: nếu có , ghi
+Câu 1095: Nợ TK 152, 153, 156, 157, 211, 213
+Câu 1096: Có TK 331 Phải trả cho người bán
+Câu 1097: Có TK 3332 Thuế TTĐB nếu có
+Câu 1098: Có TK 3333 Thuế xuất nhâ p khẩu chi tiết thuế nhâ p khẩu, nếu có
+Câu 1099: Có TK 33381 Thuế bảo vệ môi trường
+Câu 1100: Nếu thuế GTGT đầu vào được khấu trừ, ghi
+Câu 1101: Nợ TK 133 Thuế GTGT được khấu trừ 1331
+Câu 1102: Có 3331 Thuế GTGT phải nộp 33312
+Câu 1103: Mua vâ t tư, hàng hóa chưa trả tiền người bán về nhâ p kho trong trường hợp hạch toán hàng tồn khi theo phương pháp kiểm kê định kỳ
+Câu 1104: Trường hợp mua trong nội địa
+Câu 1105: Nếu thuế GTGT đầu vào được khấu trừ, ghi
+Câu 1106: Nợ TK 611 Mua hàng giá chưa có thuế GTGT
+Câu 1107: Nợ TK 133 Thuế GTGT được khấu trừ
+Câu 1108: Có TK 331 Phải trả cho người bán tổng giá thanh toán
+Câu 1109: Trường hợp thuế GTGT đầu vào khong được khấu trừ thì giá trị vâ t tư, hàng hóa bao gồm cả thuế GTGT tổng giá thanh toán
+Câu 1110: Trường hợp nhâ p khẩu, ghi
+Câu 1111: 26
+Câu 1112: Phản ánh giá trị nhâ p khẩu bao gồm cả thuế TTĐB, thuế XK, thuế BVMT nếu có , ghi
+Câu 1113: Nợ TK 611 Mua hàng
+Câu 1114: Có TK 331 Phải trả cho người bán
+Câu 1115: Có TK 3332 Thuế TTĐB nếu có
+Câu 1116: Có TK 3333 Thuế xuất nhâ p khẩu chi tiết thuế nhâ p khẩu, nếu có
+Câu 1117: Có TK 33381 Thuế bảo vệ môi trường
+Câu 1118: Nếu thuế GTGT đầu vào được khấu trừ, ghi
+Câu 1119: Nợ TK 133 Thuế GTGT được khấu trừ 1331
+Câu 1120: Có 3331 Thuế GTGT phải nộp 33312
+Câu 1121: Trường hợp đơn vị có thực hiện đầu tư XDCB theo phương thức giao thầu, khi nhâ n khối lượng xây lắp hoàn thành bàn giao bên nhâ n thầu xây lắp,căn cứ hơp đồng giao thầu và biên bản bàn giao khối lượng xây lắp, hóa đơn khối lượng xây lắp hoàn thành
+Câu 1122: Nếu thuế GTGT đầu vào khấu trừ, ghi
+Câu 1123: Nợ TK 241 XDXB dở dang giá chưa có thuế GTGT
+Câu 1124: Nợ TK 133 Thuế GTGT được khấu trừ
+Câu 1125: Có TK 331 Phải trả cho người bán tổng giá thanh toán
+Câu 1126: Trường hợp thuế GTGT đầu vào không được khấu trừ thì đầu tư XDCB bao gồm cả thuế GTGT tổng gá thanh toán
+Câu 1127: Đối với việc ứng trước tiền hoặc thanh toán số tiền phải trả cho người bán vâ t tư, hàng hóa, người cung cấp dịch vụ, người nhâ n thầu xây lắp, ghi
+Câu 1128: Nợ TK 331 Phải trả cho người bán
+Câu 1129: Có TK 111, 112, 341,
+Câu 1130: Trường hợp phải thanh toán cho nhà thầu bằng ngoại tệ, kế toán phải quy đổi ra
+Câu 1131: Đồng Việt Nam theo tỷ giá giao dịch thực tế tại thời điểm phát sinh là tỷ giá bán cho ngân hàng thương mại nơi thường xuyên có giao dịch
+Câu 1132: Trường hợp đã ứng trước tiền cho nhà cung cấp bằng ngoại tệ, kế toán ghi nhâ n giá trị đầu tư XDCB tương ứng với số tiền đã ứng trước theo tỷ giá giao dịch thực tế tại thời điểm ứng trước
+Câu 1133: Phần giáo trị đầu tư XDCB còn phải thanh toán sau khi đã trừ đi số tiền ứng trước được ghi nhâ n theo tỷ giá giao dịch thực tế tại thời điểm phát sinh
+Câu 1134: 27
+Câu 1135: Nợ TK 331 Phải trả cho người bán tỷ giá giao dịch thực tế
+Câu 1136: Nợ TK 635 Chi phí tài chính nếu tỷ giá giao dịch thực tế thấp hơn tỷ giá giao dịch sổ kế toán của TK tiền
+Câu 1137: Có TK 112, 113,
+Câu 1138: tỷ giá ghi sổ kế toán
+Câu 1139: Có TK 515 Doanh thu hoat động tài chính nếu tỷ giá giao dịch thực tế cao hơn tỷ giá ghi sổ kế toán của TK tiền
+Câu 1140: Khi nhâ n lại tiền do người bán hoàn lại số tiền đã ứng trước vì không cung cấp được hàng hóa, dịch vụ, ghi
+Câu 1141: Nợ TK 111,112,
+Câu 1142: Có TK 331 Phải trả cho người bán
+Câu 1143: Nhâ n dịch vụ cung cấp chi phí vâ n chuyển hàng hóa, điện, nước, kiểm toán, tư vấn,quảng cáo, dịch vụ khác của người bán
+Câu 1144: Nếu thuế GTGT đầu vào được khấu trừ, ghi
+Câu 1145: Nợ TK 156 Hàng hóa 1562
+Câu 1146: Nợ TK 241 XDCB
+Câu 1147: Nợ TK 242 Chi phí trả trước
+Câu 1148: Nợ TK 623,627, 641, 642, 635, 811
+Câu 1149: Nợ TK 133 Thuế GTGT được khấu trừ 1331 nếu có
+Câu 1150: Có 331 Phải trả cho người bán tổng giá thanh toán
+Câu 1151: Trường hợp thuế GTGT đầu vào không được kaaus trừ thì giá trị dịch vụ bao gồm cả thuế GTGT tổng giá thanh toán
+Câu 1152: Chiết khấu thanh toán mua vâ t tư, hàng hóa doanh nghiệp được hưởng do thanh toán trước thời hạn thanh toán và tính trừ vào khoản nự phải trả người bán, người cung cấp, ghi
+Câu 1153: Nợ TK 331 Phải trả cho người bán
+Câu 1154: Có TK 515 Doanh thu hoạt động tài chính
+Câu 1155: Trường hợp vâ t tư, hàng hóa mua vào phải trả lại hoặc người bán chấp nhâ n giảm giá do không đúng quy cách, phẩm chất được tính trừ vào nợ phải trả cho người bán, ghi
+Câu 1156: Nợ TK 331 Phải trả cho người bán
+Câu 1157: Có TK 133 Thuế GTGT được khấu trừ 1331 nếu có
+Câu 1158: Có TK 152, 153, 156, 611,
+Câu 1159: 28
+Câu 1160: Trường hợp các khoản nợ phải trả cho người bán không tìm ra chủ nợ hoặc chủ nợ không đòi và được xử lý ghi tăng thu nhâ p khác của doanh nghiệp, ghi
+Câu 1161: Nợ TK 331 Phải trả cho người bán
+Câu 1162: Có TK 711 Thu nhâ p khác
+Câu 1163: Đối với những nhà thầu chính, khi xác định giá trị khối lượng xây lắp phải trả cho nhà thầu phụ theo hợp đồng kinh tế đã ký kết, căn cứ vào hóa đơn,phiếu giá công trình, biên bản nghiệm thu khối lượng xây lắp hoàn thành và họp đồng giao thầu phụ, ghi
+Câu 1164: Nợ TK 632 Giá vốn hàng bán giá chưa có thuế GTG
+Câu 1165: Nợ TK 133 Thuế GTGT được khấu trừ 1331
+Câu 1166: Có TK 331 Phải trả cho người bán tổng số tiền phải trả cho nhà thầu phụ gồm cả thuế GTGT đầu vào
+Câu 1167: Trường hợp doanh nghiệp nhâ n bán hàng đại lý, bán đúng giá, hưởng hoa hồng
+Câu 1168: Khi nhâ n hàng bán đại lý, doanh nghiệp chủ động theo dõi và ghi chép thông tin về hàng nhâ n bán đại lý trong phần thuyết minh Báo cáo tài chính
+Câu 1169: Khi bán hàng nhâ n đại lý, ghi
+Câu 1170: Nợ TK 111,112,131,
+Câu 1171: tổng giá thanh toán
+Câu 1172: Có TK 331 Phải trả cho người bán giá giao bán đại lý thuế
+Câu 1173: Đồng thời doanh nghiệp theo dõi ghi chép thông tin về hàng nhâ n bán đại lý đã xuất bán trong phân thuyết minh Báo cáo tài chính
+Câu 1174: Khi xác định hoa hồng đại lý được hưởng, tính vào doanh thu hoa hồng về bán hàng đại lý, ghi
+Câu 1175: Nợ TK 331 Phải trả cho người bán
+Câu 1176: Có TK 511 Danh thu bán hàng và cung cấp dịch vụ
+Câu 1177: Có TK 3331 Thuế GTGT phải nộp nếu có
+Câu 1178: Khi thanh toán tiền cho bên giao hàng đại lý, ghi
+Câu 1179: Nợ TK 331 Phải trả cho người bán giá bán trừ hoa hồng đại lý
+Câu 1180: Có TK 111,112,
+Câu 1181: Kế toán phải trả cho người bán tại đơn vị giao ủy thác nhâ p khẩu
+Câu 1182: Khi trả trước một khoản tiền ủy thác mua hàng theo hợp đồng ủy thác nhâ p khẩu cho đơn vị nhâ n ủy thác nhâ p khẩu mở LC
+Câu 1183: căn cứ các chứng từ liên quan, ghi
+Câu 1184: 29
+Câu 1185: Nợ TK 331 Phải trả cho người bán chi tiết cho từng đơn vị nhâ n ủy thác
+Câu 1186: Có TK 111, 112,
+Câu 1187: Khi nhâ n hàng ủy thác nhâ p khẩu do bên nhâ n ủy thác giao trả, kế toán thực hiện như đói với hành nhâ p khẩu thông thường
+Câu 1188: Khi trả tiền cho đơn vị nhâ n ủy thác nhâ p khẩu về số tiền hàng nhâ p khẩu và các chi phí liên quan trực tiếp đến hàng nhâ p khẩu, căn cú các chứng từ liên quan, ghi
+Câu 1189: Nợ TK 331 Phải trả cho người bán chi tiết cho từng đơn vị nhâ n ủy thác
+Câu 1190: Có TK 111,112,
+Câu 1191: Phí ủy thác nhâ p khẩu phải trả đơn vị nhâ n ủy thác được tính vào giá trị hàng nhâ p khẩu, căn cứ các chứng từ liên quan, ghi
+Câu 1192: Nợ TK 151, 152, 156, 211,
+Câu 1193: Nợ TK 133 Thuế GTGT được khấu trừ
+Câu 1194: Có TK 331 Phải trả cho người bán chi tiết từng đơn vị nhâ n ủy thác
+Câu 1195: Việc thanh toán nghĩ vụ thuế đối với hàng nhâ p khẩu thực hiện theo quy định của TK 333 Thuế và các khoản phải nộp nhà nước
+Câu 1196: Đơn vị nhâ n ủy thác không sử dụng tài khoản này để phản ánh các nghiệp vụ thanh toán ủy thác mà sử dụng qua các TK 138 và 338
+Câu 1197: Khi lâ p Báo cáo tài chính, số dư nợ phải trả cho người bán bằng ngoại tệ được đánh giá theo tỷ giá giao dịch thực tế tại thời điểm lâ p Báo cáo tài chính
+Câu 1198: Nếu tỷ giá ngoại tệ giảm so với Đồng Việt Nam, ghi
+Câu 1199: Nợ TK 331 Phải trả cho người bán
+Câu 1200: Có TK 413 Chênh lệch tỷ giá hối đoái 4131
+Câu 1201: Nếu tỷ giá ngoại tệ tăng so với Đồng Việt Nam, ghi
+Câu 1202: Nợ TK 413 Chênh lệch tỷ giá hối đoái 4131
+Câu 1203: Có TK 331 Phải trả cho người bán
+Câu 1204: 30
+Câu 1205: 2
+Câu 1206: 2
+Câu 1207: Nội dung trong công tác quản lý công nợ
+Câu 1208: 2
+Câu 1209: 2
+Câu 1210: 1
+Câu 1211: Chính sách quản lý kế toán phải thu khách hàng
+Câu 1212: Nguyên tắc chung
+Câu 1213: Kế toán thưc hiện hạch toán chi tiết các khoản nợ phải thu theo từng khách hàng mà công ty hợp tác và theo từng công trình mà công ty nhâ n đấu thầu được
+Câu 1214: Tổ chức, theo dõi chặt chẽ và chủ động nhắc nợ khách hàng bằng nhiều cách
+Câu 1215: gọi điện thoại, nhắc bằng email đối với những khoản nợ gần tới hạn thanh toán
+Câu 1216: phải thúc giục, hối thúc trả nợ từ các khoản nợ đã trễ ngày thanh toán
+Câu 1217: Bộ phâ n kế toán phải lưu trữ đầy đủ, chính xác những chứng từ liên quan đến những khoản nợ của khách hàng, đặc biệt là những khoản nợ có nhiều lần bán hàng để từ đó có căn cứ và kế hoạch thu tiền khách hàng hợp lý
+Câu 1218: Các yêu cầu kế toán đối với những khoản mục nợ phải thu khách hàng
+Câu 1219: Kế toán phải thu luôn theo dõi chi tiết từng khoản phải thu từng khách hàng, đối tượng
+Câu 1220: thường xuyên đối chiếu, kiểm tra, đôn đốc để việc thanh toán kịp thời, không trì hoãn
+Câu 1221: Đối với những khách hàng giao dịch, mua bán thường xuyên có số dư nợ lớn thì phải thực hiện kiểm tra, đối chiếu từng định khoản nợ phát sinh, số đã thanh toán và số còn phải thanh toán thường xuyên định kỳ hoặc vào cuối tháng và có xác nhâ n bằng văn bản
+Câu 1222: Phân loại các khoản phải thu là khoản phải thu khách hàng, phải thu nội bộ, phải thu khác
+Câu 1223: phải thu của khách hàng gồm các khoản phải thu mang tính chất thương mại phát sinh từ giao dịch có tính chất mua bán bán
+Câu 1224: phải thu nội bộ gồm các khoản phải thu giữa đơn vị cấp trên và đơn vị cấp dưới trực thuộc không có tư cách pháp nhân hạch toán phụ thuộc
+Câu 1225: phải thu khác gồm các khoản phải thu không có tính chất thương mại, không liên quan đến giao dịch mua bán
+Câu 1226: Đối với những khoản nợ thu tiền có gốc ngoại tệ cần theo dõi số tiền nguyên tệ trên các tài khoản chi tiết và cả số tiền quy đổi thành tiền Việt Nam
+Câu 1227: Cuối mỗi kỳ phải thực hiện điều chỉnh số dư theo tỷ giá thực tế
+Câu 1228: Đặc biệt, không được bù trừ công nợ giữa các khách hàng, giữa các khách hàng mà phải căn cứ trên sổ chỉ tiết từ đó lấy số liệu hoàn thành bảng cân đối kế toán cuối kỳ
+Câu 1229: 31
+Câu 1230: Trình bày khoản mục nợ phải thu của khách hàng trên Báo cáo tài chính
+Câu 1231: Những khoản phải thu khách hàng số dư bên Nợ TK 131 có thời hạn thanh toán bé hơn hoặc bằng 12 tháng tại thời điểm thực hiện lâ p báo cáo được trình bày trên Bảng
+Câu 1232: Cân đối kế toán, Phần A Tài sản ngắn hạn , thuộc chỉ tiêu Phải thu ngắn hạn của khách hàng mã số 131
+Câu 1233: Những khoản phải thu khách hàng Số dư bên Nợ TK 131 có thời hạn thanh toán lớn hơn 12 tháng tại thời điểm thực hiện lâ p báo cáo được trình bày trên Bảng cân đối kế toán, Phần B Tài sản dài hạn , thuộc chỉ tiêu Phải thu dài hạn của khách hàng mã số 211
+Câu 1234: Trường hợp khi người mua hàng thanh toán trước số dư Có của TK 131 có thời hạn bé hơn hơn 12 tháng thi được trình bày trên Bảng Cân đối kế toán , Phần B Nguồn vốn , thuộc chỉ tiêu Người mua trả tiền trước ngắn hạn Mã số 312
+Câu 1235: Nếu người mua hàng thanh toán trước có thời hạn lớn hơn 12 tháng thì thuộc chỉ tiêu Người mua trả tiền trước dài hạn Mã số 332
+Câu 1236: Ngoài ra, chỉ tiêu dự phòng nợ phải thu khó đòi cũng được trình bày bên phần tài sản ghi bằng số âm, thuộc chỉ tiêu Dự phòng phải thu ngắn hạn khó đòi và Dự phòng phải thu dài hạn khó đòi
+Câu 1237: Tài khoản đưa vào chi tiêu này là số dư bên Có TK 2293 dưới
+Câu 1238: 12 tháng và 2293 trên 12 tháng
+Câu 1239: 2
+Câu 1240: 2
+Câu 1241: 2
+Câu 1242: Chính sách quản lý khoản phải trả cho nhà cung cấp
+Câu 1243: Nguyên tắc chung
+Câu 1244: Kế toán thưc hiện hạch toán chi tiết các khoản nợ phải trả theo từng nhà cung cấp mà công ty hợp tác và từng dự án
+Câu 1245: Theo dõi các khoản phải trả nhà cung cấp, xem xét các khoản nợ để lên kế hoạch thực hiện thanh toán sao cho phù hợp với tình hình công ty
+Câu 1246: Bộ phâ n kế toán phải lưu trữ đầy đủ, chính xác những chứng từ liên quan đến những khoản phải trả nhà cung cấp
+Câu 1247: Yêu cầu người bán cung cấp đủ tất cả hóa đơn, chứng từ liên quan thì mới thực hiện thanh toán
+Câu 1248: Các yêu cầu kế toán đối với những khoản mục nợ phải trả nhà cung cấp
+Câu 1249: Nợ phải trả cho người bán, người cung cấp vâ t tư, hàng hóa, dịch vụ hoặc cho người nhâ n thầu xây lắp chính,phụ cần được hạch toán chi tiết cho từng đối tượng phải trả
+Câu 1250: Trong chi tiết từng đối tượng phải trả, tài khoản này phản ánh cả số tiền đã ứng trước cho người bán, người cung cấp, người nhâ n thầu xây lắp hoàn thành bàn giao
+Câu 1251: 32
+Câu 1252: Những vâ t tư, hàng hóa, dịch vụ đã nhâ n, nhâ p kho nhưng đến cuối tháng vẫn chưa có hóa đơn thì sử dụng giá tạm tính ghi sổ và phải điều chỉnh về giá thực tế khi nhâ n được hóa đơn hoặc thong báo giá chính thức của người bán
+Câu 1253: Khi hạch toán chi tiết các khoản vay này, kế toán phải hạch toán rõ ràng, rành mạch các khoản chiết khấu thanh toán, giảm giá hàng bán cho người bán, ngoài hóa đơn mua hàng
+Câu 1254: Trình bày khoản mục nợ phải trả của khách hàng trên Báo cáo tài chính
+Câu 1255: Những khoản phải trả người bán ngắn hạn số dư bên Có TK 331 có thời hạn thanh toán bé hơn hoặc bằng 12 tháng tại thời điểm thực hiện lâ p báo cáo được trình bày trên Bảng Cân đối kế toán, Phần C Nợ ngắn hạn , thuộc chỉ tiêu Phải trả cho người bán ngắn hạn mã số 311
+Câu 1256: Những khoản phải thu khách hàng Số dư bên Có TK 331 có thời hạn thanh toán lớn hơn 12 tháng tại thời điểm thực hiện lâ p báo cáo được trình bày trên Bảng cân đối kế toán, Phần C Tài sản dài hạn , thuộc chỉ tiêu Phải trả cho người bán dài hạn mã số 331
+Câu 1257: Trường hợp khi trả trước cho người bán số dư Nợ của TK 331 có thời hạn bé hơn hơn 12 tháng thi được trình bày trên Bảng Cân đối kế toán , Phần A Tài sản ngắn hạn , thuộc chỉ tiêu Trả trước cho người bán ngắn hạn Mã số 132
+Câu 1258: Nếu người mua hàng thanh toán trước có thời hạn lớn hơn 12 tháng thì thuộc chỉ tiêu Trả trước cho người bán dài hạn Mã số 212
+Câu 1259: 2
+Câu 1260: 2
+Câu 1261: 3
+Câu 1262: Những yếu tố ảnh hưởng đến chính sách bán chịu
+Câu 1263: Các khoản phải thu thâ t ra đang là vốn mà khách hàng chiếm dụng của công ty, chính vì vâ y về nguyên tắc quy mô các khoản phải thu càng nhỏ thì sẽ càng có lợi cho công ty
+Câu 1264: Công ty TNHH Thiết bị Inox Hoàng Tâm là công ty cung cấp bồn chứa, dụng cụ chưa và cung cấp dịch vụ lắp đặt, vì vâ y những khoản phải thu khách hàng của công ty thường là số tiền lớn nên việc cân bằng nợ phải thu có ảnh hướng rất lớn đến nguồn vốn của công ty
+Câu 1265: Hoạt động sản xuất kinh doanh càng mở rộng, thì quy mô khoản phải thu doanh nghiệp tăng lên và ngược lại
+Câu 1266: Để có sự xem xét tương quan giữa hai chỉ tiêu này chúng ta dùng tỷ số vòng quay khoản phải thu
+Câu 1267: Nếu quy mô các khoản phải thu tăng lên nhưng vòng quay khoản phải thu vẫn như cũ hoặc tăng lên thì số ngày thu tiền bình quân sẽ giảm xuống chứng tỏ tình hình quản lý công nợ tốt, sản phẩm được tiêu thụ dễ dàng hơn
+Câu 1268: Ngược lại nếu quy mô công ty có khoản phải thu tăng trong khi doanh thu, quy mô kinh doanh không tăng, thì như vâ t tình hình kinh doanh của công ty có nhiều biến động và
+Câu 1269: 33
+Câu 1270: cần thay đổi ngay trong chính sách bán hàng
+Câu 1271: Công ty cần xac định bản chất các khoản nợ này, tìm nguyên nhân và khắc phục để không ảnh
+Câu 1272: Nhận xét
+Câu 1273: Nếu số vòng quay nợ phải thu quá cao cho thấy phương thức bán hàng khác cứng nhắc chủ yếu thu bằng tiền mặt, có thể chưa tốt vì ảnh hưởng đến sức cạnh tranh của công ty với đối thủ và khó mở rộng thị phần tăng doanh thu
+Câu 1274: Ngược lại phải tối thiểu hóa kỳ tồn kho và kỳ thu nợ bình quân, công ty thường sẽ cố gắng kéo dài công nợ càng lớn càng tốt mà vẫn duy trì uy tín đối với khách hàng
+Câu 1275: 34
+Câu 1276: TÓM TẮT CHƯƠNG 2
+Câu 1277: Chương này tâ p trung trình bày khái niệm, bản chất, vai trò và một số kiến thức liên quan công nợ và nội dung trong công tác quản lý công nợ
+Câu 1278: Trong chương tiếp theo sẽ trình bày những khảo sát thực tế về thực trạng công nợ những khoản thu khách hàng, phải trả khách hàng trong 3 năm 2018 2020 chủ yếu là
+Câu 1279: 2019 và 2020 , với việc phân tích sẽ giúp đánh giá được những khoản phải thu, phải trả ảnh hưởng như thế nào đến tài chính của công ty để tìm ra những ưu, nhược điểm của công ty để vượt qua thách thức, từ đó nâng cao hình ảnh công ty trong khách hàng
+Câu 1280: 35
+Câu 1281: CHƯƠNG 3
+Câu 1282: THỰC TRẠNG CÔNG NƠ VÀ KHẢ NĂNG THANH TOÁN CÔNG
+Câu 1283: TY TNHH THIẾT BỊ INOX HOÀNG TÂM
+Câu 1284: 3
+Câu 1285: 1
+Câu 1286: Cơ cấu tổ chức tài sản và nguồn vốn của công ty TNHH Thiết bị Inox Hoàng
+Câu 1287: Tâm giai đoạn 2018 2020
+Câu 1288: Bảng 3
+Câu 1289: 1
+Câu 1290: Cơ cấu tài sản và nguồn vốn của công ty TNHH Thiết bị Inox Hoàng Tâm giai đoạn đầu 2018 2020
+Câu 1291: ĐVT
+Câu 1292: VNĐ
+Câu 1293: Chỉ tiêu
+Câu 1294: Năm 2018
+Câu 1295: Năm 2019
+Câu 1296: Năm 2020
+Câu 1297: Tài sản ngắn hạn
+Câu 1298: 16,455,457,299
+Câu 1299: 20,160,954,057
+Câu 1300: 27,246,728,419
+Câu 1301: Tài sản dài hạn
+Câu 1302: 0
+Câu 1303: 3,968,073,944
+Câu 1304: 3,968,073,944
+Câu 1305: Tổng tài sản
+Câu 1306: 16,455,457,299
+Câu 1307: 24,129,028,001
+Câu 1308: 31,214,802,363
+Câu 1309: Nợ phải trả
+Câu 1310: 130,953,669
+Câu 1311: 6,273,812,647
+Câu 1312: 13,139,034,884
+Câu 1313: Vốn chủ sở hữu
+Câu 1314: 16,324,503,630
+Câu 1315: 17,855,215,355
+Câu 1316: 18,075,767,479
+Câu 1317: Tổng nguồn vốn
+Câu 1318: 16,455,457,299
+Câu 1319: 24,129,028,001
+Câu 1320: 31,214,802,363
+Câu 1321: Nguồn
+Câu 1322: trích từ Báo cáo tài chính năm 2019 Đính kèm phụ lục 1, Báo cáo tài chính
+Câu 1323: 2020 công ty TNHH Thiết bị Inox Hoàng Tâm Đính kèm phụ lục 2
+Câu 1324: 36
+Câu 1325: Biểu đồ 3
+Câu 1326: 1
+Câu 1327: Cơ cấu tài sản giai đoạn 2018 2020
+Câu 1328: Theo như biểu đồ trên thấy rõ tài sản ngắn hạn của công ty TNHH Thiết bị Inox
+Câu 1329: Hoàng Tâm có tỷ trọng lớn hơn nhiều so với tài sản dài hạn
+Câu 1330: Hai chỉ tiêu này đều có sự tăng nhẹ chưa có biến động lớn trong giai đoạn này
+Câu 1331: Chứng tỏ công ty chưa có ý định thay đổi cơ cấu tài sản này
+Câu 1332: Vì năm 2018 là năm thành lâ p công ty vì vâ y chưa phản ánh tài sản dài hạn
+Câu 1333: Năm 2020, tổng tài sản công ty là 31,214,802,363 đồng trong đó tài sản ngắn hạn 27,246,728,419 đồng và tài sản dài hạn là 3,968,073,944 đồng
+Câu 1334: 16,4 tỷ
+Câu 1335: 20,1 tỷ
+Câu 1336: 27,2 tỷ
+Câu 1337: 0
+Câu 1338: 3,9 tỷ
+Câu 1339: 3,9 tỷ
+Câu 1340: Năm 2018
+Câu 1341: Năm 2019
+Câu 1342: Năm 2020
+Câu 1343: Cơ cấu ta i sản công ty TNHH Thiết bị Inox
+Câu 1344: Hoa ng Tâm giai đoạn đầu 2018 2020
+Câu 1345: Ta i sản ngắn hạn
+Câu 1346: Ta i sản da i hạn
+Câu 1347: 37
+Câu 1348: Biểu đồ 3
+Câu 1349: 2
+Câu 1350: Cơ cấu nguồn vốn giai đoạn 2018 2020
+Câu 1351: Nợ phải trả của công ty có tỷ trọng thấp hơn Vốn chủ sở hữu bởi lẽ giai đoạn này công ty đang phát triển, xây dựng
+Câu 1352: Mặc khác, nợ phải trả qua các năm ngày càng tăng lên thể hiện tốt hay xấu còn phải dựa vào doanh thu và nhiều yếu tố khác
+Câu 1353: Nợ phải trả đến cuối năm 2020 là 8,4 tỷ đồng
+Câu 1354: Về nguồn vốn công ty có xu hướng tăng lên qua các năm, điểm hình tăng nhẹ giai đoạn 2019 2020 từ 17,8 tỷ lên đến 18 tỷ cho thấy sự tự chủ của công ty càng cao
+Câu 1355: 38
+Câu 1356: 3
+Câu 1357: 2
+Câu 1358: Thư c trạng kế toán phải thu khách hàng và kế toán dư phòng nợ phải thu khó đòi tại công ty TNHH Thiết bị Inox Hoàng Tâm
+Câu 1359: 3
+Câu 1360: 2
+Câu 1361: 1
+Câu 1362: Chính sách quản lý công nợ phải thu khách hàng của công ty TNHH Thiết bị
+Câu 1363: Inox Hoàng Tâm
+Câu 1364: Mục đích
+Câu 1365: Đưa ra những chính sách công nợ của khách hàng nhằm mục đích quy định cụ thể nguyên tắc thu hồi nợ và hạn mức tín dụng đối với công nợ khách hàng
+Câu 1366: Nhân viên kiểm soát công nợ thực hiện các điều khoản về các chính sách công nợ với khách hàng là những người chịu trách nhiệm chính, còn kế toán trưởng sẽ chịu trách nhiệm chỉnh sửa
+Câu 1367: Quy định về hạn mức tín dụng và hạn ngày
+Câu 1368: Hạn mức tín dụng là số dư tối đa mà công ty cho khách hàng nợ
+Câu 1369: Hạn ngày tín dụng tuổi nợ
+Câu 1370: là thời gian tối đa cho khoản nợ đối với mỗi phiếu xuất hàng
+Câu 1371: Quyền đề nghị cấp hoặc điều chỉnh hạn mức tín dụng
+Câu 1372: nhân viên kinh doanh Bộ phâ n kinh doanh và nhân viên kiểm soát tín dụng nhân viên kế toán công nợ phải thu
+Câu 1373: Còn quyền chấp nhâ n, thay đổi hạn mức tín dụng do Giám đốc hoặc Kế toán trưởng ký duyệt
+Câu 1374: Hạn mức tín dụng được xét lại Tăng hoặc giảm theo quy định kỳ 12 tháng hoặc khi có đề nghị thay đổi của nhân viên kinh doanh hoặc nhân viên kiểm soát tín dụng
+Câu 1375: Nếu công nợ của khách hàng vi phạm một trong hai điều kiện về hạn ngày và hạn mức tín dụng thì sẽ ngừng xuất hàng, trừ trường hợp đặc biệt có sự đồng ý của Giám đốc hoặc Kế toán trưởng
+Câu 1376: Đối với khách hàng không được cấp hạn mức tín dụng thì phải thanh toán trước tối thiểu 30 giá trị sản phẩm khi đặt hàng
+Câu 1377: Quyền hạn xét hạn mức tín dụng
+Câu 1378: Đối với đơn ha ng nhỏ lẻ
+Câu 1379: Đơn hàng nhỏ, lẻ mà không ký hợp đồng thì khách hàng sẽ tạm ứng 30 thanh toán 70 còn lại trước khi công ty tiến hành giao hàng, dịch vụ
+Câu 1380: Đơn hàng lẻ mà có phát sinh tín dụng thì vẫn dựa và quy định trên để xét duyệt
+Câu 1381: Đối với những khách hàng dư án làm việc theo hợp đồng
+Câu 1382: Hạn mức tín dụng sẽ được nêu rõ trong điều khoản phương thức thanh toán
+Câu 1383: Tuy nhiên mức đặt cọc tối thiểu ngay sau khi ký hợp đồng là 30 số tiền, còn lại sau khi lắp
+Câu 1384: 39
+Câu 1385: đặt xong và chờ nghiệm thu phải yêu cầu khách hàng bảo lãnh ngân hàng
+Câu 1386: Các trường hợp ngoại lệ, thay đổi sẽ do Giám đốc Giám đốc ký duyệt
+Câu 1387: Nhân viên kinh doanh phải điền đầy đủ thông tin về hợp đồng và đơn hàng bán trình Giám đốc duyệt trước khi ký hợp đồng
+Câu 1388: Bảng 3
+Câu 1389: 2
+Câu 1390: Danh sách những khách hàng thân thiết của công ty TNHH Thiết bị Inox
+Câu 1391: Hoàng Tâm
+Câu 1392: STT
+Câu 1393: Mã khách hàng
+Câu 1394: Tên khách hàng
+Câu 1395: 1
+Câu 1396: NAMDUONG
+Câu 1397: Công ty TNHH Thực phẩm Quốc tế Nam Dương
+Câu 1398: 2
+Câu 1399: GEA
+Câu 1400: GEA PROCESS ENGINEERING Pte
+Câu 1401: , Ltd
+Câu 1402: 3
+Câu 1403: KRONES
+Câu 1404: KRONES IZUMI
+Câu 1405: 4
+Câu 1406: ACECOOK
+Câu 1407: Công ty Cổ phẩn ACECOOK Việt Năm TP
+Câu 1408: HCM
+Câu 1409: 5
+Câu 1410: TRUNGNGUYEN Công ty Cổ phần Cà phê hòa tan Trung Nguyên
+Câu 1411: 6
+Câu 1412: VINHHOAN
+Câu 1413: Công ty TNHH Vĩnh Hoàn Collagen
+Câu 1414: 7
+Câu 1415: ENTOBEL
+Câu 1416: Công ty TNHH ENTOBEL Đồng Nai
+Câu 1417: 8
+Câu 1418: TETRAPARK
+Câu 1419: Công ty Tetra Park
+Câu 1420: Nguồn
+Câu 1421: Phòng Kế toán
+Câu 1422: 40
+Câu 1423: No
+Câu 1424: Yes
+Câu 1425: Quy trình bán hàng
+Câu 1426: Sơ đồ 3
+Câu 1427: 1
+Câu 1428: Quy trình bán hàng tại công ty TNHH Thiết bị Inox Hoàng Tâm
+Câu 1429: STT
+Câu 1430: Tổng giám đốc
+Câu 1431: Nhân viên mua hàng
+Câu 1432: Phòng kỹ thuật sản xuất kế hoạch
+Câu 1433: Biểu mẫu
+Câu 1434: Diễn giải
+Câu 1435: 1
+Câu 1436: Giải thích điền vào biểu mẫu
+Câu 1437: Kiếm soát tiến độ báo giá
+Câu 1438: 2
+Câu 1439: Sử dụng biểu mẫu Lệnh khởi công
+Câu 1440: Yêu cầu tất các bộ phâ n liên quan xem xét chi tiết
+Câu 1441: 3
+Câu 1442: 4
+Câu 1443: 5
+Câu 1444: 6
+Câu 1445: 7
+Câu 1446: Điền vào biểu mẫu Kiểm soát tiến độ báo giá
+Câu 1447: 8
+Câu 1448: 9
+Câu 1449: Sử dụng biểu mẫu Lệnh khởi công
+Câu 1450: Câ p nhâ t kết quả vào biểu mẫu
+Câu 1451: Lệnh khởi công
+Câu 1452: 10
+Câu 1453: Nhận yêu cầu
+Câu 1454: Xem xét và đánh giá
+Câu 1455: Chuẩn bị báo giá và tài liệu
+Câu 1456: Ký duyệt
+Câu 1457: Gửi cho khách hàng
+Câu 1458: Theo dõi và cập nhật báo giá khác theo yêu cầu
+Câu 1459: Nhận kết quả và thông báo đến các bộ phận liên quan
+Câu 1460: Lưu trữ hồ sơ
+Câu 1461: Khảo sát
+Câu 1462: Thiết kế bản vẽ và BOO
+Câu 1463: Xem xét
+Câu 1464: Hỗ trợ và sửa đổi BOQ
+Câu 1465: 41
+Câu 1466: Nhân viên bán hàng tham gia đấu thầu, tiếp thị dịch vụ, sản phẩm công ty
+Câu 1467: Đối tượng là những công ty nước giải khá, thực phẩm, mỹ phẩm,
+Câu 1468: Sau khi nhâ n yêu cầu thầu bộ phâ n mua hàng sẽ yêu cầu tất cả các bộ phâ n liên quan, xem xét về mọi mặt về khách hàng
+Câu 1469: Sau đó, Bộ phâ n thiết kế sẽ yêu cầu phòng kỹ thuâ t sản xuất kế hoạch thiết kế bản vẽ và BOO và đồng thời bộ phâ n giao hàng sẽ chuẩn bị báo giá cho trình lên lên
+Câu 1470: CEO ký chấp nhâ n
+Câu 1471: Nếu Tổng giám đốc không xét duyệt với thiết kế phòng kỹ thuâ t sản xuất kế hoạch phải chỉnh sửa những điểm chưa đạt yêu cầu, hoặc thay đổi về báo giá thì
+Câu 1472: Sau đó duyệt thiết kế và báo giá bởi Tổng giám đốc, nhân viên kinh doanh mới gửi báo giá cho khách hàng
+Câu 1473: Nhân viên kinh doanh phải theo dõi và câ p nhâ t giá cho khách hàng khi có yêu cầu khác, phải hỗ trợ và sửa đổi BOQ
+Câu 1474: Khi có thông báo trúng thầu và hợp đồng được ký kếtnhân viên kinh doanh thông báo đến tất cả các bộ phâ n liên quan, bộ phâ n kinh doanh sẽ nhâ p đơn hàng lên excel và thông báo nhâ n thầu
+Câu 1475: Đồng thời chuyển toàn bộ hồ sơ kèm đơn hàng qua cho bộ phâ n kế toán
+Câu 1476: Tại đây kế toán thu chi có nhiệm vụ kiểm tra hạn mức tín dụng của khách hàng theo hợp đồng đã ký kết, sau đó chuyển đơn đặt hàng cho Phòng kế hoạch
+Câu 1477: Phòng kỹ thuâ t sản xuất kế hoạch sẽ bắt đầu lên kế hoạch sản xuất sản phẩm theo hợp đồng đã ký đúng với số lượng và quy cách
+Câu 1478: Phân xưởng sản xuất nhâ n được kế hoạch sản xuất sản phẩm sẽ tiến hành sản xuất
+Câu 1479: Sau khi sản phẩm hoàn thành tiến hành nghiệm thu sản phẩm kiểm tra kỹ thuâ t, chất lượng,
+Câu 1480: Nếu sản phẩm đạt những chỉ tiêu đã nêu ra trong hợp đồng thi tiến hành đóng gói giao cho khách hàng
+Câu 1481: Ngược lại quay lại kiểm tra, sửa lỗi hàng cho đến khi đạt tiêu chuẩn nhưng đảm bảo thời hạn hợp đồng
+Câu 1482: Khi hoàn thành câ p nhâ t thông báo cho các phòng ban và dựa vào đơn hàng trong hợp đồng phòng kỹ thuâ t sản xuất kế hoạch sẽ kiểm hàng, lâ p phiếu xuất kho, biên bản giao hàng và kế toán xuất hóa đơn bán hàng
+Câu 1483: 3 liên có ký nhâ n và đóng dấu
+Câu 1484: Nhân viên phòng kinh doanh sẽ thực hiện giao hàng đúng thời hạn, địa điểm, quy cách
+Câu 1485: đồng thời câ p nhâ t tình hình về số lượng hàng xuất và ghi nhâ n doanh thu
+Câu 1486: hóa đơn bán hàng sau khi ký, đóng dấu, liên 1 được chuyển về bộ phâ n kinh doanh để lưu trữ
+Câu 1487: Kế toán thu chi sẽ gửi hóa đơn bán hàng liên 2 cho khác hàng và kiểm tra việc thanh toán của khách hàng, liên 3 được lưu hành nội bộ tại phòng kế toán
+Câu 1488: Sau khi kế toán thu chi nhâ n được Giấy báo có của ngân hàng về khoản thanh toán lô hàng hoặc dịch vụ, kế toán sẽ hoàn tất hồ sơ về lô hàng này và lưu trữ chi tiết theo khách hàng và lô hàng
+Câu 1489: 42
+Câu 1490: Cách thức theo dõi quản lý khoản phải thu
+Câu 1491: Công ty TNHH Thiết bị Inox Hoàng Tâm chuyên cung cấp bồn chứa, dụng cụ chứa và cung cấp dịch vụ lắp đặt hệ thống bồn chứa
+Câu 1492: Với chiến lược mang lại lợi ích tối ưu nhất cho khách hàng công ty có thêm nhiều khoản phải thu mới
+Câu 1493: Doanh nghiệp hiện tại chỉ có phương quản lý khoản phải thu duy nhất theo khách hàng
+Câu 1494: Thường phương pháp này dùng cho những dự án, hợp đồng lớn vì Công ty TNHH
+Câu 1495: Thiết bị Inox Hoàng Tâm có nhiều khách hàng và mỗi hợp đồng, hóa đơn có giá trị lớn ảnh hưởng đến nguồn vốn công ty , nên việc theo dõi khoản phải thu rất quan trọng và cấp thiết
+Câu 1496: Doanh nghiệp dùng phần mềm kế toán SmartPro để quản lý các khoản phải thu khách hàng, kế toán thu chi thực hiện hạch toán hóa đơn GTGT và có kèm mã đối tượng khách hàng riêng Đính kèm phụ lục 1
+Câu 1497: Phương pháp theo dõi theo từng khách hàng giúp công ty theo dõi được công ty nào nợ nhiều, nợ ít để thay đổi chính sách phù hợp với tình trạng thu hồi nợ của công ty
+Câu 1498: Theo như phụ lục , ta có thể thấy khoản phải thu của công ty Hoàng Tâm tâ p trung vào hai công ty Cổ phần ACECOOK Việt Nam và
+Câu 1499: Công ty TNHH MTV Thực phẩm Vĩnh Phước
+Câu 1500: Khoản phải thu đến tháng 6 năm 2020 là
+Câu 1501: 6,360,532,090 VNĐ trong đó công ty ACECOOK Việt Nam là khách hàng thân thiết nên công ty cho khách nợ lâu
+Câu 1502: Vì những khoản nợ của khách hàng lớn nên lo ngại về việc xoay vốn để thực hiện những dự án sau rất lớn
+Câu 1503: Cũng ảnh hưởng đến việc những khoản phải trả của công ty TNHH Thiết bị Inox Hoàng Tâm
+Câu 1504: Khoản phải thu khách hàng thể hiện công ty đã thực hiện xuất hàng hoặc cung cấp dịch vụ cho khách hàng, đã xuất hóa đơn, chứng từ và đã kê khai thuế
+Câu 1505: Những điều cần quan tâm khi quản lý những khoản phải thu là
+Câu 1506: Kế toán phải tham gia chuẩn bị và kiểm soát tốt tất cả những nội dung trong hợp đồng về thông tin khách hàng, nám chắc các điều khoản và phương thức thanh toán, chính sách phạt áp dụng khi quá hạn thanh toán, nêu ra được trách nhiệm và nghĩa vụ của hai bên bên tham gia hợp đồng, ngoài ra phải đề câ p phương án giải quyết các vấn đề phát sinh
+Câu 1507: Nắm rõ các diễn biến tăng, giảm phát sinh khoản phải thu theo ngày,tháng, quý, năm và thông tin ghi lại chi tiết, cẩn thâ n
+Câu 1508: Căn cứ vào hợp đồng bán hàng cùng với các chỉnh sách của công ty để thực hiện công tác hạch toán khoản giảm trừ công nợ mà khách hàng được hưởng
+Câu 1509: Lâ p kế hoạch và thường xuyên kiểm tra công nợ khách hàng định kì kèm theo đó là lâ p biên bảng đối chiếu công nợ
+Câu 1510: 43
+Câu 1511: Lâ p các báo cáo cần thiết nộp giám đốc về các công nợ cần thu, báo cáo ohaan tích thời gian nợ theo thời gian định kỳ
+Câu 1512: Vạch ra kế hoạch chi tiết để thu hồi công nợ khách hàng,kèm theo việc phân tích đánh giá nhằm đưa ra phương án hợp để trình cấp trên để giải quyết triệt để nợ khó đòi hoặc quá hạn thanh toán
+Câu 1513: Chủ động hợp tác, phối hợp với các phòng ban khác có liên quan trong công ty để thu hồi nợ đúng thời hạn trong hợp đồng
+Câu 1514: Thời gian thu hồi nợ được công ty quy định rõ trong chính sách công ty như sau
+Câu 1515: Thời gian từ ngày xuất hóa đơn
+Câu 1516: Cách thức
+Câu 1517: 7 ngày
+Câu 1518: Xuất hóa đơn cho khách hàng, liên lạc và gửi hóa đơn
+Câu 1519: 30 ngày 60 ngày đối với khách hàng quốc tế
+Câu 1520: Viết mail thông báo hoặc gọi điện thúc giục khách hàng thanh toán tiền và có thể cử nhân viên đến tâ n nơi nhắc nhở, thu tiền,
+Câu 1521: Sau 30 ngày 60 ngày đối với khách hàng quốc tế
+Câu 1522: Nhờ sự can thiệp của pháp luâ t, nhà
+Câu 1523: Bảng 3
+Câu 1524: 3
+Câu 1525: Thời gian thu hồi công nợ
+Câu 1526: Quy trình thu nợ của công ty TNHH Thiết bị Inox Hoàng Tâm
+Câu 1527: Công ty TNHH Thiết bị Inox Hoàng Tâm đưa ra hai phương thức thanh toán tiền để phù hợp với từng khách hàng và điều kiện của công ty
+Câu 1528: Phương thức thanh toán được hai bên thỏa thuâ n trước khi xuất hóa đơn GTGT và ký hợp đồng để xác định rõ ràng là thanh toán bằng tiền mặt hoặc tiền gửi ngân hàng
+Câu 1529: 44
+Câu 1530: Xác định
+Câu 1531: Chỉ định
+Câu 1532: Thông báo
+Câu 1533: Thông báo số tiền và ngày thu
+Câu 1534: Chuẩn bị hồ sơ
+Câu 1535: Xác định
+Câu 1536: Chỉ định
+Câu 1537: Thanh toán đủ
+Câu 1538: Thu tiền bằng tiền mặt
+Câu 1539: Sơ đồ 3
+Câu 1540: 2
+Câu 1541: Sơ đồ thu tiền mặt của công ty TNHH Thiết bị Inox Hoàng Tâm
+Câu 1542: Xác định số tiền của khách hàng Nợ
+Câu 1543: Thông báo khách hàng đến hạn thanh toán hợp đồng
+Câu 1544: Giám đốc chỉ định nhân viên kinh doanh nhắc nợ khách hàng
+Câu 1545: Nhân viên kinh doanh thực hiện thông báo thu nợ, số nợ và ngày thu tiền
+Câu 1546: Phòng kế toán chuẩn bị đầy đủ hồ sơ, chứng từ trả cho khách hàng
+Câu 1547: Nhân viên kinh doanh hồ sơ cho khách hàng
+Câu 1548: Thu tiền gửi ngân hàng
+Câu 1549: Sơ đồ 3
+Câu 1550: 3
+Câu 1551: Sơ đồ thu tiền gửi ngân hàng của Công ty TNHH Thiết bị Inox Hoàng Tâm
+Câu 1552: Xác định số tiền Nợ
+Câu 1553: Viết mail, gọi điện thông báo khách hàng đến hạn thanh toán
+Câu 1554: Thông báo số tài khoản và số tiền khách hàng thanh toán
+Câu 1555: Nhân viên kế toán chuẩn bị hồ sơ gửi khách hàng khi khách hàng
+Câu 1556: Giám đốc
+Câu 1557: Giao hồ sơ
+Câu 1558: Nhân viên phòng kinh doanh
+Câu 1559: Khách hàng
+Câu 1560: Số tiền khách hàng nợ
+Câu 1561: Giao hồ sơ
+Câu 1562: Nhân viên phòng kinh doanh
+Câu 1563: Khách hàng
+Câu 1564: Số tiền khách hàng nợ
+Câu 1565: Thông báo
+Câu 1566: Giám đốc
+Câu 1567: Tài khoản
+Câu 1568: 45
+Câu 1569: Khi nhâ n giấy báo có ngân hàng, khách hàng gửi tiền thì nhân viên kinh doanh giao cho hồ sơ trả khách
+Câu 1570: 3
+Câu 1571: 2
+Câu 1572: 2
+Câu 1573: Kế toán phải thu khách hàng tại công ty
+Câu 1574: Tài khoản sử dụng
+Câu 1575: Công ty TNHH Hoàng Tâm sử dụng tài khoản 131 để phản ánh tổng khoản phải thu
+Câu 1576: Chứng từ sử dụng
+Câu 1577: Hợp đồng bán hàng
+Câu 1578: Phiếu xuất kho
+Câu 1579: Hóa đơn bán hàng
+Câu 1580: Giấy báo nợ khách hàng lâ p
+Câu 1581: Giấy báo có
+Câu 1582: Bảng đối chiếu công nợ khách hàng
+Câu 1583: Sổ chi tiết 131
+Câu 1584: Sổ cái 131
+Câu 1585: Một số nghiệp vụ phát sinh liên quan đến công nợ phải thu
+Câu 1586: Nghiệp vụ 1
+Câu 1587: a Ngày 26 12 2020, căn cứ vào hợp đồng số 03 HĐKT VHC HT 2019 ngày 26 12 2019
+Câu 1588: Đính kèm phụ lục số 3 , thi công hệ thống bồn và đường ống cho dây chuyển sản xuất
+Câu 1589: Gelatin Collagen lần 1 tổng số tiền 6
+Câu 1590: 449
+Câu 1591: 716
+Câu 1592: 240 VNĐ bao gồm 10 thuế GTGT , thanh toán bằng tiền gửi ngân hàng
+Câu 1593: b Ngày 09 01 2020, khách hàng thanh toán 30 tiền hàng theo quy định trong hợp đồng, căn cứ vào Giấy báo có bản sao kê của Ngân hàng Thương mại cổ phần dịch vụ và Phát triển Việt Nam Đính kèm phụ lục 4 , căn cứ vào Hóa đơn bán hàng số 0000023 ký hiệu TT 19E Đính kèm phụ lục 5 theo hợp đồng số 03 HĐKT VHC HT 2019, kế toán ghi nhâ n
+Câu 1594: Nợ 112
+Câu 1595: 1
+Câu 1596: 934
+Câu 1597: 914
+Câu 1598: 872
+Câu 1599: Có 131VINHHOAN 1
+Câu 1600: 934
+Câu 1601: 914
+Câu 1602: 872
+Câu 1603: Nghiệp vụ 2
+Câu 1604: Ngày 20
+Câu 1605: 01
+Câu 1606: 2020, phòng sản xuất xuất kho lô hàng cho công ty Cổ phần
+Câu 1607: ACECOOK tại Hưng Yên, giá xuất kho , Giá bán đã bao gồm 10 thuế GTGT là
+Câu 1608: 230
+Câu 1609: 395
+Câu 1610: 000 VNĐ, bộ phâ n kế toán xuất hóa đơn GTGT số 0000021 Đính kèm phụ lục 6 , mẫu số 01GTKT0 01, ký hiệu TT 19E theo hợp đồng số 0000021 cho lô hàng, kế toán ghi nhâ n giá vốn và doanh thu
+Câu 1611: 46
+Câu 1612: Nợ 632
+Câu 1613: 150
+Câu 1614: 000
+Câu 1615: 000
+Câu 1616: Có 155
+Câu 1617: 150
+Câu 1618: 000
+Câu 1619: 000
+Câu 1620: Nợ 131ACECOOK 230
+Câu 1621: 395
+Câu 1622: 000
+Câu 1623: Có 511
+Câu 1624: 209
+Câu 1625: 450
+Câu 1626: 000
+Câu 1627: Có 3331
+Câu 1628: 20
+Câu 1629: 945
+Câu 1630: 000
+Câu 1631: 3
+Câu 1632: 2
+Câu 1633: 3
+Câu 1634: Đánh giá tình hình, kiểm soát nợ phải thu khách hàng
+Câu 1635: Phân tích chung
+Câu 1636: Tỷ số hoạt động khoản phải thu năm 2020 của công ty
+Câu 1637: 1
+Câu 1638: 2 vòng
+Câu 1639: 335
+Câu 1640: 64 ngày
+Câu 1641: Vòng quay khoản phải thu
+Câu 1642: Doanh thu thuần
+Câu 1643: Bình quân khoản phải thu
+Câu 1644: 20,330,620,937
+Câu 1645: 13,034,808,650 0 20,387,387,220 0 2
+Câu 1646: Số ngày thu tiền bình quân
+Câu 1647: 365
+Câu 1648: Số vòng quay
+Câu 1649: 365
+Câu 1650: 2
+Câu 1651: 09
+Câu 1652: 47
+Câu 1653: Tỷ số hoạt động khoản phải thu của công ty năm 2020 là 1
+Câu 1654: 2 vòng, số ngày thu tiền bình quân trong năm là 335
+Câu 1655: 64 ngày
+Câu 1656: Mặc dù công ty có nhiều cố gắng để thu hồi nợ
+Câu 1657: Nhưng trên thực tế công ty thực hiện sản xuất theo dự án và loại hàng hóa có giá trị lớn
+Câu 1658: Số ngày thu tiền bình quân của khách hàng là tương đối khắc khe, không thu hút được khách hàng
+Câu 1659: Tỷ số thanh toán
+Câu 1660: 2
+Câu 1661: 07 lần
+Câu 1662: 1
+Câu 1663: 69 lần
+Câu 1664: Tỷ số thanh toán hiện hành
+Câu 1665: Tài sản ngắn hạn
+Câu 1666: Nợ ngắn hạn
+Câu 1667: 27,246,728,419
+Câu 1668: 13,139,034,884
+Câu 1669: Tỷ số thanh toán nhanh
+Câu 1670: Tiền Đầu tư ngắn hạn Phải thu
+Câu 1671: Nợ ngắn hạn
+Câu 1672: 1,802,776,718 0 20,387,387,220
+Câu 1673: 13,139,034,884
+Câu 1674: 48
+Câu 1675: Tỷ số thanh toán hiện hành của công ty là 2
+Câu 1676: 07 lần cho biết tương ứng với một đồng nợ thì tương ứng với 2
+Câu 1677: 07 đồng tài sản ngắn hạn có thể thanh toán
+Câu 1678: Tỷ số thanh toán nhanh là 1
+Câu 1679: 69 lần cho biêt tương ứng với một đồng nợ thì có 1
+Câu 1680: 69 đồng tài sản ngắn hạn có thể huy động ngay để thanh toán
+Câu 1681: Tỷ số thanh toán hiện hành và tỷ số thanh toán nhanh đều lớn hơn 1 cho thấy công ty TNHH Thiết bị Inox Hoàng Tâm có khả năng thanh toán các khoản nợ ngắn hạn
+Câu 1682: tỷ số thanh toán nhanh cho thấy việc chuyển đổi nhanh thành tiền của tài sản ngắn hạn tốt, lượng hàng tồn kho không cao, vì công ty sản xuất theo đơn đặt hàng hoặc dự án, không tốn chi phí kho bãi và hàng tồn kho
+Câu 1683: Rủi ro về việc bán chịu
+Câu 1684: Hiện nay việc gặp rủi ro về bán chịu của mỗi doanh nghiệp là việc không thể tránh khỏi, các biện pháp chỉ có thể giảm rủi ro hơn chứ không thể tránh được
+Câu 1685: Chính sách bán chịu nới lỏng thì doanh nghiệp mới có khả năng tăng doanh thu, thu hút khách hàng, thị trường mở rộng, nhưng mắc khác chúng mang lại những rủi ro tiềm ẩn không lường trước được
+Câu 1686: Vì vâ y bộ phâ n kế toán phải phòng ngừa rủi ro đối với những khoản phải thu này vì quan trọng và cần thiết với mỗi doanh nghiệp
+Câu 1687: Công ty TNHH Thiết bị Inox
+Câu 1688: Hoàng Tâm quan tâm hai rủi ro bán chịu như sau
+Câu 1689: Rủi ro nợ khó đòi không thu hồi được, nếu các khoản nợ chiếm tới 20 30 tổng tài sản của doanh nghiệp
+Câu 1690: Những khoản nợ khó đòi thường đưa vốn lưu động của doanh nghiệp vào tình trạng bế tắc và khả năng rủi ro
+Câu 1691: Ảnh hưởng đến dòng tiền của doanh nghiệp ở khâu bán hàng
+Câu 1692: Rủi ro về tỷ giá bị thay đổi
+Câu 1693: khách hàng, đối tác của công ty TNHH Thiết bị Inox
+Câu 1694: Hoàng Tâm đa số là công ty Việt Nam và có giao dịch VNĐ, nhưng chiến lược công ty mong muốn mở rộng thị trường sang nước ngoài, vì vâ y rủi ro về tỷ giá rất được quan tâm
+Câu 1695: Đối với những khách hàng nước ngoài công ty luôn được kế toán công ty theo dõi theo từng tháng, lần thanh toán, lần thu và chốt tỷ giá
+Câu 1696: Theo dõi các tài khoản bằng tiền gửi ngân hàng bằng ngoại tệ, lãi suất từng tháng và đánh giá chênh lệch vào cuối mỗi tháng
+Câu 1697: Biện pháp phòng ngừa rủi ro
+Câu 1698: Sử dụng phần mềm kế toán SmartPro để theo dõi từng đối tượng, thường xuyên liên lạc nhắc nhở khách hàng về những khoản nợ thu hồi
+Câu 1699: Công ty đưa ra các biện pháp phòng ngừa rủi ro như tạm ứng trước, thanh toán trước 30 hoặc yêu cầu đặt cọc trước, trích lâ p khoản nợ dự phòng
+Câu 1700: Đưa ra những quy định về theo dõi các khoản phải thu, cần phân công nhân viên cụ thể theo dõi khoản nợ và thu hồi nợ cho từng dự án, hợp đồng
+Câu 1701: 49
+Câu 1702: Phải xét duyệt từng loại khách hàng, sau đó thực hiện chính sách bán chịu phù hợp từng loại khách hàng
+Câu 1703: Thường xuyên xem xét, đánh giá các khoản nợ vào cuối mỗi quý, phát hiện ra những nguyên nhân nợ quá hạn và có biện pháp xử lý phù hợp
+Câu 1704: Dư phòng khoản phải thu đối với doanh nghiệp
+Câu 1705: Kế toán dự phòng nợ phải thu khó đòi tại công ty
+Câu 1706: Dự phòng nợ phải thu khó đòi tại công ty thường là những khoản dự phòng phần tổn thất của các khoản nợ phải thu khách hàng đã quá hạn thanh toán hoặc những khaorn nợ phải thu chưa quá hạn nhưng có thể không đòi được khi kiểm tra phát hiện thông tin khách nợ không có khả năng thanh toán
+Câu 1707: Căn cứ ghi nhận nợ phải thu khó đòi
+Câu 1708: Kế toán căn cứ vào các khoản phải thu đã quá hạn thanh toán dựa trên các điều khoản ghi trên hợp đồng kinh tế, các khế ước vay hoặc cam kết nợ khác để ghi nhâ n là khoản nợ phải thu khó đòi
+Câu 1709: Nếu các khoản nợ đã ghi nhâ n là khoản dự phòng phải thu khó đòi được nợ, kế toán căn cứ chứng từ liên quan để tiến hành xóa nợ trên tài khoản phải thu
+Câu 1710: Biện pháp xử lý nợ phải thu khó đòi
+Câu 1711: Cuối tháng, kế toán trưởng sẽ lấy báo cáo chi tiết về các khoản pải thu nhưng chưa thu được trình lên Giám đốc quyết định trích lâ p các khoản lâ p dự phòng như thế nào
+Câu 1712: Lúc này kế toán trưởng sẽ tiến hành hạch toán bút toán dự phòng phải thu khó đòi cho khách hàng đó
+Câu 1713: Kế toán trưởng chịu trách nhiệm tiến hành lâ p các khoản dự phòng phải thu khó đòi và thực hiện nhiệm vụ này trên Excel được xuất từ phần mềm SmartPo
+Câu 1714: Công việc đều được thực hiện bởi công thức, tách biệt riêng các khoản nợ dựa theo tuổi nợ của con nợ
+Câu 1715: Dưới 180 ngày loại A A 6 tháng
+Câu 1716: Từ 181 ngày đến 365 ngày loại B 6 tháng B 1 năm
+Câu 1717: Trên 365 ngày loại C C 1 năm
+Câu 1718: Sau khi xác định loại nợ sẽ tiến hành trích lâ p dự phòng
+Câu 1719: Loại A chỉ ghi nhâ n là nợ mới, đối với B trích lâ p 50 , loại C trích lâ p 100
+Câu 1720: 3
+Câu 1721: 3
+Câu 1722: Thư c trạng các khoản phải trả của công ty TNHH Thiết bị Inox Hoàng Tâm
+Câu 1723: Để việc mua hàng không bị gián đoạn bộ phâ n mua hàng phải câ p nhâ t kịp thời công nợ về phòng kế toán theo dõi để tránh các trường hợp công nợ quá hạn ảnh hưởng
+Câu 1724: 50
+Câu 1725: đến việc mua hàng và hằng tuân gửi đề xuất thanh toán cho cấp trên giải quyết các công nợ cần thiết trước để mua hàng tiếp theo
+Câu 1726: Các phòng bán khác
+Câu 1727: gửi chứng từ thanh toán về phòng kế toán và tránh để quá hạn thanh toán công nợ
+Câu 1728: Phòng kế toán câ p nhâ t công nợ theo dõi đến hạn sẽ tiến hành đề xuất với cấp trên để thanh toán
+Câu 1729: 3
+Câu 1730: 3
+Câu 1731: 1
+Câu 1732: Chính sách quản lý công nợ phải trả nhà cung cấp của công ty TNHH Thiết bị Inox Hoàng Tâm
+Câu 1733: Quy trình mua hàng
+Câu 1734: Tại công ty TNHH Hoàng Tâm thì quy trình luân chuyển chứng từ đối với kế toán phải thu tiến hành như sau
+Câu 1735: Áp dụng cho vật tư của dư án có trong BOM
+Câu 1736: Khi công ty bắt đầu khởi công dự án thì Tổng giám đốc sẽ gởi dự trù cho bộ phâ n mua hàng khi có lệnh khởi công dự án
+Câu 1737: Khi bộ phâ n mua hàng nhâ n được lệnh khởi công sẽ bắt đầu hỏi giá sơ bộ và chuẩn bị mua vâ t tư
+Câu 1738: Mặc khác nếu bộ phâ n kho thấy thiếu vâ t tư hoặc yêu cầu mua hàng từ các bộ phâ n khác, thủ kho sử dụng biểu mẫu Lệnh khởi công, đối với vâ t tư ngoài dự trù thông qua quản lý dự án PM sẽ xem xét cho vâ t tư dự án và thông qua TP nếu xem xét cho vâ t tư khác dự án
+Câu 1739: Khi được duyệt nhân viên mua hàng sẽ tìm, thu thâ p tối thiểu 2 bảng báo giá phù hợp về giá cả, trình tự, thời gian giao hàng, các chứng từ ta dùng biểu mẫu PR
+Câu 1740: 804
+Câu 1741: FR04
+Câu 1742: Từ đó nhân viên tiến hành thỏa thuâ n với nhà cung cấp rồi mới ra quyết định chọn nhà cung cấp lâ p đề nghị mua hàng và soạn hợp đồng
+Câu 1743: Đề nghị mua hàng và hợp đồng sẽ được trình lên CEO và COO duyệt theo quy định ủy quyền của công ty sau khi được ký duyệt nhân viên mua hàng tiến hành gửi PO cho nhà cung cấp và theo dõi thực hiện
+Câu 1744: Khi hàng về bộ phâ n yêu cầu phối hợp cùng Quản lý chất lượng sẽ tiến hành kiểm tra số lượng và chất lượng, nhâ n vâ t tư có đảm bảo theo như yêu cầu trong đơn hàng hoặc hợp đồng, sau đó quản lý chất lượng sẽ gửi lại chứng từ gồm phiếu giao hàng, biên bản kiểm kê,
+Câu 1745: cho bộ phâ n kế toán
+Câu 1746: Tại đây kế toán thu chi sẽ kiểm tra chứng từ có thực hay không rồi chuyển cho kế toán trưởng và Giám đốc duyệt
+Câu 1747: Sau đó Kế toán thu chi sẽ nhâ p vào phần mềm kế toán SmartPro để công ty theo dõi công nợ nhà cung cấp để thanh toán đúng hạn
+Câu 1748: 51
+Câu 1749: Đến hạn thanh toán kế toán thu chi thực hiện ủy nhiệm chi thanh toán tiền cho nhà cung cấp, ủy nhiệm chi bao gồm chữ ký của Tổng Giám đốc và Kế toán trưởng
+Câu 1750: Cuối tháng kế toán thu chi tổng hợp công nợ báo cáo cho kế toán trưởng để lên kế hoạch thanh toán phù hợp với tình hình tài chính công ty
+Câu 1751: 52
+Câu 1752: No
+Câu 1753: Yes
+Câu 1754: Yes
+Câu 1755: STT
+Câu 1756: Tổng
+Câu 1757: Giám đốc
+Câu 1758: Nhân viên mua hàng
+Câu 1759: Bộ phận yêu cầu
+Câu 1760: Biểu mẫu
+Câu 1761: Diễn giải
+Câu 1762: Giám đốc sẽ gửi dự trù được duyệt cho phòng mua hàng khi có lệnh khởi công dự án
+Câu 1763: Chỉ áp dụng cho vâ t tư dự án có trong BOM
+Câu 1764: Sử dụng biểu mẫu Lệnh khởi công, đối với vâ t tư ngoài dự trù theo quy định quy định bổ sung
+Câu 1765: PM sẽ xem xét cho vâ t tư dự án
+Câu 1766: TP sẽ xem xét cho vâ t tư khác dự án
+Câu 1767: Tối thiểu 2 Báo giá phù hợp
+Câu 1768: So sánh giá dùng biểu mẫu
+Câu 1769: PR
+Câu 1770: 804
+Câu 1771: FR02
+Câu 1772: 03
+Câu 1773: Đơn đặt hàng theo biểu mẫu
+Câu 1774: PR
+Câu 1775: 804
+Câu 1776: FR04
+Câu 1777: CEO hoặ COO duyệt theo quy định ủy quyền của công ty
+Câu 1778: Thực hiện trên
+Câu 1779: EPR
+Câu 1780: PR
+Câu 1781: 804
+Câu 1782: AT01
+Câu 1783: AT02
+Câu 1784: Phối hợp với QC thực hiện kiểm tra theo tài liệu IN
+Câu 1785: QC
+Câu 1786: 01
+Câu 1787: Làm thủ tục thanh toán theo tài liệu IN
+Câu 1788: FA
+Câu 1789: 01
+Câu 1790: Bao gồm báo cáo
+Câu 1791: Sơ đồ 3
+Câu 1792: 4
+Câu 1793: Sơ đồ quy trình mua hàng công ty TNHH Thiết bị Inox Hoàng Tâm
+Câu 1794: Dư trù của dư án
+Câu 1795: Hỏi giá sơ bộ và chuẩn bị
+Câu 1796: Yêu cầu mua gấp BOM
+Câu 1797: Xem xét
+Câu 1798: Lấy báo giá và so sánh giá
+Câu 1799: Lập đề nghị mua hàng và soạn hợp đồng
+Câu 1800: Ký duyệt
+Câu 1801: Gửi PO cho
+Câu 1802: NCC và theo dõi
+Câu 1803: Kiểm tra và nhận vật tư
+Câu 1804: Nhận và kiểm tra
+Câu 1805: Làm thủ tục thanh toán
+Câu 1806: Báo cáo va lưu hồ sơ
+Câu 1807: No
+Câu 1808: 53
+Câu 1809: Cách thức theo dõi quản lý khoản phải trả
+Câu 1810: Tiếp nhâ n và nắm rõ các thông tin cần thiết về nhà cung cấp, các điều khoản và thời hạn thanh toán, hình thức thanh toán,
+Câu 1811: thông qua hợp đồng từ công ty đưa xuống
+Câu 1812: Thực hiện xác nhâ n các thông tin nhâ n được sau đó nhâ p vào phần mềm SmartPro để theo dõi
+Câu 1813: Nhằm phân biệt và tránh nhầm lẫn giữa nhà cung cấp và khách hàng kế toán thiết lâ p mã cho nhà cung cấp đó
+Câu 1814: Thực hiện kiểm tra và ghi nhâ n một cách chính xác các giao dịch phát sinh tăng giảm hằng ngày như lấy hàng, thanh toán tiền cho người bán dựa trên các số liệu hạch tán của bộ phâ n mua hàng
+Câu 1815: Dựa trên hợp đồng mua hàng, xác định các khoản giảm trừ công nợ mà doanh nghiệp có thể được hưởng khi bên bán hạch toán theo chính sách và chương trình chính sách kinh doanh bên bán
+Câu 1816: Thường xuyên theo dõi ghi chép và đối chiếu công nợ của từng nhà cung cấp của doanh nghiệp, cuối cùng chốt số liệu định kỳ bằng biên bản đối chiếu công nợ
+Câu 1817: Trình giám đốc báo cáo tổng hợp công nợ phải trả nhà cung cấp định kỳ để thanh toán kịp thời không gây gián đoạn việc mua hàng
+Câu 1818: Quy trình quản lý công nợ khoản phải trả
+Câu 1819: Tại công ty khi có các nghiệp vụ kinh tế phát sinh, kế toán sẽ liên hệ ngay bộ phâ n mua hàng để mở sổ theo dõi các khoản mua hàng phát sinh
+Câu 1820: Ngay khi hàng về nhâ p, bộ phâ n kho sẽ phải kiểm tra chất lượng, số lượng, quy cách của hàng nhâ p thì người nhâ n hàng sẽ ký xác nhâ n vào phiếu giao hàng gồm hai liên liên 1 gửi bên nhà cung cấp, liên 2 phòng kế toán giữ lại để xác nhâ n đã nhâ n hàng
+Câu 1821: Từ hóa đơn, phiếu nhâ p kho,
+Câu 1822: kế toán bắt đầu nhâ p bút toán vào phần mềm kế toán
+Câu 1823: SmartPro để theo dõi thanh toán cho nhà cung cấp
+Câu 1824: Hầu hết các khoan phải trả cho nhà cung cấp công ty đều thanh toán chuyển khoản cho nhà cung cấp vào thứ 2 và thứ 6 hàng tuần nhưng vẫn đảm bảo thời hạn trả tiền hàng, trừ những khoản dưới 2 triệu sẽ thanh toán bằng tiền mặt
+Câu 1825: Đối với các đơn hàng dưới 50 triệu chỉ cần lâ p đơn đặt hàng Purchase Order
+Câu 1826: Còn những đơn hàng lớn hơn 50 triệu thì cần phải soạn thảo hợp đồng
+Câu 1827: Tuy nhiên đối với những nhà cung cấp thường xuyên, ban đầu hai bên sẽ thỏa thuâ n để lâ p Hợp đồng nguyên tắc , sau đó chỉ việc lâ p đơn hàng mà không cần soạn thảo hợp
+Câu 1828: 54
+Câu 1829: Trình ký
+Câu 1830: Thông báo nợ
+Câu 1831: Thanh toán đồng nữa
+Câu 1832: Hợp đồng nguyên tắc kéo dài bao nhiêu năm 1 năm, 2 năm ,
+Câu 1833: còn tùy thuộc vào mức độ tin câ y về nguồn hàng cũng như uy tín làm ăn
+Câu 1834: Quy trình thanh toán cho người bán
+Câu 1835: Thanh toán bằng tiền mặt
+Câu 1836: Sơ đồ 3
+Câu 1837: 5
+Câu 1838: Quy trình thanh toán tiền mặt của công ty TNHH Thiết bị Inox Hoàng Tâm
+Câu 1839: Chứng từ yêu cầu
+Câu 1840: Đề nghị thanh toán
+Câu 1841: Đơn đặt hàng
+Câu 1842: Dự trù vâ t tư
+Câu 1843: Báo giá
+Câu 1844: Phiếu giao hàng
+Câu 1845: Hóa đơn
+Câu 1846: Giao hồ sơ
+Câu 1847: Nhân viên phòng kinh doanh
+Câu 1848: Kế toán thu chi
+Câu 1849: Giám đốc
+Câu 1850: Ký duyệt
+Câu 1851: Nhà cung cấp
+Câu 1852: Lập phiếu chi
+Câu 1853: 55
+Câu 1854: Trình ký
+Câu 1855: Thông báo nợ
+Câu 1856: Thanh toán
+Câu 1857: Thanh toán bằng tiền gửi ngân hàng
+Câu 1858: Sơ đồ 3
+Câu 1859: 6
+Câu 1860: Quy trình thanh toán bằng tiền gửi ngân hàng của công ty TNHH Thiết bị
+Câu 1861: Inox Hoàng Tâm
+Câu 1862: Chứng từ yêu cầu
+Câu 1863: Đơn đặt hàng
+Câu 1864: Dự trù vâ t tư
+Câu 1865: Báo giá
+Câu 1866: Phiếu giao hàng
+Câu 1867: Hóa đơn
+Câu 1868: 3
+Câu 1869: 3
+Câu 1870: 2
+Câu 1871: Kế toán các khoản phải trả người bán
+Câu 1872: Một số nghiệp vụ liên quan đến phải trả người bán tháng 12 2019
+Câu 1873: Nghiệp vụ 1
+Câu 1874: Ngày 11 12 2019, công ty TNHH Tư Vấn SAGITTA cung cấp dịch vụ quý 4 2019, tổng tiền là 7
+Câu 1875: 500
+Câu 1876: 000, thuế GTGT 10 , theo hóa đơn GTGT số 0000066 ngày 22 12 2019 Đính kèm phụ lục 7
+Câu 1877: Nợ TK 6428
+Câu 1878: 7
+Câu 1879: 500
+Câu 1880: 000
+Câu 1881: Nợ TK 1331
+Câu 1882: 750
+Câu 1883: 000
+Câu 1884: Có TK 331SAGITTA 8
+Câu 1885: 250
+Câu 1886: 000
+Câu 1887: Nghiệp vụ 2
+Câu 1888: Ngày 06 12 2019, công ty TNHH sản xuất thương mại Trần Lâm cung cấp dịch vụ gia công Name Plate số tiền 6
+Câu 1889: 006
+Câu 1890: 000 đồng đã bao gồm 10 thuế GTGT theo hóa đơn GTGT ký hiệu TL 18P, số 0000364, ngày 23 12 2019 Đính kèm phụ lục 8 , kế toán ghi
+Câu 1891: Giao hồ sơ
+Câu 1892: Nhân viên phòng kinh doanh
+Câu 1893: Kế toán thu chi
+Câu 1894: Giám đốc
+Câu 1895: Ký duyệt
+Câu 1896: Nhà cung cấp
+Câu 1897: Lập ủy nhiệm chi
+Câu 1898: Ngân hàng
+Câu 1899: 56
+Câu 1900: Nợ TK 627
+Câu 1901: 5
+Câu 1902: 460
+Câu 1903: 000
+Câu 1904: Nợ TK 1331
+Câu 1905: 546
+Câu 1906: 000
+Câu 1907: Có 331TRANLAM 6
+Câu 1908: 006
+Câu 1909: 000
+Câu 1910: Nghiệp vụ 3
+Câu 1911: Ngày 27 12 2019, Công ty TNHH Thiết bị Inox Hoàng Tâm mua vâ t tư chính theo hóa đơn số 0002135, ký hiệu TV 18P, mẫu số 01GTKT3 001 Đính kèm phụ lục 9 và phiếu giao hàng số 003031 Đính kèm phụ lục 10 ngày giao 27 12 2020 đính kèm hóa đơn, ngày 27 12 2019 của Công ty TNHH Vâ t tư Kỹ thuâ t Thái Việt với số tiền 372
+Câu 1912: 250
+Câu 1913: 000 đồng , thuế GTGT 10
+Câu 1914: Chứng từ sử dụng
+Câu 1915: Hóa đơn mua hàng số 0002135, ký hiệu TV 18P, mẫu số 01GTKT3 001
+Câu 1916: Phiếu giao hàng số 003031 ngày giao 27 12 2020 đính kèm hóa đơn
+Câu 1917: Nhâ p liệu vào phần mềm
+Câu 1918: Khi nhâ n hóa đơn từ bên bán hàng, kế toán sẽ trực tiếp ghi nhâ n hóa đơn lên phần mềm
+Câu 1919: Bước 1
+Câu 1920: Khởi động phần mềm SmartPro, nhấp chuột vào mục Đơn mua hàng trên bàn làm việc
+Câu 1921: Hình 3
+Câu 1922: 1
+Câu 1923: Giao diện bàn làm việc trên phần mềm kế toán SmartPro
+Câu 1924: Khi nhâ n hóa đơn và nhâ p kho vâ t tư chính
+Câu 1925: Bước 2
+Câu 1926: Chọn Thêm đơn hàng Mua để tạo đơn mua hàng trên SmartPro
+Câu 1927: 57
+Câu 1928: Bước 3
+Câu 1929: Nhâ p liệu thông tin mua hàng lên phần mềm
+Câu 1930: Hình 3
+Câu 1931: 2
+Câu 1932: Giao diện đơn mua hàng trên phần mềm SmartPro
+Câu 1933: Bước 4
+Câu 1934: Chọn Lưu để lưu thông tin đơn mua hàng
+Câu 1935: Bước 5
+Câu 1936: Sau đó nhâ p kho vâ t tư chính vào dự án
+Câu 1937: Đầu tiên, vào bàn làm việc chọn nhâ p phát sinh, nhâ p PNKT đưa vâ t tư chính vào cho dự án đồng thời nhâ p hóa đơn mua hàng
+Câu 1938: Hình 3
+Câu 1939: 3
+Câu 1940: Giao diện Phiếu nhâ p kho vâ t liệu chính trên phần mềm kế SmartPro
+Câu 1941: 58
+Câu 1942: Sau khi hoàn thành PNKT Phiếu nhâ p kho vâ t tư chính bấm LƯU
+Câu 1943: Bước 6
+Câu 1944: Vào Bàn làm việc chọn nhâ p phát sinh, nhâ p VAT_V để nhâ p thuế GTGT
+Câu 1945: 10 trên hóa đơn
+Câu 1946: Hình 3
+Câu 1947: 4
+Câu 1948: Giao diện Phiếu nhâ p thuế GTGT đầu vào trên phần mềm SmartPro
+Câu 1949: Khi đến hạn thanh toán Công ty gửi ủy nhiệm chi ngày 30 12 2019 chuyển khoản cho
+Câu 1950: Công ty TNHH Vâ t tư Kỹ thuâ t Thái Việt qua tài khoản ngân hàng BIDV Ngân hàng
+Câu 1951: Đầu tư và Phát triển Việt Nam với số tiền 409
+Câu 1952: 475
+Câu 1953: 000 đồng
+Câu 1954: Phí chuyển tiền là 22
+Câu 1955: 000 đồng
+Câu 1956: Bước 7
+Câu 1957: Nhâ p CTNH thanh toán công nợ khách hàng
+Câu 1958: 59
+Câu 1959: Hình 3
+Câu 1960: 5
+Câu 1961: Giao diện Chứng từ ngân hàng chuyển khoản trả người bán trên phần mềm
+Câu 1962: SmartPro
+Câu 1963: Hình 3
+Câu 1964: 6
+Câu 1965: Giao diện Chứng từ ngân hàng phí chuyển tiền trên phần mềm SmartPro
+Câu 1966: Kế toán hoạch toán
+Câu 1967: Khi nhâ n hóa đơn và nhâ p kho vâ t tư chính 1521
+Câu 1968: 60
+Câu 1969: Nợ TK 1521 372
+Câu 1970: 250
+Câu 1971: 000
+Câu 1972: Nợ TK 1331 37
+Câu 1973: 225
+Câu 1974: 000
+Câu 1975: Có TK 331THAIVIET 409
+Câu 1976: 475
+Câu 1977: 000
+Câu 1978: Khi thanh toán cho Công ty TNHH Vâ t tư Kỹ thuâ t Thái Việt
+Câu 1979: Nợ TK 331THAIVIET
+Câu 1980: 409
+Câu 1981: 475
+Câu 1982: 000
+Câu 1983: Có TK 11211
+Câu 1984: 409
+Câu 1985: 475
+Câu 1986: 000
+Câu 1987: Phí chuyển tiền
+Câu 1988: Nợ TK 6425
+Câu 1989: 22
+Câu 1990: 000
+Câu 1991: Có TK 1121
+Câu 1992: 22
+Câu 1993: 000
+Câu 1994: Ngày 18
+Câu 1995: 01
+Câu 1996: 2020, công ty mua văn phòng phẩm thanh toán bằng tiền mặt phiếu chi số 011 09 ngày 18
+Câu 1997: 19
+Câu 1998: 2020 Đính kèm phụ lục 11 cho công ty TNHH Thương mại
+Câu 1999: Dịch vụ Văn phòng phẩm FAST
+Câu 2000: Kèm theo hóa đơn số 0001917, ký hiệu AA 19E Đính kèm phụ lục 12 , công ty được giảm giá vì thanh toán ngay 40
+Câu 2001: 745 đồng
+Câu 2002: Tổng số tiền thanh toán là 1
+Câu 2003: 645
+Câu 2004: 771 đồng
+Câu 2005: Nợ 642
+Câu 2006: 1
+Câu 2007: 496
+Câu 2008: 155
+Câu 2009: Nợ 133
+Câu 2010: 149
+Câu 2011: 616
+Câu 2012: Có 1111
+Câu 2013: 1
+Câu 2014: 645
+Câu 2015: 771
+Câu 2016: 61
+Câu 2017: TÓM TẮT CHƯƠNG 3
+Câu 2018: Nội dung chương 3 đề câ p đến thực trạng kế toán công nợ về tìm hiểu về kế toán phải thu khách hàng và phải trả nhà cung cấp tại công ty TNHH Thiết bị Inox Hoàng
+Câu 2019: Tâm
+Câu 2020: Với việc phân tích các số liệu thống kê về nguồn vốn và tài sản của công ty cho thấy công ty khá ổn định, phát triển tương đối tốt
+Câu 2021: Chương 3 cũng đề câ p thực trạng kế toán công nợ các khoản phải thu khách hàng, nguồn vốn công ty sử dụng hiệu quả, nợ ngắn hạn của công ty có xu hướng giảm dần, tăng khả năng thanh toán của công ty
+Câu 2022: Ngoài ra chương 3 cũng đề câ p đến khoản phải trả nhà cung cấp ảnh hưởng như thế nào đến công ty
+Câu 2023: Như vâ t, chương 2 thể hiện thực trạng kế toán công nợ tại công ty cho thấy những thế mạnh, điểm yếu, tồn tại cần khắc phục,
+Câu 2024: tại đơn vị
+Câu 2025: Từ đó hình thành cơ sở đưa ra các biện pháp ở chương tiếp theo
+Câu 2026: 62
+Câu 2027: CHƯƠNG 4
+Câu 2028: MỘT SỐ BIỆN PHÁP NÂNG CAO HIỆU QUẢ QUẢN LÝ VÀ THU
+Câu 2029: HỒI CÔNG NƠ Ở CÔNG TY TNHH THIẾT BỊ INOX HOÀNG TÂM
+Câu 2030: 4
+Câu 2031: 1
+Câu 2032: Những ưu điểm và hạn chế đối với công ty TNHH Thiết bị Inox Hoàng Tâm
+Câu 2033: 4
+Câu 2034: 1
+Câu 2035: 1
+Câu 2036: Ưu điểm
+Câu 2037: Đội ngũ nhân viên của công ty
+Câu 2038: Mặc dù mới thành lâ p, bước đầu có ít nhân viên nhưng trình độ nhân viên tốt, năng động, tích cực đóng góp và có tinh thần trách nhiệm cao với công ty
+Câu 2039: Phong cách làm việc chuyên nghiệp, nhiệt huyết, nhiều nhân nhân viên gắn bó sâu sắc với công ty
+Câu 2040: tất cả nhân viên công ty đều đoàn kết đảm bảo an toàn bảo mâ t và góp phần đưa công ty ngày đi lên
+Câu 2041: Công tác kế toán
+Câu 2042: Công ty theo dõi theo từng đối tượng khách hàng, nhà cung cấp, từng công trình, dự án, bán hàng theo đơn đặt hàng, theo số hợp đồng đã ký, có kiểm soát và đánh giá khả năng thanh toán của khách hàng
+Câu 2043: Các chứng từ sử dụng trong quá trình hạch toán ban đầu đều phù hợp với yêu cầu nghiệp vụ kinh tế phát sinh và cơ sở pháp lý của nghiệp vụ
+Câu 2044: Các chứng từ đều được sử dụng đúng mẫu của bộ tài chính ban hành, những thông tin kinh tế về nội dung của các nghiệp vụ kinh tế phát sinh đều được ghi đầy đủ,chính xác vào chứng từ
+Câu 2045: Các chứng từ đều được kiểm tra , giám sát chặt chẽ, hoàn chỉnh và xử lý kịp thời
+Câu 2046: Công ty có kế hoạch lưu chuyển chứng từ tương đối tốt,các chứng từ dược phân loại,hệ thống hóa theo các nghiệp vụ,trình tự thời gian trước khi đi vào lưu trữ
+Câu 2047: Công ty đã có sự quan tâm đúng mức chế độ quản lý thành phẩm
+Câu 2048: Hệthống kho được bố trí khoa học, hợp lý đảm bảo quản lý theo từng nhóm, mặt hàngthuâ n tiện cho việc nhâ p xuất hàng
+Câu 2049: Công tác quản lý thành phẩm cũng được đánhgiá cao trong việc xác định đúng đắn rõ ràng nội quy, quy chế, trách nhiệm của cácbên bảo vệ, KCS, thủ kho và kế toán trong quản lý tránh nhầm lẫn hao hụt
+Câu 2050: Bêncạnh đó công tác quản lý bán hàng, theo dõi thanh toán công nợ với khách hàngcũng được tiến hàng đều đặn gắn với thực tế của công ty
+Câu 2051: Về việc sử dụng hệ thống tài khoản kế toán thì công ty áp dụng chế độ kế toán mới do Bộ tài chính phát hành, việc sử dụng tài khoản và phương pháp hạch toán mới vào công tác kế toán nói chung là hợp lý và tương đối khoa học
+Câu 2052: 63
+Câu 2053: Về việc sử dụng hệ thống chứng từ kế toán có nhiều ưu điểm biểu hiện là việc sử dụng trình tự luân , trình tự ghi chép chứng từ đã đảm bảo cơ sở lâ p ra từ thực tế và cơ sở pháp lý cho công ty giám sát tình hình nhâ p xuất tồn kho thành
+Câu 2054: Mặc dù, vào đầu năm 2020 sự xuất hiện của dịch covid 19 làm ảnh hưởng đến rất nhiều công ty từ hoạt động đến tài chính
+Câu 2055: Nhưng vì đặc thù mặt hàng và ứng phó kịp thời của công ty đã giúp công ty tránh khỏi những rủi ro ảnh hưởng như
+Câu 2056: thực hiện giao hàng đúng hạn theo hợp đồng
+Câu 2057: Đối với kế toán phải thu khách hàng
+Câu 2058: Đa số khách hàng công ty TNHH Thiết bị Inox Hoàng Tâm hầu như là những công ty có uy tín và lớn trên thị trường, vì vâ y việc công nợ cho khách hàng được đảm bảo sẽ được trả
+Câu 2059: Nhờ chính sách ưu đãi mà hiện nay công ty rất được lòng những khách hàng mới và được mở rộng mối quan hệ nhiều hơn
+Câu 2060: Doanh thu cải thiện so với những ngày đầu thành lâ p
+Câu 2061: Thứ hai, các chứng từ hạch toán của công ty luôn đầy đủ, chính xác để đáp ứng kịp thời để Ban Giám đốc có thể nắm rõ tình hình, để kịp thời ngăn chặn những khoản nợ ảnh hưởng và gây hệ lụy cho cả những khoản phải trả khách hàng
+Câu 2062: Thứ ba, Công ty áp dụng đầy đủ chế độ tài chính, kế toán của bộ tài chính ban hành để có thể phù hợp với đặc điểm công ty, kế toán đã mở tài khoản cấp 2, 3 để dễ dàng theo dõi công nợ của từng khách hàng, nhà cung cấp
+Câu 2063: Giảm nhẹ công việc cho kế toán , tránh sự chồng chéo, ghi chép sai
+Câu 2064: Đối với kế toán phải trả
+Câu 2065: Kế toán thu chi thanh toán các khoản mục phải trả được hạch toán đúng chuẩn mực kế toán, ghi nhâ n kịp thời, sắp xếp chứng từ hợp lý, dễ tìm chứng từ để theo dõi
+Câu 2066: Quy trình quản lý an toàn thanh toán đúng hạn không có tình trạng mất uy tín hoặc kiện tụng,
+Câu 2067: thuâ n lợi trong việc mua hàng
+Câu 2068: Công ty có quy trình luân chuyển chứng từ chặt chẽ, tránh thấm thoát, chứng từ liên quan
+Câu 2069: 4
+Câu 2070: 1
+Câu 2071: 2
+Câu 2072: Hạn chế
+Câu 2073: Công ty TNHH Thiết bị Inox Hoàng Tâm mặc dù mới thành lâ p nhưng nhiều mặt tích cực đã đạt được trong công tác kế toán nói chung và kế toán công nợ nói riêng, và không thể tránh khỏi những hạn chế tồn đọng nhất định như sau
+Câu 2074: Đối với bộ máy kế toán
+Câu 2075: 64
+Câu 2076: Bộ máy kế toán được tổ chức theo mô hình vừa tâ p trung vừa phân tán nên các đơn vị trực thuộc vẫn còn châ m trong công tác cung cấp thông tin kế toán, các báo cáo quyết toán gửi không đúng thời gian quy định, làm ảnh hưởng đến việc lâ p báo cáo của đơn vị, khiến cho tính kịp thời của thông tin chưa được phát huy
+Câu 2077: Đối với việc theo dõi tình hình công nợ
+Câu 2078: Kế toán công nợ đã mở sổ chi tiết theo từng đối tượng khách hàng và nhà cung cấp nhưng chỉ cho biết thông tin về số lượng chứ chưa đề cấp được thời hạn thanh toán, thời gian chiết khấu nên chưa thể cung cấp đầy đủ thông tin cho Giám đốc để đưa ra chính sách kịp thời
+Câu 2079: Báo cáo công nợ chưa được thiết lâ p nên đã hạn chế tầm nhìn của các nhà quản lý đối với tình hình tổng quát các khoản phải thu, phải trả
+Câu 2080: Đối với các khoản phải thu
+Câu 2081: Các khoản phải thu công ty chiếm tỷ trọng cao trong tổng tài sản do đặc thù của công ty là thực hiện theo dự án, hợp đồng lớn, và công ty cũng chưa có chính sách thu hồi nợ hợp lý
+Câu 2082: Ngoài ra, quy trình liên quan đến phải thu khách hàng còn nhiều hạn chế chưa được khắc phục
+Câu 2083: Đây cũng là những hạn chế tương đối lớn gây ảnh hưởng đến hoạt động sản xuất kinh doanh của công ty
+Câu 2084: Bởi vì, công ty mới được thành lâ p gần đây nên một số chính sách và quy trình nhân viên vẫn vi phạm dấn đến việc khách hàng thanh toán châ m hơn hạn đã thỏa thuâ n vì thiếu một số hồ sơ như
+Câu 2085: Giấy kiểm định, thiếu phiếu giao hoặc nhiều chứng từ liên quan
+Câu 2086: Việc trì trệ thanh toán dẫn đến hâ u quả làm gián đoạn kế hoạch chi trả cho nhà cung cấp mà công ty đang nợ
+Câu 2087: Làm mất uy tín và mất nhiều thời gian để chỉnh sửa
+Câu 2088: Làm cho việc sản xuất công ty gặp khó khăn, ngoài ra bỏ mất nhiều cơ hội
+Câu 2089: Quy trình mua hàng và bán hàng còn có nhiều bước còn chưa phân công rõ đối tượng thực hiện, trách nhiệm thuộc về ai
+Câu 2090: Nên khi xảy ra vấn đề ngoài ý muốn thì các phòng ban đùn đẩy trách nhiệm cho nhau
+Câu 2091: Mặc dù đã có chính sách về chiết khấu, giảm giá nhưng công ty chưa thực hiện được như chính sách đã ban dành cho khách hàng thường xuyên
+Câu 2092: Vì vâ y không thể khuyến khích khách hàng trả sớm hơn
+Câu 2093: Ngoài ra, chính sách dự phòng khoản nợ phải thu khó đòi cũng chưa được thực hiện
+Câu 2094: Vì vâ y, có thể gây rủi ro cho doanh nghiệp
+Câu 2095: Công ty cũng chưa ra những biến pháp thu hồi nợ khác ngoài gửi mail và gọi điện nhắc khoản nợ, biện pháp cuối cùng đối với những khách hàng không chịu thanh toán đó là pháp luâ t
+Câu 2096: Mặc dù, biện pháp này chắc chắn có thể thắng kiện nhưng phải xem xét chi phí kiện tụng, thời gian
+Câu 2097: Nên đó là điều e ngại không những công ty TNHH Thiết bị
+Câu 2098: Inox Hoàng Tâm nói riêng mà công ty khác nói chung
+Câu 2099: 65
+Câu 2100: Công ty TNHH Thiết bị Inox Hoàng Tâm còn có những khách hàng nước ngoài, nên khó khăn trong công tác những khoản phải thu, đặc biệt là rủi ro hối đoái
+Câu 2101: Bắt đầu từ ngày 01
+Câu 2102: 04
+Câu 2103: 2020, Việt Nam thực hiện cách ly xã hội trên toàn quốc 15 ngày để chiến đấu với dịch bệnh Covid 19
+Câu 2104: Theo đó các hoạt động của nhiều công ty tạm thời dừng lại, trong đó có những khách hàng, nhà cung cấp của Hoàng Tâm, khiến việc thu nợ là một trở ngại và áp lực lớn
+Câu 2105: Đối với các khoản phải trả
+Câu 2106: Trong tổng nguồn vốn thì nợ phải trả chiến tỷ trọng rất cao, một phần vì kế hoạch trả nợ chưa hợp lý
+Câu 2107: Qua đó cho thấy, nguồn vón kinh doanh của công ty chủ yếu do chiếm dụng từ bên ngoài, chứng tỏ mức phụ thuộc về tài chính công ty cao
+Câu 2108: 4
+Câu 2109: 2
+Câu 2110: Một số biện pháp được đề xuất
+Câu 2111: Đối với bộ máy kế toán
+Câu 2112: Cần đưa ra các quy định cụ thể và ro ràng hơn để tăng cường hiêu quả trong công tác quản lý đảm bảo cho việc cung cấp thông tin kế toán luôn luôn đáp ứng kịp thời
+Câu 2113: Ngoài công ty TNHH Thiết bị Inox Hoàng Tâm nói riêng và các công khác nói chung cần có sự đo lường hiệu suất cao của các khoản phải thu, điều này hay bị bỏ sót
+Câu 2114: Điều này không bắt buộc phải thực hiện nhưng nó giúp cho công việc kế toán trở nên dễ dàng hơn
+Câu 2115: Bởi vì, những công ty phát triển, thành công trong công tác làm việc thu hồi công nợ khách hàng chính là thường xuyên đo lường kết quả mỗi khi hoàn thành công việc của mình
+Câu 2116: Theo đó, các nhân viên kế toán công nợ sẽ thiết lâ p ra các chỉ số đo hiệu suất cao của không ít hoạt động giải trí nhằm mục đích biết được một số thông tin rất cần thiết liên quan đến tiến độ thực thi như là thời gian thu tiền trong các đợt là bao nhiêu, số lượng khách hàng trả đúng thời hạn, con số khách hàng không hợp tác hoặc khất nợ,
+Câu 2117: Đối với kế toán phải thu khách hàng
+Câu 2118: Nên thiết lâ p sổ chi tiết phải thu khách hàng gồm có các mục thể hiện nợ trong hạn, nợ quá hạn và thời hạn thanh toán,
+Câu 2119: Đặc biệt nên theo dõi khách hàng theo dự án để xem xét khách quan hơn
+Câu 2120: Dựa vào đó công ty theo dõi được tình hình từng khách hàng, đê kịp thời đưa ra những biện pháp thu hồi nợ hợp lý
+Câu 2121: Cuối mỗi tháng, kế toán nên thiết lâ p
+Câu 2122: Báo cáo tuổi nợ khách hàng để Giám đốc dễ dàng quản lý
+Câu 2123: Cần thay đổi chính sách công ty về quy trình được phân công rõ ràng , thống nhất đối tượng , tùy vào môi trường kinh doanh để xây dựng chính sách phù hợp hơn
+Câu 2124: Có quy định và xử lý nếu nhân viên quy phạm quy trình mua hàng, bán hàng, tổ chức họp thường
+Câu 2125: 66
+Câu 2126: xuyên để điều chỉnh những cá nhân vi phạm
+Câu 2127: Nâng cao tay nghề nhân viên và kinh nghiệm chuyên môn khi thực hiện quản lý, hoặc gửi cán bộ quản lý học tại các khóa học
+Câu 2128: Đối với Kế toán phải trả
+Câu 2129: Tương tự kế toán phải thu, lâ p sổ chi tiết phải trả cho người bán và Báo cáo tuổi nợ nhà cung cấp nhằm biết được thời gian quá nợ và tình hình tài chính công ty và những khoản phải thu khách hàng đến hạn thu để có kế hoạch trả nợ nào trước, trả nợ nào sau, tránh trường hợp kéo dài nợ làm mất uy tín với nhà cung cấp
+Câu 2130: Kế toán phụ trách công nợ cần theo dõi chi tiết thời gian thanh toán từng chủ nợ, từng hợp đồng từ đó lâ p kế hoạch thanh toán theo thời hạn chiết khấu
+Câu 2131: Trong công tác chuyển tiền
+Câu 2132: thay vì chuyển tiền theo giải pháp thủ công thì nên có sự nâng cấp cải tiến, áp dụng những phần mềm công nghệ thông tin tiên tiến, quy trình tự động
+Câu 2133: Công ty cần có chính sách tín dụng thâ t rõ ràng và có sự phân chia cho từng nhóm khách hàng
+Câu 2134: 67
+Câu 2135: KẾT LUẬN
+Câu 2136: Công ty TNHH Thiết bị Inox Hoàng Tâm có thể nói là công ty non trẻ, mới thành lâ p chưa có bước bâ t lớn
+Câu 2137: Nhưng cũng đạt được nhiều kết quả nhất định đó là nhờ sự quan tâm và tin tưởng từ khách hàng
+Câu 2138: Mặc dù còn nhiều khó khăn, chưa hoàn thiện nhưng Hoàng Tâm luôn phấn đấu, không ngừng vươn lên, trở thành doanh nghiệp đứng vững trên thị trường
+Câu 2139: Có sự đóng góp phát triển đất nước, thúc đẩy quá trình công nghiệp hóa, hiện đại hóa
+Câu 2140: Bài khóa luâ n đã nêu Thực trạng công tác kế toán công nợ và khả năng thanh toán công ty Thiết bị Inox Hoàng Tâm
+Câu 2141: Là vấn đề được công ty quan tâm và chú trọng
+Câu 2142: Trong thời gian tới, với quy mô kinh doanh ngày càng mở rộng, em hi vọng rằng công tác kế toán của công ty sẽ hoàn thiện hơn nữa để đáp ứng yêu cầu ngày càng cao của nền kinh tế thị trường
+Câu 2143: Sự liên hệ giữa thực tiễn và lý luâ n đã giúp em có nhừng kiến thức bổ ích, nắm bắt yêu cầu thực tiễn, hoàn thiện năng lực và kỹ năng bản thân, và có những hình dung cơ bản về nghề nghiệp của mình trong tương lai
+Câu 2144: Tuy nhiên vì hiểu biết, kiến thức em cũng như kinh nghiệm thực tế còn hạn chế nên không tránh khỏi những thiếu xót
+Câu 2145: Em rất mong được sự thông cảm và sự chỉ dẫn của thầy cô, anh chị trong công ty
+Câu 2146: Em xin chân thành cảm ơn
+Câu 2147: 68
+Câu 2148: TÀI LIỆU THAM KHẢO
+Câu 2149: 1
+Câu 2150: Thông tư số 200 2014 TT BTC ngày 22 12 2014 của Bộ Tài chính hướng dẫn chế độ kế toán doanh nghiệp
+Câu 2151: 2
+Câu 2152: Sổ liệu sổ sách của Công ty TNHH Thiết bị Inox Hoàng Tâm năm 2018, 2019,
+Câu 2153: 2020
+Câu 2154: 3
+Câu 2155: Phần mềm kế toán SmartPro
+Câu 2156: 4
+Câu 2157: Tâ p thể tác giả 2017 , Kế toán tài chính Quyển 1, NXB Kinh tế TP
+Câu 2158: HCM,
+Câu 2159: TP
+Câu 2160: HCM
+Câu 2161: 5
+Câu 2162: PGS
+Câu 2163: TS Nguyễn Phú Giang, TS
+Câu 2164: Nguyễn Trúc Lê, 2013, Lý thuyết và thực hành
+Câu 2165: Kế toán Tài chính, TP
+Câu 2166: Hồ Chí Minh, NXB
+Câu 2167: Đại học Kinh tế Quốc dân
+Câu 2168: 69
+Câu 2169: PHỤ LỤC
+Câu 2170: Phụ lục 1 Bảng tổng hợp công nợ phải thu khách hàng đến tháng 22 06 2020
+Câu 2171: Phụ lục 1 Báo cáo tài chính 2019 công ty TNHH Thiết bị Inox Hoàng Tâm
+Câu 2172: Phụ lục 2 Báo cáo tài chính 2020 công ty TNHH Thiết bị Inox Hoàng Tâm
+Câu 2173: Phụ lục 3 Hợp đồng kinh tế số 03 HĐKT VHC HT 2019
+Câu 2174: Phụ lục 4 Bản sao kê tài khoản
+Câu 2175: Phụ lục 5 Hóa đơn GTGT số 0000023, ký hiệu TT 19E, mẫu số 01GTKT0 001
+Câu 2176: Phụ lục 6 Hóa đơn GTGT số 0000021, ký hiệu TT 19E, mẫu số 01GTKT0 001
+Câu 2177: Phụ lục 7 Hóa đơn GTGT số 0000066, ký hiệu SG 19E, mẫu số 01GTKT0 001
+Câu 2178: Phụ lục 8 Hóa đơn GTGT, số 0000364, ký hiệu TL 18P, mẫu số 01GTKT3 003
+Câu 2179: Phụ lục 9 Hóa đơn số 0002135, ký hiệu TV 18P, mẫu số 01GTKT3 001
+Câu 2180: Phụ lục 10 Phiếu giao hàng số 003031
+Câu 2181: Phụ lục 11 Phiếu chi số 011 09
+Câu 2182: Phụ lục 12 Hóa đơn GTGT số 0001917, ký hiệu AA 19E, mẫu số 01GTKT0 001
+Câu 2183: 70
+Câu 2184: Phụ lục 1
+Câu 2185: 71
+Câu 2186: Phụ lục 2
+Câu 2187: 72
+Câu 2188: Bảng cân đối kế toán 2019
+Câu 2189: 73
+Câu 2190: Báo cáo kết quả hoạt động kinh doanh
+Câu 2191: 74
+Câu 2192: Phụ lục 2
+Câu 2193: 75
+Câu 2194: Bảng cân đối kế toán năm 2020
+Câu 2195: 76
+Câu 2196: Bảng kết quả hoạt động kinh doanh năm 2019
+Câu 2197: 77
+Câu 2198: Phụ lục 3
+Câu 2199: 78
+Câu 2200: 79
+Câu 2201: Phụ lục 4
+Câu 2202: 80
+Câu 2203: 81
+Câu 2204: Phụ lục 5
+Câu 2205: 82
+Câu 2206: Phụ lục 6
+Câu 2207: 83
+Câu 2208: Phụ lục 7
+Câu 2209: 84
+Câu 2210: Phụ lục 8
+Câu 2211: 85
+Câu 2212: Phụ lục 9
+Câu 2213: 86
+Câu 2214: Phụ lục 10
+Câu 2215: 87
+Câu 2216: Phụ lục 11
+Câu 2217: 88
+Câu 2218: Phụ lục 12
+Câu 2219: 89
+Câu 2220: 90
+Câu 2221: S
+Câu 2222: K
+Câu 2223: L
+Câu 2224: 0
+Câu 2225: 0
+Câu 2226: 2
+Câu 2227: 1
+Câu 2228: 5
+Câu 2229: 4
+Câu 2230: BỘ GIÁO DỤC VÀ ĐÀO TẠO
+Câu 2231: TRƯỜNG ĐẠI HỌC SƯ PHẠM KỸ THUẬT TP
+Câu 2232: HCM
+Câu 2233: KHOA CÔNG NGHỆ THÔNG TIN
+Câu 2234: MÔN HỌC
+Câu 2235: CƠ SỞ DỮ LIỆU NÂNG CAO
+Câu 2236: BÁO CÁO ĐỒ ÁN
+Câu 2237: ĐỀ TÀI
+Câu 2238: TÌM HIỂU CSDL NOSQL, CÀI ĐẶT MONGODB
+Câu 2239: THIẾT KẾ CSDL MONGODB VÀ THAO TÁC
+Câu 2240: TP
+Câu 2241: Hồ Chí Minh, tháng 04 năm 2024
+Câu 2242: GVHD
+Câu 2243: ThS
+Câu 2244: Lê Thị Minh Châu
+Câu 2245: Mã lớp
+Câu 2246: ADDB331784_23_2_02
+Câu 2247: Nhóm sinh viên thực hiện
+Câu 2248: Nhóm 1
+Câu 2249: 1
+Câu 2250: Nguyễn Thị Lan Anh 21110368
+Câu 2251: 2
+Câu 2252: Huỳnh Nhật Nam 21110903
+Câu 2253: 3
+Câu 2254: Trịnh Thị Thanh Huyền 21110477
+Câu 2255: 4
+Câu 2256: Phan Minh Thuận 21110667
+Câu 2257: LỜI CẢM ƠN
+Câu 2258: Lời nói đầu tiên, chúng em xin gửi lời biết ơn sâu sắc và lòng tri ân đến Thạc sĩ
+Câu 2259: Lê Thị Minh Châu người đã dành thời gian và công sức để hỗ trợ, đồng hành cùng chúng em trong suốt quá trình nghiên cứu và học tập đề tài này
+Câu 2260: Từ khi chúng em bắt đầu bước vào lĩnh vực học tập này đến hiện tại, sự quan tâm và sự hỗ trợ tận tình từ Cô đã giúp chúng em phát triển và hoàn thành đề tài của mình một cách thành công
+Câu 2261: Chúng em xin bày tỏ lòng biết ơn chân thành nhất đến Cô Lê Thị Minh Châu người đã chia sẻ những kiến thức quý báu và cung cấp sự hướng dẫn cần thiết cho chúng em trong suốt quá trình học tập
+Câu 2262: Nhờ vào sự chỉ dạy và hướng dẫn tận tình của Cô mà chúng em đã có thể hoàn thiện đề tài nghiên cứu của mình
+Câu 2263: Bài báo cáo về đề tài TÌM HIỂU CSDL NOSQL, CÀI ĐẶT MONGODB,
+Câu 2264: THIẾT KẾ CSDL MONGODB VÀ THAO TÁC của môn Cơ Sở Dữ Liệu Nâng Cao đã được chúng em thực hiện trong vòng một tháng
+Câu 2265: Tuy chúng em còn hạn chế trong lượng kiến thức, nhưng chúng em hy vọng nhận được sự đóng góp quý báu từ Cô để bổ sung và hoàn thiện kiến thức của mình, từ đó học hỏi thêm kinh nghiệm và nâng cao trình độ, chuẩn bị cho tương lai công việc
+Câu 2266: Chúng em xin gửi lời cảm ơn chân thành nhất đến Cô, và chúc Cô luôn vui vẻ, giữ lửa nhiệt quyết tâm dành cho nghề, và luôn tràn đầy niềm tin trong cuộc sống
+Câu 2267: Chúng em hy vọng mọi điều tốt lành sẽ đến với Cô, và Cô sẽ tiếp tục đóng góp cho sự nghiệp trồng người với sự cao cả và vĩ đại như Cô đã từng làm
+Câu 2268: BẢNG PHÂN CÔNG
+Câu 2269: STT
+Câu 2270: MSSV
+Câu 2271: Họ Và Tên
+Câu 2272: Nhiệm Vụ
+Câu 2273: Hoàn Thành
+Câu 2274: 1
+Câu 2275: 21110903
+Câu 2276: Huỳnh Nhật Nam
+Câu 2277: Nhóm Trưởng
+Câu 2278: Soạn nội dung phần III
+Câu 2279: Làm việc với MongoDB cài đặt và cấu hình MongoDB, tạo lập cơ sở dữ liệu
+Câu 2280: Các thao tác CRUD cơ bản
+Câu 2281: Code front end và back end các chức năng
+Câu 2282: Tài khoản đăng nhập đăng ký , đăng xuất cập nhật thông tin tài khoản
+Câu 2283: Đơn hàng trong quản lý hệ thống xem đơn hàng, xem báo cáo đơn hàng
+Câu 2284: Đơn hàng của người dùng đặt hàng, hủy đơn hàng
+Câu 2285: 100
+Câu 2286: 2
+Câu 2287: 21110368
+Câu 2288: Nguyễn Thị Lan Anh
+Câu 2289: Soạn nội dung phần III
+Câu 2290: Làm việc với MongoDB Thao tác với cơ sở dữ liệu
+Câu 2291: Các thao tác CRUD cơ bản
+Câu 2292: Code front end và back end các chức năng
+Câu 2293: Trang chủ xem sản phẩm, tìm kiếm, xem chi tiết sản phẩm, xem sản phẩm, xem thêm, xem sản phẩm theo loại
+Câu 2294: 100
+Câu 2295: 3
+Câu 2296: 21110477
+Câu 2297: Trịnh Thị Thanh Huyền
+Câu 2298: Soạn nội dung phần I
+Câu 2299: Giới thiệu NoSQL
+Câu 2300: 100
+Câu 2301: Các thao tác CRUD cơ bản
+Câu 2302: Code front end và back end các chức năng
+Câu 2303: Sản phẩm trong quản lý hệ thống thêm sản phẩm, tìm kiếm sản phẩm, chỉnh sửa sản phẩm, xóa sản phẩm, xem list thông tin sản phẩm
+Câu 2304: 4
+Câu 2305: 21110667
+Câu 2306: Phan Minh Thuận
+Câu 2307: Soạn nội dung phần II
+Câu 2308: Cơ sở dữ liệu MongoDB
+Câu 2309: Các thao tác CRUD cơ bản
+Câu 2310: Code front end và back end các chức năng
+Câu 2311: Người dùng trong quản lý hệ thống xóa thông tin, chỉnh sửa thông tin, tìm kiếm người dùng, xem list thông tin người dùng
+Câu 2312: 100
+Câu 2313: MỤC LỤC
+Câu 2314: CHƯƠNG 1
+Câu 2315: GIỚI THIỆU NOSQL
+Câu 2316: 1
+Câu 2317: 1
+Câu 2318: 1
+Câu 2319: Giới thiệu
+Câu 2320: 1
+Câu 2321: 1
+Câu 2322: 2
+Câu 2323: Đặc điểm của NoSQL
+Câu 2324: 1
+Câu 2325: 1
+Câu 2326: 3
+Câu 2327: Phân loại cơ sở dữ liệu NoSQL
+Câu 2328: 2
+Câu 2329: 1
+Câu 2330: 3
+Câu 2331: 1
+Câu 2332: Key value
+Câu 2333: 2
+Câu 2334: 1
+Câu 2335: 3
+Câu 2336: 2
+Câu 2337: Document
+Câu 2338: 2
+Câu 2339: 1
+Câu 2340: 3
+Câu 2341: 3
+Câu 2342: Graph
+Câu 2343: 3
+Câu 2344: 1
+Câu 2345: 3
+Câu 2346: 4
+Câu 2347: Column
+Câu 2348: 4
+Câu 2349: 1
+Câu 2350: 4
+Câu 2351: So sánh cơ sở dữ liệu NoSQL với cơ sở dữ liệu quan hệ
+Câu 2352: 4
+Câu 2353: CHƯƠNG 2
+Câu 2354: CƠ SỞ DỮ LIỆU MONGODB
+Câu 2355: 6
+Câu 2356: 2
+Câu 2357: 1
+Câu 2358: Giới thiệu
+Câu 2359: 6
+Câu 2360: 2
+Câu 2361: 2
+Câu 2362: Mô hình dữ liệu trong MongoDB
+Câu 2363: 6
+Câu 2364: 2
+Câu 2365: 3
+Câu 2366: Kiến trúc của MongoDB
+Câu 2367: 8
+Câu 2368: 2
+Câu 2369: 4
+Câu 2370: Các chế độ thực thi MongoDB
+Câu 2371: 9
+Câu 2372: CHƯƠNG 3
+Câu 2373: LÀM VIỆC VỚI MONGODB
+Câu 2374: 10
+Câu 2375: 3
+Câu 2376: 1
+Câu 2377: Cài đặt và cấu hình MongoDB
+Câu 2378: 10
+Câu 2379: 3
+Câu 2380: 1
+Câu 2381: 1
+Câu 2382: Cài đặt
+Câu 2383: 10
+Câu 2384: 3
+Câu 2385: 1
+Câu 2386: 2
+Câu 2387: Cấu hình
+Câu 2388: 10
+Câu 2389: 3
+Câu 2390: 2
+Câu 2391: Tạo lập cơ sở dữ liệu
+Câu 2392: 19
+Câu 2393: 3
+Câu 2394: 3
+Câu 2395: Thao tác với dữ liệu
+Câu 2396: 19
+Câu 2397: 3
+Câu 2398: 3
+Câu 2399: 1
+Câu 2400: Truy vấn dữ liệu
+Câu 2401: 19
+Câu 2402: 3
+Câu 2403: 3
+Câu 2404: 2
+Câu 2405: Thêm dữ liệu
+Câu 2406: 21
+Câu 2407: 3
+Câu 2408: 3
+Câu 2409: 3
+Câu 2410: Cập nhật dữ liệu
+Câu 2411: 22
+Câu 2412: 3
+Câu 2413: 3
+Câu 2414: 4
+Câu 2415: Xóa dữ liệu
+Câu 2416: 25
+Câu 2417: CHƯƠNG 4
+Câu 2418: LÀM VIỆC VỚI MONGODB
+Câu 2419: 27
+Câu 2420: 4
+Câu 2421: 1
+Câu 2422: Mô tả bài toán
+Câu 2423: 27
+Câu 2424: 4
+Câu 2425: 2
+Câu 2426: Mô tả cơ sở dữ liệu, tập dữ liệu nếu có
+Câu 2427: 27
+Câu 2428: 4
+Câu 2429: 3
+Câu 2430: Các chức năng chính của ứng dụng
+Câu 2431: 28
+Câu 2432: 4
+Câu 2433: 4
+Câu 2434: Hướng dẫn cài đặt
+Câu 2435: 29
+Câu 2436: 4
+Câu 2437: 5
+Câu 2438: Kết quả
+Câu 2439: 29
+Câu 2440: 1
+Câu 2441: CHƯƠNG 1
+Câu 2442: GIỚI THIỆU NOSQL
+Câu 2443: 1
+Câu 2444: 1
+Câu 2445: Giới thiệu
+Câu 2446: NoSQL là một loại hệ thống quản lý cơ sở dữ liệu khác với cơ sở dữ liệu quan hệ truyền thống ở chỗ nó không sử dụng ngôn ngữ truy vấn có cấu trúc SQL để thao tác dữ liệu
+Câu 2447: Thay vào đó, cơ sở dữ liệu NoSQL sử dụng các cơ sở dữ liệu phi quan hệ có thể xử lý lượng lớn dữ liệu phi cấu trúc và bán cấu trúc, chẳng hạn như documents, graphs, và key value pairs
+Câu 2448: Cơ sở dữ liệu NoSQL ban đầu được phát triển để giải quyết các hạn chế về khả năng mở rộng và hiệu suất của cơ sở dữ liệu quan hệ truyền thống, vốn gặp khó khăn trong việc xử lý lượng dữ liệu khổng lồ được tạo ra bởi các ứng dụng web hiện đại và các hệ thống sử dụng nhiều dữ liệu khác
+Câu 2449: Cơ sở dữ liệu NoSQL được thiết kế để có khả năng mở rộng cao, linh hoạt và có khả năng chịu lỗi cao, khiến chúng trở nên lý tưởng để sử dụng trong các hệ thống phân tán quy mô lớn và môi trường điện toán đám mây
+Câu 2450: 1
+Câu 2451: 2
+Câu 2452: Đặc điểm của NoSQL
+Câu 2453: Tính linh hoạt của lược đồ
+Câu 2454: Cơ sở dữ liệu NoSQL được thiết kế để xử lý dữ liệu phi cấu trúc và bán cấu trúc, chúng không yêu cầu lược đồ cố định như cơ sở dữ liệu quan hệ
+Câu 2455: Điều này giúp việc thêm dữ liệu mới vào cơ sở dữ liệu dễ dàng hơn mà không cần phải sửa đổi lược đồ
+Câu 2456: Khả năng mở rộng
+Câu 2457: Cơ sở dữ liệu NoSQL có khả năng mở rộng cao, chúng có thể xử lý khối lượng dữ liệu lớn và lưu lượng truy cập cao
+Câu 2458: Nhiều cơ sở dữ liệu NoSQL được thiết kế để chạy trên nhiều nút hoặc máy chủ, giúp chúng mở rộng quy mô theo chiều ngang
+Câu 2459: Hiệu suất cao
+Câu 2460: Cơ sở dữ liệu NoSQL được tối ưu hóa về hiệu suất, thường sử dụng kiến trúc phân tán và lưu trữ trong bộ nhớ để đạt được tốc độ đọc và ghi nhanh
+Câu 2461: Tính sẵn sàng
+Câu 2462: Cơ sở dữ liệu NoSQL được thiết kế để có tính sẵn sàng cao, người dùng luôn có thể truy cập chúng ngay cả trong trường hợp xảy ra lỗi phần cứng hoặc mạng
+Câu 2463: Sao chép
+Câu 2464: Nhiều cơ sở dữ liệu NoSQL hỗ trợ sao chép dữ liệu, cho phép chúng phân phối dữ liệu trên nhiều nút hoặc máy chủ để tăng tính khả dụng và khả năng chịu lỗi
+Câu 2465: 2
+Câu 2466: Phân mảnh
+Câu 2467: Cơ sở dữ liệu NoSQL thường hỗ trợ phân mảnh, giúp chúng phân vùng dữ liệu trên nhiều máy chủ hoặc nút để cải thiện khả năng mở rộng và hiệu suất
+Câu 2468: Mô hình dữ liệu NoSQL
+Câu 2469: Cơ sở dữ liệu NoSQL sử dụng nhiều mô hình dữ liệu phi quan hệ, chẳng hạn như key value, document, column family, và graph
+Câu 2470: Mỗi mô hình này đều có điểm mạnh và điểm yếu riêng, giúp cơ sở dữ liệu NoSQL có tính linh hoạt cao và thích ứng với nhiều trường hợp sử dụng
+Câu 2471: 1
+Câu 2472: 3
+Câu 2473: Phân loại cơ sở dữ liệu NoSQL
+Câu 2474: 1
+Câu 2475: 3
+Câu 2476: 1
+Câu 2477: Key value
+Câu 2478: Là một loại cơ sở dữ liệu lưu trữ dữ liệu dưới dạng tập hợp các cặp key value
+Câu 2479: Trong kiểu lưu trữ dữ liệu này, mỗi mục dữ liệu được xác định bằng một khóa duy nhất và giá trị được liên kết với khóa đó có thể là bất kỳ thứ gì, chẳng hạn như chuỗi, số, đối tượng hoặc thậm chí là cấu trúc dữ liệu khác
+Câu 2480: Các database phổ biến
+Câu 2481: Redis, Memcached và DynamoDB
+Câu 2482: 1
+Câu 2483: 3
+Câu 2484: 2
+Câu 2485: Document
+Câu 2486: Một document là một bản ghi trong cơ sở dữ liệu document
+Câu 2487: Một document thường lưu trữ thông tin về một đối tượng và bất kỳ siêu dữ liệu nào liên quan đến nó
+Câu 2488: Document lưu trữ dữ liệu theo cặp trường giá trị
+Câu 2489: Các giá trị có thể có nhiều loại và cấu trúc khác nhau, bao gồm chuỗi, số, ngày tháng, mảng hoặc đối tượng
+Câu 2490: Tài
+Câu 2491: 3
+Câu 2492: liệu có thể được lưu trữ ở các định dạng như JSON, BSON và XML
+Câu 2493: Các database phổ biến
+Câu 2494: MongoDB, DocumentDB, CouchDB và Cloudant
+Câu 2495: 1
+Câu 2496: 3
+Câu 2497: 3
+Câu 2498: Graph
+Câu 2499: Cơ sở dữ liệu loại graph lưu trữ các thực thể cũng như mối quan hệ giữa các thực thể đó
+Câu 2500: Thực thể được lưu trữ dưới dạng một nút với mối quan hệ là các cạnh
+Câu 2501: Một cạnh đưa ra mối quan hệ giữa các nút
+Câu 2502: Mỗi nút và cạnh có một mã định danh duy nhất
+Câu 2503: Các database phổ biến
+Câu 2504: Neo4J và Cosmos DB
+Câu 2505: 4
+Câu 2506: 1
+Câu 2507: 3
+Câu 2508: 4
+Câu 2509: Column
+Câu 2510: Sử dụng một tập hợp các cột để lưu trữ dữ liệu
+Câu 2511: Các tập hợp cột này được gọi là họ cột và người dùng có thể truy vấn trực tiếp các họ cột này mà không cần xem qua tất cả các bản ghi dữ liệu
+Câu 2512: Các database phổ biến
+Câu 2513: Cassandra và HBase
+Câu 2514: 1
+Câu 2515: 4
+Câu 2516: So sánh cơ sở dữ liệu NoSQL với cơ sở dữ liệu quan hệ
+Câu 2517: NoSQL
+Câu 2518: RDBMS
+Câu 2519: Mô hình dữ liệu
+Câu 2520: Đa dạng kiểu mô hình dữ liệu như documents, graphs, và key value pairs
+Câu 2521: Không yêu cầu schema cố định và có thể lưu trữ dữ liệu có cấu trúc, bán cấu trúc hoặc phi cấu trúc
+Câu 2522: Sử dụng mô hình dữ liệu quan hệ, trong đó dữ liệu được tổ chức thành các bảng có các hàng và cột
+Câu 2523: Các bảng liên kết thông qua khóa ngoại
+Câu 2524: Khả năng mở rộng
+Câu 2525: Thường mở rộng theo chiều ngang horizontal scaling bằng cách thêm các node hoặc server
+Câu 2526: Thường mở rộng theo chiều dọc
+Câu 2527: vertical scaling bằng cách nâng cấp phần cứng tăng CPU, bộ nhớ,
+Câu 2528: 5
+Câu 2529: mới vào hệ thống
+Câu 2530: Tính chất
+Câu 2531: Linh hoạt về tính nhất quán, có thể đánh đổi tính nhất quán để đạt được hiệu suất cao hơn
+Câu 2532: Tính linh hoạt, khả năng mở rộng và tính sẵn sàng cao được ưu tiên
+Câu 2533: Sử dụng ACID nguyên tử atomicity, nhất quán consistency, cô lập isolation, bền vững durability để đảm bảo tính toàn vẹn của giao dịch
+Câu 2534: Linh hoạt trong cấu trúc dữ liệu
+Câu 2535: Linh hoạt hơn trong việc thay đổi cấu trúc dữ liệu, có thể sử dụng để lưu trữ dữ liệu phân tán
+Câu 2536: Phức tạp trong việc thay đổi cấu trúc dữ liệu, không phù hợp cho việc lưu trữ phân tán
+Câu 2537: Ứng dụng phù hợp
+Câu 2538: Thường được dùng trong các dự án yêu cầu khả năng mở rộng và kiểu lưu trữ dữ liệu đa dạng có cấu trúc, bán hoặc phi cấu trúc
+Câu 2539: xử lý có tính mối quan hệ phức tạp như mạng xã hội, phân tích dữ liệu lớn, IoT,
+Câu 2540: Thích hợp cho các dự án yêu cầu tính toàn vẹn dữ liệu cao như hệ thống quản lý giao dịch, quản lý ngân hàng,
+Câu 2541: 6
+Câu 2542: CHƯƠNG 2
+Câu 2543: CƠ SỞ DỮ LIỆU MONGODB
+Câu 2544: 2
+Câu 2545: 1
+Câu 2546: Giới thiệu
+Câu 2547: MongoDB là một hệ quản trị cơ sở dữ liệu mã nguồn mở, thuộc loại NoSQL là được sử dụng rỗng rãi hiện nay
+Câu 2548: MongoDB là một dạng database hướng tài liệu hay còn gọi là document, các dữ liệu được lưu trữ dưới dạng document kiểu JSON thay vì dưới dạng bảng như là cơ sở dữ liệu quan hệ cho nên là việc truy vấn sẽ rất là nhanh
+Câu 2549: Đối với cơ sở dữ liệu quan hệ thì chúng ta có khái niệm như là bảng, các cơ sở dữ liệu quan hệ như MySQL hay là SQL Server sẽ sử dụng các bảng để lưu trữ dữ liệu thì đối với MongoDB, chúng ta sẽ có khái niệm là collection thay vì là bảng
+Câu 2550: So với cơ sở dữ liệu quan hệ thì trong MongoDB, collection tương ứng với table, còn các document thì sẽ ứng với các row, MongoDB sẽ dùng các document này thay cho các row trong cơ sở dữ liệu quan hệ
+Câu 2551: Các collection trong MongoDB được cấu trúc rất linh hoạt, cho phép các dữ liệu được lưu trữ mà không cần tuân theo một cấu trúc nhất định nào
+Câu 2552: Thông tin liên quan được lưu trữ cùng nhau để truy cập, truy vấn nhanh thông qua ngôn ngữ truy vấn MongoDB
+Câu 2553: 2
+Câu 2554: 2
+Câu 2555: Mô hình dữ liệu trong MongoDB
+Câu 2556: Có 2 cách mô hình hóa dữ liệu trong MongoDB
+Câu 2557: Embedded documents
+Câu 2558: Mô hình tài liệu nhúng được biết đến là mô hình hoặc lược đồ dữ liệu không chuẩn hóa
+Câu 2559: Một ví dụ cụ thể là một bài đăng trên blog và các bình luận tương ứng của chúng là nhúng tài liệu con vào tài liệu cha
+Câu 2560: Trong ví dụ sau là bài đăng trên blog là tài liệu cha và bình luận là tài liệu con
+Câu 2561: Ưu điểm của mô hình này là có hiệu suất tốt hơn vì chúng ta có thể độc và cập nhật dữ liệu trong một hoạt động cơ sở dữ liệu duy nhất
+Câu 2562: Nhược điểm của mô hình này là có thể trùng lặp dữ liệu
+Câu 2563: 7
+Câu 2564: References
+Câu 2565: Sử dụng mô hình này, chúng ta có thể mô tả mối quan hệ giữa các tài liệu bằng cách sử dụng tham chiếu
+Câu 2566: Điều này cũng được biết đến là mô hình hoặc lược đồ dữ liệu Chuẩn hóa
+Câu 2567: Ví dụ về mô hình này
+Câu 2568: cũng là bài đăng trên blog và các bình luận
+Câu 2569: Ngoài dữ liệu của riêng nó, mỗi tài liệu bình luận cũng chứa một tham chiếu đến bài đăng trên blog cha bằng cách sử dụng id của tài liệu bài đăng trên blog cha
+Câu 2570: Ưu điểm
+Câu 2571: Không có sự trùng lặp dữ liệu, có thể biểu diễn mối quan hệ phức tạp nhiều nhiều và có thể biểu diễn tập dữ liệu phân cấp
+Câu 2572: Nhược điểm
+Câu 2573: Khi cần truy xuất dữ liệu thì cần nhiều thao tác với cơ sở dữ liệu hơn hoặc cần tham gia đến nhiều collections
+Câu 2574: 8
+Câu 2575: 2
+Câu 2576: 3
+Câu 2577: Kiến trúc của MongoDB
+Câu 2578: MongoDB sử dụng mô hình dữ liệu NoSQL không có cấu trúc cố định như trong
+Câu 2579: SQL , cho phép lưu trữ và truy vấn dữ liệu dưới dạng JSON
+Câu 2580: Mô hình này linh hoạt và có thể mở rộng, cho phép thay đổi cấu trúc dữ liệu mà không cần phải thay đổi cấu trúc của cơ sở dữ liệu
+Câu 2581: Một số thuộc tính kiến trúc chính của MongoDB bao gồm
+Câu 2582: Tài liệu Documents
+Câu 2583: Dữ liệu được lưu trữ trong các tài liệu JSON, mỗi tài liệu được lưu trữ trong một bản ghi trong một bộ sưu tập
+Câu 2584: Bộ sưu tập Collections
+Câu 2585: Một bộ sưu tập tương tự như một bảng trong cơ sở dữ liệu quan hệ, nhưng không có cấu trúc cố định
+Câu 2586: Nó chứa một tập hợp các tài liệu có thể có cấu trúc khác nhau
+Câu 2587: Cơ sở dữ liệu Database
+Câu 2588: MongoDB hỗ trợ nhiều cơ sở dữ liệu, mỗi cơ sở dữ liệu có thể chứa nhiều bộ sưu tập
+Câu 2589: Chỉ mục Indexes
+Câu 2590: MongoDB hỗ trợ việc tạo các chỉ mục để tăng tốc độ truy vấn dữ liệu
+Câu 2591: 9
+Câu 2592: Sao chép Replication
+Câu 2593: MongoDB hỗ trợ sao chép dữ liệu sang nhiều nút, giúp tăng tính sẵn sàng và độ tin cậy của hệ thống
+Câu 2594: Phân vùng Sharding
+Câu 2595: MongoDB cung cấp tính năng phân vùng dữ liệu, cho phép phân tán dữ liệu trên nhiều nút, giúp tăng khả năng mở rộng của hệ thống
+Câu 2596: Kiến trúc của MongoDB được thiết kế để tối ưu hóa cho các ứng dụng có yêu cầu về tính linh hoạt, mở rộng và hiệu suất cao
+Câu 2597: 2
+Câu 2598: 4
+Câu 2599: Các chế độ thực thi MongoDB
+Câu 2600: 2
+Câu 2601: 4
+Câu 2602: 1
+Câu 2603: Mongo Shell
+Câu 2604: Mongo Shell là một giao diện dòng lệnh cung cấp các công cụ để tương tác trực tiếp với cơ sở dữ liệu MongoDB
+Câu 2605: Có thể sử dụng Mongo Shell để thực hiện các thao tác như truy vấn dữ liệu, thêm, sửa đổi hoặc xóa các tài liệu, tạo và quản lý các chỉ mục, xem và quản lý dữ liệu, và nhiều hơn nữa
+Câu 2606: Shell được viết bằng JavaScript và cung cấp một loạt các lệnh và hàm để thực hiện các thao tác trên cơ sở dữ liệu
+Câu 2607: 2
+Câu 2608: 4
+Câu 2609: 2
+Câu 2610: Admin API
+Câu 2611: Admin API là một tập hợp các API RESTful cho phép quản lý các cụm
+Câu 2612: MongoDB, cơ sở dữ liệu, bộ sưu tập và người dùng từ xa thông qua HTTP
+Câu 2613: Với Admin API có thể thực hiện các thao tác như tạo và quản lý cụm, xem thông tin về các cụm và nút, tạo và quản lý người dùng và vai trò, cũng như quản lý bộ sưu tập và chỉ mục
+Câu 2614: Admin API cung cấp một phương tiện linh hoạt và tự động hóa để quản lý cơ sở dữ liệu MongoDB từ xa, điều này rất hữu ích cho việc tự động hóa công việc quản trị hệ thống
+Câu 2615: 10
+Câu 2616: CHƯƠNG 3
+Câu 2617: LÀM VIỆC VỚI MONGODB
+Câu 2618: 3
+Câu 2619: 1
+Câu 2620: Cài đặt và cấu hình MongoDB
+Câu 2621: 3
+Câu 2622: 1
+Câu 2623: 1
+Câu 2624: Cài đặt
+Câu 2625: Trước tiên, tiến hành cài đặt MongoDB Community Server và MongoDB Shell bằng cách truy cập vào các liên kết sau
+Câu 2626: MongoDB Community Server
+Câu 2627: https
+Câu 2628: www
+Câu 2629: mongodb
+Câu 2630: com try download community
+Câu 2631: MongoDB Shell
+Câu 2632: https
+Câu 2633: www
+Câu 2634: mongodb
+Câu 2635: com try download shell
+Câu 2636: 3
+Câu 2637: 1
+Câu 2638: 2
+Câu 2639: Cấu hình
+Câu 2640: 3
+Câu 2641: 1
+Câu 2642: 2
+Câu 2643: 1
+Câu 2644: Cấu Hình MongoDB Compass
+Câu 2645: Nhấn Next
+Câu 2646: 11
+Câu 2647: Tích I accept the term in the License Agreement và chọn Next
+Câu 2648: Nhấn Complete
+Câu 2649: 12
+Câu 2650: Nhập các thông tin và chọn Next
+Câu 2651: Chọn Install
+Câu 2652: 13
+Câu 2653: Cài đặt thành công
+Câu 2654: Kết nối với mongoDB server
+Câu 2655: Nhấn connect để kết nối mongodb
+Câu 2656: localhost
+Câu 2657: 27017
+Câu 2658: 14
+Câu 2659: Kết quả
+Câu 2660: Giao diện chính mongoDB Compass với localhost
+Câu 2661: 27017
+Câu 2662: Tạo database trên mongoDB compass
+Câu 2663: Nhấn nút icon dấu bên phải chữ
+Câu 2664: Databases , hộp thoại Create Database được mở ra
+Câu 2665: Nhập tên database
+Câu 2666: Nhập tên collection
+Câu 2667: Create Database
+Câu 2668: 15
+Câu 2669: Import data
+Câu 2670: Sau khi kết nối với MongoDB Server xong, chọn tùy chọn Import Data và sau đó chọn tập tin dữ liệu muốn import
+Câu 2671: 16
+Câu 2672: Import dữ liệu thành công
+Câu 2673: 3
+Câu 2674: 1
+Câu 2675: 2
+Câu 2676: 2
+Câu 2677: Cài đặt Mongo Shell
+Câu 2678: 17
+Câu 2679: Chọn Next
+Câu 2680: Điền thông tin và chọn Next
+Câu 2681: 18
+Câu 2682: Chọn Install
+Câu 2683: Cài đặt thành công và kiểm tra phiên bản của mongosh
+Câu 2684: Xem các cơ sở dữ liệu có trên máy
+Câu 2685: Sử dụng thành công cơ sở dữ liệu
+Câu 2686: 19
+Câu 2687: 3
+Câu 2688: 2
+Câu 2689: Tạo lập cơ sở dữ liệu
+Câu 2690: Chọn hoặc tạo cơ sở dữ liệu Database
+Câu 2691: Sử dụng lệnh use để chọn một cơ sở dữ liệu đã tồn tại hoặc để tạo một cơ sở dữ liệu mới
+Câu 2692: Ví dụ
+Câu 2693: use mydatabase
+Câu 2694: Trong ví dụ này, nếu mydatabase đã tồn tại, cơ sở dữ liệu này sẽ được chọn
+Câu 2695: Nếu không, cơ sở dữ liệu mydatabase sẽ được tạo mới
+Câu 2696: Tạo hoặc cập nhật các bảng Collections
+Câu 2697: Có thể tạo mới hoặc cập nhật các bảng trong cơ sở dữ liệu bằng cách sử dụng các lệnh CRUD Create, Read, Update, Delete trong MongoDB Shell
+Câu 2698: Ví dụ
+Câu 2699: Để tạo một bảng mới tên users , sử dụng lệnh
+Câu 2700: db
+Câu 2701: createCollection users
+Câu 2702: Sau đó kiểm tra xem tất cả các bảng hiện có trong cơ sở dữ liệu bằng lệnh
+Câu 2703: show collections
+Câu 2704: 3
+Câu 2705: 3
+Câu 2706: Thao tác với dữ liệu
+Câu 2707: 3
+Câu 2708: 3
+Câu 2709: 1
+Câu 2710: Truy vấn dữ liệu
+Câu 2711: Để truy vấn dữ liệu trong MongoDB, sử dụng lệnh find trên collection
+Câu 2712: Ví dụ
+Câu 2713: Ta có collection students trong database school
+Câu 2714: Truy vấn tất cả các documents trong collection students thì sử dụng lệnh
+Câu 2715: 20
+Câu 2716: 21
+Câu 2717: Truy vấn documents với điều kiện cụ thể ví dụ
+Câu 2718: age lớn hơn 20 thì sử dụng lệnh
+Câu 2719: 3
+Câu 2720: 3
+Câu 2721: 2
+Câu 2722: Thêm dữ liệu
+Câu 2723: Để thêm dữ liệu vào một collection, sử dụng lệnh insertOne hoặc insertMany
+Câu 2724: Ví dụ
+Câu 2725: Chèn một document vào collection students sử dụng lệnh
+Câu 2726: 22
+Câu 2727: Ví dụ
+Câu 2728: Chèn nhiều documents vào collection students ta sử dụng lệnh
+Câu 2729: 3
+Câu 2730: 3
+Câu 2731: 3
+Câu 2732: Cập nhật dữ liệu
+Câu 2733: Để cập nhật dữ liệu trong MongoDB, sử dụng lệnh updateOne hoặc updateMany
+Câu 2734: Ví dụ
+Câu 2735: Cập nhật một document trong collection students có tên là John
+Câu 2736: 23
+Câu 2737: Dữ liệu được cập nhật thành công sử dụng lệnh db
+Câu 2738: students
+Câu 2739: find để truy vấn lại thông tin
+Câu 2740: Ví dụ
+Câu 2741: Cập nhật nhiều documents trong collection students có điều kiện tuổi lớn hơn
+Câu 2742: 20
+Câu 2743: 24
+Câu 2744: Dữ liệu được cập nhật thành công
+Câu 2745: 25
+Câu 2746: 3
+Câu 2747: 3
+Câu 2748: 4
+Câu 2749: Xóa dữ liệu
+Câu 2750: Để xóa dữ liệu trong MongoDB, sử dụng lệnh deleteOne hoặc deleteMany
+Câu 2751: Ví dụ
+Câu 2752: Xóa một document từ collection students có tên là John sử dụng lệnh
+Câu 2753: 26
+Câu 2754: Ví dụ
+Câu 2755: Xóa nhiều documents từ collection students có điều kiện tuổi nhỏ hơn 22 sử dụng lệnh
+Câu 2756: 27
+Câu 2757: CHƯƠNG 4
+Câu 2758: LÀM VIỆC VỚI MONGODB
+Câu 2759: 4
+Câu 2760: 1
+Câu 2761: Mô tả bài toán
+Câu 2762: Bài toán yêu cầu xây dựng một trang web thương mại điện tử tương tự như tiki
+Câu 2763: vn
+Câu 2764: Trang web này sẽ cung cấp các sản phẩm từ nhiều danh mục khác nhau, cho phép người dùng tìm kiếm, xem thông tin chi tiết sản phẩm, thêm sản phẩm vào giỏ hàng và thực hiện thanh toán
+Câu 2765: 4
+Câu 2766: 2
+Câu 2767: Mô tả cơ sở dữ liệu, tập dữ liệu nếu có
+Câu 2768: Cơ sở dữ liệu Ecommerce bao gồm 3 collection
+Câu 2769: users, products, orders với mô tả các thuộc tính cho các đối tượng khác nhau trong hệ thống
+Câu 2770: users
+Câu 2771: email
+Câu 2772: Địa chỉ email của người dùng
+Câu 2773: password
+Câu 2774: Mật khẩu của người dùng
+Câu 2775: isAdmin
+Câu 2776: Đánh dấu xem người dùng có quyền quản trị admin hay không
+Câu 2777: createdAt
+Câu 2778: Thời điểm tạo ra tài khoản người dùng
+Câu 2779: updatedAt
+Câu 2780: Thời điểm cập nhật gần nhất của tài khoản người dùng
+Câu 2781: address
+Câu 2782: Địa chỉ của người dùng
+Câu 2783: avatar
+Câu 2784: Hình đại diện của người dùng
+Câu 2785: name
+Câu 2786: Tên của người dùng
+Câu 2787: phone
+Câu 2788: Số điện thoại của người dùng
+Câu 2789: city
+Câu 2790: Thành phố của người dùng
+Câu 2791: products
+Câu 2792: name
+Câu 2793: Tên sản phẩm
+Câu 2794: image
+Câu 2795: Hình ảnh sản phẩm
+Câu 2796: type
+Câu 2797: Loại sản phẩm
+Câu 2798: price
+Câu 2799: Giá của sản phẩm
+Câu 2800: countInStock
+Câu 2801: Số lượng sản phẩm có sẵn trong kho
+Câu 2802: rating
+Câu 2803: Điểm đánh giá của sản phẩm
+Câu 2804: description
+Câu 2805: Mô tả về sản phẩm
+Câu 2806: discount
+Câu 2807: Mức giảm giá của sản phẩm nếu có
+Câu 2808: createdAt
+Câu 2809: Thời điểm tạo ra sản phẩm
+Câu 2810: updatedAt
+Câu 2811: Thời điểm cập nhật gần nhất của sản phẩm
+Câu 2812: selled
+Câu 2813: Số lượng sản phẩm đã bán được
+Câu 2814: orders
+Câu 2815: orderItems
+Câu 2816: Các mặt hàng trong đơn hàng
+Câu 2817: 28
+Câu 2818: Object
+Câu 2819: Một đối tượng không được xác định cụ thể
+Câu 2820: paymentMethod
+Câu 2821: Phương thức thanh toán của đơn hàng
+Câu 2822: shippingPrice
+Câu 2823: Phí vận chuyển của đơn hàng
+Câu 2824: totalPrice
+Câu 2825: Tổng giá của đơn hàng
+Câu 2826: user
+Câu 2827: Người dùng đặt hàng
+Câu 2828: isPaid
+Câu 2829: Đánh dấu xem đơn hàng đã thanh toán hay chưa
+Câu 2830: isDelivered
+Câu 2831: Đánh dấu xem đơn hàng đã được giao hay chưa
+Câu 2832: createdAt
+Câu 2833: Thời điểm đơn hàng được tạo ra
+Câu 2834: updatedAt
+Câu 2835: Thời điểm cập nhật gần nhất của đơn hàng
+Câu 2836: __v
+Câu 2837: Phiên bản của đối tượng
+Câu 2838: 4
+Câu 2839: 3
+Câu 2840: Các chức năng chính của ứng dụng
+Câu 2841: Trang chủ
+Câu 2842: Xem sản phẩm
+Câu 2843: Xem chi tiết sản phẩm
+Câu 2844: Xem sản phẩm , Xem thêm
+Câu 2845: Xem sản phẩm theo loại
+Câu 2846: Tài khoản
+Câu 2847: Đăng nhập
+Câu 2848: Đăng ký
+Câu 2849: Đăng xuất
+Câu 2850: Cập nhật thông tin tài khoản
+Câu 2851: Đơn Hàng
+Câu 2852: Đặt hàng
+Câu 2853: Hủy đơn hàng
+Câu 2854: Quản lý hệ thống
+Câu 2855: Người dùng
+Câu 2856: Xóa thông tin
+Câu 2857: Chỉnh sửa thông tin
+Câu 2858: Tìm kiếm người dùng
+Câu 2859: Xem danh sách thông tin người dùng
+Câu 2860: Sản phẩm
+Câu 2861: Thêm Sản phẩm
+Câu 2862: Tìm kiếm sản phẩm
+Câu 2863: Chỉnh sửa sản phẩm
+Câu 2864: Xóa sản phẩm
+Câu 2865: xem danh sách thông tin sản phẩm
+Câu 2866: Đơn hàng
+Câu 2867: Xem đơn hàng
+Câu 2868: Xem báo cáo đơn hàng
+Câu 2869: 29
+Câu 2870: 4
+Câu 2871: 4
+Câu 2872: Hướng dẫn cài đặt
+Câu 2873: Bước 1
+Câu 2874: Đứng tại thư mục C
+Câu 2875: ECommerce server, chạy cmd và gõ lệnh npm start
+Câu 2876: Bước 2
+Câu 2877: Đứng tại thư mục C
+Câu 2878: ECommerce server, chạy cmd và gõ lệnh npm start
+Câu 2879: Kết quả
+Câu 2880: Hệ thống chạy trên http
+Câu 2881: localhost
+Câu 2882: 3000
+Câu 2883: 4
+Câu 2884: 5
+Câu 2885: Kết quả
+Câu 2886: Sau khi hoàn thành, một trang web thương mại điện tử hoàn chỉnh, cho phép người dùng thực hiện các chức năng như tìm kiếm, mua hàng và quản lý tài khoản
+Câu 2887: Trang chủ
+Câu 2888: Xem sản phẩm
+Câu 2889: Code frontend sẽ tiến hành gọi API lấy tất cả sản phẩm với giới hạn là 12
+Câu 2890: 30
+Câu 2891: 31
+Câu 2892: Code backend sẽ có API lấy tất cả sản phẩm
+Câu 2893: 32
+Câu 2894: Kết quả
+Câu 2895: 33
+Câu 2896: Xem chi tiết sản phẩm
+Câu 2897: Chọn sản phẩm muốn xem thông tin chi tiết
+Câu 2898: Code frontend sẽ thực hiện gọi API lấy chi tiết sản phẩm
+Câu 2899: Code backend sẽ có API lấy chi tiết sản phẩm
+Câu 2900: 34
+Câu 2901: Kết quả
+Câu 2902: Click chuột vào sản phẩm đã chọn Giao diện chi tiết sản phẩm được hiển thị
+Câu 2903: 35
+Câu 2904: Xem thêm
+Câu 2905: Nhấn vào nút Xem thêm để hiển thị thêm các sản phẩm trên trang chủ
+Câu 2906: Code frontend xử lý Load more
+Câu 2907: Khi click vào nút Load more thì limit sẽ tăng lên
+Câu 2908: Sau đó xử lý tương tự như Xem sản phẩm
+Câu 2909: 36
+Câu 2910: Hiển thị thành công các sản phẩm trên trang chủ
+Câu 2911: Xem sản phẩm theo loại
+Câu 2912: Chọn các loại sản phẩm được hiển thị trên giao diện
+Câu 2913: Code frontend xử lý lấy sản phẩm theo loại, API là API lấy tất cả sản phẩm nhưng truyền thêm tham số type là loại sản phẩm và page để tiến hành phân trang
+Câu 2914: 37
+Câu 2915: Code backend tương tự như Xem sản phẩm
+Câu 2916: Kết quả
+Câu 2917: Click chuột vào loại sản phẩm Điện Gia Dụng để xem danh sách sản phẩm theo loại sản phẩm
+Câu 2918: 38
+Câu 2919: Tài khoản
+Câu 2920: Đăng nhập
+Câu 2921: Người dùng tiến hành bấm vào link Tạo tài khoản
+Câu 2922: Xử lý chuyển hướng tới trang đăng ký
+Câu 2923: Người dùng sau khi điền thông tin tài khoản và bấm đăng ký
+Câu 2924: 39
+Câu 2925: code BE tiến hành tạo tài khoản
+Câu 2926: Điền gmail và mật khẩu để đăng nhập
+Câu 2927: Sau khi đăng nhập thì sẽ chuyển tới trang chủ
+Câu 2928: 40
+Câu 2929: Đăng ký
+Câu 2930: Điền các thông tin gmail và mật khẩu để đăng ký
+Câu 2931: Sau khi đăng ký thành công sẽ chuyển sang trang đăng nhập để tiến hành đăng nhập
+Câu 2932: 41
+Câu 2933: Đăng nhập thành công sẽ chuyển qua trang chủ
+Câu 2934: Đăng xuất
+Câu 2935: Nhấn nút Đăng xuất để đăng xuất
+Câu 2936: Sau khi đăng xuất thành công sẽ chuyển qua trang đăng nhập
+Câu 2937: 42
+Câu 2938: Cập nhật thông tin tài khoản
+Câu 2939: Chọn Thông tin người dùng để hiển thị trang thông tin người dùng
+Câu 2940: Điền các thông tin cần cập nhật
+Câu 2941: 43
+Câu 2942: Đây là kết quả sau khi cập nhật thông tin tài khoản, tên tài khoản đã trở thành Nhật
+Câu 2943: Nam
+Câu 2944: Đơn Hàng
+Câu 2945: Đặt Hàng
+Câu 2946: Chọn mua đơn hàng bằng cách đặt số lượng và nhấn nút Chọn mua , sản phẩm sẽ được chuyển qua giỏ hàng
+Câu 2947: 44
+Câu 2948: Nhấn nút Mua hàng
+Câu 2949: Điền thông tin nhận hàng
+Câu 2950: 45
+Câu 2951: Nhấn nút Mua hàng
+Câu 2952: Chọn phương thức giao hàng và phương thức thanh toán và nhấn nút Đặt hàng
+Câu 2953: 46
+Câu 2954: Hủy Đơn Hàng
+Câu 2955: Đây là danh sách đơn hàng ban đầu
+Câu 2956: Nhấn nút Hủy đơn hàng vào đơn hàng cần hủy
+Câu 2957: Kết quả
+Câu 2958: Đơn hàng được hủy thành công
+Câu 2959: 47
+Câu 2960: Quản lý hệ thống
+Câu 2961: Người dùng
+Câu 2962: Xóa thông tin
+Câu 2963: Danh sách người dùng lúc đầu
+Câu 2964: Chọn tài khoản và nhấn icon xóa
+Câu 2965: 48
+Câu 2966: Sau khi xóa
+Câu 2967: Chỉnh sửa thông tin
+Câu 2968: Thông tin lúc đầu
+Câu 2969: Thông tin cần chỉnh sửa
+Câu 2970: 49
+Câu 2971: Thông tin đã cập nhật sau khi chỉnh sửa
+Câu 2972: Tìm kiếm người dùng
+Câu 2973: Nhập địa chỉ Email cần tìm kiếm
+Câu 2974: 50
+Câu 2975: Kết quả tìm kiếm
+Câu 2976: Xem danh sách thông tin người dùng
+Câu 2977: Bấm vào Người dùng để xem danh sách người dùng
+Câu 2978: Quản lý hệ thống
+Câu 2979: Sản phẩm
+Câu 2980: Xem danh sách thông tin sản phẩm
+Câu 2981: Đây là danh sách sản phẩm có trong hệ thống
+Câu 2982: 51
+Câu 2983: Thêm sản phẩm
+Câu 2984: Nhấn dấu để thêm sản phẩm
+Câu 2985: Điền các thông tin sản phẩm và nhấn nút Submit
+Câu 2986: 52
+Câu 2987: Kết quả
+Câu 2988: Sản phẩm được thêm thành công và hiện trong danh sách sản phẩm
+Câu 2989: Tìm kiếm sản phẩm
+Câu 2990: Nhấn icon tìm kiếm và nhập nội dung cần tìm, nhấn nút Search
+Câu 2991: 53
+Câu 2992: Kết quả
+Câu 2993: Tìm kiếm được sản phẩm cần tìm
+Câu 2994: Chỉnh sửa sản phẩm
+Câu 2995: Đây là sản phẩm trước khi chỉnh sửa có giá 53000
+Câu 2996: Nhấn icon chỉnh sửa để chỉnh sửa
+Câu 2997: Chỉnh sửa giá sản phẩm thành 105000 và nhấn nút Apply
+Câu 2998: 54
+Câu 2999: Kết quả
+Câu 3000: Giá của sản phẩm đã được sửa thành 105000
+Câu 3001: Xóa một sản phẩm
+Câu 3002: Đây là sản phẩm trước khi xóa
+Câu 3003: Chọn một sản phẩm để xóa là MacBook Air M2 2022 và nhấn icon xóa
+Câu 3004: Xác nhận xóa bằng cách nhấn nút OK
+Câu 3005: Kết quả
+Câu 3006: Sản phẩm bị xóa thành công và không còn hiện trong danh sách sản phẩm
+Câu 3007: 55
+Câu 3008: Xóa nhiều sản phẩm
+Câu 3009: Đây là danh sách sản phẩm trước khi xóa
+Câu 3010: Nhấn tích chọn các sản phẩm cần xóa và chọn Xóa tất cả
+Câu 3011: Kết quả
+Câu 3012: Xóa thành công các sản phẩm đã tích chọn và không còn hiện trong danh sách sản phẩm
+Câu 3013: Quản lý hệ thống
+Câu 3014: Đơn hàng
+Câu 3015: Xem đơn hàng
+Câu 3016: Giao diện hiển thị danh sách các đơn hàng mà người dùng đã đặt
+Câu 3017: 56
+Câu 3018: Xem báo cáo đơn hàng
+Câu 3019: Giao diện hiển thị sơ đồ đơn hàng
+Câu 3020: Xanh dương là phần trăm thanh toán bằng tiền mặt, màu xanh lá cây là phần trăm thanh toán bằng paypal
+Câu 3021: 57
+Câu 3022: TÀI LIỆU THAM KHẢO
+Câu 3023: 1 Tutorialspoint, truy cập ngày 19 02 2024, https
+Câu 3024: www
+Câu 3025: tutorialspoint
+Câu 3026: com mongodb mongodb_overview
+Câu 3027: html
+Câu 3028: 2 Stackjava , Hướng dẫn cấu hình MongoDB trên Win 10 , truy cập ngày
+Câu 3029: 19 02 2024, https
+Câu 3030: stackjava
+Câu 3031: com mongodb huong dan cai dat cau hinh mongodb tren windows 10
+Câu 3032: html
+Câu 3033: 3 Pratibha Kumari J, What is a NoSQL database
+Câu 3034: , truy cập ngày 20 02 2024, https
+Câu 3035: www
+Câu 3036: linkedin
+Câu 3037: com pulse what nosql database pratibha kumari jha
+Câu 3038: 4 David Taylor, NoSQL Tutorial
+Câu 3039: What is, Types of NoSQL Databases
+Câu 3040: Example , truy cập ngày 20 02 2024, https
+Câu 3041: www
+Câu 3042: guru99
+Câu 3043: com nosql tutorial
+Câu 3044: html
+Câu 3045: 5 Yousaf Khan, What is data modeling in MongoDB
+Câu 3046: , educative, truy cập ngày
+Câu 3047: 26 4 2024, https
+Câu 3048: www
+Câu 3049: educative
+Câu 3050: io answers what is data modeling in mongodb
+Câu 3051: 6 Swetha Doddamani, What is MongoDB
+Câu 3052: , intellipaat, truy cập ngày 23 02 2024, https
+Câu 3053: intellipaat
+Câu 3054: com blog what is mongodb

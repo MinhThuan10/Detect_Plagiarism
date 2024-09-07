@@ -7,7 +7,6 @@ import time
 from sentence_split import *
 import json
 from pymongo import MongoClient
-import difflib
 
 # Kết nối tới MongoDB
 client = MongoClient('mongodb://localhost:27017/')
@@ -18,11 +17,11 @@ collection_files = db['files']
 # Start the timer
 start_time = time.time()
 plagiarized_count = 0
-file_path = './test/Data/nhom1.pdf'
+file_path = './test/Data/Test_2.pdf'
 
 assignment_id = 1
 file_id = 1
-title = 'test'
+title = 'test2'
 author = 'Thuan'
 
 

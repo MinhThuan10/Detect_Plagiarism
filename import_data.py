@@ -4,7 +4,7 @@ from connect_mongoDB import *
 
 def processing_data(file_path):
     # Trích xuất nội dung văn bản từ file PDF với số trang
-    text = extract_pdf_text(file_path, './output/content.txt')
+    text, total_pages, total_words = extract_pdf_text(file_path, './output/content.txt')
     # Kết hợp các dòng và tách câu, lưu cả số trang cho mỗi câu
     sentences_with_page = combine_lines_and_split_sentences(text, './output/sentence_split.txt')
     # Loại bỏ các câu có ít hơn 1 từ
@@ -26,7 +26,7 @@ def process_all_files_in_folder(folder_path):
         save_to_mongodb(processed_sentences, file_id_counter, file_name, 'Plagiarism', 'data')
         
 if __name__ == "__main__":
-    folder_path = './Data'
+    folder_path = './Data_PMT'
     process_all_files_in_folder(folder_path)
 
 
