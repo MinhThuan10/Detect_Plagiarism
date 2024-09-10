@@ -29,11 +29,14 @@
             background-color: #f8f9fa;
             padding: 15px;
         }
-        .highlight1.highlight {
-            background-color: yellow;
+        .hidden {
+            display: none;
         }
-        .highlight2.highlight {
-            background-color: pink;
+        .highlight_school1.highlight {
+            background-color: rgb(234, 239, 255);
+        }
+        .highlight_school2.highlight {
+            background-color: rgb(255, 233, 236);
         }
     </style>
 </head>
@@ -44,12 +47,16 @@
             <div class="col-md-8">
                 <h2>PDF Viewer</h2>
                 <div id="pdf-viewer">
-                    {% for plagiarism, sentence_index in plagiarisms %}
-                        <div id="school-pdf-{{ sentence_index }}">
-                            {{ plagiarism|safe}}
+                    {% for plagiarism in plagiarisms %}
+                        <div class="sentence_{{ plagiarism[0][2] }}">
+                            {% for sentence, school_id, sentence_index in plagiarism %}
+                                <div id="school_{{ school_id }}" class="{% if loop.first %}first-sentence{% else %}hidden{% endif %}">
+                                    {{ sentence|safe }}
+                                </div>
+                            {% endfor %}
                         </div>
                     {% endfor %}
-                </div>
+                </div>                
             </div>
 
             <div class="col-md-4">
@@ -71,16 +78,30 @@
                     </div>
 
                     <div class="sentence-box" id="{{ school_id }}">
-                        <ul>
+                        <ul id="sentence-list-{{ school_id }}">
                             {% for sentence in school_name_and_total_word_count_and_sentences.sentences %}
-                                <br>
-                                    <strong>Best Match:</strong> {{ sentence.best_match|safe }} </br>
-                                    {{sentence.word_count_sml}} word
-                                    
+                                <li class="sentence-item" style="display:none;">
+                                    <strong>Best Match:</strong> {{ sentence.best_match|safe }} <br>
+                                    {{ sentence.word_count_sml }} word
                                 </li>
                             {% endfor %}
                         </ul>
-                    </div>
+                    
+                        <nav aria-label="Sentence navigation">
+                            <ul class="pagination justify-content-center">
+                                <li class="page-item">
+                                    <button class="page-link" id="prev-button-{{ school_id }}" aria-label="Previous" disabled>
+                                        <span aria-hidden="true">&laquo;</span>
+                                    </button>
+                                </li>
+                                <li class="page-item">
+                                    <button class="page-link" id="next-button-{{ school_id }}" aria-label="Next">
+                                        <span aria-hidden="true">&raquo;</span>
+                                    </button>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>                  
                     {% endfor %}
                 </div>
             </div>
@@ -88,11 +109,60 @@
     </div>
 
     <script>
-        function toggleSchool(school_id) {
-            const elements = Array.from(document.getElementsByClassName("sentence-box"));
-            const element = document.getElementById(school_id);
+        // Hiển thị câu cho trường học và trang hiện tại
+        function displaySentences(page, schoolId) {
+            const sentences = document.querySelectorAll(`#sentence-list-${schoolId} .sentence-item`);
+            const sentencesPerPage = 5; // Số câu trên mỗi trang
+            const totalPages = Math.ceil(sentences.length / sentencesPerPage);
 
+            sentences.forEach((sentence, index) => {
+                sentence.style.display = 'none';
+            });
+
+            const start = (page - 1) * sentencesPerPage;
+            const end = start + sentencesPerPage;
+
+            for (let i = start; i < end && i < sentences.length; i++) {
+                sentences[i].style.display = 'block';
+            }
+
+            // Cập nhật trạng thái của nút Previous và Next
+            document.getElementById(`prev-button-${schoolId}`).disabled = page === 1;
+            document.getElementById(`next-button-${schoolId}`).disabled = page === totalPages;
+        }
+
+        // Xử lý sự kiện nút Previous và Next cho mỗi trường
+        function handlePagination(schoolId) {
+            let currentPage = 1;
+
+            document.getElementById(`prev-button-${schoolId}`).addEventListener('click', () => {
+                if (currentPage > 1) {
+                    currentPage--;
+                    displaySentences(currentPage, schoolId);
+                }
+            });
+
+            document.getElementById(`next-button-${schoolId}`).addEventListener('click', () => {
+                const sentences = document.querySelectorAll(`#sentence-list-${schoolId} .sentence-item`);
+                const sentencesPerPage = 5;
+                const totalPages = Math.ceil(sentences.length / sentencesPerPage);
+
+                if (currentPage < totalPages) {
+                    currentPage++;
+                    displaySentences(currentPage, schoolId);
+                }
+            });
+
+            // Hiển thị câu cho trang đầu tiên khi mở trường
+            displaySentences(currentPage, schoolId);
+        }
+
+        function toggleSchool(schoolId) {
+            const elements = Array.from(document.getElementsByClassName("sentence-box"));
+            const element = document.getElementById(schoolId);
             const otherElements = elements.filter(el => el !== element);
+            const sentenceGroups = document.querySelectorAll(`[class^="sentence_"]`);
+
 
             otherElements.forEach(el => {
                 el.style.display = "none";
@@ -100,23 +170,40 @@
 
             if (element.style.display === "none" || element.style.display === "") {
                 element.style.display = "block";
+                
+                sentenceGroups.forEach(sentenceGroup => {
+                    const schoolElements = sentenceGroup.querySelectorAll(`div[id^="school_"]`);
+
+                    // Nếu chỉ có một phần tử con (1 school), hiển thị nó
+                    if (schoolElements.length === 1) {
+                        schoolElements[0].style.display = 'block';
+                    } 
+                    // Nếu có nhiều phần tử con, chỉ hiển thị phần tử trùng với schoolId, ẩn các phần tử khác
+                    else if (schoolElements.length > 1) {
+                        schoolElements.forEach(el => {
+                            if (el.id === `school_${schoolId}`) {
+                                el.style.display = 'block';
+                            } else {
+                                el.style.display = 'none';
+                            }
+                        });
+                    }
+                });
 
                 document.querySelectorAll('span.highlight').forEach(el => {
                     el.classList.remove('highlight');
                 });
 
-                document.querySelectorAll('span.highlight' + school_id).forEach(el => {
+                document.querySelectorAll('span.highlight_school' + schoolId).forEach(el => {
                     el.classList.add('highlight');
                 });
-                // Cuộn đến phần nội dung PDF tương ứng với school_id
-                const pdfSection = document.getElementById('school-pdf-' + school_id);
-                if (pdfSection) {
-                    pdfSection.scrollIntoView({ behavior: 'smooth' });
-                }
+
+                // Kích hoạt pagination cho trường hiện tại
+                handlePagination(schoolId);
+
             } else {
                 element.style.display = "none";
-
-                document.querySelectorAll('span.highlight' + school_id).forEach(el => {
+                document.querySelectorAll('span.highlight_school' + schoolId).forEach(el => {
                     el.classList.remove('highlight');
                 });
             }

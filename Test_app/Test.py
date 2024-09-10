@@ -1,23 +1,19 @@
-from io import BytesIO
 from pymongo import MongoClient
 
-def get_pdf_from_mongo(file_id):
-    client = MongoClient('mongodb://localhost:27017/')
-    db = client['Plagiarism']
-    collection = db['files']
-    file_id = int(file_id)
 
-    document = collection.find_one({'file_id': file_id})
-    if document and 'content' in document:
-        pdf_data = document['content']
-        page_count = document['page_count']
-        word_count = document['word_count']
-        return BytesIO(pdf_data), page_count, word_count
-    else:
-        print("File not found")
-        return None
-    
-a, b, c = get_pdf_from_mongo(1)
+plagiarism_data = []
+client = MongoClient('mongodb://localhost:27017/')
+db = client['Plagiarism']
+files_collection = db['files']
+sentences_collection = db['sentences']
+plagiarisms = sentences_collection.find({'file_id': 1})
+for i, doc in enumerate(plagiarisms):
+    sentence_id = doc['sentence_index']
+    if doc['plagiarism'] == 'yes':
+        plagiarism = []
+        for source in doc['sources']:
+            plagiarism.append([doc['sentence'], None, sentence_id])
 
-print(b)
-print(c)
+        plagiarism_data.append(plagiarism)
+
+print(plagiarism_data)
