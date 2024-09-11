@@ -83,7 +83,8 @@ def index(file_id):
                     # Cập nhật thông tin trường học có điểm số cao nhất
                     if score > best_score:
                         best_score = score
-                        best_matches_data[school_id] = {
+                        best_matches_data = {
+                            'school_id': school_id,
                             'school_name': school_name,
                             'highlighted_sentence': highlighted_sentence,
                             'highlighted_best_match': highlighted_best_match,
@@ -100,24 +101,23 @@ def index(file_id):
                             'score': score
                         }
 
+                # Kiểm tra xem best_matches_data đã tồn tại trong schools_detail chưa
+                if best_matches_data.get('school_id') not in schools_detail:
+                    schools_detail[best_matches_data['school_id']] = {
+                        'total_word_count': 0,
+                        'school_name': best_matches_data['school_name'],
+                        'sentences': []
+                    }
 
-                # Giả sử `best_matches` là một dictionary với `school_id` là khóa và `data` là giá trị
-                for school_id, data in best_matches_data.items():
-                    # Cập nhật thông tin trường học
-                    if school_id not in schools_detail:
-                        schools_detail[school_id] = {
-                            'total_word_count': 0,
-                            'school_name': data['school_name'],
-                            'sentences': []
-                        }
+                schools_detail[best_matches_data['school_id']]['total_word_count'] += best_matches_data['word_count_sml']
+                schools_detail[best_matches_data['school_id']]['sentences'].append({
+                    'best_match': best_matches_data['highlighted_best_match'],
+                    'sentence': best_matches_data['highlighted_sentence'],
+                    'word_count_sml': best_matches_data['word_count_sml'],
+                })
 
-                    schools_detail[school_id]['total_word_count'] += data['word_count_sml']
-                    schools_detail[school_id]['sentences'].append({
-                        'best_match': data['highlighted_best_match'],
-                        'sentence': data['highlighted_sentence'],
-                        'word_count_sml': data['word_count_sml'],
-                    })              
-                    plagiarism_detail.append([data['highlighted_sentence'], data['word_count_sml'], school_id, sentence_id])
+                plagiarism_detail = [[best_matches_data['highlighted_sentence'], best_matches_data['word_count_sml'], best_matches_data['school_id'], sentence_id]]
+
 
                 # Giả sử `best_matches` là một dictionary với `school_id` là khóa và `data` là giá trị
                 for school_id, data in best_matches.items():

@@ -13,9 +13,9 @@ warnings.simplefilter('ignore', InsecureRequestWarning)
 # Bắt đầu tính thời gian
 start_time = time.time()
 # file_path = './test/Data/test.pdf'
-file_path = './Data/SKL007296.pdf'
+# file_path = './test/Data/SKL007296.pdf'
 
-# file_path = './test/Data/test.pdf'
+file_path = './test/Data/test.pdf'
 # Dictionary để lưu trữ nội dung các file PDF và nội dung trang web
 sentences_cache = {}
 plagiarized_count = 0
@@ -23,7 +23,7 @@ processed_sentences = []
 
 def processing_data(file_path):
     # Trích xuất nội dung văn bản từ file PDF với số trang
-    text = extract_pdf_text(file_path, './output/content.txt')
+    text, total_pages, total_words = extract_pdf_text(file_path, './output/content.txt')
     # Kết hợp các dòng và tách câu, lưu cả số trang cho mỗi câu
     sentences_with_page = combine_lines_and_split_sentences(text, './output/sentence_split.txt')
     # Loại bỏ các câu có ít hơn 1 từ
@@ -33,7 +33,7 @@ def processing_data(file_path):
 def handle_sentence(sentence_data):
     global plagiarized_count
 
-    sentence, _ = sentence_data
+    sentence = sentence_data
     print(f"********Tìm kiếm câu: {sentence}")
     
     result = search_google(sentence)
