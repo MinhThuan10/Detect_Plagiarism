@@ -17,10 +17,10 @@ collection_files = db['files']
 # Start the timer
 start_time = time.time()
 plagiarized_count = 0
-file_path = './test/Data/Test_2.pdf'
+file_path = './test/Data/Ditgial_MarketingTLCK_Edit.pdf'
 
 assignment_id = 1
-file_id = 1
+file_id = 7
 title = 'test2'
 author = 'Thuan'
 
@@ -57,7 +57,7 @@ save_pdf_to_mongo(file_path)
 
 for i, sentence in enumerate(processed_sentences):
     preprocessed_query, sentence_results = search_sentence_elastic(sentence)
-    if preprocessed_query is None:
+    if preprocessed_query is None or not sentence_results:
         print(f"Câu {i + 1}: No results found for this sentence. Moving to the next one.")
         result = {
             "file_id" : file_id,

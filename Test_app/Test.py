@@ -1,19 +1,20 @@
+import sys
+import os
+# Thêm đường dẫn của thư mục cha vào sys.path
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '../')))
+from processing import *
+import time
+from sentence_split import *
+import warnings
+from urllib3.exceptions import InsecureRequestWarning
 from pymongo import MongoClient
+# Tắt cảnh báo InsecureRequestWarning
+warnings.simplefilter('ignore', InsecureRequestWarning)
+from urllib.parse import urlparse
 
 
-plagiarism_data = []
-client = MongoClient('mongodb://localhost:27017/')
-db = client['Plagiarism']
-files_collection = db['files']
-sentences_collection = db['sentences']
-plagiarisms = sentences_collection.find({'file_id': 1})
-for i, doc in enumerate(plagiarisms):
-    sentence_id = doc['sentence_index']
-    if doc['plagiarism'] == 'yes':
-        plagiarism = []
-        for source in doc['sources']:
-            plagiarism.append([doc['sentence'], None, sentence_id])
+preprocessed_query, sentence_results = search_sentence_elastic('facebook zalo oa youtube')
 
-        plagiarism_data.append(plagiarism)
+print(preprocessed_query)
 
-print(plagiarism_data)
+print(sentence_results)

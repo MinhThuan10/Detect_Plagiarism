@@ -15,7 +15,7 @@ start_time = time.time()
 # file_path = './test/Data/test.pdf'
 # file_path = './test/Data/SKL007296.pdf'
 
-file_path = './test/Data/test.pdf'
+file_path = './test/Data/test_2.pdf'
 # Dictionary để lưu trữ nội dung các file PDF và nội dung trang web
 sentences_cache = {}
 plagiarized_count = 0

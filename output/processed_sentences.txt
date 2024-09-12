@@ -1,10 +1,708 @@
-Câu 1: Tự đạo văn thường được hiểu là tái sử dụng hay tái chế lại các một phần hay toàn bộ nghiên cứu cũ đã được phát hành trước đó của chính bản thân
-Câu 2: Đây là hình thức đạo văn dễ phát hiện và có mức độ nghiêm trọng nhất
-Câu 3: Đạo văn sẽ làm suy yếu quyền và tài sản trí tuệ của người sáng tạo ban đầu cũng như tính toàn vẹn của tác phẩm được trình bày
-Câu 4: Với tỉ lệ sinh viên Trường Đại học kinh tế thành phố Hồ Chí Minh nhận thức và hiểu đúng về đạo văn còn hạn chế, nhận thức sai lệch
-Câu 5: Đạo văn cũng có thể bao gồm việc sử dụng lại tác phẩm của chính bạn mà không có trích dẫn
-Câu 6: Nói một cách dễ hiểu thì Tự đạo văn là hành vi cố ý sử dụng lại bất kỳ nghiên cứu cũ nào của bản thân để đưa vào một tác phẩm mới
-Câu 7: Nếu hành vi đạo văn của sinh viên bị phát hiện thì sinh viên đó sẽ bị đình chỉ học hoặc thậm chí bị đuổi học
-Câu 8: Vì vậy, việc sử dụng lại một phần nghiên cứu mà không trích dẫn hay có sự cho phép của nhà xuất bản là không được chấp nhận
-Câu 9: Đạo văn được xem là hành vi thiếu trung thực về mặt học thuật và vi phạm đạo đức báo chí
-Câu 10: Ở cấp độ nghiên cứu chuyên nghiệp, người đạo văn có thể bị buộc thôi việc, thu hồi công trình đã công bố hoặc huỷ bỏ chức danh
+Câu 1: BỘ VĂN HÓA, THỂ THAO VÀ DU LỊCH
+Câu 2: TRƯỜNG ĐẠI HỌC VĂN HÓA TP
+Câu 3: KHOA THÔNG TIN THƯ VIỆN
+Câu 4: TIỂU LUẬN TỐT NGHIỆP CUỐI KHÓA
+Câu 5: THỰC TRẠNG HOẠT ĐỘNG MARKETING SỐ CỦA THƯ VIỆN
+Câu 6: TRƯỜNG ĐẠI HỌC SƯ PHẠM KỸ THUẬT TP
+Câu 7: Sinh viên thực hiện
+Câu 8: Thông tin Thư viện 15
+Câu 9: Thành phố Hồ Chí Minh, tháng 06 năm 2024
+Câu 10: TRƯỜNG ĐẠI HỌC VĂN HÓA THÀNH PHỐ HỒ CHÍ MINH
+Câu 11: KHOA THÔNG TIN THƯ VIỆN
+Câu 12: TIỂU LUẬN TỐT NGHIỆP
+Câu 13: THỰC TRẠNG HOẠT ĐỘNG MARKETING SỐ CỦA
+Câu 14: THƯ VIỆN TRƯỜNG ĐẠI HỌC SƯ PHẠM KỸ THUẬT TP
+Câu 15: Sinh viên thực hiện
+Câu 16: Thông tin Thư viện 15
+Câu 17: Thành phố Hồ Chí Minh, tháng 06 năm 2024
+Câu 18: NHẬN XÉT CỦA GIẢNG VIÊN
+Câu 19: Họ và tên sinh viên
+Câu 20: Thông tin Thư viện
+Câu 21: Nội dung bài tiểu luận tốt nghiệp bao gồm những nội dung sau
+Câu 22: CƠ SỞ LÝ LUẬN VỀ MARKETING SỐ THƯ VIỆN
+Câu 23: THỰC TRẠNG HOẠT ĐỘNG MARKETING SỐ CỦA THƯ VIỆN
+Câu 24: TRƯỜNG ĐẠI HỌC SƯ PHẠM KỸ THUẬT TP
+Câu 25: GIẢI PHÁP NÂNG CAO CHẤT LƯỢNG VỀ HOẠT ĐỘNG
+Câu 26: MARKETING SỐ TẠI THƯ VIỆN TRƯỜNG ĐẠI HỌC SƯ PHẠM KỸ THUẬT
+Câu 27: Thành phố Hồ Chí Minh, ngày
+Câu 28: Để hoàn thành bài tiểu luận tốt nghiệp cuối khóa đề tài
+Câu 29: Thực trạng hoạt động
+Câu 30: Marketing số của Thư viện Trường Đại học Sư phạm Kỹ thuật TP
+Câu 31: HCM em xin được gửi lời cảm ơn chân thành đến Thư viện trường đã tạo điều kiện cho em có cơ hội được thực tập và cung cấp những dữ kiện để em có thể hoàn thành tốt đề tài này
+Câu 32: Em đã nhận được rất nhiều sự giúp đỡ nhiệt tình của các thầy cô, anh chị cán bộ Thư viện trường giúp đỡ, giải đáp những thắc mắc để em có thể nắm vững và thành thạo các thao tác nghiệp vụ, được tiếp xúc nhiều hơn tới công việc tương lai mà em đã chọn
+Câu 33: Em cũng xin chân thành cảm ơn Quý thầy, cô khoa Thông tin Thư viện Trường Đại học Văn hóa TP
+Câu 34: HCM đã tận tình giảng dạy, trang bị cho em những kiến thức quý báu trong suốt 4 năm học vừa qua
+Câu 35: Khoảng thời gian được học tập và rèn luyện tại Trường đã giúp cho em thêm phần tự tin, trau dồi hành trang đầy đủ cho tương lai của mình
+Câu 36: Cuối cùng, em xin chân thành cảm ơn gia đình, bạn bè và những người thân đã luôn động viên, tạo mọi điều kiện thuận lợi cho em trong quá trình thực tập cũng như hoàn thành bài tiểu luận tốt nghiệp cuối khóa này
+Câu 37: Dù đã cố gắng rất nhiều trong quá trình thực tập cũng như hoàn thành bài tiểu luận trong phạm vi và khả năng cho phép nhưng kinh nghiệm và kiến thức của bản thân còn hạn chế nên chắc chắn sẽ không tránh khỏi những thiếu sót
+Câu 38: Vì vậy, em rất mong nhận được sự đóng góp ý kiến và tận tình chỉ bảo của quý thầy, cô để đề tài của em được hoàn thiện một cách tốt nhất
+Câu 39: Em xin chân thành cảm ơn
+Câu 40: Thành phố Hồ Chí Minh, tháng 6 năm 2024
+Câu 41: Sinh viên thực hiện
+Câu 42: DANH MỤC CÁC TỪ VIẾT TẮT
+Câu 43: DANH MỤC HÌNH ẢNH
+Câu 44: CƠ SỞ LÝ LUẬN VỀ MARKETING SỐ THƯ VIỆN
+Câu 45: Khái niệm về Marketing và Marketing số
+Câu 46: Khái niệm về Marketing
+Câu 47: Vai trò của Marketing
+Câu 48: Khái niệm về Marketing số
+Câu 49: Vai trò và đặc điểm của marketing số trong lĩnh vực Thông tin Thư viện
+Câu 50: Vai trò của marketing số trong lĩnh vực Thông tin Thư viện
+Câu 51: Đặc điểm của Marketing số trong hoạt động Thông tin Thư viện
+Câu 52: Các yếu tố của Marketing số trong hoạt động Thông tin Thư viện
+Câu 53: Sản phẩm dịch vụ thông tin
+Câu 54: Cơ sở vật chất
+Câu 55: THỰC TRẠNG HOẠT ĐỘNG MARKETING SỐ CỦA THƯ
+Câu 56: VIỆN TRƯỜNG ĐẠI HỌC SƯ PHẠM KỸ THUẬT TP
+Câu 57: Giới thiệu sơ lược về Thư viện Trường Đại học Sư phạm Kỹ thuật
+Câu 58: Lịch sử quá trình hình thành và phát triển
+Câu 59: Chức năng, nhiệm vụ và cơ cấu tổ chức của Thư viện
+Câu 60: Cơ sở vật chất
+Câu 61: Nguồn tài nguyên thông tin
+Câu 62: Thực trạng hoạt động marketing của Thư viện Trường Đại học Sư phạm
+Câu 63: Các nhóm dịch vụ của thư viện
+Câu 64: Một số hình thức marketing số tại Thư viện Trường Đại học Sư phạm Kỹ thuật TP
+Câu 65: Các hình thức marketing áp dụng cho nhóm dịch vụ của thư viện
+Câu 66: GIẢI PHÁP NÂNG CAO CHẤT LƯỢNG VỀ HOẠT ĐỘNG
+Câu 67: MARKETING SỐ TẠI THƯ VIỆN TRƯỜNG ĐẠI HỌC SƯ PHẠM KỸ
+Câu 68: Đánh giá về hoạt động marketing số tại Thư viện Trường Đại học Sư phạm Kỹ thuật TP
+Câu 69: Một số giải pháp thúc đẩy hoạt động marketing số trong hoạt động Thông tin Thư viện Trường Đại học Sư phạm Kỹ thuật TP
+Câu 70: Xây dựng chiến lược Marketing cho hoạt động Thông tin Thư viện
+Câu 71: Phát triển nguồn lực thông tin, đa dạng hóa các sản phẩm và dịch vụ
+Câu 72: Đào tạo và bồi dưỡng kiến thức về marketing số cho cán bộ thư viện
+Câu 73: Đầu tư kinh phí cho hoạt động marketing số
+Câu 74: Một số giải pháp khác
+Câu 75: DANH MỤC TÀI LIỆU THAM KHẢO
+Câu 76: DANH MỤC CÁC TỪ VIẾT TẮT
+Câu 77: Công nghệ thông tin
+Câu 78: Cơ sở dữ liệu
+Câu 79: Sản phẩm dịch vụ
+Câu 80: Thông tin Thư viện
+Câu 81: Thành phố Hồ Chí Minh
+Câu 82: Online Public Access Catalog
+Câu 83: DANH MỤC HÌNH ẢNH
+Câu 84: Website Thư viện Nguồn Thư viện Trường Đại học Sư phạm Kỹ thuật TP
+Câu 85: Facebook Thư viện Nguồn
+Câu 86: Thư viện Đại học Sư phạm
+Câu 87: Zalo Thư viện Nguồn Thư viện Trường Đại học Sư phạm Kỹ thuật Tp
+Câu 88: Youtube Thư viện Nguồn Thư viện Trường Đại học Sư phạm Kỹ thuật Tp
+Câu 89: Tiktok Thư viện Nguồn Thư viện Trường Đại học Sư phạm Kỹ thuật Tp
+Câu 90: Hiện nay, với sự phát triển không ngừng của công nghệ thông tin và internet
+Câu 91: Nhất là trong giai đoạn chuyển tiếp và thích nghi với nền kinh tế số, môi trường số đã và đang rất quen thuộc trong các thư viện đại học ở Việt Nam, cần thiết phải có một hướng tiếp cận về marketing mới để hướng dẫn những người làm nghề tiếp thị tận dụng những công nghệ mang tính đột phá
+Câu 92: marketing số trong thư viện thông minh là một phương pháp tiếp thị kết hợp tương tác trực tuyến và ngoại tuyến giữa các thư viện với người dùng tin
+Câu 93: Vì vậy, marketing số đã tác động đến các ngành nghề khác nói chung và ngành Thông tin Thư viện nói riêng
+Câu 94: Thư viện được xem là một phần quan trọng, là đầu não trọng tâm trong hệ thống giáo dục và nghiên cứu của một trường đại học
+Câu 95: Đồng thời, hoạt động marketing số của thư viện đóng vai trò quan trọng trong việc tiếp cận, tương tác và thu hút người sử dụng
+Câu 96: Ngày nay, việc nhiều kênh marketing truyền thống đã trở nên lỗi thời do người dùng tin có quá nhiều sự lựa chọn mới và phong phú
+Câu 97: Bên cạnh đó, thực trạng hoạt động marketing số trong thư viện hiện nay vẫn còn nhiều hạn chế và thách thức cần được tìm hiểu và giải quyết
+Câu 98: Sự phát triển của công nghệ và internet, đòi hỏi thư viện cần phải tạo các kênh marketing khác nhau với nhiều tính năng, tạo ra môi trường tương tác và giao tiếp linh hoạt, cung cấp thông tin và dịch vụ đa dạng hơn cho người dùng tin, giúp hỗ trợ họ trong việc tiếp cận thông tin nhằm phục vụ cho việc học tập và nghiên cứu
+Câu 99: Ngoài việc, đáp ứng nhu cầu người sử dụng thì kênh marketing phải quảng bá được các sản phẩm dịch vụ của thư viện thu hút bạn đọc
+Câu 100: Bên cạnh đó, phải phát triển được các kênh truyền thông một cách một cách toàn diện nhất để bạn đọc có thể truy cập được
+Câu 101: Theo Hiệp hội Tiếp thị Kỹ thuật số châu Á
+Câu 102: Digital marketing là chiến lược dùng internet làm phương tiện cho các hoạt động marketing và trao đổi thông tin
+Câu 103: Ở định nghĩa này, tác giả nhấn mạnh đến 3 yếu tố
+Câu 104: sử dụng các phương tiện kỹ thuật số, tiếp cận khách hàng trong môi trường kỹ thuật số, và tương tác với khách hàng
+Câu 105: Có thể nói, với thế hệ thư viện thông minh hiện nay
+Câu 106: công nghệ web 2
+Câu 107: Kết nối vạn vật Trí tuệ nhân tạo Dữ liệu lớn thư viện
+Câu 108: Quản trị tri thức
+Câu 109: trong bối cảnh các thư viện Việt Nam, đặc biệt các thư viện đại học, đang tập trung phát triển thế hệ Thư viện Thông minh 4
+Câu 110: 0 tiên tiến nhất để làm nền tảng cho trường Đại học
+Câu 111: 0, thúc đẩy nghiên cứu đào tạo và tăng chỉ số xếp hạng đại học trên thế giới, đồng nghĩa với việc các thư viện cũng cần tạo ra các sản phẩm dịch vụ thư viện thông minh để đáp ứng được yêu cầu đó, gắn liền với các sản phẩm dịch vụ thư viện thì việc tiếp thị số là một việc làm không thể thiếu
+Câu 112: Chính vì những vấn đề trên, nên từ đó marketing số đã được hình thành trong thư viện và tiếp cận người sử dụng để có thể thu hút bạn đọc quan tâm đến các sản phẩm và sử dụng các dịch vụ mà thư viện đã cung cấp
+Câu 113: Vì vậy, cho thấy rằng việc tiếp thị các sản phẩm dịch vụ, thông tin, hình ảnh đến người sử dụng là vô cùng quan trọng và cần thiết đối với một thư viện của trường đại học hiện nay
+Câu 114: Đây cũng chính là lí do mà nhóm chúng em quyết định lựa chọn đề tài Thực trạng hoạt động marketing số của Thư viện Trường
+Câu 115: Đại học Sư Phạm Kỹ Thuật TP
+Câu 116: HCM cho bài tiểu luận tốt nghiệp cuối khóa
+Câu 117: Bố cục bài tiểu luận gồm có 03 chương
+Câu 118: Cơ sở lý luận về marketing số Thư viện
+Câu 119: Thưc trạng hoạt động marketing số của Thư viện Trường Đại học Sư phạm
+Câu 120: Giải pháp nâng cao chất lượng về hoạt động marketing số tại Thư viện
+Câu 121: Trường Đại học Sư phạm Kỹ thuật TP
+Câu 122: CƠ SỞ LÝ LUẬN VỀ MARKETING SỐ THƯ VIỆN
+Câu 123: Khái niệm về Marketing và Marketing số
+Câu 124: Khái niệm về Marketing
+Câu 125: Thuật ngữ marketing được sử dụng khoảng từ đầu thế kỷ XX
+Câu 126: Cũng tương tự như một số thuật ngữ được sử dụng phổ biến trong hoạt động TT TV như sản phẩm thông tin, dịch vụ thông tin, quản trị thông tin,
+Câu 127: Có rất nhiều khái niệm cũng như dấu hiệu nhận biết khác nhau về marketing
+Câu 128: Cho đến nay đã có nhiều quan điểm khác nhau về
+Câu 129: Hiệp hội Marketing Hoa Kỳ đưa ra định nghĩa
+Câu 130: Marketing là quá trình lập và thực hiện kế hoạch, định giá, khuyến mãi và phân phối sản phẩm, dịch vụ và ý tưởng để tạo ra sự thay đổi, thỏa mãn những mục tiêu của khách hàng và tổ chức
+Câu 131: Tuy nhiên theo quan điểm của Philip Kotler, ông được coi là người sáng lập ngành marketing hiện đại đã định nghĩa ngắn gọn
+Câu 132: Marketing là hoạt động của con người hướng tới việc thỏa mãn nhu cầu và ước muốn thông qua tiến trình trao đổi
+Câu 133: Định nghĩa của Philip Kotler mang tính chất tương đối tổng hợp, khá hợp lý và được nhiều người đồng tình
+Câu 134: Định nghĩa này nhấn mạnh đến vai trò và quan hệ của các chủ thể tham gia vào quá trình marketing
+Câu 135: Điều này có nghĩa là để có quá trình marketing phải có các yếu tố
+Câu 136: Con người với nhu cầu của mình
+Câu 137: sản phẩm có thể đáp ứng được nhu cầu của con người
+Câu 138: các phương thức để con người có được sản phẩm đáp ứng được nhu cầu của mình
+Câu 139: Trên đây là một số quan điểm tiêu biểu về marketing
+Câu 140: Các quan điểm này chủ yếu được đưa ra dựa trên những phương diện khác nhau
+Câu 141: Vì vậy nhìn một cách tổng thể hoạt động marketing được xem là toàn bộ những gì cùng hướng đến mục tiêu là cùng nhận diện nhu cầu thực tế của thị trường khách hàng có mục tiêu, và tiến hành đáp ứng thị trường này
+Câu 142: Điều đó có liên quan đến việc nghiên cứu thị trường khách hàng, phân
+Câu 143: tích nhu cầu của họ, xây dựng và thông qua các quyết định đến chiến lược thiết kế, định giá, chiêu thị và phổ biến sản phẩm
+Câu 144: Từ những quan điểm đó mà công thức nổi tiếng về marketing đã được xây dựng
+Câu 145: Lý giải cho công thức trên, có thể hiểu rằng
+Câu 146: 4P là sản phẩm
+Câu 147: Product , Phân phối Place , Giá cả Price và các hoạt động chiêu thị Promotion
+Câu 148: Công thức này muốn nhấn mạnh marketing còn gọi là marketing hỗn hợp là sự kết hợp chặt chẽ và linh hoạt 4 thành tố P trên nền thị trường, để tác động lên thị trường
+Câu 149: Vai trò của Marketing
+Câu 150: Marketing có nhiều vai trò và chức năng khác nhau và marketing có thể sử dụng với nhiều mục đích và có nhiều cách tiếp cận khác nhau, do đó marketing có thể được tiến hành bằng nhiều phương thức khác nhau, đồng thời lại luôn cần biến đổi để thích ứng với môi trường và mục đích của mỗi cơ quan, tổ chức chủ thể triển khai marketing
+Câu 151: Như đã nói ở trên, marketing luôn biến đổi theo mục đích chủ thể tiến hành marketing và tùy vào từng lĩnh vực cụ thể, nên việc hiểu được vai trò bản chất của marketing nói chung là một vấn đề tương đối
+Câu 152: Theo cách lý giải của các chuyên gia marketing như B
+Câu 153: Lovelock, hay như C
+Câu 154: Weinberg, họ lý giải vai trò của Marketing dựa vào chính bản chất của họ
+Câu 155: Nhìn tổng thể vai trò của marketing chính là quy trình marketing hoàn hảo, những vai trò ấy là hệ thống liên kết chặt chẽ với nhau
+Câu 156: Nghiên cứu, nắm bắt nhu cầu quản lý, xây dựng kế hoạch thỏa mãn, đáp ứng nhu cầu
+Câu 157: Sau đây là một số lý giải cụ thể về vai trò của marketing
+Câu 158: Marketing có vai trò nghiên cứu, nắm bắt nhu cầu của cá nhân hoặc tập thể
+Câu 159: người dùng khách hàng
+Câu 160: Marketing là quá trình nghiên cứu nhằm điều chỉnh để hợp lý hóa sự trao đổi giữa chủ thể marketing và khách hàng của mình
+Câu 161: giữa chủ thể marketing và môi trường của chủ thể đó
+Câu 162: Thông qua quá trình nghiên cứu giúp cho chủ thể marketing nhận diện, dự báo và sau đó kiểm soát khách hàng của mình bằng những sản phẩm mới
+Câu 163: Quá trình đó chính là nghiên cứu về nhu cầu của khách hàng
+Câu 164: Marketing quản lý, xây dựng kế hoạch
+Câu 165: Marketing có chức năng quản lý, nhằm thực hiện việc gắn kết một tổ chức, cơ quan chủ thể triển khai marketing với toàn bộ môi trường bên ngoài
+Câu 166: Marketing có vai trò xây dựng kế hoạch nhằm kiểm soát một cách tích cực nhu cầu của cá nhân, tổ chức nhằm đáp ứng nhu cầu của cộng đồng khách hàng thông qua việc thiết lập cầu nối với môi trường của mỗi tổ chức
+Câu 167: Tạo sự linh hoạt và mức thích ứng cao nhất giữa chủ thể marketing và môi trường hoạt động
+Câu 168: Marketing thỏa mãn, đáp ứng nhu cầu mong muốn của cá nhân, tập thể
+Câu 169: Marketing chính là những việc làm nhằm đáp ứng nhu cầu của cá nhân và tổ chức
+Câu 170: Sau quá trình nghiên cứu, lập kế hoạch thì marketing có nhiệm vụ đáp ứng nhu cầu của khách hàng bởi các sản phẩm được tạo ra đã được nghiên cứu sao cho phù hợp với nhu cầu của họ
+Câu 171: Nhìn chung, hoạt động marketing có vai trò cùng hướng đến mục tiêu nghiên cứu, nhận diện thực tế của thị trường khách hàng, và tiến hành việc đáp ứng thị trường này
+Câu 172: Điều đó cũng chính là việc nghiên cứu thị trường trên khách hàng, phân tích nhu cầu của họ, xây dựng và thông qua các quyết định đến chiến lược thiết kế, định giá, chiêu thị và phổ biến sản phẩm, từ đó thỏa mãn nhu cầu của khách hàng cũng chính là đạt mục đích của chủ thể tiến hành marketing
+Câu 173: Tùy vào đặc thù riêng của từng chủ thể tiến hành marketing mà marketing có những vai trò cụ thể khác nhau
+Câu 174: Ví dụ như đối với hoạt động Kinh tế của một doanh nghiệp, vai trò của marketing sẽ khác với hoạt động TT TV của một cơ quan
+Câu 175: hoạt động kinh tế, vai trò của marketing sẽ là nắm bắt những nhu cầu của khách hàng nhằm mục đích cuối cùng là đem lại lợi nhuận cao nhất cho doanh nghiệp, còn đối với hoạt động của một thư viện thì vai trò của marketing chính là nghiên cứu nhu cầu của
+Câu 176: NDT về sử dụng nguồn thông tin ra sao và như thế nào để thư viện ấy có hướng bổ sung nguồn tài liệu
+Câu 177: Đây chỉ là một dẫn chứng đơn giản từ các cách tiếp cận khác nhau để khẳng định vai trò của hoạt động marketing
+Câu 178: Nhưng nhìn chung với bất cứ hoạt động nào, lĩnh vực nào vẫn phải kể đến các vai trò cơ bản nhất của marketing như đã nêu ở trên
+Câu 179: Đó chính là vai trò
+Câu 180: Nghiên cứu, nắm bắt nhu cầu quản lý, xây dựng kế hoạch thỏa mãn, đáp ứng nhu cầu
+Câu 181: Khái niệm về Marketing số
+Câu 182: Theo Philip Kotler 2019 định nghĩa marketing số là quá trình lập kế hoạch về sản phẩm, giá, phân phối và xúc tiến đối với sản phẩm, dịch vụ và ý tưởng để đáp ứng nhu cầu của tổ chức và cá nhân dựa trên phương tiện điện tử và internet
+Câu 183: Khái niệm này của Kotler không chỉ nêu lên được các nội dung của marketing số mà còn trình bày được hình thức thực hiện hoạt động này
+Câu 184: Theo Asia Digital Marketing Association cho rằng Digital Marketing là chiến lược dùng internet làm phương tiện cho hầu hết các hoạt động marketing và trao đổi thông tin
+Câu 185: Định nghĩa này nhấn mạnh đến 3 yếu tố
+Câu 186: Việc sử dụng các phương tiện số, việc tiếp cận khách hàng trong môi trường số và sự tương tác với khách hàng được trích bởi
+Câu 187: Nguyễn Thị Liên, 2021
+Câu 188: Từ hai khái niệm trên, marketing số được hiểu là việc quảng bá SP DV thông qua internet và các hình thức truyền thông kỹ thuật số khác như
+Câu 189: Email, mạng xã hội, quảng cáo trực tuyến, tin nhắn văn bản, tin nhắn đa phương tiện, công cụ tìm kiếm, các thiết bị di động
+Câu 190: Lợi ích của marketing số là khả năng đáp ứng nhu cầu của NDT và tổ chức
+Câu 191: tăng khả năng tương tác cùng khả năng tiếp cận NDT trong thời đại số
+Câu 192: Vai trò và đặc điểm của marketing số trong lĩnh vực Thông tin Thư viện
+Câu 193: Vai trò của marketing số trong lĩnh vực Thông tin Thư viện
+Câu 194: Theo tác giả Bùi Thị Thu Hà 2015 nhận xét vai trò của marketing số trong hoạt động TT TV giúp
+Câu 195: Tiết kiệm chi phí thực hiện Marketing
+Câu 196: Kinh phí luôn là nguồn lực quan trọng để duy trì sự tồn tại và phát triển của các cơ quan TT TV
+Câu 197: Do đó, marketing số sẽ là phương pháp quảng bá tối ưu nhất hiện nay giúp các cơ quan TT TV giới thiệu được hoạt động, cũng như SP DV của mình đến với người sử dụng
+Câu 198: Thu hút NDT sử dụng Thư viện
+Câu 199: Marketing số là một trong những cơ hội lớn để các cơ quan TT TV chủ động giúp NDT hiểu rõ hơn về vị trí và vai trò của đơn vị mình cùng với các nguồn tin, các sản phẩm và dịch vụ trực tuyến, để từ đó thu hút họ đến với thư viện và ngày càng nâng cao hiệu quả hoạt động cũng như vị thế của đơn vị
+Câu 200: Đáp ứng tốt nhu cầu của NDT
+Câu 201: Hoạt động marketing số với khả năng tiếp cận và tương tác rất cao giúp thư viện phân nhóm NDT, sử dụng hiệu quả các nguồn lực của các thư viện, thỏa mãn tối đa nhu cầu của NDT, xác định những điểm khác biệt về nhu cầu, sở thích của từng đối tượng khác nhau nhằm cung cấp các SP DV với chất lượng tốt nhất phù hợp với từng nhóm đối tượng khác nhau
+Câu 202: Dễ tiếp cận và lựa chọn các SP DV
+Câu 203: Đối với NDT, marketing số sẽ giúp họ dễ dàng tiếp cận, lựa chọn các SP DV, lựa chọn cách thức sử dụng thư viện hay các loại hình SP DV phù hợp với nhu cầu tin và điều kiện của mình
+Câu 204: Chủ động cung cấp thông tin phản hồi đến với Thư viện
+Câu 205: Với đặc điểm có nhiều kênh phân phối của mình, marketing số giúp cung cấp nhiều kênh thông tin phản hồi khác nhau giúp NDT dễ dàng gửi đến thư viện những thông tin phản hồi về nhu cầu, ý kiến đánh giá và mong muốn của họ về các nguồn lực, các SP DV của thư viện
+Câu 206: Đặc điểm của Marketing số trong hoạt động Thông tin Thư viện
+Câu 207: Theo Nguyễn Mạnh Nguyên 2019
+Câu 208: Marketing số là sự phát triển của marketing truyền thống khi ứng dụng Internet và các phương tiện điện tử vào hoạt động marketing
+Câu 209: Vì vậy, marketing số vẫn giữ nguyên bản chất của marketing truyền thống nhưng marketing số có những đặc điểm vượt trội sau
+Câu 210: Một là, không bị giới hạn bởi không gian vì môi trường thực hiện Marketing số là môi trường internet, phương tiện sử dụng để tiến hành marketing số là internet và các thiết bị được kết nối internet
+Câu 211: marketing số sẽ giúp các cơ quan TT TV dễ dàng nắm bắt được nhu cầu tin, quảng bá các SP DV và hình ảnh của mình tới mọi đối tượng
+Câu 212: Hai là, không bị giới hạn về thời gian, tốc độ thực hiện nhanh
+Câu 213: Thời gian hoạt động liên tục 24 7, không bị gián đoạn
+Câu 214: Các cơ quan TT TV có thể thực hiện marketing số ở mọi thời điểm, giúp nhanh chóng nắm bắt được nhu cầu tin của NDT và quảng bá các SP DV và hình ảnh của cơ quan, tổ chức đến NDT mọi lúc, mọi nơi
+Câu 215: Ba là, khả năng tự động hóa
+Câu 216: Marketing số sẽ giúp tương tác cao giữa thư viện và người sử dụng, bởi thông qua các công cụ tiếp cận dễ dàng, nhanh chóng
+Câu 217: Bốn là, có tốc độ truyền tải thông tin nhanh chóng với dung lượng lớn
+Câu 218: Càng nhiều người sử dụng, chia sẻ thì thông tin càng được lan tỏa nhanh chóng
+Câu 219: Năm là, có khả năng định hướng cao
+Câu 220: Nhờ các thông tin thu được qua trao đổi, các cơ quan TT TV dễ dàng nhận diện được nhu cầu tin của các đối tượng NDT khác nhau về trình độ, lứa tuổi, thói quen và nội dung nhu cầu tin
+Câu 221: Trên cơ sở đó, các cơ quan TT TV thông qua các kênh phân phối trực tuyến sẽ hướng tới các đối tượng NDT khác nhau, để phục vụ cho phù hợp, giúp thỏa mãn tối đa nhu cầu tin
+Câu 222: Bên cạnh những ưu điểm trên, marketing số vẫn có những hạn chế nhất định
+Câu 223: Hạn chế thứ nhất là marketing số chỉ tiếp cận được với những đối tượng NDT có điều kiện tiếp cận, sử dụng internet
+Câu 224: Thứ hai là nhân lực thực hiện marketing số đòi hỏi phải có trình độ nhất định về CNTT, về kiến thức marketing số
+Câu 225: Thứ ba, cơ quan tổ chức thực hiện marketing số phải đầu tư nhiều cho hạ tầng kỹ thuật, chính sách bảo mật, để nhằm bảo mật thông tin, tránh thiệt hại
+Câu 226: Các yếu tố của Marketing số trong hoạt động Thông tin Thư viện
+Câu 227: Sản phẩm dịch vụ thông tin
+Câu 228: Theo Elieen Elliot de Sae 2002 , sản phẩm và dịch vụ là những gì mà dịch vụ thông tin hoặc Thư viện đang cung cấp, có thể cung cấp để đem lại lợi ích cho người dùng tin hiện thời là người dùng tiềm năng
+Câu 229: Sản phẩm của thư viện được hiểu là các sản phẩm TT TV và các dịch vụ thư viện, cụ thể như
+Câu 230: Hệ thống tra cứu mục lục trực tuyến OPAC , CSDL báo tạp chí, CSDL bài trích, các CSDL trực tuyến, tài nguyên học liệu mở, dịch vụ số hóa tài liệu, Các sản phẩm TT TV cũng có thể do Thư viện tạo ra như CSDL thư mục, hệ thống mục lục, thư mục, tạp chí tóm tắt, hoặc tài liệu từ các thư viện liên kết thông qua trao đổi, mượn liên thư viện
+Câu 231: Bên cạnh đó, nó cũng bao gồm các dịch vụ thư viện như
+Câu 232: Dịch vụ tham khảo, lưu hành, cung cấp thông tin thư mục, Phát triển sản phẩm và dịch vụ TT
+Câu 233: TV là nội dung quan trọng hàng đầu của hoạt động marketing kỹ thuật số Dương Thị
+Câu 234: Vân và các tác giả khác, 2020
+Câu 235: Phân phối bao gồm các kênh kết nối sản phẩm với khách hàng, là phương thức phân phối hàng hóa cho thị trường mục tiêu
+Câu 236: Việc lựa chọn các kênh phân phối phụ thuộc vào các yếu tố
+Câu 237: Nhu cầu của khách hàng, bản chất của SP DV, nguồn lực của cơ quan TT TV
+Câu 238: Khuyến thị là bao gồm những hoạt động nhằm thông báo, thuyết phục, khuyến khích khách hàng sử dụng SP DV của thư viện Dương Thị Vân và các tác giả khác,
+Câu 239: Theo Ngô Thị Minh Cách 2008 , giá cả là tập hợp chi phí cho việc sản xuất và tiêu thụ sản phẩm, là thước đo hao phí lao động xã hội kết tinh trong hàng hóa
+Câu 240: Koontz 2004 nhận xét
+Câu 241: Giá cả là chi phí của người dùng cho việc có được hàng hóa
+Câu 242: Chi phí này không chỉ bao gồm chi phí mua sản phẩm mà còn cả chi phí sử dụng, vận hành, và cả hủy bỏ sản phẩm
+Câu 243: Chi phí này phải tương xứng với lợi ích mà sản phẩm đem lại cho người mua
+Câu 244: Như vậy, giá cả ở đây không chỉ bao gồm lượng tiền phải trả, mà còn phải tính đến các chi phí khác mà người dùng bỏ ra để có được sản phẩm
+Câu 245: Giá cả của SP DV TT TV đóng vai trò quan trọng trong hoạt động marketing trong môi trường số hóa
+Câu 246: Mặc dù hoạt động TT TV luôn được coi là hoạt động phi lợi nhuận, nhưng giá cả vẫn quyết định đến khả năng tiếp cận tới thông tin của NDT
+Câu 247: Elliott de Saez 2002 cho rằng
+Câu 248: Marketing là một quá trình trao đổi và việc người dùng tin phải trả giá để có được sản phẩm có thể bao gồm cả thời gian, công sức và những cơ hội hay hoạt động bị bỏ qua chi phí này không chỉ bao gồm chi phí mua sản phẩm mà còn cả chi phí sử dụng, vận hành và cả hủy bỏ sản phẩm
+Câu 249: Chi phí này phải tương xứng với lợi ích mà sản phẩm đem lại cho người mua
+Câu 250: Vấn đề đặt ra ở đây sẽ có một số sản phẩm thư viện không phải là miễn phí đòi hỏi thư viện phải cân nhắc giá cho sản phẩm của thư viện mình sao cho phù hợp với khả năng sẵn sàng chi trả cho SP DV
+Câu 251: Việc định giá cần phải căn cứ đến đầu tư đầu vào, quá trình xử lý, sự cảm nhận, phản hồi của NDT
+Câu 252: Con người đóng vai trò quan trọng không thể thiếu trong marketing số của thư viện cũng như ảnh hưởng trực tiếp đến quá trình và kết quả của hoạt động marketing số
+Câu 253: Marketing là hoạt động quảng bá SP DV của thư viện, do CBTV đảm nhận, đến
+Câu 254: Để làm marketing thành công, CBTV còn cần phải thành thạo về quy trình marketing, sử dụng tốt các thiết bị khoa học công nghệ, thao tác tốt về CNTT, thành thạo và hiểu về tâm lý của NDT,
+Câu 255: Cơ sở vật chất
+Câu 256: Cơ sở vật chất được hiểu là môi trường trong đó dịch vụ được cung cấp, là nơi thư viện và khách hàng tương tác, cơ sở vật chất còn là bất kỳ thành phần hữu hình nào tạo thuận lợi cho hiệu suất hoặc giao tiếp của dịch vụ Dương Thị Vân và các tác giả khác, 2020, tr
+Câu 257: Cơ sở vật chất là yếu tố nền tảng, là điều kiện giúp hoạt động số có thể triển khai hiệu quả
+Câu 258: Điều này đòi hỏi các cơ quan thông tin, thư viện cần chuẩn bị tốt
+Câu 259: môi trường hoạt động, cơ sở hạ tầng CNTT
+Câu 260: Server cấu hình cao, hệ thống mạng nhanh, vận hành tốt, ổn định, cơ sở dữ liệu CSDL đa dạng và phong phú, tên miền cho website,
+Câu 261: Quy trình là các thủ tục, cơ chế và dòng chảy hoạt động thực tế mà dịch vụ được cung cấp, quy trình còn là hệ thống cung cấp và vận hành dịch vụ Dương Thị Vân và các tác giả khác, 2020, tr
+Câu 262: Quy trình trong các thư viện nói chung và trong thư viện đại học nói riêng được gắn đến hoạt động marketing như các thủ tục, chính sách, chu trình liên quan đến các hoạt động cung cấp dịch vụ thông tin cũng như hoạt động thu thập thông tin
+Câu 263: THỰC TRẠNG HOẠT ĐỘNG MARKETING SỐ
+Câu 264: CỦA THƯ VIỆN TRƯỜNG ĐẠI HỌC SƯ PHẠM KỸ THUẬT TP
+Câu 265: Giới thiệu sơ lược về Thư viện Trường Đại học Sư phạm Kỹ thuật
+Câu 266: Lịch sử quá trình hình thành và phát triển
+Câu 267: Từ những ngày mới thành lập, thư viện chỉ có được số tài liệu khiêm tốn vài trăm cuốn sách, chủ yếu là sách ngoại văn và một số ít tài liệu Việt văn do các giáo sư Việt
+Câu 268: Nam biên soạn, phục vụ cho quá trình giảng dạy của bản thân người thầy
+Câu 269: Giai đoạn 1975 1985, tài liệu phục vụ học tập và giảng dạy của nhà trường chủ yếu là giáo trình do nhà xuất bản Đại học và Trung học chuyên nghiệp phát hành, số lượng giáo trình do tập thể thầy cô của nhà trường biên soạn rất hạn chế và chủ yếu là các tập bài giảng
+Câu 270: Từng có giai đoạn để tăng cường vốn tài liệu phục vụ, nhà trường và thư viện đã tiến hành vận động tài trợ, chia sẻ, chi viện từ các cơ sở văn hóa giáo dục từ miền Bắc
+Câu 271: Giai đoạn 1986 1995, với những chuyển biến tích cực của nhà trường, cùng với cả nước đi vào công cuộc đổi mới, hoạt động học thuật mà cụ thể là việc biên soạn giáo trình giảng dạy theo tính chất đặc thù đào tạo của nhà trường đã cho ra đời những tài liệu đầu tiên do chính các thầy cô đang trực tiếp giảng dạy tại trường biên soạn
+Câu 272: Giai đoạn 1995 đánh dấu bước chuyển biến quan trọng trong mọi mặt hoạt động của nhà trường cùng với các hoạt động nghiên cứu khoa học, ứng dụng thực tiễn
+Câu 273: Bộ mặt thư viện cũng thay đổi rõ nét trong giai đoạn này, thư viện Đại học Sư phạm Kỹ thuật TP
+Câu 274: HCM không còn là một thư viện nghèo nàn với những tư liệu vừa hiếm vừa cũ nữa
+Câu 275: Đến nay, với nguồn vốn tài liệu đồ sộ, thư viện có thể đáp ứng cho mỗi sinh viên từ 15 đến 20 giáo trình trong một học kỳ và 10 tài liệu tham khảo mượn trong 3 tuần
+Câu 276: Lượng sách lưu thông trong một học kỳ lên đến hơn 100
+Câu 277: Đây là những con số đáng mơ ước cho bất kỳ hệ thống thư viện trường đại học nào
+Câu 278: Nếu như trước đây bạn đọc phải chấp nhận những gì thư viện có, cam chịu với những gì thư viện cung cấp từ tài liệu, thiết bị, cung cách phục vụ đến các thiết bị phụ trợ
+Câu 279: Thì nay, tư duy phục vụ tại thư viện biến chuyển thành lối tư duy dịch vụ, lấy bạn đọc khách hàng là trung tâm và mọi hoạt động đều quy chiếu về lợi ích và sự hài lòng của khách hàng
+Câu 280: Qua đó, mọi sự tổ chức, tất cả các hoạt động và cách thức phục vụ đều hướng đến sự hài lòng và sự thuận tiện trong việc tiếp cận tri thức của bạn đọc
+Câu 281: tổ chức kho mở tự chọn, tra tìm tài liệu trực tuyến, đội ngũ hỗ trợ tư vấn phục vụ trực tiếp và trực tuyến, chính sách phục vụ và thời gian phục vụ được cập nhật thường xuyên dựa trên phân tích nhu cầu của bạn đọc và khả năng phục vụ tối đa của thư viện
+Câu 282: Chính sự thay đổi sâu sắc trong nhận thức ấy khiến cho hoạt động của thư viện luôn tấp nập, nhộn nhịp, thu hút đông đảo sinh viên và giảng viên, cán bộ viên chức của nhà trường
+Câu 283: Chức năng, nhiệm vụ và cơ cấu tổ chức của Thư viện
+Câu 284: Thư viện trường có chức năng phục vụ hoạt động giảng dạy, học tập, đào tạo, nghiên cứu khoa học, triển khai ứng dụng tiến bộ khoa học công nghệ và quản lý của nhà trường thông qua việc sử dụng, khai thác các loại hình tài liệu có trong thư viện tài liệu chép tay, in, sao chụp, khắc trên mọi chất liệu, tài liệu điện tử, mạng Internet
+Câu 285: Các chức năng cụ thể như sau
+Câu 286: Giúp Hiệu trưởng tổ chức, xây dựng và quản lý vốn tư liệu văn hoá, khoa học, kỹ thuật, phục vụ công tác giảng dạy, học tập, nghiên cứu khoa học
+Câu 287: Cung cấp các loại hình giáo trình, sách, báo, tạp chí, tài liệu khoa học kỹ thuật, khoa học giáo dục và các loại sách khác phục vụ cho công tác đào tạo, nghiên cứu khoa học, sản xuất
+Câu 288: Xây dựng và đưa vào khai thác cổng thông tin thư viện điện tử nhằm hiện đại hóa và đa dạng hóa các hình thức đáp ứng nhu cầu thông tin tư liệu
+Câu 289: Phát triển các dịch vụ sản phẩm TT TV theo yêu cầu của người dùng tin phục vụ cho nhu cầu giảng dạy, nghiên cứu, học tập và đưa ra ứng dụng thực tiễn
+Câu 290: chủ động tư vấn, xây dựng và phát triển hoạt động hỗ trợ người dùng tin
+Câu 291: Liên kết với các thư viện trong và ngoài nước để đẩy mạnh quá trình trao đổi tài nguyên thông tin, kiến thức khoa học phục vụ cho công tác nghiên cứu, giảng dạy và học tập của toàn trường
+Câu 292: Tư vấn, trao đổi kinh nghiệm tổ chức và quản lý thư viện trong và ngoài nước
+Câu 293: Các nhiệm vụ trọng tâm của Thư viện gồm
+Câu 294: Tham mưu giúp hiệu trưởng xây dựng quy hoạch, kế hoạch hoạt động dài hạn và ngắn hạn của thư viện
+Câu 295: tổ chức điều phối toàn bộ hệ thống TT TV trong nhà trường
+Câu 296: Tổ chức, quản lý cán bộ, tài sản theo phân cấp của hiệu trưởng, bảo quản, kiểm kê định kỳ vốn tài liệu, cơ sở vật chất kỹ thuật và tài sản khác của thư viện, tiến hành thanh lọc ra khỏi kho các tài liệu lạc hậu, hư nát theo quy định của Bộ Văn hóa, Thể thao và Du lịch
+Câu 297: Thực hiện báo cáo tình hình hoạt động hàng năm và báo cáo đột xuất khi có yêu cầu của bộ Giáo dục và Đào tạo, Bộ Văn hóa, Thể thao và Du lịch, Ủy ban nhân dân tỉnh, thành phố trực thuộc Trung ương hoặc các Bộ, ngành chủ quản
+Câu 298: Xây dựng quy hoạch, kế hoạch, tổ chức bồi dưỡng chuyên môn, nghiệp vụ, ngoại ngữ, tin học cho cán bộ thư viện để phát triển nguồn nhân lực có chất lượng nhằm nâng cao hiệu quả công tác
+Câu 299: Tổ chức xử lý, sắp xếp, lưu trữ, bảo quản, quản lý tài liệu
+Câu 300: xây dựng hệ thống tra cứu thích hợp
+Câu 301: thiết lập mạng lưới truy nhập và tìm kiếm thông tin tự động hóa
+Câu 302: xây dựng các cơ sở dữ liệu, biên soạn, xuất bản các ấn phẩm thông tin theo quy định của pháp luật
+Câu 303: Tổ chức không gian đọc, phát triển các tiện ích thư viện, hướng dẫn bạn đọc khai thác, tìm kiếm, sử dụng hiệu quả nguồn tài nguyên thông tin và các sản phẩm dịch vụ
+Câu 304: TT TV thông qua các hình thức phục vụ của thư viện phù hợp với quy định của pháp luật
+Câu 305: Nghiên cứu, ứng dụng thành tựu khoa học công nghệ tiên tiến và công nghệ thông tin vào công tác hiện đại hóa thư viện
+Câu 306: Giới thiệu, quảng bá tài nguyên thông tin của nhà trường đối với người học và xã hội
+Câu 307: Phát triển văn hóa đọc và góp phần tạo môi trường học tập suốt đời, xây dựng con người Việt Nam toàn diện
+Câu 308: Về cơ cấu tổ chức và nhân sự thư viện
+Câu 309: gồm ban giám đốc và 3 tổ chuyên môn
+Câu 310: Cơ cấu tổ chức
+Câu 311: Tính đến nay, Thư viện trường Đại học Sư Phạm Kỹ Thuật TP
+Câu 312: HCM có 14 nhân sự 08 CN, 06 ThS
+Câu 313: Trong đó, 02 nhân sự quả lý 14 , 02 nhân sự có nhiệm vụ xử lý nghiệp vụ 14 , 03 nhân sự công nghệ thông tin và truyền thông 22 , 07 nhân sự phục vụ công tác bạn đọc 50
+Câu 314: Cơ sở vật chất
+Câu 315: Khu vực phục vụ bạn đọc bao gồm 2 phòng đọc và 1 phòng mượn
+Câu 316: Đầu tiên là Phòng đọc Beehive tên gọi cũ
+Câu 317: Thư viện Chất lượng cao được lắp đặt máy lạnh và quạt trần, có khu vực sử dụng máy vi tính kết nối wifi và khu vực photo tài liệu dành cho cán bộ, giảng viên nhà trường
+Câu 318: Beehive có sức chứa khoảng 500 chỗ ngồi bao gồm cả các dãy ghế sofa thoải mái cho sinh viên, 2 phòng họp nhóm có tivi dành cho sinh viên có nhu cầu học nhóm và khu vực dành cho ăn uống
+Câu 319: Tổ nghiệp vụ và học liệu điện tử
+Câu 320: Tổ phục vụ và công tác bạn đọc
+Câu 321: Tổ CNTT và truyền thông
+Câu 322: Kế tiếp là Phòng đọc Thư viện khu A
+Câu 323: Khu vực bên ngoài là 2 tủ khóa lớn với 24 ngăn tủ
+Câu 324: Khu vực bên trong được trang bị 6 tablet và 39 máy vi tính được kết nối wifi với sức chứa 200 chỗ ngồi, khu vực làm việc cho cán bộ thư viện có 3 máy vi tính, 2 máy quét mã và 1 máy nạp khử từ
+Câu 325: Kho mở tổng cộng 54 kệ tài liệu tham khảo ngoại văn, 1 kệ tài liệu ngoại văn được tặng và 18 kệ luận văn, luận án
+Câu 326: Ngoài ra, bên trong thư viện còn có khu vực trưng bày báo tạp chí được cập nhật mới liên tục
+Câu 327: Cuối cùng là Phòng mượn trả, nơi cho mượn giáo trình và tài liệu tham khảo
+Câu 328: Phía bên ngoài đặt các tủ khóa lớn tương tự như Phòng đọc
+Câu 329: Bên trong là các dãy tài liệu, bao gồm 4 dãy sách giáo trình và 3 dãy tài liệu tham khảo
+Câu 330: Toàn bộ phòng được trang bị máy lạnh và quạt trần để đảm bảo nhiệt độ luôn ổn định cho việc bảo quản tài liệu
+Câu 331: Nguồn tài nguyên thông tin
+Câu 332: Thư viện Trường Đại học Sư Phạm Kỹ Thuật TP
+Câu 333: HCM là một Thư viện không ngừng gia tăng giá trị nghiên cứu, giảng dạy và học tập của nhà trường bằng việc cung cấp, đáp ứng và bảo quản các nguồn thông tin học tập qua việc sử dụng phương pháp tiếp cận sáng tạo trong quá trình cộng tác với các giảng viên và sinh viên nhằm khai phá, sử dụng, quản lý, chia sẻ các nguồn thông tin hỗ trợ nghiên cứu, giảng dạy và học tập
+Câu 334: Với chức năng là một thiết chế trong hoạt động đào tạo của nhà trường, nguồn tài nguyên thông tin tại thư viện đóng vai trò then chốt và có vai trò vô cùng quan trọng trong hoạt động học tập và giảng dạy, nghiên cứu của các cán bộ, sinh viên, giảng viên, học viên trong trường
+Câu 335: Nguồn tài nguyên thông tin tại thư viện bao gồm tài liệu in truyền thống và tài liệu điện tử được chia sẻ trên trang web của thư viện
+Câu 336: Tài liệu truyền thống
+Câu 337: Thư viện có thể đáp ứng cho mỗi sinh viên từ 15 đến 20 giáo trình trong một học kỳ và 10 tài liệu tham khảo mượn trong 3 tuần
+Câu 338: Lượng sách lưu thông trong một học kỳ lên đến hơn 100,000 lượt
+Câu 339: Tổng số lượng tài liệu sẵn sàng phục vụ ở Phòng Mượn trả của thư viện lên khoảng trên 400
+Câu 340: 000 tài liệu Thống kê năm học 2023 2024
+Câu 341: Thống kê tài liệu truyền thống
+Câu 342: Loại hình tài liệu
+Câu 343: Đồ án tốt nghiệp
+Câu 344: Luận văn Thạc sĩ Báo cáo
+Câu 345: Luận án Tiến sĩ
+Câu 346: Thư viện Trường Đại học Sư phạm Kỹ thuật TP
+Câu 347: Tài liệu điện tử
+Câu 348: Sưu tập nguồn tài nguyên điện tử được sưu tầm, tổ chức và phục vụ tại thư viện gồm
+Câu 349: Các CSDL trực tuyến dạng miễn phí
+Câu 350: Giáo trình bài giảng do nhà trường biên soạn
+Câu 351: Thống kê tài liệu điện tử nội sinh
+Câu 352: Loại hình tài liệu
+Câu 353: Kỷ yếu hội thảo
+Câu 354: Báo cáo, đồ án
+Câu 355: Luận văn, luận án
+Câu 356: Báo cáo nghiên cứu khoa học
+Câu 357: Thư viện số Trường Đại học Sư phạm Kỹ thuật TP
+Câu 358: Nguồn tài nguyên thông tin Cơ sở dữ liệu trực tuyến
+Câu 359: CSDL toàn văn tổng hợp với hơn 13
+Câu 360: 000 đầu tạp chí toàn văn
+Câu 361: Ngoài ra, Proquest Central còn cung cấp toàn văn của 56
+Câu 362: 000 luận văn trong các lĩnh vực tâm lý học, kinh doanh, khoa học vật lý, y tế, giáo dục
+Câu 363: Nguồn dữ liệu khoa học công nghệ y học, bao gồm thông tin của hơn 3
+Câu 364: 460 tạp chí, hơn 170 tài liệu tham khảo điện tử, 45
+Câu 365: 000 sách điện tử,
+Câu 366: CSDL IEEE Xplore Digital library
+Câu 367: Cung cấp hơn 4,5 triệu tài liệu toàn văn chất lượng nhất thế giới về các lĩnh vực KH CN mũi nhọn như
+Câu 368: CNTT, Điện tử viễn thông, Tự động hóa, Năng lượng
+Câu 369: đã được đăng trên các tạp chí, kỷ yếu hội thảo của
+Câu 370: Được cập nhật hơn 20
+Câu 371: 000 tài liệu mới hàng tháng
+Câu 372: Cung cấp hơn 100 triệu hồ sơ sáng chế trên toàn thế giới thuộc các lĩnh vực như
+Câu 373: công nghệ thông tin, điện điện tử, hóa thực phẩm Và xấp xỉ gần
+Câu 374: 000 tài liệu điện tử trên thư viện số
+Câu 375: Cung cấp hơn 16
+Câu 376: 295 sách điện tử
+Câu 377: 030 bảng số liệu
+Câu 378: 090 bài nghiên cứu
+Câu 379: 44 cơ sở dữ liệu thống kê với khoảng 7 tỉ điểm dữ liệu thuộc các lĩnh vực tài chính, ngân hàng, tài khoản quốc gia, bảo hiểm, thương mại, thuế, khoa học công nghệ
+Câu 380: Tạp chí chuyên ngành KH CN, Nhiệm vụ KH CN đang tiến hành, Ứng dụng kết quả thực hiện nhiệm vụ KH CN, Tiêu chuẩn và quy chuẩn Việt
+Câu 381: do Trung tâm Thông tin và Thông kê KH và CN TP
+Câu 382: CSDL STINET Science Technology Information Network
+Câu 383: Mạng liên kết nguồn lực thông tin khoa học và công nghệ Thành phố Hồ Chí Minh hướng đến mục tiêu phát triển, làm phong phú nguồn lực thông tin KH CN phục vụ hoạt động nghiên cứu phát triển và đổi mới sáng tạo của các nhà khoa học, cán bộ nghiên cứu giảng dạy, sinh viên, học sinh, doanh nghiệp và cộng đồng, Hệ thống hiện có 44 đơn vị thành viên tham gia
+Câu 384: Nguồn tài nguyên giáo dục mở OER phong phú
+Câu 385: Danh sách nguồn sách giáo khoa mở
+Câu 386: InTech Open JSTOR Open Access E books
+Câu 387: La Trobe eBureau Open Book Publishers
+Câu 388: OpenStax Open Textbook Library
+Câu 389: Pressbooks Directory Taylor Francis Online
+Câu 390: RMIT Digital Collections Open Educational Resources
+Câu 391: Saylor Academy open textbooks
+Câu 392: Sydney University Press Open Library
+Câu 393: Nguồn tạp chí có giấy phép mở từ các nhà xuất bản
+Câu 394: JSTOR Open Access Journals Springer Open
+Câu 395: SSRN Taylor Francis Online
+Câu 396: Wiley open access journals
+Câu 397: Nguồn luận văn, luận án truy cập mở
+Câu 398: Open access Theses and Dissertations
+Câu 399: Ở Thư viện trường Đại học Sư phạm Kỹ thuật TP
+Câu 400: HCM, đối tượng bạn đọc chính của thư viện là sinh viên với đa ngành, đa lĩnh vực đào tạo
+Câu 401: Chính vì thế, nhu cầu của người dùng tin cũng đa dạng về các lĩnh vực khác nhau
+Câu 402: Bên cạnh đó, thư viện cũng mở rộng thêm đối tượng phục vụ khác như
+Câu 403: Học viên cao học, Cán bộ viên chức, Giảng viên và cho bạn đọc ngoài trường
+Câu 404: Ngoài ra, với sự đổi mới phương pháp dạy học nên nhu cầu sử dụng của giảng viên và sinh viên ngày một nhiều, dẫn đến số lượng sinh viên của trường cũng sử dụng thư viện tăng cao
+Câu 405: Tính đến ngày 31 12 2023, số lượng bạn đọc của thư viện là hơn 25
+Câu 406: Thực trạng hoạt động marketing của Thư viện Trường Đại học Sư phạm
+Câu 407: Các nhóm dịch vụ của thư viện
+Câu 408: Dịch vụ mượn trả tài liệu
+Câu 409: Dịch vụ cho mượn trả tài liệu cho phép bạn đọc mang tài liệu về nhà sử dụng theo thời hạn nhất định
+Câu 410: Bạn đọc sau khi tra cứu OPAC, có thể
+Câu 411: mượn giáo trình và sách tham khảo tại tại Phòng Mượn Trả
+Câu 412: Đây là một trong những dịch vụ chính của thư viện
+Câu 413: Đối tượng phục vụ chủ yếu của thư viện là cán bộ các phòng ban, giảng viên, học viên, sinh viên nên nhu cầu về sử dụng giáo trình và tài liệu tham khảo rất cao
+Câu 414: Dịch vụ này giúp bạn đọc có nhiều thời gian, điều kiện nghiên cứu tài liệu sâu hơn phục vụ cho nghiên cứu và học tập
+Câu 415: Dịch vụ đọc tại chỗ
+Câu 416: Với hình thức kho mở, bạn đọc được tự do tiếp cận tất cả các nguồn tài liệu đa dạng, phong phú có tại Phòng đọc như
+Câu 417: báo tạp chí, tài liệu tham khảo Việt văn, Ngoại văn, đồ án tốt nghiệp, luận văn thạc sĩ, luận án tiến sĩ, báo cáo,
+Câu 418: Dịch vụ tra cứu tài liệu trực tuyến
+Câu 419: Danh mục tài liệu luôn được cập nhật trên
+Câu 420: web thư viện và dễ dàng tra cứu bằng CSDL trực tuyến OPAC giúp bạn đọc xác định nguồn tài liệu một cách cụ thể, chính xác và nhanh chóng
+Câu 421: Dịch vụ in ấn, sao chụp
+Câu 422: Dịch vụ được phục vụ tại Phòng đọc Beehive, bạn đọc liên hệ cán bộ thư viện để được hướng dẫn
+Câu 423: Dịch vụ cung cấp phòng học nhóm
+Câu 424: Thư viện Trường Đại học Sư phạm kỹ thuật
+Câu 425: HCM cung cấp các phòng học nhóm với không gian riêng tư để đáp ứng nhu cầu học tập, nghiên cứu cho tất cả bạn đọc của thư viện
+Câu 426: Trang thiết bị hỗ trợ bao gồm bàn ghế, bảng viết, truy cập wireless, màn hình tivi, ổ cắm điện và máy lạnh
+Câu 427: Bạn đọc được sử dụng phòng học nhóm miễn phí, không giới hạn thời gian
+Câu 428: Điều kiện để được đặt phòng học nhóm là từ 5 thành viên trở lên
+Câu 429: Dịch vụ cung cấp thông tin theo yêu cầu
+Câu 430: Thư viện Đại học Sư phạm Kỹ thuật
+Câu 431: HCM thực hiện tra cứu thông tin về tài liệu, những thông tin trong khả năng của thư viện, khi người dùng tin chưa có khả năng tra cứu thông tin qua máy tra cứu của thư viện
+Câu 432: Thư viện trao đổi, trợ giúp người dùng tin để chọn được tài liệu chứa thông tin thỏa mãn nhu cầu tin của họ, tìm đến tài liệu cần thiết hoặc giải đáp những thắc mắc của người dùng tin liên quan đến tài liệu, thông tin đại chúng,
+Câu 433: Ngoài ra, thư viện còn hỗ trợ trả lời phỏng vấn các nhóm có nhu cầu khi làm bài tập nhóm
+Câu 434: Một số hình thức marketing số tại Thư viện Trường Đại học Sư phạm
+Câu 435: Tối ưu hóa công cụ tìm kiếm SEO Search Engine Optimization
+Câu 436: Website thư viện là sản phẩm, công cụ dùng để thực hiện marketing số của thư viện
+Câu 437: Hiện tại website chính thức được đưa vào hoạt động của thư viện có địa chỉ web là https
+Câu 438: Ngôn ngữ được sử dụng là tiếng Việt
+Câu 439: Các thông tin hiện có tại giao diện website bao gồm
+Câu 440: Giới thiệu, Tra cứu tài liệu, Thư viện số, Tài nguyên,
+Câu 441: Sản phẩm dịch vụ, Biểu mẫu
+Câu 442: Trong đó có giới thiệu về thư viện, định hướng phát triển, đội ngũ, liên hệ, tài nguyên cơ sở dữ liệu trực tuyến, tạp chí khoa học, giáo dục mở, thư mục chuyên đề, danh sách sách mới, hỗ trợ học tập và nghiên cứu, nội quy và các câu hỏi thường gặp
+Câu 443: Ngoài ra còn có các thông báo mới và tin tức sự kiện
+Câu 444: Lượt truy cập hằng ngày của NDT vào website thư viện bình quân khoảng hơn 300 lượt
+Câu 445: Website Thư viện https
+Câu 446: vn Nguồn Thư viện Trường ĐH Sư phạm Kỹ thuật TP
+Câu 447: Website tương thích tốt với các loại trình duyệt
+Câu 448: Chrome, Internet Explorer, và các thiết bị thông minh khác như
+Câu 449: điện thoại, ipad, khá tiện lợi cho quá trình sử dụng các SP DV Thư viện trực tuyến của NDT
+Câu 450: Đối với các sản phẩm thông tin, Thư viện liên kết sẵn với các CSDL đặt tại menu trang chủ của website, tạo điều kiện cho những NDT có thể thông qua website để truy
+Câu 451: Nhưng hạn chế của thư viện là chưa có các thông tin giới thiệu cũng như thông tin hướng dẫn cụ thể về CSDL nên có thể gây khó khăn cho NDT, nhất là những NDT mới vì họ không hiểu các sản phẩm, cách sử dụng và không hiểu rõ chức năng công dụng của chúng
+Câu 452: Đối với các dịch vụ thông tin, Thư viện liệt kê tên các dịch vụ trên website thư viện ở mục SP DV
+Câu 453: Website có tích hợp tính năng khảo sát Hỗ trợ tìm kiếm tài liệu phục vụ nghiên cứu, đào tạo để giúp NDT có nhu cầu tìm kiếm các tài liệu phục vụ học tập
+Câu 454: Điều này tăng khả năng tương tác cao của NDT với mục này của thư viện, đồng thời tăng thêm tính chuyên nghiệp từ website nói chung và cán bộ thư viện nói riêng
+Câu 455: Tuy nhiên, có vài hạn chế sau đây
+Câu 456: Chưa có hướng dẫn cụ thể về các dịch vụ thông tin được phục vụ trực tuyến, điều này gây khó khăn cho NDT khi muốn tìm hiểu và sử dụng dịch vụ thư viện
+Câu 457: Thông tin giới thiệu, mục đích, cách thức triển khai và hoạt động của các dịch vụ như thế nào, điều này làm cho NDT không nắm được thông tin một cách đầy đủ và chính xác về các dịch vụ mà thư viện cung cấp
+Câu 458: Website thư viện thiếu tính năng hỗ trợ NDT trực tuyến
+Câu 459: Thư điện tử Emai
+Câu 460: Email là hình thức gửi email thông tin liên quan tới người nhận
+Câu 461: Thư viện sử dụng email để gửi thông tin trực tiếp đến bạn đọc
+Câu 462: Được tích hợp với phần mềm quản trị thư viện, email thông báo được gửi tự động đến các nhóm người dùng điều này giúp người cán bộ thư viện tiết kiệm thời gian và công sức
+Câu 463: Thư viện trường sử dụng email thông báo tài liệu mới, thông báo các sự kiện, hoạt động, gia hạn mượn trả sách
+Câu 464: Marketing truyền thông xã hội
+Câu 465: Giới thiệu hoạt động, sản phẩm, dịch vụ thư viện
+Câu 466: Đồng thời, đây là kênh tương tác và là nơi truyền tải nhanh nhất cách thông báo của thư viện đến độc giả
+Câu 467: Facebook Thư viện Nguồn Thư viện Trường ĐH Sư phạm Kỹ thuật TP
+Câu 468: Zalo Official Account OA https
+Câu 469: Zalo OA là tài khản chính thức của thư viện Trường Đại học Sư phạm Kỹ thuật TP
+Câu 470: HCM, giúp thư viện và người sử dụng có thể dễ dàng thông qua các tính năng như
+Câu 471: chat, chatbot, nội dung, thống kê, quản lý
+Câu 472: Zalo OA có chức năng chat với người liên hệ thông qua Zalo và đăng bài, đăng tin lên trang này
+Câu 473: Bên cạnh đó, từng thành viên có thể tham gia trả lời câu hỏi những người tham gia các hoạt động thư viện
+Câu 474: Ngoài ra, chatbot còn xây dựng kịch bản cho người dùng khi học đặt câu hỏi, ví dụ như bạn muốn tìm thông tin gì
+Câu 475: Broadcast còn có chức năng chủ động gửi thông tin về điện thoại người dùng một cách đầy đủ nhất
+Câu 476: Có quản lý thống kê tần suất sử dụng và tương tác với một số cá nhân trên Zalo và có thể xem tất cả các bài viết đã được tạo thông qua mục quản lý thống kê này
+Câu 477: Zalo Thư viện Nguồn Thư viện Trường ĐH Sư phạm Kỹ thuật TP
+Câu 478: Kênh Youtube của thư viện hiện tại có hơn 400 người đăng ký và 116 video, nội dung được đăng tải bao gồm
+Câu 479: giáo trình tinh gọn, các bài thi giới thiệu sách của các bạn sinh viên, hướng dẫn và sử dụng thư viện, các video kỷ niệm 60 năm thành lập
+Câu 480: Trường Đại học Sư phạm Kỹ thuật TP
+Câu 481: HCM và các video giới thiệu về nhà trường
+Câu 482: Youtube Thư viện Nguồn Thư viện Trường ĐH Sư phạm Kỹ thuật TP
+Câu 483: Vào tháng 10, thư viện Trường Đại học Sư phạm Kỹ thuật TP
+Câu 484: HCM đã tạo lập một kênh Tiktok với nội dung đăng tải là các video giới thiệu sách do các bạn sinh viên thực hiện
+Câu 485: Kênh hiện tại chỉ có 3 người theo dõi và 81 lượt thích
+Câu 486: Tiktok Thư viện Nguồn Thư viện Trường ĐH Sư phạm Kỹ thuật TP
+Câu 487: Các hình thức marketing áp dụng cho sản phẩm, dịch vụ thư viện
+Câu 488: Dịch vụ thư viện
+Câu 489: Hình thức marketing đang áp dụng
+Câu 490: 1 Dịch vụ đọc tại chỗ
+Câu 491: Poster, bài viết trên websites
+Câu 492: 2 Dịch vụ tra cứu OPAC
+Câu 493: Poster, bài viết trên websites
+Câu 494: 3 Dịch vụ in ấn, sao chụp
+Câu 495: 4 Dịch vụ cung cấp phòng học nhóm
+Câu 496: 5 Dịch vụ cung cấp thông tin theo yêu cầu
+Câu 497: Poster, bài viết trên websites
+Câu 498: 6 Dịch vụ hỗ trợ tìm kiếm ấn phẩm nghiên cứu
+Câu 499: Websites, Zalo OA kịch bản
+Câu 500: 7 Giới thiệu Sách Tài liệu mới
+Câu 501: Facebook, Zalo OA, Youtube
+Câu 502: Chuyên mục Giáo trình tinh gọn
+Câu 503: 8 Thư mục sách mới
+Câu 504: Bài viết trên website
+Câu 505: 9 Tra cứu CSDL
+Câu 506: 10 Kỹ năng thông tin
+Câu 507: Bài viết trên website
+Câu 508: 11 Thông báo, thông tin hoạt động thư viện
+Câu 509: GIẢI PHÁP NÂNG CAO CHẤT LƯỢNG
+Câu 510: VỀ HOẠT ĐỘNG MARKETING SỐ TẠI THƯ VIỆN
+Câu 511: TRƯỜNG ĐẠI HỌC SƯ PHẠM KỸ THUẬT TP
+Câu 512: Đánh giá về hoạt động marketing số tại Thư viện Trường Đại học Sư phạm Kỹ thuật TP
+Câu 513: Ưu điểm của hoạt động marketing số hiện tại ở thư viện chính là khả năng tiếp cận và lan tỏa đến sinh viên cao bởi vì 3 nền tảng chia sẻ đã đề cập Facebook, Youtube,
+Câu 514: Tiktok có lượng người dùng trẻ rất đông đảo
+Câu 515: Sản phẩm thư viện thực hiện chủ yếu là video nên phương án chọn này hoàn toàn phù hợp với thị hiếu, hiệu quả và dễ tiếp cận đối tượng sinh viên Trường Đại học Sư phạm Kỹ thuật TP
+Câu 516: HCM với thuật toán là các từ khóa liên quan
+Câu 517: Bên cạnh đó, hoạt động marketing số hiện tại có chi phí đầu tư thấp hơn so với marketing truyền thống in poster, băng rôn hay thuê người thông báo tuyên truyền bằng miệng và thư viện cũng dễ dàng đo lường được kết quả dựa trên lượng tương tác cảm xúc, bình luận và xem
+Câu 518: Về thư điện tử, việc gửi thông tin liên quan đến hòm thư từng sinh viên có tác dụng xây dựng được mối liên hệ giữa thư viện và sinh viên, kịp thời thông báo những thông tin quan trọng cần chú trọng để sinh viên nắm bắt và trách trường hợp tiếp nhận thông tin trễ hay không chính xác gây ảnh hưởng đến bản thân họ như trả sách trễ hạn,
+Câu 519: Ngoài ra, lãnh đạo thư viện rất quan tâm đến công tác marketing
+Câu 520: Về sản phẩm dịch vụ
+Câu 521: Nội dung về thư viện số vẫn chưa được phổ biến rộng rãi đến NDT, để NDT tận dụng được hết nguồn tài nguyên thông tin mà thư viện đang có
+Câu 522: Một số dịch vụ thư viện cũng không có nhiều người sử dụng đến hoặc không biết đến
+Câu 523: Ví dụ như dịch vụ cung cấp các sản phẩm thư mục
+Câu 524: Cho thấy việc marketing SP DV của thư viện còn khá hạn chế đến NDT gây cản trở cho việc tăng phục vụ đa dạng bạn đọc với các loại hình dịch vụ khác nhau
+Câu 525: Những hình thức này vẫn chưa được quan tâm từ phía NDT
+Câu 526: Điều này gây loãng phí tài nguyên thông tin, dịch vụ của thư viện
+Câu 527: Thư viện có khá nhiều kênh Facebook khiến bạn đọc bị nhiễu thông tin
+Câu 528: Bên cạnh đó, thư viện chưa có chiến lược maketing số cụ thể và chưa sử dụng hệ thống CMS tích hợp công cụ SEO để tăng lượng khách hàng tiềm năng, chưa đánh giá được hiệu quả công tác marketing mang lại
+Câu 529: Việc duy trì marketing cũng như sáng tạo hơn trên nền tảng mạng xã hội vẫn còn hạn chế
+Câu 530: Thư viện không thu bất kỳ các khoản phí nào đối với các sản phẩm dịch vụ đang hiện hành
+Câu 531: Kinh phí chỉ được nhà trường phân bố về thư viện, đặc biệt là về việc bổ sung tài nguyên thông tin
+Câu 532: Nên kinh phí dành cho hoạt động marketing số thì chưa có nhiều
+Câu 533: Ảnh hưởng rất lớn đến hoạt động marketing số cho thư viện
+Câu 534: Thư viện đã có rất nhiều kênh khác nhau dành cho việc phục vụ các hoạt động marketing của mình nhưng hiệu quả đem lại chưa cao
+Câu 535: Lượt xem và tương tác rất ít, các hoạt động nội dung trên các kênh phân phối hầu như không hề thu hút được NDT
+Câu 536: Giao diện các kênh còn khá cũ kĩ không mang tính sáng tạo cao, khiến cho việc thu hút bị tụt xuống
+Câu 537: Thư viện cũng chưa khai thác hết tất cả tính năng của các kênh mang lại
+Câu 538: tính năng tự trả lời bình luận, tính năng trả lời tin nhắn tự động trên
+Câu 539: website chưa có, trên Facebook vẫn còn hạn chế
+Câu 540: Thông tin tìm kiếm liên quan đến thư viện chưa được đầu tư trên các công cụ tìm kiếm cũng như quảng cáo trên các hình thức marketing số
+Câu 541: Một số giải pháp thúc đẩy hoạt động marketing số trong hoạt động Thông tin Thư viện Trường Đại học Sư phạm Kỹ thuật TP
+Câu 542: Marketing số đóng một vai trò quan trọng trong hoạt động của các cơ quan Thông tin Thư viện trong việc nâng cao hiệu quả hoạt động của mình
+Câu 543: Nhận thức được điều này, thư viện Trường Đại học Sư phạm Kỹ thuật TP
+Câu 544: HCM đang sử dụng nhiều phương tiện khác nhau để truyền thông marketing
+Câu 545: tổ chức các lớp học hướng dẫn tìm tin và sử dụng các dịch vụ, in và phát các tờ rơi, treo các màn hình điện tử và truyền thông marketing qua internet
+Câu 546: Bên cạnh những ưu điểm, hoạt động này vẫn còn những hạn chế nhất định
+Câu 547: Để nâng cao hiệu quả hoạt động truyền thông marketing của thư viện
+Câu 548: lập kế hoạch truyền thông marketing cho các sản phẩm và dịch vụ của thư viện
+Câu 549: thiết lập chính sách cụ thể để thu hút người dùng tin
+Câu 550: nâng cao hiệu quả các kênh thông tin phản hồi
+Câu 551: đa dạng hoá các kênh truyền thông marketing hoạt động, dịch vụ và sản phẩm TT TV
+Câu 552: đào tạo cán bộ thư viện
+Câu 553: tạo môi trường làm việc chuyên nghiệp
+Câu 554: tăng cường đầu tư cơ sở vật chất kỹ thuật cho thư viện và ngân sách cho hoạt động truyền thông marketing
+Câu 555: Xây dựng chiến lược Marketing cho hoạt động Thông tin Thư viện
+Câu 556: Lập kế hoạch truyền thông marketing cho các sản phẩm, dịch vụ tại thư viện
+Câu 557: Thư viện cần nhận biết rõ mình cần truyền thông marketing cái gì và bằng cách nào
+Câu 558: Việc này giúp cho người dùng tin nhận thức về các sản phẩm và dịch vụ thư viện đang tồn tại và cũng như khả năng đáp ứng các nhu cầu của họ
+Câu 559: Để nâng cao hiệu quả của các sản phẩm và dịch vụ, thư viện cần lập và thực hiện một kế hoạch truyền thông marketing riêng cho mỗi loại hình sản phẩm
+Câu 560: Đối với các sản phẩm hoặc dịch vụ mới, phần lập kế hoạch truyền thông marketing phải nằm trong kế hoạch marketing chung và có sự phân công trách nhiệm cho từng cán bộ thư viện để đảm bảo rằng kế hoạch được hoàn thành một cách tốt nhất
+Câu 561: Hơn hết, cần phải theo dõi và đánh giá KPI của chiến dịch marketing số thư viện để hiểu rõ về hiệu quả và điều chỉnh các hoạt động nếu cần thiết
+Câu 562: Thiết lập cơ chế cụ thể để thu hút người dùng tin
+Câu 563: Thư viện cần có những cơ chế cụ thể để thu hút người dùng tin hơn nữa, đặc biệt là đối tượng người dùng tin là cán bộ giảng dạy, cán bộ nghiên cứu, cán bộ quản lý và sinh viên của trường
+Câu 564: Tuy nhiên, vẫn còn bộ phận sinh viên chưa tiếp cận và trải nghiệm các sản phẩm, dịch vụ thư viện
+Câu 565: Để giải quyết vấn đề này, thư viện có thể kết hợp với nhà trường để tổ chức thường xuyên các buổi giới thiệu cũng như hướng dẫn sử dụng các sản phẩm và dịch vụ thư viện
+Câu 566: Tăng cường hiệu quả các kênh thông tin phản hồi
+Câu 567: Tất cả các dịch vụ và sản phẩm cung cấp cho người dùng tin cần thường xuyên được đánh giá
+Câu 568: Sau khi thực hiện phân phối dịch vụ, thư viện cần có bộ phận tìm kiếm
+Câu 569: các thông tin phản hồi ngay
+Câu 570: Nếu không nhận được sự đánh giá nào từ phía người dùng tin, các cán bộ thư viện và các nhà quản lý thư viện sẽ không hiểu rõ người dùng tin của họ muốn gì
+Câu 571: Mặc dù các kênh thông tin phản hồi đã được thư viện thiết lập, tuy nhiên hiệu quả của công tác này chưa cao
+Câu 572: Một trong những biện pháp để kích thích người dùng tin cung cấp thông tin phản hồi là sự tôn trọng với các ý kiến của họ
+Câu 573: Thư viện cần phải thể hiện cho người dùng biết những kiến nghị của người dùng tin đã được thư viện ghi nhận và sẽ giải quyết đến đâu, như thế nào và vì sao
+Câu 574: Hiện tại, thư viện đã mở diễn đàn trao đổi trên website với mục đích trao đổi nghiệp vụ và tiếp nhận các ý kiến đóng góp của người dùng tin
+Câu 575: Tuy nhiên, thư viện cần quan tâm hơn tới hiệu quả của diễn đàn, có những biện pháp phù hợp để thúc đẩy diễn đàn đi vào hoạt động
+Câu 576: Phát triển đa dạng hóa các loại hình marking cho các sản phẩm và dịch vụ thư viện nguồn lực thông tin, đa dạng hóa các sản phẩm và dịch vụ
+Câu 577: Một website tốt chính là một công cụ marketing hiệu quả
+Câu 578: Việc xúc tiến cách dịch vụ và các nguồn thông tin ở những chỗ đáng chú ý trên website là rất quan trọng nhưng nó thường không hiệu quả như là các thư viện mong muốn
+Câu 579: Nhiều người dùng tin thích đánh dấu các trang đặc biệt trên website hơn là việc tìm kiếm nó thông qua các trang chủ
+Câu 580: Nguyên nhân này làm cho các dịch vụ mới rất khó được khách hàng khám phá một cách thường xuyên
+Câu 581: Điều này không phải cho rằng việc kết nối trực tuyến là lãng phí thời gian
+Câu 582: Do việc sử dụng internet và các nguồn điện tử trở nên phổ biến, website trở thành phương tiện cần thiết cho việc marketing và xúc tiến các dịch vụ và các nguồn tin
+Câu 583: Các phương tiện giữa cá nhân với nhau sẽ vẫn là các phương tiện kết nối quan trọng
+Câu 584: Để kết nối tới tất cả người dùng cần thực hiện nhiều phương thức marketing
+Câu 585: Bên cạnh những phương thức truyền thông marketing đang sử dụng, thư viện cần thực hiện một số biện pháp truyền thông marketing sau
+Câu 586: Sử dụng Email marketing cho các sản phẩm, dịch vụ thư viện
+Câu 587: Thư viện dựa theo từng ngành học để gửi thông báo nguồn tin mới, sách mới theo chuyên ngành mà người dùng tin mong muốn và giới thiệu các dịch vụ mới của thư viện thông qua đó
+Câu 588: Đối với giảng viên, cán bộ nghiên cứu, chuyên viên, cán bộ quản lý cũng nên áp dụng hình thức này trong trường hợp họ đồng ý
+Câu 589: Hình thức này giúp người dùng sẽ biết được nhiều hơn về Thư viện cũng như những lợi ích mà thư viện có thể mang lại cho họ
+Câu 590: Từ đây, sẽ khuyến khích họ sử dụng các sản phẩm và dịch vụ của thư viện
+Câu 591: Cần tạo hệ thống lưu hồ sơ bạn đọc
+Câu 592: Tức là việc lưu lại các câu hỏi và câu trả lời của người dùng tin để họ có thể tìm lại khi cần
+Câu 593: Hoặc khi có người dùng tin khác truy cập vào đó, có câu hỏi tương tự, họ cũng có thể tra cứu và tìm thấy câu trả lời ngay mà không cần đợi cán bộ thư viện nhận thư thắc mắc rồi trả lời cho họ
+Câu 594: Nếu phát triển theo hướng đó, hoạt động thư viện sẽ có tính hệ thống hơn và việc liên hệ hai chiều này cũng là một hình thức truyền thông marketing mang lại hiệu quả tốt cho thư viện
+Câu 595: Khai thác hồ sơ bạn đọc để cá nhân hóa hoạt động marketing
+Câu 596: Tức là việc lưu lại các câu hỏi và câu trả lời của người dùng tin để họ có thể tìm lại khi cần
+Câu 597: Hoặc khi có người dùng tin khác truy cập vào đó, có câu hỏi tương tự, họ cũng có thể tra cứu và tìm thấy câu trả lời ngay mà không cần đợi cán bộ thư viện nhận thư thắc mắc rồi trả lời cho họ
+Câu 598: Nếu phát triển theo hướng đó, hoạt động thư viện sẽ có tính hệ thống hơn và việc liên hệ hai chiều này cũng là một hình thức truyền thông marketing mang lại hiệu quả tốt cho thư viện
+Câu 599: Mở dịch vụ chat online trên trang webite
+Câu 600: Mở dịch vụ chat online thực sự rất hữu ích đối với người dùng tin
+Câu 601: Dịch vụ này có chức năng tương tự như Bàn thông tin , chỉ khác là nó hoạt động trên môi trường mạng
+Câu 602: Chính vì vậy, để dịch vụ này hoạt động thực sự hiệu quả thư viện nên
+Câu 603: đặt tiểu mục chat online ngay trên trang chủ của thư viện vì đặt tại đây lượng người dùng truy cập lớn, sẽ giúp họ dễ dàng biết đến
+Câu 604: Hơn nữa việc chat online cũng trở nên đơn giản, chỉ với một cái nhấp chuột là họ có thể kết nối với cán bộ thư viện
+Câu 605: Cần thông báo thời gian mà cán bộ thư viện có thể trả lời trực tiếp
+Câu 606: Thư viện cũng cần đặt chế độ thư trả lời tự động cho người dùng khi nhận được ý kiến của họ trong trường hợp không trong thời gian tư vấn trực tiếp
+Câu 607: Cần triển khai việc đặt logo tại nhiều website
+Câu 608: Việc đặt logo tại nhiều website nhằm thu hút được nhiều người truy cập vào
+Câu 609: website của thư viện và sử dụng các nguồn lực, dịch vụ của thư viện hơn
+Câu 610: Sử dụng blog để phát triển truyền thông marketing
+Câu 611: Phát triển hình thức truyền thông marketing bằng việc sử dụng blog vì hiện nay, dịch vụ blog đã trở nên rất thân quen với mọi người, đặc biết là các đối tượng là sinh viên
+Câu 612: Nếu như các thư viện đại học cũng có blog tham gia vào cộng đồng blog như những trang cá nhân để giới thiệu về chính mình thì sẽ càng trở nên thân thiện với người dùng tin hơn
+Câu 613: Tham gia các trang mạng xã hội phổ biến
+Câu 614: Tham gia mạng xã hội Social Network là một giải pháp mang tính khả thi nên được chú trọng nhiều hơn
+Câu 615: Chỉ cần một vài bước đơn giản, chúng ta có thể trở thành thành viên của Facebook hay bất kỳ một mạng xã hội nào khác như Zalo,
+Câu 616: và thông tin về thư viện sẽ được đông đảo người dùng tin biết đến
+Câu 617: Đặc biệt, hiện nay, khi phần lớn mọi người đều có những trang cá nhân khi tham gia mạng xã hội, nếu trong danh sách bạn bè của họ friendlist tại các trang này có trang của thư viện thì những tin mới nhất được cập nhật sẽ tới với họ nhanh nhất
+Câu 618: Ngoài ra, thư viện cần chú trọng hơn về mặt hình ảnh và nội dung marketing cho thư viện để mang lại hiệu quả tốt nhất trong công tác marketing của thư viện
+Câu 619: Không ngừng quảng bá các dịch vụ của thư viện lên trang web và các kênh truyền thông xã hội nhằm mở rộng mạng lưới sử dụng thư viện cho sinh viên cả trong và ngoài trường
+Câu 620: Ngoài ra, còn cần tạo thêm nhiều nội dung hấp dẫn và giá trị cho trang web và các kênh truyền thông xã hội của thư viện, luôn cập nhật liên tục các bài blog, bài viết, video hướng dẫn, tin tức về tài liệu mới và sự kiện thư viện
+Câu 621: Nội dung hữu ích và chất lượng sẽ thu hút sự quan tâm của sinh viên và giúp thư viện xây dựng danh tiếng
+Câu 622: Đào tạo và bồi dưỡng kiến thức về marketing số cho cán bộ thư viện
+Câu 623: Cán bộ thư viện cần xác định được rõ tầm quan trọng của marketing nói chung và hoạt động truyền thông marketing số nói riêng đối với kết quả hoạt động của thư viện cũng như vai trò, nhiệm vụ của bản thân trong chuỗi các hoạt động này
+Câu 624: Từ đó, có những đề xuất, định hướng phát triển, xây dựng chiến lược cụ thể, đề xuất với ban lãnh đạo trong việc đầu tư cho hoạt động này một cách hợp lý để nó có thể mang lại hiệu quả cao nhất đối với hoạt động của thư viện
+Câu 625: Thái độ ứng xử đối với người dùng tin của cán bộ thư viện cần được quan tâm
+Câu 626: Thư viện nên mở những buổi học giúp cán bộ thư viện, đặc biệt là những cán bộ tiếp xúc trực tiếp với người dùng tin về kỹ năng giao tiếp
+Câu 627: Sự nhiệt tình, chuyên nghiệp từ phía cán bộ thư viện góp phần không nhỏ làm tăng lượng người dùng tin đến với thư viện
+Câu 628: Do Trường Đại học Sư phạm Kỹ thuật TP
+Câu 629: HCM là môi trường đào tạo thiên về công nghệ kỹ thuật, chính vì vậy tại thư viện cần phân bổ cán bộ có trình độ phù hợp về trình độ chuyên môn thư viện cũng như chuyên ngành đào tạo chính của trường đảm nhiệm để có tư vấn và trả lời thắc mắc của người dùng tin kịp thời, hiệu quả
+Câu 630: Trong trường hợp người dùng tin có những thắc mắc về tài liệu mang tính chuyên ngành hẹp thì cán bộ hư viện có thể giải đáp được
+Câu 631: Có như vậy, cán bộ thư viện mới thực sự trở thành người dẫn đường tin cậy đối với bạn đọc
+Câu 632: Thư viện cần có riêng bộ phận chuyên trách về hoạt động marketing
+Câu 633: Thư viện phụ trách công tác này cần được tham gia các học các khóa đào tạo ngắn hạn và dài hạn về marketing, PR, quản trị mạng,
+Câu 634: Đầu tư kinh phí cho hoạt động marketing số
+Câu 635: Để các kiến nghị đã đề xuất ở trên có thể thực hiện được thì ngoài việc phải có sự nỗ lực từ bản thân mỗi cán bộ thì thư viện cũng phải có nguồn kinh phí cho các hoạt động này
+Câu 636: Thư viện cần huy động các nguồn ngân sách từ lãnh đạo nhà trường để đầu tư trang thiết bị
+Câu 637: Cần có những khuyến nghị từ phía nhà trường để được đầu tư ngân sách phát triển hoạt động nói chung, hoạt động marketing nói riêng
+Câu 638: Phải có những kế hoạch cụ thể mang tính thuyết phục về hiệu quả hoạt động thì mới có thể thu hút được đầu tư về cơ sở vật chất
+Câu 639: Một số giải pháp khác
+Câu 640: Xây dựng thời gian cập nhật thường xuyên tài liệu mới lên thư viện số
+Câu 641: Tăng cường hiệu suất cho hệ thống trang web đảm bảo tính năng chạy mượt mà
+Câu 642: Tổ chức các sự kiện, buổi thảo luận trực tuyến hoặc hội thảo trực tuyến để thu hút sự tham gia của sinh viên
+Câu 643: Xây dựng và duy trì một cộng đồng trực tuyến cho sinh viên và người dùng khác của thư viện
+Câu 644: Cung cấp diễn đàn hoặc các kênh trò chuyện trực tuyến để người dùng có thể giao tiếp, chia sẻ thông tin và giúp đỡ nhau
+Câu 645: Điều này tạo ra một môi trường học tập và trao đổi thông tin năng động
+Câu 646: Sử dụng hashtag để làm cho mọi người biết đến những sự kiện của thư viện trên
+Câu 647: Nên liên kết các kênh truyền thông xã hội mà thư viện đang sở hữu đến website
+Câu 648: Nên có quy định cụ thể về nội dung, hình thức thể hiện thông tin sẽ đăng tải trên
+Câu 649: website, các trang mạng xã hội
+Câu 650: Thư viện cần có chiến lược marketing số cụ thể và sử dụng hệ thống CMS tích hợp công cụ SEO để tăng lượng khách hàng tiềm năng
+Câu 651: Cần phải đánh giá được hiệu quả công tác marketing mang lại
+Câu 652: đánh giá thông qua lượt tương tác mạng xã hội, truy cập Website
+Câu 653: thu thập các đánh giá, nhận xét, ý kiến, mức độ hài lòng của bạn đọc về hoạt động marketing số của thư viện
+Câu 654: Thư viện cần tăng cường hoạt động giáo dục và truyền thông để tăng cường nhận thức và hiểu biết của người dùng về thư viện số
+Câu 655: Thư viện cần duy trì và cải thiện chất lượng dịch vụ thư viện số để tạo niềm tin và sự hài lòng từ phía người dùng
+Câu 656: Đề tài Thực trạng hoạt động marketing số tại Thư viện trường Đại học Sư phạm
+Câu 657: HCM được thực hiện nhằm tìm hiểu về thực trạng hoạt động marketing số của thư viện và đưa ra một số nhận định quan trọng
+Câu 658: Qua đó, tìm hiểu cơ bản của khoa học marketing số, khả năng ứng dụng tư tưởng marketing số vào ngành Thông tin Thư viện, cách thức vận dụng cụ thể marketing số vào hoạt động Thông tin Thư viện góp phần vào sự phát triển bền vững cho thị trường Thư viện Thông tin
+Câu 659: Về cơ bản, tiểu luận tập trung trình bày những nội dung xoay quanh các vấn đề của marketing số
+Câu 660: Bài tiểu luận này đã xác định rằng marketing số trong hoạt động
+Câu 661: Thông tin Thư viện đóng vai trò và ý nghĩa quan trọng trong việc cung cấp thông tin và kiến thức cho người dùng tin
+Câu 662: Marketing số cho thư viện là một phương pháp quan trọng để thúc đẩy sự nhận thức và sử dụng của công chúng về các dịch vụ và tài liệu điện tử mà thư viện đang cung cấp
+Câu 663: Marketing số cho cơ quan Thông tin Thư viện còn là vấn đề khá mới mẻ, việc khai thác ứng dụng vẫn còn gặp nhiều bất cập và khó khăn
+Câu 664: Thông qua những quan sát và thực tiễn hiện tại trong quá trình thực tập tại Thư viện trường Đại học Sư phạm Kỹ thuật TP
+Câu 665: HCM, em nhận thấy rằng marketing số tại thư viện vẫn đang đối mặt với một số thách thức
+Câu 666: Một trong những thách thức chính là thiếu nhận thức và hiểu biết của người dùng tin về sự tồn tại và giá trị của thư viện số
+Câu 667: Ngoài ra, cạnh tranh từ các nguồn thông tin trực tuyến khác cũng là một thách thức lớn
+Câu 668: Thư viện cần nỗ lực để nâng cao nhận thức của bạn đọc và tạo ra những chiến lược marketing số sáng tạo để thu hút và giữ chân người dùng tin
+Câu 669: Trong bài tiểu luận đưa ra những kiến nghị nhằm nâng cao chất lượng hoạt động tại Thư viện trường Đại học Sư phạm Kỹ thuật TP
+Câu 670: Từ những kết quả của bài tiểu luận, em rút ra kết luận về sự cần thiết của việc vận dụng marketing số vào hoạt động trong cơ quan thư viện nhằm nâng cao hiệu quả của các hoạt động tại thư viện
+Câu 671: Marketing số giúp cho các nhà quản lý thư viện thiết lập và thực hiện hiệu quả quy trình quản lý và hoạt động của thư viện
+Câu 672: Marketing số giúp cho các nhà quản lý thư
+Câu 673: viện thiết lập và thực hiện hiệu quả quy trình quản lý và hoạt động của thư viện
+Câu 674: Định hướng lâu dài và vạch ra kế hoạch chi tiết cho những hoạt động tác nghiệp của đơn vị
+Câu 675: Cuối cùng, bài tiểu luận này đã nhấn mạnh tầm quan trọng của marketing số trong hoạt động Thông tin Thư viện để đảm bảo sự phát triển và thành công của cơ quan
+Câu 676: Việc áp dụng các biện pháp marketing số hiệu quả sẽ giúp cho thư viện đạt được mục tiêu của mình, thu hút người dùng tin và tạo ra một cộng đồng sử dụng thư viện đầy đủ và đa dạng
+Câu 677: Với cơ sở hạ tầng tốt, trang thiết bị đầy đủ, đội ngũ cán bộ trẻ có chuyên môn cao, dịch vụ thư viện đa dạng, thư viện có những chiến lược phát triển sáng tạo, mới mẻ, cùng với lượng sách khổng lồ tại thư viện là những điều kiện tiên quyết giúp thư viện ngày càng phát triển trong tương lai
+Câu 678: DANH MỤC TÀI LIỆU THAM KHẢO
+Câu 679: TÀI LIỆU TIẾNG VIỆT
+Câu 680: Marketing trực tuyến và ứng dụng của Marketing trực tuyến trong hoạt động Thư viện Thông tin
+Câu 681: Tạp chí Thư viện Việt Nam, 3 ,
+Câu 682: Các dịch vụ được triển khai tại Thư viện
+Câu 683: Truy cập 20 5 2024, từ
+Câu 684: Dương Thị Vân chủ biên , Âu Thị Cẩm Linh, Hoàng Thị Thục
+Câu 685: Giáo trình Marketing Thông tin Thư viện
+Câu 686: Đại học Quốc gia TP
+Câu 687: Fanpage Thư viện Trường Đại học Sư phạm Kỹ thuật TP
+Câu 688: Hoạt động Marketing trong thư viện công cộng Việt Nam
+Câu 689: Luận án tiến sĩ
+Câu 690: Trường Đại học Văn hóa Hà Nội
+Câu 691: Nghiên cứu thực trạng hoạt động Marketing số tại Thư viện Trường Đại học Mở TP
+Câu 692: Luận văn Thạc sĩ
+Câu 693: Trường Đại học Khoa học Xã hội và Nhân văn Đại học Quốc gia TP
+Câu 694: Tiếp thị số trong Thư viện thông minh 4
+Câu 695: Thông tin tư liệu, 2, 22 29
+Câu 696: Ngô Thị Minh Cách
+Câu 697: Giáo trình Marketing căn bản, Hà Nội
+Câu 698: TÀI LIỆU NGOẠI VĂN
+Câu 699: American Marketing Association 1985
+Câu 700: The Definitions of Marketing
+Câu 701: Truy cập ngày 10 6 2024, từ
+Câu 702: org the definition of marketing what is marketing
+Câu 703: Association s New Definition of Marketing
+Câu 704: Perspective and Commentary on
+Câu 705: Journal of Public Policy Marketing, 28 2 , 259 264
+Câu 706: Truy cập ngày 20 6 2024, từ
+Câu 707: Elieen Eliott De Sasez
+Câu 708: Marketing concepts for libraries and information services, second edition, Facet Publishing, London
