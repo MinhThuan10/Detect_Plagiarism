@@ -114,7 +114,10 @@ def index(file_id):
                     'best_match': best_matches_data['highlighted_best_match'],
                     'sentence': best_matches_data['highlighted_sentence'],
                     'word_count_sml': best_matches_data['word_count_sml'],
+                    'sentence_index': sentence_id
+
                 })
+                schools_detail[best_matches_data['school_id']]['sentences'].sort(key=lambda x: x['sentence_index'])
 
                 plagiarism_detail = [[best_matches_data['highlighted_sentence'], best_matches_data['word_count_sml'], best_matches_data['school_id'], sentence_id]]
 
@@ -134,9 +137,10 @@ def index(file_id):
                         'best_match': data['highlighted_best_match'],
                         'sentence': data['highlighted_sentence'],
                         'word_count_sml': data['word_count_sml'],
+                        'sentence_index': sentence_id
                     })
-                    
                     plagiarism.append([data['highlighted_sentence'], data['word_count_sml'], school_id, sentence_id])
+                    schools[school_id]['sentences'].sort(key=lambda x: x['sentence_index'])
             
             plagiarism_details.append(plagiarism_detail)
 

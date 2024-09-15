@@ -96,7 +96,7 @@ CX4 = '01d819c8b90df4a04'
 # Khởi tạo API Key hiện tại
 # Biến toàn cục
 current_api_key_index = 0
-current_list = 1  # 1 là API_KEYS, 2 là API_KEYS2
+current_list = 1  
 
 def get_current_api_key():
     """Trả về API Key hiện tại."""
@@ -248,7 +248,7 @@ def compare_sentences(sentence, all_snippets):
     similarity_scores = calculate_similarity(embeddings[0:1], embeddings[1:]) 
     # Sắp xếp điểm số tương đồng và chỉ số của các snippet
     sorted_indices = similarity_scores[0].argsort()[::-1]
-    top_indices = sorted_indices[:3]
+    top_indices = sorted_indices[:10]
     top_scores = similarity_scores[0][top_indices]
     # Trả về ba điểm số độ tương đồng cao nhất và các chỉ số tương ứng
     top_similarities = [(top_scores[i], top_indices[i]) for i in range(len(top_indices))]
@@ -371,46 +371,8 @@ def search_sentence_elastic(sentence):
         sentence_results.append(result_info)
     return processed_sentence, sentence_results
 
-def search_sentence_elastic_embedding(sentence): 
-    processed_sentence, _ = preprocess_text_vietnamese(sentence)
-    sentence_results = []  # Mảng lưu trữ kết quả từng câu
 
-    res = es.search(index="plagiarism_embedding", body={"query": {"match": {"sentence": processed_sentence}}})
-    for hit in res['hits']['hits']:
-        log_entry = hit['_source']['log_entry']
-        log_entry = log_entry.replace("=>", ":").replace("BSON::ObjectId(", "").replace(")", "").replace("'", '"')
-        # Phân tích chuỗi JSON
-        data = json.loads(log_entry)
-        # Truy cập các giá trị
-        sentence = data.get("sentence")
-        sentence_index = data.get("sentence_index")
-        page_number = data.get("page_number")
-        embedding = data.get("Embedding")
-        result_info = {
-            'page_number': page_number,
-            'sentence_index': sentence_index,
-            'sentence_content': sentence,
-            'embedding': embedding
-        }
-        sentence_results.append(result_info)  
-    # Ghi kết quả vào file
-    with open(output_file, 'w', encoding='utf-8') as file:
-        embeddings = [] 
-        sentence_contents = [] 
-        for result in sentence_results:
-            page_number = result['page_number']
-            sentence_index = result['sentence_index']
-            sentence_content = result['sentence_content']
-            embedding = result['embedding']
-            file.write(f"sentence: {sentence}, Elasticsearch result: Trang: {page_number}; Số câu: {sentence_index}; Nội dung: {sentence_content}\n")
-            embeddings.append(embedding)              
-            sentence_contents.append(sentence_content)
-        file.write("\n")
-
-    return processed_sentence, sentence_contents, embeddings
-
-
-def calculate_dynamic_threshold(length, max_threshold=0.9, min_threshold=0.7):
+def calculate_dynamic_threshold(length, max_threshold=0.8, min_threshold=0.5):
     if length < 10:
         return max_threshold
     elif length > 40:
@@ -428,8 +390,14 @@ def read_pdf_binary(file_path):
         return file.read()
     
 def common_ordered_words_difflib(best_match, sentence):
-    words_best_match = best_match.lower().split()
-    words_sentence = sentence.lower().split()
+    # Loại bỏ ký tự đặc biệt, chỉ giữ lại chữ cái và chữ số
+    def clean_text(text):
+        # Thay thế các ký tự không phải chữ cái, chữ số và khoảng trắng bằng chuỗi rỗng
+        return re.sub(r'[^\w\s]', '', text).lower().split()
+
+    # Chuyển về chữ thường và tách từ sau khi làm sạch
+    words_best_match = clean_text(best_match)
+    words_sentence = clean_text(sentence)
 
     seq_matcher = difflib.SequenceMatcher(None, words_best_match, words_sentence)
     

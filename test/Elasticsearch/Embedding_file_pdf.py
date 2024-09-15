@@ -20,8 +20,8 @@ plagiarized_count = 0
 file_path = './test/Data/Ditgial_MarketingTLCK_Edit.pdf'
 
 assignment_id = 1
-file_id = 7
-title = 'test2'
+file_id = 3
+title = 'Ditgial_MarketingTLCK_Edit'
 author = 'Thuan'
 
 
@@ -81,8 +81,8 @@ for i, sentence in enumerate(processed_sentences):
     similarity_scores = calculate_similarity(query_embedding, reference_embeddings)
 
     query_length = len(preprocessed_query.split())
-    dynamic_threshold = calculate_dynamic_threshold(query_length)
-    
+    # dynamic_threshold = calculate_dynamic_threshold(query_length)
+    dynamic_threshold = 0.1
     max_similarity_idx = similarity_scores[0].argmax()
     highest_score = float(similarity_scores[0][max_similarity_idx])
     print(f"Threshold: {dynamic_threshold:.2f}")

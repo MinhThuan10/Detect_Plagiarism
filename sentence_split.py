@@ -36,7 +36,7 @@ def combine_lines_and_split_sentences(text, output_file_path):
          
     lines = text.split('\n')
     for line in lines:
-        sentences = re.split(r'[.?!:;]', line)
+        sentences = re.split(r'[.?!]', line)
         for sentence in sentences:
             sentence = sentence.strip()
             if sentence:
@@ -67,7 +67,7 @@ def split_sentences(text):
     
     lines = text.split('\n')
     for line in lines:
-        sentences = re.split(r'[.?!:;]', line)
+        sentences = re.split(r'[.?!]', line)
         for sentence in sentences:
             sentence = sentence.strip()
             if sentence:
@@ -105,7 +105,7 @@ def split_snippet(text):
     
     lines = text.split('\n')
     for line in lines:
-            sentences = re.split(r'[.?!:;]', line)
+            sentences = re.split(r'[.?!]', line)
             for sentence in sentences:
                 sentence = sentence.strip()
                 if sentence:

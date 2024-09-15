@@ -3,18 +3,22 @@ import os
 # Thêm đường dẫn của thư mục cha vào sys.path
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '../')))
 from processing import *
-import time
 from sentence_split import *
 import warnings
 from urllib3.exceptions import InsecureRequestWarning
-from pymongo import MongoClient
 # Tắt cảnh báo InsecureRequestWarning
 warnings.simplefilter('ignore', InsecureRequestWarning)
-from urllib.parse import urlparse
+
+best_match = 'Vì vậy, việc sử dụng lại một phần nghiên cứu mà không trích dẫn hay có sự cho phép của nhà xuất bản là không được chấp nhận'
+
+sentence = 'Do đó, việc sử dụng lại một phần nghiên cứu mà không trích dẫn hoặc không có sự cho phép của nhà xuất bản là không được chấp nhận'
 
 
-preprocessed_query, sentence_results = search_sentence_elastic('facebook zalo oa youtube')
+word_count_sml, indices_best_match, c, d, e =  common_ordered_words_difflib(best_match, sentence)
 
-print(preprocessed_query)
+print(word_count_sml)
+print(indices_best_match)
+print(c)
+print(d)
 
-print(sentence_results)
+print(e)
