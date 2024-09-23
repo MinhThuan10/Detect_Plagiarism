@@ -58,11 +58,7 @@ def remove_single_word_sentences(sentences, output_file_path):
 def split_sentences(text):
     combined_sentences = []
     vietnamese_lowercase = 'aáàảãạăắằẳẵặâấầẩẫậbcdđeéèẻẽẹêếềểễệfghiíìỉĩịjklmnoóòỏõọôốồổỗộơớờởỡợpqrstuúùủũụưứừửữựvxyýỳỷỹỵ'
-    text = re.sub(r'\n+', '\n', text)
-    text = re.sub(rf'\n(?=[{vietnamese_lowercase}])', ' ', text)
-    text = re.sub(r'[^\w\s.,;?:!]', ' ', text)
-    text = re.sub(r'\.{2,}', '.', text)
-    text = re.sub(r'\ {2,}', ' ', text)
+    text = re.sub(rf'\n(?=[{vietnamese_lowercase}])', '', text)
     text = text.replace('. ', '.\n')
     
     lines = text.split('\n')
@@ -70,6 +66,7 @@ def split_sentences(text):
         sentences = re.split(r'[.?!]', line)
         for sentence in sentences:
             sentence = sentence.strip()
+            sentences = [s.strip() for s in sentences if s.strip()]
             if sentence:
                 combined_sentences.append(sentence)
 
@@ -119,7 +116,7 @@ def split_snippet(text):
 
 
 def remove_sentences(sentences):
-    return [sentence for sentence in sentences if(len(sentence.split()) > 3 and len(sentence.split()) < 100)]
+    return [sentence for sentence in sentences if(len(sentence.split()) > 2 and len(sentence.split()) < 150)]
 
 def remove_snippet_parts(sentences):
     return [sentence for sentence in sentences if(len(sentence.split()) > 1 and len(sentence.split()) < 100)]

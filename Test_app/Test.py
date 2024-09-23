@@ -1,24 +1,27 @@
-import sys
-import os
-# Thêm đường dẫn của thư mục cha vào sys.path
-sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '../')))
-from processing import *
-from sentence_split import *
-import warnings
-from urllib3.exceptions import InsecureRequestWarning
-# Tắt cảnh báo InsecureRequestWarning
-warnings.simplefilter('ignore', InsecureRequestWarning)
+color_hex = []
+color_rbg = []
 
-best_match = 'Vì vậy, việc sử dụng lại một phần nghiên cứu mà không trích dẫn hay có sự cho phép của nhà xuất bản là không được chấp nhận'
+factor = 0.05  # Mức độ làm nhạt (0 là giữ nguyên màu gốc, 1 là trắng hoàn toàn)
 
-sentence = 'Do đó, việc sử dụng lại một phần nghiên cứu mà không trích dẫn hoặc không có sự cho phép của nhà xuất bản là không được chấp nhận'
+for i in range(500):
+    # Tạo mã màu hex
+    color = "#{:06x}".format(i * 123456 % 0xFFFFFF)
+    
+    # Chuyển đổi sang RGB
+    hex_color = color.lstrip('#')
+    r = int(hex_color[0:2], 16) / 255
+    g = int(hex_color[2:4], 16) / 255
+    b = int(hex_color[4:6], 16) / 255
 
+    # Làm nhạt màu
+    r = r + (1 - r) * factor
+    g = g + (1 - g) * factor
+    b = b + (1 - b) * factor
+    color = (r, g, b)
+    color_rbg.append(color)
+    # Chuyển đổi lại sang hex và thêm vào mảng
+    light_color = "#{:02x}{:02x}{:02x}".format(int(r * 255), int(g * 255), int(b * 255))
+    color_hex.append(light_color)
 
-word_count_sml, indices_best_match, c, d, e =  common_ordered_words_difflib(best_match, sentence)
-
-print(word_count_sml)
-print(indices_best_match)
-print(c)
-print(d)
-
-print(e)
+# print(color_hex)
+print(color_rbg)
