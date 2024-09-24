@@ -149,6 +149,7 @@
                 overlappingStatistics_on.forEach(el => {
                     el.style.display = "block";
                 });
+                rank_source()
 
             } else {
 
@@ -159,6 +160,29 @@
                     el.style.display = "none";
                 });
             }
+        }
+
+        function rank_source() {
+            fetch('/{{file_id}}/rank-source', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify({
+                }),
+            })
+            .then(response => response.json())
+            .then(data => {
+                console.log('Success-on:', data);
+                if (data) {
+                    
+                } else {
+                    console.error('Error updating PDF:', data.error);
+                }
+            })
+            .catch((error) => {
+                console.error('Error:', error);
+            });
         }
 
 

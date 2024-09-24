@@ -592,6 +592,8 @@ def get_best_sources(file_id):
  # Thông tin 'page' ở cấp ngoài cùng
                 "school_id": best_source['school_id'],
                 "school_name": best_source['school_name'],
+                "color": best_source['color'],
+                "school_stt": best_source['school_stt'],
                 "file_id": best_source['file_id'],
                 "file_name": best_source['file_name'],
                 "best_match": best_source['best_match'],
@@ -618,6 +620,8 @@ def get_sources(file_id):
                 "page": doc.get('page', None),
                 "school_id": source['school_id'],
                 "school_name": source['school_name'],
+                "color": source['color'],
+                "school_stt": source['school_stt'],
                 "file_id": source['file_id'],
                 "file_name": source['file_name'],
                 "best_match": source['best_match'],
@@ -666,6 +670,7 @@ def highlight(file_id):
         page_num = source.get('page', None)
         positions = source['highlight'].get('position', None)
         school_id = source['school_id']
+        school_stt = source['school_stt']
         
         color_index = school_id % len(color_rbg)  
         color = color_rbg[color_index]
@@ -678,13 +683,13 @@ def highlight(file_id):
                 y_0 = position.get('y_0')
                 x_1 = position.get('x_1')
                 y_1 = position.get('y_1')
-                add_highlight_to_page(page, x_0, y_0, x_1, y_1, color, school_id)
+                add_highlight_to_page(page, x_0, y_0, x_1, y_1, color, school_stt)
     return pdf_stream
 
 def highlight_school(file_id, school_id):
     file_id = int(file_id)
     school_id = int(school_id)
-    best_sources = get_sources(file_id)
+    sources = get_sources(file_id)
     pdf_binary = retrieve_pdf_from_mongodb(file_id)
     if pdf_binary is None:
         print("Không tìm thấy file PDF trong MongoDB.")
@@ -692,10 +697,11 @@ def highlight_school(file_id, school_id):
     # Mở file PDF từ dữ liệu nhị phân
     pdf_stream = fitz.open(stream=pdf_binary, filetype='pdf')
 
-    for source in best_sources:
+    for source in sources:
         if source.get('school_id') == school_id:
             page_num = source.get('page', None)
             positions = source['highlight'].get('position', None)
+            school_stt = source['school_stt']
             
             color_index = school_id % len(color_rbg)  
             color = color_rbg[color_index]
@@ -708,7 +714,7 @@ def highlight_school(file_id, school_id):
                     y_0 = position.get('y_0')
                     x_1 = position.get('x_1')
                     y_1 = position.get('y_1')
-                    add_highlight_to_page(page, x_0, y_0, x_1, y_1, color, school_id)
+                    add_highlight_to_page(page, x_0, y_0, x_1, y_1, color, school_stt)
     pdf_output_stream = io.BytesIO()
 
     pdf_stream.save(pdf_output_stream)
@@ -717,7 +723,7 @@ def highlight_school(file_id, school_id):
     result = {
         "content": Binary(pdf_output_stream.getvalue()), 
     }
-    filter_condition = {"file_id": 1, "type": 'view_all'} 
+    filter_condition = {"file_id": file_id, "type": 'view_all'} 
     update_operation = {"$set": result}
     collection_files.update_one(filter_condition, update_operation)
     return pdf_stream

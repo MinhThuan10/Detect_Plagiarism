@@ -30,6 +30,60 @@ def highlight_route(file_id):
 
     return jsonify({"pdf_data_view": pdf_base64_view})
 
+@app.route("/<file_id>/rank-source", methods=['POST'])
+def rank_source(file_id):
+    file_id_pdf = file_id
+    sentences_data = sentences_collection.find({"file_id": int(file_id_pdf), "sources": {"$ne": None, "$ne": []}})
+    
+    if sentences_data:
+        school_source_on = {}
+        for sentence in sentences_data:
+            sources = sentence.get('sources', [])
+            for source in sources:
+                page = sentence.get('page', None)
+                sentence_index = sentence.get('sentence_index', None)
+                school_id = source['school_id']
+                school_name = source['school_name']
+                color = source['color']
+                file_id = source['file_id']
+                file_name = source['file_name']
+                best_match = source['best_match']
+                highlight = source['highlight']
+                if school_id not in school_source_on:
+                    school_source_on[school_id] = {
+                        "school_name": school_name,
+                        "word_count": 0,
+                        "color": color,
+                        "sentences": {}  
+                    }
+                school_source_on[school_id]['word_count'] += highlight.get('word_count_sml', 0)
+                school_source_on[school_id]['sentences'][sentence_index] = {
+                    "page": page,
+                    "file_name": file_name,
+                    "best_match": best_match,
+                    "word_count_sml": highlight.get('word_count_sml', 0),
+                    "paragraphs": highlight.get('paragraphs'),
+            }
+    school_source_on = sorted(school_source_on.items(), key=lambda x: x[1]['word_count'], reverse=True)
+    
+    for i, (school_id_source, _) in enumerate(school_source_on): 
+        sentences_data = sentences_collection.find({"file_id": int(file_id_pdf), "sources": {"$ne": None, "$ne": []}})
+        for sentence in sentences_data:
+            sources = sentence.get('sources', [])
+            for source in sources:
+                school_id = source['school_id']
+                if school_id == school_id_source:
+                    collection_sentences.update_one(
+                        {"_id": sentence["_id"], "sources.school_id": school_id},
+                        {"$set": {"sources.$.school_stt": i + 1}}
+                    )
+    file_data = files_collection.find_one({"file_id": int(file_id_pdf), "type": 'raw'})
+    pdf_binary = bytes(file_data['content'])
+    pdf_stream = io.BytesIO(pdf_binary)
+    pdf_base64 = base64.b64encode(pdf_stream.getvalue()).decode('utf-8')
+
+    return jsonify({"pdf_base64": pdf_base64})
+
 @app.route("/<file_id>/on-source", methods=['POST'])
 def load_file_pdf(file_id):
     file_data = files_collection.find_one({"file_id": int(file_id), "type": 'raw'})
@@ -135,6 +189,7 @@ def view_pdf(file_id):
             school_source_off = sorted(school_source_off.items(), key=lambda x: x[1]['word_count'], reverse=True)
 
             school_source_on = sorted(school_source_on.items(), key=lambda x: x[1]['word_count'], reverse=True)
+
 
             return render_template('index.html',file_id=file_id_pdf,pdf_base64=pdf_base64, pdf_data=pdf_base64_checked, page_count = page_count, word_count = word_count, percent = percent, best_sources_list = best_sources_list, school_source_off=school_source_off, school_source_on = school_source_on )
         

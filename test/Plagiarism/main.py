@@ -134,6 +134,7 @@ for page_num in range(pdf_document.page_count):
                     "file_name": file_name,
                     "except": 'no',
                     "color": color_hex[school_id],
+                    "school_stt": 0,
                     "best_match": best_match,
                     "score": float(score),
                     "highlight": {
@@ -214,6 +215,7 @@ for page_num in range(pdf_document.page_count):
                             "file_name": file_name,
                             "except": 'no',
                             "color": color_hex[school_id],
+                            "school_stt": 0,
                             "best_match": best_match,
                             "score": float(similarity_sentence),
                             "highlight": {
@@ -252,6 +254,32 @@ for page_num in range(pdf_document.page_count):
         word_count_similarity += word_count_max
 num_threads = os.cpu_count()
 
+sentences_data = list(collection_sentences.find({"file_id": int(file_id), "sources": {"$ne": None, "$ne": []}}))
+school_sources = {}
+for sentence in sentences_data:
+    sources = sentence.get('sources', [])
+    if sources:
+        best_source = max(sources, key=lambda x: x['score'])
+        school_id = best_source['school_id']
+        highlight_ = best_source['highlight']
+        if school_id not in school_sources:
+            school_sources[school_id] = {
+                "word_count": 0
+            }
+        school_sources[school_id]['word_count'] += highlight_.get('word_count_sml', 0)
+
+school_sources = sorted(school_sources.items(), key=lambda x: x[1]['word_count'], reverse=True)
+
+for i, (school_id_source, _)in enumerate(school_sources):
+    for sentence in sentences_data:
+        sources = sentence.get('sources', [])
+        for source in sources:
+            school_id = source['school_id']
+            if school_id == school_id_source:
+                collection_sentences.update_one(
+                    {"_id": sentence["_id"], "sources.school_id": school_id},
+                    {"$set": {"sources.$.school_stt": i + 1}}
+                )
 
 file_highlighted = highlight(file_id)
 
@@ -292,6 +320,8 @@ if file_highlighted is not None:
         "type": 'view_all'
         }
     collection_files.insert_one(result)
+
+
 
 
 # End the timer
