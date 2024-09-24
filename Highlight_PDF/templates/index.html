@@ -79,10 +79,10 @@
                     <strong>Percentage:</strong> {{ percent }} %
                 </div>
                 <div class="statistics-box statistics-box-off overlapping-off" style="display: block;">
-                    {% for school_id, school_data in school_source_off:  %}
+                    {% for school_id, school_data in school_source_off %}
                         <div class="school-box highlight_school{{ school_id }}" onclick="toggleSchool_off('{{ school_id }}')">
-                            <strong class = "index-school-view">{{ loop.index }}</strong>
-                            <h5>{{ school_data['school_name'] }}</h5><br>
+                            <strong class = "index-school-view" style="background-color: {{school_data['color']}};">{{ loop.index }}</strong>
+                            <h5 style="color: {{school_data['color']}};">{{ school_data['school_name'] }}</h5><br>
                             <strong>Word Matched:</strong> {{ school_data['word_count'] }}<br>
                             <strong>Percentage:</strong> {{ "%.2f" % ((school_data['word_count'] / word_count) * 100) }}%
                         </div>
@@ -105,11 +105,11 @@
 
                 <!-- ON -->
                 <div class="statistics-box statistics-box-on overlapping-on" style="display: none;">
-                    {% for school_id, school_data in school_source_on:  %}
+                    {% for school_id, school_data in school_source_on %}
 
                         <div class="school-box highlight_school{{ school_id }}" onclick="toggleSchool_on('{{ school_id }}')">
-                            <strong class = "index-school-view">{{ loop.index }}</strong>
-                            <h5>{{ school_data['school_name'] }}</h5><br>
+                            <strong class = "index-school-view" style="background-color: {{school_data['color']}};">{{ loop.index }}</strong>
+                            <h5 style="color: {{school_data['color']}};">{{ school_data['school_name'] }}</h5><br>
                             <strong>Word Matched:</strong> {{ school_data['word_count'] }}<br>
                             <strong>Percentage:</strong> {{ "%.2f" % ((school_data['word_count'] / word_count) * 100) }}%
                         </div>

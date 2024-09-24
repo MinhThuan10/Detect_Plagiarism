@@ -83,6 +83,7 @@ def view_pdf(file_id):
                     sentence_index = sentence.get('sentence_index', None)
                     school_id = best_source['school_id']
                     school_name = best_source['school_name']
+                    color = best_source['color']
                     file_id = best_source['file_id']
                     file_name = best_source['file_name']
                     best_match = best_source['best_match']
@@ -92,6 +93,7 @@ def view_pdf(file_id):
                             school_source_off[school_id] = {
                                 "school_name": school_name,
                                 "word_count": 0,
+                                "color": color,
                                 "sentences": {}  
                             }
                     school_source_off[school_id]['word_count'] += highlight.get('word_count_sml', 0)
@@ -109,6 +111,7 @@ def view_pdf(file_id):
                     for source in sources:
                         school_id = source['school_id']
                         school_name = source['school_name']
+                        color = source['color']
                         file_id = source['file_id']
                         file_name = source['file_name']
                         best_match = source['best_match']
@@ -117,6 +120,7 @@ def view_pdf(file_id):
                             school_source_on[school_id] = {
                                 "school_name": school_name,
                                 "word_count": 0,
+                                "color": color,
                                 "sentences": {}  
                             }
                         school_source_on[school_id]['word_count'] += highlight.get('word_count_sml', 0)
@@ -129,12 +133,13 @@ def view_pdf(file_id):
                         }
 
             school_source_off = sorted(school_source_off.items(), key=lambda x: x[1]['word_count'], reverse=True)
+
             school_source_on = sorted(school_source_on.items(), key=lambda x: x[1]['word_count'], reverse=True)
 
             return render_template('index.html',file_id=file_id_pdf,pdf_base64=pdf_base64, pdf_data=pdf_base64_checked, page_count = page_count, word_count = word_count, percent = percent, best_sources_list = best_sources_list, school_source_off=school_source_off, school_source_on = school_source_on )
         
         else:
-            return "File not foundq11", 404
+            return "File not found", 404
 
         
     except Exception as e:

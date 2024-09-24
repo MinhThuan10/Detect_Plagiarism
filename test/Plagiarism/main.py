@@ -132,6 +132,8 @@ for page_num in range(pdf_document.page_count):
                     "school_name": school_name,
                     "file_id": file_id_source,
                     "file_name": file_name,
+                    "except": 'no',
+                    "color": color_hex[school_id],
                     "best_match": best_match,
                     "score": float(score),
                     "highlight": {
@@ -210,6 +212,8 @@ for page_num in range(pdf_document.page_count):
                             "school_name": domain,
                             "file_id": file_id_source,
                             "file_name": file_name,
+                            "except": 'no',
+                            "color": color_hex[school_id],
                             "best_match": best_match,
                             "score": float(similarity_sentence),
                             "highlight": {

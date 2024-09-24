@@ -628,7 +628,7 @@ def get_sources(file_id):
 
     return sources_list
 
-def add_highlight_to_page(page, x0, y0, x1, y1, color):
+def add_highlight_to_page(page, x0, y0, x1, y1, color, school_stt):
     """
     Thêm chú thích nổi bật vào trang PDF tại vùng xác định bởi các tọa độ với màu sắc cụ thể.
     
@@ -643,6 +643,13 @@ def add_highlight_to_page(page, x0, y0, x1, y1, color):
     highlight = page.add_highlight_annot(fitz.Rect(x0, y0, x1, y1))
     highlight.set_colors(stroke=color)  
     highlight.update()  
+    text = str(school_stt)
+    font_size = 12  # Kích thước chữ
+    page.insert_text((x0 - 10, y0 +8),  # Vị trí chèn văn bản (góc trên bên trái của vùng highlight)
+                     text,  # Văn bản cần chèn
+                     fontsize=font_size,  # Kích thước font
+                     fontname="helv",  # Font chữ đậm
+                     color=color  )# Màu văn bản (đen)
 
 def highlight(file_id):
     best_sources = get_best_sources(file_id)
@@ -671,7 +678,7 @@ def highlight(file_id):
                 y_0 = position.get('y_0')
                 x_1 = position.get('x_1')
                 y_1 = position.get('y_1')
-                add_highlight_to_page(page, x_0, y_0, x_1, y_1, color)
+                add_highlight_to_page(page, x_0, y_0, x_1, y_1, color, school_id)
     return pdf_stream
 
 def highlight_school(file_id, school_id):
@@ -701,7 +708,7 @@ def highlight_school(file_id, school_id):
                     y_0 = position.get('y_0')
                     x_1 = position.get('x_1')
                     y_1 = position.get('y_1')
-                    add_highlight_to_page(page, x_0, y_0, x_1, y_1, color)
+                    add_highlight_to_page(page, x_0, y_0, x_1, y_1, color, school_id)
     pdf_output_stream = io.BytesIO()
 
     pdf_stream.save(pdf_output_stream)
@@ -725,3 +732,6 @@ def wrap_paragraphs_with_color(paragraphs, best_match, school_id):
         highlighted_text = highlighted_text.replace(paragraph, f'<span style="background-color:{color};">{paragraph}</span>')
 
     return highlighted_text
+
+
+    
