@@ -1,4 +1,4 @@
-from flask import Flask, render_template, request, jsonify
+from flask import Flask, render_template, request, jsonify, send_file
 from pymongo import MongoClient
 import io
 import base64
@@ -18,116 +18,41 @@ db = client['Plagiarism_PDF']
 files_collection = db['files']
 sentences_collection = db['sentences']
 
-@app.route("/<file_id>/on-source-highlight", methods=['POST'])
-def highlight_route(file_id):
+
+@app.route("/pdf/<file_id>/<school_id>", methods=['POST'])
+def highlight_route(file_id, school_id):
     data = request.get_json()
-    school_id = data.get('school_id')
     result = highlight_school(file_id, school_id)
-    file_data_view = files_collection.find_one({"file_id": int(file_id), "type": 'view_all'})
-    pdf_binary_view = bytes(file_data_view['content'])
-    pdf_stream_view = io.BytesIO(pdf_binary_view)
-    pdf_base64_view = base64.b64encode(pdf_stream_view.getvalue()).decode('utf-8')
-
-    return jsonify({"pdf_data_view": pdf_base64_view})
-
-@app.route("/<file_id>/rank-source-on", methods=['POST'])
-def rank_source_on(file_id):
-    file_id_pdf = file_id
-    sentences_data = sentences_collection.find({"file_id": int(file_id_pdf), "sources": {"$ne": None, "$ne": []}})
+    file_data = files_collection.find_one({"file_id": int(file_id), "type": "view_all"})
+    if file_data:
+        # Chuyển đổi nội dung tệp PDF thành bytes
+        pdf_binary = bytes(file_data['content'])
+        pdf_stream = io.BytesIO(pdf_binary)
+        return send_file(pdf_stream, mimetype='application/pdf')
+    else:
+        return "File not found", 404
     
-    if sentences_data:
-        school_source_on = {}
-        for sentence in sentences_data:
-            sources = sentence.get('sources', [])
-            for source in sources:
-                page = sentence.get('page', None)
-                sentence_index = sentence.get('sentence_index', None)
-                school_id = source['school_id']
-                school_name = source['school_name']
-                color = source['color']
-                file_id = source['file_id']
-                file_name = source['file_name']
-                best_match = source['best_match']
-                highlight = source['highlight']
-                if school_id not in school_source_on:
-                    school_source_on[school_id] = {
-                        "school_name": school_name,
-                        "word_count": 0,
-                        "color": color,
-                        "sentences": {}  
-                    }
-                school_source_on[school_id]['word_count'] += highlight.get('word_count_sml', 0)
-                school_source_on[school_id]['sentences'][sentence_index] = {
-                    "page": page,
-                    "file_name": file_name,
-                    "best_match": best_match,
-                    "word_count_sml": highlight.get('word_count_sml', 0),
-                    "paragraphs": highlight.get('paragraphs'),
-            }
-    school_source_on = sorted(school_source_on.items(), key=lambda x: x[1]['word_count'], reverse=True)
+@app.route("/pdf/<file_id>/<type>", methods=['GET'])
+def view_pdf(file_id, type):
+    # Tìm tệp PDF trong MongoDB theo file_id
+    file_data = files_collection.find_one({"file_id": int(file_id), "type": type})
     
-    for i, (school_id_source, _) in enumerate(school_source_on): 
-        sentences_data = sentences_collection.find({"file_id": int(file_id_pdf), "sources": {"$ne": None, "$ne": []}})
-        for sentence in sentences_data:
-            sources = sentence.get('sources', [])
-            for source in sources:
-                school_id = source['school_id']
-                if school_id == school_id_source:
-                    collection_sentences.update_one(
-                        {"_id": sentence["_id"], "sources.school_id": school_id},
-                        {"$set": {"sources.$.school_stt": i + 1}}
-                    )
-    file_data = files_collection.find_one({"file_id": int(file_id_pdf), "type": 'raw'})
-    pdf_binary = bytes(file_data['content'])
-    pdf_stream = io.BytesIO(pdf_binary)
-    pdf_base64 = base64.b64encode(pdf_stream.getvalue()).decode('utf-8')
-
-    return jsonify({"pdf_base64": pdf_base64, "school_source_on": school_source_on})
+    if file_data:
+        # Chuyển đổi nội dung tệp PDF thành bytes
+        pdf_binary = bytes(file_data['content'])
+        pdf_stream = io.BytesIO(pdf_binary)
+        return send_file(pdf_stream, mimetype='application/pdf')
+    else:
+        return "File not found", 404
 
 
-@app.route("/<file_id>/rank-source-off", methods=['POST'])
-def rank_source_off(file_id):
-    file_data_checked = files_collection.find_one({"file_id": int(file_id), "type": 'checked'})
-    pdf_binary_checked = bytes(file_data_checked['content'])
-    pdf_stream_checked = io.BytesIO(pdf_binary_checked)
-    pdf_base64_checked = base64.b64encode(pdf_stream_checked.getvalue()).decode('utf-8')
-    return jsonify({"pdf_base64": pdf_base64_checked})
-
-
-@app.route("/<file_id>/on-source", methods=['POST'])
-def load_file_pdf(file_id):
-    file_data = files_collection.find_one({"file_id": int(file_id), "type": 'raw'})
-
-    pdf_binary = bytes(file_data['content'])
-    pdf_stream = io.BytesIO(pdf_binary)
-    pdf_base64 = base64.b64encode(pdf_stream.getvalue()).decode('utf-8')
-
-    return jsonify({"pdf_base64": pdf_base64})
-
-@app.route("/<file_id>")
-def view_pdf(file_id):
+@app.route("/<file_id>/<type>")
+def index(file_id, type):
     try:
         file_id_pdf = file_id
-        file_data = files_collection.find_one({"file_id": int(file_id_pdf), "type": 'raw'})
-        file_data_checked = files_collection.find_one({"file_id": int(file_id_pdf), "type": 'checked'})
-
+        file_data_checked = files_collection.find_one({"file_id": int(file_id_pdf), "type": type})
         sentences_data = sentences_collection.find({"file_id": int(file_id_pdf), "sources": {"$ne": None, "$ne": []}})
-
-        
-        if file_data_checked and sentences_data:
-            
-            pdf_binary_checked = bytes(file_data_checked['content'])
-            pdf_binary = bytes(file_data['content'])
-
-
-            pdf_stream_checked = io.BytesIO(pdf_binary_checked)
-            pdf_stream = io.BytesIO(pdf_binary)
-
-            
-            pdf_base64_checked = base64.b64encode(pdf_stream_checked.getvalue()).decode('utf-8')
-            pdf_base64 = base64.b64encode(pdf_stream.getvalue()).decode('utf-8')
-
-
+        if sentences_data:
             page_count = file_data_checked.get('page_count')
             word_count = file_data_checked.get('word_count')
             percent   = file_data_checked.get('plagiarism')    
@@ -201,7 +126,7 @@ def view_pdf(file_id):
             school_source_on = sorted(school_source_on.items(), key=lambda x: x[1]['word_count'], reverse=True)
 
 
-            return render_template('index.html',file_id=file_id_pdf,pdf_base64=pdf_base64, pdf_data=pdf_base64_checked, page_count = page_count, word_count = word_count, percent = percent, best_sources_list = best_sources_list, school_source_off=school_source_off, school_source_on = school_source_on )
+            return render_template('index.html',file_id=file_id_pdf, type=type, page_count = page_count, word_count = word_count, percent = percent, best_sources_list = best_sources_list, school_source_off=school_source_off, school_source_on = school_source_on )
         
         else:
             return "File not found", 404
