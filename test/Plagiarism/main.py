@@ -25,11 +25,11 @@ collection_files = db['files']
 # Start the timer
 start_time = time.time()
 plagiarized_count = 0
-file_path = './test/Data/Test_2.pdf'
+file_path = './test/Data/Ditgial_MarketingTLCK_Edit.pdf'
 
 assignment_id = 1
-file_id = 1
-title = 'Test_2'
+file_id = 3
+title = 'Ditgial_MarketingTLCK_Edit'
 author = 'Thuan'
 
 
@@ -68,10 +68,11 @@ for page_num in range(pdf_document.page_count):
     sentences = split_sentences(text)
     sentences = remove_sentences(sentences)
     for i, sentence in enumerate(sentences):
+        print(sentence)
         word_count += len(sentence.split())
         preprocessed_query, sentence_results = search_sentence_elastic(sentence)
         sources = []
-        if preprocessed_query is None or not sentence_results:
+        if preprocessed_query is None:
             result = {
                 "file_id": file_id,
                 "title": title,
@@ -83,69 +84,69 @@ for page_num in range(pdf_document.page_count):
             }
             collection_sentences.insert_one(result)
             continue
-    
-        preprocessed_references = [preprocess_text_vietnamese(ref['sentence'])[0] for ref in sentence_results]
-        all_sentences = [preprocessed_query] + preprocessed_references
+        if sentence_results:
+            preprocessed_references = [preprocess_text_vietnamese(ref['sentence'])[0] for ref in sentence_results]
+            all_sentences = [preprocessed_query] + preprocessed_references
 
-        # Tính toán embeddings cho tất cả các câu cùng một lúc
-        embeddings = embedding_vietnamese(all_sentences)
-        query_embedding = embeddings[0].reshape(1, -1)
-        reference_embeddings = embeddings[1:]
-        similarity_scores = calculate_similarity(query_embedding, reference_embeddings)
+            # Tính toán embeddings cho tất cả các câu cùng một lúc
+            embeddings = embedding_vietnamese(all_sentences)
+            query_embedding = embeddings[0].reshape(1, -1)
+            reference_embeddings = embeddings[1:]
+            similarity_scores = calculate_similarity(query_embedding, reference_embeddings)
 
-        query_length = len(preprocessed_query.split())
-        dynamic_threshold = calculate_dynamic_threshold(query_length)
-        max_score = 0
-        word_count_max = 0
+            query_length = len(preprocessed_query.split())
+            dynamic_threshold = calculate_dynamic_threshold(query_length)
+            max_score = 0
+            word_count_max = 0
 
-        for idx, score in enumerate(similarity_scores[0]):
-            if score >= dynamic_threshold:
-                school_name = sentence_results[idx]['school_name']
-                file_id_source = sentence_results[idx]['file_id']
-                file_name = sentence_results[idx]['file_name']
-                best_match = sentence_results[idx]['sentence']
-                
-                if school_name in school_cache:
-                    school_id = school_cache[school_name]
-                else:
-                    school_id = current_school_id
-                    school_cache[school_name] = school_id
-                    current_school_id += 1
-                position = []
-                word_count_sml, paragraphs, paragraphs_best_math = common_ordered_words_difflib(best_match, sentence)
-                quads_sentence = page.search_for(sentence, quads=True)
-                
-                for paragraph in paragraphs:
-                    quads_token = page.search_for(paragraph, quads=True)
-                    for qua_s in quads_sentence:
-                        for qua_t in quads_token:
-                            if is_within(qua_t, qua_s) == True:
-                                position.append({
-                                    "x_0" : qua_t[0].x,
-                                    "y_0" : qua_t[0].y,
-                                    "x_1" : qua_t[-1].x,
-                                    "y_1" : qua_t[-1].y
-                                })
-                best_match = wrap_paragraphs_with_color(paragraphs_best_math, best_match, school_id)
-                sources.append({
-                    "school_id": school_id,
-                    "school_name": school_name,
-                    "file_id": file_id_source,
-                    "file_name": file_name,
-                    "except": 'no',
-                    "color": color_hex[school_id],
-                    "school_stt": 0,
-                    "best_match": best_match,
-                    "score": float(score),
-                    "highlight": {
-                        "word_count_sml": word_count_sml,
-                        "paragraphs": paragraphs_best_math,
-                        "position": position
-                    }
-                })
-                if score > max_score:
-                    max_score = score
-                    word_count_max = word_count_sml
+            for idx, score in enumerate(similarity_scores[0]):
+                if score >= dynamic_threshold:
+                    school_name = sentence_results[idx]['school_name']
+                    file_id_source = sentence_results[idx]['file_id']
+                    file_name = sentence_results[idx]['file_name']
+                    best_match = sentence_results[idx]['sentence']
+                    
+                    if school_name in school_cache:
+                        school_id = school_cache[school_name]
+                    else:
+                        school_id = current_school_id
+                        school_cache[school_name] = school_id
+                        current_school_id += 1
+                    position = []
+                    word_count_sml, paragraphs, paragraphs_best_math = common_ordered_words_difflib(best_match, sentence)
+                    quads_sentence = page.search_for(sentence, quads=True)
+                    
+                    for paragraph in paragraphs:
+                        quads_token = page.search_for(paragraph, quads=True)
+                        for qua_s in quads_sentence:
+                            for qua_t in quads_token:
+                                if is_within(qua_t, qua_s) == True:
+                                    position.append({
+                                        "x_0" : qua_t[0].x,
+                                        "y_0" : qua_t[0].y,
+                                        "x_1" : qua_t[-1].x,
+                                        "y_1" : qua_t[-1].y
+                                    })
+                    best_match = wrap_paragraphs_with_color(paragraphs_best_math, best_match, school_id)
+                    sources.append({
+                        "school_id": school_id,
+                        "school_name": school_name,
+                        "file_id": file_id_source,
+                        "file_name": file_name,
+                        "except": 'no',
+                        "color": color_hex[school_id],
+                        "school_stt": 0,
+                        "best_match": best_match,
+                        "score": float(score),
+                        "highlight": {
+                            "word_count_sml": word_count_sml,
+                            "paragraphs": paragraphs_best_math,
+                            "position": position
+                        }
+                    })
+                    if score > max_score:
+                        max_score = score
+                        word_count_max = word_count_sml
             
 
         result = search_google(sentence)
@@ -158,6 +159,7 @@ for page_num in range(pdf_document.page_count):
         top_similarities = compare_sentences(sentence, all_snippets)
         for _, idx in top_similarities:
             url = items[idx].get('link')
+            print(url)
             snippet = all_snippets[idx]
             # Tìm trong cache trước khi tải nội dung
             sentences = sentences_cache.get(url)

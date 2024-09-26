@@ -1,27 +1,24 @@
-color_hex = []
-color_rbg = []
+from pymongo import MongoClient
+from bson import ObjectId
 
-factor = 0.05  # Mức độ làm nhạt (0 là giữ nguyên màu gốc, 1 là trắng hoàn toàn)
+# Kết nối đến MongoDB
+client = MongoClient('mongodb://localhost:27017/')
+db = client['Plagiarism_PDF']  # Thay 'your_database' bằng tên cơ sở dữ liệu của bạn
+collection = db['files']  # Thay 'your_collection' bằng tên bộ sưu tập của bạn
 
-for i in range(500):
-    # Tạo mã màu hex
-    color = "#{:06x}".format(i * 123456 % 0xFFFFFF)
+def fetch_pdf(pdf_id):
+    # Truy vấn document chứa file PDF bằng ObjectId
+    pdf_document = collection.find_one({'_id': ObjectId(pdf_id)})
     
-    # Chuyển đổi sang RGB
-    hex_color = color.lstrip('#')
-    r = int(hex_color[0:2], 16) / 255
-    g = int(hex_color[2:4], 16) / 255
-    b = int(hex_color[4:6], 16) / 255
+    if pdf_document and 'content' in pdf_document:  # 'file' là trường chứa binary data
+        pdf_data = pdf_document['content']  # Dữ liệu PDF dưới dạng binary
+        
+        # Lưu file PDF vào máy
+        with open('output.pdf', 'wb') as f:
+            f.write(pdf_data)
+        print("PDF đã được lưu thành công.")
+    else:
+        print("Không tìm thấy file.")
 
-    # Làm nhạt màu
-    r = r + (1 - r) * factor
-    g = g + (1 - g) * factor
-    b = b + (1 - b) * factor
-    color = (r, g, b)
-    color_rbg.append(color)
-    # Chuyển đổi lại sang hex và thêm vào mảng
-    light_color = "#{:02x}{:02x}{:02x}".format(int(r * 255), int(g * 255), int(b * 255))
-    color_hex.append(light_color)
-
-# print(color_hex)
-print(color_rbg)
+# Gọi hàm với ObjectId của PDF bạn muốn lấy
+fetch_pdf('66f31d9c0cf4bb0591c68fae')  # Thay đổi ID bằng ObjectId của bạn

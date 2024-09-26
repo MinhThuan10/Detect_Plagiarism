@@ -30,8 +30,8 @@ def highlight_route(file_id):
 
     return jsonify({"pdf_data_view": pdf_base64_view})
 
-@app.route("/<file_id>/rank-source", methods=['POST'])
-def rank_source(file_id):
+@app.route("/<file_id>/rank-source-on", methods=['POST'])
+def rank_source_on(file_id):
     file_id_pdf = file_id
     sentences_data = sentences_collection.find({"file_id": int(file_id_pdf), "sources": {"$ne": None, "$ne": []}})
     
@@ -82,7 +82,17 @@ def rank_source(file_id):
     pdf_stream = io.BytesIO(pdf_binary)
     pdf_base64 = base64.b64encode(pdf_stream.getvalue()).decode('utf-8')
 
-    return jsonify({"pdf_base64": pdf_base64})
+    return jsonify({"pdf_base64": pdf_base64, "school_source_on": school_source_on})
+
+
+@app.route("/<file_id>/rank-source-off", methods=['POST'])
+def rank_source_off(file_id):
+    file_data_checked = files_collection.find_one({"file_id": int(file_id), "type": 'checked'})
+    pdf_binary_checked = bytes(file_data_checked['content'])
+    pdf_stream_checked = io.BytesIO(pdf_binary_checked)
+    pdf_base64_checked = base64.b64encode(pdf_stream_checked.getvalue()).decode('utf-8')
+    return jsonify({"pdf_base64": pdf_base64_checked})
+
 
 @app.route("/<file_id>/on-source", methods=['POST'])
 def load_file_pdf(file_id):
@@ -98,10 +108,10 @@ def load_file_pdf(file_id):
 def view_pdf(file_id):
     try:
         file_id_pdf = file_id
-        file_data = files_collection.find_one({"file_id": int(file_id), "type": 'raw'})
-        file_data_checked = files_collection.find_one({"file_id": int(file_id), "type": 'checked'})
+        file_data = files_collection.find_one({"file_id": int(file_id_pdf), "type": 'raw'})
+        file_data_checked = files_collection.find_one({"file_id": int(file_id_pdf), "type": 'checked'})
 
-        sentences_data = sentences_collection.find({"file_id": int(file_id), "sources": {"$ne": None, "$ne": []}})
+        sentences_data = sentences_collection.find({"file_id": int(file_id_pdf), "sources": {"$ne": None, "$ne": []}})
 
         
         if file_data_checked and sentences_data:

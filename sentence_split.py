@@ -116,7 +116,7 @@ def split_snippet(text):
 
 
 def remove_sentences(sentences):
-    return [sentence for sentence in sentences if(len(sentence.split()) > 2 and len(sentence.split()) < 150)]
+    return [sentence for sentence in sentences if(len(sentence.split()) > 2 and len(sentence.split()) < 100)]
 
 def remove_snippet_parts(sentences):
     return [sentence for sentence in sentences if(len(sentence.split()) > 1 and len(sentence.split()) < 100)]

@@ -48,14 +48,9 @@
             <div class="col-md-8", id = `{{file_id}}`, data = {file_id}>
                 <h2>PDF Viewer</h2>
                 <!-- Hiển thị PDF bằng embed -->
-                <div class="overlapping-off" style="display: block;">
+                <div class="overlapping" style="display: block;">
                     <div class="pdf-viewer">
                         <embed src="data:application/pdf;base64,{{ pdf_data }}" type="application/pdf" width="100%" height="100%"/>
-                    </div>
-                </div>
-                <div class="overlapping-on" style="display: none;">
-                    <div class="pdf-viewer">
-                        <embed src="data:application/pdf;base64,{{ pdf_base64 }}" type="application/pdf" width="100%" height="100%"/>
                     </div>
                 </div>
             </div>
@@ -74,20 +69,19 @@
                     <input class="form-check-input" type="checkbox" id="toggle-sources" onclick="toggleOverlappingSources()">
                     <label class="form-check-label" for="toggle-sources">Show overlapping sources</label>
                 </div>
-                <!-- OFF -->
-                <div class="overlapping-off" style="display: block;">
+                <div class="overlapping" style="display: block;">
                     <strong>Percentage:</strong> {{ percent }} %
                 </div>
-                <div class="statistics-box statistics-box-off overlapping-off" style="display: block;">
+                <div class="statistics-box overlapping-off" style="display: block;">
                     {% for school_id, school_data in school_source_off %}
-                        <div class="school-box highlight_school{{ school_id }}" onclick="toggleSchool_off('{{ school_id }}')">
+                        <div class="school-box highlight_school{{ school_id }}" onclick="toggleSchool_On('{{ school_id }}')">
                             <strong class = "index-school-view" style="background-color: {{school_data['color']}};">{{ loop.index }}</strong>
                             <h5 style="color: {{school_data['color']}};">{{ school_data['school_name'] }}</h5><br>
                             <strong>Word Matched:</strong> {{ school_data['word_count'] }}<br>
                             <strong>Percentage:</strong> {{ "%.2f" % ((school_data['word_count'] / word_count) * 100) }}%
                         </div>
 
-                        <div class="sentence-box" id="overlapping-off-{{ school_id }}" style="display: none;">
+                        <div class="sentence-box sentence-box-off" id="overlapping-off-{{ school_id }}" style="display: none;">
                             <ul id="sentence-list{{ school_id }}">
                                 {% for sentence_index, sentence_data in school_data['sentences'].items() %}
                                     <li class="sentence-item">
@@ -102,19 +96,17 @@
                     {% endfor %}
                 </div>
 
-
-                <!-- ON -->
-                <div class="statistics-box statistics-box-on overlapping-on" style="display: none;">
+<!-- ON -->
+                <div class="statistics-box overlapping-on" style="display: none;">
                     {% for school_id, school_data in school_source_on %}
-
-                        <div class="school-box highlight_school{{ school_id }}" onclick="toggleSchool_on('{{ school_id }}')">
+                        <div class="school-box highlight_school{{ school_id }}" onclick="toggleSchool_Off('{{ school_id }}')">
                             <strong class = "index-school-view" style="background-color: {{school_data['color']}};">{{ loop.index }}</strong>
                             <h5 style="color: {{school_data['color']}};">{{ school_data['school_name'] }}</h5><br>
                             <strong>Word Matched:</strong> {{ school_data['word_count'] }}<br>
                             <strong>Percentage:</strong> {{ "%.2f" % ((school_data['word_count'] / word_count) * 100) }}%
                         </div>
 
-                        <div class="sentence-box" id="overlapping-on-{{ school_id }}" style="display: none;" onclick="toggleSchool_on('{{ school_id }}')">
+                        <div class="sentence-box sentence-box-on" id="overlapping-on-{{ school_id }}" style="display: none;">
                             <ul id="sentence-list{{ school_id }}">
                                 {% for sentence_index, sentence_data in school_data['sentences'].items() %}
                                     <li class="sentence-item">
@@ -137,33 +129,28 @@
         function toggleOverlappingSources() {
             const overlappingStatistics_off = Array.from(document.getElementsByClassName("overlapping-off"));
             const overlappingStatistics_on = Array.from(document.getElementsByClassName("overlapping-on"));
-
-            const toggleSwitch = document.getElementById("toggle-sources");
-            
+            const toggleSwitch = document.getElementById("toggle-sources");      
             if (toggleSwitch.checked) {
-
                 overlappingStatistics_off.forEach(el => {
                     el.style.display = "none";
                 });
-
                 overlappingStatistics_on.forEach(el => {
                     el.style.display = "block";
                 });
-                rank_source()
-
+                toggle_sources_on()
             } else {
-
                 overlappingStatistics_off.forEach(el => {
                     el.style.display = "block";
                 });
                 overlappingStatistics_on.forEach(el => {
                     el.style.display = "none";
                 });
+                toggle_sources_off()
             }
         }
 
-        function rank_source() {
-            fetch('/{{file_id}}/rank-source', {
+        function toggle_sources_on() {
+            fetch('/{{file_id}}/rank-source-on', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
@@ -173,9 +160,13 @@
             })
             .then(response => response.json())
             .then(data => {
-                console.log('Success-on:', data);
+                console.log('Success-rank_source:');
                 if (data) {
-                    
+                    const embedElement_pdf= document.querySelector(".overlapping .pdf-viewer embed");
+                    embedElement_pdf.src = `data:application/pdf;base64,${data.pdf_base64}`;
+
+                    const embedElement_school = document.querySelector(".overlapping .pdf-viewer embed");
+                    embedElement_school.src = `data:application/pdf;base64,${data.pdf_base64}`;
                 } else {
                     console.error('Error updating PDF:', data.error);
                 }
@@ -185,27 +176,32 @@
             });
         }
 
-
-        function toggleSchool_off(schoolId) {
-            const elements = Array.from(document.getElementsByClassName("sentence-box"));
-            const element = document.getElementById(`overlapping-off-${schoolId}`)
-            const otherElements = elements.filter(el => el !== element);
-
-            otherElements.forEach(el => {
-                el.style.display = "none";
+        function toggle_sources_off() {
+            fetch('/{{file_id}}/rank-source-off', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify({
+                }),
+            })
+            .then(response => response.json())
+            .then(data => {
+                console.log('Success-rank_source:');
+                if (data.pdf_base64) {
+                    const embedElement = document.querySelector(".overlapping .pdf-viewer embed");
+                    embedElement.src = `data:application/pdf;base64,${data.pdf_base64}`;
+                } else {
+                    console.error('Error updating PDF:', data.error);
+                }
+            })
+            .catch((error) => {
+                console.error('Error:', error);
             });
-
-
-            if (element.style.display === "none" || element.style.display === "") {
-                element.style.display = "block";
-
-            } else {
-                element.style.display = "none";
-            }
         }
 
-        function toggleSchool_on(schoolId) {
-            const elements = Array.from(document.getElementsByClassName("sentence-box"));
+        function toggleSchool_Off(schoolId) {
+            const elements = Array.from(document.getElementsByClassName("sentence-box-on"));
             const element = document.getElementById(`overlapping-on-${schoolId}`)
             const otherElements = elements.filter(el => el !== element);
 
@@ -238,7 +234,7 @@
             .then(data => {
                 console.log('Success:', data);
                 if (data.pdf_data_view) {
-                    const embedElement = document.querySelector(".overlapping-on .pdf-viewer embed");
+                    const embedElement = document.querySelector(".overlapping .pdf-viewer embed");
                     embedElement.src = `data:application/pdf;base64,${data.pdf_data_view}`;
                 } else {
                     console.error('Error updating PDF:', data.error);
@@ -248,7 +244,6 @@
                 console.error('Error:', error);
             });
         }
-
 
         function load_file_pdf(){
             fetch('/{{file_id}}/on-source', {
@@ -261,7 +256,7 @@
             .then(data => {
                 console.log('Success:', data);
                 if (data.pdf_base64) {
-                    const embedElement = document.querySelector(".overlapping-on .pdf-viewer embed");
+                    const embedElement = document.querySelector(".overlapping .pdf-viewer embed");
                     embedElement.src = `data:application/pdf;base64,${data.pdf_base64}`;
                 } else {
                     console.error('Error updating PDF:', data.error);
@@ -271,6 +266,28 @@
                 console.error('Error:', error);
             });
         }
+    
+        function toggleSchool_On(schoolId) {
+            const elements = Array.from(document.getElementsByClassName("sentence-box-off"));
+            const element = document.getElementById(`overlapping-off-${schoolId}`)
+            const otherElements = elements.filter(el => el !== element);
+
+            otherElements.forEach(el => {
+                el.style.display = "none";
+            });
+
+
+            if (element.style.display === "none" || element.style.display === "") {
+                element.style.display = "block";
+                
+            } else {
+                element.style.display = "none";
+                
+            }
+
+        }
+
+        
     </script>
 </body>
 </html>
