@@ -19,38 +19,78 @@ files_collection = db['files']
 sentences_collection = db['sentences']
 
 
-@app.route("/pdf/<file_id>/<school_id>", methods=['POST'])
+@app.route("/pdf/<file_id>/view_all/<school_id>", methods=['GET'])
 def highlight_route(file_id, school_id):
-    data = request.get_json()
     result = highlight_school(file_id, school_id)
     file_data = files_collection.find_one({"file_id": int(file_id), "type": "view_all"})
     if file_data:
         # Chuyển đổi nội dung tệp PDF thành bytes
         pdf_binary = bytes(file_data['content'])
         pdf_stream = io.BytesIO(pdf_binary)
+        print(file_id, school_id)
+
         return send_file(pdf_stream, mimetype='application/pdf')
     else:
         return "File not found", 404
     
 @app.route("/pdf/<file_id>/<type>", methods=['GET'])
 def view_pdf(file_id, type):
-    # Tìm tệp PDF trong MongoDB theo file_id
-    file_data = files_collection.find_one({"file_id": int(file_id), "type": type})
-    
-    if file_data:
-        # Chuyển đổi nội dung tệp PDF thành bytes
-        pdf_binary = bytes(file_data['content'])
-        pdf_stream = io.BytesIO(pdf_binary)
-        return send_file(pdf_stream, mimetype='application/pdf')
+    file_id_pdf = file_id
+    if type == 'checked':
+        # Tìm tệp PDF trong MongoDB theo file_id
+        file_data = files_collection.find_one({"file_id": int(file_id_pdf), "type": type})
+        
+        if file_data:
+            # Chuyển đổi nội dung tệp PDF thành bytes
+            pdf_binary = bytes(file_data['content'])
+            pdf_stream = io.BytesIO(pdf_binary)
+            return send_file(pdf_stream, mimetype='application/pdf')
+        else:
+            return "File not found", 404
     else:
-        return "File not found", 404
+        if type == 'raw':
+            sentences_data = sentences_collection.find({"file_id": int(file_id_pdf), "sources": {"$ne": None, "$ne": []}})
+            
+            if sentences_data:
+                school_source_on = {}
+                for sentence in sentences_data:
+                    sources = sentence.get('sources', [])
+                    for source in sources:
+                        school_id = source['school_id']
+                        highlight = source['highlight']
+                        if school_id not in school_source_on:
+                            school_source_on[school_id] = {
+                                "word_count": 0, 
+                            }
+                        school_source_on[school_id]['word_count'] += highlight.get('word_count_sml', 0)
+            school_source_on = sorted(school_source_on.items(), key=lambda x: x[1]['word_count'], reverse=True)
+            
+            for i, (school_id_source, _) in enumerate(school_source_on): 
+                sentences_data = sentences_collection.find({"file_id": int(file_id_pdf), "sources": {"$ne": None, "$ne": []}})
+                for sentence in sentences_data:
+                    sources = sentence.get('sources', [])
+                    for source in sources:
+                        school_id = source['school_id']
+                        if school_id == school_id_source:
+                                    collection_sentences.update_many(
+                                        {"file_id": int(file_id_pdf), "sources.school_id": school_id}, 
+                                        {"$set": {"sources.$[elem].school_stt": i + 1}},  
+                                        array_filters=[{"elem.school_id": school_id}]
+                                    )
+            file_data = files_collection.find_one({"file_id": int(file_id_pdf), "type": 'raw'})
+            if file_data:
+                # Chuyển đổi nội dung tệp PDF thành bytes
+                pdf_binary = bytes(file_data['content'])
+                pdf_stream = io.BytesIO(pdf_binary)
+                return send_file(pdf_stream, mimetype='application/pdf')
+            else:
+                return "File not found", 404
 
-
-@app.route("/<file_id>/<type>")
-def index(file_id, type):
+@app.route("/<file_id>")
+def index(file_id):
     try:
         file_id_pdf = file_id
-        file_data_checked = files_collection.find_one({"file_id": int(file_id_pdf), "type": type})
+        file_data_checked = files_collection.find_one({"file_id": int(file_id_pdf), "type": 'checked'})
         sentences_data = sentences_collection.find({"file_id": int(file_id_pdf), "sources": {"$ne": None, "$ne": []}})
         if sentences_data:
             page_count = file_data_checked.get('page_count')
@@ -126,7 +166,7 @@ def index(file_id, type):
             school_source_on = sorted(school_source_on.items(), key=lambda x: x[1]['word_count'], reverse=True)
 
 
-            return render_template('index.html',file_id=file_id_pdf, type=type, page_count = page_count, word_count = word_count, percent = percent, best_sources_list = best_sources_list, school_source_off=school_source_off, school_source_on = school_source_on )
+            return render_template('index.html',file_id=file_id_pdf, page_count = page_count, word_count = word_count, percent = percent, best_sources_list = best_sources_list, school_source_off=school_source_off, school_source_on = school_source_on )
         
         else:
             return "File not found", 404

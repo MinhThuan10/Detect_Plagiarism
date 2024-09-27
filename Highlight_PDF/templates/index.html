@@ -11,6 +11,7 @@
             height: 90vh;
             padding: 10px;
             box-sizing: border-box;
+            overflow-y: scroll; /* Thêm để cuộn dọc */
         }
         .school-box {
             padding: 15px;
@@ -35,7 +36,13 @@
             border-radius: 50px;
         }   
 
-
+        canvas {
+            display: block;
+            margin: auto;
+        }
+        .controls {
+            margin-top: 10px;
+        }
         .hidden {
             display: none;
         }
@@ -45,19 +52,17 @@
     <div class="container mt-5">
         <div class="row">
             <!-- Ô bên trái hiển thị nội dung PDF -->
-            <div class="col-md-8"`>
+            <div class="col-md-9"`>
                 <h2>PDF Viewer</h2>
                 <!-- Hiển thị PDF bằng iframe -->
                 <div class="overlapping" style="display: block;">
-                    <div class="pdf-viewer">
-                        <iframe src="/pdf/{{ file_id }}/{{ type }}" width="100%" height="100%"></iframe>
-                    </div>
+                    <div class="pdf-viewer" id="pdf-viewer"></div>
                 </div>
             </div>
             
             
             <!-- Ô bên phải hiển thị thông tin và báo cáo -->
-            <div class="col-md-4">
+            <div class="col-md-3">
                 <h3>Standard Report</h3>
                 <div class="mb-4">
                     <strong>Page Count:</strong> {{ page_count }} <br>
@@ -76,7 +81,7 @@
                 <div class="statistics-box overlapping-off" style="display: block;">
                     {% for school_id, school_data in school_source_off %}
                         <div class="school-box highlight_school{{ school_id }}" onclick="toggleSchool_Off('{{ school_id }}')">
-                            <strong class = "index-school-view" style="background-color: {{school_data['color']}};">{{ loop.index }}</strong>
+                            <strong class="index-school-view" style="background-color: {{ school_data['color'] }};">{{ loop.index }}</strong>
                             <h5 style="color: {{school_data['color']}};">{{ school_data['school_name'] }}</h5><br>
                             <strong>Word Matched:</strong> {{ school_data['word_count'] }}<br>
                             <strong>Percentage:</strong> {{ "%.2f" % ((school_data['word_count'] / word_count) * 100) }}%
@@ -85,7 +90,7 @@
                         <div class="sentence-box sentence-box-off" id="overlapping-off-{{ school_id }}" style="display: none;">
                             <ul id="sentence-list-off-{{ school_id }}">
                                 {% for sentence_index, sentence_data in school_data['sentences'].items() %}
-                                    <li class="sentence-item">
+                                    <li class="sentence-item"data-page="{{ sentence_data['page'] }}">
                                         <strong>Best Match:</strong>{{ sentence_data['best_match']|safe }} <br>
                                         {{ sentence_data['word_count_sml'] }} word
                                     </li>
@@ -105,7 +110,7 @@
                 <div class="statistics-box overlapping-on" style="display: none;">
                     {% for school_id, school_data in school_source_on %}
                         <div class="school-box highlight_school{{ school_id }}" onclick="toggleSchool_On('{{ school_id }}')">
-                            <strong class = "index-school-view" style="background-color: {{school_data['color']}};">{{ loop.index }}</strong>
+                            <strong class="index-school-view" style="background-color: {{ school_data['color'] }};">{{ loop.index }}</strong>
                             <h5 style="color: {{school_data['color']}};">{{ school_data['school_name'] }}</h5><br>
                             <strong>Word Matched:</strong> {{ school_data['word_count'] }}<br>
                             <strong>Percentage:</strong> {{ "%.2f" % ((school_data['word_count'] / word_count) * 100) }}%
@@ -114,7 +119,7 @@
                         <div class="sentence-box sentence-box-on" id="overlapping-on-{{ school_id }}" style="display: none;">
                             <ul id="sentence-list-on-{{ school_id }}">
                                 {% for sentence_index, sentence_data in school_data['sentences'].items() %}
-                                    <li class="sentence-item">
+                                    <li class="sentence-item" data-page="{{ sentence_data['page'] }}">
                                         <strong>Best Match:</strong>{{ sentence_data['best_match']|safe }} <br>
                                         {{ sentence_data['word_count_sml'] }} word
                                     </li>
@@ -132,19 +137,88 @@
             </div>
         </div>
     </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.11.338/pdf.min.js"></script>
 
     <script>
+        let pdfDoc = null;
+        let currentPage = 1; // Biến lưu trang hiện tại
+
+        async function loadPdf(pdfPath) {
+            const loadingTask = pdfjsLib.getDocument(pdfPath);
+            loadingTask.promise.then(pdf => {
+                console.log('abc')
+                pdfDoc = pdf;
+                renderAllPages(); // Tải tất cả các trang
+            }).catch(error => {
+                console.error('Error loading PDF:', error);
+                alert('Could not load PDF. Please check the file ID and type.');
+            });
+        }
+
+        function renderAllPages() {
+            const pdfViewer = document.getElementById('pdf-viewer');
+            pdfViewer.innerHTML = ''; // Xóa nội dung cũ trước khi thêm các trang mới
+
+            for (let pageNum = 1; pageNum <= pdfDoc.numPages; pageNum++) {
+                renderPage(pageNum); // Gọi hàm render cho từng trang
+            }
+        }
+
+        function renderPage(pageNum) {
+            pdfDoc.getPage(pageNum).then(page => {
+                const scale = 1.5; // Thay đổi tỷ lệ nếu cần
+                const viewport = page.getViewport({ scale: scale });
+                const canvas = document.createElement('canvas');
+                const context = canvas.getContext('2d');
+
+                canvas.height = viewport.height;
+                canvas.width = viewport.width;
+
+                const pdfViewer = document.getElementById('pdf-viewer');
+                pdfViewer.appendChild(canvas); // Thêm canvas vào pdfViewer
+
+                const renderContext = {
+                    canvasContext: context,
+                    viewport: viewport
+                };
+                page.render(renderContext);
+            });
+        }
+
+        function scrollToPage(pageNum) {
+            console.log(pageNum)
+
+            const pdfViewer = document.getElementById('pdf-viewer');
+            const canvases = pdfViewer.getElementsByTagName('canvas');
+
+            // Cuộn đến vị trí của trang cụ thể
+            if (canvases[pageNum]) {
+                canvases[pageNum].scrollIntoView({ behavior: 'smooth' });
+            }
+        }
+
+        window.onload = function() {
+            const pdfPath = `/pdf/{{ file_id }}/checked`; // Đường dẫn đến PDF
+            loadPdf(pdfPath); // Tải PDF khi trang được tải
+        }
 
         const sentencesPerPage = 3;
 
         function showSentencePage(schoolId, type, pageNum) {
             const sentenceItems = document.querySelectorAll(`#sentence-list-${type}-${schoolId} .sentence-item`);
             const totalPages = Math.ceil(sentenceItems.length / sentencesPerPage);
+            
+            let firstDisplayedPage = null;  // Khởi tạo biến để lưu giá trị data-page của phần tử đầu tiên
 
             // Hiển thị các câu của trang hiện tại
             sentenceItems.forEach((item, index) => {
                 if (index >= (pageNum - 1) * sentencesPerPage && index < pageNum * sentencesPerPage) {
                     item.style.display = "list-item";
+
+                    // Chỉ lấy data-page của phần tử đầu tiên
+                    if (firstDisplayedPage === null) {
+                        firstDisplayedPage = item.getAttribute('data-page');
+                    }
                 } else {
                     item.style.display = "none";
                 }
@@ -152,7 +226,12 @@
 
             // Cập nhật số trang
             document.getElementById(`sentence-page-num-${type}-${schoolId}`).innerText = pageNum;
+
+            // Gọi hàm cuộn trang (giả định scrollToPage đã được định nghĩa)
+            scrollToPage(firstDisplayedPage);
         }
+
+
 
         function nextSentencePage(schoolId, type) {
             const sentenceItems = document.querySelectorAll(`#sentence-list-${type}-${schoolId} .sentence-item`);
@@ -174,7 +253,7 @@
             }
         }
 
-        // Khi trang được tải, hiển thị trang đầu tiên cho tất cả các sentence-box
+
         document.addEventListener("DOMContentLoaded", () => {
             const sentenceBoxesOff = document.querySelectorAll(".sentence-box-off");
             const sentenceBoxesOn = document.querySelectorAll(".sentence-box-on");
@@ -188,8 +267,8 @@
                 const schoolId = box.id.split("-")[2]; // Lấy school_id từ id
                 showSentencePage(schoolId, 'on', 1);
             });
-        });
 
+        });
         
         function toggleOverlappingSources() {
             const overlappingStatistics_off = Array.from(document.getElementsByClassName("overlapping-off"));
@@ -215,90 +294,62 @@
         }
 
         function toggle_sources(type) {
-            fetch(`/pdf/{{file_id}}/${type}`, {
-                method: 'GET', // Đặt phương thức là GET
-            })
-            .then(response => {
-                if (!response.ok) {
-                    throw new Error('Network response was not ok');
-                }
-                return response.blob(); // Chuyển đổi phản hồi thành blob
-            })
-            .then(blob => {
-                const url = URL.createObjectURL(blob); // Tạo URL từ blob
-                const iframe = document.querySelector(".overlapping .pdf-viewer iframe");
-                iframe.src = url; // Cập nhật src của iframe
-            })
-            .catch((error) => {
-                console.error('Error fetching PDF:', error);
-            });
+            const pdfPath = `/pdf/{{ file_id }}/${type}`;
+            loadPdf(pdfPath);
         }
 
         function toggleSchool_On(schoolId) {
             const elements = Array.from(document.getElementsByClassName("sentence-box-on"));
-            const element = document.getElementById(`overlapping-on-${schoolId}`)
+            const element = document.getElementById(`overlapping-on-${schoolId}`);
             const otherElements = elements.filter(el => el !== element);
 
             otherElements.forEach(el => {
                 el.style.display = "none";
             });
 
-
             if (element.style.display === "none" || element.style.display === "") {
                 element.style.display = "block";
-                highlightSchool(schoolId)
+                highlightSchool(schoolId);
+                var firstSentenceItem = document.querySelector(`#overlapping-on-${schoolId} .sentence-item`);
+                if (firstSentenceItem) {
+                    var firstPageValue = firstSentenceItem.getAttribute('data-page');
+                    scrollToPage(firstPageValue)
+                }
             } else {
                 element.style.display = "none";
-                toggle_sources('raw')
+                toggle_sources('raw');
             }
-
         }
 
         function highlightSchool(schoolId) {
-            fetch(`/pdf/{{file_id}}/${schoolId}`, {
-                method: 'POST', // Đặt phương thức là POST
-                headers: {
-                    'Content-Type': 'application/json' // Đặt loại nội dung là JSON
-                },
-                body: JSON.stringify({}) // Nếu không cần dữ liệu bổ sung thì để trống body
-            })
-            .then(response => {
-                if (!response.ok) {
-                    throw new Error('Network response was not ok');
-                }
-                return response.blob(); // Chuyển đổi phản hồi thành blob (PDF)
-            })
-            .then(blob => {
-                const url = URL.createObjectURL(blob); // Tạo URL từ blob
-                const iframe = document.querySelector(".overlapping .pdf-viewer iframe");
-                iframe.src = url; // Cập nhật src của iframe với URL blob
-            })
-            .catch((error) => {
-                console.error('Error fetching PDF:', error);
-            });
+
+            const pdfPath = `/pdf/{{ file_id }}/view_all/${schoolId}`;
+            loadPdf(pdfPath);
         }
     
         function toggleSchool_Off(schoolId) {
             const elements = Array.from(document.getElementsByClassName("sentence-box-off"));
-            const element = document.getElementById(`overlapping-off-${schoolId}`)
+            const element = document.getElementById(`overlapping-off-${schoolId}`);
             const otherElements = elements.filter(el => el !== element);
 
             otherElements.forEach(el => {
                 el.style.display = "none";
             });
 
-
             if (element.style.display === "none" || element.style.display === "") {
                 element.style.display = "block";
-                
+                var firstSentenceItem = document.querySelector(`#overlapping-on-${schoolId} .sentence-item`);
+                if (firstSentenceItem) {
+                    var firstPageValue = firstSentenceItem.getAttribute('data-page');
+                    scrollToPage(firstPageValue)
+                }
             } else {
                 element.style.display = "none";
-                
             }
-
         }
-
         
     </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.10.377/pdf.min.js"></script>
+
 </body>
 </html>

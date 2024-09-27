@@ -387,103 +387,6 @@ def read_pdf_binary(file_path):
     with open(file_path, 'rb') as file:
         return file.read()
     
-# def common_ordered_words_difflib(best_match, sentence):
-#     # Tách từ và ký tự đặc biệt nhưng giữ khoảng trắng
-#     def clean_text(text):
-#         return re.split(r'(\W+)', text) 
-
-#     words_best_match = clean_text(best_match)
-#     words_sentence = clean_text(sentence)
-
-#     seq_matcher = difflib.SequenceMatcher(None, [w.lower() for w in words_best_match], [w.lower() for w in words_sentence])
-
-#     paragraphs = []  
-#     current_paragraph = []
-#     word_count_sml = 0  
-
-#     last_end_index = -1
-#     for match in seq_matcher.get_matching_blocks():
-#         if match.size > 0:  
-#             matched_words_best_match = words_best_match[match.a: match.a + match.size]
-#             matched_words_sentence = words_sentence[match.b: match.b + match.size]  
-
-#             if len(current_paragraph) > 0 and match.b == last_end_index + 1:
-#                 current_paragraph.extend(matched_words_sentence)  # Lấy từ `sentence`
-#             else:
-#                 if current_paragraph:
-#                     paragraph = "".join(current_paragraph).strip()
-#                     if paragraph:  # Kiểm tra xem đoạn văn không rỗng
-#                         paragraphs.append(paragraph)
-#                 current_paragraph = matched_words_sentence
-#             # Cập nhật chỉ số và đếm số từ cho đoạn trùng khớp
-#             last_end_index = match.b + match.size - 1
-#             for word in matched_words_best_match:
-#                 if re.match(r'\w+', word):  # Chỉ đếm từ thực sự
-#                     word_count_sml += 1
-
-#     if current_paragraph:
-#         paragraphs.append("".join(current_paragraph))  
-
-#     paragraphs = [p for p in paragraphs if p.strip()]
-
-#     return word_count_sml, paragraphs
-
-
-# def common_ordered_words_difflib(best_match, sentence):
-#     # Tách từ và ký tự đặc biệt nhưng giữ khoảng trắng
-#     def clean_text(text):
-#         return re.split(r'(\W+)', text) 
-
-#     words_best_match = clean_text(best_match)
-#     words_sentence = clean_text(sentence)
-
-#     seq_matcher = difflib.SequenceMatcher(None, [w.lower() for w in words_best_match], [w.lower() for w in words_sentence])
-
-#     paragraphs = []  # Danh sách chứa các đoạn từ sentence
-#     paragraphs_best_match = []  # Danh sách chứa các đoạn từ best_match
-#     current_paragraph = []
-#     current_paragraph_best_match = []
-#     word_count_sml = 0  
-
-#     last_end_index = -1
-#     for match in seq_matcher.get_matching_blocks():
-#         if match.size > 0:  
-#             matched_words_best_match = words_best_match[match.a: match.a + match.size]
-#             matched_words_sentence = words_sentence[match.b: match.b + match.size]  
-
-#             if len(current_paragraph) > 0 and match.b == last_end_index + 1:
-#                 # Tiếp tục nối vào đoạn hiện tại nếu từ trùng khớp là liên tiếp
-#                 current_paragraph.extend(matched_words_sentence)
-#                 current_paragraph_best_match.extend(matched_words_best_match)
-#             else:
-#                 if current_paragraph:
-#                     # Nếu đoạn hiện tại không rỗng, thêm nó vào kết quả
-#                     paragraph = "".join(current_paragraph).strip()
-#                     paragraph_best_match = "".join(current_paragraph_best_match).strip()
-#                     if paragraph and paragraph_best_match:  # Kiểm tra đoạn không rỗng
-#                         paragraphs.append(paragraph)
-#                         paragraphs_best_match.append(paragraph_best_match)
-#                 # Bắt đầu một đoạn mới
-#                 current_paragraph = matched_words_sentence
-#                 current_paragraph_best_match = matched_words_best_match
-            
-#             # Cập nhật chỉ số và đếm số từ cho đoạn trùng khớp
-#             last_end_index = match.b + match.size - 1
-#             for word in matched_words_best_match:
-#                 if re.match(r'\w+', word):  # Chỉ đếm từ thực sự
-#                     word_count_sml += 1
-
-#     # Thêm đoạn cuối cùng vào paragraphs nếu có
-#     if current_paragraph:
-#         paragraphs.append("".join(current_paragraph).strip())
-#         paragraphs_best_match.append("".join(current_paragraph_best_match).strip())
-
-#     # Loại bỏ các đoạn văn rỗng
-#     paragraphs = [p for p in paragraphs if p.strip()]
-#     paragraphs_best_match = [p for p in paragraphs_best_match if p.strip()]
-
-#     return word_count_sml, paragraphs, paragraphs_best_match
-
 
 def common_ordered_words(best_match, sentence):
     # Tách từ và ký tự đặc biệt nhưng giữ nguyên khoảng trắng và dấu câu
@@ -536,9 +439,17 @@ def common_ordered_words(best_match, sentence):
     if current_paragraph_best_match:
         paragraphs_best_match.append("".join(current_paragraph_best_match).strip())
         paragraphs_sentence.append("".join(current_paragraph_sentence).strip())
+    
+    unique_paragraphs_best_match = set()
+    unique_paragraphs_sentence = set()
+    paragraphs_best_match = [
+        p for p in paragraphs_best_match 
+        if p and re.search(r'\w', p) and p not in unique_paragraphs_best_match and not unique_paragraphs_best_match.add(p)
+    ]
 
-    # Loại bỏ các đoạn trống hoặc không hợp lệ
-    paragraphs_best_match = [p for p in paragraphs_best_match if p]
-    paragraphs_sentence = [p for p in paragraphs_sentence if p]
+    paragraphs_sentence = [
+        p for p in paragraphs_sentence 
+        if p and re.search(r'\w', p) and p not in unique_paragraphs_sentence and not unique_paragraphs_sentence.add(p)
+    ]
 
     return word_count_sml, paragraphs_best_match, paragraphs_sentence

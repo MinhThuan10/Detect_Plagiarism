@@ -25,11 +25,11 @@ collection_files = db['files']
 # Start the timer
 start_time = time.time()
 plagiarized_count = 0
-file_path = './test/Data/Ditgial_MarketingTLCK_Edit.pdf'
+file_path = './test/Data/thuyettrinh.pdf'
 
 assignment_id = 1
-file_id = 3
-title = 'Ditgial_MarketingTLCK_Edit'
+file_id = 1
+title = 'thuyettrinh'
 author = 'Thuan'
 
 
@@ -55,6 +55,35 @@ def is_within(qua_t, qua_s):
         return True
     else:
         return False
+    
+def is_position(new_position, positions):
+    merged = False
+
+    for position in positions:
+        if (new_position['y_0'] == position['y_0'] and new_position['y_1'] == position['y_1']):
+            print('abc+newposition')
+            if (new_position['x_0'] <= position['x_0'] and new_position['x_1'] >= position['x_1'] - 5):
+                position['x_0'] = new_position['x_0']
+                position['x_1'] = new_position['x_1']
+                merged = True
+                break
+            if (new_position['x_0'] <= position['x_0'] and new_position['x_1'] >= position['x_0']): #1
+                position['x_0'] = new_position['x_0']
+                merged = True
+                break     
+            if (new_position['x_0'] >= position['x_0'] and new_position['x_1'] <= position['x_1']): #2
+                merged = True
+                break
+            if (new_position['x_0'] >= position['x_0'] and new_position['x_0'] <= position['x_1'] + 5): #3
+                position['x_1'] = new_position['x_1']
+                merged = True
+                break     
+    return merged
+def should_merge(pos1, pos2):
+    # Check if positions overlap or are adjacent on the x-axis
+    return not (pos1["x_1"] < pos2["x_0"] or pos1["x_0"] > pos2["x_1"])
+
+
 pdf_document = fitz.open(file_path)
 doc = pymupdf.open(file_path)
 current_school_id = 0
@@ -112,8 +141,8 @@ for page_num in range(pdf_document.page_count):
                         school_id = current_school_id
                         school_cache[school_name] = school_id
                         current_school_id += 1
-                    position = []
-                    word_count_sml, paragraphs, paragraphs_best_math = common_ordered_words_difflib(best_match, sentence)
+                    positions = []
+                    word_count_sml,paragraphs_best_math, paragraphs  = common_ordered_words(best_match, sentence)
                     quads_sentence = page.search_for(sentence, quads=True)
                     
                     for paragraph in paragraphs:
@@ -121,12 +150,18 @@ for page_num in range(pdf_document.page_count):
                         for qua_s in quads_sentence:
                             for qua_t in quads_token:
                                 if is_within(qua_t, qua_s) == True:
-                                    position.append({
+                                    new_position = {
                                         "x_0" : qua_t[0].x,
                                         "y_0" : qua_t[0].y,
                                         "x_1" : qua_t[-1].x,
                                         "y_1" : qua_t[-1].y
-                                    })
+                                    }
+                                    merged = is_position(new_position, positions)
+                                    if not merged:
+                                        positions.append(new_position)    
+                                        
+                                           
+                                        
                     best_match = wrap_paragraphs_with_color(paragraphs_best_math, best_match, school_id)
                     sources.append({
                         "school_id": school_id,
@@ -141,7 +176,7 @@ for page_num in range(pdf_document.page_count):
                         "highlight": {
                             "word_count_sml": word_count_sml,
                             "paragraphs": paragraphs_best_math,
-                            "position": position
+                            "position": positions
                         }
                     })
                     if score > max_score:
@@ -194,8 +229,8 @@ for page_num in range(pdf_document.page_count):
                         file_name = items[idx].get('title')
                         best_match = match_sentence
 
-                        position = []
-                        word_count_sml, paragraphs, paragraphs_best_math = common_ordered_words_difflib(best_match, sentence)
+                        positions = []
+                        word_count_sml, paragraphs_best_math, paragraphs = common_ordered_words(best_match, sentence)
                         quads_sentence = page.search_for(sentence, quads=True)
                         
                         for paragraph in paragraphs:
@@ -203,12 +238,20 @@ for page_num in range(pdf_document.page_count):
                             for qua_s in quads_sentence:
                                 for qua_t in quads_token:
                                     if is_within(qua_t, qua_s) == True:
-                                        position.append({
-                                            "x_0" : qua_t[0].x,
-                                            "y_0" : qua_t[0].y,
-                                            "x_1" : qua_t[-1].x,
-                                            "y_1" : qua_t[-1].y
-                                        })
+                                        new_position = {
+                                        "x_0" : qua_t[0].x,
+                                        "y_0" : qua_t[0].y,
+                                        "x_1" : qua_t[-1].x,
+                                        "y_1" : qua_t[-1].y
+                                        }
+                                        if positions:
+                                            merged = is_position(new_position, positions)
+                                            if not merged:
+                                                positions.append(new_position) 
+                                        else:
+                                            positions.append(new_position) 
+
+                                    
                         best_match = wrap_paragraphs_with_color(paragraphs_best_math, best_match, school_id)
                         sources.append({
                             "school_id": school_id,
@@ -223,7 +266,7 @@ for page_num in range(pdf_document.page_count):
                             "highlight": {
                                 "word_count_sml": word_count_sml,
                                 "paragraphs": paragraphs_best_math,
-                                "position": position
+                                "position": positions
                             }
                         })
                         if score > max_score:
