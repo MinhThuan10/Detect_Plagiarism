@@ -127,7 +127,7 @@ for page_num in range(pdf_document.page_count):
             dynamic_threshold = calculate_dynamic_threshold(query_length)
             max_score = 0
             word_count_max = 0
-
+            source_id = 0
             for idx, score in enumerate(similarity_scores[0]):
                 if score >= dynamic_threshold:
                     school_name = sentence_results[idx]['school_name']
@@ -164,6 +164,7 @@ for page_num in range(pdf_document.page_count):
                                         
                     best_match = wrap_paragraphs_with_color(paragraphs_best_math, best_match, school_id)
                     sources.append({
+                        "source_id":source_id,
                         "school_id": school_id,
                         "school_name": school_name,
                         "file_id": file_id_source,
@@ -179,6 +180,7 @@ for page_num in range(pdf_document.page_count):
                             "position": positions
                         }
                     })
+                    source_id = source_id+1
                     if score > max_score:
                         max_score = score
                         word_count_max = word_count_sml
@@ -254,6 +256,7 @@ for page_num in range(pdf_document.page_count):
                                     
                         best_match = wrap_paragraphs_with_color(paragraphs_best_math, best_match, school_id)
                         sources.append({
+                            "source_id": source_id,
                             "school_id": school_id,
                             "school_name": domain,
                             "file_id": file_id_source,
@@ -269,6 +272,8 @@ for page_num in range(pdf_document.page_count):
                                 "position": positions
                             }
                         })
+                        source_id = source_id +1
+
                         if score > max_score:
                             max_score = score
                             word_count_max = word_count_sml
