@@ -14,6 +14,10 @@
             box-sizing: border-box;
             overflow-y: scroll; /* Thêm để cuộn dọc */
         }
+        .col-md-3{
+            overflow-y: scroll; /* Thêm để cuộn dọc */
+            
+        }
         .school-box {
             padding: 15px;
             margin-bottom: 10px;
@@ -25,7 +29,6 @@
         }
         .statistics-box {
             height: 500px;
-            overflow-y: scroll;
             background-color: #f8f9fa;
             padding: 15px;
         }
@@ -65,6 +68,51 @@
         .hidden {
             display: none;
         }
+        .similarity{
+            display: flex;
+        }
+        .fillter-button{
+            width: 200px;
+            height: 30px;
+        }
+
+        .exclusion-source{
+            background-color: aliceblue;
+        }
+
+        .exclusion-source-list{
+            padding: 12px 0;
+        }
+        .exclution-source-item{
+            display: flex;
+            padding: 24px;
+            border: solid 1px ;
+            border-radius: 20px;
+            margin-top: 12px;
+            justify-content: space-between;
+        }
+
+        .exclution-text-item{
+            background-color: rgb(255, 210, 210);
+        }
+        
+        .exclusion-text-list{
+            padding: 12px 0;
+        }
+
+        .exclution-text-item{
+            display: flex;
+            padding: 24px;
+            border: solid 1px ;
+            border-radius: 20px;
+            margin-top: 12px;
+            justify-content: space-between;
+        }
+        .exclution-text-item-title{
+            font-weight: 800;
+            font-size: 16px;
+            
+        }
 
     </style>
 </head>
@@ -73,8 +121,6 @@
         <div class="row">
             <!-- Ô bên trái hiển thị nội dung PDF -->
             <div class="col-md-9"`>
-                <h2>PDF Viewer</h2>
-                <!-- Hiển thị PDF bằng iframe -->
                 <div class="overlapping" style="display: block;">
                     <div class="pdf-viewer" id="pdf-viewer"></div>
                 </div>
@@ -83,92 +129,186 @@
             
             <!-- Ô bên phải hiển thị thông tin và báo cáo -->
             <div class="col-md-3">
-                <h3>Standard Report</h3>
-                <div class="mb-4">
-                    <strong>Page Count:</strong> {{ page_count }} <br>
-                    <strong>Word Count:</strong> {{ word_count }}
-                </div>
-
-                <h4>Sources</h4>
-
-                <div class="form-check form-switch">
-                    <input class="form-check-input" type="checkbox" id="toggle-sources" onclick="toggleOverlappingSources()">
-                    <label class="form-check-label" for="toggle-sources">Show overlapping sources</label>
-                </div>
-                <div class="overlapping" style="display: block;">
-                    <strong>Percentage:</strong> {{ percent }} %
-                </div>
-                <div class="statistics-box overlapping-off" style="display: block;">
-                    {% for school_id, school_data in school_source_off %}
-                        <div class="school-box school-box-off highlight_school{{ school_id }}" onclick="toggleSchool_Off('{{ school_id }}')">
-                            <strong class="index-school-view index-school-view-off" style="background-color: {{ school_data['color'] }};">{{ loop.index }}</strong>
-
-                            <div class="school_name">
-                                <h5 style="color: {{school_data['color']}};">{{ school_data['school_name'] }}</h5> 
-                                <i class="bi bi-x-circle icon-remove"onclick="removeSchoolSource_Off('{{school_id}}')"></i>
+                <div class="report" style="display: block;">
+                    <div class="report-headers">
+                        <h3>Báo cáo thông thường</h3>
+                    </div>
+    
+                    <div class="resumer-container">
+                        <div class="similarity">
+                            <h2 class="percent">{{ "%.2f" %  percent }} % Tính tương đồng theo tiêu chuẩn</h2>
+                            <button class="fillter-button">
+                                <i class="bi bi-filter"></i>
+                                Bộ lọc
+                            </button>
+                        </div>
+                        
+                        <div class="mb-4">
+                            <strong>Page Count:</strong> {{ page_count }} <br>
+                            <strong>Word Count:</strong> {{ word_count }}
+                        </div>
+        
+                        <div class="exclusions-button-wrap">
+                            <button class="exclusions-button" onclick="toggleExclusions()">
+                                Các tiêu chí loại trừ
+                                <i class="bi bi-arrow-bar-right"></i>
+                            </button>
+                        </div>
+                        <h4>Nguồn</h4>
+        
+                        <div class="form-check form-switch">
+                            <input class="form-check-input" type="checkbox" id="toggle-sources" onclick="toggleOverlappingSources()">
+                            <label class="form-check-label" for="toggle-sources">Hiển thị các nguồn chồng chéo</label>
+                        </div>
+                    </div>
+                    
+    
+    
+                    <div class="statistics-box overlapping-off" style="display: block;">
+                        {% for school_id, school_data in school_source_off %}
+                            <div class="school-box school-box-off highlight_school{{ school_id }}" onclick="toggleSchool_Off('{{ school_id }}')">
+                                <strong class="index-school-view index-school-view-off" style="background-color: {{ school_data['color'] }};">{{ loop.index }}</strong>
+    
+                                <div class="school_name">
+                                    <h5 style="color: {{school_data['color']}};">{{ school_data['school_name'] }}</h5> 
+                                    <i class="bi bi-x-circle icon-remove"onclick="removeSchoolSource('{{school_id}}')"></i>
+                                </div>
+                                <br>
+                                <strong>Word Matched:</strong> {{ school_data['word_count'] }}<br>
+                                <strong>Percentage:</strong> {{ "%.2f" % ((school_data['word_count'] / word_count) * 100) }}%
                             </div>
-                            <br>
-                            <strong>Word Matched:</strong> {{ school_data['word_count'] }}<br>
-                            <strong>Percentage:</strong> {{ "%.2f" % ((school_data['word_count'] / word_count) * 100) }}%
+    
+                            <div class="sentence-box sentence-box-off" id="overlapping-off-{{ school_id }}" style="display: none;">
+                                <ul class="sentence-list" id="sentence-list-off-{{ school_id }}">
+                                    {% for sentence_index, sentence_data in school_data['sentences'].items() %}
+                                        <li class="sentence-item sentence-item-{{school_id}}-{{sentence_index}}"data-page="{{ sentence_data['page'] }}">
+                                            <a href="{{ sentence_data['file_id'] }}">{{ sentence_data['file_id'] }}</a><br>
+                                            <strong>Best Match:</strong>{{ sentence_data['best_match']|safe }} <br>
+                                            <div class="source-detail">
+                                                {{ sentence_data['word_count_sml'] }} word
+                                                <i class="bi bi-x-circle icon-remove" onclick="removeText('{{school_id}}', '{{sentence_index}}')"></i>
+                                            </div>
+                                            
+                                        </li>
+                                    {% endfor %}
+                                </ul>
+                                <!-- Phân trang -->
+                                <div class="pagination">
+                                    <button id="prev-page-sentence-off-{{ school_id }}" onclick="prevSentencePage('{{ school_id }}', 'off')"><i class="bi bi-chevron-double-left"></i></button>
+                                    <span id="sentence-page-num-off-{{ school_id }}">1</span> / <span id="sentence-total-page-off-{{ school_id}}"></span>
+                                    <button id="next-page-sentence-off-{{ school_id }}" onclick="nextSentencePage('{{ school_id }}', 'off')"><i class="bi bi-chevron-double-right"></i></button>
+                                </div>
+                            </div>
+                        {% endfor %}
+                    </div>
+    
+                    <!-- ON -->
+                    <div class="statistics-box overlapping-on" style="display: none;">
+                        {% for school_id, school_data in school_source_on %}
+                            <div class="school-box school-box-on highlight_school{{ school_id }}" onclick="toggleSchool_On('{{ school_id }}')">
+                                <strong class="index-school-view index-school-view-on" style="background-color: {{ school_data['color'] }};">{{ loop.index }}</strong>
+                                <div class="school_name">
+                                    <h5 style="color: {{school_data['color']}};">{{ school_data['school_name'] }}</h5>
+                                    <i class="bi bi-x-circle icon-remove" onclick="removeSchoolSource('{{school_id}}')"></i>
+                                </div>
+                                <br>
+                                <strong>Word Matched:</strong> {{ school_data['word_count'] }}<br>
+                                <strong>Percentage:</strong> {{ "%.2f" % ((school_data['word_count'] / word_count) * 100) }}%
+                            </div>
+                            <div class="sentence-box sentence-box-on" id="overlapping-on-{{ school_id }}" style="display: none;">
+                                <ul class="sentence-list" id="sentence-list-on-{{ school_id }}">
+                                    {% for sentence_index, sentence_data in school_data['sentences'].items() %}
+                                        <li class="sentence-item sentence-item-{{school_id}}-{{sentence_index}}" data-page="{{ sentence_data['page'] }}">
+                                            <a href="{{ sentence_data['file_id'] }}">{{ sentence_data['file_id'] }}</a><br>
+                                            <strong>Best Match:</strong>{{ sentence_data['best_match']|safe }} <br>
+                                            <div class="source-detail">
+                                                {{ sentence_data['word_count_sml'] }} word
+                                                <i class="bi bi-x-circle icon-remove" onclick="removeText('{{school_id}}', '{{sentence_index}}')"></i>
+                                            </div>
+                                        </li>
+                                    {% endfor %}
+                                </ul>
+                                <div class="pagination">
+                                    <button id="prev-page-sentence-on-{{ school_id }}" onclick="prevSentencePage('{{ school_id }}', 'on')"><i class="bi bi-chevron-double-left"></i></button>
+                                    <span id="sentence-page-num-on-{{ school_id }}">1</span> / <span id="sentence-total-page-on-{{ school_id }}"></span>
+                                    <button id="next-page-sentence-on-{{ school_id }}" onclick="nextSentencePage('{{ school_id }}', 'on')"><i class="bi bi-chevron-double-right"></i></button>
+                                </div>
+                            </div>
+                        {% endfor %}
+                    </div>
+                </div>
+
+                <div class="exclusion" style="display: none;">
+                    <div class="exclusion-header">
+                        <h2 class="exclusion-header-title">Các tiêu chí loại trừ</h2>
+                        <button class="exclusion-header-return-button"  onclick="toggleReport()">
+                            <i class="bi bi-arrow-left"></i>
+                            Quay lại Báo cáo tính tương đồng
+                        </button>
+                    </div>
+                    <div class="exclusion-source">
+                        <div class="exclusion-source-header">
+                            <h3>Các tiêu chí loại trừ nguồn</h3>
+                            <button class="exclusion-source-button" onclick="togglerAllSource()">Bao gồm tất cả các nguồn</button>
                         </div>
 
-                        <div class="sentence-box sentence-box-off" id="overlapping-off-{{ school_id }}" style="display: none;">
-                            <ul class="sentence-list" id="sentence-list-off-{{ school_id }}">
-                                {% for sentence_index, sentence_data in school_data['sentences'].items() %}
-                                    <li class="sentence-item"data-page="{{ sentence_data['page'] }}">
-                                        <a href="{{ sentence_data['file_id'] }}">{{ sentence_data['file_id'] }}</a><br>
-                                        <strong>Best Match:</strong>{{ sentence_data['best_match']|safe }} <br>
-                                        <div class="source-detail">
-                                            {{ sentence_data['word_count_sml'] }} word
+                        <div class="exclusion-source-list">
+                            {% for school_id, school_info in school_exclusion_source.items() %}
+                                <div class="exclution-source-item">
+                                    <div class="exclution-source-item-title">
+                                        {{ school_info.school_name }}
+                                    </div>
+                                    <div class="exclution-source-item-button">
+                                        <button  onclick="togglerSourceSchool('{{school_id}}')">
                                             <i class="bi bi-x-circle icon-remove"></i>
+                                        </button>
+                                    </div>
+                                    
+                                </div>
+                            {% endfor %}
+                        
+                        </div>
+                    </div>
+
+                    <div class="exclusion-text"></div>
+                        <div class="exclusion-text-header">
+                            <h3>Các tiêu chí loại trừ văn bản</h3>
+                            <button class="exclusion-text-button" onclick="togglerAllText()">Bao gồm tất cả các văn bản</button>
+                        </div>
+
+                        <div class="exclusion-text-list">
+                            {% for sentence_index, sources in school_exclusion_text.items() %}
+                                <div class="exclution-text-item">
+                                    {% for source_id, text_info in sources.items() %}
+                                        <div class="exclution-text-wrap">
+                                            <div class="exclution-text-item-header">
+                                                {{ text_info.best_match|safe }} <!-- Hiển thị best_match -->
+                                            </div>
+                                            <div class="exclution-text-item-title">
+                                                {{ text_info.school_name }} <!-- Hiển thị school_name -->
+                                            </div>
                                         </div>
                                         
-                                    </li>
-                                {% endfor %}
-                            </ul>
-                            <!-- Phân trang -->
-                            <div class="pagination">
-                                <button id="prev-page-sentence-off-{{ school_id }}" onclick="prevSentencePage('{{ school_id }}', 'off')"><i class="bi bi-chevron-double-left"></i></button>
-                                <span id="sentence-page-num-off-{{ school_id }}">1</span> / <span id="sentence-total-page-off-{{ school_id}}"></span>
-                                <button id="next-page-sentence-off-{{ school_id }}" onclick="nextSentencePage('{{ school_id }}', 'off')"><i class="bi bi-chevron-double-right"></i></button>
-                            </div>
-                        </div>
-                    {% endfor %}
-                </div>
-
-                <!-- ON -->
-                <div class="statistics-box overlapping-on" style="display: none;">
-                    {% for school_id, school_data in school_source_on %}
-                        <div class="school-box school-box-on highlight_school{{ school_id }}" onclick="toggleSchool_On('{{ school_id }}')">
-                            <strong class="index-school-view index-school-view-on" style="background-color: {{ school_data['color'] }};">{{ loop.index }}</strong>
-                            <div class="school_name">
-                                <h5 style="color: {{school_data['color']}};">{{ school_data['school_name'] }}</h5>
-                                <i class="bi bi-x-circle icon-remove" onclick="removeSchoolSource_On('{{school_id}}')"></i>
-                            </div>
-                            <br>
-                            <strong>Word Matched:</strong> {{ school_data['word_count'] }}<br>
-                            <strong>Percentage:</strong> {{ "%.2f" % ((school_data['word_count'] / word_count) * 100) }}%
-                        </div>
-                        <div class="sentence-box sentence-box-on" id="overlapping-on-{{ school_id }}" style="display: none;">
-                            <ul class="sentence-list" id="sentence-list-on-{{ school_id }}">
-                                {% for sentence_index, sentence_data in school_data['sentences'].items() %}
-                                    <li class="sentence-item" data-page="{{ sentence_data['page'] }}">
-                                        <a href="{{ sentence_data['file_id'] }}">{{ sentence_data['file_id'] }}</a><br>
-                                        <strong>Best Match:</strong>{{ sentence_data['best_match']|safe }} <br>
-                                        <div class="source-detail">
-                                            {{ sentence_data['word_count_sml'] }} word
-                                            <i class="bi bi-x-circle icon-remove"></i>
+                                        <div class="exclution-text-item-button">
+                                            <button onclick="togglerText('{{ sentence_index }}', '{{ source_id }}')">
+                                                <i class="bi bi-x-circle icon-remove"></i>
+                                            </button>
                                         </div>
-                                    </li>
-                                {% endfor %}
-                            </ul>
-                            <div class="pagination">
-                                <button id="prev-page-sentence-on-{{ school_id }}" onclick="prevSentencePage('{{ school_id }}', 'on')"><i class="bi bi-chevron-double-left"></i></button>
-                                <span id="sentence-page-num-on-{{ school_id }}">1</span> / <span id="sentence-total-page-on-{{ school_id }}"></span>
-                                <button id="next-page-sentence-on-{{ school_id }}" onclick="nextSentencePage('{{ school_id }}', 'on')"><i class="bi bi-chevron-double-right"></i></button>
-                            </div>
+                                    {% endfor %}
+                                </div>
+                            {% endfor %}
+
+                        
                         </div>
-                    {% endfor %}
+                    </div>
+
+
+                </div>
+                
+                
+                
+                <div class="fillter" style="display: none;">
+                    
                 </div>
 
             </div>
@@ -323,7 +463,8 @@
                 overlappingStatistics_on.forEach(el => {
                     el.style.display = "none";
                 });
-                toggle_sources('checked')
+                location.reload();
+
             }
         }
 
@@ -383,7 +524,7 @@
         }
 
 
-        function removeSchoolSource_On(school_id) {
+        function removeSchoolSource(school_id) {
             const pdfPath = `/pdf/{{ file_id }}/remove/${school_id}`;
 
             fetch(pdfPath, {
@@ -400,36 +541,16 @@
             })
             .then(data => {
                 console.log('Response from server:', data); // Kiểm tra dữ liệu trả về
+                location.reload();
 
-                // Xóa phần tử khỏi UI
-                const schoolBoxes = document.querySelectorAll(`.highlight_school${school_id}`);
-                schoolBoxes.forEach(schoolBox => {
-                    schoolBox.remove(); // Xóa từng phần tử khỏi DOM
-                });
-
-                // Cập nhật lại số thứ tự
-                updateSchoolSourceOnUI();
             })
             .catch((error) => {
                 console.error('Error:', error);
             });
         }
 
-        // Hàm cập nhật số thứ tự
-        function updateSchoolSourceOnUI() {
-            const schoolBoxes_On = document.querySelectorAll('.school-box-on'); // Lấy tất cả các phần tử school-box
-            schoolBoxes_On.forEach((box, index) => {
-                box.querySelector('.index-school-view-on').textContent = index + 1; // Cập nhật STT
-            });
-
-            const schoolBoxes_Off = document.querySelectorAll('.school-box-off'); // Lấy tất cả các phần tử school-box
-            schoolBoxes_Off.forEach((box, index) => {
-                box.querySelector('.index-school-view-off').textContent = index + 1; // Cập nhật STT
-            });
-        }
-
-        function removeSchoolSource_Off(school_id) {
-            const pdfPath = `/pdf/{{ file_id }}/remove/${school_id}`;
+        function removeText(school_id, sentence_index) {
+            const pdfPath = `/pdf/{{ file_id }}/remove/${school_id}and${sentence_index}`;
 
             fetch(pdfPath, {
                 method: 'POST',
@@ -445,20 +566,134 @@
             })
             .then(data => {
                 console.log('Response from server:', data); // Kiểm tra dữ liệu trả về
-
-                // Xóa phần tử khỏi UI
-                const schoolBoxes = document.querySelectorAll(`.highlight_school${school_id}`);
-                schoolBoxes.forEach(schoolBox => {
-                    schoolBox.remove(); // Xóa từng phần tử khỏi DOM
-                });
-                toggle_sources("checked")
-                // Cập nhật lại số thứ tự
-                updateSchoolSourceOnUI();
+                location.reload();
+                
             })
             .catch((error) => {
                 console.error('Error:', error);
             });
         }
+
+
+        // exclusion
+        function toggleExclusions() {
+            // Lấy phần tử có class là report và exclusion
+            const report = document.querySelector('.report');
+            const exclusion = document.querySelector('.exclusion');
+            
+            // Ẩn class report
+            report.style.display = 'none';
+            
+            // Hiện class exclusion
+            exclusion.style.display = 'block';
+        }
+
+
+        function toggleReport() {
+            location.reload()
+        }
+        
+        function togglerAllSource(){
+            const pdfPath = `/pdf/{{ file_id }}/add/all-source`;
+
+            fetch(pdfPath, {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                }
+            })
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error('Error deleting school source');
+                }
+                return response.json(); // Trả về school_source_on dưới dạng JSON
+            })
+            .then(data => {
+                console.log('Response from server:', data); // Kiểm tra dữ liệu trả về
+                location.reload();
+
+            })
+            .catch((error) => {
+                console.error('Error:', error);
+            });
+        }
+    
+        function togglerSourceSchool(school_id){
+            const pdfPath = `/pdf/{{ file_id }}/add/${school_id}`;
+
+            fetch(pdfPath, {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                }
+            })
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error('Error deleting school source');
+                }
+                return response.json(); // Trả về school_source_on dưới dạng JSON
+            })
+            .then(data => {
+                console.log('Response from server:', data); // Kiểm tra dữ liệu trả về
+                location.reload();
+
+            })
+            .catch((error) => {
+                console.error('Error:', error);
+            });
+        }
+    
+        function togglerAllText(){
+            const pdfPath = `/pdf/{{ file_id }}/add/all-text`;
+
+            fetch(pdfPath, {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                }
+            })
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error('Error deleting school source');
+                }
+                return response.json(); // Trả về school_source_on dưới dạng JSON
+            })
+            .then(data => {
+                console.log('Response from server:', data); // Kiểm tra dữ liệu trả về
+                location.reload();
+
+            })
+            .catch((error) => {
+                console.error('Error:', error);
+            });
+        }
+
+        function togglerText(sentence_index, source_id){
+            const pdfPath = `/pdf/{{ file_id }}/add/${sentence_index}and${source_id}`;
+
+            fetch(pdfPath, {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                }
+            })
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error('Error deleting school source');
+                }
+                return response.json(); // Trả về school_source_on dưới dạng JSON
+            })
+            .then(data => {
+                console.log('Response from server:', data); // Kiểm tra dữ liệu trả về
+                location.reload();
+
+            })
+            .catch((error) => {
+                console.error('Error:', error);
+            });
+        }
+
+
 
     </script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.10.377/pdf.min.js"></script>

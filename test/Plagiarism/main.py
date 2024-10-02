@@ -91,12 +91,13 @@ school_cache = {}
 sentences_cache = {}
 word_count = 0
 word_count_similarity = 0
+sentence_index = 0
 for page_num in range(pdf_document.page_count):
     page = pdf_document[page_num]
     text = page.get_text("text")
     sentences = split_sentences(text)
     sentences = remove_sentences(sentences)
-    for i, sentence in enumerate(sentences):
+    for sentence in sentences:
         print(sentence)
         word_count += len(sentence.split())
         preprocessed_query, sentence_results = search_sentence_elastic(sentence)
@@ -106,7 +107,7 @@ for page_num in range(pdf_document.page_count):
                 "file_id": file_id,
                 "title": title,
                 "page": page_num,
-                "sentence_index": i,
+                "sentence_index": sentence_index,
                 "sentence": sentence,
                 "plagiarism": 'no',
                 "sources": []
@@ -283,7 +284,7 @@ for page_num in range(pdf_document.page_count):
                 "file_id": file_id,
                 "title": title,
                 "page": page_num,
-                "sentence_index": i,
+                "sentence_index": sentence_index,
                 "sentence": sentence,
                 "plagiarism": 'yes',
                 "sources": sources
@@ -295,13 +296,15 @@ for page_num in range(pdf_document.page_count):
             result = {
                 "file_id": file_id,
                 "title": title,
-                "sentence_index": i,
+                "page": page_num,
+                "sentence_index": sentence_index,
                 "sentence": sentence,
                 "plagiarism": 'no',
                 "sources": []
             }
             collection_sentences.insert_one(result)
         word_count_similarity += word_count_max
+        sentence_index = sentence_index + 1
 num_threads = os.cpu_count()
 
 sentences_data = list(collection_sentences.find({"file_id": int(file_id), "sources": {"$ne": None, "$ne": []}}))
