@@ -137,7 +137,7 @@
                     <div class="resumer-container">
                         <div class="similarity">
                             <h2 class="percent">{{ "%.2f" %  percent }} % Tính tương đồng theo tiêu chuẩn</h2>
-                            <button class="fillter-button">
+                            <button class="fillter-button"  onclick="toggleFillter()">
                                 <i class="bi bi-filter"></i>
                                 Bộ lọc
                             </button>
@@ -270,7 +270,7 @@
                         </div>
                     </div>
 
-                    <div class="exclusion-text"></div>
+                    <div class="exclusion-text">
                         <div class="exclusion-text-header">
                             <h3>Các tiêu chí loại trừ văn bản</h3>
                             <button class="exclusion-text-button" onclick="togglerAllText()">Bao gồm tất cả các văn bản</button>
@@ -308,7 +308,74 @@
                 
                 
                 <div class="fillter" style="display: none;">
-                    
+                    <div class="fillter-header">
+                        <h2 class="fillter-header-title">Bộ lọc</h2>
+                        <button class="fillter-header-return-button"  onclick="toggleReport()">
+                            <i class="bi bi-arrow-left"></i>
+                            Quay lại Báo cáo tính tương đồng
+                        </button>
+                    </div>
+                    <div class="fillter-container">
+                        <h2 class="percent">{{ "%.2f" %  percent }} % Tính tương đồng theo tiêu chuẩn</h2>
+
+                        <div class="fillter-source">
+                            <div class="fillter-source-header">
+                                So sánh các bài nộp với
+                                <i class="bi bi-question-circle"></i>
+                            </div>
+                            <div class="fillter-source-describe">
+                                Chọn ít nhất một loại nguồn để kiểm tra tính tương đồng.
+                            </div>
+                            <ul class="fillter-source-list">
+                                <li class="fillter-source-item">
+                                    <input type="checkbox" id="checkbox_hocvien" checked>
+                                    <label for="checkbox_hocvien">Cơ sở dữ liệu học viên</label>
+                                </li>
+                            
+                                <li class="fillter-source-item">
+                                    <input type="checkbox" id="checkbox_internet" checked>
+                                    <label for="checkbox_internet">Nội dung Internet</label>
+                                </li>
+                            
+                                <li class="fillter-source-item">
+                                    <input type="checkbox" id="checkbox_tapchi" checked>
+                                    <label for="checkbox_tapchi">Tạp chí, báo và ấn phẩm</label>
+                                </li>
+                            </ul>
+                            
+                        </div>
+
+                        <div class="fillter-exclusion">
+                            <div class="fillter-exclusion-header">
+                                Bộ lọc loại trừ
+                                <i class="bi bi-question-circle"></i>
+                            </div>
+                            <ul class="fillter-exclusion-list">
+                                <li class="fillter-exclusion-item">
+                                    <input type="checkbox" id="checkbox_muclucthamkhao">
+                                    <label for="checkbox_muclucthamkhao">Mục lục tham khảo</label>
+                                </li>
+                            
+                                <li class="fillter-exclusion-item">
+                                    <input type="checkbox" id="checkbox_ngoackep">
+                                    <label for="checkbox_ngoackep">Nội dung trong dấu ngoặc kép</label>
+                                </li>
+                            
+                            </ul>
+                            
+                        </div>
+                    </div>
+
+                    <div class="fillter-footer">
+                        <button class="fillter-footer-cancle">
+                            Hủy
+                        </button>
+
+                        <button class="fillter-footer-apply">
+                            Áp dụng
+                        </button>
+                    </div>
+
                 </div>
 
             </div>
@@ -588,7 +655,18 @@
             exclusion.style.display = 'block';
         }
 
-
+        function toggleFillter() {
+            // Lấy phần tử có class là report và exclusion
+            const report = document.querySelector('.report');
+            const exclusion = document.querySelector('.fillter');
+            
+            // Ẩn class report
+            report.style.display = 'none';
+            
+            // Hiện class exclusion
+            exclusion.style.display = 'block';
+        }
+        
         function toggleReport() {
             location.reload()
         }

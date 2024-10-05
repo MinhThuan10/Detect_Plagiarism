@@ -135,6 +135,7 @@ for page_num in range(pdf_document.page_count):
                     file_id_source = sentence_results[idx]['file_id']
                     file_name = sentence_results[idx]['file_name']
                     best_match = sentence_results[idx]['sentence']
+                    type = sentence_results[idx]['type']
                     
                     if school_name in school_cache:
                         school_id = school_cache[school_name]
@@ -170,6 +171,7 @@ for page_num in range(pdf_document.page_count):
                         "school_name": school_name,
                         "file_id": file_id_source,
                         "file_name": file_name,
+                        "type": type,
                         "except": 'no',
                         "color": color_hex[school_id],
                         "school_stt": 0,
@@ -262,6 +264,7 @@ for page_num in range(pdf_document.page_count):
                             "school_name": domain,
                             "file_id": file_id_source,
                             "file_name": file_name,
+                            "type": "Internet",
                             "except": 'no',
                             "color": color_hex[school_id],
                             "school_stt": 0,

@@ -355,16 +355,16 @@ def search_sentence_elastic(sentence):
         school_name = hit['_source']['school_name']
         file_id = hit['_source']['file_id']
         file_name = hit['_source']['file_name']
-        num_of_sentence = hit['_source']['num_of_sentence']
         sentence = hit['_source']['sentence']
+        type = hit['_source']['type']
 
         result_info = {
             'school_id': school_id,
             'school_name': school_name,
             'file_id': file_id,
             'file_name': file_name,
-            'num_of_sentence': num_of_sentence,
-            'sentence': sentence
+            'sentence': sentence,
+            'type':type
         }
         sentence_results.append(result_info)
     return processed_sentence, sentence_results

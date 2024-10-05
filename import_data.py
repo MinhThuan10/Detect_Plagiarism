@@ -11,7 +11,11 @@ def processing_data(file_path):
     processed_sentences = remove_single_word_sentences(sentences_with_page, './output/processed_sentences.txt')
     return processed_sentences
 
-
+ip_cluster = 'http://192.168.83.20:9200'
+school_id = '2'
+school_name = 'Phan Minh Thuan'
+index_name = 'pmt_index'
+type = 'Ấn bản'
 def process_all_files_in_folder(folder_path):
     # Lấy danh sách tất cả các file trong thư mục
     files = [f for f in os.listdir(folder_path) if f.endswith('.pdf')]
@@ -23,7 +27,9 @@ def process_all_files_in_folder(folder_path):
         # Xử lý dữ liệu cho từng file
         processed_sentences = processing_data(file_path)    
         # Lưu dữ liệu vào MongoDB
-        save_to_mongodb(processed_sentences, file_id_counter, file_name, 'Plagiarism', 'data')
+        # save_to_mongodb(processed_sentences, file_id_counter, file_name, 'Plagiarism', 'data')
+        
+        save_to_elasticsearch(ip_cluster, processed_sentences,school_id, school_name, file_id_counter, file_name, index_name, type)
         
 if __name__ == "__main__":
     folder_path = './Data_PMT'
