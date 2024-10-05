@@ -194,7 +194,9 @@ def highlight(file_id):
                 y_0 = position.get('y_0')
                 x_1 = position.get('x_1')
                 y_1 = position.get('y_1')
-                add_highlight_to_page(page, x_0, y_0, x_1, y_1, color, school_stt)
+                quotation_marks = position.get('quotation_marks')
+                if quotation_marks != "exclude":
+                    add_highlight_to_page(page, x_0, y_0, x_1, y_1, color, school_stt)
     return pdf_stream
 
 def highlight_school(file_id, school_id):
@@ -225,7 +227,9 @@ def highlight_school(file_id, school_id):
                     y_0 = position.get('y_0')
                     x_1 = position.get('x_1')
                     y_1 = position.get('y_1')
-                    add_highlight_to_page(page, x_0, y_0, x_1, y_1, color, school_stt)
+                    quotation_marks = position.get('quotation_marks')
+                    if quotation_marks != "exclude":
+                        add_highlight_to_page(page, x_0, y_0, x_1, y_1, color, school_stt)
     pdf_output_stream = io.BytesIO()
 
     pdf_stream.save(pdf_output_stream)

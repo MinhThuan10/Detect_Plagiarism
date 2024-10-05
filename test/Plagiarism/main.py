@@ -92,27 +92,48 @@ sentences_cache = {}
 word_count = 0
 word_count_similarity = 0
 sentence_index = 0
+references = False
 for page_num in range(pdf_document.page_count):
     page = pdf_document[page_num]
     text = page.get_text("text")
     sentences = split_sentences(text)
     sentences = remove_sentences(sentences)
+    if "TÀI LIỆU THAM KHẢO" in sentences[0].upper():
+        references = True
     for sentence in sentences:
         print(sentence)
+        quotation_marks = check_type_setence(sentence)
+
         word_count += len(sentence.split())
         preprocessed_query, sentence_results = search_sentence_elastic(sentence)
         sources = []
         if preprocessed_query is None:
-            result = {
-                "file_id": file_id,
-                "title": title,
-                "page": page_num,
-                "sentence_index": sentence_index,
-                "sentence": sentence,
-                "plagiarism": 'no',
-                "sources": []
-            }
-            collection_sentences.insert_one(result)
+            if references == False:
+                result = {
+                    "file_id": file_id,
+                    "title": title,
+                    "page": page_num,
+                    "sentence_index": sentence_index,
+                    "sentence": sentence,
+                    "plagiarism": 'no',
+                    "references": "no",
+                    "sources": []
+                }
+                collection_sentences.insert_one(result)
+            else:
+                result = {
+                    "file_id": file_id,
+                    "title": title,
+                    "page": page_num,
+                    "sentence_index": sentence_index,
+                    "sentence": sentence,
+                    "plagiarism": 'no',
+                    "references": "yes",
+                    "sources": []
+                }
+                collection_sentences.insert_one(result)
+            sentence_index = sentence_index + 1
+            
             continue
         if sentence_results:
             preprocessed_references = [preprocess_text_vietnamese(ref['sentence'])[0] for ref in sentence_results]
@@ -152,12 +173,25 @@ for page_num in range(pdf_document.page_count):
                         for qua_s in quads_sentence:
                             for qua_t in quads_token:
                                 if is_within(qua_t, qua_s) == True:
-                                    new_position = {
-                                        "x_0" : qua_t[0].x,
-                                        "y_0" : qua_t[0].y,
-                                        "x_1" : qua_t[-1].x,
-                                        "y_1" : qua_t[-1].y
-                                    }
+                                    new_position = {}
+                                    if quotation_marks == False:
+                                            new_position = {
+                                            "x_0" : qua_t[0].x,
+                                            "y_0" : qua_t[0].y,
+                                            "x_1" : qua_t[-1].x,
+                                            "y_1" : qua_t[-1].y,
+                                            "quotation_marks": "no"
+                                            }
+                                    else:
+                                        if paragraph in quotation_marks:
+                                            new_position = {
+                                            "x_0" : qua_t[0].x,
+                                            "y_0" : qua_t[0].y,
+                                            "x_1" : qua_t[-1].x,
+                                            "y_1" : qua_t[-1].y,
+                                            "quotation_marks": "yes"
+                                            }
+                                        
                                     merged = is_position(new_position, positions)
                                     if not merged:
                                         positions.append(new_position)    
@@ -243,12 +277,24 @@ for page_num in range(pdf_document.page_count):
                             for qua_s in quads_sentence:
                                 for qua_t in quads_token:
                                     if is_within(qua_t, qua_s) == True:
-                                        new_position = {
-                                        "x_0" : qua_t[0].x,
-                                        "y_0" : qua_t[0].y,
-                                        "x_1" : qua_t[-1].x,
-                                        "y_1" : qua_t[-1].y
-                                        }
+                                        new_position = {}
+                                        if quotation_marks == False:
+                                                new_position = {
+                                                "x_0" : qua_t[0].x,
+                                                "y_0" : qua_t[0].y,
+                                                "x_1" : qua_t[-1].x,
+                                                "y_1" : qua_t[-1].y,
+                                                "quotation_marks": "no"
+                                                }
+                                        else:
+                                            if paragraph in quotation_marks:
+                                                new_position = {
+                                                "x_0" : qua_t[0].x,
+                                                "y_0" : qua_t[0].y,
+                                                "x_1" : qua_t[-1].x,
+                                                "y_1" : qua_t[-1].y,
+                                                "quotation_marks": "yes"
+                                                }
                                         if positions:
                                             merged = is_position(new_position, positions)
                                             if not merged:
@@ -264,7 +310,7 @@ for page_num in range(pdf_document.page_count):
                             "school_name": domain,
                             "file_id": file_id_source,
                             "file_name": file_name,
-                            "type": "Internet",
+                            "type_source": "Internet",
                             "except": 'no',
                             "color": color_hex[school_id],
                             "school_stt": 0,
@@ -283,31 +329,61 @@ for page_num in range(pdf_document.page_count):
                             word_count_max = word_count_sml
 
         if sources:
-            result = {
-                "file_id": file_id,
-                "title": title,
-                "page": page_num,
-                "sentence_index": sentence_index,
-                "sentence": sentence,
-                "plagiarism": 'yes',
-                "sources": sources
-            }
+            if references == False:
+                result = {
+                    "file_id": file_id,
+                    "title": title,
+                    "page": page_num,
+                    "sentence_index": sentence_index,
+                    "sentence": sentence,
+                    "plagiarism": 'no',
+                    "references": "no",
+                    "sources": sources
+                }
+                collection_sentences.insert_one(result)
+            else:
+                result = {
+                    "file_id": file_id,
+                    "title": title,
+                    "page": page_num,
+                    "sentence_index": sentence_index,
+                    "sentence": sentence,
+                    "plagiarism": 'no',
+                    "references": "yes",
+                    "sources": sources
+                }
+                collection_sentences.insert_one(result)
             plagiarized_count +=1
-            collection_sentences.insert_one(result)
             
         else:
-            result = {
-                "file_id": file_id,
-                "title": title,
-                "page": page_num,
-                "sentence_index": sentence_index,
-                "sentence": sentence,
-                "plagiarism": 'no',
-                "sources": []
-            }
-            collection_sentences.insert_one(result)
+            if references == False:
+                result = {
+                    "file_id": file_id,
+                    "title": title,
+                    "page": page_num,
+                    "sentence_index": sentence_index,
+                    "sentence": sentence,
+                    "plagiarism": 'no',
+                    "references": "no",
+                    "sources": []
+                }
+                collection_sentences.insert_one(result)
+            else:
+                result = {
+                    "file_id": file_id,
+                    "title": title,
+                    "page": page_num,
+                    "sentence_index": sentence_index,
+                    "sentence": sentence,
+                    "plagiarism": 'no',
+                    "references": "yes",
+                    "sources": []
+                }
+                collection_sentences.insert_one(result)
+        
         word_count_similarity += word_count_max
         sentence_index = sentence_index + 1
+        
 num_threads = os.cpu_count()
 
 sentences_data = list(collection_sentences.find({"file_id": int(file_id), "sources": {"$ne": None, "$ne": []}}))
@@ -357,7 +433,16 @@ if file_highlighted is not None:
         "word_count": word_count,
         "plagiarism": word_count_similarity / word_count * 100,
         "content": Binary(pdf_output_stream.getvalue()),  # Lưu PDF dưới dạng Binary
-        "type": 'checked'
+        "type": 'checked',
+        "source":{
+            "student_data": "checked",
+            "internet": "checked",
+            "paper": "checked"
+        },
+        "fillter":{
+            "references": "",
+            "quotation_marks": ""
+        }
     }
     
     # Chèn dữ liệu vào MongoDB

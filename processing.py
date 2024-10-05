@@ -370,7 +370,7 @@ def search_sentence_elastic(sentence):
     return processed_sentence, sentence_results
 
 
-def calculate_dynamic_threshold(length, max_threshold=0.8, min_threshold=0.5):
+def calculate_dynamic_threshold(length, max_threshold=0.7, min_threshold=0.5):
     if length < 10:
         return max_threshold
     elif length > 40:
@@ -453,3 +453,15 @@ def common_ordered_words(best_match, sentence):
     ]
 
     return word_count_sml, paragraphs_best_match, paragraphs_sentence
+
+
+# check type sentence: catalog, quotation marks, normal
+def check_type_setence(sentence):
+        # Kiểm tra câu có ngoặc kép
+    match = re.search(r'“(.*?)”|"(.*?)"', sentence)
+    if match:
+        # Trả về nội dung bên trong ngoặc kép
+        return match.group(1) if match.group(1) else match.group(2)
+    
+    # Nếu là câu bình thường thì trả về False
+    return False

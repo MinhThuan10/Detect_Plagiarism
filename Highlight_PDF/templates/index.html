@@ -328,17 +328,17 @@
                             </div>
                             <ul class="fillter-source-list">
                                 <li class="fillter-source-item">
-                                    <input type="checkbox" id="checkbox_hocvien" checked>
+                                    <input type="checkbox" id="checkbox_hocvien" {{source_file['student_data']}}>
                                     <label for="checkbox_hocvien">Cơ sở dữ liệu học viên</label>
                                 </li>
                             
                                 <li class="fillter-source-item">
-                                    <input type="checkbox" id="checkbox_internet" checked>
+                                    <input type="checkbox" id="checkbox_internet" {{source_file['internet']}}>
                                     <label for="checkbox_internet">Nội dung Internet</label>
                                 </li>
                             
                                 <li class="fillter-source-item">
-                                    <input type="checkbox" id="checkbox_tapchi" checked>
+                                    <input type="checkbox" id="checkbox_tapchi" {{source_file['paper']}}>
                                     <label for="checkbox_tapchi">Tạp chí, báo và ấn phẩm</label>
                                 </li>
                             </ul>
@@ -352,12 +352,12 @@
                             </div>
                             <ul class="fillter-exclusion-list">
                                 <li class="fillter-exclusion-item">
-                                    <input type="checkbox" id="checkbox_muclucthamkhao">
-                                    <label for="checkbox_muclucthamkhao">Mục lục tham khảo</label>
+                                    <input type="checkbox" id="checkbox_references" {{fillter_file['references']}}>
+                                    <label for="checkbox_muclucthamkhao">Tài liệu tham khảo</label>
                                 </li>
                             
                                 <li class="fillter-exclusion-item">
-                                    <input type="checkbox" id="checkbox_ngoackep">
+                                    <input type="checkbox" id="checkbox_curlybracket" {{fillter_file['quotation_marks']}}>
                                     <label for="checkbox_ngoackep">Nội dung trong dấu ngoặc kép</label>
                                 </li>
                             
@@ -367,11 +367,11 @@
                     </div>
 
                     <div class="fillter-footer">
-                        <button class="fillter-footer-cancle">
+                        <button class="fillter-footer-cancle" onclick="toggleFillterCancle()">
                             Hủy
                         </button>
 
-                        <button class="fillter-footer-apply">
+                        <button class="fillter-footer-apply" onclick="toggleFillterApply()">
                             Áp dụng
                         </button>
                     </div>
@@ -771,7 +771,45 @@
             });
         }
 
+        function toggleFillterApply() {
+            // Lấy giá trị của các checkbox
+            const studentData = document.getElementById('checkbox_hocvien').checked;
+            const internet = document.getElementById('checkbox_internet').checked;
+            const paper = document.getElementById('checkbox_tapchi').checked;
+            const references = document.getElementById('checkbox_references').checked;
+            const curlybracket = document.getElementById('checkbox_curlybracket').checked;
 
+            const pdfPath = `/pdf/{{ file_id }}/fillter/${studentData}-${internet}-${paper}-${references}-${curlybracket}`;
+
+            fetch(pdfPath, {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                }
+            })
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error('Error deleting school source');
+                }
+                return response.json(); // Trả về school_source_on dưới dạng JSON
+            })
+            .then(data => {
+                console.log('Response from server:', data); // Kiểm tra dữ liệu trả về
+                location.reload();
+
+            })
+            .catch((error) => {
+                console.error('Error:', error);
+            });
+            
+        }
+
+
+
+        // filter
+        function toggleFillterCancle(){
+            location.reload()
+        }
 
     </script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.10.377/pdf.min.js"></script>

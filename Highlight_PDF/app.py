@@ -183,24 +183,6 @@ def add_source_school(file_id, school_id):
     return jsonify({'success': True, 'message': 'School source removed successfully.'}), 200
 
 
-# @app.route("/pdf/<file_id>/add/<sentence_id>", methods=['POST'])
-# def add_text_school(file_id, sentence_id):
-#     if sentence_id == 'all-text':
-#         sentences_collection.update_many(
-#             {"file_id": int(file_id), "sources.except": "text"},
-#             {"$set": {"sources.$[elem].except": "no"}},
-#             array_filters=[{"elem.except": "text"}]
-#         )
-#     else:
-#         sentences_collection.update_many(
-#             {"file_id": int(file_id), "sources.school_id": int(school_id), "sources.except": "source"},
-#             {"$set": {"sources.$[elem].except": "no"}},
-#             array_filters=[{"elem.school_id": int(school_id), "elem.except": "source"}]
-#         )
-#         print('abc')
-#     return jsonify({'success': True, 'message': 'School source removed successfully.'}), 200
-
-
 @app.route("/pdf/<file_id>/remove/<school_id>and<sentence_index>", methods=['POST'])
 def remove_source_school_text(file_id, school_id, sentence_index):
 
@@ -223,6 +205,52 @@ def add_source_text(file_id, sentence_index, source_id):
 
     return jsonify({'success': True, 'message': 'School source removed successfully.'}), 200
 
+
+@app.route("/pdf/<file_id>/fillter/<studentData>-<internet>-<paper>-<references>-<curlybracket>", methods=['POST'])
+def apply_filter(file_id, studentData, internet, paper, references, curlybracket):
+    if studentData == "true":
+        studentData = "checked"
+    else:
+        studentData = ""
+
+    if internet == "true":
+        internet = "checked"
+    else:
+        internet = ""
+
+    if paper == "true":
+        paper = "checked"
+    else:
+        paper = ""
+
+    if references == "true":
+        references = "checked"
+    else:
+        references = ""
+
+    if curlybracket == "true":
+        curlybracket = "checked"
+    else:
+        curlybracket = ""
+
+    
+    result = {
+        "source.student_data": studentData,
+        "source.internet": internet,
+        "source.paper": paper,
+        "fillter.references": references,
+        "fillter.quotation_marks": curlybracket,
+
+    }
+    files_collection.update_one(
+                {"file_id": int(file_id), "type": "checked"},  
+                {"$set": result}  # Thay đổi nội dung file
+            )
+    
+    
+
+    return jsonify({'success': True, 'message': 'School source removed successfully.'}), 200
+    
 @app.route("/<file_id>")
 def index(file_id):
     try:
@@ -232,7 +260,10 @@ def index(file_id):
         if sentences_data:
             page_count = file_data_checked.get('page_count')
             word_count = file_data_checked.get('word_count')
-            percent   = file_data_checked.get('plagiarism')    
+            percent   = file_data_checked.get('plagiarism')  
+            source_file   = file_data_checked.get('source')  
+            fillter_file   = file_data_checked.get('fillter')  
+
             school_source_off = {}
             school_source_on = {}
             school_exclusion_source = {}
@@ -330,7 +361,9 @@ def index(file_id):
             school_source_off = sorted(school_source_off.items(), key=lambda x: x[1]['word_count'], reverse=True)
 
             school_source_on = sorted(school_source_on.items(), key=lambda x: x[1]['word_count'], reverse=True)
-            return render_template('index.html',file_id=file_id_pdf, page_count = page_count, word_count = word_count, percent = percent, school_source_off=school_source_off, school_source_on = school_source_on, school_exclusion_source = school_exclusion_source, school_exclusion_text = school_exclusion_text )
+
+
+            return render_template('index.html',file_id=file_id_pdf, page_count = page_count, word_count = word_count, percent = percent, school_source_off=school_source_off, school_source_on = school_source_on, school_exclusion_source = school_exclusion_source, school_exclusion_text = school_exclusion_text, source_file = source_file, fillter_file = fillter_file )
         
         else:
             return "File not found", 404
