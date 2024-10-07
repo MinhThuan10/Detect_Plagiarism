@@ -168,7 +168,7 @@
                         {% for school_id, school_data in school_source_off %}
                             <div class="school-box school-box-off highlight_school{{ school_id }}" onclick="toggleSchool_Off('{{ school_id }}')">
                                 <strong class="index-school-view index-school-view-off" style="background-color: {{ school_data['color'] }};">{{ loop.index }}</strong>
-    
+                                <strong class="index-school-view index-school-view-off" style="background-color: {{ school_data['color'] }};">{{ school_data['type_source'] }}</strong>
                                 <div class="school_name">
                                     <h5 style="color: {{school_data['color']}};">{{ school_data['school_name'] }}</h5> 
                                     <i class="bi bi-x-circle icon-remove"onclick="removeSchoolSource('{{school_id}}')"></i>
@@ -207,6 +207,8 @@
                         {% for school_id, school_data in school_source_on %}
                             <div class="school-box school-box-on highlight_school{{ school_id }}" onclick="toggleSchool_On('{{ school_id }}')">
                                 <strong class="index-school-view index-school-view-on" style="background-color: {{ school_data['color'] }};">{{ loop.index }}</strong>
+                                <strong class="index-school-view index-school-view-off" style="background-color: {{ school_data['color'] }};">{{ school_data['type_source'] }}</strong>
+
                                 <div class="school_name">
                                     <h5 style="color: {{school_data['color']}};">{{ school_data['school_name'] }}</h5>
                                     <i class="bi bi-x-circle icon-remove" onclick="removeSchoolSource('{{school_id}}')"></i>

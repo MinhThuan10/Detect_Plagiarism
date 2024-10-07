@@ -72,9 +72,11 @@ def retrieve_pdf_view_all(file_id):
     if file_data:
         return file_data['content']
     return None
-def get_best_sources(file_id):
+def get_best_sources(file_id, type_source):
     all_documents = collection_sentences.find({
-        "file_id": file_id,
+        "file_id": file_id, 
+        "references": {"$ne": "checked"}, 
+        "quotation_marks": {"$ne": "checked"}, 
         "sources": {"$ne": None, "$ne": []}
     })
 
@@ -83,7 +85,10 @@ def get_best_sources(file_id):
     for doc in all_documents:
         sources = doc.get('sources', [])
 
-        filtered_sources = [source for source in sources if source['except'] == 'no']
+        filtered_sources = []
+
+        filtered_sources = [source for source in sources if source['except'] == 'no' and source['type_source'] in type_source]
+
         if filtered_sources:
             best_source = max(filtered_sources, key=lambda x: x['score'])
 
@@ -95,7 +100,7 @@ def get_best_sources(file_id):
                 "color": best_source['color'],
                 "school_stt": best_source['school_stt'],
                 "file_id": best_source['file_id'],
-                "file_name": best_source['file_name'],
+                "type_source":best_source['type_source'],
                 "best_match": best_source['best_match'],
                 "score": best_source['score'],
                 "highlight": best_source['highlight']
@@ -105,9 +110,12 @@ def get_best_sources(file_id):
 
     return best_sources_list
 
-def get_sources(file_id):
+def get_sources(file_id, type_source):
+
     all_documents = collection_sentences.find({
-        "file_id": file_id,
+        "file_id": file_id, 
+        "references": {"$ne": "checked"}, 
+        "quotation_marks": {"$ne": "checked"}, 
         "sources": {"$ne": None, "$ne": []}
     })
 
@@ -117,7 +125,7 @@ def get_sources(file_id):
         sources = doc.get('sources', [])
         sources_dict = {}  # To track the highest score per school_id in the current doc
 
-        filtered_sources = [source for source in sources if source['except'] == 'no']
+        filtered_sources = [source for source in sources if source['except'] == 'no' and source['type_source'] in type_source]
         for source in filtered_sources:
             school_id = source['school_id']
             score = source['score']
@@ -132,7 +140,6 @@ def get_sources(file_id):
                     "color": source['color'],
                     "school_stt": source['school_stt'],
                     "file_id": source['file_id'],
-                    "file_name": source['file_name'],
                     "best_match": source['best_match'],
                     "score": source['score'],
                     "highlight": source['highlight']
@@ -166,8 +173,8 @@ def add_highlight_to_page(page, x0, y0, x1, y1, color, school_stt):
                      fontname="helv",  # Font chữ đậm
                      color=color  )# Màu văn bản (đen)
 
-def highlight(file_id):
-    best_sources = get_best_sources(file_id)
+def highlight(file_id, type_source):
+    best_sources = get_best_sources(file_id, type_source)
     pdf_binary = retrieve_pdf_from_mongodb(file_id)
 
     if pdf_binary is None:
@@ -194,15 +201,13 @@ def highlight(file_id):
                 y_0 = position.get('y_0')
                 x_1 = position.get('x_1')
                 y_1 = position.get('y_1')
-                quotation_marks = position.get('quotation_marks')
-                if quotation_marks != "exclude":
-                    add_highlight_to_page(page, x_0, y_0, x_1, y_1, color, school_stt)
+                add_highlight_to_page(page, x_0, y_0, x_1, y_1, color, school_stt)
     return pdf_stream
 
-def highlight_school(file_id, school_id):
+def highlight_school(file_id, school_id, type_source):
     file_id = int(file_id)
     school_id = int(school_id)
-    sources = get_sources(file_id)
+    sources = get_sources(file_id, type_source)
     pdf_binary = retrieve_pdf_from_mongodb(file_id)
     if pdf_binary is None:
         print("Không tìm thấy file PDF trong MongoDB.")
@@ -227,9 +232,7 @@ def highlight_school(file_id, school_id):
                     y_0 = position.get('y_0')
                     x_1 = position.get('x_1')
                     y_1 = position.get('y_1')
-                    quotation_marks = position.get('quotation_marks')
-                    if quotation_marks != "exclude":
-                        add_highlight_to_page(page, x_0, y_0, x_1, y_1, color, school_stt)
+                    add_highlight_to_page(page, x_0, y_0, x_1, y_1, color, school_stt)
     pdf_output_stream = io.BytesIO()
 
     pdf_stream.save(pdf_output_stream)

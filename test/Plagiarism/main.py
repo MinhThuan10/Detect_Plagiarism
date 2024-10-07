@@ -25,11 +25,11 @@ collection_files = db['files']
 # Start the timer
 start_time = time.time()
 plagiarized_count = 0
-file_path = './test/Data/thuyettrinh.pdf'
+file_path = './test/Data/loicamon.pdf'
 
 assignment_id = 1
-file_id = 1
-title = 'thuyettrinh'
+file_id = 2
+title = 'loicamon'
 author = 'Thuan'
 
 
@@ -61,7 +61,6 @@ def is_position(new_position, positions):
 
     for position in positions:
         if (new_position['y_0'] == position['y_0'] and new_position['y_1'] == position['y_1']):
-            print('abc+newposition')
             if (new_position['x_0'] <= position['x_0'] and new_position['x_1'] >= position['x_1'] - 5):
                 position['x_0'] = new_position['x_0']
                 position['x_1'] = new_position['x_1']
@@ -98,16 +97,18 @@ for page_num in range(pdf_document.page_count):
     text = page.get_text("text")
     sentences = split_sentences(text)
     sentences = remove_sentences(sentences)
+    print(sentences)
+
     if "TÀI LIỆU THAM KHẢO" in sentences[0].upper():
         references = True
     for sentence in sentences:
         print(sentence)
         quotation_marks = check_type_setence(sentence)
-
         word_count += len(sentence.split())
         preprocessed_query, sentence_results = search_sentence_elastic(sentence)
         sources = []
         if preprocessed_query is None:
+            print("Sentence Error")
             if references == False:
                 result = {
                     "file_id": file_id,
@@ -115,8 +116,8 @@ for page_num in range(pdf_document.page_count):
                     "page": page_num,
                     "sentence_index": sentence_index,
                     "sentence": sentence,
-                    "plagiarism": 'no',
                     "references": "no",
+                    "quotation_marks": quotation_marks,
                     "sources": []
                 }
                 collection_sentences.insert_one(result)
@@ -127,8 +128,8 @@ for page_num in range(pdf_document.page_count):
                     "page": page_num,
                     "sentence_index": sentence_index,
                     "sentence": sentence,
-                    "plagiarism": 'no',
                     "references": "yes",
+                    "quotation_marks": quotation_marks,
                     "sources": []
                 }
                 collection_sentences.insert_one(result)
@@ -136,6 +137,7 @@ for page_num in range(pdf_document.page_count):
             
             continue
         if sentence_results:
+            print("So sánh trong dữ liệu")
             preprocessed_references = [preprocess_text_vietnamese(ref['sentence'])[0] for ref in sentence_results]
             all_sentences = [preprocessed_query] + preprocessed_references
 
@@ -153,8 +155,7 @@ for page_num in range(pdf_document.page_count):
             for idx, score in enumerate(similarity_scores[0]):
                 if score >= dynamic_threshold:
                     school_name = sentence_results[idx]['school_name']
-                    file_id_source = sentence_results[idx]['file_id']
-                    file_name = sentence_results[idx]['file_name']
+                    file_id_source = sentence_results[idx]['file_name']
                     best_match = sentence_results[idx]['sentence']
                     type = sentence_results[idx]['type']
                     
@@ -173,25 +174,13 @@ for page_num in range(pdf_document.page_count):
                         for qua_s in quads_sentence:
                             for qua_t in quads_token:
                                 if is_within(qua_t, qua_s) == True:
-                                    new_position = {}
-                                    if quotation_marks == False:
-                                            new_position = {
-                                            "x_0" : qua_t[0].x,
-                                            "y_0" : qua_t[0].y,
-                                            "x_1" : qua_t[-1].x,
-                                            "y_1" : qua_t[-1].y,
-                                            "quotation_marks": "no"
-                                            }
-                                    else:
-                                        if paragraph in quotation_marks:
-                                            new_position = {
-                                            "x_0" : qua_t[0].x,
-                                            "y_0" : qua_t[0].y,
-                                            "x_1" : qua_t[-1].x,
-                                            "y_1" : qua_t[-1].y,
-                                            "quotation_marks": "yes"
-                                            }
-                                        
+                                    new_position = {
+                                    "x_0" : qua_t[0].x,
+                                    "y_0" : qua_t[0].y,
+                                    "x_1" : qua_t[-1].x,
+                                    "y_1" : qua_t[-1].y,
+                                    }
+                            
                                     merged = is_position(new_position, positions)
                                     if not merged:
                                         positions.append(new_position)    
@@ -204,8 +193,7 @@ for page_num in range(pdf_document.page_count):
                         "school_id": school_id,
                         "school_name": school_name,
                         "file_id": file_id_source,
-                        "file_name": file_name,
-                        "type": type,
+                        "type_source": type, 
                         "except": 'no',
                         "color": color_hex[school_id],
                         "school_stt": 0,
@@ -223,11 +211,12 @@ for page_num in range(pdf_document.page_count):
                         word_count_max = word_count_sml
             
 
-        result = search_google(sentence)
+        result = search_google(preprocessed_query)
         items = result.get('items', [])
         all_snippets = [item.get('snippet', '') for item in items if item.get('snippet', '')]
         
         if not all_snippets:
+            print("No on Internet")
             continue
 
         top_similarities = compare_sentences(sentence, all_snippets)
@@ -277,24 +266,12 @@ for page_num in range(pdf_document.page_count):
                             for qua_s in quads_sentence:
                                 for qua_t in quads_token:
                                     if is_within(qua_t, qua_s) == True:
-                                        new_position = {}
-                                        if quotation_marks == False:
-                                                new_position = {
-                                                "x_0" : qua_t[0].x,
-                                                "y_0" : qua_t[0].y,
-                                                "x_1" : qua_t[-1].x,
-                                                "y_1" : qua_t[-1].y,
-                                                "quotation_marks": "no"
-                                                }
-                                        else:
-                                            if paragraph in quotation_marks:
-                                                new_position = {
-                                                "x_0" : qua_t[0].x,
-                                                "y_0" : qua_t[0].y,
-                                                "x_1" : qua_t[-1].x,
-                                                "y_1" : qua_t[-1].y,
-                                                "quotation_marks": "yes"
-                                                }
+                                        new_position = {
+                                        "x_0" : qua_t[0].x,
+                                        "y_0" : qua_t[0].y,
+                                        "x_1" : qua_t[-1].x,
+                                        "y_1" : qua_t[-1].y,
+                                        }                                    
                                         if positions:
                                             merged = is_position(new_position, positions)
                                             if not merged:
@@ -309,7 +286,6 @@ for page_num in range(pdf_document.page_count):
                             "school_id": school_id,
                             "school_name": domain,
                             "file_id": file_id_source,
-                            "file_name": file_name,
                             "type_source": "Internet",
                             "except": 'no',
                             "color": color_hex[school_id],
@@ -336,8 +312,8 @@ for page_num in range(pdf_document.page_count):
                     "page": page_num,
                     "sentence_index": sentence_index,
                     "sentence": sentence,
-                    "plagiarism": 'no',
                     "references": "no",
+                    "quotation_marks": quotation_marks,
                     "sources": sources
                 }
                 collection_sentences.insert_one(result)
@@ -348,8 +324,8 @@ for page_num in range(pdf_document.page_count):
                     "page": page_num,
                     "sentence_index": sentence_index,
                     "sentence": sentence,
-                    "plagiarism": 'no',
                     "references": "yes",
+                    "quotation_marks": quotation_marks,
                     "sources": sources
                 }
                 collection_sentences.insert_one(result)
@@ -363,8 +339,8 @@ for page_num in range(pdf_document.page_count):
                     "page": page_num,
                     "sentence_index": sentence_index,
                     "sentence": sentence,
-                    "plagiarism": 'no',
                     "references": "no",
+                    "quotation_marks": quotation_marks,
                     "sources": []
                 }
                 collection_sentences.insert_one(result)
@@ -375,15 +351,15 @@ for page_num in range(pdf_document.page_count):
                     "page": page_num,
                     "sentence_index": sentence_index,
                     "sentence": sentence,
-                    "plagiarism": 'no',
                     "references": "yes",
+                    "quotation_marks": quotation_marks,
                     "sources": []
                 }
                 collection_sentences.insert_one(result)
         
         word_count_similarity += word_count_max
         sentence_index = sentence_index + 1
-        
+
 num_threads = os.cpu_count()
 
 sentences_data = list(collection_sentences.find({"file_id": int(file_id), "sources": {"$ne": None, "$ne": []}}))
@@ -413,7 +389,7 @@ for i, (school_id_source, _)in enumerate(school_sources):
                     {"$set": {"sources.$.school_stt": i + 1}}
                 )
 
-file_highlighted = highlight(file_id)
+file_highlighted = highlight(file_id, ["student_Data", "Internet", "Ấn bản"])
 
 if file_highlighted is not None:
     # Tạo một đối tượng BytesIO để lưu file PDF đã chỉnh sửa

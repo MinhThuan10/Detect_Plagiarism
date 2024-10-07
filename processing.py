@@ -346,7 +346,7 @@ def search_sentence_elastic(sentence):
         return None, []
     res = es.search(index="plagiarism", body={
         "query": {
-            "match": {"sentence": sentence}
+            "match": {"sentence": processed_sentence}
         },
         "size": 10
     })
@@ -370,7 +370,7 @@ def search_sentence_elastic(sentence):
     return processed_sentence, sentence_results
 
 
-def calculate_dynamic_threshold(length, max_threshold=0.7, min_threshold=0.5):
+def calculate_dynamic_threshold(length, max_threshold=0.8, min_threshold=0.5):
     if length < 10:
         return max_threshold
     elif length > 40:
@@ -461,7 +461,8 @@ def check_type_setence(sentence):
     match = re.search(r'“(.*?)”|"(.*?)"', sentence)
     if match:
         # Trả về nội dung bên trong ngoặc kép
-        return match.group(1) if match.group(1) else match.group(2)
+        # return match.group(1) if match.group(1) else match.group(2)
+        return "yes"
     
     # Nếu là câu bình thường thì trả về False
-    return False
+    return "no"
