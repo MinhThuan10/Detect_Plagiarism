@@ -25,11 +25,11 @@ collection_files = db['files']
 # Start the timer
 start_time = time.time()
 plagiarized_count = 0
-file_path = './test/Data/loicamon.pdf'
+file_path = './test/Data/thuyettrinh.pdf'
 
 assignment_id = 1
-file_id = 2
-title = 'loicamon'
+file_id = 1
+title = 'thuyettrinh'
 author = 'Thuan'
 
 
@@ -149,8 +149,6 @@ for page_num in range(pdf_document.page_count):
 
             query_length = len(preprocessed_query.split())
             dynamic_threshold = calculate_dynamic_threshold(query_length)
-            max_score = 0
-            word_count_max = 0
             source_id = 0
             for idx, score in enumerate(similarity_scores[0]):
                 if score >= dynamic_threshold:
@@ -169,47 +167,44 @@ for page_num in range(pdf_document.page_count):
                     word_count_sml,paragraphs_best_math, paragraphs  = common_ordered_words(best_match, sentence)
                     quads_sentence = page.search_for(sentence, quads=True)
                     
-                    for paragraph in paragraphs:
-                        quads_token = page.search_for(paragraph, quads=True)
-                        for qua_s in quads_sentence:
-                            for qua_t in quads_token:
-                                if is_within(qua_t, qua_s) == True:
-                                    new_position = {
-                                    "x_0" : qua_t[0].x,
-                                    "y_0" : qua_t[0].y,
-                                    "x_1" : qua_t[-1].x,
-                                    "y_1" : qua_t[-1].y,
-                                    }
-                            
-                                    merged = is_position(new_position, positions)
-                                    if not merged:
-                                        positions.append(new_position)    
-                                        
-                                           
-                                        
-                    best_match = wrap_paragraphs_with_color(paragraphs_best_math, best_match, school_id)
-                    sources.append({
-                        "source_id":source_id,
-                        "school_id": school_id,
-                        "school_name": school_name,
-                        "file_id": file_id_source,
-                        "type_source": type, 
-                        "except": 'no',
-                        "color": color_hex[school_id],
-                        "school_stt": 0,
-                        "best_match": best_match,
-                        "score": float(score),
-                        "highlight": {
-                            "word_count_sml": word_count_sml,
-                            "paragraphs": paragraphs_best_math,
-                            "position": positions
-                        }
-                    })
-                    source_id = source_id+1
-                    if score > max_score:
-                        max_score = score
-                        word_count_max = word_count_sml
-            
+                    if word_count_sml > 3:
+                        for paragraph in paragraphs:
+                            quads_token = page.search_for(paragraph, quads=True)
+                            for qua_s in quads_sentence:
+                                for qua_t in quads_token:
+                                    if is_within(qua_t, qua_s) == True:
+                                        new_position = {
+                                        "x_0" : qua_t[0].x,
+                                        "y_0" : qua_t[0].y,
+                                        "x_1" : qua_t[-1].x,
+                                        "y_1" : qua_t[-1].y,
+                                        }
+                                
+                                        merged = is_position(new_position, positions)
+                                        if not merged:
+                                            positions.append(new_position)    
+                                            
+                                            
+                                            
+                        best_match = wrap_paragraphs_with_color(paragraphs_best_math, best_match, school_id)
+                        sources.append({
+                            "source_id":source_id,
+                            "school_id": school_id,
+                            "school_name": school_name,
+                            "file_id": file_id_source,
+                            "type_source": type, 
+                            "except": 'no',
+                            "color": color_hex[school_id],
+                            "school_stt": 0,
+                            "best_match": best_match,
+                            "score": float(score),
+                            "highlight": {
+                                "word_count_sml": word_count_sml,
+                                "paragraphs": paragraphs_best_math,
+                                "position": positions
+                            }
+                        })
+                        source_id = source_id+1
 
         result = search_google(preprocessed_query)
         items = result.get('items', [])
@@ -217,6 +212,31 @@ for page_num in range(pdf_document.page_count):
         
         if not all_snippets:
             print("No on Internet")
+            if references == False:
+                result = {
+                    "file_id": file_id,
+                    "title": title,
+                    "page": page_num,
+                    "sentence_index": sentence_index,
+                    "sentence": sentence,
+                    "references": "no",
+                    "quotation_marks": quotation_marks,
+                    "sources": []
+                }
+                collection_sentences.insert_one(result)
+            else:
+                result = {
+                    "file_id": file_id,
+                    "title": title,
+                    "page": page_num,
+                    "sentence_index": sentence_index,
+                    "sentence": sentence,
+                    "references": "yes",
+                    "quotation_marks": quotation_marks,
+                    "sources": []
+                }
+                collection_sentences.insert_one(result)
+            sentence_index = sentence_index + 1
             continue
 
         top_similarities = compare_sentences(sentence, all_snippets)
@@ -259,50 +279,48 @@ for page_num in range(pdf_document.page_count):
 
                         positions = []
                         word_count_sml, paragraphs_best_math, paragraphs = common_ordered_words(best_match, sentence)
-                        quads_sentence = page.search_for(sentence, quads=True)
                         
-                        for paragraph in paragraphs:
-                            quads_token = page.search_for(paragraph, quads=True)
-                            for qua_s in quads_sentence:
-                                for qua_t in quads_token:
-                                    if is_within(qua_t, qua_s) == True:
-                                        new_position = {
-                                        "x_0" : qua_t[0].x,
-                                        "y_0" : qua_t[0].y,
-                                        "x_1" : qua_t[-1].x,
-                                        "y_1" : qua_t[-1].y,
-                                        }                                    
-                                        if positions:
-                                            merged = is_position(new_position, positions)
-                                            if not merged:
+                        if word_count_sml > 3:
+                            quads_sentence = page.search_for(sentence, quads=True)
+                            
+                            for paragraph in paragraphs:
+                                quads_token = page.search_for(paragraph, quads=True)
+                                for qua_s in quads_sentence:
+                                    for qua_t in quads_token:
+                                        if is_within(qua_t, qua_s) == True:
+                                            new_position = {
+                                            "x_0" : qua_t[0].x,
+                                            "y_0" : qua_t[0].y,
+                                            "x_1" : qua_t[-1].x,
+                                            "y_1" : qua_t[-1].y,
+                                            }                                    
+                                            if positions:
+                                                merged = is_position(new_position, positions)
+                                                if not merged:
+                                                    positions.append(new_position) 
+                                            else:
                                                 positions.append(new_position) 
-                                        else:
-                                            positions.append(new_position) 
 
-                                    
-                        best_match = wrap_paragraphs_with_color(paragraphs_best_math, best_match, school_id)
-                        sources.append({
-                            "source_id": source_id,
-                            "school_id": school_id,
-                            "school_name": domain,
-                            "file_id": file_id_source,
-                            "type_source": "Internet",
-                            "except": 'no',
-                            "color": color_hex[school_id],
-                            "school_stt": 0,
-                            "best_match": best_match,
-                            "score": float(similarity_sentence),
-                            "highlight": {
-                                "word_count_sml": word_count_sml,
-                                "paragraphs": paragraphs_best_math,
-                                "position": positions
-                            }
-                        })
-                        source_id = source_id +1
-
-                        if score > max_score:
-                            max_score = score
-                            word_count_max = word_count_sml
+                                        
+                            best_match = wrap_paragraphs_with_color(paragraphs_best_math, best_match, school_id)
+                            sources.append({
+                                "source_id": source_id,
+                                "school_id": school_id,
+                                "school_name": domain,
+                                "file_id": file_id_source,
+                                "type_source": "Internet",
+                                "except": 'no',
+                                "color": color_hex[school_id],
+                                "school_stt": 0,
+                                "best_match": best_match,
+                                "score": float(similarity_sentence),
+                                "highlight": {
+                                    "word_count_sml": word_count_sml,
+                                    "paragraphs": paragraphs_best_math,
+                                    "position": positions
+                                }
+                            })
+                            source_id = source_id +1
 
         if sources:
             if references == False:
@@ -357,37 +375,9 @@ for page_num in range(pdf_document.page_count):
                 }
                 collection_sentences.insert_one(result)
         
-        word_count_similarity += word_count_max
         sentence_index = sentence_index + 1
 
 num_threads = os.cpu_count()
-
-sentences_data = list(collection_sentences.find({"file_id": int(file_id), "sources": {"$ne": None, "$ne": []}}))
-school_sources = {}
-for sentence in sentences_data:
-    sources = sentence.get('sources', [])
-    if sources:
-        best_source = max(sources, key=lambda x: x['score'])
-        school_id = best_source['school_id']
-        highlight_ = best_source['highlight']
-        if school_id not in school_sources:
-            school_sources[school_id] = {
-                "word_count": 0
-            }
-        school_sources[school_id]['word_count'] += highlight_.get('word_count_sml', 0)
-
-school_sources = sorted(school_sources.items(), key=lambda x: x[1]['word_count'], reverse=True)
-
-for i, (school_id_source, _)in enumerate(school_sources):
-    for sentence in sentences_data:
-        sources = sentence.get('sources', [])
-        for source in sources:
-            school_id = source['school_id']
-            if school_id == school_id_source:
-                collection_sentences.update_one(
-                    {"_id": sentence["_id"], "sources.school_id": school_id},
-                    {"$set": {"sources.$.school_stt": i + 1}}
-                )
 
 file_highlighted = highlight(file_id, ["student_Data", "Internet", "Ấn bản"])
 
@@ -407,7 +397,7 @@ if file_highlighted is not None:
         "author": author,
         "page_count": pdf_document.page_count,
         "word_count": word_count,
-        "plagiarism": word_count_similarity / word_count * 100,
+        "plagiarism": 0, 
         "content": Binary(pdf_output_stream.getvalue()),  # Lưu PDF dưới dạng Binary
         "type": 'checked',
         "source":{
@@ -417,7 +407,8 @@ if file_highlighted is not None:
         },
         "fillter":{
             "references": "",
-            "quotation_marks": ""
+            "quotation_marks": "",
+            "min_word": ""
         }
     }
     
@@ -447,4 +438,3 @@ end_time = time.time()
 elapsed_time = end_time - start_time
 print(f"Thời gian thực hiện: {elapsed_time:.2f} giây")
 print(f"Số lượng câu phát hiện đạo văn: {plagiarized_count}")
-print(f"Phần trăm đạo văn:{word_count_similarity/word_count*100}%")

@@ -30,13 +30,20 @@ def update_school_stt(file_id, type, type_sources):
                                                 "quotation_marks": {"$ne": "checked"}, 
                                                 "sources": {"$ne": None, "$ne": []}})
     school_source = {}
+    minWordValue = files_collection.find_one({"file_id": int(file_id_pdf), "type": 'checked'}).get('fillter', {}).get('min_word', {}).get('minWordValue', 0)
 
-
+    print(minWordValue)
     if sentences_data:
         if type == "best_source":
             for sentence in sentences_data:
                     sources = sentence.get('sources', [])
-                    filtered_sources = [source for source in sources if (source['except'] == 'no' and source['type_source'] in type_sources)]
+                    # filtered_sources = [source for source in sources if (source['except'] == 'no' and source['type_source'] in type_sources)]
+                    filtered_sources = [
+                        source for source in sources 
+                        if (source['except'] == 'no' and 
+                            source['type_source'] in type_sources and 
+                            source.get('highlight', {}).get('word_count_sml', 0) >= int(minWordValue))
+                    ]
                     if filtered_sources:
                         source_max = max(filtered_sources, key=lambda x: x['score'])
                         school_id = source_max['school_id']
@@ -50,7 +57,13 @@ def update_school_stt(file_id, type, type_sources):
             if type == "view_all":
                 for sentence in sentences_data:
                     sources = sentence.get('sources', [])
-                    filtered_sources = [source for source in sources if (source['except'] == 'no' and source['type_source'] in type_sources)]
+                    # filtered_sources = [source for source in sources if (source['except'] == 'no' and source['type_source'] in type_sources)]
+                    filtered_sources = [
+                        source for source in sources 
+                        if (source['except'] == 'no' and 
+                            source['type_source'] in type_sources and 
+                            source.get('highlight', {}).get('word_count_sml', 0) >= int(minWordValue))
+                    ]
                     if filtered_sources:
                         for source in filtered_sources:
                             school_id = source['school_id']
@@ -62,27 +75,40 @@ def update_school_stt(file_id, type, type_sources):
                             school_source[school_id]['word_count'] += highlight_source.get('word_count_sml', 0)
         school_source = sorted(school_source.items(), key=lambda x: x[1]['word_count'], reverse=True)
 
-    
+    word_count = files_collection.find_one({"file_id": int(file_id_pdf), "type": 'checked'}).get('word_count', 0)
+    word_count_sml = 0
     if school_source:
-        for i, (school_id_source, _) in enumerate(school_source):
+        for i, (school_id_source, source_data) in enumerate(school_source):
             # Lặp qua từng câu để tìm nguồn
             sentences_data = sentences_collection.find({"file_id": int(file_id_pdf),
                                                 "references": {"$ne": "checked"}, 
                                                 "quotation_marks": {"$ne": "checked"}, 
                                                 "sources": {"$ne": None, "$ne": []}})
-            for sentence in sentences_data:
-                sources = sentence.get('sources', [])
-                for source in sources:
-                    school_id_data = source['school_id']
-                    if school_id_data == school_id_source:
-                        sentences_collection.update_many(
-                            {"file_id": int(file_id_pdf), "sources.school_id": school_id_data},
-                            {"$set": {"sources.$[elem].school_stt": i + 1}}, 
-                            array_filters=[{"elem.school_id": school_id_data}]
-                        )
-                        break
-    word_count = files_collection.find_one({"file_id": int(file_id_pdf), "type": 'checked'}).get('word_count', 0)
-    word_count_sml = 0
+            if source_data.get('word_count', 0) > word_count/200:
+                for sentence in sentences_data:
+                    sources = sentence.get('sources', [])
+                    for source in sources:
+                        school_id_data = source['school_id']
+                        if school_id_data == school_id_source:
+                            sentences_collection.update_many(
+                                {"file_id": int(file_id_pdf), "sources.school_id": school_id_data},
+                                {"$set": {"sources.$[elem].school_stt": i + 1}}, 
+                                array_filters=[{"elem.school_id": school_id_data}]
+                            )
+                            break
+            else:
+                for sentence in sentences_data:
+                    sources = sentence.get('sources', [])
+                    for source in sources:
+                        school_id_data = source['school_id']
+                        if school_id_data == school_id_source:
+                            sentences_collection.update_many(
+                                {"file_id": int(file_id_pdf), "sources.school_id": school_id_data},
+                                {"$set": {"sources.$[elem].except": "except"}}, 
+                                array_filters=[{"elem.school_id": school_id_data}]
+                            )
+                            break
+    
     sentences_data = sentences_collection.find({"file_id": int(file_id_pdf),
                                                 "references": {"$ne": "checked"}, 
                                                 "quotation_marks": {"$ne": "checked"}, 
@@ -90,7 +116,12 @@ def update_school_stt(file_id, type, type_sources):
     if sentences_data:
         for sentence in sentences_data:
                 sources = sentence.get('sources', [])
-                filtered_sources = [source for source in sources if (source['except'] == 'no' and source['type_source'] in type_sources)]
+                filtered_sources = [
+                    source for source in sources 
+                    if (source['except'] == 'no' and 
+                        source['type_source'] in type_sources and 
+                        source.get('highlight', {}).get('word_count_sml', 0) >= int(minWordValue))
+                ]
 
                 if filtered_sources:
                     source_max = max(filtered_sources, key=lambda x: x['score'])
@@ -237,8 +268,8 @@ def add_source_text(file_id, sentence_index, source_id):
     return jsonify({'success': True, 'message': 'School source removed successfully.'}), 200
 
 
-@app.route("/pdf/<file_id>/fillter/<studentData>-<internet>-<paper>-<references>-<curlybracket>", methods=['POST'])
-def apply_filter(file_id, studentData, internet, paper, references, curlybracket):
+@app.route("/pdf/<file_id>/fillter/<studentData>-<internet>-<paper>-<references>-<curlybracket>-<minWord>-<minWordValue>", methods=['POST'])
+def apply_filter(file_id, studentData, internet, paper, references, curlybracket, minWord, minWordValue):
     if studentData == "true":
         studentData = "checked"
     else:
@@ -282,6 +313,11 @@ def apply_filter(file_id, studentData, internet, paper, references, curlybracket
             {"$set": {"quotation_marks": "yes"}}
         )
 
+    if minWord == "true":
+        minWord = "checked"
+        
+    else:
+        minWord = "no"
     
     result = {
         "source.student_data": studentData,
@@ -289,6 +325,10 @@ def apply_filter(file_id, studentData, internet, paper, references, curlybracket
         "source.paper": paper,
         "fillter.references": references,
         "fillter.quotation_marks": curlybracket,
+        "fillter.min_word.min_word": minWord,
+        "fillter.min_word.minWordValue": minWordValue,
+
+
 
     }
     files_collection.update_one(
@@ -313,6 +353,8 @@ def index(file_id):
             percent   = file_data_checked.get('plagiarism')  
             source_file   = file_data_checked.get('source')  
             fillter_file   = file_data_checked.get('fillter')  
+            minWordValue   = file_data_checked.get('fillter').get('min_word').get('minWordValue')
+
 
 
             type_sources = []
@@ -336,7 +378,13 @@ def index(file_id):
                 sentence_index = sentence.get('sentence_index', None)
                 if sources:
                     # OFF
-                    filtered_no = [source for source in sources if (source['except'] == 'no' and source['type_source'] in type_sources)]
+                    # filtered_no = [source for source in sources if (source['except'] == 'no' and source['type_source'] in type_sources)]
+                    filtered_no = [
+                        source for source in sources 
+                        if (source['except'] == 'no' and 
+                            source['type_source'] in type_sources and 
+                            source.get('highlight', {}).get('word_count_sml', 0) >= int(minWordValue))
+                    ]
 
                     if filtered_no:
                         best_source = max(filtered_no, key=lambda x: x['score'])
@@ -396,7 +444,13 @@ def index(file_id):
                                     "paragraphs": highlight.get('paragraphs'),
                                 }
 
-                    filtered_sources = [source for source in sources if (source['except'] == 'source' and source['type_source'] in type_sources)]
+                    # filtered_sources = [source for source in sources if (source['except'] == 'source' and source['type_source'] in type_sources)]
+                    filtered_sources = [
+                        source for source in sources 
+                        if (source['except'] == 'no' and 
+                            source['type_source'] in type_sources and 
+                            source.get('highlight', {}).get('word_count_sml', 0) >= int(minWordValue))
+                    ]
                     if filtered_sources:
                         for source in filtered_sources:
                             school_id = source['school_id']

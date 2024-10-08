@@ -175,7 +175,8 @@
                                 </div>
                                 <br>
                                 <strong>Word Matched:</strong> {{ school_data['word_count'] }}<br>
-                                <strong>Percentage:</strong> {{ "%.2f" % ((school_data['word_count'] / word_count) * 100) }}%
+                                <strong>Percentage:</strong> {{ ((school_data['word_count'] / word_count) * 100) | round }}%
+
                             </div>
     
                             <div class="sentence-box sentence-box-off" id="overlapping-off-{{ school_id }}" style="display: none;">
@@ -215,7 +216,8 @@
                                 </div>
                                 <br>
                                 <strong>Word Matched:</strong> {{ school_data['word_count'] }}<br>
-                                <strong>Percentage:</strong> {{ "%.2f" % ((school_data['word_count'] / word_count) * 100) }}%
+                                <strong>Percentage:</strong> {{ ((school_data['word_count'] / word_count) * 100) | round }}%
+
                             </div>
                             <div class="sentence-box sentence-box-on" id="overlapping-on-{{ school_id }}" style="display: none;">
                                 <ul class="sentence-list" id="sentence-list-on-{{ school_id }}">
@@ -362,7 +364,19 @@
                                     <input type="checkbox" id="checkbox_curlybracket" {{fillter_file['quotation_marks']}}>
                                     <label for="checkbox_ngoackep">Nội dung trong dấu ngoặc kép</label>
                                 </li>
-                            
+
+                                <li class="fillter-exclusion-item">
+                                    <input type="checkbox" id="checkbox_min_word" {{fillter_file['min_word']['min_word']}} onchange="toggleMinWordWrap()">
+                                    <label for="checkbox_min_word">Số từ trùng khớp tối thiểu</label>
+                                </li>
+                                
+                                <div class="min_word_wrap" id="min_word_wrap" style="display: none;">
+                                    <p class="min_word_title">
+                                        Nhập số từ tối thiểu trùng khớp vào.
+                                    </p>
+                                    <input type="text" name="" id="input_min_word" value={{fillter_file['min_word']['minWordValue']}}>
+                                    <p id="input_feedback" style="color: red;"></p>
+                                </div>
                             </ul>
                             
                         </div>
@@ -780,29 +794,48 @@
             const paper = document.getElementById('checkbox_tapchi').checked;
             const references = document.getElementById('checkbox_references').checked;
             const curlybracket = document.getElementById('checkbox_curlybracket').checked;
+            const minWord = document.getElementById('checkbox_min_word').checked;
 
-            const pdfPath = `/pdf/{{ file_id }}/fillter/${studentData}-${internet}-${paper}-${references}-${curlybracket}`;
+            var minWordValue = document.getElementById("input_min_word").value;
 
-            fetch(pdfPath, {
-                method: 'POST',
-                headers: {
-                    'Content-Type': 'application/json',
+            var feedbackElement = document.getElementById("input_feedback");
+
+            // Kiểm tra nếu giá trị là số nguyên và nằm trong khoảng từ 3 đến 100
+            if (minWordValue && !isNaN(minWordValue) && Number.isInteger(Number(minWordValue))) {
+                minWordValue = Number(minWordValue); // Chuyển thành số nguyên
+
+                if (minWordValue >= 3 && minWordValue < 100) {
+                    feedbackElement.textContent = ""; // Không hiển thị thông báo nếu giá trị hợp lệ
+                    const pdfPath = `/pdf/{{ file_id }}/fillter/${studentData}-${internet}-${paper}-${references}-${curlybracket}-${minWord}-${minWordValue}`;
+
+                    fetch(pdfPath, {
+                        method: 'POST',
+                        headers: {
+                            'Content-Type': 'application/json',
+                        }
+                    })
+                    .then(response => {
+                        if (!response.ok) {
+                            throw new Error('Error deleting school source');
+                        }
+                        return response.json(); // Trả về school_source_on dưới dạng JSON
+                    })
+                    .then(data => {
+                        console.log('Response from server:', data); // Kiểm tra dữ liệu trả về
+                        location.reload();
+
+                    })
+                    .catch((error) => {
+                        console.error('Error:', error);
+                    });
+                } else {
+                    feedbackElement.textContent = "Giá trị phải là số nguyên lớn hơn hoặc bằng 3 và nhỏ hơn 100.";
                 }
-            })
-            .then(response => {
-                if (!response.ok) {
-                    throw new Error('Error deleting school source');
-                }
-                return response.json(); // Trả về school_source_on dưới dạng JSON
-            })
-            .then(data => {
-                console.log('Response from server:', data); // Kiểm tra dữ liệu trả về
-                location.reload();
+            } else {
+                feedbackElement.textContent = "Giá trị phải là số nguyên.";
+            }
 
-            })
-            .catch((error) => {
-                console.error('Error:', error);
-            });
+            
             
         }
 
@@ -813,6 +846,20 @@
             location.reload()
         }
 
+        function toggleMinWordWrap() {
+            var checkbox = document.getElementById("checkbox_min_word");
+            var div = document.getElementById("min_word_wrap");
+            if (checkbox.checked) {
+                div.style.display = "block";
+            } else {
+                div.style.display = "none";
+            }
+        }
+
+        // Optional: check the state on page load
+        document.addEventListener("DOMContentLoaded", function() {
+            toggleMinWordWrap();
+        });
     </script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.10.377/pdf.min.js"></script>
 
