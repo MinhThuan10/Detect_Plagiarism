@@ -335,21 +335,32 @@ def fetch_url(url):
 nlp = spacy.blank("vi")
 es = Elasticsearch("http://localhost:9200")
 
+
 output_file = './test/Data/search.txt'
 
 def search_sentence_elastic(sentence):
-    # Xử lý từng câu và lấy danh sách tokens
     processed_sentence, tokens = preprocess_text_vietnamese(sentence)
-    # Tạo danh sách các field_value từ Elasticsearch
-    sentence_results = []  # Mảng lưu trữ kết quả từng câu
+    sentence_results = [] 
     if not tokens:
         return None, []
+    
+    # search 1 cụm duy nhất là máy thật
     res = es.search(index="plagiarism", body={
         "query": {
             "match": {"sentence": processed_sentence}
         },
         "size": 10
     })
+
+
+# search theo 2 cụm máy ảo
+    # res = es.search(index="cluster1:plagiarism,cluster2:plagiarism", body={
+    #     "query": {
+    #         "match": {"sentence": processed_sentence}
+    #     },
+    #     "size": 10
+    # })
+
     for hit in res['hits']['hits']:
         school_id = hit['_source']['school_id']
         school_name = hit['_source']['school_name']
@@ -370,7 +381,95 @@ def search_sentence_elastic(sentence):
     return processed_sentence, sentence_results
 
 
-def calculate_dynamic_threshold(length, max_threshold=0.8, min_threshold=0.5):
+def search_vector_elastic(vector_sentence):
+    search_body = {
+        "size": 1,
+        "query": {
+            "script_score": {
+                "query": {
+                    "match_all": {}
+                },
+                "script": {
+                    "source": """
+                        cosineSimilarity(params.query_vector, 'vector') + 1.0
+                    """,
+                    "params": {
+                        "query_vector": vector_sentence
+                    }
+                }
+            }
+        }
+    }
+
+    res = es.search(index="plagiarism_vector", body=search_body)
+
+    result_info = {}
+    for hit in res['hits']['hits']:
+        score = hit['_score']
+        school_id = hit['_source']['school_id']
+        school_name = hit['_source']['school_name']
+        file_id = hit['_source']['file_id']
+        file_name = hit['_source']['file_name']
+        sentence = hit['_source']['sentence']
+        type = hit['_source']['type']
+        result_info = {
+            'school_id': school_id,
+            'school_name': school_name,
+            'file_id': file_id,
+            'file_name': file_name,
+            'sentence': sentence,
+            'score': score,
+            'type':type
+        }
+
+    return result_info
+
+def search_top10_vector_elastic(vector_sentence):
+    search_body = {
+        "size": 10,
+        "query": {
+            "script_score": {
+                "query": {
+                    "match_all": {}
+                },
+                "script": {
+                    "source": """
+                        cosineSimilarity(params.query_vector, 'vector') + 1.0
+                    """,
+                    "params": {
+                        "query_vector": vector_sentence
+                    }
+                }
+            }
+        }
+    }
+
+    res = es.search(index="plagiarism_vector", body=search_body)
+    sentence_results = [] 
+
+    for hit in res['hits']['hits']:
+        score = hit['_score']
+        school_id = hit['_source']['school_id']
+        school_name = hit['_source']['school_name']
+        file_id = hit['_source']['file_id']
+        file_name = hit['_source']['file_name']
+        sentence = hit['_source']['sentence']
+        type = hit['_source']['type']
+        result_info = {
+            'school_id': school_id,
+            'school_name': school_name,
+            'file_id': file_id,
+            'file_name': file_name,
+            'sentence': sentence,
+            'score': score,
+            'type':type
+        }
+        sentence_results.append(result_info)
+
+
+    return sentence_results
+
+def calculate_dynamic_threshold(length, max_threshold=0.8, min_threshold=0.6):
     if length < 10:
         return max_threshold
     elif length > 40:

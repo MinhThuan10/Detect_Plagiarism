@@ -13,36 +13,20 @@ with open('./test/Data/test.txt', 'r', encoding='utf-8') as file:
     # Tách thành các câu và xử lý
 sentences = text.split('\n')
 
-for i, sentence in enumerate(sentences):
+processed_sentences = [preprocess_text_vietnamese(sentence)[0] for sentence in sentences]
+
+vector_sentences = embedding_vietnamese(processed_sentences)
+
+for i, vector_sentence in enumerate(vector_sentences):
     
-    preprocessed_query, all_sentences = search_sentence_elastic(sentence)
-
-    preprocessed_references = [preprocess_text_vietnamese(ref['sentence'])[0] for ref in all_sentences]
-      
-    all_sentences = [preprocessed_query] + preprocessed_references
-    
-    # Tính toán embeddings cho tất cả các câu cùng một lúc
-    embeddings = embedding_vietnamese(all_sentences)
-
-    # Tách embedding của câu truy vấn và các câu tham chiếu
-    query_embedding = embeddings[0].reshape(1, -1)
-    reference_embeddings = embeddings[1:]
-
-
-
-    similarity_scores = calculate_similarity(query_embedding, reference_embeddings)
+    result_sentences = search_vector_elastic(vector_sentence)
 
     # Calculate dynamic threshold based on sentence length
-    query_length = len(preprocessed_query.split())
+    query_length = len(processed_sentences[i].split())
     dynamic_threshold = calculate_dynamic_threshold(query_length)
-    
-    max_similarity_idx = similarity_scores[0].argmax()
-    # Lấy giá trị similarity cao nhất
-    highest_score = similarity_scores[0][max_similarity_idx]
-    print(f"Score: {highest_score:.2f}, Threshold: {dynamic_threshold:.2f}")
-    # So sánh với dynamic_threshold
-    if highest_score >= dynamic_threshold:
-        best_match = all_sentences[max_similarity_idx]
+
+    if float(result_sentences['score']) - 1.0 >= dynamic_threshold:
+        best_match = result_sentences['sentence']
         plagiarized_count += 1
         print(f"Câu {i + 1}: Plagiarized content detected:")
         print(f"Reference:", best_match)

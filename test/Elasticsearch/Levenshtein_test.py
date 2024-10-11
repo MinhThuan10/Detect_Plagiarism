@@ -29,7 +29,7 @@ sentences = text.split('\n')
 
 for i, sentence in enumerate(sentences):
     preprocessed_query, all_sentences = search_sentence_elastic(sentence)
-    preprocessed_references = [preprocess_text_vietnamese(ref)[0] for ref in all_sentences]   
+    preprocessed_references = [preprocess_text_vietnamese(ref['sentence'])[0] for ref in all_sentences]   
    
     # Tính tỷ lệ Levenshtein distance giữa câu query và các câu tham chiếu
     levenshtein_scores = [levenshtein_ratio_and_distance(preprocessed_query, ref) for ref in preprocessed_references]

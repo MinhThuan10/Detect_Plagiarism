@@ -347,13 +347,16 @@ def index(file_id):
                                                 "references": {"$ne": "checked"}, 
                                                 "quotation_marks": {"$ne": "checked"}, 
                                                 "sources": {"$ne": None, "$ne": []}})
+        
         if sentences_data:
+
             page_count = file_data_checked.get('page_count')
             word_count = file_data_checked.get('word_count')
             percent   = file_data_checked.get('plagiarism')  
             source_file   = file_data_checked.get('source')  
             fillter_file   = file_data_checked.get('fillter')  
             minWordValue   = file_data_checked.get('fillter').get('min_word').get('minWordValue')
+            print('acb')
 
 
 
@@ -369,7 +372,6 @@ def index(file_id):
             school_source_on = {}
             school_exclusion_source = {}
             school_exclusion_text = {}
-
 
             # Top School
             for sentence in sentences_data:
@@ -396,23 +398,22 @@ def index(file_id):
                         best_match = best_source['best_match']
                         highlight = best_source['highlight']
 
-                        if type_source in type_sources:
-                            if school_id not in school_source_off:
-                                    school_source_off[school_id] = {
-                                        "school_name": school_name,
-                                        "word_count": 0,
-                                        "color": color,
-                                        "type_source":type_source,
-                                        "sentences": {}  
-                                    }
-                            school_source_off[school_id]['word_count'] += highlight.get('word_count_sml', 0)
-                            school_source_off[school_id]['sentences'][sentence_index] = {
-                                "page": page,
-                                "file_id": file_id,
-                                "best_match": best_match,
-                                "word_count_sml": highlight.get('word_count_sml', 0),
-                                "paragraphs": highlight.get('paragraphs'),
-                            }
+                        if school_id not in school_source_off:
+                                school_source_off[school_id] = {
+                                    "school_name": school_name,
+                                    "word_count": 0,
+                                    "color": color,
+                                    "type_source":type_source,
+                                    "sentences": {}  
+                                }
+                        school_source_off[school_id]['word_count'] += highlight.get('word_count_sml', 0)
+                        school_source_off[school_id]['sentences'][sentence_index] = {
+                            "page": page,
+                            "file_id": file_id,
+                            "best_match": best_match,
+                            "word_count_sml": highlight.get('word_count_sml', 0),
+                            "paragraphs": highlight.get('paragraphs'),
+                        }
                     
 
                         # ON
@@ -426,31 +427,26 @@ def index(file_id):
                             best_match = source['best_match']
                             highlight = source['highlight']
 
-                            if type_source in type_sources:
-                                if school_id not in school_source_on:
-                                    school_source_on[school_id] = {
-                                        "school_name": school_name,
-                                        "word_count": 0,
-                                        "color": color,
-                                        "type_source":type_source,
-                                        "sentences": {}  
-                                    }
-                                school_source_on[school_id]['word_count'] += highlight.get('word_count_sml', 0)
-                                school_source_on[school_id]['sentences'][sentence_index] = {
-                                    "page": page,
-                                    "file_id": file_id,
-                                    "best_match": best_match,
-                                    "word_count_sml": highlight.get('word_count_sml', 0),
-                                    "paragraphs": highlight.get('paragraphs'),
+                        
+                            if school_id not in school_source_on:
+                                school_source_on[school_id] = {
+                                    "school_name": school_name,
+                                    "word_count": 0,
+                                    "color": color,
+                                    "type_source":type_source,
+                                    "sentences": {}  
                                 }
+                            school_source_on[school_id]['word_count'] += highlight.get('word_count_sml', 0)
+                            school_source_on[school_id]['sentences'][sentence_index] = {
+                                "page": page,
+                                "file_id": file_id,
+                                "best_match": best_match,
+                                "word_count_sml": highlight.get('word_count_sml', 0),
+                                "paragraphs": highlight.get('paragraphs'),
+                            }
 
-                    # filtered_sources = [source for source in sources if (source['except'] == 'source' and source['type_source'] in type_sources)]
-                    filtered_sources = [
-                        source for source in sources 
-                        if (source['except'] == 'no' and 
-                            source['type_source'] in type_sources and 
-                            source.get('highlight', {}).get('word_count_sml', 0) >= int(minWordValue))
-                    ]
+                    filtered_sources = [source for source in sources if (source['except'] == 'source')]
+                    
                     if filtered_sources:
                         for source in filtered_sources:
                             school_id = source['school_id']
@@ -460,7 +456,7 @@ def index(file_id):
                                     "school_name": school_name,
                                 }
 
-                    filtered_text = [source for source in sources if (source['except'] == 'text' and source['type_source'] in type_sources)]
+                    filtered_text = [source for source in sources if (source['except'] == 'text')]
                     if filtered_text :
                         for source in filtered_text :
                             sentence_index = sentence.get('sentence_index', "")

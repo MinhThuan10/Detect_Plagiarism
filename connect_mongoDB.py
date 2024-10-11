@@ -24,18 +24,36 @@ def save_to_mongodb(processed_sentences, file_id, file_name, db_name, collection
     collection.insert_many(documents)
 
 
-def save_to_elasticsearch(ip_cluster, processed_sentences,school_id, school_name, file_id, file_name, index_name, type):
+# def save_to_elasticsearch(ip_cluster, processed_sentences,school_id, school_name, file_id, file_name, index_name, type):
+#     # Kết nối tới Elasticsearch
+#     es = Elasticsearch([ip_cluster])  # Chỉnh sửa theo cấu hình của bạn
+
+#     # Chuẩn bị dữ liệu để chèn vào Elasticsearch
+#     for i, sentence in enumerate(processed_sentences, start=1):
+#         document = {
+#             'school_id': school_id,
+#             'school_name': school_name,
+#             'file_id': file_id,
+#             'file_name': file_name,
+#             'sentence': sentence,
+#             'type': type
+#         }
+#         # Lưu tài liệu vào Elasticsearch
+#         es.index(index=index_name, document=document)
+
+def save_to_elasticsearch(ip_cluster, processed_sentences, vectors, school_id, school_name, file_id, file_name, index_name, type):
     # Kết nối tới Elasticsearch
-    es = Elasticsearch([ip_cluster])  # Chỉnh sửa theo cấu hình của bạn
+    es = Elasticsearch([ip_cluster], timeout=300)  # Chỉnh sửa theo cấu hình của bạn
 
     # Chuẩn bị dữ liệu để chèn vào Elasticsearch
-    for i, sentence in enumerate(processed_sentences, start=1):
+    for i, sentence in enumerate(processed_sentences):
         document = {
             'school_id': school_id,
             'school_name': school_name,
             'file_id': file_id,
             'file_name': file_name,
             'sentence': sentence,
+            'vector': vectors[i],
             'type': type
         }
         # Lưu tài liệu vào Elasticsearch

@@ -36,7 +36,7 @@ with open('./test/Data/test.txt', 'r', encoding='utf-8') as file:
 sentences = text.split('\n')
 for i, sentence in enumerate(sentences):
     preprocessed_query, all_sentences= search_sentence_elastic(sentence)
-    preprocessed_references = [preprocess_text_vietnamese(ref)[0] for ref in all_sentences]
+    preprocessed_references = [preprocess_text_vietnamese(ref['sentence'])[0] for ref in all_sentences]
 
     # Smith-Waterman calculations
     highest_score = 0

@@ -28,7 +28,7 @@ plagiarized_count = 0
 file_path = './test/Data/thuyettrinh.pdf'
 
 assignment_id = 1
-file_id = 2
+file_id = 3
 title = 'thuyettrinh'
 author = 'Thuan'
 
@@ -97,19 +97,22 @@ for page_num in range(pdf_document.page_count):
     text = page.get_text("text")
     sentences = split_sentences(text)
     sentences = remove_sentences(sentences)
-    print(sentences)
+
+    processed_sentences = [preprocess_text_vietnamese(sentence)[0] for sentence in sentences]
+
+    vector_sentences = embedding_vietnamese(processed_sentences)
 
     if "TÀI LIỆU THAM KHẢO" in sentences[0].upper():
         references = True
-    for sentence in sentences:
+
+    for i, sentence in enumerate(sentences):
         print(sentence)
         quotation_marks = check_type_setence(sentence)
         word_count += len(sentence.split())
         
         
-        preprocessed_query, sentence_results = search_sentence_elastic(sentence)
         sources = []
-        if preprocessed_query is None:
+        if processed_sentences[i] is None:
             print("Sentence Error")
             if references == False:
                 result = {
@@ -139,26 +142,21 @@ for page_num in range(pdf_document.page_count):
             
             continue
         
+        result_sentences = search_top10_vector_elastic(vector_sentences[i])
+        
         source_id = 0
-        if sentence_results:
+        if result_sentences:
             print("So sánh trong dữ liệu")
-            preprocessed_references = [preprocess_text_vietnamese(ref['sentence'])[0] for ref in sentence_results]
-            all_sentences = [preprocessed_query] + preprocessed_references
-
-            # Tính toán embeddings cho tất cả các câu cùng một lúc
-            embeddings = embedding_vietnamese(all_sentences)
-            query_embedding = embeddings[0].reshape(1, -1)
-            reference_embeddings = embeddings[1:]
-            similarity_scores = calculate_similarity(query_embedding, reference_embeddings)
-
-            query_length = len(preprocessed_query.split())
+            query_length = len(processed_sentences[i].split())
             dynamic_threshold = calculate_dynamic_threshold(query_length)
-            for idx, score in enumerate(similarity_scores[0]):
-                if score >= dynamic_threshold:
-                    school_name = sentence_results[idx]['school_name']
-                    file_id_source = sentence_results[idx]['file_name']
-                    best_match = sentence_results[idx]['sentence']
-                    type = sentence_results[idx]['type']
+            
+            for result_sentence in result_sentences:
+                if float(result_sentence['score']) - 1.0 >= dynamic_threshold:
+                    school_name = result_sentence['school_name']
+                    file_id_source = result_sentence['file_name']
+                    best_match = result_sentence['sentence']
+                    type = result_sentence['type']
+                    score = float(result_sentence['score']) - 1.0
                     
                     if school_name in school_cache:
                         school_id = school_cache[school_name]
@@ -212,7 +210,7 @@ for page_num in range(pdf_document.page_count):
 
         
 
-        result = search_google(preprocessed_query)
+        result = search_google(processed_sentences[i])
         items = result.get('items', [])
         all_snippets = [item.get('snippet', '') for item in items if item.get('snippet', '')]
         

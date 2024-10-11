@@ -74,7 +74,7 @@ def retrieve_pdf_view_all(file_id):
     return None
 def get_best_sources(file_id, type_source):
     all_documents = collection_sentences.find({
-        "file_id": file_id, 
+        "file_id": int(file_id), 
         "references": {"$ne": "checked"}, 
         "quotation_marks": {"$ne": "checked"}, 
         "sources": {"$ne": None, "$ne": []}
@@ -113,7 +113,7 @@ def get_best_sources(file_id, type_source):
 def get_sources(file_id, type_source):
 
     all_documents = collection_sentences.find({
-        "file_id": file_id, 
+        "file_id": int(file_id), 
         "references": {"$ne": "checked"}, 
         "quotation_marks": {"$ne": "checked"}, 
         "sources": {"$ne": None, "$ne": []}
