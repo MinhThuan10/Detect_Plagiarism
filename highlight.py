@@ -80,6 +80,9 @@ def get_best_sources(file_id, type_source):
         "sources": {"$ne": None, "$ne": []}
     })
 
+    minWordValue = collection_files.find_one({"file_id": int(file_id), "type": 'checked'}).get('fillter', {}).get('min_word', {}).get('minWordValue', 0)
+
+
     best_sources_list = []
 
     for doc in all_documents:
@@ -87,7 +90,7 @@ def get_best_sources(file_id, type_source):
 
         filtered_sources = []
 
-        filtered_sources = [source for source in sources if source['except'] == 'no' and source['type_source'] in type_source]
+        filtered_sources = [source for source in sources if source['except'] == 'no' and source['type_source'] in type_source and int(source['highlight']['word_count_sml']) >= int(minWordValue)]
 
         if filtered_sources:
             best_source = max(filtered_sources, key=lambda x: x['score'])
@@ -111,6 +114,7 @@ def get_best_sources(file_id, type_source):
     return best_sources_list
 
 def get_sources(file_id, type_source):
+    minWordValue = collection_files.find_one({"file_id": int(file_id), "type": 'checked'}).get('fillter', {}).get('min_word', {}).get('minWordValue', 0)
 
     all_documents = collection_sentences.find({
         "file_id": int(file_id), 
@@ -125,7 +129,8 @@ def get_sources(file_id, type_source):
         sources = doc.get('sources', [])
         sources_dict = {}  # To track the highest score per school_id in the current doc
 
-        filtered_sources = [source for source in sources if source['except'] == 'no' and source['type_source'] in type_source]
+        
+        filtered_sources = [source for source in sources if source['except'] == 'no' and source['type_source'] in type_source and int(source['highlight']['word_count_sml']) >= int(minWordValue)]
         for source in filtered_sources:
             school_id = source['school_id']
             score = source['score']
