@@ -85,6 +85,11 @@ def should_merge(pos1, pos2):
 
 pdf_document = fitz.open(file_path)
 doc = pymupdf.open(file_path)
+
+page = pdf_document[2]
+text = page.get_text("text")
+print(text)
+
 current_school_id = 0
 school_cache = {}
 sentences_cache = {}
@@ -92,6 +97,8 @@ word_count = 0
 word_count_similarity = 0
 sentence_index = 0
 references = False
+
+
 for page_num in range(pdf_document.page_count):
     page = pdf_document[page_num]
     text = page.get_text("text")

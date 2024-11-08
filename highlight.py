@@ -79,8 +79,15 @@ def get_best_sources(file_id, type_source):
         "quotation_marks": {"$ne": "checked"}, 
         "sources": {"$ne": None, "$ne": []}
     })
+    minWordValue = 0
+    
+    file_doc = collection_files.find_one({"file_id": int(file_id), "type": 'checked'})
 
-    minWordValue = collection_files.find_one({"file_id": int(file_id), "type": 'checked'}).get('fillter', {}).get('min_word', {}).get('minWordValue', 0)
+    # Lấy minWordValue với giá trị mặc định là 3
+    if file_doc and 'fillter' in file_doc:
+        minWordValue = file_doc['fillter'].get('min_word', {}).get('minWordValue', 0)
+    else:
+        minWordValue = 3
 
 
     best_sources_list = []

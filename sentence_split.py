@@ -115,8 +115,59 @@ def split_snippet(text):
     return combined_sentences
 
 
+# def remove_sentences(sentences):
+#     return [sentence for sentence in sentences if(len(sentence.split()) > 2 and len(sentence.split()) < 60)]
+
+# def remove_snippet_parts(sentences):
+#     return [sentence for sentence in sentences if(len(sentence.split()) > 1 and len(sentence.split()) < 60)]
+
+
+from transformers import RobertaTokenizer
+
+# Khởi tạo tokenizer
+tokenizer = RobertaTokenizer.from_pretrained('roberta-base')
+
 def remove_sentences(sentences):
-    return [sentence for sentence in sentences if(len(sentence.split()) > 2 and len(sentence.split()) < 100)]
+    """
+    Loại bỏ các câu có số lượng tokens vượt quá max_tokens.
+
+    Args:
+        sentences (list): Danh sách các câu cần kiểm tra.
+        tokenizer (PreTrainedTokenizer): Tokenizer tương ứng với mô hình Transformer.
+        max_tokens (int): Số lượng tokens tối đa cho phép. Mặc định là 512.
+
+    Returns:
+        list: Danh sách các câu sau khi lọc.
+    """
+    filtered_sentences = []
+    for sentence in sentences:
+        # Đếm số lượng tokens trong câu
+        token_count = len(tokenizer.tokenize(sentence))
+        # Kiểm tra điều kiện: số tokens <= 512
+        if token_count < 512:
+            filtered_sentences.append(sentence)
+    return filtered_sentences
+
+
 
 def remove_snippet_parts(sentences):
-    return [sentence for sentence in sentences if(len(sentence.split()) > 1 and len(sentence.split()) < 100)]
+    """
+    Loại bỏ các câu có số lượng tokens vượt quá max_tokens.
+
+    Args:
+        sentences (list): Danh sách các câu cần kiểm tra.
+        tokenizer (PreTrainedTokenizer): Tokenizer tương ứng với mô hình Transformer.
+        max_tokens (int): Số lượng tokens tối đa cho phép. Mặc định là 512.
+
+    Returns:
+        list: Danh sách các câu sau khi lọc.
+    """
+    filtered_sentences = []
+    for sentence in sentences:
+        # Đếm số lượng tokens trong câu
+        token_count = len(tokenizer.tokenize(sentence))
+        # Kiểm tra điều kiện: số tokens <= 512
+        if token_count < 512:
+            filtered_sentences.append(sentence)
+    return filtered_sentences
+

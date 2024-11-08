@@ -25,10 +25,10 @@ collection_files = db['files']
 # Start the timer
 start_time = time.time()
 plagiarized_count = 0
-file_path = './test/Data/thuyettrinh.pdf'
+file_path = './Data/SKL007861.pdf'
 
 assignment_id = 1
-file_id = 2
+file_id = 5
 title = 'thuyettrinh'
 author = 'Thuan'
 
@@ -212,121 +212,121 @@ for page_num in range(pdf_document.page_count):
 
         
 
-        result = search_google(preprocessed_query)
-        items = result.get('items', [])
-        all_snippets = [item.get('snippet', '') for item in items if item.get('snippet', '')]
+        # result = search_google(preprocessed_query)
+        # items = result.get('items', [])
+        # all_snippets = [item.get('snippet', '') for item in items if item.get('snippet', '')]
         
-        if not all_snippets:
-            print("No on Internet")
-            if references == False:
-                result = {
-                    "file_id": file_id,
-                    "title": title,
-                    "page": page_num,
-                    "sentence_index": sentence_index,
-                    "sentence": sentence,
-                    "references": "no",
-                    "quotation_marks": quotation_marks,
-                    "sources": []
-                }
-                collection_sentences.insert_one(result)
-            else:
-                result = {
-                    "file_id": file_id,
-                    "title": title,
-                    "page": page_num,
-                    "sentence_index": sentence_index,
-                    "sentence": sentence,
-                    "references": "yes",
-                    "quotation_marks": quotation_marks,
-                    "sources": []
-                }
-                collection_sentences.insert_one(result)
-            sentence_index = sentence_index + 1
-            continue
+        # if not all_snippets:
+        #     print("No on Internet")
+        #     if references == False:
+        #         result = {
+        #             "file_id": file_id,
+        #             "title": title,
+        #             "page": page_num,
+        #             "sentence_index": sentence_index,
+        #             "sentence": sentence,
+        #             "references": "no",
+        #             "quotation_marks": quotation_marks,
+        #             "sources": []
+        #         }
+        #         collection_sentences.insert_one(result)
+        #     else:
+        #         result = {
+        #             "file_id": file_id,
+        #             "title": title,
+        #             "page": page_num,
+        #             "sentence_index": sentence_index,
+        #             "sentence": sentence,
+        #             "references": "yes",
+        #             "quotation_marks": quotation_marks,
+        #             "sources": []
+        #         }
+        #         collection_sentences.insert_one(result)
+        #     sentence_index = sentence_index + 1
+        #     continue
 
-        top_similarities = compare_sentences(sentence, all_snippets)
-        for _, idx in top_similarities:
-            url = items[idx].get('link')
-            print(url)
-            snippet = all_snippets[idx]
-            # Tìm trong cache trước khi tải nội dung
-            sentences = sentences_cache.get(url)
+        # top_similarities = compare_sentences(sentence, all_snippets)
+        # for _, idx in top_similarities:
+        #     url = items[idx].get('link')
+        #     print(url)
+        #     snippet = all_snippets[idx]
+        #     # Tìm trong cache trước khi tải nội dung
+        #     sentences = sentences_cache.get(url)
                 
-            if sentences is None:
-                content = fetch_url(url)
-                sentences_from_webpage = split_sentences(content)
-                sentences = remove_sentences(sentences_from_webpage)
-                sentences_cache[url] = sentences
+        #     if sentences is None:
+        #         content = fetch_url(url)
+        #         sentences_from_webpage = split_sentences(content)
+        #         sentences = remove_sentences(sentences_from_webpage)
+        #         sentences_cache[url] = sentences
 
-            if sentences:             
-                snippet_parts = split_snippet(snippet)
-                # snippet_parts = remove_snippet_parts(snippet_parts)
-                # Lọc các câu chứa ít nhất một phần của snippet
-                relevant_sentences = [s for s in sentences if check_snippet_in_sentence(s, snippet_parts)]
-                if relevant_sentences:
-                    similarity_sentence, match_sentence, _ = compare_with_sentences(sentence, relevant_sentences)
-                    if similarity_sentence > dynamic_threshold:
-                        parsed_url = urlparse(url)
-                        # Lấy tên miền chính
-                        domain = parsed_url.netloc.replace('www.', '')
-                        school_name = domain
-                        # Logic gán school_id
-                        if school_name in school_cache:
-                            school_id = school_cache[school_name]
-                        else:
-                            school_id = current_school_id
-                            school_cache[school_name] = school_id
-                            current_school_id += 1
+        #     if sentences:             
+        #         snippet_parts = split_snippet(snippet)
+        #         # snippet_parts = remove_snippet_parts(snippet_parts)
+        #         # Lọc các câu chứa ít nhất một phần của snippet
+        #         relevant_sentences = [s for s in sentences if check_snippet_in_sentence(s, snippet_parts)]
+        #         if relevant_sentences:
+        #             similarity_sentence, match_sentence, _ = compare_with_sentences(sentence, relevant_sentences)
+        #             if similarity_sentence > dynamic_threshold:
+        #                 parsed_url = urlparse(url)
+        #                 # Lấy tên miền chính
+        #                 domain = parsed_url.netloc.replace('www.', '')
+        #                 school_name = domain
+        #                 # Logic gán school_id
+        #                 if school_name in school_cache:
+        #                     school_id = school_cache[school_name]
+        #                 else:
+        #                     school_id = current_school_id
+        #                     school_cache[school_name] = school_id
+        #                     current_school_id += 1
 
-                        file_id_source = url
-                        file_name = items[idx].get('title')
-                        best_match = match_sentence
+        #                 file_id_source = url
+        #                 file_name = items[idx].get('title')
+        #                 best_match = match_sentence
 
-                        positions = []
-                        word_count_sml, paragraphs_best_math, paragraphs = common_ordered_words(best_match, sentence)
+        #                 positions = []
+        #                 word_count_sml, paragraphs_best_math, paragraphs = common_ordered_words(best_match, sentence)
                         
-                        if word_count_sml > 3:
-                            quads_sentence = page.search_for(sentence, quads=True)
+        #                 if word_count_sml > 3:
+        #                     quads_sentence = page.search_for(sentence, quads=True)
                             
-                            for paragraph in paragraphs:
-                                quads_token = page.search_for(paragraph, quads=True)
-                                for qua_s in quads_sentence:
-                                    for qua_t in quads_token:
-                                        if is_within(qua_t, qua_s) == True:
-                                            new_position = {
-                                            "x_0" : qua_t[0].x,
-                                            "y_0" : qua_t[0].y,
-                                            "x_1" : qua_t[-1].x,
-                                            "y_1" : qua_t[-1].y,
-                                            }                                    
-                                            if positions:
-                                                merged = is_position(new_position, positions)
-                                                if not merged:
-                                                    positions.append(new_position) 
-                                            else:
-                                                positions.append(new_position) 
+        #                     for paragraph in paragraphs:
+        #                         quads_token = page.search_for(paragraph, quads=True)
+        #                         for qua_s in quads_sentence:
+        #                             for qua_t in quads_token:
+        #                                 if is_within(qua_t, qua_s) == True:
+        #                                     new_position = {
+        #                                     "x_0" : qua_t[0].x,
+        #                                     "y_0" : qua_t[0].y,
+        #                                     "x_1" : qua_t[-1].x,
+        #                                     "y_1" : qua_t[-1].y,
+        #                                     }                                    
+        #                                     if positions:
+        #                                         merged = is_position(new_position, positions)
+        #                                         if not merged:
+        #                                             positions.append(new_position) 
+        #                                     else:
+        #                                         positions.append(new_position) 
 
                                         
-                            best_match = wrap_paragraphs_with_color(paragraphs_best_math, best_match, school_id)
-                            sources.append({
-                                "source_id": source_id,
-                                "school_id": school_id,
-                                "school_name": domain,
-                                "file_id": file_id_source,
-                                "type_source": "Internet",
-                                "except": 'no',
-                                "color": color_hex[school_id],
-                                "school_stt": 0,
-                                "best_match": best_match,
-                                "score": float(similarity_sentence),
-                                "highlight": {
-                                    "word_count_sml": word_count_sml,
-                                    "paragraphs": paragraphs_best_math,
-                                    "position": positions
-                                }
-                            })
-                            source_id = source_id +1
+        #                     best_match = wrap_paragraphs_with_color(paragraphs_best_math, best_match, school_id)
+        #                     sources.append({
+        #                         "source_id": source_id,
+        #                         "school_id": school_id,
+        #                         "school_name": domain,
+        #                         "file_id": file_id_source,
+        #                         "type_source": "Internet",
+        #                         "except": 'no',
+        #                         "color": color_hex[school_id],
+        #                         "school_stt": 0,
+        #                         "best_match": best_match,
+        #                         "score": float(similarity_sentence),
+        #                         "highlight": {
+        #                             "word_count_sml": word_count_sml,
+        #                             "paragraphs": paragraphs_best_math,
+        #                             "position": positions
+        #                         }
+        #                     })
+        #                     source_id = source_id +1
 
         if sources:
             if references == False:
