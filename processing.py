@@ -175,7 +175,7 @@ device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 model = SentenceTransformer('dangvantuan/vietnamese-embedding', device = device)
 
 def embedding_vietnamese(text):
-    embedding = model.encode(text)
+    embedding = model.encode(text, normalize_embeddings=True)
     return embedding
 
 def preprocess_text_vietnamese(text):

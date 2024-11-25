@@ -1,5 +1,7 @@
 import fitz
 import re
+from langdetect import detect
+from processing import *
 
 def extract_pdf_text(pdf_path, output_file_path):
     doc = fitz.open(pdf_path)
@@ -19,58 +21,81 @@ def extract_pdf_text(pdf_path, output_file_path):
     
     return text, total_pages, total_words
 
-def combine_lines_and_split_sentences(text, output_file_path):
-    processed_text = []
-    combined_sentences = []
-    # Bao gồm tất cả các ký tự thường trong tiếng Việt
-    vietnamese_lowercase = 'aáàảãạăắằẳẵặâấầẩẫậbcdđeéèẻẽẹêếềểễệfghiíìỉĩịjklmnoóòỏõọôốồổỗộơớờởỡợpqrstuúùủũụưứừửữựvxyýỳỷỹỵ'
+def is_vietnamese(text):
+    try:
+        # Phát hiện ngôn ngữ của văn bản
+        return detect(text) == 'vi'
+    except:
+        # Nếu có lỗi (ví dụ: văn bản quá ngắn), trả về False
+        return False
     
-    # Thay thế '\n' theo điều kiện: Nếu có ký tự '\n' và sau đó là chữ thường tiếng Việt
-    text = re.sub(r'\n+', '\n', text)
-    text = re.sub(rf'\n(?=[{vietnamese_lowercase}])', ' ', text)
-    text = re.sub(r'[^\w\s.,;?:]', ' ', text)
-    text = re.sub(r'\.{2,}', '.', text)
-    text = re.sub(r'\ {2,}', ' ', text)
-    text = text.replace('. ', '.\n')
-    processed_text.append((text))
-         
-    lines = text.split('\n')
-    for line in lines:
-        sentences = re.split(r'[.?!]\s+', line)
-        for sentence in sentences:
-            sentence = sentence.strip()
-            if sentence:
-                combined_sentences.append((sentence))
+
+def combine_lines_and_split_sentences(text, output_file_path):
+    vietnamese_lowercase = 'aáàảãạăắằẳẵặâấầẩẫậbcdđeéèẻẽẹêếềểễệfghiíìỉĩịjklmnoóòỏõọôốồổỗộơớờởỡợpqrstuúùủũụưứừửữựvxyýỳỷỹỵ'
+    text = re.sub(rf'\n(?=[{vietnamese_lowercase}])', '', text)
+
+    text = text.replace(' \n', '. ')
+    text = text.replace('\n', ' ')
+    text = re.sub(r'[ ]{2,}', ' ', text)
+    text = text.replace(' .', '.')
+
+    abbreviations = ['TS.', 'Ths.', 'THS.',  'TP.', 'Dr.', 'PhD.', 'BS.', ' Th.', 'S.']
+    for abbr in abbreviations:
+        text = text.replace(abbr, abbr.replace('.', '__DOT__'))
+
+    sentences = re.split(r'[.!?]', text)
+    sentences = [s.replace('__DOT__', '.') for s in sentences]
+    sentences = [s.strip() for s in sentences if s.strip()]
 
     with open(output_file_path, 'w', encoding='utf-8') as file:
-        for i, sentence in enumerate(combined_sentences, start=1):
+        for i, sentence in enumerate(sentences, start=1):
             file.write(f"Câu {i}: {sentence}\n")
-    return combined_sentences
+    return sentences
 
 def remove_single_word_sentences(sentences, output_file_path):
-    sentences =  [sentence for sentence in sentences if(len(sentence.split()) > 3 and len(sentence.split()) < 100)]
+    filtered_sentences = []
+    for sentence in sentences:
+        # Đếm số lượng tokens trong câu
+        o = model.tokenizer(sentence, return_attention_mask=False, return_token_type_ids=False)
+        if len(o.input_ids) > 256:
+            sentence_minis = re.split(r'[,:-]\s*', sentence)
+            for sentence_mini in sentence_minis:
+                sentence_mini = sentence_mini.strip()
+                if sentence_mini:
+                    o_mini = model.tokenizer(sentence, return_attention_mask=False, return_token_type_ids=False)
+                    if len(o_mini.input_ids) > 256:
+                        print(sentence_mini)
+                        print(len(o_mini.input_ids))
+                    if len(o_mini.input_ids) < 256 and len(o_mini.input_ids) > 10:
+                        filtered_sentences.append(sentence_mini)
+        if len(o.input_ids) < 256 and len(o.input_ids) > 10:
+            filtered_sentences.append(sentence)
+
     with open(output_file_path, 'w', encoding='utf-8') as file:
-            for i, sentence in enumerate(sentences, start=1):
-                file.write(f"Câu {i}: {sentence}\n")
-    return sentences
+        for i, sentence in enumerate(filtered_sentences, start=1):
+            file.write(f"Câu {i}: {sentence}\n")
+    return filtered_sentences
+
 
 
 def split_sentences(text):
-    combined_sentences = []
     vietnamese_lowercase = 'aáàảãạăắằẳẵặâấầẩẫậbcdđeéèẻẽẹêếềểễệfghiíìỉĩịjklmnoóòỏõọôốồổỗộơớờởỡợpqrstuúùủũụưứừửữựvxyýỳỷỹỵ'
     text = re.sub(rf'\n(?=[{vietnamese_lowercase}])', '', text)
-    text = text.replace('. ', '.\n')
-    
-    lines = text.split('\n')
-    for line in lines:
-        sentences = re.split(r'[.?!]\s+', line)
-        for sentence in sentences:
-            sentence = sentence.strip()
-            sentences = [s.strip() for s in sentences if s.strip()]
-            if sentence:
-                combined_sentences.append(sentence)
 
-    return combined_sentences
+    text = text.replace(' \n', '. ')
+    text = text.replace('\n', ' ')
+    text = re.sub(r'[ ]{2,}', ' ', text)
+    text = text.replace(' .', '.')
+
+    abbreviations = ['TS.', 'TP.', 'Dr.', 'PhD.', 'MSc.', 'MBA.', 'BS.', 'Prof.']
+    for abbr in abbreviations:
+        text = text.replace(abbr, abbr.replace('.', '__DOT__'))
+
+    sentences = re.split(r'[.!?]', text)
+    sentences = [s.replace('__DOT__', '.') for s in sentences]
+    sentences = [s.strip() for s in sentences if s.strip()]
+
+    return sentences
 
 def extract_phrases(sentence, n=3):
     # Tách câu thành các từ
@@ -115,59 +140,25 @@ def split_snippet(text):
     return combined_sentences
 
 
-# def remove_sentences(sentences):
-#     return [sentence for sentence in sentences if(len(sentence.split()) > 2 and len(sentence.split()) < 60)]
-
-# def remove_snippet_parts(sentences):
-#     return [sentence for sentence in sentences if(len(sentence.split()) > 1 and len(sentence.split()) < 60)]
-
-
-from transformers import RobertaTokenizer
-
-# Khởi tạo tokenizer
-tokenizer = RobertaTokenizer.from_pretrained('roberta-base')
 
 def remove_sentences(sentences):
-    """
-    Loại bỏ các câu có số lượng tokens vượt quá max_tokens.
-
-    Args:
-        sentences (list): Danh sách các câu cần kiểm tra.
-        tokenizer (PreTrainedTokenizer): Tokenizer tương ứng với mô hình Transformer.
-        max_tokens (int): Số lượng tokens tối đa cho phép. Mặc định là 512.
-
-    Returns:
-        list: Danh sách các câu sau khi lọc.
-    """
     filtered_sentences = []
     for sentence in sentences:
         # Đếm số lượng tokens trong câu
-        token_count = len(tokenizer.tokenize(sentence))
-        # Kiểm tra điều kiện: số tokens <= 512
-        if token_count < 512:
+        o = model.tokenizer(sentence, return_attention_mask=False, return_token_type_ids=False)
+        if len(o.input_ids) > 256:
+            sentence_minis = re.split(r'[,:-]\s*', sentence)
+            for sentence_mini in sentence_minis:
+                sentence_mini = sentence_mini.strip()
+                if sentence_mini:
+                    o_mini = model.tokenizer(sentence, return_attention_mask=False, return_token_type_ids=False)
+                    if len(o_mini.input_ids) > 256:
+                        print(sentence_mini)
+                        print(len(o_mini.input_ids))
+                    if len(o_mini.input_ids) < 256 and len(o_mini.input_ids) > 10:
+                        filtered_sentences.append(sentence_mini)
+        if len(o.input_ids) < 256 and len(o.input_ids) > 10:
             filtered_sentences.append(sentence)
     return filtered_sentences
 
-
-
-def remove_snippet_parts(sentences):
-    """
-    Loại bỏ các câu có số lượng tokens vượt quá max_tokens.
-
-    Args:
-        sentences (list): Danh sách các câu cần kiểm tra.
-        tokenizer (PreTrainedTokenizer): Tokenizer tương ứng với mô hình Transformer.
-        max_tokens (int): Số lượng tokens tối đa cho phép. Mặc định là 512.
-
-    Returns:
-        list: Danh sách các câu sau khi lọc.
-    """
-    filtered_sentences = []
-    for sentence in sentences:
-        # Đếm số lượng tokens trong câu
-        token_count = len(tokenizer.tokenize(sentence))
-        # Kiểm tra điều kiện: số tokens <= 512
-        if token_count < 512:
-            filtered_sentences.append(sentence)
-    return filtered_sentences
 

@@ -41,20 +41,28 @@ def save_to_mongodb(processed_sentences, file_id, file_name, db_name, collection
 #         # Lưu tài liệu vào Elasticsearch
 #         es.index(index=index_name, document=document)
 
-def save_to_elasticsearch(ip_cluster, processed_sentences, vectors, school_id, school_name, file_id, file_name, index_name, type):
-    # Kết nối tới Elasticsearch
-    es = Elasticsearch([ip_cluster], timeout=300)  # Chỉnh sửa theo cấu hình của bạn
+from elasticsearch.helpers import bulk
 
+def save_to_elasticsearch(es, processed_sentences, vectors, school_id, school_name, file_id, file_name, index_name, type):
+
+    bulk_data = []
     # Chuẩn bị dữ liệu để chèn vào Elasticsearch
     for i, sentence in enumerate(processed_sentences):
         document = {
-            'school_id': school_id,
-            'school_name': school_name,
-            'file_id': file_id,
-            'file_name': file_name,
-            'sentence': sentence,
-            'vector': vectors[i],
-            'type': type
+            '_index': index_name,  # Specify the index name here
+            '_source': {  # Document data goes under _source
+                'school_id': school_id,
+                'school_name': school_name,
+                'file_id': file_id,
+                'file_name': file_name,
+                'sentence': sentence,
+                'vector': vectors[i],
+                'type': type
+            }
         }
+
+        bulk_data.append(document)
+
         # Lưu tài liệu vào Elasticsearch
-        es.index(index=index_name, document=document)
+        # es.index(index=index_name, document=document)
+    bulk(es, bulk_data)
