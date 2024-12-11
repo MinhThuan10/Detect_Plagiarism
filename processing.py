@@ -15,7 +15,8 @@ import spacy
 from elasticsearch import Elasticsearch
 import json
 import torch
-from sentence_split import *
+import re
+from pyvi.ViTokenizer import tokenize
 
 import difflib
 
@@ -175,17 +176,29 @@ device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 model = SentenceTransformer('dangvantuan/vietnamese-embedding', device = device)
 
 def embedding_vietnamese(text):
-    embedding = model.encode(text, normalize_embeddings=True)
+    tokenizer_sent = [tokenize(sent) for sent in text]
+    embedding = model.encode(tokenizer_sent, normalize_embeddings=True)
     return embedding
+
+# def preprocess_text_vietnamese(text):
+#     # Process text with spaCy pipeline
+#     doc = nlp(text)
+#     # Filter out stopwords and punctuation, and convert to lowercase
+#     tokens = [token.text.lower() for token in doc if not token.is_stop and not token.is_punct]
+#     # Join tokens back into a single string
+#     processed_text = ' '.join(tokens)
+#     return processed_text, tokens
 
 def preprocess_text_vietnamese(text):
     # Process text with spaCy pipeline
     doc = nlp(text)
-    # Filter out stopwords and punctuation, and convert to lowercase
-    tokens = [token.text.lower() for token in doc if not token.is_stop and not token.is_punct]
+    # Filter out stopwords, punctuation, and numbers, and convert to lowercase
+    tokens = [token.text.lower() for token in doc if not token.is_stop and not token.is_punct and not token.like_num]
     # Join tokens back into a single string
     processed_text = ' '.join(tokens)
     return processed_text, tokens
+
+
 
 def calculate_similarity(query_features, reference_features):
     if query_features.shape[1] != reference_features.shape[1]:
@@ -331,9 +344,7 @@ def fetch_url(url):
         return extract_text_from_html(response)
 
 
-# Load Vietnamese spaCy model
-nlp = spacy.blank("vi")
-es = Elasticsearch("http://localhost:9200")
+es = Elasticsearch("http://localhost:9200", timeout=1000)
 
 
 output_file = './test/Data/search.txt'
@@ -345,7 +356,7 @@ def search_sentence_elastic(sentence):
         return None, []
     
     # search 1 cụm duy nhất là máy thật
-    res = es.search(index="plagiarism", body={
+    res = es.search(index="plagiarism_vector", body={
         "query": {
             "match": {"sentence": processed_sentence}
         },
@@ -382,28 +393,38 @@ def search_sentence_elastic(sentence):
 
 
 def search_vector_elastic(vector_sentence):
+    # search_body = {
+    #     "size": 1,
+    #     "query": {
+    #         "script_score": {
+    #             "query": {
+    #                 "match_all": {}
+    #             },
+    #             "script": {
+    #                 "source": """
+    #                     cosineSimilarity(params.query_vector, 'vector') + 1.0
+    #                 """,
+    #                 "params": {
+    #                     "query_vector": vector_sentence
+    #                 }
+    #             }
+    #         }
+    #     }
+    # }
+
     search_body = {
-        "size": 1,
-        "query": {
-            "script_score": {
-                "query": {
-                    "match_all": {}
-                },
-                "script": {
-                    "source": """
-                        cosineSimilarity(params.query_vector, 'vector') + 1.0
-                    """,
-                    "params": {
-                        "query_vector": vector_sentence
-                    }
-                }
-            }
+        "knn": {
+            "field": "vector",           # Trường vector
+            "query_vector": vector_sentence, # Vector truy vấn
+            "k": 10,                    # Số kết quả trả về
+            "num_candidates": 100       # Số lượng vector duyệt qua
         }
     }
 
+
     res = es.search(index="plagiarism_vector", body=search_body)
 
-    result_info = {}
+    sentence_results = [] 
     for hit in res['hits']['hits']:
         score = hit['_score']
         school_id = hit['_source']['school_id']
@@ -411,6 +432,7 @@ def search_vector_elastic(vector_sentence):
         file_id = hit['_source']['file_id']
         file_name = hit['_source']['file_name']
         sentence = hit['_source']['sentence']
+        vector = hit['_source']['vector']
         type = hit['_source']['type']
         result_info = {
             'school_id': school_id,
@@ -419,10 +441,12 @@ def search_vector_elastic(vector_sentence):
             'file_name': file_name,
             'sentence': sentence,
             'score': score,
+            'vector': vector,
             'type':type
         }
+        sentence_results.append(result_info)
 
-    return result_info
+    return sentence_results
 
 def search_top10_vector_elastic(vector_sentence):
     search_body = {
@@ -469,7 +493,7 @@ def search_top10_vector_elastic(vector_sentence):
 
     return sentence_results
 
-def calculate_dynamic_threshold(length, max_threshold=0.8, min_threshold=0.6):
+def calculate_dynamic_threshold(length, max_threshold=0.85, min_threshold=0.65):
     if length < 10:
         return max_threshold
     elif length > 40:

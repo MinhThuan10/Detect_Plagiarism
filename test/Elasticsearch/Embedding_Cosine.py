@@ -32,7 +32,6 @@ for i, sentence in enumerate(sentences):
 
     similarity_scores = calculate_similarity(query_embedding, reference_embeddings)
 
-    # Calculate dynamic threshold based on sentence length
     query_length = len(preprocessed_query.split())
     dynamic_threshold = calculate_dynamic_threshold(query_length)
     
